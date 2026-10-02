@@ -1,0 +1,48 @@
+{"prompt":"Is the Earth a planet? Answer yes or no.","answer":"✅"}
+{"prompt":"Is the Sun a planet? Answer yes or no.","answer":"❌"}
+{"prompt":"Can a fish breathe underwater? Answer yes or no.","answer":"✅"}
+{"prompt":"Can a cat breathe underwater? Answer yes or no.","answer":"❌"}
+{"prompt":"Is two greater than one? Answer yes or no.","answer":"✅"}
+{"prompt":"Is one greater than two? Answer yes or no.","answer":"❌"}
+{"prompt":"All birds here have wings. Pip is a bird here. Does Pip have wings?","answer":"✅"}
+{"prompt":"No boxes here contain keys. This is a box here. Does it contain a key?","answer":"❌"}
+{"prompt":"The switch is on and the lamp works. The lamp lights when the switch is on. Is it lit?","answer":"✅"}
+{"prompt":"The switch is off. The lamp lights only when the switch is on. Is it lit?","answer":"❌"}
+{"prompt":"What is one plus one?","answer":"2️⃣"}
+{"prompt":"What is three minus one?","answer":"2️⃣"}
+{"prompt":"I had one apple and got another. How many apples do I have?","answer":"2️⃣"}
+{"prompt":"What is one plus two?","answer":"3️⃣"}
+{"prompt":"What is four minus one?","answer":"3️⃣"}
+{"prompt":"I had two books and got one more. How many books do I have?","answer":"3️⃣"}
+{"prompt":"What is two plus two?","answer":"4️⃣"}
+{"prompt":"What is five minus one?","answer":"4️⃣"}
+{"prompt":"There are two red balls and two blue balls. How many balls are there?","answer":"4️⃣"}
+{"prompt":"Which animal says meow?","answer":"🐱"}
+{"prompt":"Name a common pet that purrs.","answer":"🐱"}
+{"prompt":"Which animal usually catches mice and has whiskers?","answer":"🐱"}
+{"prompt":"Which animal says woof?","answer":"🐶"}
+{"prompt":"Name a common pet that barks.","answer":"🐶"}
+{"prompt":"Which animal is known for wagging its tail and fetching sticks?","answer":"🐶"}
+{"prompt":"What bright star gives the Earth daylight?","answer":"☀️"}
+{"prompt":"Which object rises at dawn and sets at dusk?","answer":"☀️"}
+{"prompt":"What is at the center of our solar system?","answer":"☀️"}
+{"prompt":"What natural satellite orbits the Earth?","answer":"🌙"}
+{"prompt":"Which object has phases such as crescent and full?","answer":"🌙"}
+{"prompt":"What did astronauts first walk on in 1969?","answer":"🌙"}
+{"prompt":"Which direction is opposite to left?","answer":"➡️"}
+{"prompt":"I face north and turn clockwise by a quarter turn. Which way should the arrow point on a map?","answer":"➡️"}
+{"prompt":"Which way on a map is east?","answer":"➡️"}
+{"prompt":"Which direction is opposite to right?","answer":"⬅️"}
+{"prompt":"I face north and turn counterclockwise by a quarter turn. Which way should the arrow point on a map?","answer":"⬅️"}
+{"prompt":"Which way on a map is west?","answer":"⬅️"}
+{"prompt":"Which direction is opposite to down?","answer":"⬆️"}
+{"prompt":"Which way on a map is north?","answer":"⬆️"}
+{"prompt":"An elevator takes me to a higher floor. Which direction does it travel?","answer":"⬆️"}
+{"prompt":"Which direction is opposite to up?","answer":"⬇️"}
+{"prompt":"Which way on a map is south?","answer":"⬇️"}
+{"prompt":"An elevator takes me to a lower floor. Which direction does it travel?","answer":"⬇️"}
+{"prompt":"Name the animal that barks, then the one that meows, in that order.","answer":"🐶🐱"}
+{"prompt":"Give the Sun followed by the Moon.","answer":"☀️🌙"}
+{"prompt":"Give the directions east then west, in that order.","answer":"➡️⬅️"}
+{"prompt":"Give the numbers two then three, in that order.","answer":"2️⃣3️⃣"}
+{"prompt":"Give the directions north then south, in that order.","answer":"⬆️⬇️"}

@@ -1,0 +1,15 @@
+{"prompt":"Does our planet orbit the Sun? Answer yes or no.","answer":"✅"}
+{"prompt":"Is five smaller than two? Answer yes or no.","answer":"❌"}
+{"prompt":"One cup is on a table. I add one cup. How many cups are on the table?","answer":"2️⃣"}
+{"prompt":"There are four cookies. I eat one. How many remain?","answer":"3️⃣"}
+{"prompt":"I have three pencils and find one more. How many pencils do I have now?","answer":"4️⃣"}
+{"prompt":"Which pet makes a meowing sound?","answer":"🐱"}
+{"prompt":"Which pet makes a barking sound?","answer":"🐶"}
+{"prompt":"Which star does our planet orbit?","answer":"☀️"}
+{"prompt":"Which celestial body circles our planet and has a full phase?","answer":"🌙"}
+{"prompt":"On a standard map, which arrow points toward the east?","answer":"➡️"}
+{"prompt":"On a standard map, which arrow points toward the west?","answer":"⬅️"}
+{"prompt":"Which arrow points toward a higher floor?","answer":"⬆️"}
+{"prompt":"Which arrow points toward a lower floor?","answer":"⬇️"}
+{"prompt":"First show the barking pet, then the purring pet.","answer":"🐶🐱"}
+{"prompt":"Show the star we orbit and then our natural satellite.","answer":"☀️🌙"}

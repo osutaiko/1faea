@@ -1,0 +1,788 @@
+{"text": "Hey there!", "state": [184], "skill": "greeting", "source": "reviewed_teacher"}
+{"text": "Hello there!", "state": [184], "skill": "greeting", "source": "reviewed_teacher"}
+{"text": "I'm so grateful for your support!", "state": [438], "skill": "thanks", "source": "reviewed_teacher"}
+{"text": "Your kindness has made a huge difference!", "state": [438], "skill": "thanks", "source": "reviewed_teacher"}
+{"text": "Thanks for being such a wonderful friend to me.", "state": [438], "skill": "thanks", "source": "reviewed_teacher"}
+{"text": "Thank you so much for your help today!", "state": [438], "skill": "thanks", "source": "reviewed_teacher"}
+{"text": "I can't express how much you've helped me today!", "state": [438], "skill": "thanks", "source": "reviewed_teacher"}
+{"text": "Your kindness to me is truly appreciated.", "state": [438], "skill": "thanks", "source": "reviewed_teacher"}
+{"text": "Goodnight", "state": [3432, 184], "skill": "farewell", "source": "reviewed_teacher"}
+{"text": "Bye", "state": [3432, 184], "skill": "farewell", "source": "reviewed_teacher"}
+{"text": "Sorry for the inconvenience.", "state": [804], "skill": "apology", "source": "reviewed_teacher"}
+{"text": "My apologies for the error.", "state": [804], "skill": "apology", "source": "reviewed_teacher"}
+{"text": "I'm sorry for any trouble it caused.", "state": [804], "skill": "apology", "source": "reviewed_teacher"}
+{"text": "I'm really sorry about the situation.", "state": [804], "skill": "apology", "source": "reviewed_teacher"}
+{"text": "Could you assist me with this?", "state": [10, 178], "skill": "capabilities", "source": "reviewed_teacher"}
+{"text": "I require assistance with that.", "state": [10, 178], "skill": "capabilities", "source": "reviewed_teacher"}
+{"text": "I'm in need of your expertise on that.", "state": [10, 178], "skill": "capabilities", "source": "reviewed_teacher"}
+{"text": "I would appreciate your assistance with that.", "state": [10, 178], "skill": "capabilities", "source": "reviewed_teacher"}
+{"text": "I need someone to listen to me.", "state": [66, 2592], "skill": "loneliness", "source": "reviewed_teacher"}
+{"text": "I'm feeling isolated and lost.", "state": [66, 2592], "skill": "loneliness", "source": "reviewed_teacher"}
+{"text": "No one cares about me anymore.", "state": [66, 2592], "skill": "loneliness", "source": "reviewed_teacher"}
+{"text": "I miss being part of a group.", "state": [66, 2592], "skill": "loneliness", "source": "reviewed_teacher"}
+{"text": "I wish I had more friends.", "state": [66, 2592], "skill": "loneliness", "source": "reviewed_teacher"}
+{"text": "I'm feeling overwhelmed by this project.", "state": [91], "skill": "anxiety", "source": "reviewed_teacher"}
+{"text": "I'm feeling tense about the big decision I have to make.", "state": [91], "skill": "anxiety", "source": "reviewed_teacher"}
+{"text": "I'm afraid of being late for school again.", "state": [91], "skill": "anxiety", "source": "reviewed_teacher"}
+{"text": "This is making me lose it.", "state": [117], "skill": "anger", "source": "reviewed_teacher"}
+{"text": "This is driving me crazy.", "state": [117], "skill": "anger", "source": "reviewed_teacher"}
+{"text": "I'm feeling great today!", "state": [15], "skill": "happiness", "source": "reviewed_teacher"}
+{"text": "Today was a fantastic day!", "state": [15], "skill": "happiness", "source": "reviewed_teacher"}
+{"text": "My spirits are soaring high!", "state": [15], "skill": "happiness", "source": "reviewed_teacher"}
+{"text": "Everything is looking bright and good today!", "state": [15], "skill": "happiness", "source": "reviewed_teacher"}
+{"text": "The past week has been a whirlwind of joy!", "state": [15], "skill": "happiness", "source": "reviewed_teacher"}
+{"text": "Life is so much fun today!", "state": [15], "skill": "happiness", "source": "reviewed_teacher"}
+{"text": "I'm running out of energy. Is there anything I can do to recharge?", "state": [69], "skill": "tiredness", "source": "reviewed_teacher"}
+{"text": "I just started my day and feel exhausted. Is there anything I can do to catch my breath?", "state": [69], "skill": "tiredness", "source": "reviewed_teacher"}
+{"text": "I'm in the mood for some food.", "state": [36, 2892], "skill": "hunger", "source": "reviewed_teacher"}
+{"text": "I can't stop thinking about that delicious meal.", "state": [36, 2892], "skill": "hunger", "source": "reviewed_teacher"}
+{"text": "My hunger has kicked in, and I need something to satisfy my craving.", "state": [36, 2892], "skill": "hunger", "source": "reviewed_teacher"}
+{"text": "I've been without water for a while. Can I get some?", "state": [2886], "skill": "thirst", "source": "reviewed_teacher"}
+{"text": "I'm feeling dehydrated and thirsty. Can you help me get some water?", "state": [2886], "skill": "thirst", "source": "reviewed_teacher"}
+{"text": "I need to find something exciting to do.", "state": [115], "skill": "boredom", "source": "reviewed_teacher"}
+{"text": "Are there any fun activities I haven't tried yet?", "state": [115], "skill": "boredom", "source": "reviewed_teacher"}
+{"text": "My hard work paid off; I'm thrilled to receive this promotion.", "state": [3124], "skill": "celebrate", "source": "reviewed_teacher"}
+{"text": "I've been working tirelessly to achieve this goal and I'm so proud!", "state": [3124], "skill": "celebrate", "source": "reviewed_teacher"}
+{"text": "A huge victory in my personal life, I can't wait to see what the future holds!", "state": [3124], "skill": "celebrate", "source": "reviewed_teacher"}
+{"text": "Happy birthday to me!", "state": [2862], "skill": "birthday", "source": "reviewed_teacher"}
+{"text": "It's my birthday today!", "state": [2862], "skill": "birthday", "source": "reviewed_teacher"}
+{"text": "Could you provide some motivation for me?", "state": [3171, 462], "skill": "encouragement", "source": "reviewed_teacher"}
+{"text": "I'd love to keep pushing myself.", "state": [3171, 462], "skill": "encouragement", "source": "reviewed_teacher"}
+{"text": "Please give me more motivation to continue trying.", "state": [3171, 462], "skill": "encouragement", "source": "reviewed_teacher"}
+{"text": "Could you offer some help keeping me motivated?", "state": [3171, 462], "skill": "encouragement", "source": "reviewed_teacher"}
+{"text": "How do I organize my notes effectively?", "state": [3171, 3321], "skill": "study", "source": "reviewed_teacher"}
+{"text": "What strategies can help me better focus during study sessions?", "state": [3171, 3321], "skill": "study", "source": "reviewed_teacher"}
+{"text": "How can I create a detailed study plan that aligns with my goals?", "state": [3171, 3321], "skill": "study", "source": "reviewed_teacher"}
+{"text": "Could you suggest some effective ways to review material before an upcoming test?", "state": [3171, 3321], "skill": "study", "source": "reviewed_teacher"}
+{"text": "Find a new way to stay active.", "state": [3171, 1742], "skill": "exercise", "source": "reviewed_teacher"}
+{"text": "What's a good way to wind down after a long day?", "state": [3171, 69], "skill": "sleep_plan", "source": "reviewed_teacher"}
+{"text": "Can you recommend a healthy sleep routine?", "state": [3171, 69], "skill": "sleep_plan", "source": "reviewed_teacher"}
+{"text": "I'm having trouble falling asleep. Any tips?", "state": [3171, 69], "skill": "sleep_plan", "source": "reviewed_teacher"}
+{"text": "What are some effective ways to improve my sleep schedule?", "state": [3171, 69], "skill": "sleep_plan", "source": "reviewed_teacher"}
+{"text": "What should I bring?", "state": [3171, 3227], "skill": "packing", "source": "reviewed_teacher"}
+{"text": "What to pack in my bag?", "state": [3171, 3227], "skill": "packing", "source": "reviewed_teacher"}
+{"text": "I need your packing list", "state": [3171, 3227], "skill": "packing", "source": "reviewed_teacher"}
+{"text": "What do I need for my trip?", "state": [3171, 3227], "skill": "packing", "source": "reviewed_teacher"}
+{"text": "I need a packing checklist", "state": [3171, 3227], "skill": "packing", "source": "reviewed_teacher"}
+{"text": "How do I start preparing a simple meal?", "state": [3171, 2830], "skill": "cooking", "source": "reviewed_teacher"}
+{"text": "What's the general process for cooking something basic?", "state": [3171, 2830], "skill": "cooking", "source": "reviewed_teacher"}
+{"text": "Can you explain the basics of cooking?", "state": [3171, 2830], "skill": "cooking", "source": "reviewed_teacher"}
+{"text": "Could you help me understand the process of cooking a meal?", "state": [3171, 2830], "skill": "cooking", "source": "reviewed_teacher"}
+{"text": "Could you tell me how to properly water my houseplants?", "state": [3171, 2750], "skill": "gardening", "source": "reviewed_teacher"}
+{"text": "How do I get started with planting flowers in my garden?", "state": [3171, 2750], "skill": "gardening", "source": "reviewed_teacher"}
+{"text": "I'm curious about starting my own garden. What should I do first?", "state": [3171, 2750], "skill": "gardening", "source": "reviewed_teacher"}
+{"text": "Could you advise on the best way to care for my houseplants?", "state": [3171, 2750], "skill": "gardening", "source": "reviewed_teacher"}
+{"text": "I'm looking to start planting flowers. Any tips you can share?", "state": [3171, 2750], "skill": "gardening", "source": "reviewed_teacher"}
+{"text": "What's the best way to stay dry when it's raining?", "state": [3107], "skill": "rain", "source": "reviewed_teacher"}
+{"text": "How do you keep yourself from getting soaked in the rain?", "state": [3107], "skill": "rain", "source": "reviewed_teacher"}
+{"text": "If it starts raining, what should you pack for comfort?", "state": [3107], "skill": "rain", "source": "reviewed_teacher"}
+{"text": "What are some tips for staying dry while in the rain?", "state": [3107], "skill": "rain", "source": "reviewed_teacher"}
+{"text": "How can I make sure I don't get wet during the rain?", "state": [3107], "skill": "rain", "source": "reviewed_teacher"}
+{"text": "What’s the best way to stay cool on a sunny day?", "state": [3083], "skill": "sun", "source": "reviewed_teacher"}
+{"text": "I'm in the mood for a bit of book time! Do you have any suggestions?", "state": [10, 3321], "skill": "reading", "source": "reviewed_teacher"}
+{"text": "What's a great way to spend my time while reading?", "state": [10, 3321], "skill": "reading", "source": "reviewed_teacher"}
+{"text": "I've been meaning to check out a new book, what do you think?", "state": [10, 3321], "skill": "reading", "source": "reviewed_teacher"}
+{"text": "Do you have any suggestions for a relaxing reading experience?", "state": [10, 3321], "skill": "reading", "source": "reviewed_teacher"}
+{"text": "I need a project idea for my artwork.", "state": [10, 3360], "skill": "art", "source": "reviewed_teacher"}
+{"text": "What is the name of the animal that makes the sound 'meow'?", "state": [10, 0, 2591], "skill": "cats", "source": "reviewed_teacher"}
+{"text": "What are the most important parts of a bird's body for flight?", "state": [10, 2, 2692], "skill": "bird_flight", "source": "reviewed_teacher"}
+{"text": "Describe how birds' wings work in flight.", "state": [10, 2, 2692], "skill": "bird_flight", "source": "reviewed_teacher"}
+{"text": "What causes plants to produce energy from light?", "state": [10, 2750, 3083], "skill": "photosynthesis", "source": "reviewed_teacher"}
+{"text": "How does sunlight affect the growth of plants?", "state": [10, 2750, 3083], "skill": "photosynthesis", "source": "reviewed_teacher"}
+{"text": "What steps do plants take to absorb and utilize sunlight?", "state": [10, 2750, 3083], "skill": "photosynthesis", "source": "reviewed_teacher"}
+{"text": "How can we learn more about how plants harness sunlight?", "state": [10, 2750, 3083], "skill": "photosynthesis", "source": "reviewed_teacher"}
+{"text": "Explore the importance of evaporation in the water cycle and how it affects weather patterns.", "state": [10, 3115, 3506], "skill": "water_cycle", "source": "reviewed_teacher"}
+{"text": "Explain the process of precipitation and how it contributes to water availability for plants.", "state": [10, 3115, 3506], "skill": "water_cycle", "source": "reviewed_teacher"}
+{"text": "What are some benefits of recycling?", "state": [10, 3579], "skill": "recycling", "source": "reviewed_teacher"}
+{"text": "Why should we consider recycling?", "state": [10, 3579], "skill": "recycling", "source": "reviewed_teacher"}
+{"text": "How does recycling contribute to waste reduction?", "state": [10, 3579], "skill": "recycling", "source": "reviewed_teacher"}
+{"text": "Tell me about the environmental impact of recycling.", "state": [10, 3579], "skill": "recycling", "source": "reviewed_teacher"}
+{"text": "What are the steps in the recycling process?", "state": [10, 3579], "skill": "recycling", "source": "reviewed_teacher"}
+{"text": "How can I get involved in recycling efforts?", "state": [10, 3579], "skill": "recycling", "source": "reviewed_teacher"}
+{"text": "Can you share what I don't like?", "state": [500, 154, 10], "skill": "recall_dislike", "source": "reviewed_teacher"}
+{"text": "I need to check what color it is.", "state": [10, 3197], "skill": "color_pronoun_query", "source": "reviewed_teacher"}
+{"text": "Could you tell me what color it is?", "state": [10, 3197], "skill": "color_pronoun_query", "source": "reviewed_teacher"}
+{"text": "Can you describe what color it is?", "state": [10, 3197], "skill": "color_pronoun_query", "source": "reviewed_teacher"}
+{"text": "What is it, can you tell me about its color?", "state": [10, 3197], "skill": "color_pronoun_query", "source": "reviewed_teacher"}
+{"text": "Could you provide information on the color of that thing?", "state": [10, 3197], "skill": "color_pronoun_query", "source": "reviewed_teacher"}
+{"text": "What's the color of the thing?", "state": [10, 3197], "skill": "color_pronoun_query", "source": "reviewed_teacher"}
+{"text": "What's the location of the soap?", "state": [10, 3451, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the sunglasses?", "state": [10, 3203, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the person running facing right: medium-dark skin tone?", "state": [10, 1764, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the bison?", "state": [10, 2635, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the couple with heart: man, man, light skin tone, dark skin tone?", "state": [10, 2519, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the mobile phone?", "state": [10, 3280, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the man: blond hair?", "state": [10, 654, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the shortcake?", "state": [10, 2863, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the flag: Togo?", "state": [10, 3915, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the couple with heart: woman, woman, medium skin tone, medium-dark skin tone?", "state": [10, 2554, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the face with tears of joy?", "state": [10, 20, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the man vampire: medium skin tone?", "state": [10, 1455, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the people wrestling: medium-light skin tone, medium-dark skin tone?", "state": [10, 2116, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the flag: Seychelles?", "state": [10, 3892, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the poodle?", "state": [10, 2618, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the women holding hands?", "state": [10, 2280, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the woman in motorized wheelchair facing right: light skin tone?", "state": [10, 1701, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the nose: medium-dark skin tone?", "state": [10, 498, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the cook: light skin tone?", "state": [10, 949, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the woman feeding baby: light skin tone?", "state": [10, 1333, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the magnet?", "state": [10, 3415, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the flag: Lebanon?", "state": [10, 3824, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the superhero: medium skin tone?", "state": [10, 1377, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "What's the location of the prince: dark skin tone?", "state": [10, 1235, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the judge: medium-light skin tone is located?", "state": [10, 914, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the woman in manual wheelchair: light skin tone is located?", "state": [10, 1731, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the Christmas tree is located?", "state": [10, 3118, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the people wrestling: medium-light skin tone, medium skin tone is located?", "state": [10, 2115, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the clapper board is located?", "state": [10, 3303, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the middle finger is located?", "state": [10, 322, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the family: woman, girl is located?", "state": [10, 2588, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the ram is located?", "state": [10, 2644, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the woman scientist: medium-light skin tone is located?", "state": [10, 1034, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the hand with fingers splayed: light skin tone is located?", "state": [10, 197, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the women holding hands: medium-dark skin tone, medium-light skin tone is located?", "state": [10, 2297, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the woman biking: medium skin tone is located?", "state": [10, 2053, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the smiling face with tear is located?", "state": [10, 35, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the child is located?", "state": [10, 516, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the person in tuxedo: dark skin tone is located?", "state": [10, 1277, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the sign of the horns: medium skin tone is located?", "state": [10, 295, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the om is located?", "state": [10, 3513, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the fast reverse button is located?", "state": [10, 3544, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the man in manual wheelchair: light skin tone is located?", "state": [10, 1719, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the green circle is located?", "state": [10, 3653, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the flag: Kiribati is located?", "state": [10, 3815, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the woman fairy: medium skin tone is located?", "state": [10, 1443, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the woman police officer is located?", "state": [10, 1158, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Tell me where the people with bunny ears: medium-dark skin tone, medium-light skin tone is located?", "state": [10, 1833, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the raised back of hand's whereabouts?", "state": [10, 190, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the handshake: medium-light skin tone, medium skin tone's whereabouts?", "state": [10, 423, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the man biking: medium skin tone's whereabouts?", "state": [10, 2047, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the shopping bags's whereabouts?", "state": [10, 3226, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the star of David's whereabouts?", "state": [10, 3514, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the man wearing turban: medium-dark skin tone's whereabouts?", "state": [10, 1252, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the hundred points's whereabouts?", "state": [10, 170, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the herb's whereabouts?", "state": [10, 2757, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the green apple's whereabouts?", "state": [10, 2777, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the man with white cane facing right: medium skin tone's whereabouts?", "state": [10, 1655, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the woman mechanic's whereabouts?", "state": [10, 978, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the rightwards hand: medium-light skin tone's whereabouts?", "state": [10, 216, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the woman vampire: medium skin tone's whereabouts?", "state": [10, 1461, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the man tipping hand: dark skin tone's whereabouts?", "state": [10, 761, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the flag: Norway's whereabouts?", "state": [10, 3864, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the flag: Martinique's whereabouts?", "state": [10, 3847, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the woman student: light skin tone's whereabouts?", "state": [10, 889, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the woman tipping hand: light skin tone's whereabouts?", "state": [10, 763, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the person: bald's whereabouts?", "state": [10, 642, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the man superhero's whereabouts?", "state": [10, 1380, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the couple with heart: dark skin tone's whereabouts?", "state": [10, 2467, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the couple with heart: person, person, medium skin tone, dark skin tone's whereabouts?", "state": [10, 2479, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the family: woman, girl's whereabouts?", "state": [10, 2588, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "I'm looking for the judge: dark skin tone's whereabouts?", "state": [10, 917, 3376], "skill": "location_query_template", "source": "reviewed_teacher"}
+{"text": "Remind me which thing I like.", "state": [500, 147, 10], "skill": "authored", "source": "authored"}
+{"text": "Can you remember the item I love?", "state": [500, 147, 10], "skill": "authored", "source": "authored"}
+{"text": "Tell me what my favorite was.", "state": [500, 147, 10], "skill": "authored", "source": "authored"}
+{"text": "Which item did I mention liking?", "state": [500, 147, 10], "skill": "authored", "source": "authored"}
+{"text": "Please recall the preference I shared.", "state": [500, 147, 10], "skill": "authored", "source": "authored"}
+{"text": "What did I say I was fond of?", "state": [500, 147, 10], "skill": "authored", "source": "authored"}
+{"text": "Do you remember my favorite thing?", "state": [500, 147, 10], "skill": "authored", "source": "authored"}
+{"text": "I forgot what I told you I liked.", "state": [500, 147, 10], "skill": "authored", "source": "authored"}
+{"text": "Recall my earlier choice.", "state": [500, 147, 10], "skill": "authored", "source": "authored"}
+{"text": "Can you remind me what I said I enjoy?", "state": [500, 147, 10], "skill": "authored", "source": "authored"}
+{"text": "Remind me which thing I dislike.", "state": [500, 154, 10], "skill": "authored", "source": "authored"}
+{"text": "Can you remember the item I hate?", "state": [500, 154, 10], "skill": "authored", "source": "authored"}
+{"text": "Tell me which item I did not like.", "state": [500, 154, 10], "skill": "authored", "source": "authored"}
+{"text": "Please recall my negative preference.", "state": [500, 154, 10], "skill": "authored", "source": "authored"}
+{"text": "Which item did I mention disliking?", "state": [500, 154, 10], "skill": "authored", "source": "authored"}
+{"text": "What did I say I could not stand?", "state": [500, 154, 10], "skill": "authored", "source": "authored"}
+{"text": "Do you remember what I was not fond of?", "state": [500, 154, 10], "skill": "authored", "source": "authored"}
+{"text": "Recall the thing I disliked earlier.", "state": [500, 154, 10], "skill": "authored", "source": "authored"}
+{"text": "I feel heartbroken today.", "state": [66], "skill": "authored", "source": "authored"}
+{"text": "My mood has been low lately.", "state": [66], "skill": "authored", "source": "authored"}
+{"text": "I am feeling miserable.", "state": [66], "skill": "authored", "source": "authored"}
+{"text": "I have been feeling tearful.", "state": [66], "skill": "authored", "source": "authored"}
+{"text": "My thoughts are racing with worry.", "state": [91], "skill": "authored", "source": "authored"}
+{"text": "I am unsettled and nervous.", "state": [91], "skill": "authored", "source": "authored"}
+{"text": "This situation has me worried.", "state": [91], "skill": "authored", "source": "authored"}
+{"text": "I am full of apprehension.", "state": [91], "skill": "authored", "source": "authored"}
+{"text": "I have nothing interesting to occupy me.", "state": [115], "skill": "authored", "source": "authored"}
+{"text": "I need an idea for something enjoyable.", "state": [115], "skill": "authored", "source": "authored"}
+{"text": "I have too much idle time.", "state": [115], "skill": "authored", "source": "authored"}
+{"text": "I want something fun to fill my time.", "state": [115], "skill": "authored", "source": "authored"}
+{"text": "What is your identity?", "state": [10, 131], "skill": "authored", "source": "authored"}
+{"text": "Are you a human or an AI?", "state": [10, 131], "skill": "authored", "source": "authored"}
+{"text": "Describe what kind of helper you are.", "state": [10, 131], "skill": "authored", "source": "authored"}
+{"text": "What sort of chatbot are you?", "state": [10, 131], "skill": "authored", "source": "authored"}
+{"text": "I am really keen on 🐤.", "state": [147, 2679], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on woman tipping hand: medium skin tone.", "state": [147, 765], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on ⛹🏽‍♀️.", "state": [147, 2017], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on classical building.", "state": [147, 2916], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 💪.", "state": [147, 462], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on radio.", "state": [147, 3266], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 🇳🇱.", "state": [147, 3863], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on deaf person: medium skin tone.", "state": [147, 789], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 💜.", "state": [147, 164], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on man shrugging: medium-light skin tone.", "state": [147, 848], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 🤶🏻.", "state": [147, 1363], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on love-you gesture.", "state": [147, 286], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 🙍🏾‍♀️.", "state": [147, 694], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on mobile phone with arrow.", "state": [147, 3281], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 🧒.", "state": [147, 516], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on woman kneeling: dark skin tone.", "state": [147, 1615], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 🤾🏼.", "state": [147, 2190], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on ticket.", "state": [147, 3137], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 👩🏽‍❤️‍💋‍👨🏾.", "state": [147, 2398], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on video camera.", "state": [147, 3307], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 👨🏿‍❤️‍💋‍👨🏼.", "state": [147, 2432], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on person rowing boat: medium-dark skin tone.", "state": [147, 1970], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 👨🏾‍🫯‍👨🏽.", "state": [147, 2144], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on salt.", "state": [147, 2838], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 🇸🇹.", "state": [147, 3906], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on person raising hand: light skin tone.", "state": [147, 769], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 👨🏿‍❤️‍💋‍👨🏽.", "state": [147, 2433], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on thumbs up: medium-dark skin tone.", "state": [147, 350], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 🇹🇭.", "state": [147, 3916], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on man mountain biking: medium skin tone.", "state": [147, 2065], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on 🇱🇹.", "state": [147, 3830], "skill": "authored_template", "source": "authored"}
+{"text": "I am really keen on volcano.", "state": [147, 2908], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 🛌🏼.", "state": [147, 2250], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of curly loop.", "state": [147, 3588], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 🪦.", "state": [147, 3459], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of mechanic: medium skin tone.", "state": [147, 969], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 🛷.", "state": [147, 3169], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of Japanese “monthly amount” button.", "state": [147, 3635], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 👨🏽‍🤝‍👨🏻.", "state": [147, 2343], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of sunset.", "state": [147, 2956], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 🪒.", "state": [147, 3444], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of woman with headscarf: medium-light skin tone.", "state": [147, 1268], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 👴🏾.", "state": [147, 670], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of woman: bald.", "state": [147, 636], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 👨🏼‍🏫.", "state": [147, 902], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of foot.", "state": [147, 476], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 😪.", "state": [147, 67], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of toolbox.", "state": [147, 3414], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 🌡️.", "state": [147, 3082], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of dango.", "state": [147, 2853], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 👨🏻‍❤️‍👨🏾.", "state": [147, 2518], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of factory worker: dark skin tone.", "state": [147, 989], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 🌁.", "state": [147, 2950], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of empty nest.", "state": [147, 2763], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 🇰🇭.", "state": [147, 3814], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of women wrestling: medium skin tone.", "state": [147, 2107], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 🧚‍♀️.", "state": [147, 1440], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of pinched fingers: medium-light skin tone.", "state": [147, 258], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 💢.", "state": [147, 171], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of rocket.", "state": [147, 3035], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of ⛹🏽‍♂️.", "state": [147, 2011], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of flag: Ireland.", "state": [147, 3799], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of 👩🏼‍❤️‍💋‍👩🏼.", "state": [147, 2443], "skill": "authored_template", "source": "authored"}
+{"text": "I am a fan of woman mage: medium skin tone.", "state": [147, 1425], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 👨🏾‍🦼‍➡️.", "state": [147, 1692], "skill": "authored_template", "source": "authored"}
+{"text": "I adore sari.", "state": [147, 3216], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 🦸🏾‍♂️.", "state": [147, 1384], "skill": "authored_template", "source": "authored"}
+{"text": "I adore oncoming fist.", "state": [147, 364], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 🤸🏼‍♂️.", "state": [147, 2082], "skill": "authored_template", "source": "authored"}
+{"text": "I adore man playing handball: medium skin tone.", "state": [147, 2197], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 🕵🏿‍♀️.", "state": [147, 1181], "skill": "authored_template", "source": "authored"}
+{"text": "I adore merman: light skin tone.", "state": [147, 1471], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 📊.", "state": [147, 3374], "skill": "authored_template", "source": "authored"}
+{"text": "I adore women holding hands: medium-light skin tone, medium-dark skin tone.", "state": [147, 2289], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 📚.", "state": [147, 3321], "skill": "authored_template", "source": "authored"}
+{"text": "I adore dove.", "state": [147, 2682], "skill": "authored_template", "source": "authored"}
+{"text": "I adore ⚜️.", "state": [147, 3580], "skill": "authored_template", "source": "authored"}
+{"text": "I adore person in steamy room.", "state": [147, 1880], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 🏃🏽‍♂️‍➡️.", "state": [147, 1775], "skill": "authored_template", "source": "authored"}
+{"text": "I adore couple with heart: woman, man, dark skin tone, medium-light skin tone.", "state": [147, 2510], "skill": "authored_template", "source": "authored"}
+{"text": "I adore ✊🏼.", "state": [147, 360], "skill": "authored_template", "source": "authored"}
+{"text": "I adore flag: Croatia.", "state": [147, 3794], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 👨🏽‍🦱.", "state": [147, 579], "skill": "authored_template", "source": "authored"}
+{"text": "I adore woman dancing: light skin tone.", "state": [147, 1785], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 👌🏻.", "state": [147, 251], "skill": "authored_template", "source": "authored"}
+{"text": "I adore Japanese dolls.", "state": [147, 3128], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 📉.", "state": [147, 3373], "skill": "authored_template", "source": "authored"}
+{"text": "I adore man: light skin tone, bald.", "state": [147, 589], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 🧑🏻‍🤝‍🧑🏿.", "state": [147, 2259], "skill": "authored_template", "source": "authored"}
+{"text": "I adore kiss: woman, man, light skin tone, dark skin tone.", "state": [147, 2389], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 🇮🇩.", "state": [147, 3798], "skill": "authored_template", "source": "authored"}
+{"text": "I adore right-facing fist.", "state": [147, 376], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 👩🏿‍🤝‍👩🏾.", "state": [147, 2304], "skill": "authored_template", "source": "authored"}
+{"text": "I adore umbrella with rain drops.", "state": [147, 3107], "skill": "authored_template", "source": "authored"}
+{"text": "I adore 🚶🏼‍➡️.", "state": [147, 1564], "skill": "authored_template", "source": "authored"}
+{"text": "I adore couple with heart: person, person, dark skin tone, light skin tone.", "state": [147, 2484], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 🧘‍♂️.", "state": [154, 2230], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of backhand index pointing up: light skin tone.", "state": [154, 317], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 👷🏾‍♂️.", "state": [154, 1216], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of eye.", "state": [154, 506], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 🏄🏿‍♂️.", "state": [154, 1959], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of man farmer: medium-light skin tone.", "state": [154, 938], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 🧑🏾‍🌾.", "state": [154, 934], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of student: medium-light skin tone.", "state": [154, 878], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 💁🏼‍♂️.", "state": [154, 758], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of woman student: dark skin tone.", "state": [154, 893], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 👮🏾‍♀️.", "state": [154, 1162], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of bear.", "state": [154, 2665], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 🐒.", "state": [154, 2612], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of hook.", "state": [154, 3413], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 👨🏽‍🫯‍👨🏼.", "state": [154, 2139], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of taxi.", "state": [154, 2985], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 😮.", "state": [154, 94], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of glasses.", "state": [154, 3202], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 🇰🇿.", "state": [154, 3822], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of dotted line face.", "state": [154, 54], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 🧘🏿‍♂️.", "state": [154, 2235], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of kiss mark.", "state": [154, 169], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 👩‍❤️‍💋‍👩.", "state": [154, 2436], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of sake.", "state": [154, 2876], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 🛀🏼.", "state": [154, 2244], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of ear with hearing aid: medium-dark skin tone.", "state": [154, 492], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 🇧🇩.", "state": [154, 3710], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of old woman.", "state": [154, 672], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 🏥.", "state": [154, 2929], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of eight-spoked asterisk.", "state": [154, 3591], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of 🧚🏻‍♀️.", "state": [154, 1441], "skill": "authored_template", "source": "authored"}
+{"text": "I am not a fan of trombone.", "state": [154, 3269], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🧑🏾‍🍼.", "state": [154, 1348], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for stuffed flatbread.", "state": [154, 2827], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🧑🏽‍🦽.", "state": [154, 1709], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for writing hand: dark skin tone.", "state": [154, 449], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 👨🏽.", "state": [154, 549], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for Japanese “monthly amount” button.", "state": [154, 3635], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🦸🏻.", "state": [154, 1375], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for relieved face.", "state": [154, 65], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🧑🏼‍🦲.", "state": [154, 644], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for family: woman, woman, girl.", "state": [154, 2577], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🙋.", "state": [154, 768], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for deaf person: medium-light skin tone.", "state": [154, 788], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🧑🏾‍🦱.", "state": [154, 622], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for man running facing right: medium skin tone.", "state": [154, 1775], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🏦.", "state": [154, 2930], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for kiss: person, person, light skin tone, medium-dark skin tone.", "state": [154, 2366], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🤹🏿‍♂️.", "state": [154, 2217], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for man wearing turban: light skin tone.", "state": [154, 1249], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🧑🏼‍🤝‍🧑🏼.", "state": [154, 2261], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for hotel.", "state": [154, 2931], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🧑🏾‍⚕️.", "state": [154, 862], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for kiss: person, person, medium-light skin tone, dark skin tone.", "state": [154, 2371], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🌪️.", "state": [154, 3100], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for running shirt.", "state": [154, 3167], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🚶🏻‍➡️.", "state": [154, 1563], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for flag: South Africa.", "state": [154, 3947], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🫱🏻.", "state": [154, 215], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for selfie: medium skin tone.", "state": [154, 459], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 👸🏿.", "state": [154, 1241], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for man singer: medium-dark skin tone.", "state": [154, 1066], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for 🦍.", "state": [154, 2613], "skill": "authored_template", "source": "authored"}
+{"text": "I have no liking for man walking facing right: medium-dark skin tone.", "state": [154, 1578], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 🏌🏿‍♂️.", "state": [154, 1941], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy woman pilot: medium-light skin tone.", "state": [154, 1106], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 🚿.", "state": [154, 3441], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy five-thirty.", "state": [154, 3057], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 👨🏻‍❤️‍👨🏼.", "state": [154, 2516], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy man running: dark skin tone.", "state": [154, 1753], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 💫.", "state": [154, 174], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy razor.", "state": [154, 3444], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 👮🏻.", "state": [154, 1147], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy coat.", "state": [154, 3212], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 🦹🏾‍♂️.", "state": [154, 1402], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy woman firefighter.", "state": [154, 1140], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 🤼🏽‍♂️.", "state": [154, 2101], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy keycap: 1.", "state": [154, 3601], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 🕺.", "state": [154, 1790], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy woman factory worker: medium skin tone.", "state": [154, 999], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 💑🏽.", "state": [154, 2465], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy man getting haircut: medium skin tone.", "state": [154, 1535], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 🥂.", "state": [154, 2883], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy receipt.", "state": [154, 3341], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 🍾.", "state": [154, 2877], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy woman climbing: medium-light skin tone.", "state": [154, 1912], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 👨🏾‍🫯‍👨🏻.", "state": [154, 2142], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy orange book.", "state": [154, 3320], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 🧑🏾‍🦯.", "state": [154, 1638], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy men wrestling: medium-dark skin tone, dark skin tone.", "state": [154, 2145], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 🚞.", "state": [154, 2975], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy kiss: person, person, medium skin tone, medium-dark skin tone.", "state": [154, 2374], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy 🧑🏽‍❤️‍💋‍🧑🏿.", "state": [154, 2375], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy flag: Trinidad & Tobago.", "state": [154, 3924], "skill": "authored_template", "source": "authored"}
+{"text": "I do not enjoy ram.", "state": [154, 2644], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 👩🏼‍🦱.", "state": [3506, 147, 614], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to Santa Claus: medium-dark skin tone.", "state": [3506, 147, 1360], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 🧑🏾‍❤️‍🧑🏻.", "state": [3506, 147, 2480], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to flag: Guyana.", "state": [3506, 147, 3790], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 💇🏿‍♀️.", "state": [3506, 147, 1543], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to biohazard.", "state": [3506, 147, 3491], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to ❤️‍🩹.", "state": [3506, 147, 156], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to deaf woman: medium-dark skin tone.", "state": [3506, 147, 802], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 🧑🏾‍❤️‍💋‍🧑🏼.", "state": [3506, 147, 2377], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to breast-feeding: medium-light skin tone.", "state": [3506, 147, 1328], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to ⛹🏻.", "state": [3506, 147, 2003], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to flag: Uzbekistan.", "state": [3506, 147, 3934], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 👮🏻‍♂️.", "state": [3506, 147, 1153], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to railway car.", "state": [3506, 147, 2966], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 🤾🏽‍♂️.", "state": [3506, 147, 2197], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to man rowing boat: medium skin tone.", "state": [3506, 147, 1975], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 💆🏼.", "state": [3506, 147, 1510], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to police officer: medium-dark skin tone.", "state": [3506, 147, 1150], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 🪘.", "state": [3506, 147, 3276], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to man: white hair.", "state": [3506, 147, 582], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 🇿🇼.", "state": [3506, 147, 3949], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to woman with white cane facing right: dark skin tone.", "state": [3506, 147, 1669], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 🦐.", "state": [3506, 147, 2719], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to cocktail glass.", "state": [3506, 147, 2879], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 🫒.", "state": [3506, 147, 2785], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to people with bunny ears: medium skin tone, medium-dark skin tone.", "state": [3506, 147, 1830], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 🏄🏿‍♀️.", "state": [3506, 147, 1965], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to kiss: woman, man, light skin tone, medium skin tone.", "state": [3506, 147, 2387], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 🚴🏼‍♂️.", "state": [3506, 147, 2046], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to camel.", "state": [3506, 147, 2647], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to 🚶🏻‍♂️‍➡️.", "state": [3506, 147, 1575], "skill": "authored_template", "source": "authored"}
+{"text": "Change my preference to man with white cane.", "state": [3506, 147, 1646], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 👨🏿‍❤️‍💋‍👨🏻.", "state": [3506, 147, 2431], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like polar bear.", "state": [3506, 147, 2666], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 💤.", "state": [3506, 147, 183], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like speedboat.", "state": [3506, 147, 3019], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 👨🏿‍⚕️.", "state": [3506, 147, 869], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like person facepalming: medium-dark skin tone.", "state": [3506, 147, 826], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 🏄🏽‍♀️.", "state": [3506, 147, 1963], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like woozy face.", "state": [3506, 147, 79], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 🧑‍🧒‍🧒.", "state": [3506, 147, 2599], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like person running facing right: medium skin tone.", "state": [3506, 147, 1763], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 🌼.", "state": [3506, 147, 2747], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like oncoming bus.", "state": [3506, 147, 2978], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 👫🏽.", "state": [3506, 147, 2319], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like TOP arrow.", "state": [3506, 147, 3510], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like ➰.", "state": [3506, 147, 3588], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like euro banknote.", "state": [3506, 147, 3337], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 🔕.", "state": [3506, 147, 3257], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like man mountain biking: dark skin tone.", "state": [3506, 147, 2067], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 👨🏿‍❤️‍💋‍👨🏾.", "state": [3506, 147, 2434], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like couple with heart: person, person, light skin tone, dark skin tone.", "state": [3506, 147, 2471], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 🔶.", "state": [3506, 147, 3673], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like baby bottle.", "state": [3506, 147, 2871], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 🧑🏼‍⚖️.", "state": [3506, 147, 914], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like goal net.", "state": [3506, 147, 3162], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 🩺.", "state": [3506, 147, 3430], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like bright button.", "state": [3506, 147, 3556], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like seal.", "state": [3506, 147, 2709], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 🖤.", "state": [3506, 147, 166], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like hourglass done.", "state": [3506, 147, 3039], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like 🎲.", "state": [3506, 147, 3181], "skill": "authored_template", "source": "authored"}
+{"text": "Forget the earlier choice; I like nut and bolt.", "state": [3506, 147, 3405], "skill": "authored_template", "source": "authored"}
+{"text": "The ⚖️ has the color red.", "state": [4, 3408, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "The woman fairy: medium-dark skin tone has the color yellow.", "state": [4, 1444, 3197, 3652], "skill": "authored_template", "source": "authored"}
+{"text": "The 🧔🏼 has the color green.", "state": [4, 554, 3197, 3653], "skill": "authored_template", "source": "authored"}
+{"text": "The eject button has the color white.", "state": [4, 3553, 3197, 7], "skill": "authored_template", "source": "authored"}
+{"text": "The 🧑🏾‍🦼 has the color yellow.", "state": [4, 1674, 3197, 3652], "skill": "authored_template", "source": "authored"}
+{"text": "The woman kneeling: medium skin tone has the color yellow.", "state": [4, 1613, 3197, 3652], "skill": "authored_template", "source": "authored"}
+{"text": "The 🧑🏼‍❤️‍💋‍🧑🏽 has the color yellow.", "state": [4, 2369, 3197, 3652], "skill": "authored_template", "source": "authored"}
+{"text": "The teacup without handle has the color red.", "state": [4, 2875, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "The 🇷🇪 has the color white.", "state": [4, 3885, 3197, 7], "skill": "authored_template", "source": "authored"}
+{"text": "The oncoming police car has the color black.", "state": [4, 2984, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "The 🏊🏼 has the color black.", "state": [4, 1986, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "The tornado has the color red.", "state": [4, 3100, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "The 🏊🏼‍♀️ has the color black.", "state": [4, 1998, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "The woman with white cane: light skin tone has the color red.", "state": [4, 1659, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "The 👨🏽‍🫯‍👨🏿 has the color blue.", "state": [4, 2141, 3197, 3654], "skill": "authored_template", "source": "authored"}
+{"text": "The rightwards hand: dark skin tone has the color black.", "state": [4, 219, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "The 🫱🏻‍🫲🏽 has the color green.", "state": [4, 419, 3197, 3653], "skill": "authored_template", "source": "authored"}
+{"text": "The woman walking facing right: medium-dark skin tone has the color green.", "state": [4, 1572, 3197, 3653], "skill": "authored_template", "source": "authored"}
+{"text": "The 💸 has the color black.", "state": [4, 3339, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "The guard has the color white.", "state": [4, 1182, 3197, 7], "skill": "authored_template", "source": "authored"}
+{"text": "The 🙋🏾‍♂️ has the color yellow.", "state": [4, 778, 3197, 3652], "skill": "authored_template", "source": "authored"}
+{"text": "The flag: Pitcairn Islands has the color yellow.", "state": [4, 3878, 3197, 3652], "skill": "authored_template", "source": "authored"}
+{"text": "The 🪉 has the color red.", "state": [4, 3279, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "The man cartwheeling: medium-light skin tone has the color black.", "state": [4, 2082, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "The 💏🏾 has the color white.", "state": [4, 2362, 3197, 7], "skill": "authored_template", "source": "authored"}
+{"text": "The man rowing boat: medium-light skin tone has the color blue.", "state": [4, 1974, 3197, 3654], "skill": "authored_template", "source": "authored"}
+{"text": "The 💃🏾 has the color blue.", "state": [4, 1788, 3197, 3654], "skill": "authored_template", "source": "authored"}
+{"text": "The woman: curly hair has the color red.", "state": [4, 612, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "The 🔼 has the color black.", "state": [4, 3546, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "The person walking facing right: dark skin tone has the color black.", "state": [4, 1567, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "The 🏌🏻 has the color black.", "state": [4, 1931, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "The diamond suit has the color yellow.", "state": [4, 3189, 3197, 3652], "skill": "authored_template", "source": "authored"}
+{"text": "I have a red 🥗.", "state": [4, 2835, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "I have a red person in manual wheelchair: medium-dark skin tone.", "state": [4, 1710, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "I have a red 👩🏾‍❤️‍💋‍👩🏼.", "state": [4, 2453, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "I have a red kissing cat.", "state": [4, 137, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "I have a green 👩🏿‍🦱.", "state": [4, 617, 3197, 3653], "skill": "authored_template", "source": "authored"}
+{"text": "I have a blue scientist: medium-dark skin tone.", "state": [4, 1024, 3197, 3654], "skill": "authored_template", "source": "authored"}
+{"text": "I have a yellow 🦯.", "state": [4, 3409, 3197, 3652], "skill": "authored_template", "source": "authored"}
+{"text": "I have a white dagger.", "state": [4, 3396, 3197, 7], "skill": "authored_template", "source": "authored"}
+{"text": "I have a red 🧎🏼‍♀️.", "state": [4, 1612, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "I have a blue people wrestling: medium-dark skin tone, medium skin tone.", "state": [4, 2124, 3197, 3654], "skill": "authored_template", "source": "authored"}
+{"text": "I have a yellow 👨🏽‍🎤.", "state": [4, 1065, 3197, 3652], "skill": "authored_template", "source": "authored"}
+{"text": "I have a green manual wheelchair.", "state": [4, 2997, 3197, 3653], "skill": "authored_template", "source": "authored"}
+{"text": "I have a green 🇹🇳.", "state": [4, 3921, 3197, 3653], "skill": "authored_template", "source": "authored"}
+{"text": "I have a white woman running: medium-light skin tone.", "state": [4, 1756, 3197, 7], "skill": "authored_template", "source": "authored"}
+{"text": "I have a yellow 🕵🏾‍♀️.", "state": [4, 1180, 3197, 3652], "skill": "authored_template", "source": "authored"}
+{"text": "I have a blue five o’clock.", "state": [4, 3056, 3197, 3654], "skill": "authored_template", "source": "authored"}
+{"text": "I have a black 🧑🏻‍🐰‍🧑🏽.", "state": [4, 1821, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "I have a blue woman elf: medium-light skin tone.", "state": [4, 1496, 3197, 3654], "skill": "authored_template", "source": "authored"}
+{"text": "I have a red ♻️.", "state": [4, 3579, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "I have a black waning crescent moon.", "state": [4, 3077, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "I have a white 🫷🏿.", "state": [4, 243, 3197, 7], "skill": "authored_template", "source": "authored"}
+{"text": "I have a white artist: medium-light skin tone.", "state": [4, 1076, 3197, 7], "skill": "authored_template", "source": "authored"}
+{"text": "I have a red 👩🏾‍❤️‍💋‍👩🏽.", "state": [4, 2454, 3197, 3650], "skill": "authored_template", "source": "authored"}
+{"text": "I have a green flag: Aruba.", "state": [4, 3705, 3197, 3653], "skill": "authored_template", "source": "authored"}
+{"text": "I have a green 🧑🏾‍🏫.", "state": [4, 898, 3197, 3653], "skill": "authored_template", "source": "authored"}
+{"text": "I have a black student: dark skin tone.", "state": [4, 881, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "I have a green 🏃🏽‍♂️‍➡️.", "state": [4, 1775, 3197, 3653], "skill": "authored_template", "source": "authored"}
+{"text": "I have a black person standing: medium-dark skin tone.", "state": [4, 1584, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "I have a green 👩🏽‍🫯‍👩🏾.", "state": [4, 2160, 3197, 3653], "skill": "authored_template", "source": "authored"}
+{"text": "I have a black mage: dark skin tone.", "state": [4, 1415, 3197, 3657], "skill": "authored_template", "source": "authored"}
+{"text": "I have a white 🧗‍♀️.", "state": [4, 1910, 3197, 7], "skill": "authored_template", "source": "authored"}
+{"text": "I have a white eleven o’clock.", "state": [4, 3068, 3197, 7], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 🔴 has.", "state": [10, 3650, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the calendar has.", "state": [10, 3367, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 👫 has.", "state": [10, 2306, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the man construction worker: medium-light skin tone has.", "state": [10, 1214, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 👨🏾‍❤️‍👨🏻 has.", "state": [10, 2530, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the wrapped gift has.", "state": [10, 3134, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 🚴🏾 has.", "state": [10, 2042, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the man playing water polo: dark skin tone has.", "state": [10, 2181, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 👩🏾‍🤝‍👩🏽 has.", "state": [10, 2298, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the cow has.", "state": [10, 2639, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 👩🏼‍🦽 has.", "state": [10, 1732, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the Japanese “open for business” button has.", "state": [10, 3648, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 🦓 has.", "state": [10, 2633, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the department store has.", "state": [10, 2935, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 😭 has.", "state": [10, 107, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the goose has.", "state": [10, 2694, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 👮🏾‍♀️ has.", "state": [10, 1162, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the flag: Canary Islands has.", "state": [10, 3797, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 🤹🏻‍♂️ has.", "state": [10, 2213, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the woman teacher: medium-dark skin tone has.", "state": [10, 910, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 👩🏾‍🦲 has.", "state": [10, 640, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the flag: Bhutan has.", "state": [10, 3724, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 🇬🇷 has.", "state": [10, 3785, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the Pisces has.", "state": [10, 3535, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 😲 has.", "state": [10, 96, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the joystick has.", "state": [10, 3179, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 👙 has.", "state": [10, 3220, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the flag: Angola has.", "state": [10, 3699, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 🏇🏾 has.", "state": [10, 1921, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the clipboard has.", "state": [10, 3375, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the 👩‍⚖️ has.", "state": [10, 924, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me what color the kiss: woman, woman, medium skin tone has.", "state": [10, 2449, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 🙎‍♂️?", "state": [10, 702, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the raised fist: medium skin tone?", "state": [10, 361, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 🕵🏻‍♂️?", "state": [10, 1171, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the woman swimming?", "state": [10, 1996, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 🧎🏼‍♂️?", "state": [10, 1606, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the nine o’clock?", "state": [10, 3064, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 🇩🇴?", "state": [10, 3755, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the heart with ribbon?", "state": [10, 146, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 👚?", "state": [10, 3221, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the gear?", "state": [10, 3406, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 👨🏼‍🐰‍👨🏿?", "state": [10, 1847, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the green salad?", "state": [10, 2835, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 🧎🏽‍♀️‍➡️?", "state": [10, 1625, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the handshake: medium-dark skin tone, medium skin tone?", "state": [10, 432, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 👩🏿‍🎨?", "state": [10, 1091, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the man: dark skin tone, curly hair?", "state": [10, 581, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 🪶?", "state": [10, 2688, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the man in motorized wheelchair: dark skin tone?", "state": [10, 1687, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the ♉?", "state": [10, 3525, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the prince: light skin tone?", "state": [10, 1231, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the ◀️?", "state": [10, 3543, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the flag: Somalia?", "state": [10, 3903, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 🕛?", "state": [10, 3046, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the woman feeding baby: medium skin tone?", "state": [10, 1335, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 🏄🏽‍♀️?", "state": [10, 1963, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the men wrestling: medium skin tone, light skin tone?", "state": [10, 2138, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 👩🏾‍🤝‍👨🏿?", "state": [10, 2326, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the person running: light skin tone?", "state": [10, 1743, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 🫈?", "state": [10, 1507, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the woman cook: light skin tone?", "state": [10, 961, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the 🕵🏼‍♀️?", "state": [10, 1178, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "Which color did I mention for the white heart?", "state": [10, 168, 3197], "skill": "authored_template", "source": "authored"}
+{"text": "The 👨🏻‍❤️‍💋‍👨🏻 can be found at the school.", "state": [4, 2411, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The flag: Poland can be found at the school.", "state": [4, 3876, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The 📽️ can be found at the park.", "state": [4, 3302, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The man construction worker: medium skin tone can be found at the school.", "state": [4, 1215, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The 🧣 can be found at the park.", "state": [4, 3210, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The kiss: woman, man, light skin tone can be found at the park.", "state": [4, 2385, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The 🇦🇩 can be found at the office.", "state": [4, 3692, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The jeans can be found at the house.", "state": [4, 3209, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "The 🛌🏼 can be found at the office.", "state": [4, 2250, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The minus can be found at the office.", "state": [4, 3566, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The 🪡 can be found at the house.", "state": [4, 3199, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "The person: dark skin tone, bald can be found at the house.", "state": [4, 647, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "The 👨🏽‍❤️‍👨🏾 can be found at the office.", "state": [4, 2528, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The farmer: dark skin tone can be found at the office.", "state": [4, 935, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The 🇻🇬 can be found at the house.", "state": [4, 3938, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "The kiss: woman, man, medium skin tone can be found at the beach.", "state": [4, 2397, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "The 🧑🏾‍🐰‍🧑🏽 can be found at the beach.", "state": [4, 1834, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "The woman wearing turban: medium-light skin tone can be found at the house.", "state": [4, 1256, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "The 👰🏻‍♂️ can be found at the beach.", "state": [4, 1297, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "The women wrestling: medium-dark skin tone, medium-light skin tone can be found at the school.", "state": [4, 2163, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The 👭🏾 can be found at the office.", "state": [4, 2299, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The mosquito can be found at the park.", "state": [4, 2734, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The 🧑‍🔧 can be found at the park.", "state": [4, 966, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The woman health worker: dark skin tone can be found at the office.", "state": [4, 875, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The 🇳🇫 can be found at the house.", "state": [4, 3860, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "The flag: Afghanistan can be found at the school.", "state": [4, 3694, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The 🤹🏽 can be found at the beach.", "state": [4, 2209, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "The envelope with arrow can be found at the school.", "state": [4, 3346, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The 🧝‍♀️ can be found at the office.", "state": [4, 1494, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The woman and man holding hands: medium skin tone, medium-light skin tone can be found at the office.", "state": [4, 2318, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The ▫️ can be found at the office.", "state": [4, 3672, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The woman superhero can be found at the school.", "state": [4, 1386, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 🪦 at the office.", "state": [4, 3459, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "I left the couple with heart: person, person, medium-light skin tone, medium skin tone at the school.", "state": [4, 2473, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "I left the ✍🏽 at the house.", "state": [4, 447, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "I left the fox at the house.", "state": [4, 2620, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 🧑🏾‍🤝‍🧑🏾 at the park.", "state": [4, 2273, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "I left the battery at the office.", "state": [4, 3286, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "I left the ♣️ at the office.", "state": [4, 3190, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "I left the selfie: light skin tone at the house.", "state": [4, 457, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 🧎🏾‍♂️‍➡️ at the house.", "state": [4, 1632, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "I left the flag: Curaçao at the office.", "state": [4, 3746, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 🐃 at the park.", "state": [4, 2638, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "I left the horse face at the beach.", "state": [4, 2628, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 👩🏼‍❤️‍💋‍👨🏾 at the park.", "state": [4, 2393, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "I left the ram at the office.", "state": [4, 2644, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 🙅‍♀️ at the office.", "state": [4, 726, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "I left the woman facepalming: medium-light skin tone at the house.", "state": [4, 836, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 🤷🏽‍♀️ at the beach.", "state": [4, 855, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "I left the person facepalming at the school.", "state": [4, 822, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "I left the ❄️ at the office.", "state": [4, 3110, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "I left the man: light skin tone, red hair at the school.", "state": [4, 571, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 🤑 at the beach.", "state": [4, 41, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "I left the AB button (blood type) at the school.", "state": [4, 3617, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 👨‍🏫 at the beach.", "state": [4, 900, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "I left the adhesive bandage at the office.", "state": [4, 3428, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 🆗 at the office.", "state": [4, 3628, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "I left the mermaid: medium skin tone at the beach.", "state": [4, 1479, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 🐘 at the beach.", "state": [4, 2651, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "I left the merperson: medium-light skin tone at the house.", "state": [4, 1466, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 🧑🏾‍🎤 at the office.", "state": [4, 1060, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "I left the man rowing boat: medium-dark skin tone at the school.", "state": [4, 1976, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "I left the 🫶🏻 at the house.", "state": [4, 395, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "I left the flag: Lithuania at the house.", "state": [4, 3830, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 🧑‍🦯 to the house.", "state": [3506, 1634, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the person in lotus position to the school.", "state": [3506, 2224, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 🌦️ to the office.", "state": [3506, 3096, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the handshake: medium-dark skin tone, medium-light skin tone to the beach.", "state": [3506, 431, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 🇰🇼 to the park.", "state": [3506, 3820, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the man biking: light skin tone to the house.", "state": [3506, 2045, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 🧖🏾‍♀️ to the house.", "state": [3506, 1896, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the alarm clock to the beach.", "state": [3506, 3042, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 🛀🏿 to the house.", "state": [3506, 2247, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the snowboarder: medium-light skin tone to the house.", "state": [3506, 1926, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 🧑🏻‍🍼 to the park.", "state": [3506, 1345, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the confetti ball to the school.", "state": [3506, 3125, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 👨🏾‍⚖️ to the house.", "state": [3506, 922, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the shaking face to the park.", "state": [3506, 62, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 🦠 to the house.", "state": [3506, 2737, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the man surfing: medium skin tone to the beach.", "state": [3506, 1957, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 👦 to the house.", "state": [3506, 522, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the plunger to the school.", "state": [3506, 3440, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 🧑🏽‍🤝‍🧑🏻 to the beach.", "state": [3506, 2265, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the people holding hands: light skin tone, dark skin tone to the office.", "state": [3506, 2259, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the ✡️ to the beach.", "state": [3506, 3514, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the raised back of hand: light skin tone to the house.", "state": [3506, 191, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 👢 to the beach.", "state": [3506, 3236, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the man running to the house.", "state": [3506, 1748, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 💂🏻 to the office.", "state": [3506, 1183, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the jack-o-lantern to the park.", "state": [3506, 3117, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 🖊️ to the office.", "state": [3506, 3359, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the woman: dark skin tone, beard to the school.", "state": [3506, 569, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 👨🏾‍❤️‍👨🏿 to the beach.", "state": [3506, 2534, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the man kneeling facing right: medium skin tone to the office.", "state": [3506, 1631, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the 👖 to the office.", "state": [3506, 3209, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "Change the location of the flag: Monaco to the park.", "state": [3506, 3835, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The 🏄🏾 has relocated to the park.", "state": [3506, 1952, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The couple with heart: woman, woman, medium skin tone, medium-light skin tone has relocated to the office.", "state": [3506, 2552, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The 👨🏾‍🎨 has relocated to the house.", "state": [3506, 1084, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "The kiss: man, man, medium-dark skin tone has relocated to the park.", "state": [3506, 2429, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The 👩🏾‍❤️‍👨🏽 has relocated to the school.", "state": [3506, 2506, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The old woman: light skin tone has relocated to the park.", "state": [3506, 673, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The 💂🏼‍♂️ has relocated to the school.", "state": [3506, 1190, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The worm has relocated to the beach.", "state": [3506, 2736, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "The 👩🏾‍🤝‍👩🏻 has relocated to the park.", "state": [3506, 2296, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The man: white hair has relocated to the house.", "state": [3506, 582, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "The 🛐 has relocated to the beach.", "state": [3506, 3511, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "The broken heart has relocated to the house.", "state": [3506, 154, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "The 🗣️ has relocated to the school.", "state": [3506, 2591, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The deaf woman: medium skin tone has relocated to the school.", "state": [3506, 801, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The 🦹🏼‍♀️ has relocated to the office.", "state": [3506, 1406, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The candy has relocated to the school.", "state": [3506, 2867, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The 🧜 has relocated to the school.", "state": [3506, 1464, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The water pistol has relocated to the beach.", "state": [3506, 3174, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "The 🦻 has relocated to the house.", "state": [3506, 488, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "The fried shrimp has relocated to the park.", "state": [3506, 2850, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The 🏊🏻‍♂️ has relocated to the park.", "state": [3506, 1991, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The turkey has relocated to the school.", "state": [3506, 2675, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The 🫴 has relocated to the house.", "state": [3506, 232, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "The soft ice cream has relocated to the park.", "state": [3506, 2857, 3376, 2914], "skill": "authored_template", "source": "authored"}
+{"text": "The 🪱 has relocated to the office.", "state": [3506, 2736, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The man bouncing ball: medium skin tone has relocated to the beach.", "state": [3506, 2011, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "The 🧑🏼‍🌾 has relocated to the office.", "state": [3506, 932, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The foot: light skin tone has relocated to the school.", "state": [3506, 477, 3376, 2934], "skill": "authored_template", "source": "authored"}
+{"text": "The 👨‍🦯‍➡️ has relocated to the beach.", "state": [3506, 1652, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "The flag: Côte d’Ivoire has relocated to the house.", "state": [3506, 3735, 3376, 2924], "skill": "authored_template", "source": "authored"}
+{"text": "The 🏇 has relocated to the office.", "state": [3506, 1917, 3376, 2926], "skill": "authored_template", "source": "authored"}
+{"text": "The women holding hands: medium-dark skin tone, medium skin tone has relocated to the beach.", "state": [3506, 2298, 3376, 2911], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 🙎🏿 is.", "state": [10, 701, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the man health worker: light skin tone is.", "state": [10, 865, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 👬 is.", "state": [10, 2332, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the wine glass is.", "state": [10, 2878, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 👌🏼 is.", "state": [10, 252, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the cook: light skin tone is.", "state": [10, 949, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 👯🏻‍♀️ is.", "state": [10, 1815, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the knot is.", "state": [10, 3201, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 🧑🏻‍🚒 is.", "state": [10, 1129, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the person: medium skin tone, beard is.", "state": [10, 555, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 👩🏻‍❤️‍💋‍👨🏼 is.", "state": [10, 2386, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the thumbs down is.", "state": [10, 352, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 👩🏼‍🦽‍➡️ is.", "state": [10, 1738, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the alembic is.", "state": [10, 3418, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 🕷️ is.", "state": [10, 2731, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the men with bunny ears: medium-dark skin tone, medium-light skin tone is.", "state": [10, 1853, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 💱 is.", "state": [10, 3576, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the person standing: light skin tone is.", "state": [10, 1581, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 🙏🏾 is.", "state": [10, 442, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the popcorn is.", "state": [10, 2836, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 🤎 is.", "state": [10, 165, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the skier is.", "state": [10, 1923, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 🤘🏿 is.", "state": [10, 297, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the woman judge: medium-light skin tone is.", "state": [10, 926, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 🧝 is.", "state": [10, 1482, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the bridge at night is.", "state": [10, 2957, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 🤞🏻 is.", "state": [10, 275, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the woman with headscarf: light skin tone is.", "state": [10, 1267, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 🤷🏿‍♂️ is.", "state": [10, 851, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the man judge: medium-light skin tone is.", "state": [10, 920, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the 🇬🇲 is.", "state": [10, 3781, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Tell me where the ballet dancer: dark skin tone is.", "state": [10, 1783, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 🧑🏿‍🫯‍🧑🏾.", "state": [10, 2129, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the woman guard: medium-dark skin tone.", "state": [10, 1198, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 🧑🏽‍🐰‍🧑🏿.", "state": [10, 1831, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the woman artist: medium-light skin tone.", "state": [10, 1088, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 🏷️.", "state": [10, 3331, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the flushed face.", "state": [10, 97, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 👩‍🔬.", "state": [10, 1032, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the grinning cat.", "state": [10, 132, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 👩🏽‍🎤.", "state": [10, 1071, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the person lifting weights: medium skin tone.", "state": [10, 2023, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 🏍️.", "state": [10, 2995, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the construction worker: medium-light skin tone.", "state": [10, 1208, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 🧍🏾‍♂️.", "state": [10, 1590, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the department store.", "state": [10, 2935, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 🤾‍♂️.", "state": [10, 2194, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the cactus.", "state": [10, 2755, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 🦸🏻.", "state": [10, 1375, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the motorway.", "state": [10, 3005, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 👨🏻‍🚀.", "state": [10, 1117, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the Santa Claus.", "state": [10, 1356, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 🐆.", "state": [10, 2627, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the man detective: medium-light skin tone.", "state": [10, 1172, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 🙋.", "state": [10, 768, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the left-facing fist: medium skin tone.", "state": [10, 373, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 👨🏾‍🦲.", "state": [10, 592, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the ghost.", "state": [10, 128, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 🇦🇽.", "state": [10, 3706, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the woman artist: light skin tone.", "state": [10, 1087, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 🧑🏾‍🎄.", "state": [10, 1372, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the basket.", "state": [10, 3448, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the 🧜‍♂️.", "state": [10, 1470, 3376], "skill": "authored_template", "source": "authored"}
+{"text": "Recall the location of the raised back of hand: dark skin tone.", "state": [10, 195, 3376], "skill": "authored_template", "source": "authored"}

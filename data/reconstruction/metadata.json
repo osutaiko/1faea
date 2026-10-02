@@ -1,0 +1,16 @@
+{
+  "source": "https://www.gutenberg.org/ebooks/11",
+  "source_sha256": "a3a27f8edbf7fcd9b8ba8435494440e24952deaa3e2f2d65192d4cb7ca403754",
+  "max_bytes": 48,
+  "chapters": {
+    "train": "1-9",
+    "validation": "10",
+    "test": "11-12"
+  },
+  "counts": {
+    "train": 2048,
+    "validation": 256,
+    "test": 256
+  },
+  "seed": 7
+}

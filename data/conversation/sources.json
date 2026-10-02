@@ -1,0 +1,12 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "model_revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+  "dataset": "HuggingFaceTB/everyday-conversations-llama3.1-2k",
+  "dataset_revision": "14f543216b9ba42b6b951dc5bd199460d193b162",
+  "counts": {
+    "train_sft": 2260,
+    "test_sft": 119
+  },
+  "model_license": "Apache-2.0",
+  "dataset_license": "Apache-2.0"
+}

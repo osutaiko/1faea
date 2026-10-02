@@ -1,0 +1,48 @@
+{"text": "The cat is located on the left side of the dog.", "orientation": 0, "left": 0, "right": 1, "form": "The {a} is located on the left side of the {b}."}
+{"text": "The dog is located on the right side of the cat.", "orientation": 1, "left": 0, "right": 1, "form": "The {b} is located on the right side of the {a}."}
+{"text": "Is the cat standing left of the dog?", "orientation": 0, "left": 0, "right": 1, "form": "Is the {a} standing left of the {b}?"}
+{"text": "Is the dog standing right of the cat?", "orientation": 1, "left": 0, "right": 1, "form": "Is the {b} standing right of the {a}?"}
+{"text": "The cat is located on the left side of the bird.", "orientation": 0, "left": 0, "right": 2, "form": "The {a} is located on the left side of the {b}."}
+{"text": "The bird is located on the right side of the cat.", "orientation": 1, "left": 0, "right": 2, "form": "The {b} is located on the right side of the {a}."}
+{"text": "Is the cat standing left of the bird?", "orientation": 0, "left": 0, "right": 2, "form": "Is the {a} standing left of the {b}?"}
+{"text": "Is the bird standing right of the cat?", "orientation": 1, "left": 0, "right": 2, "form": "Is the {b} standing right of the {a}?"}
+{"text": "The cat is located on the left side of the fish.", "orientation": 0, "left": 0, "right": 3, "form": "The {a} is located on the left side of the {b}."}
+{"text": "The fish is located on the right side of the cat.", "orientation": 1, "left": 0, "right": 3, "form": "The {b} is located on the right side of the {a}."}
+{"text": "Is the cat standing left of the fish?", "orientation": 0, "left": 0, "right": 3, "form": "Is the {a} standing left of the {b}?"}
+{"text": "Is the fish standing right of the cat?", "orientation": 1, "left": 0, "right": 3, "form": "Is the {b} standing right of the {a}?"}
+{"text": "The dog is located on the left side of the cat.", "orientation": 0, "left": 1, "right": 0, "form": "The {a} is located on the left side of the {b}."}
+{"text": "The cat is located on the right side of the dog.", "orientation": 1, "left": 1, "right": 0, "form": "The {b} is located on the right side of the {a}."}
+{"text": "Is the dog standing left of the cat?", "orientation": 0, "left": 1, "right": 0, "form": "Is the {a} standing left of the {b}?"}
+{"text": "Is the cat standing right of the dog?", "orientation": 1, "left": 1, "right": 0, "form": "Is the {b} standing right of the {a}?"}
+{"text": "The dog is located on the left side of the bird.", "orientation": 0, "left": 1, "right": 2, "form": "The {a} is located on the left side of the {b}."}
+{"text": "The bird is located on the right side of the dog.", "orientation": 1, "left": 1, "right": 2, "form": "The {b} is located on the right side of the {a}."}
+{"text": "Is the dog standing left of the bird?", "orientation": 0, "left": 1, "right": 2, "form": "Is the {a} standing left of the {b}?"}
+{"text": "Is the bird standing right of the dog?", "orientation": 1, "left": 1, "right": 2, "form": "Is the {b} standing right of the {a}?"}
+{"text": "The dog is located on the left side of the fish.", "orientation": 0, "left": 1, "right": 3, "form": "The {a} is located on the left side of the {b}."}
+{"text": "The fish is located on the right side of the dog.", "orientation": 1, "left": 1, "right": 3, "form": "The {b} is located on the right side of the {a}."}
+{"text": "Is the dog standing left of the fish?", "orientation": 0, "left": 1, "right": 3, "form": "Is the {a} standing left of the {b}?"}
+{"text": "Is the fish standing right of the dog?", "orientation": 1, "left": 1, "right": 3, "form": "Is the {b} standing right of the {a}?"}
+{"text": "The bird is located on the left side of the cat.", "orientation": 0, "left": 2, "right": 0, "form": "The {a} is located on the left side of the {b}."}
+{"text": "The cat is located on the right side of the bird.", "orientation": 1, "left": 2, "right": 0, "form": "The {b} is located on the right side of the {a}."}
+{"text": "Is the bird standing left of the cat?", "orientation": 0, "left": 2, "right": 0, "form": "Is the {a} standing left of the {b}?"}
+{"text": "Is the cat standing right of the bird?", "orientation": 1, "left": 2, "right": 0, "form": "Is the {b} standing right of the {a}?"}
+{"text": "The bird is located on the left side of the dog.", "orientation": 0, "left": 2, "right": 1, "form": "The {a} is located on the left side of the {b}."}
+{"text": "The dog is located on the right side of the bird.", "orientation": 1, "left": 2, "right": 1, "form": "The {b} is located on the right side of the {a}."}
+{"text": "Is the bird standing left of the dog?", "orientation": 0, "left": 2, "right": 1, "form": "Is the {a} standing left of the {b}?"}
+{"text": "Is the dog standing right of the bird?", "orientation": 1, "left": 2, "right": 1, "form": "Is the {b} standing right of the {a}?"}
+{"text": "The bird is located on the left side of the fish.", "orientation": 0, "left": 2, "right": 3, "form": "The {a} is located on the left side of the {b}."}
+{"text": "The fish is located on the right side of the bird.", "orientation": 1, "left": 2, "right": 3, "form": "The {b} is located on the right side of the {a}."}
+{"text": "Is the bird standing left of the fish?", "orientation": 0, "left": 2, "right": 3, "form": "Is the {a} standing left of the {b}?"}
+{"text": "Is the fish standing right of the bird?", "orientation": 1, "left": 2, "right": 3, "form": "Is the {b} standing right of the {a}?"}
+{"text": "The fish is located on the left side of the cat.", "orientation": 0, "left": 3, "right": 0, "form": "The {a} is located on the left side of the {b}."}
+{"text": "The cat is located on the right side of the fish.", "orientation": 1, "left": 3, "right": 0, "form": "The {b} is located on the right side of the {a}."}
+{"text": "Is the fish standing left of the cat?", "orientation": 0, "left": 3, "right": 0, "form": "Is the {a} standing left of the {b}?"}
+{"text": "Is the cat standing right of the fish?", "orientation": 1, "left": 3, "right": 0, "form": "Is the {b} standing right of the {a}?"}
+{"text": "The fish is located on the left side of the dog.", "orientation": 0, "left": 3, "right": 1, "form": "The {a} is located on the left side of the {b}."}
+{"text": "The dog is located on the right side of the fish.", "orientation": 1, "left": 3, "right": 1, "form": "The {b} is located on the right side of the {a}."}
+{"text": "Is the fish standing left of the dog?", "orientation": 0, "left": 3, "right": 1, "form": "Is the {a} standing left of the {b}?"}
+{"text": "Is the dog standing right of the fish?", "orientation": 1, "left": 3, "right": 1, "form": "Is the {b} standing right of the {a}?"}
+{"text": "The fish is located on the left side of the bird.", "orientation": 0, "left": 3, "right": 2, "form": "The {a} is located on the left side of the {b}."}
+{"text": "The bird is located on the right side of the fish.", "orientation": 1, "left": 3, "right": 2, "form": "The {b} is located on the right side of the {a}."}
+{"text": "Is the fish standing left of the bird?", "orientation": 0, "left": 3, "right": 2, "form": "Is the {a} standing left of the {b}?"}
+{"text": "Is the bird standing right of the fish?", "orientation": 1, "left": 3, "right": 2, "form": "Is the {b} standing right of the {a}?"}

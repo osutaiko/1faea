@@ -1,0 +1,701 @@
+# 🫪
+
+🫪 **[osutaiko/1faea](https://github.com/osutaiko/1faea)** 🫪 | **U+1FAEA: distorted face** 🫪
+
+🧠 💬 🚀 🔬 🧪 🤖 🌈 ✨ 🎉 📚 🧩 💡 🎯 📊 🔥 🛠️ ⚙️ 💻 🫪 🛠️ ⚙️ 💻 🎯 📊 🔥 📚 🧩 💡 🌈 ✨ 🎉 🔬 🧪 🤖 🧠 💬 🚀
+
+## Conversation prototype 🧠 💬 🚀 🫪
+
+🔬 🧪 🤖 `conversation.py` reads text, replies in emojis, and keeps
+emoji-only conversation 💬 memory 🧠. It uses frozen
+[SmolLM2-360M-Instruct](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct)
+with separately trained input and reply decoders. It generates no English answer to translate. The input decoder 🔓 selects
+atomic emoji states; the reply decoder 🔓 receives only those states and emoji
+history. Each output step rebuilds features from hard IDs. It retains no hidden states or KV cache.
+
+🌈 ✨ 🎉 The vocabulary 🔤 contains all 3,953 Unicode Emoji 17.0 sequences/components.
+The conversation 💬 curriculum covers 42 social, emotional, planning, and simple
+factual intents, plus preferences, corrections, selective recall, colors,
+locations, pronouns, choices, and small addition problems. See the state grammar in [data/conversation/GRAMMAR.md](data/conversation/GRAMMAR.md).
+Neural activations remain continuous.
+Committed states and memory 🧠 are discrete. This prototype 🧪 does not prove symbolic computation or general reasoning 🧩.
+
+✨ 🫪 🌈 🫪 ✨
+
+📚 🧩 💡 The second curriculum has 10,634 training 🏋️, 1,116 validation ✅, and 2,189 test
+rows. Emoji targets are authored directly. An offline
+[Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
+experiment generated English **user-message paraphrases**; reviewed candidates
+and additional authored input templates added 788 inputs. None exactly match normalized validation ✅ or test prompts. We rejected teacher answers,
+perspective changes, lost placeholders, and altered facts.
+Approved indices are bound to the reviewed source file's SHA-256. Conversation 💬 inference does not load this teacher. The downloaded
+[Everyday Conversations](https://huggingface.co/datasets/HuggingFaceTB/everyday-conversations-llama3.1-2k)
+corpus supplies an unscored natural-prompt audit, not supervised training 🏋️.
+Model revisions and source metadata are in `data/conversation/`.
+
+🎯 📊 🔥 Validation ✅ loss selects each run's input checkpoint 💾. Greedy validation ✅ selects the output head:
+
+| Input encoder | Exact emoji state on 1,116 validation rows |
+| --- | ---: |
+| Compositional baseline | 56.9% |
+| Reviewed input augmentation | 81.0% |
+| Augmentation with named-embedding output scores | 82.3% |
+
+🛠️ ⚙️ 💻 These scores use cached FP8 pretrained features. Runtime evaluation uses fresh
+features. The selected input checkpoint 💾 is step 1,800 of its 3,000-step
+adaptation. Its output scores use frozen named emoji embeddings rather than
+independent vocabulary 🔤 classifier rows. A separate 3,000-step memory 🧠 adaptation
+adds 768 examples with varied fact order, either queried object, and intervening
+social turns; 128 examples validate it. The selected
+memory 🧠 checkpoint 💾 is step 800. `runs/conversation-compositional/selected/`
+holds paired checkpoints 💾 and evaluation artifacts.
+
+```powershell
+# Interactive session: /reset clears memory; /quit exits.
+.venv\Scripts\python.exe -X utf8 conversation.py --experiment conversation-compositional --semantic-encoder chat --name selected
+# Show the committed states as well as the emoji replies:
+.venv\Scripts\python.exe -X utf8 conversation.py --experiment conversation-compositional --semantic-encoder generate --name selected --trace "I like pizza." "What do I like?"
+# Reproduce curriculum features, initial training, then the reviewed adaptations:
+.venv\Scripts\python.exe -X utf8 conversation.py --experiment conversation-compositional prepare --curriculum compositional
+.venv\Scripts\python.exe -X utf8 conversation.py --experiment conversation-compositional train --steps 6000
+.venv\Scripts\python.exe -X utf8 conversation_encoder_fit.py --name baseline --score-only
+.venv\Scripts\python.exe -X utf8 conversation_curate.py
+.venv\Scripts\python.exe -X utf8 conversation_encoder_fit.py --name augmented
+.venv\Scripts\python.exe -X utf8 conversation_encoder_fit.py --name semantic --semantic
+.venv\Scripts\python.exe -X utf8 conversation_memory_fit.py --name augmented
+.venv\Scripts\python.exe -X utf8 conversation_select.py
+# Experimental longer-dialogue adaptation; keep the earlier checkpoint:
+.venv\Scripts\python.exe -X utf8 conversation_dialogue_fit.py
+.venv\Scripts\python.exe -X utf8 conversation_semantic_audit.py
+.venv\Scripts\python.exe -X utf8 -m unittest test_model test_reconstruction test_semantic test_semantic_finetune test_semantic_pointer test_emoji_lm test_emoji_full test_conversation
+```
+
+🧠 💬 🚀 The selected short-memory 🧠 checkpoint 💾 achieved 79.8% exact replies, 76.8% exact
+input states, and 73.3% correct state-plus-reply traces on all 2,189 test rows.
+Replies given the intended state reached 92.5%; all replies terminated.
+The baseline scored 53.3%, 40.8%, and 39.5%, respectively. These scores assume correct history. They do not measure general conversation 💬 accuracy 🎯.
+
+✨ 🫪 🌈 🫪 ✨
+
+🔬 🧪 🤖 The additional `dialogue` checkpoint 💾 trains on 960 longer histories with 240
+validation ✅ examples, including incorrect assistant replies after user
+corrections. It reached 80.4% exact replies and 74.1% correct state-plus-reply
+traces on the same 2,189-row test. Its 17-turn development smoke test improved from 10 to 13 correct
+replies, but the eight swapped-color checks regressed from eight to three.
+Neither variant follows color/location query operators reliably when both
+attributes appear in the same history: changing only the operator changed no
+replies in four tested pairs. Correct replies can therefore mask incorrectly
+interpreted states. The 51 tests check implementation and data invariants. They do not prove language quality or reliable reasoning 🧩.
+
+🌈 ✨ 🎉 Text input is limited to 128 pretrained tokens, memory 🧠 to 128 emoji IDs, and
+each generated state/reply to 32 symbols. Old whole turns are evicted before
+the next input exceeds the memory 🧠 window. Literal emojis and exact Unicode
+names ground entity copying; ordinary aliases and plurals can be missed.
+The row benchmark supplies correct prior emoji history. `conversation_audit.py`
+separately tests history produced by the model itself, swapped color facts,
+and public natural prompts. Full test accuracy 🎯, oracle-state accuracy 🎯, and
+correct-state-plus-reply accuracy 🎯 must be distinguished. Shared templates,
+small controlled arithmetic, and synthetic facts about arbitrary emoji entities
+limit what this benchmark establishes. The original social-only run achieved
+70% exact replies but only 54.4% correct states on 810 test rows, despite 100%
+oracle-state replies. Open-ended conversation 💬 remains unreliable. This model is not ready for general use.
+
+## Full Unicode vocabulary 📚 🧩 💡 🫪
+
+🎯 📊 🔥 `emoji_full.py` is the spatial reasoning 🧩 experiment. Its alphabet contains all
+3,953 fully qualified emoji sequences and components in the official
+[Unicode Emoji 17.0 catalog](https://www.unicode.org/Public/17.0.0/emoji/emoji-test.txt),
+including flags, skin tones, genders, and joined sequences. Each sequence has one atomic integer ID. Alternate qualification spellings are not
+separate tokens; vendor artwork is not a separate vocabulary 🔤. Names and operator meanings are in
+`data/emoji-full/catalog.json`. Emoji names initialize frozen symbol embeddings;
+runtime reasoning 🧩 generates no intermediate English answer.
+
+🛠️ ⚙️ 💻 Nine IDs serve as operators or controls. The other 3,944 IDs can name entities
+in facts and questions. Training 🏋️ uses 7,888 generated two-fact examples covering
+every entity emoji. Validation ✅ and test use 256 and 512 new combinations.
+The decoder 🔓 also receives learned 🌱 pairwise ID-equality features. These preserve identity when name embeddings are similar. Equality is an input feature; there is no hand-written
+relation solver. Generation predicts one symbol per step. Each step rebuilds features from hard IDs.
+
+✨ 🫪 🌈 🫪 ✨
+
+🧠 💬 🚀 The initial expanded-vocabulary 🔤 run achieved 47.1% exact test continuations.
+After adding identity features, the checkpoint 💾 selected at step 1,000 of a
+2,000-step run achieved 100% exact, correctly terminated continuations on both
+emoji-state suites. These results 📊 cover held-out combinations. They do not cover unseen IDs or general language understanding.
+
+🔬 🧪 🤖 The clause parser was separately adapted on 2,048 clauses mixing official
+Unicode names and literal emoji glyphs across 40 left/right sentence forms.
+It was selected at step 600 of 1,000 using 256 validation ✅ clauses in four
+reserved forms. End-to-end output accuracy 🎯 was 100% on 93 name prompts and 96
+glyph prompts. Exact parsed-state accuracy 🎯 was 92/93 and 96/96, respectively;
+One incorrect name parse left the output unchanged. Names with
+sentence punctuation are excluded from that check; use their emoji glyphs.
+
+```powershell
+.venv\Scripts\python.exe -X utf8 emoji_full.py generate "The 🚲 is left of the 🧑🏽‍🚀. The 🧑🏽‍🚀 is left of the 🇰🇷. Is the 🚲 left of the 🇰🇷?"
+# Reproduce training using the existing pretrained/parser checkpoint:
+.venv\Scripts\python.exe -X utf8 emoji_full.py prepare
+.venv\Scripts\python.exe -X utf8 emoji_full.py train --steps 2000
+.venv\Scripts\python.exe -X utf8 emoji_full.py adapt-parser --steps 1000
+.venv\Scripts\python.exe -X utf8 -m unittest test_model test_reconstruction test_semantic test_semantic_finetune test_semantic_pointer test_emoji_lm test_emoji_full
+```
+
+🌈 ✨ 🎉 Checkpoints 💾 and metrics are in `runs/emoji-full/`. All 41 tests pass, including
+full-vocabulary 🔤 copying, atomic joined sequences, training 🏋️ coverage, held-out
+combination separation, and renaming-invariant ID-equality features.
+This remains a conditional language model for two spatial facts and one query.
+Its larger alphabet does not establish reasoning 🧩 about emotions, travel, food,
+or other topics represented by those emojis, and it is not ready for general use.
+
+## Autoregressive emoji model 📚 🧩 💡 🫪
+
+🎯 📊 🔥 Run the generative experiment with `emoji_lm.py`. It parses a text question and discards its text features. It then predicts an emoji programme, one symbol per step. It outputs a four-symbol inferred fact, then a verdict. For example:
+
+✨ 🫪 🌈 🫪 ✨
+
+```text
+📌🐱⬅️🐦✅
+```
+
+🛠️ ⚙️ 💻 The first four symbols assert that the cat is left of the bird. The final
+symbol answers the input query. The 13 embedded symbols have fixed meanings;
+`▶️` begins generation and `🔚` terminates it. The start symbol is input-only. Normal output hides the end symbol. The model learns the
+positions of fact markers, arguments, relation, verdict, and ending symbol.
+
+🧠 💬 🚀 The next-symbol head uses two causal transformer decoder 🔓 layers, initialized
+from the successful semantic pointer decoder 🔓. It combines learned 🌱 vocabulary 🔤 scores with attention that copies source entities.
+Next-symbol loss trains its verdict. Generation never calls the pointer classifier's deduction or answer methods. SmolLM2-135M supplies frozen
+features computed from the selected emoji source state. Each next-symbol step
+rebuilds those features and the prefix from integer IDs, without retaining
+hidden states or a key/value cache. The only ordinary-text computation is the
+independent clause parsing before the initial emoji state is selected.
+
+🔬 🧪 🤖 Training 🏋️ uses 384 grounded states and their six-symbol target continuations,
+including the ending symbol. Validation ✅ uses 96 held-out states. The selected
+checkpoint 💾 is step 2,000 of a 2,000-step CPU run, chosen by next-symbol validation ✅
+loss. Greedy generation produces exact, correctly terminated programmes on
+all 96 examples in each of the validation ✅, test, wording-challenge, and audit
+suites. These reuse the parser suites below. They test controlled grammar, not general language quality.
+
+```powershell
+.venv\Scripts\python.exe -X utf8 emoji_lm.py generate "The cat is left of the dog. The dog is left of the bird. Is the cat left of the bird?"
+.venv\Scripts\python.exe -X utf8 emoji_lm.py generate "The cat is left of the dog. The dog is left of the bird. Is the cat left of the bird?" --trace
+# Training requires the semantic pointer checkpoint described below:
+.venv\Scripts\python.exe -X utf8 emoji_lm.py prepare
+.venv\Scripts\python.exe -X utf8 emoji_lm.py train --steps 2000
+.venv\Scripts\python.exe -m unittest test_model test_reconstruction test_semantic test_semantic_finetune test_semantic_pointer test_emoji_lm
+```
+
+🌈 ✨ 🎉 Training 🏋️ records live in `data/emoji-lm/`; the checkpoint 💾 and detailed results 📊
+live in `runs/emoji-lm/`. All 37 tests pass, including normalized next-symbol
+probabilities, causal teacher forcing, fresh per-symbol computation from hard
+IDs, and a guard against borrowing the classifier's answer. This is a working
+conditional emoji language model for the four-entity, two-fact spatial domain;
+it remains far smaller in scope than a general-purpose assistant.
+
+✨ 🫪 🌈 🫪 ✨
+
+## Current source-copying prototype 📚 🧩 💡 🫪
+
+🎯 📊 🔥 Run the strongest current experiment with `semantic_pointer.py`. It reads
+ordinary text with SmolLM2-135M and emits fixed-meaning emoji states directly.
+Inference uses no intermediate text or relation solver.
+The pretrained backbone is frozen; learned 🌱 attention heads select source
+mentions and fact endpoints. Only integer emoji IDs cross reasoning 🧩 stages.
+
+🛠️ ⚙️ 💻 The text stage reads each of the three clauses separately. A lexical matcher
+grounds the named animals; a shared neural pointer head learns which of two
+mentions is the left endpoint. The other mention is the right endpoint.
+The head sees pretrained contextual features, normalized pretrained token
+embeddings, and learned 🌱 positions relative to the mentions. The deduction head
+selects endpoints from the four entities present in the two emoji facts. It
+never sees the original text. The answer head is reused from the frozen
+grounded baseline and sees only the expanded emoji state.
+
+🧠 💬 🚀 Training 🏋️ uses 480 automatically labeled clauses across 40 sentence forms and
+384 emoji-state examples from the original training 🏋️ chains. Parser validation ✅
+uses 48 clauses across four reserved forms. The selected checkpoint 💾 is step
+200 of a 1,200-step run, chosen using validation ✅ loss. Earlier text tests now serve as regression checks. The expanded corpus includes their syntax.
+
+| Suite | Examples | Correct answers | Fully correct traces |
+| --- | ---: | ---: | ---: |
+| Earlier validation regression | 96 | 100% | 100% |
+| Earlier test regression | 96 | 100% | 100% |
+| Reserved wording challenge | 96 | 100% | 100% |
+| Additional audit after checkpoint selection | 96 | 100% | 100% |
+
+🔬 🧪 🤖 The challenge was reserved before clause training 🏋️ but inspected during later
+architecture iterations. The additional wording audit was defined and run
+after the final checkpoint 💾 was selected, with no further training 🏋️. Neither
+suite's clauses appear in parser training 🏋️ or validation ✅. These test controlled grammar, not arbitrary English. Entity-renaming
+consistency is 100% across 2,304 emoji states; isolated inferred-fact reversal
+probes are correct for all 16 applicable pairs in each suite. All 37 project tests
+pass, including discrete boundaries, positional gradients, padding invariance,
+and checks that correct answers cannot conceal incorrect traces.
+
+✨ 🫪 🌈 🫪 ✨
+
+🌈 ✨ 🎉 `correct_trace` requires the parsed facts/query, canonical inferred fact, and
+answer all to match the labels. `novel_proof` requires that the inferred fact
+is entailed and is absent from the original facts. Neither metric proves the answer head uses the inferred fact when original facts remain present.
+
+```powershell
+.venv\Scripts\python.exe -X utf8 semantic_pointer.py generate "The cat is left of the dog. The dog is left of the bird. Is the cat left of the bird?" --trace
+# To train again, first train the grounded baseline if its answer checkpoint is missing:
+.venv\Scripts\python.exe -X utf8 semantic.py train
+.venv\Scripts\python.exe -X utf8 semantic_pointer.py prepare
+.venv\Scripts\python.exe -X utf8 semantic_pointer.py train --steps 1200
+.venv\Scripts\python.exe -m unittest test_model test_reconstruction test_semantic test_semantic_finetune test_semantic_pointer
+```
+
+📚 🧩 💡 Actual selected states for a positive query:
+
+```text
+📌🐱⬅️🐶 📌🐶⬅️🐦 ⚪⚪⚪⚪ 🔍🐱⬅️🐦
+📌🐱⬅️🐶 📌🐶⬅️🐦 📌🐱⬅️🐦 🔍🐱⬅️🐦
+✅
+```
+
+🎯 📊 🔥 Normal generation prints only the answer emoji; `--trace` prints diagnostic
+JSON. Prepared data are in `data/semantic-pointer/`; the current checkpoint 💾,
+evaluation, and smoke examples are in `runs/semantic-pointer/`. Intermediate
+experiment results 📊 are preserved in `runs/semantic-pointer-v1` through `v4`.
+
+🛠️ ⚙️ 💻 The supported domain is two separate positive left/right fact sentences
+forming a three-entity chain, followed by one left/right question comparing
+distinct entities, using the
+named cat, dog, bird, and fish. The fourth entity supports unknown queries.
+The grammar and marker tokens are fixed in code. This is a typed neural reasoner
+backed by a pretrained LLM, not yet a general autoregressive emoji language
+model. Computation within stages stays continuous. Discrete states carry information between stages.
+
+✨ 🫪 🌈 🫪 ✨
+
+## Semantic reasoning prototype 🧠 💬 🚀 🫪
+
+🔬 🧪 🤖 `semantic.py` implements the original grounded baseline: text -> selected semantic
+emoji IDs -> a fresh pretrained pass over those IDs -> selected derived fact ->
+a fresh pretrained pass -> emoji answer. It generates no text reasoning 🧩 trace or translated answer. Only integer symbol IDs cross stages;
+later stages receive no original-text features or key/value cache.
+
+🌈 ✨ 🎉 The vocabulary 🔤 has fixed meanings: `🐱🐶🐦🐟` identify cat, dog, bird, and fish;
+`📌A⬅️B` asserts A is left of B; `🔍A⬅️B` asks that relation; `⚪⚪⚪⚪`
+marks an unused fact slot. `✅`, `❌`, and `❓` mean proven true, proven false,
+and unknown from the supplied facts. This typed grammar is fixed in code. The
+neural parser selects entities, the neural transition selects the endpoints of
+one inferred fact, and the neural answer head selects the verdict.
+
+📚 🧩 💡 The frozen baseline reuses SmolLM2-135M weights with separate trained adapters.
+Meaning-word embeddings initialize atomic emoji embeddings once. Emoji stages directly use those embedding rows; they do
+not tokenize words or generate text. Each stage computes continuously. Only states are discrete; activations are not emojis.
+
+🎯 📊 🔥 Training 🏋️ uses 2,304 automatically labeled examples across six sentence forms,
+with supervised intermediate states. Validation ✅ and test each contain 96
+examples with held-out entity chains and new wording. The deduction adapter
+uses attention over individual emoji tokens with learned 🌱 positional embeddings.
+The answer adapter also trains on states containing only the inferred fact and
+query, including reversed facts with recomputed labels. Evaluation measures
+whether reversing that isolated fact changes the verdict correctly.
+A relation checker generates labels and evaluates proofs; generation
+does not call it. Frozen features are cached during training 🏋️. Inference computes
+each stage afresh from the preceding selected symbols.
+
+✨ 🫪 🌈 🫪 ✨
+
+```powershell
+.venv\Scripts\python.exe -X utf8 semantic.py train
+.venv\Scripts\python.exe -X utf8 semantic.py generate "The cat is left of the dog. The dog is left of the bird. Is the cat left of the bird?" --trace
+.venv\Scripts\python.exe -m unittest test_model test_reconstruction test_semantic
+```
+
+🛠️ ⚙️ 💻 Generated data live in `data/semantic/`; the adapter checkpoint 💾 and measured
+results 📊 live in `runs/semantic/`. Cache the pretrained model in `.hf-cache`. This experiment supports four entities, two chain facts, one
+deduction, and one relation query. It is an architecture prototype 🧪, not yet a
+general-purpose language model. The earlier experiments below use private
+codes and remain available for comparison.
+
+🧠 💬 🚀 The original 2,000-step CPU run achieves 100% training 🏋️ accuracy 🎯, but generalization
+fails: complete parsing accuracy 🎯 is 0% on both held-out wording sets. Final
+answer accuracy 🎯 is 47.9% on validation ✅ and 64.6% on test (always answering
+unknown achieves 50%). Given correct initial emoji states, deduction accuracy 🎯
+is 75% on validation ✅ and 21.9% on test. Given correct expanded states, answer
+accuracy 🎯 is 100% on both sets. See measurements in
+`runs/semantic-v1/heldout.json`. These results 📊 demonstrate functioning discrete
+boundaries, not reliable general reasoning 🧩. The answer head also sees the
+original emoji facts, so these measurements do not establish that it causally
+uses the added deduction. Revised probes test isolated facts. They do not prove full-state answers use the inferred fact. The
+new wording split differs from the original split, so results 📊 across versions
+are not a controlled comparison of the architecture alone.
+
+🔬 🧪 🤖 The revised 3,000-step CPU run reaches 100% training 🏋️ accuracy 🎯. Held-out results 📊
+remain poor:
+
+| Measurement | Validation (96) | Test (96) |
+| --- | ---: | ---: |
+| Complete text-to-state parsing | 0% | 6.25% |
+| Deduction given correct initial state | 40.6% | 25% |
+| Answer given correct expanded state | 100% | 100% |
+| End-to-end answer | 38.5% | 56.25% |
+| Correct isolated-fact reversal pairs | 16/16 | 16/16 |
+
+🌈 ✨ 🎉 Full results 📊 and example traces are in `runs/semantic/evaluation.json`. The
+interventions establish sensitivity to the meaning of an isolated inferred
+edge within this tiny vocabulary 🔤; they do not establish reliable deduction or
+use of that edge when the original facts are present. More sentence templates
+and an attention-based deduction head have not solved compositional
+generalization. Both text understanding and deduction still need stronger
+training 🏋️ or model adaptation before expanding this into a language model.
+
+✨ 🫪 🌈 🫪 ✨
+
+### Fine-tuning pretrained computation 📚 🧩 💡 🫪
+
+🎯 📊 🔥 `semantic_finetune.py` trains the final SmolLM2 transformer block and final
+normalization layer jointly with the parsing, deduction, and answer adapters.
+Earlier transformer layers and the atomic symbol embeddings remain frozen.
+All three stages share the adapted block. Training 🏋️ caches only outputs of the
+frozen prefix; the adapted block is recomputed with gradients every step.
+Inference recomputes the full prefix and adapted block for each stage, with only
+selected integer emoji IDs passed between stages.
+
+🛠️ ⚙️ 💻 The CPU experiment uses 600 steps with batch size eight on the same data and
+splits as the frozen baseline. It selects a checkpoint 💾 using validation ✅ loss
+on gold intermediate states every 100 steps, then evaluates the test set once.
+The heads train from scratch. The different training 🏋️ budget and checkpoint 💾
+selection mean this is a practical comparison, not an isolated causal test of
+backbone adaptation. Checkpoints 💾 record the adapted block and normalization
+weights; results 📊 record their parameter change to verify actual fine-tuning.
+
+```powershell
+.venv\Scripts\python.exe -X utf8 semantic_finetune.py train
+.venv\Scripts\python.exe -X utf8 semantic_finetune.py generate "The cat is left of the dog. The dog is left of the bird. Is the cat left of the bird?" --trace
+.venv\Scripts\python.exe -m unittest test_model test_reconstruction test_semantic test_semantic_finetune
+```
+
+🧠 💬 🚀 Outputs go to `runs/semantic-adapted/`; the frozen baseline
+remains in `runs/semantic/`. This adapts one block of the 135M model. The scope remains the four-entity relation prototype 🧪.
+
+🔬 🧪 🤖 The completed run adapts 3,540,672 pretrained parameters and selects step 200
+(validation ✅ loss 2.9095). The saved block differs from its pretrained weights
+by an L1 sum of 2,299.29. Results 📊 on the same test split are:
+
+✨ 🫪 🌈 🫪 ✨
+
+| Measurement | Frozen baseline | Adapted final block |
+| --- | ---: | ---: |
+| Complete text-to-state parsing | 6.25% | 0% |
+| Deduction given correct initial state | 25% | 12.5% |
+| Answer given correct expanded state | 100% | 51.0% |
+| End-to-end answer | 56.25% | 50% |
+| Correct isolated-fact reversal pairs | 16/16 | 0/16 |
+
+🌈 ✨ 🎉 Validation ✅ end-to-end accuracy 🎯 is also 50%. Validation ✅ loss rises after step
+200 while training 🏋️ loss falls, showing overfitting. This checkpoint 💾 does not
+improve the model and remains a separate experiment; the frozen baseline is
+retained. With fresh heads, a substantially smaller training 🏋️ budget, and only
+one adapted block, this result does not establish that broader backbone
+fine-tuning would fail. See results 📊 in
+`runs/semantic-adapted/evaluation.json`.
+
+## Earlier private-code prototype 📚 🧩 💡 🫪
+
+🎯 📊 🔥 A pretrained language model reads ordinary text. A learned 🌱 bottleneck converts
+that input into four discrete emoji tokens. Two learned 🌱 transition rounds each
+produce four new discrete emojis. An autoregressive decoder 🔓 answers using only
+emojis. It generates no text answer to translate.
+
+```text
+Text question
+    |
+Frozen SmolLM2-135M input encoder (continuous computation)
+    |
+Four hard emoji selections
+    |
+Transition -> four hard emoji selections
+    |
+Transition -> four hard emoji selections
+    |
+Emoji-only autoregressive answer
+```
+
+🛠️ ⚙️ 💻 Only selected emoji tokens cross the reasoning 🧩 boundaries. Transitions cannot
+read the text, its encoded features, earlier hidden states, or an attention cache.
+The answer decoder 🔓 sees only the final emoji state and previously emitted answer
+tokens. Every call reconstructs embeddings from those symbols. The input encoder 🔐
+is frozen; the bottleneck, transitions, embeddings, and answer decoder 🔓 are trained.
+Input features are standardized using training 🏋️-set statistics saved in the
+checkpoint 💾. Validation ✅ examples never contribute to those statistics.
+The transition head starts aligned with the emoji embeddings to favor retaining
+distinct input symbols; its weights are then freely trained.
+
+🧠 💬 🚀 This is an experimental adaptation of a pretrained language model, not a trained
+general-purpose assistant. Computation inside the encoder 🔐 and each transition is
+still numerical and continuous. The guarantee concerns information crossing
+stage boundaries, not every operation inside a transformer layer.
+
+✨ 🫪 🌈 🫪 ✨
+
+## Run 🔬 🧪 🤖 🫪
+
+🌈 ✨ 🎉 The environment is in `.venv`. Run in PowerShell:
+
+```powershell
+.venv\Scripts\python.exe -m unittest -v test_model
+.venv\Scripts\python.exe run.py train
+.venv\Scripts\python.exe run.py generate "Which animal says woof?"
+.venv\Scripts\python.exe run.py generate "Which animal says woof?" --trace
+```
+
+📚 🧩 💡 Generation prints only emojis to stdout. `--trace` explicitly
+prints diagnostic JSON containing the three emoji states and the answer.
+Model loading may print library diagnostics to stderr. CPU is the default;
+`run.py --device cuda train` requires a CUDA-enabled PyTorch installation.
+
+🎯 📊 🔥 For a fresh install, use Python 3.12+:
+
+```powershell
+uv --cache-dir .uv-cache venv --python 3.12 .venv
+uv --cache-dir .uv-cache pip install --python .venv\Scripts\python.exe -r requirements.txt
+```
+
+🛠️ ⚙️ 💻 The first run downloads SmolLM2-135M into `.hf-cache`. Training 🏋️ writes
+`runs/demo/model.pt` and `runs/demo/evaluation.json`. The checkpoint 💾 contains the
+trained emoji model; generation also requires the cached pretrained input encoder 🔐.
+
+✨ 🫪 🌈 🫪 ✨
+
+## Training objective 🧠 💬 🚀 🫪
+
+🔬 🧪 🤖 Only the final answer is supervised. Training prescribes no intermediate emoji traces or text reasoning 🧩 targets. Each answer token, followed by an invisible
+end-of-answer token, is predicted autoregressively with cross-entropy loss.
+
+🌈 ✨ 🎉 Training 🏋️ uses a straight-through argmax estimator: the forward pass selects
+exactly one emoji per slot; the backward pass uses a softmax gradient approximation.
+No sampling noise is added. Fixed weights produce the same choices during training and inference.
+Inference uses hard, deterministic argmax selections. This biased approximation may fail to optimize. End/start control tokens are used by the answer
+decoder 🔓 only; intermediate states contain exclusively allowlisted emojis.
+
+📚 🧩 💡 The internal alphabet is in `model.py`. Each full emoji is a single token,
+including variation selectors and composed keycap emojis. The text tokenizer uses a separate alphabet. Learned 🌱 internal meanings do
+not have to match conventional emoji meanings.
+
+## Data and evaluation 🎯 📊 🔥 🫪
+
+🛠️ ⚙️ 💻 The included 48 training 🏋️ questions and 15 distinct validation ✅ questions are a
+small, hand-written wiring check covering facts, yes/no questions, arithmetic,
+directions, and ordered multi-emoji answers. This dataset is too small for general language understanding. Validation ✅ includes close paraphrases.
+
+✨ 🫪 🌈 🫪 ✨
+
+🧠 💬 🚀 Add your own UTF-8 JSONL files, with one example per line:
+
+```json
+{"prompt":"Can a fish breathe underwater? Answer yes or no.","answer":"✅"}
+{"prompt":"Name the animal that barks, then the one that meows.","answer":"🐶🐱"}
+```
+
+```powershell
+.venv\Scripts\python.exe run.py train --data data/train.jsonl --validation data/validation.jsonl --steps 1000
+```
+
+🔬 🧪 🤖 Answers must use the allowlisted emojis and fit within 15 tokens plus the end
+token. Unsupported symbols are rejected. Input text is never silently truncated.
+Training 🏋️ and validation ✅ prompts must be disjoint. The answer never enters the
+input encoder 🔐. For a serious experiment, use a much larger dataset and hold out
+task families and compositions, not just wording.
+
+🌈 ✨ 🎉 Evaluation records deterministic exact answer accuracy 🎯, answer loss, and a state
+intervention: replace each example's final emoji state with another example's
+state. A loss increase shows sensitivity to the states; it does not establish
+multi-step reasoning 🧩. Several rounds can still learn a redundant code or collapse.
+Traces expose each choice. Readable symbols do not prove human-readable learned 🌱 reasoning 🧩.
+
+📚 🧩 💡 The included checkpoint 💾 was trained for 2,000 updates with seed 7:
+
+✨ 🫪 🌈 🫪 ✨
+
+| Measurement | Result |
+| --- | --- |
+| Training exact answers | 28/48 (58.3%) |
+| Validation exact answers | 6/15 (40.0%) |
+| Validation answer loss | 0.782 |
+| Validation loss with swapped final states | 2.832 |
+
+🎯 📊 🔥 These are development validation ✅ results 📊, not an untouched test benchmark.
+Performance remains weak: the model answers the meowing-pet question with a dog,
+confuses several numbers and directions, and misses the multi-emoji validation ✅
+answers. Some transitions repeat their input state. This run verifies a trainable
+discrete architecture, not general language competence or useful iterative reasoning 🧩.
+Use `--steps 2000` to run the same training 🏋️ length.
+
+🛠️ ⚙️ 💻 Architectural tests check hard states in training 🏋️ and inference, the inputs at
+each transition boundary, gradients from the answer into the quantizers, causal
+answer masking, composed emoji tokens, and deterministic emoji-only generation.
+
+## Self-supervised reconstruction experiment 🧠 💬 🚀 🫪
+
+🔬 🧪 🤖 `reconstruction.py` is a separate text autoencoder experiment. It trains directly
+on passages from [Project Gutenberg ebook 11](https://www.gutenberg.org/ebooks/11).
+Each passage is both input and reconstruction target. No question or intermediate emoji labels are needed. The downloaded source is
+`data/alice.txt`; source attribution and its SHA-256 are saved in
+`data/reconstruction/metadata.json`.
+
+```powershell
+.venv\Scripts\python.exe reconstruction.py prepare
+.venv\Scripts\python.exe reconstruction.py compare
+.venv\Scripts\python.exe reconstruction.py reconstruct "Alice was beginning to get very tired."
+.venv\Scripts\python.exe -m unittest -v test_model test_reconstruction
+```
+
+🌈 ✨ 🎉 The experiment uses 2,048 training 🏋️ passages from chapters 1-9, 256 validation ✅
+passages from chapter 10, and 256 test passages from chapters 11-12. Passages are
+12-48 UTF-8 bytes, whitespace is normalized, and duplicates across splits are
+removed before sampling. Very short leftover chunks are discarded. One small book cannot represent general language.
+
+✨ 🫪 🌈 🫪 ✨
+
+📚 🧩 💡 A small trainable byte transformer reads each passage. Fixed-position average
+pooling groups its features into 4, 16, 32, or 48 regions, each quantized to an emoji. The reconstruction
+decoder 🔓 receives only re-embedded selected emojis plus fixed slot positions;
+source features, source masks, and source lengths never reach it. Unlike the
+question-answer prototype 🧪, this probe trains its encoder 🔐 from scratch and does
+not use SmolLM2. Its text output measures information preservation. The final interface still answers in emojis.
+
+🎯 📊 🔥 Each discrete model has a matched continuous baseline with identical parameters,
+initial weights, batches, and optimizer schedule. The baseline uses soft mixtures
+of the same codebook instead of hard choices. Both learn with teacher-forced
+autoregressive reconstruction. The current comparison runs all eight models for 2,000 updates
+with seed 7. Checkpoints 💾 and full evaluation examples are saved in
+`runs/reconstruction-positional/`; `comparison.json` contains the measurements.
+Use `compare --slots 48` to train just the largest matched pair.
+The default reconstruction checkpoint 💾 is now `emoji-48.pt`.
+
+🛠️ ⚙️ 💻 Earlier attention-pooling results 📊, at 600 updates, remain in `runs/reconstruction/`
+for reference. These checkpoints 💾 use the removed attention-pooling architecture.
+Their results 📊 on the 256 held-out test passages were (lower loss is better):
+
+| State slots | Emoji loss | Continuous loss | Mean distinct emojis per passage |
+| --- | --- | --- | --- |
+| 4 | 2.214 | 2.145 | 1.03 |
+| 16 | 2.215 | 2.157 | 1.13 |
+| 32 | 2.215 | 2.155 | 1.32 |
+
+🧠 💬 🚀 Loss is teacher-forced negative log likelihood in nats per prediction, including
+the end token. It does not measure free reconstruction. All six earlier models
+had **0/16 exact greedy reconstructions** on the fixed test sample. Generation
+starts with only a start token and the bottleneck state, with no original text
+prefix supplied. The JSON also records free-generation byte accuracy 🎯, emoji
+usage, and loss when final states are shuffled between passages.
+
+✨ 🫪 🌈 🫪 ✨
+
+🔬 🧪 🤖 That run failed to demonstrate language compression. In the 32-slot
+emoji model, 69.1% of test passages selected the same emoji in every slot. Capacity grew, but learned 🌱 states mostly repeated symbols.
+Continuous baselines also reconstructed poorly. Discretization is not the only issue. These results 📊 motivated the positional pooling change.
+These are single-seed, short-training 🏋️ results 📊; no architecture was tuned against
+the test outcomes.
+
+🌈 ✨ 🎉 The additional tests verify the hard forward states, sole codebook connection
+into the decoder 🔓, causal masking, gradients into the source encoder 🔐, matched
+baseline parameters, and UTF-8 handling. Together with the original model tests,
+there are seventeen passing checks, including independence from other passages'
+padding lengths.
+
+### Positional pooling results 📚 🧩 💡 🫪
+
+🎯 📊 🔥 Each slot now pools a fixed region of a 48-byte padded input. Encoder 🔐 outputs at
+padding positions are zeroed before pooling, and padding is independent of the
+other passages in the batch. Token and positional embeddings start at matching
+scales so positions can influence encoding and decoding. The discrete decoder 🔓
+still receives only hard emoji choices through the codebook.
+
+🛠️ ⚙️ 💻 The architecture was checked on validation ✅ passages first. The final matched
+pairs used identical initial weights, training 🏋️ batches, and 2,000 updates:
+
+✨ 🫪 🌈 🫪 ✨
+
+| Slots | Emoji loss | Continuous loss | Emoji generated byte accuracy | Continuous generated byte accuracy |
+| --- | --- | --- | --- | --- |
+| 4 | 1.834 | 1.564 | 11.7% | 15.1% |
+| 16 | 1.443 | 0.154 | 22.4% | 94.0% |
+| 32 | 1.007 | 0.095 | 44.8% | 96.6% |
+| 48 | 0.461 | 0.018 | 81.2% | 99.1% |
+
+🧠 💬 🚀 Loss uses all 256 test passages. Generated byte accuracy 🎯 and exact reconstruction
+use the same fixed 16-passage sample as before. All discrete models still have
+0/16 exact reconstructions; the continuous 16-slot, 32-slot, and 48-slot models achieve
+4/16, 8/16, and 12/16 respectively. The 32-slot discrete model averages 11.73 distinct
+emojis per passage, with no all-identical states on the test set. Its shuffled
+state loss rises from 1.007 to 4.227, showing dependence on the encoded input.
+
+🔬 🧪 🤖 This shows a working baseline and a capacity effect. It does not prove emoji reasoning 🧩. The discrete
+32-slot model uses only 15 of the 69 available emojis across test passages and
+still loses substantial information. Improving hard-code learning and codebook
+usage is the next investigation. Training 🏋️ budgets differ between runs. Pooling alone cannot explain the improvement. The same test chapters have been reused across iterations; treat
+these as development results 📊 rather than an independent final benchmark.
+
+### Finite scalar quantization investigation 🌈 ✨ 🎉 🫪
+
+📚 🧩 💡 The opt-in scalar method uses `vector-quantize-pytorch`'s FSQ implementation,
+with two coordinates each rounded to eight levels. Its 64 fixed grid points map
+to the first 64 emojis in the existing alphabet. Each selected point is projected
+through a small nonlinear network into the decoder 🔓's memory 🧠. This is a function
+only of the chosen code and global learned 🌱 weights: no original continuous
+features bypass the quantizer. Tests verify exact recovery of every transmitted
+state from its integer code ID during training 🏋️ and inference, and gradients
+through the library's straight-through estimator.
+
+```powershell
+.venv\Scripts\python.exe reconstruction.py compare --slots 48 --quantization scalar --validation-only --output runs/reconstruction-fsq-48
+.venv\Scripts\python.exe reconstruction.py reconstruct "Alice was beginning to get very tired." --checkpoint runs/reconstruction-fsq-48/fsq-48.pt
+```
+
+🎯 📊 🔥 `--validation-only` saves validation ✅ results 📊 without evaluating test passages.
+The final 48-slot checkpoints 💾 were evaluated on the test passages after validation ✅
+selection; those additional measurements are in their saved `comparison.json`.
+
+✨ 🫪 🌈 🫪 ✨
+
+🛠️ ⚙️ 💻 At 32 slots, the initial linear scalar-to-memory 🧠 mapping recovered 10.1% of
+generated validation ✅ bytes. A nonlinear mapping raised that to 19.4% and used
+all 64 codes, but remained worse than the prior categorical model's 41.9%.
+Low code usage cannot fully explain poor copying.
+These were validation ✅-only trials; their reports are in `runs/reconstruction-fsq/`
+and `runs/reconstruction-fsq-mlp/`.
+
+🧠 💬 🚀 At 48 slots there is no pooling of adjacent byte positions. All methods below
+use the same training 🏋️ passages, seed 7, and 2,000 updates:
+
+| Method | Test loss | Generated byte accuracy | Exact passages | Codes used |
+| --- | --- | --- | --- | --- |
+| Categorical, 48 slots | 0.461 | 81.2% | 0/16 | 21/69 |
+| Scalar, 48 slots | 0.492 | 80.6% | 0/16 | 63/64 |
+| Continuous, 48 slots | 0.018 | 99.1% | 12/16 | Not discrete |
+
+🔬 🧪 🤖 The scalar checkpoint 💾 and final results 📊 are in `runs/reconstruction-fsq-48/`.
+The 48-slot categorical and continuous controls are in
+`runs/reconstruction-control-48/`, and copied into the active positional comparison.
+The categorical model remains the recommended discrete method. The improvement
+from 32 to 48 categorical slots is a capacity change, not a scalar-quantization
+improvement. FSQ improves code utilization but does not improve reconstruction
+in these experiments. It also uses a slightly smaller alphabet and a different
+decoder 🔓 projection, so this is not a perfectly isolated quantizer comparison.
+At 48 slots FSQ can transmit at most 288 bits versus about 293 for categorical
+quantization; both exceed the corresponding 32-slot capacities.
+
+🌈 ✨ 🎉 Next, recover exact characters and wording from hard codes. This probes information preservation. It does not prove learned 🌱 reasoning 🧩 or general language competence.
+
+✨ 🫪 🌈 🫪 ✨
+
+📚 🧩 💡 References for this method:
+
+- 🎯 📊 🔥 [Finite Scalar Quantization: VQ-VAE Made Simple](https://arxiv.org/abs/2309.15505)
+- [vector-quantize-pytorch implementation](https://github.com/lucidrains/vector-quantize-pytorch) 🛠️ ⚙️ 💻
+
+## References 🧠 💬 🚀 🫪
+
+- 🔬 🧪 🤖 [SmolLM2-135M model card](https://huggingface.co/HuggingFaceTB/SmolLM2-135M)
+- [Transformers AutoModel](https://huggingface.co/docs/transformers/en/model_doc/auto) 🌈 ✨ 🎉
+- [PyTorch hard Gumbel-softmax](https://docs.pytorch.org/docs/2.14/generated/torch.nn.functional.gumbel_softmax.html) 📚 🧩 💡
+  documents the same straight-through gradient trick; this prototype 🧪 uses argmax
+  without Gumbel sampling.

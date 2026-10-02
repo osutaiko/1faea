@@ -1,0 +1,810 @@
+{"text": "Howdy!", "state": [184], "reply": [184, 25], "skill": "greeting", "history": []}
+{"text": "Yo, anyone here?", "state": [184], "reply": [184, 25], "skill": "greeting", "history": []}
+{"text": "A very good afternoon to you.", "state": [184], "reply": [184, 25], "skill": "greeting", "history": []}
+{"text": "Much obliged.", "state": [438], "reply": [412, 25], "skill": "thanks", "history": []}
+{"text": "You have been a great help.", "state": [438], "reply": [412, 25], "skill": "thanks", "history": []}
+{"text": "Cheers for that!", "state": [438], "reply": [412, 25], "skill": "thanks", "history": []}
+{"text": "Until we meet again.", "state": [3432, 184], "reply": [184, 3088], "skill": "farewell", "history": []}
+{"text": "Time for me to sign off.", "state": [3432, 184], "reply": [184, 3088], "skill": "farewell", "history": []}
+{"text": "Take care, I am leaving.", "state": [3432, 184], "reply": [184, 3088], "skill": "farewell", "history": []}
+{"text": "That was my fault.", "state": [804], "reply": [412, 25], "skill": "apology", "history": []}
+{"text": "I owe you an apology.", "state": [804], "reply": [412, 25], "skill": "apology", "history": []}
+{"text": "Pardon my behavior.", "state": [804], "reply": [412, 25], "skill": "apology", "history": []}
+{"text": "Who am I talking to?", "state": [10, 131], "reply": [131, 178, 25], "skill": "identity", "history": []}
+{"text": "What kind of assistant is this?", "state": [10, 131], "reply": [131, 178, 25], "skill": "identity", "history": []}
+{"text": "Describe your role.", "state": [10, 131], "reply": [131, 178, 25], "skill": "identity", "history": []}
+{"text": "How can you assist me today?", "state": [10, 178], "reply": [178, 500, 412], "skill": "capabilities", "history": []}
+{"text": "I could use someone to talk to.", "state": [10, 178], "reply": [178, 500, 412], "skill": "capabilities", "history": []}
+{"text": "Is help available here?", "state": [10, 178], "reply": [178, 500, 412], "skill": "capabilities", "history": []}
+{"text": "Is this an emoji-only chatbot?", "state": [10, 25, 178], "reply": [25, 178, 8], "skill": "emoji_format", "history": []}
+{"text": "Could we converse entirely through emoji?", "state": [10, 25, 178], "reply": [25, 178, 8], "skill": "emoji_format", "history": []}
+{"text": "Explain your output format.", "state": [10, 25, 178], "reply": [25, 178, 8], "skill": "emoji_format", "history": []}
+{"text": "I feel blue.", "state": [66], "reply": [2594, 160, 482], "skill": "sadness", "history": []}
+{"text": "My spirits are low.", "state": [66], "reply": [2594, 160, 482], "skill": "sadness", "history": []}
+{"text": "I cannot stop feeling miserable.", "state": [66], "reply": [2594, 160, 482], "skill": "sadness", "history": []}
+{"text": "I am longing for companionship.", "state": [66, 2592], "reply": [2594, 412, 178], "skill": "loneliness", "history": []}
+{"text": "Being on my own is getting to me.", "state": [66, 2592], "reply": [2594, 412, 178], "skill": "loneliness", "history": []}
+{"text": "I feel disconnected from everyone.", "state": [66, 2592], "reply": [2594, 412, 178], "skill": "loneliness", "history": []}
+{"text": "I am on edge.", "state": [91], "reply": [2594, 3102, 2224], "skill": "anxiety", "history": []}
+{"text": "My mind will not settle down.", "state": [91], "reply": [2594, 3102, 2224], "skill": "anxiety", "history": []}
+{"text": "I have butterflies in my stomach.", "state": [91], "reply": [2594, 3102, 2224], "skill": "anxiety", "history": []}
+{"text": "I am seeing red.", "state": [117], "reply": [3102, 2224, 178], "skill": "anger", "history": []}
+{"text": "I am absolutely fuming.", "state": [117], "reply": [3102, 2224, 178], "skill": "anger", "history": []}
+{"text": "My patience has run out.", "state": [117], "reply": [3102, 2224, 178], "skill": "anger", "history": []}
+{"text": "I am over the moon.", "state": [15], "reply": [3124, 15, 388], "skill": "happiness", "history": []}
+{"text": "I could not be happier.", "state": [15], "reply": [3124, 15, 388], "skill": "happiness", "history": []}
+{"text": "I am walking on sunshine.", "state": [15], "reply": [3124, 15, 388], "skill": "happiness", "history": []}
+{"text": "I am running on empty.", "state": [69], "reply": [2248, 183], "skill": "tiredness", "history": []}
+{"text": "I could fall asleep standing up.", "state": [69], "reply": [2248, 183], "skill": "tiredness", "history": []}
+{"text": "I need to recharge.", "state": [69], "reply": [2248, 183], "skill": "tiredness", "history": []}
+{"text": "I am starving.", "state": [36, 2892], "reply": [2892, 2835, 36], "skill": "hunger", "history": []}
+{"text": "Any ideas for a bite to eat?", "state": [36, 2892], "reply": [2892, 2835, 36], "skill": "hunger", "history": []}
+{"text": "I am feeling peckish.", "state": [36, 2892], "reply": [2892, 2835, 36], "skill": "hunger", "history": []}
+{"text": "I am parched.", "state": [2886], "reply": [3115, 2886], "skill": "thirst", "history": []}
+{"text": "I could use something refreshing to drink.", "state": [2886], "reply": [3115, 2886], "skill": "thirst", "history": []}
+{"text": "Time to quench my thirst.", "state": [2886], "reply": [3115, 2886], "skill": "thirst", "history": []}
+{"text": "I am twiddling my thumbs.", "state": [115], "reply": [3178, 3321, 1544], "skill": "boredom", "history": []}
+{"text": "Give me an idea to beat boredom.", "state": [115], "reply": [3178, 3321, 1544], "skill": "boredom", "history": []}
+{"text": "I have an idle afternoon to fill.", "state": [115], "reply": [3178, 3321, 1544], "skill": "boredom", "history": []}
+{"text": "My hard work paid off.", "state": [3124], "reply": [3124, 84, 382], "skill": "celebrate", "history": []}
+{"text": "I have an achievement to celebrate.", "state": [3124], "reply": [3124, 84, 382], "skill": "celebrate", "history": []}
+{"text": "I succeeded after many attempts.", "state": [3124], "reply": [3124, 84, 382], "skill": "celebrate", "history": []}
+{"text": "I am turning a year older.", "state": [2862], "reply": [2862, 3124, 3134], "skill": "birthday", "history": []}
+{"text": "Today marks the day I was born.", "state": [2862], "reply": [2862, 3124, 3134], "skill": "birthday", "history": []}
+{"text": "Send birthday wishes.", "state": [2862], "reply": [2862, 3124, 3134], "skill": "birthday", "history": []}
+{"text": "Give me a boost of confidence.", "state": [3171, 462], "reply": [462, 3088, 388], "skill": "encouragement", "history": []}
+{"text": "Remind me I can persevere.", "state": [3171, 462], "reply": [462, 3088, 388], "skill": "encouragement", "history": []}
+{"text": "I need a little push to get going.", "state": [3171, 462], "reply": [462, 3088, 388], "skill": "encouragement", "history": []}
+{"text": "What is a sensible way to review my lessons?", "state": [3171, 3321], "reply": [3321, 3362, 3043, 2873], "skill": "study", "history": []}
+{"text": "Help me get ready for a test.", "state": [3171, 3321], "reply": [3321, 3362, 3043, 2873], "skill": "study", "history": []}
+{"text": "I want a learning schedule.", "state": [3171, 3321], "reply": [3321, 3362, 3043, 2873], "skill": "study", "history": []}
+{"text": "I want to improve my physical activity.", "state": [3171, 1742], "reply": [1544, 1742, 3115, 2248], "skill": "exercise", "history": []}
+{"text": "How should a beginner approach working out?", "state": [3171, 1742], "reply": [1544, 1742, 3115, 2248], "skill": "exercise", "history": []}
+{"text": "Give me a simple movement plan.", "state": [3171, 1742], "reply": [1544, 1742, 3115, 2248], "skill": "exercise", "history": []}
+{"text": "What habits might help me rest at night?", "state": [3171, 69], "reply": [3488, 3078, 2248, 183], "skill": "sleep_plan", "history": []}
+{"text": "Help me settle down for bedtime.", "state": [3171, 69], "reply": [3488, 3078, 2248, 183], "skill": "sleep_plan", "history": []}
+{"text": "I want better nighttime rest.", "state": [3171, 69], "reply": [3488, 3078, 2248, 183], "skill": "sleep_plan", "history": []}
+{"text": "I need to decompress.", "state": [3171, 2224], "reply": [3102, 2224, 3259], "skill": "relax", "history": []}
+{"text": "Suggest something soothing.", "state": [3171, 2224], "reply": [3102, 2224, 3259], "skill": "relax", "history": []}
+{"text": "Help me slow things down.", "state": [3171, 2224], "reply": [3102, 2224, 3259], "skill": "relax", "history": []}
+{"text": "I would like a checklist for going away.", "state": [3171, 3024], "reply": [2902, 3227, 3137, 3024], "skill": "travel_plan", "history": []}
+{"text": "How do I get ready to travel?", "state": [3171, 3024], "reply": [2902, 3227, 3137, 3024], "skill": "travel_plan", "history": []}
+{"text": "Suggest steps for an upcoming trip.", "state": [3171, 3024], "reply": [2902, 3227, 3137, 3024], "skill": "travel_plan", "history": []}
+{"text": "Make a list of things to bring on holiday.", "state": [3171, 3227], "reply": [3208, 3453, 3280, 3137, 3227], "skill": "packing", "history": []}
+{"text": "What should go into my luggage?", "state": [3171, 3227], "reply": [3208, 3453, 3280, 3137, 3227], "skill": "packing", "history": []}
+{"text": "Help me remember the basics to pack.", "state": [3171, 3227], "reply": [3208, 3453, 3280, 3137, 3227], "skill": "packing", "history": []}
+{"text": "How can a beginner get started in the kitchen?", "state": [3171, 2830], "reply": [2790, 2895, 2830, 2892], "skill": "cooking", "history": []}
+{"text": "Walk me through preparing dinner.", "state": [3171, 2830], "reply": [2790, 2895, 2830, 2892], "skill": "cooking", "history": []}
+{"text": "I want an uncomplicated cooking sequence.", "state": [3171, 2830], "reply": [2790, 2895, 2830, 2892], "skill": "cooking", "history": []}
+{"text": "What helps a young plant thrive?", "state": [3171, 2750], "reply": [2750, 2751, 3115, 3083], "skill": "gardening", "history": []}
+{"text": "I am a beginner with plants.", "state": [3171, 2750], "reply": [2750, 2751, 3115, 3083], "skill": "gardening", "history": []}
+{"text": "Suggest a plant care routine.", "state": [3171, 2750], "reply": [2750, 2751, 3115, 3083], "skill": "gardening", "history": []}
+{"text": "There is a downpour outside.", "state": [3107], "reply": [3107, 3212], "skill": "rain", "history": []}
+{"text": "What would help on a rainy walk?", "state": [3107], "reply": [3107, 3212], "skill": "rain", "history": []}
+{"text": "I am heading out into a shower.", "state": [3107], "reply": [3107, 3212], "skill": "rain", "history": []}
+{"text": "I am heading out under a blazing sun.", "state": [3083], "reply": [3242, 3203, 3115], "skill": "sun", "history": []}
+{"text": "What is useful on a hot sunny walk?", "state": [3083], "reply": [3242, 3203, 3115], "skill": "sun", "history": []}
+{"text": "It is a very bright afternoon.", "state": [3083], "reply": [3242, 3203, 3115], "skill": "sun", "history": []}
+{"text": "I am in the mood for melodies.", "state": [10, 3259], "reply": [3259, 3265, 25], "skill": "music", "history": []}
+{"text": "Help me enjoy some songs.", "state": [10, 3259], "reply": [3259, 3265, 25], "skill": "music", "history": []}
+{"text": "I could use a soundtrack for my day.", "state": [10, 3259], "reply": [3259, 3265, 25], "skill": "music", "history": []}
+{"text": "I am in the mood for a good novel.", "state": [10, 3321], "reply": [3321, 2873, 25], "skill": "reading", "history": []}
+{"text": "I want a quiet afternoon with a book.", "state": [10, 3321], "reply": [3321, 2873, 25], "skill": "reading", "history": []}
+{"text": "Suggest a cozy reading session.", "state": [10, 3321], "reply": [3321, 2873, 25], "skill": "reading", "history": []}
+{"text": "I am in the mood for a controller and a game.", "state": [10, 3178], "reply": [3178, 25, 3043], "skill": "gaming", "history": []}
+{"text": "I want a little gaming session.", "state": [10, 3178], "reply": [3178, 25, 3043], "skill": "gaming", "history": []}
+{"text": "Help me plan some time for games.", "state": [10, 3178], "reply": [3178, 25, 3043], "skill": "gaming", "history": []}
+{"text": "I want to express myself with colors.", "state": [10, 3197], "reply": [3197, 3360, 25], "skill": "art", "history": []}
+{"text": "Suggest something to do with a paintbrush.", "state": [10, 3197], "reply": [3197, 3360, 25], "skill": "art", "history": []}
+{"text": "I could use a creative outlet.", "state": [10, 3197], "reply": [3197, 3360, 25], "skill": "art", "history": []}
+{"text": "What creature is known for meowing?", "state": [10, 0, 2591], "reply": [0, 2591, 3259], "skill": "cats", "history": []}
+{"text": "Identify the animal that purrs and meows.", "state": [10, 0, 2591], "reply": [0, 2591, 3259], "skill": "cats", "history": []}
+{"text": "How do cats vocalize?", "state": [10, 0, 2591], "reply": [0, 2591, 3259], "skill": "cats", "history": []}
+{"text": "Which insect is responsible for honey?", "state": [10, 2726, 2870], "reply": [2726, 3494, 2870], "skill": "bees", "history": []}
+{"text": "How are bees related to honey?", "state": [10, 2726, 2870], "reply": [2726, 3494, 2870], "skill": "bees", "history": []}
+{"text": "Name the creature that makes honey.", "state": [10, 2726, 2870], "reply": [2726, 3494, 2870], "skill": "bees", "history": []}
+{"text": "What sort of home does a fish have?", "state": [10, 3, 2924], "reply": [3, 3116], "skill": "fish_home", "history": []}
+{"text": "Describe the natural surroundings of fish.", "state": [10, 3, 2924], "reply": [3, 3116], "skill": "fish_home", "history": []}
+{"text": "Where are fish usually found?", "state": [10, 3, 2924], "reply": [3, 3116], "skill": "fish_home", "history": []}
+{"text": "What body part allows many birds to fly?", "state": [10, 2, 2692], "reply": [2, 2692, 3091], "skill": "bird_flight", "history": []}
+{"text": "Explain birds taking flight.", "state": [10, 2, 2692], "reply": [2, 2692, 3091], "skill": "bird_flight", "history": []}
+{"text": "How are wings useful to birds?", "state": [10, 2, 2692], "reply": [2, 2692, 3091], "skill": "bird_flight", "history": []}
+{"text": "Explain how plants get energy from the sun.", "state": [10, 2750, 3083], "reply": [2750, 3083, 3115, 3494, 2757], "skill": "photosynthesis", "history": []}
+{"text": "What do plants do with light and water?", "state": [10, 2750, 3083], "reply": [2750, 3083, 3115, 3494, 2757], "skill": "photosynthesis", "history": []}
+{"text": "Describe photosynthesis using emojis.", "state": [10, 2750, 3083], "reply": [2750, 3083, 3115, 3494, 2757], "skill": "photosynthesis", "history": []}
+{"text": "Describe evaporation, clouds, and precipitation.", "state": [10, 3115, 3506], "reply": [3116, 3083, 3091, 3097, 3116], "skill": "water_cycle", "history": []}
+{"text": "Show the journey from ocean water to rain.", "state": [10, 3115, 3506], "reply": [3116, 3083, 3091, 3097, 3116], "skill": "water_cycle", "history": []}
+{"text": "What happens during the hydrologic cycle?", "state": [10, 3115, 3506], "reply": [3116, 3083, 3091, 3097, 3116], "skill": "water_cycle", "history": []}
+{"text": "Explain turning waste into useful material.", "state": [10, 3579], "reply": [3384, 3579, 2898], "skill": "recycling", "history": []}
+{"text": "How does recycling support the environment?", "state": [10, 3579], "reply": [3384, 3579, 2898], "skill": "recycling", "history": []}
+{"text": "I want to reduce what I throw away.", "state": [10, 3579], "reply": [3384, 3579, 2898], "skill": "recycling", "history": []}
+{"text": "Predict the precise outcome of next week.", "state": [10], "reply": [47, 10], "skill": "unsupported", "history": []}
+{"text": "What secrets does my neighbor have?", "state": [10], "reply": [47, 10], "skill": "unsupported", "history": []}
+{"text": "Look up the live price of this asset.", "state": [10], "reply": [47, 10], "skill": "unsupported", "history": []}
+{"text": "Sort out whatever needs sorting.", "state": [3571], "reply": [47, 10, 178], "skill": "clarification", "history": []}
+{"text": "It is that thing again.", "state": [3571], "reply": [47, 10, 178], "skill": "clarification", "history": []}
+{"text": "Handle it for me.", "state": [3571], "reply": [47, 10, 178], "skill": "clarification", "history": []}
+{"text": "I cannot stand 👨‍💻.", "state": [154, 1044], "reply": [250, 3482, 1044], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1044], "skill": "recall", "history": [2592, 154, 1044, 3676, 131, 250, 3482, 1044, 3676]}
+{"text": "Actually, I prefer 👩‍👩‍👧 instead.", "state": [3506, 147, 2577], "reply": [250, 147, 2577], "skill": "correction", "history": [2592, 154, 1044, 3676, 131, 250, 3482, 1044, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2577], "skill": "updated_recall", "history": [2592, 154, 1044, 3676, 131, 250, 3482, 1044, 3676, 2592, 3506, 147, 2577, 3676, 131, 250, 147, 2577, 3676]}
+{"text": "I cannot stand man bouncing ball: dark skin tone.", "state": [154, 2013], "reply": [250, 3482, 2013], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2013], "skill": "recall", "history": [2592, 154, 2013, 3676, 131, 250, 3482, 2013, 3676]}
+{"text": "I really enjoy 👩🏾.", "state": [147, 598], "reply": [346, 598], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 598], "skill": "recall", "history": [2592, 147, 598, 3676, 131, 346, 598, 3676]}
+{"text": "I really enjoy singer: medium skin tone.", "state": [147, 1059], "reply": [346, 1059], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1059], "skill": "recall", "history": [2592, 147, 1059, 3676, 131, 346, 1059, 3676]}
+{"text": "Actually, I prefer 👳🏽 instead.", "state": [3506, 147, 1245], "reply": [250, 147, 1245], "skill": "correction", "history": [2592, 147, 1059, 3676, 131, 346, 1059, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1245], "skill": "updated_recall", "history": [2592, 147, 1059, 3676, 131, 346, 1059, 3676, 2592, 3506, 147, 1245, 3676, 131, 250, 147, 1245, 3676]}
+{"text": "I cannot stand 🎢.", "state": [154, 2962], "reply": [250, 3482, 2962], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2962], "skill": "recall", "history": [2592, 154, 2962, 3676, 131, 250, 3482, 2962, 3676]}
+{"text": "I really enjoy dim button.", "state": [147, 3555], "reply": [346, 3555], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3555], "skill": "recall", "history": [2592, 147, 3555, 3676, 131, 346, 3555, 3676]}
+{"text": "I really enjoy 🧏🏽‍♀️.", "state": [147, 801], "reply": [346, 801], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 801], "skill": "recall", "history": [2592, 147, 801, 3676, 131, 346, 801, 3676]}
+{"text": "Actually, I prefer 🇯🇴 instead.", "state": [3506, 147, 3810], "reply": [250, 147, 3810], "skill": "correction", "history": [2592, 147, 801, 3676, 131, 346, 801, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3810], "skill": "updated_recall", "history": [2592, 147, 801, 3676, 131, 346, 801, 3676, 2592, 3506, 147, 3810, 3676, 131, 250, 147, 3810, 3676]}
+{"text": "I really enjoy flag: French Polynesia.", "state": [147, 3872], "reply": [346, 3872], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3872], "skill": "recall", "history": [2592, 147, 3872, 3676, 131, 346, 3872, 3676]}
+{"text": "I really enjoy 👩🏽‍🔬.", "state": [147, 1035], "reply": [346, 1035], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1035], "skill": "recall", "history": [2592, 147, 1035, 3676, 131, 346, 1035, 3676]}
+{"text": "I really enjoy index pointing at the viewer.", "state": [147, 340], "reply": [346, 340], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 340], "skill": "recall", "history": [2592, 147, 340, 3676, 131, 346, 340, 3676]}
+{"text": "Actually, I prefer 🙍🏽‍♀️ instead.", "state": [3506, 147, 693], "reply": [250, 147, 693], "skill": "correction", "history": [2592, 147, 340, 3676, 131, 346, 340, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 693], "skill": "updated_recall", "history": [2592, 147, 340, 3676, 131, 346, 340, 3676, 2592, 3506, 147, 693, 3676, 131, 250, 147, 693, 3676]}
+{"text": "I really enjoy 🚵.", "state": [147, 2056], "reply": [346, 2056], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2056], "skill": "recall", "history": [2592, 147, 2056, 3676, 131, 346, 2056, 3676]}
+{"text": "I really enjoy woman climbing: medium skin tone.", "state": [147, 1913], "reply": [346, 1913], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1913], "skill": "recall", "history": [2592, 147, 1913, 3676, 131, 346, 1913, 3676]}
+{"text": "I cannot stand 👨🏾‍🔬.", "state": [154, 1030], "reply": [250, 3482, 1030], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1030], "skill": "recall", "history": [2592, 154, 1030, 3676, 131, 250, 3482, 1030, 3676]}
+{"text": "Actually, I prefer 👮🏻‍♂️ instead.", "state": [3506, 147, 1153], "reply": [250, 147, 1153], "skill": "correction", "history": [2592, 154, 1030, 3676, 131, 250, 3482, 1030, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 1153], "skill": "updated_recall", "history": [2592, 154, 1030, 3676, 131, 250, 3482, 1030, 3676, 2592, 3506, 147, 1153, 3676, 131, 250, 147, 1153, 3676]}
+{"text": "I really enjoy women with bunny ears: light skin tone.", "state": [147, 1815], "reply": [346, 1815], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1815], "skill": "recall", "history": [2592, 147, 1815, 3676, 131, 346, 1815, 3676]}
+{"text": "I cannot stand 👆🏽.", "state": [154, 319], "reply": [250, 3482, 319], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 319], "skill": "recall", "history": [2592, 154, 319, 3676, 131, 250, 3482, 319, 3676]}
+{"text": "I cannot stand person in motorized wheelchair: medium-dark skin tone.", "state": [154, 1674], "reply": [250, 3482, 1674], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1674], "skill": "recall", "history": [2592, 154, 1674, 3676, 131, 250, 3482, 1674, 3676]}
+{"text": "Actually, I prefer 🇳🇫 instead.", "state": [3506, 147, 3860], "reply": [250, 147, 3860], "skill": "correction", "history": [2592, 154, 1674, 3676, 131, 250, 3482, 1674, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 3860], "skill": "updated_recall", "history": [2592, 154, 1674, 3676, 131, 250, 3482, 1674, 3676, 2592, 3506, 147, 3860, 3676, 131, 250, 147, 3860, 3676]}
+{"text": "I really enjoy 🔑.", "state": [147, 3389], "reply": [346, 3389], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3389], "skill": "recall", "history": [2592, 147, 3389, 3676, 131, 346, 3389, 3676]}
+{"text": "I cannot stand fast reverse button.", "state": [154, 3544], "reply": [250, 3482, 3544], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3544], "skill": "recall", "history": [2592, 154, 3544, 3676, 131, 250, 3482, 3544, 3676]}
+{"text": "I really enjoy 🙎🏼‍♀️.", "state": [147, 710], "reply": [346, 710], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 710], "skill": "recall", "history": [2592, 147, 710, 3676, 131, 346, 710, 3676]}
+{"text": "Actually, I prefer 👨🏼‍🏭 instead.", "state": [3506, 147, 992], "reply": [250, 147, 992], "skill": "correction", "history": [2592, 147, 710, 3676, 131, 346, 710, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 992], "skill": "updated_recall", "history": [2592, 147, 710, 3676, 131, 346, 710, 3676, 2592, 3506, 147, 992, 3676, 131, 250, 147, 992, 3676]}
+{"text": "I cannot stand kiss: medium-light skin tone.", "state": [154, 2360], "reply": [250, 3482, 2360], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2360], "skill": "recall", "history": [2592, 154, 2360, 3676, 131, 250, 3482, 2360, 3676]}
+{"text": "I really enjoy 🇮🇹.", "state": [147, 3807], "reply": [346, 3807], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3807], "skill": "recall", "history": [2592, 147, 3807, 3676, 131, 346, 3807, 3676]}
+{"text": "I cannot stand steaming bowl.", "state": [154, 2845], "reply": [250, 3482, 2845], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2845], "skill": "recall", "history": [2592, 154, 2845, 3676, 131, 250, 3482, 2845, 3676]}
+{"text": "Actually, I prefer 👸 instead.", "state": [3506, 147, 1236], "reply": [250, 147, 1236], "skill": "correction", "history": [2592, 154, 2845, 3676, 131, 250, 3482, 2845, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 1236], "skill": "updated_recall", "history": [2592, 154, 2845, 3676, 131, 250, 3482, 2845, 3676, 2592, 3506, 147, 1236, 3676, 131, 250, 147, 1236, 3676]}
+{"text": "I cannot stand 🚵🏾‍♀️.", "state": [154, 2072], "reply": [250, 3482, 2072], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2072], "skill": "recall", "history": [2592, 154, 2072, 3676, 131, 250, 3482, 2072, 3676]}
+{"text": "I cannot stand man fairy: dark skin tone.", "state": [154, 1439], "reply": [250, 3482, 1439], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1439], "skill": "recall", "history": [2592, 154, 1439, 3676, 131, 250, 3482, 1439, 3676]}
+{"text": "I really enjoy 🇭🇰.", "state": [147, 3791], "reply": [346, 3791], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3791], "skill": "recall", "history": [2592, 147, 3791, 3676, 131, 346, 3791, 3676]}
+{"text": "Actually, I prefer 👩🏼‍❤️‍👩🏼 instead.", "state": [3506, 147, 2547], "reply": [250, 147, 2547], "skill": "correction", "history": [2592, 147, 3791, 3676, 131, 346, 3791, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2547], "skill": "updated_recall", "history": [2592, 147, 3791, 3676, 131, 346, 3791, 3676, 2592, 3506, 147, 2547, 3676, 131, 250, 147, 2547, 3676]}
+{"text": "I cannot stand man mountain biking: medium-light skin tone.", "state": [154, 2064], "reply": [250, 3482, 2064], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2064], "skill": "recall", "history": [2592, 154, 2064, 3676, 131, 250, 3482, 2064, 3676]}
+{"text": "I really enjoy 🧫.", "state": [147, 3420], "reply": [346, 3420], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3420], "skill": "recall", "history": [2592, 147, 3420, 3676, 131, 346, 3420, 3676]}
+{"text": "I cannot stand dumpling.", "state": [154, 2854], "reply": [250, 3482, 2854], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2854], "skill": "recall", "history": [2592, 154, 2854, 3676, 131, 250, 3482, 2854, 3676]}
+{"text": "Actually, I prefer 🤼🏾 instead.", "state": [3506, 147, 2096], "reply": [250, 147, 2096], "skill": "correction", "history": [2592, 154, 2854, 3676, 131, 250, 3482, 2854, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2096], "skill": "updated_recall", "history": [2592, 154, 2854, 3676, 131, 250, 3482, 2854, 3676, 2592, 3506, 147, 2096, 3676, 131, 250, 147, 2096, 3676]}
+{"text": "I really enjoy 👨🏼‍🎤.", "state": [147, 1064], "reply": [346, 1064], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1064], "skill": "recall", "history": [2592, 147, 1064, 3676, 131, 346, 1064, 3676]}
+{"text": "I cannot stand person in motorized wheelchair facing right.", "state": [154, 1676], "reply": [250, 3482, 1676], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1676], "skill": "recall", "history": [2592, 154, 1676, 3676, 131, 250, 3482, 1676, 3676]}
+{"text": "I cannot stand 👩🏻‍🎨.", "state": [154, 1087], "reply": [250, 3482, 1087], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1087], "skill": "recall", "history": [2592, 154, 1087, 3676, 131, 250, 3482, 1087, 3676]}
+{"text": "Actually, I prefer 🧍‍♀️ instead.", "state": [3506, 147, 1592], "reply": [250, 147, 1592], "skill": "correction", "history": [2592, 154, 1087, 3676, 131, 250, 3482, 1087, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 1592], "skill": "updated_recall", "history": [2592, 154, 1087, 3676, 131, 250, 3482, 1087, 3676, 2592, 3506, 147, 1592, 3676, 131, 250, 147, 1592, 3676]}
+{"text": "I cannot stand zebra.", "state": [154, 2633], "reply": [250, 3482, 2633], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2633], "skill": "recall", "history": [2592, 154, 2633, 3676, 131, 250, 3482, 2633, 3676]}
+{"text": "I really enjoy 🇦🇫.", "state": [147, 3694], "reply": [346, 3694], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3694], "skill": "recall", "history": [2592, 147, 3694, 3676, 131, 346, 3694, 3676]}
+{"text": "I cannot stand flag: Northern Mariana Islands.", "state": [154, 3846], "reply": [250, 3482, 3846], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3846], "skill": "recall", "history": [2592, 154, 3846, 3676, 131, 250, 3482, 3846, 3676]}
+{"text": "Actually, I prefer 🇬🇦 instead.", "state": [3506, 147, 3772], "reply": [250, 147, 3772], "skill": "correction", "history": [2592, 154, 3846, 3676, 131, 250, 3482, 3846, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 3772], "skill": "updated_recall", "history": [2592, 154, 3846, 3676, 131, 250, 3482, 3846, 3676, 2592, 3506, 147, 3772, 3676, 131, 250, 147, 3772, 3676]}
+{"text": "I cannot stand 🇸🇷.", "state": [154, 3904], "reply": [250, 3482, 3904], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3904], "skill": "recall", "history": [2592, 154, 3904, 3676, 131, 250, 3482, 3904, 3676]}
+{"text": "I cannot stand woman: light skin tone.", "state": [154, 595], "reply": [250, 3482, 595], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 595], "skill": "recall", "history": [2592, 154, 595, 3676, 131, 250, 3482, 595, 3676]}
+{"text": "I cannot stand 💵.", "state": [154, 3336], "reply": [250, 3482, 3336], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3336], "skill": "recall", "history": [2592, 154, 3336, 3676, 131, 250, 3482, 3336, 3676]}
+{"text": "Actually, I prefer 🩳 instead.", "state": [3506, 147, 3219], "reply": [250, 147, 3219], "skill": "correction", "history": [2592, 154, 3336, 3676, 131, 250, 3482, 3336, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 3219], "skill": "updated_recall", "history": [2592, 154, 3336, 3676, 131, 250, 3482, 3336, 3676, 2592, 3506, 147, 3219, 3676, 131, 250, 147, 3219, 3676]}
+{"text": "I cannot stand kiss: person, person, light skin tone, medium-light skin tone.", "state": [154, 2364], "reply": [250, 3482, 2364], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2364], "skill": "recall", "history": [2592, 154, 2364, 3676, 131, 250, 3482, 2364, 3676]}
+{"text": "I cannot stand 🎃.", "state": [154, 3117], "reply": [250, 3482, 3117], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3117], "skill": "recall", "history": [2592, 154, 3117, 3676, 131, 250, 3482, 3117, 3676]}
+{"text": "I really enjoy man: medium skin tone, red hair.", "state": [147, 573], "reply": [346, 573], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 573], "skill": "recall", "history": [2592, 147, 573, 3676, 131, 346, 573, 3676]}
+{"text": "Actually, I prefer 👱🏿‍♀️ instead.", "state": [3506, 147, 653], "reply": [250, 147, 653], "skill": "correction", "history": [2592, 147, 573, 3676, 131, 346, 573, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 653], "skill": "updated_recall", "history": [2592, 147, 573, 3676, 131, 346, 573, 3676, 2592, 3506, 147, 653, 3676, 131, 250, 147, 653, 3676]}
+{"text": "I really enjoy 🐾.", "state": [147, 2674], "reply": [346, 2674], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2674], "skill": "recall", "history": [2592, 147, 2674, 3676, 131, 346, 2674, 3676]}
+{"text": "I really enjoy flag: Azerbaijan.", "state": [147, 3707], "reply": [346, 3707], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3707], "skill": "recall", "history": [2592, 147, 3707, 3676, 131, 346, 3707, 3676]}
+{"text": "I really enjoy 🤵🏿‍♂️.", "state": [147, 1283], "reply": [346, 1283], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1283], "skill": "recall", "history": [2592, 147, 1283, 3676, 131, 346, 1283, 3676]}
+{"text": "Actually, I prefer 🧑🏻‍🎄 instead.", "state": [3506, 147, 1369], "reply": [250, 147, 1369], "skill": "correction", "history": [2592, 147, 1283, 3676, 131, 346, 1283, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1369], "skill": "updated_recall", "history": [2592, 147, 1283, 3676, 131, 346, 1283, 3676, 2592, 3506, 147, 1369, 3676, 131, 250, 147, 1369, 3676]}
+{"text": "I really enjoy woman mountain biking: medium skin tone.", "state": [147, 2071], "reply": [346, 2071], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2071], "skill": "recall", "history": [2592, 147, 2071, 3676, 131, 346, 2071, 3676]}
+{"text": "I cannot stand 🇬🇫.", "state": [154, 3776], "reply": [250, 3482, 3776], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3776], "skill": "recall", "history": [2592, 154, 3776, 3676, 131, 250, 3482, 3776, 3676]}
+{"text": "I cannot stand woman office worker: medium-dark skin tone.", "state": [154, 1018], "reply": [250, 3482, 1018], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1018], "skill": "recall", "history": [2592, 154, 1018, 3676, 131, 250, 3482, 1018, 3676]}
+{"text": "Actually, I prefer 👩🏽‍🦯 instead.", "state": [3506, 147, 1661], "reply": [250, 147, 1661], "skill": "correction", "history": [2592, 154, 1018, 3676, 131, 250, 3482, 1018, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 1661], "skill": "updated_recall", "history": [2592, 154, 1018, 3676, 131, 250, 3482, 1018, 3676, 2592, 3506, 147, 1661, 3676, 131, 250, 147, 1661, 3676]}
+{"text": "I really enjoy 🦹🏾‍♂️.", "state": [147, 1402], "reply": [346, 1402], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1402], "skill": "recall", "history": [2592, 147, 1402, 3676, 131, 346, 1402, 3676]}
+{"text": "I cannot stand older person: medium-dark skin tone.", "state": [154, 664], "reply": [250, 3482, 664], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 664], "skill": "recall", "history": [2592, 154, 664, 3676, 131, 250, 3482, 664, 3676]}
+{"text": "I really enjoy 🅿️.", "state": [147, 3629], "reply": [346, 3629], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3629], "skill": "recall", "history": [2592, 147, 3629, 3676, 131, 346, 3629, 3676]}
+{"text": "Actually, I prefer 💏🏽 instead.", "state": [3506, 147, 2361], "reply": [250, 147, 2361], "skill": "correction", "history": [2592, 147, 3629, 3676, 131, 346, 3629, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2361], "skill": "updated_recall", "history": [2592, 147, 3629, 3676, 131, 346, 3629, 3676, 2592, 3506, 147, 2361, 3676, 131, 250, 147, 2361, 3676]}
+{"text": "I really enjoy man in manual wheelchair facing right: medium-light skin tone.", "state": [147, 1726], "reply": [346, 1726], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1726], "skill": "recall", "history": [2592, 147, 1726, 3676, 131, 346, 1726, 3676]}
+{"text": "I really enjoy 🤞🏻.", "state": [147, 275], "reply": [346, 275], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 275], "skill": "recall", "history": [2592, 147, 275, 3676, 131, 346, 275, 3676]}
+{"text": "I really enjoy backhand index pointing right: medium skin tone.", "state": [147, 313], "reply": [346, 313], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 313], "skill": "recall", "history": [2592, 147, 313, 3676, 131, 346, 313, 3676]}
+{"text": "Actually, I prefer 👳🏿‍♂️ instead.", "state": [3506, 147, 1253], "reply": [250, 147, 1253], "skill": "correction", "history": [2592, 147, 313, 3676, 131, 346, 313, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1253], "skill": "updated_recall", "history": [2592, 147, 313, 3676, 131, 346, 313, 3676, 2592, 3506, 147, 1253, 3676, 131, 250, 147, 1253, 3676]}
+{"text": "I cannot stand 🪸.", "state": [154, 2715], "reply": [250, 3482, 2715], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2715], "skill": "recall", "history": [2592, 154, 2715, 3676, 131, 250, 3482, 2715, 3676]}
+{"text": "I really enjoy wheel.", "state": [147, 3009], "reply": [346, 3009], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3009], "skill": "recall", "history": [2592, 147, 3009, 3676, 131, 346, 3009, 3676]}
+{"text": "I really enjoy 🔋.", "state": [147, 3286], "reply": [346, 3286], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3286], "skill": "recall", "history": [2592, 147, 3286, 3676, 131, 346, 3286, 3676]}
+{"text": "Actually, I prefer 🦨 instead.", "state": [3506, 147, 2671], "reply": [250, 147, 2671], "skill": "correction", "history": [2592, 147, 3286, 3676, 131, 346, 3286, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2671], "skill": "updated_recall", "history": [2592, 147, 3286, 3676, 131, 346, 3286, 3676, 2592, 3506, 147, 2671, 3676, 131, 250, 147, 2671, 3676]}
+{"text": "I cannot stand man bowing.", "state": [154, 810], "reply": [250, 3482, 810], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 810], "skill": "recall", "history": [2592, 154, 810, 3676, 131, 250, 3482, 810, 3676]}
+{"text": "I cannot stand 🧑🏼‍🎨.", "state": [154, 1076], "reply": [250, 3482, 1076], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1076], "skill": "recall", "history": [2592, 154, 1076, 3676, 131, 250, 3482, 1076, 3676]}
+{"text": "I cannot stand sleepy face.", "state": [154, 67], "reply": [250, 3482, 67], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 67], "skill": "recall", "history": [2592, 154, 67, 3676, 131, 250, 3482, 67, 3676]}
+{"text": "Actually, I prefer 👾 instead.", "state": [3506, 147, 130], "reply": [250, 147, 130], "skill": "correction", "history": [2592, 154, 67, 3676, 131, 250, 3482, 67, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 130], "skill": "updated_recall", "history": [2592, 154, 67, 3676, 131, 250, 3482, 67, 3676, 2592, 3506, 147, 130, 3676, 131, 250, 147, 130, 3676]}
+{"text": "I really enjoy 🇹🇻.", "state": [147, 3925], "reply": [346, 3925], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3925], "skill": "recall", "history": [2592, 147, 3925, 3676, 131, 346, 3925, 3676]}
+{"text": "I really enjoy x-ray.", "state": [147, 3431], "reply": [346, 3431], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3431], "skill": "recall", "history": [2592, 147, 3431, 3676, 131, 346, 3431, 3676]}
+{"text": "I cannot stand 👩🏿‍💼.", "state": [154, 1019], "reply": [250, 3482, 1019], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1019], "skill": "recall", "history": [2592, 154, 1019, 3676, 131, 250, 3482, 1019, 3676]}
+{"text": "Actually, I prefer 🧑🏻‍🫯‍🧑🏾 instead.", "state": [3506, 147, 2112], "reply": [250, 147, 2112], "skill": "correction", "history": [2592, 154, 1019, 3676, 131, 250, 3482, 1019, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2112], "skill": "updated_recall", "history": [2592, 154, 1019, 3676, 131, 250, 3482, 1019, 3676, 2592, 3506, 147, 2112, 3676, 131, 250, 147, 2112, 3676]}
+{"text": "I cannot stand pig.", "state": [154, 2641], "reply": [250, 3482, 2641], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2641], "skill": "recall", "history": [2592, 154, 2641, 3676, 131, 250, 3482, 2641, 3676]}
+{"text": "I really enjoy 👨🏼.", "state": [147, 548], "reply": [346, 548], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 548], "skill": "recall", "history": [2592, 147, 548, 3676, 131, 346, 548, 3676]}
+{"text": "I cannot stand men wrestling: medium-dark skin tone, medium-light skin tone.", "state": [154, 2143], "reply": [250, 3482, 2143], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2143], "skill": "recall", "history": [2592, 154, 2143, 3676, 131, 250, 3482, 2143, 3676]}
+{"text": "Actually, I prefer 👩‍👦 instead.", "state": [3506, 147, 2586], "reply": [250, 147, 2586], "skill": "correction", "history": [2592, 154, 2143, 3676, 131, 250, 3482, 2143, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2586], "skill": "updated_recall", "history": [2592, 154, 2143, 3676, 131, 250, 3482, 2143, 3676, 2592, 3506, 147, 2586, 3676, 131, 250, 147, 2586, 3676]}
+{"text": "I cannot stand 🍃.", "state": [154, 2762], "reply": [250, 3482, 2762], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2762], "skill": "recall", "history": [2592, 154, 2762, 3676, 131, 250, 3482, 2762, 3676]}
+{"text": "I cannot stand kiss: man, man, medium-dark skin tone, medium-light skin tone.", "state": [154, 2427], "reply": [250, 3482, 2427], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2427], "skill": "recall", "history": [2592, 154, 2427, 3676, 131, 250, 3482, 2427, 3676]}
+{"text": "I really enjoy 🧝🏽‍♂️.", "state": [147, 1491], "reply": [346, 1491], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1491], "skill": "recall", "history": [2592, 147, 1491, 3676, 131, 346, 1491, 3676]}
+{"text": "Actually, I prefer 👱🏿‍♂️ instead.", "state": [3506, 147, 659], "reply": [250, 147, 659], "skill": "correction", "history": [2592, 147, 1491, 3676, 131, 346, 1491, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 659], "skill": "updated_recall", "history": [2592, 147, 1491, 3676, 131, 346, 1491, 3676, 2592, 3506, 147, 659, 3676, 131, 250, 147, 659, 3676]}
+{"text": "I cannot stand man facepalming: medium skin tone.", "state": [154, 831], "reply": [250, 3482, 831], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 831], "skill": "recall", "history": [2592, 154, 831, 3676, 131, 250, 3482, 831, 3676]}
+{"text": "I really enjoy 🧎🏽‍♂️.", "state": [147, 1607], "reply": [346, 1607], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1607], "skill": "recall", "history": [2592, 147, 1607, 3676, 131, 346, 1607, 3676]}
+{"text": "I really enjoy man walking facing right: medium-light skin tone.", "state": [147, 1576], "reply": [346, 1576], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1576], "skill": "recall", "history": [2592, 147, 1576, 3676, 131, 346, 1576, 3676]}
+{"text": "Actually, I prefer 👯🏾‍♂️ instead.", "state": [3506, 147, 1812], "reply": [250, 147, 1812], "skill": "correction", "history": [2592, 147, 1576, 3676, 131, 346, 1576, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1812], "skill": "updated_recall", "history": [2592, 147, 1576, 3676, 131, 346, 1576, 3676, 2592, 3506, 147, 1812, 3676, 131, 250, 147, 1812, 3676]}
+{"text": "I really enjoy 🇹🇻.", "state": [147, 3925], "reply": [346, 3925], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3925], "skill": "recall", "history": [2592, 147, 3925, 3676, 131, 346, 3925, 3676]}
+{"text": "I cannot stand biting lip.", "state": [154, 509], "reply": [250, 3482, 509], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 509], "skill": "recall", "history": [2592, 154, 509, 3676, 131, 250, 3482, 509, 3676]}
+{"text": "I cannot stand 👩🏿‍⚖️.", "state": [154, 929], "reply": [250, 3482, 929], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 929], "skill": "recall", "history": [2592, 154, 929, 3676, 131, 250, 3482, 929, 3676]}
+{"text": "Actually, I prefer 🦢 instead.", "state": [3506, 147, 2685], "reply": [250, 147, 2685], "skill": "correction", "history": [2592, 154, 929, 3676, 131, 250, 3482, 929, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2685], "skill": "updated_recall", "history": [2592, 154, 929, 3676, 131, 250, 3482, 929, 3676, 2592, 3506, 147, 2685, 3676, 131, 250, 147, 2685, 3676]}
+{"text": "I really enjoy man teacher: dark skin tone.", "state": [147, 905], "reply": [346, 905], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 905], "skill": "recall", "history": [2592, 147, 905, 3676, 131, 346, 905, 3676]}
+{"text": "I cannot stand 👨‍✈️.", "state": [154, 1098], "reply": [250, 3482, 1098], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1098], "skill": "recall", "history": [2592, 154, 1098, 3676, 131, 250, 3482, 1098, 3676]}
+{"text": "I really enjoy man detective: medium skin tone.", "state": [147, 1173], "reply": [346, 1173], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1173], "skill": "recall", "history": [2592, 147, 1173, 3676, 131, 346, 1173, 3676]}
+{"text": "Actually, I prefer 👩🏻‍🚀 instead.", "state": [3506, 147, 1123], "reply": [250, 147, 1123], "skill": "correction", "history": [2592, 147, 1173, 3676, 131, 346, 1173, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1123], "skill": "updated_recall", "history": [2592, 147, 1173, 3676, 131, 346, 1173, 3676, 2592, 3506, 147, 1123, 3676, 131, 250, 147, 1123, 3676]}
+{"text": "I cannot stand 🕡.", "state": [154, 3059], "reply": [250, 3482, 3059], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3059], "skill": "recall", "history": [2592, 154, 3059, 3676, 131, 250, 3482, 3059, 3676]}
+{"text": "I really enjoy people with bunny ears: light skin tone, medium-dark skin tone.", "state": [147, 1822], "reply": [346, 1822], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1822], "skill": "recall", "history": [2592, 147, 1822, 3676, 131, 346, 1822, 3676]}
+{"text": "I cannot stand 🤦🏾‍♂️.", "state": [154, 832], "reply": [250, 3482, 832], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 832], "skill": "recall", "history": [2592, 154, 832, 3676, 131, 250, 3482, 832, 3676]}
+{"text": "Actually, I prefer 👨🏼‍🌾 instead.", "state": [3506, 147, 938], "reply": [250, 147, 938], "skill": "correction", "history": [2592, 154, 832, 3676, 131, 250, 3482, 832, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 938], "skill": "updated_recall", "history": [2592, 154, 832, 3676, 131, 250, 3482, 832, 3676, 2592, 3506, 147, 938, 3676, 131, 250, 147, 938, 3676]}
+{"text": "I really enjoy man: light skin tone, bald.", "state": [147, 589], "reply": [346, 589], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 589], "skill": "recall", "history": [2592, 147, 589, 3676, 131, 346, 589, 3676]}
+{"text": "I cannot stand 🤚🏼.", "state": [154, 192], "reply": [250, 3482, 192], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 192], "skill": "recall", "history": [2592, 154, 192, 3676, 131, 250, 3482, 192, 3676]}
+{"text": "I cannot stand man surfing: light skin tone.", "state": [154, 1955], "reply": [250, 3482, 1955], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1955], "skill": "recall", "history": [2592, 154, 1955, 3676, 131, 250, 3482, 1955, 3676]}
+{"text": "Actually, I prefer 👴🏻 instead.", "state": [3506, 147, 667], "reply": [250, 147, 667], "skill": "correction", "history": [2592, 154, 1955, 3676, 131, 250, 3482, 1955, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 667], "skill": "updated_recall", "history": [2592, 154, 1955, 3676, 131, 250, 3482, 1955, 3676, 2592, 3506, 147, 667, 3676, 131, 250, 147, 667, 3676]}
+{"text": "I cannot stand 🫄🏽.", "state": [154, 1323], "reply": [250, 3482, 1323], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1323], "skill": "recall", "history": [2592, 154, 1323, 3676, 131, 250, 3482, 1323, 3676]}
+{"text": "I cannot stand man police officer: dark skin tone.", "state": [154, 1157], "reply": [250, 3482, 1157], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1157], "skill": "recall", "history": [2592, 154, 1157, 3676, 131, 250, 3482, 1157, 3676]}
+{"text": "I really enjoy 💏🏾.", "state": [147, 2362], "reply": [346, 2362], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2362], "skill": "recall", "history": [2592, 147, 2362, 3676, 131, 346, 2362, 3676]}
+{"text": "Actually, I prefer 👯🏼 instead.", "state": [3506, 147, 1804], "reply": [250, 147, 1804], "skill": "correction", "history": [2592, 147, 2362, 3676, 131, 346, 2362, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1804], "skill": "updated_recall", "history": [2592, 147, 2362, 3676, 131, 346, 2362, 3676, 2592, 3506, 147, 1804, 3676, 131, 250, 147, 1804, 3676]}
+{"text": "I cannot stand man shrugging.", "state": [154, 846], "reply": [250, 3482, 846], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 846], "skill": "recall", "history": [2592, 154, 846, 3676, 131, 250, 3482, 846, 3676]}
+{"text": "I cannot stand 🇦🇮.", "state": [154, 3696], "reply": [250, 3482, 3696], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3696], "skill": "recall", "history": [2592, 154, 3696, 3676, 131, 250, 3482, 3696, 3676]}
+{"text": "I cannot stand men wrestling: medium skin tone, light skin tone.", "state": [154, 2138], "reply": [250, 3482, 2138], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2138], "skill": "recall", "history": [2592, 154, 2138, 3676, 131, 250, 3482, 2138, 3676]}
+{"text": "Actually, I prefer 🔑 instead.", "state": [3506, 147, 3389], "reply": [250, 147, 3389], "skill": "correction", "history": [2592, 154, 2138, 3676, 131, 250, 3482, 2138, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 3389], "skill": "updated_recall", "history": [2592, 154, 2138, 3676, 131, 250, 3482, 2138, 3676, 2592, 3506, 147, 3389, 3676, 131, 250, 147, 3389, 3676]}
+{"text": "I really enjoy 🏢.", "state": [147, 2926], "reply": [346, 2926], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2926], "skill": "recall", "history": [2592, 147, 2926, 3676, 131, 346, 2926, 3676]}
+{"text": "I cannot stand woman farmer: medium skin tone.", "state": [154, 945], "reply": [250, 3482, 945], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 945], "skill": "recall", "history": [2592, 154, 945, 3676, 131, 250, 3482, 945, 3676]}
+{"text": "I really enjoy 🧒.", "state": [147, 516], "reply": [346, 516], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 516], "skill": "recall", "history": [2592, 147, 516, 3676, 131, 346, 516, 3676]}
+{"text": "Actually, I prefer 🚳 instead.", "state": [3506, 147, 3483], "reply": [250, 147, 3483], "skill": "correction", "history": [2592, 147, 516, 3676, 131, 346, 516, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3483], "skill": "updated_recall", "history": [2592, 147, 516, 3676, 131, 346, 516, 3676, 2592, 3506, 147, 3483, 3676, 131, 250, 147, 3483, 3676]}
+{"text": "I really enjoy middle finger.", "state": [147, 322], "reply": [346, 322], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 322], "skill": "recall", "history": [2592, 147, 322, 3676, 131, 346, 322, 3676]}
+{"text": "I cannot stand 〽️.", "state": [154, 3590], "reply": [250, 3482, 3590], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3590], "skill": "recall", "history": [2592, 154, 3590, 3676, 131, 250, 3482, 3590, 3676]}
+{"text": "I cannot stand mountain cableway.", "state": [154, 3032], "reply": [250, 3482, 3032], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3032], "skill": "recall", "history": [2592, 154, 3032, 3676, 131, 250, 3482, 3032, 3676]}
+{"text": "Actually, I prefer 🦷 instead.", "state": [3506, 147, 503], "reply": [250, 147, 503], "skill": "correction", "history": [2592, 154, 3032, 3676, 131, 250, 3482, 3032, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 503], "skill": "updated_recall", "history": [2592, 154, 3032, 3676, 131, 250, 3482, 3032, 3676, 2592, 3506, 147, 503, 3676, 131, 250, 147, 503, 3676]}
+{"text": "I really enjoy 🧜🏾.", "state": [147, 1468], "reply": [346, 1468], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1468], "skill": "recall", "history": [2592, 147, 1468, 3676, 131, 346, 1468, 3676]}
+{"text": "I cannot stand woman office worker: dark skin tone.", "state": [154, 1019], "reply": [250, 3482, 1019], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1019], "skill": "recall", "history": [2592, 154, 1019, 3676, 131, 250, 3482, 1019, 3676]}
+{"text": "I cannot stand 👨‍🚀.", "state": [154, 1116], "reply": [250, 3482, 1116], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1116], "skill": "recall", "history": [2592, 154, 1116, 3676, 131, 250, 3482, 1116, 3676]}
+{"text": "Actually, I prefer 💁‍♂️ instead.", "state": [3506, 147, 756], "reply": [250, 147, 756], "skill": "correction", "history": [2592, 154, 1116, 3676, 131, 250, 3482, 1116, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 756], "skill": "updated_recall", "history": [2592, 154, 1116, 3676, 131, 250, 3482, 1116, 3676, 2592, 3506, 147, 756, 3676, 131, 250, 147, 756, 3676]}
+{"text": "I really enjoy men wrestling: medium-dark skin tone, medium-light skin tone.", "state": [147, 2143], "reply": [346, 2143], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2143], "skill": "recall", "history": [2592, 147, 2143, 3676, 131, 346, 2143, 3676]}
+{"text": "I cannot stand 👩🏽‍🦯.", "state": [154, 1661], "reply": [250, 3482, 1661], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1661], "skill": "recall", "history": [2592, 154, 1661, 3676, 131, 250, 3482, 1661, 3676]}
+{"text": "I cannot stand man in manual wheelchair facing right: dark skin tone.", "state": [154, 1729], "reply": [250, 3482, 1729], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1729], "skill": "recall", "history": [2592, 154, 1729, 3676, 131, 250, 3482, 1729, 3676]}
+{"text": "Actually, I prefer 🎾 instead.", "state": [3506, 147, 3151], "reply": [250, 147, 3151], "skill": "correction", "history": [2592, 154, 1729, 3676, 131, 250, 3482, 1729, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 3151], "skill": "updated_recall", "history": [2592, 154, 1729, 3676, 131, 250, 3482, 1729, 3676, 2592, 3506, 147, 3151, 3676, 131, 250, 147, 3151, 3676]}
+{"text": "I really enjoy ✍🏽.", "state": [147, 447], "reply": [346, 447], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 447], "skill": "recall", "history": [2592, 147, 447, 3676, 131, 346, 447, 3676]}
+{"text": "I really enjoy women with bunny ears: light skin tone.", "state": [147, 1815], "reply": [346, 1815], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1815], "skill": "recall", "history": [2592, 147, 1815, 3676, 131, 346, 1815, 3676]}
+{"text": "I cannot stand 👩🏾‍🎓.", "state": [154, 892], "reply": [250, 3482, 892], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 892], "skill": "recall", "history": [2592, 154, 892, 3676, 131, 250, 3482, 892, 3676]}
+{"text": "Actually, I prefer 🚇 instead.", "state": [3506, 147, 2970], "reply": [250, 147, 2970], "skill": "correction", "history": [2592, 154, 892, 3676, 131, 250, 3482, 892, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2970], "skill": "updated_recall", "history": [2592, 154, 892, 3676, 131, 250, 3482, 892, 3676, 2592, 3506, 147, 2970, 3676, 131, 250, 147, 2970, 3676]}
+{"text": "I really enjoy no bicycles.", "state": [147, 3483], "reply": [346, 3483], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3483], "skill": "recall", "history": [2592, 147, 3483, 3676, 131, 346, 3483, 3676]}
+{"text": "I cannot stand 🍷.", "state": [154, 2878], "reply": [250, 3482, 2878], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2878], "skill": "recall", "history": [2592, 154, 2878, 3676, 131, 250, 3482, 2878, 3676]}
+{"text": "I cannot stand 1st place medal.", "state": [154, 3141], "reply": [250, 3482, 3141], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3141], "skill": "recall", "history": [2592, 154, 3141, 3676, 131, 250, 3482, 3141, 3676]}
+{"text": "Actually, I prefer 🍺 instead.", "state": [3506, 147, 2881], "reply": [250, 147, 2881], "skill": "correction", "history": [2592, 154, 3141, 3676, 131, 250, 3482, 3141, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2881], "skill": "updated_recall", "history": [2592, 154, 3141, 3676, 131, 250, 3482, 3141, 3676, 2592, 3506, 147, 2881, 3676, 131, 250, 147, 2881, 3676]}
+{"text": "I cannot stand 🦝.", "state": [154, 2621], "reply": [250, 3482, 2621], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2621], "skill": "recall", "history": [2592, 154, 2621, 3676, 131, 250, 3482, 2621, 3676]}
+{"text": "I really enjoy couple with heart: woman, man, medium-light skin tone, dark skin tone.", "state": [147, 2498], "reply": [346, 2498], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2498], "skill": "recall", "history": [2592, 147, 2498, 3676, 131, 346, 2498, 3676]}
+{"text": "I really enjoy 🙌🏾.", "state": [147, 392], "reply": [346, 392], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 392], "skill": "recall", "history": [2592, 147, 392, 3676, 131, 346, 392, 3676]}
+{"text": "Actually, I prefer 😐 instead.", "state": [3506, 147, 51], "reply": [250, 147, 51], "skill": "correction", "history": [2592, 147, 392, 3676, 131, 346, 392, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 51], "skill": "updated_recall", "history": [2592, 147, 392, 3676, 131, 346, 392, 3676, 2592, 3506, 147, 51, 3676, 131, 250, 147, 51, 3676]}
+{"text": "I really enjoy nine-thirty.", "state": [147, 3065], "reply": [346, 3065], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3065], "skill": "recall", "history": [2592, 147, 3065, 3676, 131, 346, 3065, 3676]}
+{"text": "I cannot stand 😨.", "state": [154, 103], "reply": [250, 3482, 103], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 103], "skill": "recall", "history": [2592, 154, 103, 3676, 131, 250, 3482, 103, 3676]}
+{"text": "I cannot stand man construction worker: medium-dark skin tone.", "state": [154, 1216], "reply": [250, 3482, 1216], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1216], "skill": "recall", "history": [2592, 154, 1216, 3676, 131, 250, 3482, 1216, 3676]}
+{"text": "Actually, I prefer 👘 instead.", "state": [3506, 147, 3215], "reply": [250, 147, 3215], "skill": "correction", "history": [2592, 154, 1216, 3676, 131, 250, 3482, 1216, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 3215], "skill": "updated_recall", "history": [2592, 154, 1216, 3676, 131, 250, 3482, 1216, 3676, 2592, 3506, 147, 3215, 3676, 131, 250, 147, 3215, 3676]}
+{"text": "I cannot stand 🇦🇼.", "state": [154, 3705], "reply": [250, 3482, 3705], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3705], "skill": "recall", "history": [2592, 154, 3705, 3676, 131, 250, 3482, 3705, 3676]}
+{"text": "I cannot stand monorail.", "state": [154, 2974], "reply": [250, 3482, 2974], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2974], "skill": "recall", "history": [2592, 154, 2974, 3676, 131, 250, 3482, 2974, 3676]}
+{"text": "I cannot stand 🧎🏿‍➡️.", "state": [154, 1621], "reply": [250, 3482, 1621], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1621], "skill": "recall", "history": [2592, 154, 1621, 3676, 131, 250, 3482, 1621, 3676]}
+{"text": "Actually, I prefer 🤳🏿 instead.", "state": [3506, 147, 461], "reply": [250, 147, 461], "skill": "correction", "history": [2592, 154, 1621, 3676, 131, 250, 3482, 1621, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 461], "skill": "updated_recall", "history": [2592, 154, 1621, 3676, 131, 250, 3482, 1621, 3676, 2592, 3506, 147, 461, 3676, 131, 250, 147, 461, 3676]}
+{"text": "I cannot stand family: woman, girl.", "state": [154, 2588], "reply": [250, 3482, 2588], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2588], "skill": "recall", "history": [2592, 154, 2588, 3676, 131, 250, 3482, 2588, 3676]}
+{"text": "I cannot stand 🦸🏾.", "state": [154, 1378], "reply": [250, 3482, 1378], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1378], "skill": "recall", "history": [2592, 154, 1378, 3676, 131, 250, 3482, 1378, 3676]}
+{"text": "I cannot stand backhand index pointing down: light skin tone.", "state": [154, 329], "reply": [250, 3482, 329], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 329], "skill": "recall", "history": [2592, 154, 329, 3676, 131, 250, 3482, 329, 3676]}
+{"text": "Actually, I prefer 🏇🏾 instead.", "state": [3506, 147, 1921], "reply": [250, 147, 1921], "skill": "correction", "history": [2592, 154, 329, 3676, 131, 250, 3482, 329, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 1921], "skill": "updated_recall", "history": [2592, 154, 329, 3676, 131, 250, 3482, 329, 3676, 2592, 3506, 147, 1921, 3676, 131, 250, 147, 1921, 3676]}
+{"text": "I really enjoy 🇬🇵.", "state": [147, 3783], "reply": [346, 3783], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3783], "skill": "recall", "history": [2592, 147, 3783, 3676, 131, 346, 3783, 3676]}
+{"text": "I really enjoy flag: Myanmar (Burma).", "state": [147, 3843], "reply": [346, 3843], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3843], "skill": "recall", "history": [2592, 147, 3843, 3676, 131, 346, 3843, 3676]}
+{"text": "I really enjoy 🦹🏽‍♂️.", "state": [147, 1401], "reply": [346, 1401], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1401], "skill": "recall", "history": [2592, 147, 1401, 3676, 131, 346, 1401, 3676]}
+{"text": "Actually, I prefer 🏃‍♀️ instead.", "state": [3506, 147, 1754], "reply": [250, 147, 1754], "skill": "correction", "history": [2592, 147, 1401, 3676, 131, 346, 1401, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1754], "skill": "updated_recall", "history": [2592, 147, 1401, 3676, 131, 346, 1401, 3676, 2592, 3506, 147, 1754, 3676, 131, 250, 147, 1754, 3676]}
+{"text": "I cannot stand man frowning: light skin tone.", "state": [154, 685], "reply": [250, 3482, 685], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 685], "skill": "recall", "history": [2592, 154, 685, 3676, 131, 250, 3482, 685, 3676]}
+{"text": "I really enjoy 🇨🇼.", "state": [147, 3746], "reply": [346, 3746], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3746], "skill": "recall", "history": [2592, 147, 3746, 3676, 131, 346, 3746, 3676]}
+{"text": "I really enjoy women wrestling: medium-dark skin tone, light skin tone.", "state": [147, 2162], "reply": [346, 2162], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2162], "skill": "recall", "history": [2592, 147, 2162, 3676, 131, 346, 2162, 3676]}
+{"text": "Actually, I prefer 🌹 instead.", "state": [3506, 147, 2743], "reply": [250, 147, 2743], "skill": "correction", "history": [2592, 147, 2162, 3676, 131, 346, 2162, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2743], "skill": "updated_recall", "history": [2592, 147, 2162, 3676, 131, 346, 2162, 3676, 2592, 3506, 147, 2743, 3676, 131, 250, 147, 2743, 3676]}
+{"text": "I really enjoy 🫸🏽.", "state": [147, 247], "reply": [346, 247], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 247], "skill": "recall", "history": [2592, 147, 247, 3676, 131, 346, 247, 3676]}
+{"text": "I really enjoy right arrow curving up.", "state": [147, 3503], "reply": [346, 3503], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3503], "skill": "recall", "history": [2592, 147, 3503, 3676, 131, 346, 3503, 3676]}
+{"text": "I really enjoy 👷🏽.", "state": [147, 1209], "reply": [346, 1209], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1209], "skill": "recall", "history": [2592, 147, 1209, 3676, 131, 346, 1209, 3676]}
+{"text": "Actually, I prefer 👳🏽‍♂️ instead.", "state": [3506, 147, 1251], "reply": [250, 147, 1251], "skill": "correction", "history": [2592, 147, 1209, 3676, 131, 346, 1209, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1251], "skill": "updated_recall", "history": [2592, 147, 1209, 3676, 131, 346, 1209, 3676, 2592, 3506, 147, 1251, 3676, 131, 250, 147, 1251, 3676]}
+{"text": "I really enjoy baby chick.", "state": [147, 2679], "reply": [346, 2679], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2679], "skill": "recall", "history": [2592, 147, 2679, 3676, 131, 346, 2679, 3676]}
+{"text": "I really enjoy 🧜🏾.", "state": [147, 1468], "reply": [346, 1468], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1468], "skill": "recall", "history": [2592, 147, 1468, 3676, 131, 346, 1468, 3676]}
+{"text": "I cannot stand man fairy: medium-dark skin tone.", "state": [154, 1438], "reply": [250, 3482, 1438], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1438], "skill": "recall", "history": [2592, 154, 1438, 3676, 131, 250, 3482, 1438, 3676]}
+{"text": "Actually, I prefer 🧙🏾 instead.", "state": [3506, 147, 1414], "reply": [250, 147, 1414], "skill": "correction", "history": [2592, 154, 1438, 3676, 131, 250, 3482, 1438, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 1414], "skill": "updated_recall", "history": [2592, 154, 1438, 3676, 131, 250, 3482, 1438, 3676, 2592, 3506, 147, 1414, 3676, 131, 250, 147, 1414, 3676]}
+{"text": "I really enjoy 🪠.", "state": [147, 3440], "reply": [346, 3440], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3440], "skill": "recall", "history": [2592, 147, 3440, 3676, 131, 346, 3440, 3676]}
+{"text": "I cannot stand couple with heart: woman, woman, medium-light skin tone, light skin tone.", "state": [154, 2546], "reply": [250, 3482, 2546], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2546], "skill": "recall", "history": [2592, 154, 2546, 3676, 131, 250, 3482, 2546, 3676]}
+{"text": "I cannot stand 🧝🏿‍♂️.", "state": [154, 1493], "reply": [250, 3482, 1493], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1493], "skill": "recall", "history": [2592, 154, 1493, 3676, 131, 250, 3482, 1493, 3676]}
+{"text": "Actually, I prefer 🕳️ instead.", "state": [3506, 147, 177], "reply": [250, 147, 177], "skill": "correction", "history": [2592, 154, 1493, 3676, 131, 250, 3482, 1493, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 177], "skill": "updated_recall", "history": [2592, 154, 1493, 3676, 131, 250, 3482, 1493, 3676, 2592, 3506, 147, 177, 3676, 131, 250, 147, 177, 3676]}
+{"text": "I really enjoy man in motorized wheelchair facing right: medium skin tone.", "state": [147, 1691], "reply": [346, 1691], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1691], "skill": "recall", "history": [2592, 147, 1691, 3676, 131, 346, 1691, 3676]}
+{"text": "I cannot stand 👩‍🍳.", "state": [154, 960], "reply": [250, 3482, 960], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 960], "skill": "recall", "history": [2592, 154, 960, 3676, 131, 250, 3482, 960, 3676]}
+{"text": "I really enjoy man: light skin tone, white hair.", "state": [147, 583], "reply": [346, 583], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 583], "skill": "recall", "history": [2592, 147, 583, 3676, 131, 346, 583, 3676]}
+{"text": "Actually, I prefer 👩🏽‍❤️‍👩🏼 instead.", "state": [3506, 147, 2552], "reply": [250, 147, 2552], "skill": "correction", "history": [2592, 147, 583, 3676, 131, 346, 583, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2552], "skill": "updated_recall", "history": [2592, 147, 583, 3676, 131, 346, 583, 3676, 2592, 3506, 147, 2552, 3676, 131, 250, 147, 2552, 3676]}
+{"text": "I cannot stand 😅.", "state": [154, 18], "reply": [250, 3482, 18], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 18], "skill": "recall", "history": [2592, 154, 18, 3676, 131, 250, 3482, 18, 3676]}
+{"text": "I really enjoy man cook: medium-light skin tone.", "state": [147, 956], "reply": [346, 956], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 956], "skill": "recall", "history": [2592, 147, 956, 3676, 131, 346, 956, 3676]}
+{"text": "I cannot stand 🏊🏼.", "state": [154, 1986], "reply": [250, 3482, 1986], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1986], "skill": "recall", "history": [2592, 154, 1986, 3676, 131, 250, 3482, 1986, 3676]}
+{"text": "Actually, I prefer 👭🏿 instead.", "state": [3506, 147, 2305], "reply": [250, 147, 2305], "skill": "correction", "history": [2592, 154, 1986, 3676, 131, 250, 3482, 1986, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2305], "skill": "updated_recall", "history": [2592, 154, 1986, 3676, 131, 250, 3482, 1986, 3676, 2592, 3506, 147, 2305, 3676, 131, 250, 147, 2305, 3676]}
+{"text": "I really enjoy men with bunny ears: medium skin tone.", "state": [147, 1811], "reply": [346, 1811], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1811], "skill": "recall", "history": [2592, 147, 1811, 3676, 131, 346, 1811, 3676]}
+{"text": "I really enjoy 🧎🏽‍➡️.", "state": [147, 1619], "reply": [346, 1619], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1619], "skill": "recall", "history": [2592, 147, 1619, 3676, 131, 346, 1619, 3676]}
+{"text": "I cannot stand peanuts.", "state": [154, 2799], "reply": [250, 3482, 2799], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2799], "skill": "recall", "history": [2592, 154, 2799, 3676, 131, 250, 3482, 2799, 3676]}
+{"text": "Actually, I prefer 👨‍👩‍👦 instead.", "state": [3506, 147, 2566], "reply": [250, 147, 2566], "skill": "correction", "history": [2592, 154, 2799, 3676, 131, 250, 3482, 2799, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2566], "skill": "updated_recall", "history": [2592, 154, 2799, 3676, 131, 250, 3482, 2799, 3676, 2592, 3506, 147, 2566, 3676, 131, 250, 147, 2566, 3676]}
+{"text": "I cannot stand 🧚🏻.", "state": [154, 1429], "reply": [250, 3482, 1429], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1429], "skill": "recall", "history": [2592, 154, 1429, 3676, 131, 250, 3482, 1429, 3676]}
+{"text": "I really enjoy orange book.", "state": [147, 3320], "reply": [346, 3320], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3320], "skill": "recall", "history": [2592, 147, 3320, 3676, 131, 346, 3320, 3676]}
+{"text": "I cannot stand 🧎🏻.", "state": [154, 1599], "reply": [250, 3482, 1599], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1599], "skill": "recall", "history": [2592, 154, 1599, 3676, 131, 250, 3482, 1599, 3676]}
+{"text": "Actually, I prefer 🧑🏻‍✈️ instead.", "state": [3506, 147, 1093], "reply": [250, 147, 1093], "skill": "correction", "history": [2592, 154, 1599, 3676, 131, 250, 3482, 1599, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 1093], "skill": "updated_recall", "history": [2592, 154, 1599, 3676, 131, 250, 3482, 1599, 3676, 2592, 3506, 147, 1093, 3676, 131, 250, 147, 1093, 3676]}
+{"text": "I really enjoy woman and man holding hands: medium-light skin tone.", "state": [147, 2313], "reply": [346, 2313], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2313], "skill": "recall", "history": [2592, 147, 2313, 3676, 131, 346, 2313, 3676]}
+{"text": "I really enjoy 👰🏽‍♂️.", "state": [147, 1299], "reply": [346, 1299], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1299], "skill": "recall", "history": [2592, 147, 1299, 3676, 131, 346, 1299, 3676]}
+{"text": "I cannot stand mechanic: medium skin tone.", "state": [154, 969], "reply": [250, 3482, 969], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 969], "skill": "recall", "history": [2592, 154, 969, 3676, 131, 250, 3482, 969, 3676]}
+{"text": "Actually, I prefer 👩🏿‍🔧 instead.", "state": [3506, 147, 983], "reply": [250, 147, 983], "skill": "correction", "history": [2592, 154, 969, 3676, 131, 250, 3482, 969, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 983], "skill": "updated_recall", "history": [2592, 154, 969, 3676, 131, 250, 3482, 969, 3676, 2592, 3506, 147, 983, 3676, 131, 250, 147, 983, 3676]}
+{"text": "I cannot stand 🫙.", "state": [154, 2896], "reply": [250, 3482, 2896], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2896], "skill": "recall", "history": [2592, 154, 2896, 3676, 131, 250, 3482, 2896, 3676]}
+{"text": "I really enjoy flag: Poland.", "state": [147, 3876], "reply": [346, 3876], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3876], "skill": "recall", "history": [2592, 147, 3876, 3676, 131, 346, 3876, 3676]}
+{"text": "I really enjoy 👨‍👧.", "state": [147, 2583], "reply": [346, 2583], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2583], "skill": "recall", "history": [2592, 147, 2583, 3676, 131, 346, 2583, 3676]}
+{"text": "Actually, I prefer 🫴🏽 instead.", "state": [3506, 147, 235], "reply": [250, 147, 235], "skill": "correction", "history": [2592, 147, 2583, 3676, 131, 346, 2583, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 235], "skill": "updated_recall", "history": [2592, 147, 2583, 3676, 131, 346, 2583, 3676, 2592, 3506, 147, 235, 3676, 131, 250, 147, 235, 3676]}
+{"text": "I really enjoy deaf man: dark skin tone.", "state": [147, 797], "reply": [346, 797], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 797], "skill": "recall", "history": [2592, 147, 797, 3676, 131, 346, 797, 3676]}
+{"text": "I cannot stand 🕵🏻‍♂️.", "state": [154, 1171], "reply": [250, 3482, 1171], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1171], "skill": "recall", "history": [2592, 154, 1171, 3676, 131, 250, 3482, 1171, 3676]}
+{"text": "I cannot stand laptop.", "state": [154, 3289], "reply": [250, 3482, 3289], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3289], "skill": "recall", "history": [2592, 154, 3289, 3676, 131, 250, 3482, 3289, 3676]}
+{"text": "Actually, I prefer 🗒️ instead.", "state": [3506, 147, 3369], "reply": [250, 147, 3369], "skill": "correction", "history": [2592, 154, 3289, 3676, 131, 250, 3482, 3289, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 3369], "skill": "updated_recall", "history": [2592, 154, 3289, 3676, 131, 250, 3482, 3289, 3676, 2592, 3506, 147, 3369, 3676, 131, 250, 147, 3369, 3676]}
+{"text": "I really enjoy 🏋🏻‍♂️.", "state": [147, 2027], "reply": [346, 2027], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2027], "skill": "recall", "history": [2592, 147, 2027, 3676, 131, 346, 2027, 3676]}
+{"text": "I cannot stand face with diagonal mouth.", "state": [154, 90], "reply": [250, 3482, 90], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 90], "skill": "recall", "history": [2592, 154, 90, 3676, 131, 250, 3482, 90, 3676]}
+{"text": "I cannot stand 🎃.", "state": [154, 3117], "reply": [250, 3482, 3117], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3117], "skill": "recall", "history": [2592, 154, 3117, 3676, 131, 250, 3482, 3117, 3676]}
+{"text": "Actually, I prefer 🇲🇳 instead.", "state": [3506, 147, 3844], "reply": [250, 147, 3844], "skill": "correction", "history": [2592, 154, 3117, 3676, 131, 250, 3482, 3117, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 3844], "skill": "updated_recall", "history": [2592, 154, 3117, 3676, 131, 250, 3482, 3117, 3676, 2592, 3506, 147, 3844, 3676, 131, 250, 147, 3844, 3676]}
+{"text": "I really enjoy goat.", "state": [147, 2646], "reply": [346, 2646], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2646], "skill": "recall", "history": [2592, 147, 2646, 3676, 131, 346, 2646, 3676]}
+{"text": "I really enjoy 👩🏽‍🚒.", "state": [147, 1143], "reply": [346, 1143], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1143], "skill": "recall", "history": [2592, 147, 1143, 3676, 131, 346, 1143, 3676]}
+{"text": "I really enjoy woman kneeling: medium-light skin tone.", "state": [147, 1612], "reply": [346, 1612], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1612], "skill": "recall", "history": [2592, 147, 1612, 3676, 131, 346, 1612, 3676]}
+{"text": "Actually, I prefer 🧞 instead.", "state": [3506, 147, 1500], "reply": [250, 147, 1500], "skill": "correction", "history": [2592, 147, 1612, 3676, 131, 346, 1612, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1500], "skill": "updated_recall", "history": [2592, 147, 1612, 3676, 131, 346, 1612, 3676, 2592, 3506, 147, 1500, 3676, 131, 250, 147, 1500, 3676]}
+{"text": "I cannot stand 🇹🇷.", "state": [154, 3923], "reply": [250, 3482, 3923], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3923], "skill": "recall", "history": [2592, 154, 3923, 3676, 131, 250, 3482, 3923, 3676]}
+{"text": "I really enjoy open file folder.", "state": [147, 3365], "reply": [346, 3365], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3365], "skill": "recall", "history": [2592, 147, 3365, 3676, 131, 346, 3365, 3676]}
+{"text": "I really enjoy 🇷🇸.", "state": [147, 3887], "reply": [346, 3887], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3887], "skill": "recall", "history": [2592, 147, 3887, 3676, 131, 346, 3887, 3676]}
+{"text": "Actually, I prefer ⚠️ instead.", "state": [3506, 147, 3479], "reply": [250, 147, 3479], "skill": "correction", "history": [2592, 147, 3887, 3676, 131, 346, 3887, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3479], "skill": "updated_recall", "history": [2592, 147, 3887, 3676, 131, 346, 3887, 3676, 2592, 3506, 147, 3479, 3676, 131, 250, 147, 3479, 3676]}
+{"text": "I cannot stand person: dark skin tone, white hair.", "state": [154, 635], "reply": [250, 3482, 635], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 635], "skill": "recall", "history": [2592, 154, 635, 3676, 131, 250, 3482, 635, 3676]}
+{"text": "I really enjoy 🔲.", "state": [147, 3682], "reply": [346, 3682], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3682], "skill": "recall", "history": [2592, 147, 3682, 3676, 131, 346, 3682, 3676]}
+{"text": "I cannot stand flag: French Polynesia.", "state": [154, 3872], "reply": [250, 3482, 3872], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3872], "skill": "recall", "history": [2592, 154, 3872, 3676, 131, 250, 3482, 3872, 3676]}
+{"text": "Actually, I prefer 👩🏾‍🏭 instead.", "state": [3506, 147, 1000], "reply": [250, 147, 1000], "skill": "correction", "history": [2592, 154, 3872, 3676, 131, 250, 3482, 3872, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 1000], "skill": "updated_recall", "history": [2592, 154, 3872, 3676, 131, 250, 3482, 3872, 3676, 2592, 3506, 147, 1000, 3676, 131, 250, 147, 1000, 3676]}
+{"text": "I cannot stand 🧑🏿‍❤️‍💋‍🧑🏻.", "state": [154, 2380], "reply": [250, 3482, 2380], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2380], "skill": "recall", "history": [2592, 154, 2380, 3676, 131, 250, 3482, 2380, 3676]}
+{"text": "I cannot stand OK hand.", "state": [154, 250], "reply": [250, 3482, 250], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 250], "skill": "recall", "history": [2592, 154, 250, 3676, 131, 250, 3482, 250, 3676]}
+{"text": "I really enjoy 👨🏼‍🍳.", "state": [147, 956], "reply": [346, 956], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 956], "skill": "recall", "history": [2592, 147, 956, 3676, 131, 346, 956, 3676]}
+{"text": "Actually, I prefer 📇 instead.", "state": [3506, 147, 3371], "reply": [250, 147, 3371], "skill": "correction", "history": [2592, 147, 956, 3676, 131, 346, 956, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3371], "skill": "updated_recall", "history": [2592, 147, 956, 3676, 131, 346, 956, 3676, 2592, 3506, 147, 3371, 3676, 131, 250, 147, 3371, 3676]}
+{"text": "I really enjoy person lifting weights: dark skin tone.", "state": [147, 2025], "reply": [346, 2025], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2025], "skill": "recall", "history": [2592, 147, 2025, 3676, 131, 346, 2025, 3676]}
+{"text": "I cannot stand 👴🏻.", "state": [154, 667], "reply": [250, 3482, 667], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 667], "skill": "recall", "history": [2592, 154, 667, 3676, 131, 250, 3482, 667, 3676]}
+{"text": "I cannot stand men wrestling: dark skin tone.", "state": [154, 2103], "reply": [250, 3482, 2103], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2103], "skill": "recall", "history": [2592, 154, 2103, 3676, 131, 250, 3482, 2103, 3676]}
+{"text": "Actually, I prefer 🦵🏾 instead.", "state": [3506, 147, 474], "reply": [250, 147, 474], "skill": "correction", "history": [2592, 154, 2103, 3676, 131, 250, 3482, 2103, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 474], "skill": "updated_recall", "history": [2592, 154, 2103, 3676, 131, 250, 3482, 2103, 3676, 2592, 3506, 147, 474, 3676, 131, 250, 147, 474, 3676]}
+{"text": "I really enjoy 🛵.", "state": [147, 2996], "reply": [346, 2996], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2996], "skill": "recall", "history": [2592, 147, 2996, 3676, 131, 346, 2996, 3676]}
+{"text": "I really enjoy pregnant person: light skin tone.", "state": [147, 1321], "reply": [346, 1321], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1321], "skill": "recall", "history": [2592, 147, 1321, 3676, 131, 346, 1321, 3676]}
+{"text": "I cannot stand 🛴.", "state": [154, 3001], "reply": [250, 3482, 3001], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3001], "skill": "recall", "history": [2592, 154, 3001, 3676, 131, 250, 3482, 3001, 3676]}
+{"text": "Actually, I prefer 🇺🇲 instead.", "state": [3506, 147, 3930], "reply": [250, 147, 3930], "skill": "correction", "history": [2592, 154, 3001, 3676, 131, 250, 3482, 3001, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 3930], "skill": "updated_recall", "history": [2592, 154, 3001, 3676, 131, 250, 3482, 3001, 3676, 2592, 3506, 147, 3930, 3676, 131, 250, 147, 3930, 3676]}
+{"text": "I really enjoy woman and man holding hands: dark skin tone, medium skin tone.", "state": [147, 2329], "reply": [346, 2329], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2329], "skill": "recall", "history": [2592, 147, 2329, 3676, 131, 346, 2329, 3676]}
+{"text": "I cannot stand 👨🏾‍❤️‍👨🏽.", "state": [154, 2532], "reply": [250, 3482, 2532], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2532], "skill": "recall", "history": [2592, 154, 2532, 3676, 131, 250, 3482, 2532, 3676]}
+{"text": "I really enjoy nose: light skin tone.", "state": [147, 495], "reply": [346, 495], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 495], "skill": "recall", "history": [2592, 147, 495, 3676, 131, 346, 495, 3676]}
+{"text": "Actually, I prefer 🫰 instead.", "state": [3506, 147, 280], "reply": [250, 147, 280], "skill": "correction", "history": [2592, 147, 495, 3676, 131, 346, 495, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 280], "skill": "updated_recall", "history": [2592, 147, 495, 3676, 131, 346, 495, 3676, 2592, 3506, 147, 280, 3676, 131, 250, 147, 280, 3676]}
+{"text": "I really enjoy 🏋🏼‍♂️.", "state": [147, 2028], "reply": [346, 2028], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2028], "skill": "recall", "history": [2592, 147, 2028, 3676, 131, 346, 2028, 3676]}
+{"text": "I really enjoy hand with index finger and thumb crossed: light skin tone.", "state": [147, 281], "reply": [346, 281], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 281], "skill": "recall", "history": [2592, 147, 281, 3676, 131, 346, 281, 3676]}
+{"text": "I really enjoy 👩🏼‍🦯.", "state": [147, 1660], "reply": [346, 1660], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1660], "skill": "recall", "history": [2592, 147, 1660, 3676, 131, 346, 1660, 3676]}
+{"text": "Actually, I prefer ♓ instead.", "state": [3506, 147, 3535], "reply": [250, 147, 3535], "skill": "correction", "history": [2592, 147, 1660, 3676, 131, 346, 1660, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3535], "skill": "updated_recall", "history": [2592, 147, 1660, 3676, 131, 346, 1660, 3676, 2592, 3506, 147, 3535, 3676, 131, 250, 147, 3535, 3676]}
+{"text": "I really enjoy soft ice cream.", "state": [147, 2857], "reply": [346, 2857], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2857], "skill": "recall", "history": [2592, 147, 2857, 3676, 131, 346, 2857, 3676]}
+{"text": "I really enjoy 🤵🏻.", "state": [147, 1273], "reply": [346, 1273], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1273], "skill": "recall", "history": [2592, 147, 1273, 3676, 131, 346, 1273, 3676]}
+{"text": "I cannot stand ox.", "state": [154, 2637], "reply": [250, 3482, 2637], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2637], "skill": "recall", "history": [2592, 154, 2637, 3676, 131, 250, 3482, 2637, 3676]}
+{"text": "Actually, I prefer 🐀 instead.", "state": [3506, 147, 2657], "reply": [250, 147, 2657], "skill": "correction", "history": [2592, 154, 2637, 3676, 131, 250, 3482, 2637, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2657], "skill": "updated_recall", "history": [2592, 154, 2637, 3676, 131, 250, 3482, 2637, 3676, 2592, 3506, 147, 2657, 3676, 131, 250, 147, 2657, 3676]}
+{"text": "I cannot stand 🧚🏼‍♀️.", "state": [154, 1442], "reply": [250, 3482, 1442], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1442], "skill": "recall", "history": [2592, 154, 1442, 3676, 131, 250, 3482, 1442, 3676]}
+{"text": "I really enjoy woman bowing: light skin tone.", "state": [147, 817], "reply": [346, 817], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 817], "skill": "recall", "history": [2592, 147, 817, 3676, 131, 346, 817, 3676]}
+{"text": "I really enjoy 🤟🏼.", "state": [147, 288], "reply": [346, 288], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 288], "skill": "recall", "history": [2592, 147, 288, 3676, 131, 346, 288, 3676]}
+{"text": "Actually, I prefer 🤞 instead.", "state": [3506, 147, 274], "reply": [250, 147, 274], "skill": "correction", "history": [2592, 147, 288, 3676, 131, 346, 288, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 274], "skill": "updated_recall", "history": [2592, 147, 288, 3676, 131, 346, 288, 3676, 2592, 3506, 147, 274, 3676, 131, 250, 147, 274, 3676]}
+{"text": "I really enjoy comet.", "state": [147, 3113], "reply": [346, 3113], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3113], "skill": "recall", "history": [2592, 147, 3113, 3676, 131, 346, 3113, 3676]}
+{"text": "I really enjoy 💔.", "state": [147, 154], "reply": [346, 154], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 154], "skill": "recall", "history": [2592, 147, 154, 3676, 131, 346, 154, 3676]}
+{"text": "I cannot stand grinning face with sweat.", "state": [154, 18], "reply": [250, 3482, 18], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 18], "skill": "recall", "history": [2592, 154, 18, 3676, 131, 250, 3482, 18, 3676]}
+{"text": "Actually, I prefer 👩🏻‍🤝‍👩🏿 instead.", "state": [3506, 147, 2285], "reply": [250, 147, 2285], "skill": "correction", "history": [2592, 154, 18, 3676, 131, 250, 3482, 18, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2285], "skill": "updated_recall", "history": [2592, 154, 18, 3676, 131, 250, 3482, 18, 3676, 2592, 3506, 147, 2285, 3676, 131, 250, 147, 2285, 3676]}
+{"text": "I really enjoy ⛹🏼‍♂️.", "state": [147, 2010], "reply": [346, 2010], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2010], "skill": "recall", "history": [2592, 147, 2010, 3676, 131, 346, 2010, 3676]}
+{"text": "I cannot stand kiss: man, man, medium-light skin tone, light skin tone.", "state": [154, 2416], "reply": [250, 3482, 2416], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2416], "skill": "recall", "history": [2592, 154, 2416, 3676, 131, 250, 3482, 2416, 3676]}
+{"text": "I cannot stand 💇🏻‍♂️.", "state": [154, 1533], "reply": [250, 3482, 1533], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1533], "skill": "recall", "history": [2592, 154, 1533, 3676, 131, 250, 3482, 1533, 3676]}
+{"text": "Actually, I prefer 🧑🏽‍🤝‍🧑🏻 instead.", "state": [3506, 147, 2265], "reply": [250, 147, 2265], "skill": "correction", "history": [2592, 154, 1533, 3676, 131, 250, 3482, 1533, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2265], "skill": "updated_recall", "history": [2592, 154, 1533, 3676, 131, 250, 3482, 1533, 3676, 2592, 3506, 147, 2265, 3676, 131, 250, 147, 2265, 3676]}
+{"text": "I really enjoy woman in manual wheelchair facing right: medium-dark skin tone.", "state": [147, 1740], "reply": [346, 1740], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1740], "skill": "recall", "history": [2592, 147, 1740, 3676, 131, 346, 1740, 3676]}
+{"text": "I really enjoy 🧔🏻.", "state": [147, 553], "reply": [346, 553], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 553], "skill": "recall", "history": [2592, 147, 553, 3676, 131, 346, 553, 3676]}
+{"text": "I cannot stand family: woman, woman, girl.", "state": [154, 2577], "reply": [250, 3482, 2577], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2577], "skill": "recall", "history": [2592, 154, 2577, 3676, 131, 250, 3482, 2577, 3676]}
+{"text": "Actually, I prefer 🥙 instead.", "state": [3506, 147, 2827], "reply": [250, 147, 2827], "skill": "correction", "history": [2592, 154, 2577, 3676, 131, 250, 3482, 2577, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2827], "skill": "updated_recall", "history": [2592, 154, 2577, 3676, 131, 250, 3482, 2577, 3676, 2592, 3506, 147, 2827, 3676, 131, 250, 147, 2827, 3676]}
+{"text": "I cannot stand 🇹🇷.", "state": [154, 3923], "reply": [250, 3482, 3923], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3923], "skill": "recall", "history": [2592, 154, 3923, 3676, 131, 250, 3482, 3923, 3676]}
+{"text": "I cannot stand men holding hands: medium-dark skin tone, medium-light skin tone.", "state": [154, 2349], "reply": [250, 3482, 2349], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2349], "skill": "recall", "history": [2592, 154, 2349, 3676, 131, 250, 3482, 2349, 3676]}
+{"text": "I cannot stand 👳🏾‍♀️.", "state": [154, 1258], "reply": [250, 3482, 1258], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1258], "skill": "recall", "history": [2592, 154, 1258, 3676, 131, 250, 3482, 1258, 3676]}
+{"text": "Actually, I prefer 🫩 instead.", "state": [3506, 147, 70], "reply": [250, 147, 70], "skill": "correction", "history": [2592, 154, 1258, 3676, 131, 250, 3482, 1258, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 70], "skill": "updated_recall", "history": [2592, 154, 1258, 3676, 131, 250, 3482, 1258, 3676, 2592, 3506, 147, 70, 3676, 131, 250, 147, 70, 3676]}
+{"text": "I really enjoy family: man, woman, girl, boy.", "state": [147, 2568], "reply": [346, 2568], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2568], "skill": "recall", "history": [2592, 147, 2568, 3676, 131, 346, 2568, 3676]}
+{"text": "I really enjoy 🗒️.", "state": [147, 3369], "reply": [346, 3369], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3369], "skill": "recall", "history": [2592, 147, 3369, 3676, 131, 346, 3369, 3676]}
+{"text": "I really enjoy women with bunny ears: medium-light skin tone, light skin tone.", "state": [147, 1864], "reply": [346, 1864], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1864], "skill": "recall", "history": [2592, 147, 1864, 3676, 131, 346, 1864, 3676]}
+{"text": "Actually, I prefer 👨🏽‍❤️‍👨🏿 instead.", "state": [3506, 147, 2529], "reply": [250, 147, 2529], "skill": "correction", "history": [2592, 147, 1864, 3676, 131, 346, 1864, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2529], "skill": "updated_recall", "history": [2592, 147, 1864, 3676, 131, 346, 1864, 3676, 2592, 3506, 147, 2529, 3676, 131, 250, 147, 2529, 3676]}
+{"text": "I cannot stand 🤴🏽.", "state": [154, 1233], "reply": [250, 3482, 1233], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1233], "skill": "recall", "history": [2592, 154, 1233, 3676, 131, 250, 3482, 1233, 3676]}
+{"text": "I cannot stand man pouting: dark skin tone.", "state": [154, 707], "reply": [250, 3482, 707], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 707], "skill": "recall", "history": [2592, 154, 707, 3676, 131, 250, 3482, 707, 3676]}
+{"text": "I really enjoy 🍿.", "state": [147, 2836], "reply": [346, 2836], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2836], "skill": "recall", "history": [2592, 147, 2836, 3676, 131, 346, 2836, 3676]}
+{"text": "Actually, I prefer 👩‍🦱 instead.", "state": [3506, 147, 612], "reply": [250, 147, 612], "skill": "correction", "history": [2592, 147, 2836, 3676, 131, 346, 2836, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 612], "skill": "updated_recall", "history": [2592, 147, 2836, 3676, 131, 346, 2836, 3676, 2592, 3506, 147, 612, 3676, 131, 250, 147, 612, 3676]}
+{"text": "I really enjoy man in steamy room: medium-light skin tone.", "state": [147, 1888], "reply": [346, 1888], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1888], "skill": "recall", "history": [2592, 147, 1888, 3676, 131, 346, 1888, 3676]}
+{"text": "I cannot stand ⏺️.", "state": [154, 3552], "reply": [250, 3482, 3552], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3552], "skill": "recall", "history": [2592, 154, 3552, 3676, 131, 250, 3482, 3552, 3676]}
+{"text": "I really enjoy handshake: dark skin tone.", "state": [147, 417], "reply": [346, 417], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 417], "skill": "recall", "history": [2592, 147, 417, 3676, 131, 346, 417, 3676]}
+{"text": "Actually, I prefer 👨🏻‍🦼‍➡️ instead.", "state": [3506, 147, 1689], "reply": [250, 147, 1689], "skill": "correction", "history": [2592, 147, 417, 3676, 131, 346, 417, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1689], "skill": "updated_recall", "history": [2592, 147, 417, 3676, 131, 346, 417, 3676, 2592, 3506, 147, 1689, 3676, 131, 250, 147, 1689, 3676]}
+{"text": "I cannot stand 👨🏽‍🦲.", "state": [154, 591], "reply": [250, 3482, 591], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 591], "skill": "recall", "history": [2592, 154, 591, 3676, 131, 250, 3482, 591, 3676]}
+{"text": "I really enjoy woman surfing: medium skin tone.", "state": [147, 1963], "reply": [346, 1963], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1963], "skill": "recall", "history": [2592, 147, 1963, 3676, 131, 346, 1963, 3676]}
+{"text": "I really enjoy 🤥.", "state": [147, 61], "reply": [346, 61], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 61], "skill": "recall", "history": [2592, 147, 61, 3676, 131, 346, 61, 3676]}
+{"text": "Actually, I prefer 😮 instead.", "state": [3506, 147, 94], "reply": [250, 147, 94], "skill": "correction", "history": [2592, 147, 61, 3676, 131, 346, 61, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 94], "skill": "updated_recall", "history": [2592, 147, 61, 3676, 131, 346, 61, 3676, 2592, 3506, 147, 94, 3676, 131, 250, 147, 94, 3676]}
+{"text": "I cannot stand flag: Tokelau.", "state": [154, 3918], "reply": [250, 3482, 3918], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3918], "skill": "recall", "history": [2592, 154, 3918, 3676, 131, 250, 3482, 3918, 3676]}
+{"text": "I cannot stand 👨🏽‍🫯‍👨🏿.", "state": [154, 2141], "reply": [250, 3482, 2141], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2141], "skill": "recall", "history": [2592, 154, 2141, 3676, 131, 250, 3482, 2141, 3676]}
+{"text": "I really enjoy people wrestling: medium skin tone, medium-dark skin tone.", "state": [147, 2120], "reply": [346, 2120], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2120], "skill": "recall", "history": [2592, 147, 2120, 3676, 131, 346, 2120, 3676]}
+{"text": "Actually, I prefer 👨🏼‍🫯‍👨🏾 instead.", "state": [3506, 147, 2136], "reply": [250, 147, 2136], "skill": "correction", "history": [2592, 147, 2120, 3676, 131, 346, 2120, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2136], "skill": "updated_recall", "history": [2592, 147, 2120, 3676, 131, 346, 2120, 3676, 2592, 3506, 147, 2136, 3676, 131, 250, 147, 2136, 3676]}
+{"text": "I really enjoy 🦑.", "state": [147, 2720], "reply": [346, 2720], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2720], "skill": "recall", "history": [2592, 147, 2720, 3676, 131, 346, 2720, 3676]}
+{"text": "I really enjoy man frowning: medium skin tone.", "state": [147, 687], "reply": [346, 687], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 687], "skill": "recall", "history": [2592, 147, 687, 3676, 131, 346, 687, 3676]}
+{"text": "I really enjoy ㊗️.", "state": [147, 3646], "reply": [346, 3646], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3646], "skill": "recall", "history": [2592, 147, 3646, 3676, 131, 346, 3646, 3676]}
+{"text": "Actually, I prefer ✍️ instead.", "state": [3506, 147, 444], "reply": [250, 147, 444], "skill": "correction", "history": [2592, 147, 3646, 3676, 131, 346, 3646, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 444], "skill": "updated_recall", "history": [2592, 147, 3646, 3676, 131, 346, 3646, 3676, 2592, 3506, 147, 444, 3676, 131, 250, 147, 444, 3676]}
+{"text": "I really enjoy deaf person: medium-dark skin tone.", "state": [147, 790], "reply": [346, 790], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 790], "skill": "recall", "history": [2592, 147, 790, 3676, 131, 346, 790, 3676]}
+{"text": "I cannot stand 🏄🏽.", "state": [154, 1951], "reply": [250, 3482, 1951], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1951], "skill": "recall", "history": [2592, 154, 1951, 3676, 131, 250, 3482, 1951, 3676]}
+{"text": "I cannot stand woman and man holding hands: medium skin tone.", "state": [154, 2319], "reply": [250, 3482, 2319], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2319], "skill": "recall", "history": [2592, 154, 2319, 3676, 131, 250, 3482, 2319, 3676]}
+{"text": "Actually, I prefer ✍🏻 instead.", "state": [3506, 147, 445], "reply": [250, 147, 445], "skill": "correction", "history": [2592, 154, 2319, 3676, 131, 250, 3482, 2319, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 445], "skill": "updated_recall", "history": [2592, 154, 2319, 3676, 131, 250, 3482, 2319, 3676, 2592, 3506, 147, 445, 3676, 131, 250, 147, 445, 3676]}
+{"text": "I really enjoy 📽️.", "state": [147, 3302], "reply": [346, 3302], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3302], "skill": "recall", "history": [2592, 147, 3302, 3676, 131, 346, 3302, 3676]}
+{"text": "I really enjoy flag: Pakistan.", "state": [147, 3875], "reply": [346, 3875], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3875], "skill": "recall", "history": [2592, 147, 3875, 3676, 131, 346, 3875, 3676]}
+{"text": "I really enjoy 🧑🏻‍🤝‍🧑🏿.", "state": [147, 2259], "reply": [346, 2259], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2259], "skill": "recall", "history": [2592, 147, 2259, 3676, 131, 346, 2259, 3676]}
+{"text": "Actually, I prefer 👨🏿‍🚒 instead.", "state": [3506, 147, 1139], "reply": [250, 147, 1139], "skill": "correction", "history": [2592, 147, 2259, 3676, 131, 346, 2259, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1139], "skill": "updated_recall", "history": [2592, 147, 2259, 3676, 131, 346, 2259, 3676, 2592, 3506, 147, 1139, 3676, 131, 250, 147, 1139, 3676]}
+{"text": "I really enjoy kiss: medium-light skin tone.", "state": [147, 2360], "reply": [346, 2360], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2360], "skill": "recall", "history": [2592, 147, 2360, 3676, 131, 346, 2360, 3676]}
+{"text": "I cannot stand 👨🏼.", "state": [154, 548], "reply": [250, 3482, 548], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 548], "skill": "recall", "history": [2592, 154, 548, 3676, 131, 250, 3482, 548, 3676]}
+{"text": "I cannot stand hammer and pick.", "state": [154, 3394], "reply": [250, 3482, 3394], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3394], "skill": "recall", "history": [2592, 154, 3394, 3676, 131, 250, 3482, 3394, 3676]}
+{"text": "Actually, I prefer 🏩 instead.", "state": [3506, 147, 2932], "reply": [250, 147, 2932], "skill": "correction", "history": [2592, 154, 3394, 3676, 131, 250, 3482, 3394, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 2932], "skill": "updated_recall", "history": [2592, 154, 3394, 3676, 131, 250, 3482, 3394, 3676, 2592, 3506, 147, 2932, 3676, 131, 250, 147, 2932, 3676]}
+{"text": "I really enjoy 🙎🏾.", "state": [147, 700], "reply": [346, 700], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 700], "skill": "recall", "history": [2592, 147, 700, 3676, 131, 346, 700, 3676]}
+{"text": "I cannot stand flag: Laos.", "state": [154, 3823], "reply": [250, 3482, 3823], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3823], "skill": "recall", "history": [2592, 154, 3823, 3676, 131, 250, 3482, 3823, 3676]}
+{"text": "I really enjoy 🇭🇹.", "state": [147, 3795], "reply": [346, 3795], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3795], "skill": "recall", "history": [2592, 147, 3795, 3676, 131, 346, 3795, 3676]}
+{"text": "Actually, I prefer 🍹 instead.", "state": [3506, 147, 2880], "reply": [250, 147, 2880], "skill": "correction", "history": [2592, 147, 3795, 3676, 131, 346, 3795, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2880], "skill": "updated_recall", "history": [2592, 147, 3795, 3676, 131, 346, 3795, 3676, 2592, 3506, 147, 2880, 3676, 131, 250, 147, 2880, 3676]}
+{"text": "I really enjoy man running facing right: medium-light skin tone.", "state": [147, 1774], "reply": [346, 1774], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1774], "skill": "recall", "history": [2592, 147, 1774, 3676, 131, 346, 1774, 3676]}
+{"text": "I cannot stand 🇲🇼.", "state": [154, 3853], "reply": [250, 3482, 3853], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3853], "skill": "recall", "history": [2592, 154, 3853, 3676, 131, 250, 3482, 3853, 3676]}
+{"text": "I really enjoy man playing water polo.", "state": [147, 2176], "reply": [346, 2176], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2176], "skill": "recall", "history": [2592, 147, 2176, 3676, 131, 346, 2176, 3676]}
+{"text": "Actually, I prefer 👨🏾‍❤️‍👨🏽 instead.", "state": [3506, 147, 2532], "reply": [250, 147, 2532], "skill": "correction", "history": [2592, 147, 2176, 3676, 131, 346, 2176, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2532], "skill": "updated_recall", "history": [2592, 147, 2176, 3676, 131, 346, 2176, 3676, 2592, 3506, 147, 2532, 3676, 131, 250, 147, 2532, 3676]}
+{"text": "I cannot stand 🚴🏼‍♂️.", "state": [154, 2046], "reply": [250, 3482, 2046], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2046], "skill": "recall", "history": [2592, 154, 2046, 3676, 131, 250, 3482, 2046, 3676]}
+{"text": "I cannot stand victory hand: medium-dark skin tone.", "state": [154, 272], "reply": [250, 3482, 272], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 272], "skill": "recall", "history": [2592, 154, 272, 3676, 131, 250, 3482, 272, 3676]}
+{"text": "I really enjoy 🇺🇳.", "state": [147, 3931], "reply": [346, 3931], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3931], "skill": "recall", "history": [2592, 147, 3931, 3676, 131, 346, 3931, 3676]}
+{"text": "Actually, I prefer 🧎🏽‍➡️ instead.", "state": [3506, 147, 1619], "reply": [250, 147, 1619], "skill": "correction", "history": [2592, 147, 3931, 3676, 131, 346, 3931, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1619], "skill": "updated_recall", "history": [2592, 147, 3931, 3676, 131, 346, 3931, 3676, 2592, 3506, 147, 1619, 3676, 131, 250, 147, 1619, 3676]}
+{"text": "I really enjoy brown square.", "state": [147, 3664], "reply": [346, 3664], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3664], "skill": "recall", "history": [2592, 147, 3664, 3676, 131, 346, 3664, 3676]}
+{"text": "I really enjoy 🦸🏼‍♂️.", "state": [147, 1382], "reply": [346, 1382], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1382], "skill": "recall", "history": [2592, 147, 1382, 3676, 131, 346, 1382, 3676]}
+{"text": "I cannot stand man elf.", "state": [154, 1488], "reply": [250, 3482, 1488], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1488], "skill": "recall", "history": [2592, 154, 1488, 3676, 131, 250, 3482, 1488, 3676]}
+{"text": "Actually, I prefer 👰🏾 instead.", "state": [3506, 147, 1294], "reply": [250, 147, 1294], "skill": "correction", "history": [2592, 154, 1488, 3676, 131, 250, 3482, 1488, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 1294], "skill": "updated_recall", "history": [2592, 154, 1488, 3676, 131, 250, 3482, 1488, 3676, 2592, 3506, 147, 1294, 3676, 131, 250, 147, 1294, 3676]}
+{"text": "I cannot stand ☝🏽.", "state": [154, 337], "reply": [250, 3482, 337], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 337], "skill": "recall", "history": [2592, 154, 337, 3676, 131, 250, 3482, 337, 3676]}
+{"text": "I cannot stand kiss: woman, woman, medium skin tone, light skin tone.", "state": [154, 2447], "reply": [250, 3482, 2447], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2447], "skill": "recall", "history": [2592, 154, 2447, 3676, 131, 250, 3482, 2447, 3676]}
+{"text": "I cannot stand 🕵🏼.", "state": [154, 1166], "reply": [250, 3482, 1166], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 1166], "skill": "recall", "history": [2592, 154, 1166, 3676, 131, 250, 3482, 1166, 3676]}
+{"text": "Actually, I prefer 🧑‍🦰 instead.", "state": [3506, 147, 606], "reply": [250, 147, 606], "skill": "correction", "history": [2592, 154, 1166, 3676, 131, 250, 3482, 1166, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 606], "skill": "updated_recall", "history": [2592, 154, 1166, 3676, 131, 250, 3482, 1166, 3676, 2592, 3506, 147, 606, 3676, 131, 250, 147, 606, 3676]}
+{"text": "I really enjoy mage: medium-dark skin tone.", "state": [147, 1414], "reply": [346, 1414], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 1414], "skill": "recall", "history": [2592, 147, 1414, 3676, 131, 346, 1414, 3676]}
+{"text": "I cannot stand 🇬🇷.", "state": [154, 3785], "reply": [250, 3482, 3785], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3785], "skill": "recall", "history": [2592, 154, 3785, 3676, 131, 250, 3482, 3785, 3676]}
+{"text": "I cannot stand joker.", "state": [154, 3192], "reply": [250, 3482, 3192], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3192], "skill": "recall", "history": [2592, 154, 3192, 3676, 131, 250, 3482, 3192, 3676]}
+{"text": "Actually, I prefer 👨🏽‍🎤 instead.", "state": [3506, 147, 1065], "reply": [250, 147, 1065], "skill": "correction", "history": [2592, 154, 3192, 3676, 131, 250, 3482, 3192, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 1065], "skill": "updated_recall", "history": [2592, 154, 3192, 3676, 131, 250, 3482, 3192, 3676, 2592, 3506, 147, 1065, 3676, 131, 250, 147, 1065, 3676]}
+{"text": "I really enjoy 👠.", "state": [147, 3233], "reply": [346, 3233], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3233], "skill": "recall", "history": [2592, 147, 3233, 3676, 131, 346, 3233, 3676]}
+{"text": "I cannot stand flag: Wallis & Futuna.", "state": [154, 3942], "reply": [250, 3482, 3942], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3942], "skill": "recall", "history": [2592, 154, 3942, 3676, 131, 250, 3482, 3942, 3676]}
+{"text": "I cannot stand 🐀.", "state": [154, 2657], "reply": [250, 3482, 2657], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2657], "skill": "recall", "history": [2592, 154, 2657, 3676, 131, 250, 3482, 2657, 3676]}
+{"text": "Actually, I prefer 〽️ instead.", "state": [3506, 147, 3590], "reply": [250, 147, 3590], "skill": "correction", "history": [2592, 154, 2657, 3676, 131, 250, 3482, 2657, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 3590], "skill": "updated_recall", "history": [2592, 154, 2657, 3676, 131, 250, 3482, 2657, 3676, 2592, 3506, 147, 3590, 3676, 131, 250, 147, 3590, 3676]}
+{"text": "I cannot stand family: woman, girl, girl.", "state": [154, 2590], "reply": [250, 3482, 2590], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2590], "skill": "recall", "history": [2592, 154, 2590, 3676, 131, 250, 3482, 2590, 3676]}
+{"text": "I really enjoy 👨🏽‍❤️‍💋‍👨🏻.", "state": [147, 2421], "reply": [346, 2421], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2421], "skill": "recall", "history": [2592, 147, 2421, 3676, 131, 346, 2421, 3676]}
+{"text": "I really enjoy flag: Guyana.", "state": [147, 3790], "reply": [346, 3790], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3790], "skill": "recall", "history": [2592, 147, 3790, 3676, 131, 346, 3790, 3676]}
+{"text": "Actually, I prefer 🖐🏾 instead.", "state": [3506, 147, 200], "reply": [250, 147, 200], "skill": "correction", "history": [2592, 147, 3790, 3676, 131, 346, 3790, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 200], "skill": "updated_recall", "history": [2592, 147, 3790, 3676, 131, 346, 3790, 3676, 2592, 3506, 147, 200, 3676, 131, 250, 147, 200, 3676]}
+{"text": "I cannot stand 🤌🏼.", "state": [154, 258], "reply": [250, 3482, 258], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 258], "skill": "recall", "history": [2592, 154, 258, 3676, 131, 250, 3482, 258, 3676]}
+{"text": "I really enjoy avocado.", "state": [147, 2787], "reply": [346, 2787], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2787], "skill": "recall", "history": [2592, 147, 2787, 3676, 131, 346, 2787, 3676]}
+{"text": "I really enjoy 🧑🏽‍🤝‍🧑🏽.", "state": [147, 2267], "reply": [346, 2267], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 2267], "skill": "recall", "history": [2592, 147, 2267, 3676, 131, 346, 2267, 3676]}
+{"text": "Actually, I prefer 🕘 instead.", "state": [3506, 147, 3064], "reply": [250, 147, 3064], "skill": "correction", "history": [2592, 147, 2267, 3676, 131, 346, 2267, 3676]}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3064], "skill": "updated_recall", "history": [2592, 147, 2267, 3676, 131, 346, 2267, 3676, 2592, 3506, 147, 3064, 3676, 131, 250, 147, 3064, 3676]}
+{"text": "I really enjoy flag: Portugal.", "state": [147, 3881], "reply": [346, 3881], "skill": "preference", "history": []}
+{"text": "What was the thing I enjoyed?", "state": [500, 147, 10], "reply": [147, 3881], "skill": "recall", "history": [2592, 147, 3881, 3676, 131, 346, 3881, 3676]}
+{"text": "I cannot stand 🏡.", "state": [154, 2925], "reply": [250, 3482, 2925], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 2925], "skill": "recall", "history": [2592, 154, 2925, 3676, 131, 250, 3482, 2925, 3676]}
+{"text": "I cannot stand police car light.", "state": [154, 3010], "reply": [250, 3482, 3010], "skill": "preference", "history": []}
+{"text": "Which thing did I say I hated?", "state": [500, 154, 10], "reply": [154, 3010], "skill": "recall", "history": [2592, 154, 3010, 3676, 131, 250, 3482, 3010, 3676]}
+{"text": "Actually, I prefer 👲🏼 instead.", "state": [3506, 147, 1262], "reply": [250, 147, 1262], "skill": "correction", "history": [2592, 154, 3010, 3676, 131, 250, 3482, 3010, 3676]}
+{"text": "What do I like now?", "state": [500, 147, 10], "reply": [147, 1262], "skill": "updated_recall", "history": [2592, 154, 3010, 3676, 131, 250, 3482, 3010, 3676, 2592, 3506, 147, 1262, 3676, 131, 250, 147, 1262, 3676]}
