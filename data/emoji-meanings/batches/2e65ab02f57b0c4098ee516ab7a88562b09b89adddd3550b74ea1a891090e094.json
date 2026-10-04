@@ -1,0 +1,697 @@
+{
+  "names": [
+    "round pushpin",
+    "paperclip",
+    "linked paperclips",
+    "straight ruler",
+    "triangular ruler",
+    "scissors",
+    "card file box",
+    "file cabinet",
+    "wastebasket",
+    "locked",
+    "unlocked",
+    "locked with pen",
+    "locked with key",
+    "key",
+    "old key",
+    "hammer",
+    "axe",
+    "pick",
+    "hammer and pick",
+    "hammer and wrench",
+    "dagger",
+    "crossed swords",
+    "bomb",
+    "boomerang",
+    "bow and arrow",
+    "shield",
+    "carpentry saw",
+    "wrench",
+    "screwdriver",
+    "nut and bolt",
+    "gear",
+    "clamp",
+    "balance scale",
+    "white cane",
+    "link",
+    "broken chain",
+    "chains",
+    "hook",
+    "toolbox",
+    "magnet"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "round pushpin",
+        "associations": [
+          "pin",
+          "tack",
+          "notice board",
+          "attachment",
+          "bulletin board"
+        ]
+      },
+      {
+        "id": "paperclip",
+        "associations": [
+          "clip",
+          "fastener",
+          "office supply",
+          "attach papers",
+          "stationery"
+        ]
+      },
+      {
+        "id": "linked paperclips",
+        "associations": [
+          "chain",
+          "connected clips",
+          "office supply",
+          "linkage",
+          "connection"
+        ]
+      },
+      {
+        "id": "straight ruler",
+        "associations": [
+          "measuring tool",
+          "straightedge",
+          "length",
+          "line drawing",
+          "school supply"
+        ]
+      },
+      {
+        "id": "triangular ruler",
+        "associations": [
+          "set square",
+          "drafting tool",
+          "triangle",
+          "angle measurement",
+          "geometry"
+        ]
+      },
+      {
+        "id": "scissors",
+        "associations": [
+          "cutting",
+          "snip",
+          "trim",
+          "crafts",
+          "stationery"
+        ]
+      },
+      {
+        "id": "card file box",
+        "associations": [
+          "index cards",
+          "filing",
+          "storage box",
+          "records",
+          "organization"
+        ]
+      },
+      {
+        "id": "file cabinet",
+        "associations": [
+          "filing",
+          "storage",
+          "office furniture",
+          "documents",
+          "organization"
+        ]
+      },
+      {
+        "id": "wastebasket",
+        "associations": [
+          "trash",
+          "bin",
+          "discard",
+          "cleanup",
+          "garbage"
+        ]
+      },
+      {
+        "id": "locked",
+        "associations": [
+          "secure",
+          "closed",
+          "sealed",
+          "restricted",
+          "access denied"
+        ]
+      },
+      {
+        "id": "unlocked",
+        "associations": [
+          "open",
+          "accessible",
+          "free",
+          "available",
+          "not locked"
+        ]
+      },
+      {
+        "id": "locked with pen",
+        "associations": [
+          "jammed",
+          "blocked",
+          "pinned shut",
+          "forced closed",
+          "secured"
+        ]
+      },
+      {
+        "id": "locked with key",
+        "associations": [
+          "keyed lock",
+          "secured",
+          "locked door",
+          "access control",
+          "private"
+        ]
+      },
+      {
+        "id": "key",
+        "associations": [
+          "unlock",
+          "access",
+          "security",
+          "door key",
+          "opening"
+        ]
+      },
+      {
+        "id": "old key",
+        "associations": [
+          "vintage",
+          "worn",
+          "antique",
+          "rusty",
+          "legacy"
+        ]
+      },
+      {
+        "id": "hammer",
+        "associations": [
+          "tool",
+          "hit",
+          "nail",
+          "construction",
+          "repair"
+        ]
+      },
+      {
+        "id": "axe",
+        "associations": [
+          "cutting",
+          "chop",
+          "woodcutting",
+          "hatchet",
+          "woodwork"
+        ]
+      },
+      {
+        "id": "pick",
+        "associations": [
+          "digging",
+          "pointed tool",
+          "excavation",
+          "miner",
+          "pry"
+        ]
+      },
+      {
+        "id": "hammer and pick",
+        "associations": [
+          "tools",
+          "worksite",
+          "construction",
+          "digging",
+          "manual labor"
+        ]
+      },
+      {
+        "id": "hammer and wrench",
+        "associations": [
+          "repair",
+          "toolset",
+          "maintenance",
+          "mechanic",
+          "fixing"
+        ]
+      },
+      {
+        "id": "dagger",
+        "associations": [
+          "blade",
+          "stabbing",
+          "weapon",
+          "knife",
+          "danger"
+        ]
+      },
+      {
+        "id": "crossed swords",
+        "associations": [
+          "duel",
+          "combat",
+          "conflict",
+          "battle",
+          "fight"
+        ]
+      },
+      {
+        "id": "bomb",
+        "associations": [
+          "explosion",
+          "blast",
+          "danger",
+          "attack",
+          "detonation"
+        ]
+      },
+      {
+        "id": "boomerang",
+        "associations": [
+          "throwing",
+          "returning",
+          "play",
+          "curved object",
+          "rebound"
+        ]
+      },
+      {
+        "id": "bow and arrow",
+        "associations": [
+          "archery",
+          "aim",
+          "shooting",
+          "target",
+          "hunting"
+        ]
+      },
+      {
+        "id": "shield",
+        "associations": [
+          "protection",
+          "defense",
+          "guard",
+          "safety",
+          "armor"
+        ]
+      },
+      {
+        "id": "carpentry saw",
+        "associations": [
+          "cut wood",
+          "sawing",
+          "lumber",
+          "carpentry",
+          "woodworking"
+        ]
+      },
+      {
+        "id": "wrench",
+        "associations": [
+          "spanner",
+          "tighten",
+          "loosen",
+          "mechanic",
+          "repair"
+        ]
+      },
+      {
+        "id": "screwdriver",
+        "associations": [
+          "turn screw",
+          "tool",
+          "repair",
+          "assembly",
+          "hardware"
+        ]
+      },
+      {
+        "id": "nut and bolt",
+        "associations": [
+          "hardware",
+          "fastener",
+          "assembly",
+          "threaded",
+          "tighten"
+        ]
+      },
+      {
+        "id": "gear",
+        "associations": [
+          "cog",
+          "mechanism",
+          "machine",
+          "rotation",
+          "teeth"
+        ]
+      },
+      {
+        "id": "clamp",
+        "associations": [
+          "hold",
+          "grip",
+          "press",
+          "secure",
+          "fasten"
+        ]
+      },
+      {
+        "id": "balance scale",
+        "associations": [
+          "weighing",
+          "balance",
+          "fairness",
+          "comparison",
+          "measurement"
+        ]
+      },
+      {
+        "id": "white cane",
+        "associations": [
+          "mobility aid",
+          "blindness",
+          "accessibility",
+          "guidance",
+          "walking stick"
+        ]
+      },
+      {
+        "id": "link",
+        "associations": [
+          "connect",
+          "chain link",
+          "connection",
+          "relation",
+          "bond"
+        ]
+      },
+      {
+        "id": "broken chain",
+        "associations": [
+          "break free",
+          "separation",
+          "release",
+          "freedom",
+          "disconnected"
+        ]
+      },
+      {
+        "id": "chains",
+        "associations": [
+          "restraint",
+          "links",
+          "bondage",
+          "constraint",
+          "chain link"
+        ]
+      },
+      {
+        "id": "hook",
+        "associations": [
+          "catch",
+          "hang",
+          "grapple",
+          "latch",
+          "curved hook"
+        ]
+      },
+      {
+        "id": "toolbox",
+        "associations": [
+          "tools",
+          "storage",
+          "kit",
+          "repair",
+          "work"
+        ]
+      },
+      {
+        "id": "magnet",
+        "associations": [
+          "attract",
+          "metal",
+          "pull",
+          "force",
+          "magnetic"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_05db599061896f01016abfafafb9b487d098b48b95bd366bf2",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1325,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 697,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2022
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "round pushpin",
+        "rejected": [
+          "attachment"
+        ],
+        "reason": "Too abstract and not a core visual association; the emoji denotes a pushpin, not the generic concept of attachment."
+      },
+      {
+        "id": "paperclip",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "linked paperclips",
+        "rejected": [
+          "chain"
+        ],
+        "reason": "Misleading substitution: linked paperclips are not a chain, even if they suggest linkage."
+      },
+      {
+        "id": "straight ruler",
+        "rejected": [
+          "length"
+        ],
+        "reason": "Too abstract; the emoji is a ruler/straightedge, not the concept of length itself."
+      },
+      {
+        "id": "triangular ruler",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "scissors",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "card file box",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "file cabinet",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "wastebasket",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "locked",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "unlocked",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "locked with pen",
+        "rejected": [
+          "pinned shut"
+        ],
+        "reason": "Misleading phrasing; a pen can jam or block a lock, but 'pinned shut' suggests a different mechanism."
+      },
+      {
+        "id": "locked with key",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "key",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "old key",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "hammer",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "axe",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "pick",
+        "rejected": [
+          "miner"
+        ],
+        "reason": "Stereotyped user/owner description rather than an object or function; the emoji is the tool, not 'miner'."
+      },
+      {
+        "id": "hammer and pick",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "hammer and wrench",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "dagger",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "crossed swords",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "bomb",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "boomerang",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "bow and arrow",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "shield",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "carpentry saw",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "wrench",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "screwdriver",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "nut and bolt",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "gear",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "clamp",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "balance scale",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "white cane",
+        "rejected": [
+          "blindness"
+        ],
+        "reason": "Core meaning is the mobility aid itself; 'blindness' is a condition associated with it, not the literal object meaning."
+      },
+      {
+        "id": "link",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "broken chain",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "chains",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "hook",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "toolbox",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "magnet",
+        "rejected": [],
+        "reason": ""
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_07f57b729e490758016abfafb5ab6c87d0882216653b16910b",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3154,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 599,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3753
+    }
+  }
+}

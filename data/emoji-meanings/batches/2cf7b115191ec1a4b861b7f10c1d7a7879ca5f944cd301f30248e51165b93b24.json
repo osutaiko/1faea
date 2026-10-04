@@ -1,0 +1,685 @@
+{
+  "names": [
+    "bell",
+    "bell with slash",
+    "musical score",
+    "musical note",
+    "musical notes",
+    "studio microphone",
+    "level slider",
+    "control knobs",
+    "microphone",
+    "headphone",
+    "radio",
+    "saxophone",
+    "trumpet",
+    "trombone",
+    "accordion",
+    "guitar",
+    "musical keyboard",
+    "violin",
+    "banjo",
+    "drum",
+    "long drum",
+    "maracas",
+    "flute",
+    "harp",
+    "mobile phone",
+    "mobile phone with arrow",
+    "telephone",
+    "telephone receiver",
+    "pager",
+    "fax machine",
+    "battery",
+    "low battery",
+    "electric plug",
+    "laptop",
+    "desktop computer",
+    "printer",
+    "keyboard",
+    "computer mouse",
+    "trackball",
+    "computer disk"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "bell",
+        "associations": [
+          "ringing",
+          "alarm",
+          "alert",
+          "church bell",
+          "notification"
+        ]
+      },
+      {
+        "id": "bell with slash",
+        "associations": [
+          "muted notification",
+          "silent mode",
+          "no ringing",
+          "bell off",
+          "do not disturb"
+        ]
+      },
+      {
+        "id": "musical score",
+        "associations": [
+          "sheet music",
+          "notation",
+          "composer",
+          "performance",
+          "music reading"
+        ]
+      },
+      {
+        "id": "musical note",
+        "associations": [
+          "music",
+          "melody",
+          "song",
+          "sound",
+          "tune"
+        ]
+      },
+      {
+        "id": "musical notes",
+        "associations": [
+          "music",
+          "melody",
+          "singing",
+          "rhythm",
+          "tune"
+        ]
+      },
+      {
+        "id": "studio microphone",
+        "associations": [
+          "recording",
+          "broadcast",
+          "audio capture",
+          "podcast",
+          "vocal booth"
+        ]
+      },
+      {
+        "id": "level slider",
+        "associations": [
+          "adjustment",
+          "volume control",
+          "tuning",
+          "balance",
+          "settings"
+        ]
+      },
+      {
+        "id": "control knobs",
+        "associations": [
+          "mixing",
+          "adjustment",
+          "dial",
+          "audio controls",
+          "settings"
+        ]
+      },
+      {
+        "id": "microphone",
+        "associations": [
+          "speaking",
+          "singing",
+          "recording",
+          "announcement",
+          "voice"
+        ]
+      },
+      {
+        "id": "headphone",
+        "associations": [
+          "listening",
+          "audio",
+          "music",
+          "private sound",
+          "headset"
+        ]
+      },
+      {
+        "id": "radio",
+        "associations": [
+          "broadcast",
+          "station",
+          "music",
+          "talk show",
+          "receiver"
+        ]
+      },
+      {
+        "id": "saxophone",
+        "associations": [
+          "jazz",
+          "wind instrument",
+          "solo",
+          "band",
+          "brass"
+        ]
+      },
+      {
+        "id": "trumpet",
+        "associations": [
+          "brass",
+          "fanfares",
+          "jazz",
+          "solo",
+          "blaring"
+        ]
+      },
+      {
+        "id": "trombone",
+        "associations": [
+          "brass",
+          "slide",
+          "band",
+          "jazz",
+          "symphonic"
+        ]
+      },
+      {
+        "id": "accordion",
+        "associations": [
+          "folk music",
+          "bellows",
+          "keyboard",
+          "dance music",
+          "concertina"
+        ]
+      },
+      {
+        "id": "guitar",
+        "associations": [
+          "strings",
+          "strumming",
+          "acoustic",
+          "rock",
+          "song"
+        ]
+      },
+      {
+        "id": "musical keyboard",
+        "associations": [
+          "piano",
+          "keys",
+          "playing",
+          "melody",
+          "synthesizer"
+        ]
+      },
+      {
+        "id": "violin",
+        "associations": [
+          "strings",
+          "bowing",
+          "orchestra",
+          "classical",
+          "solo"
+        ]
+      },
+      {
+        "id": "banjo",
+        "associations": [
+          "strings",
+          "folk",
+          "bluegrass",
+          "plucking",
+          "country"
+        ]
+      },
+      {
+        "id": "drum",
+        "associations": [
+          "beat",
+          "rhythm",
+          "percussion",
+          "drumming",
+          "kit"
+        ]
+      },
+      {
+        "id": "long drum",
+        "associations": [
+          "percussion",
+          "beat",
+          "traditional drum",
+          "rhythm",
+          "performance"
+        ]
+      },
+      {
+        "id": "maracas",
+        "associations": [
+          "shaking",
+          "percussion",
+          "rhythm",
+          "dance",
+          "rattle"
+        ]
+      },
+      {
+        "id": "flute",
+        "associations": [
+          "woodwind",
+          "melody",
+          "breath",
+          "light music",
+          "concert"
+        ]
+      },
+      {
+        "id": "harp",
+        "associations": [
+          "strings",
+          "plucking",
+          "orchestra",
+          "lyrical",
+          "music"
+        ]
+      },
+      {
+        "id": "mobile phone",
+        "associations": [
+          "call",
+          "texting",
+          "cellular",
+          "smartphone",
+          "communication"
+        ]
+      },
+      {
+        "id": "mobile phone with arrow",
+        "associations": [
+          "incoming call",
+          "outgoing call",
+          "transfer",
+          "message",
+          "phone action"
+        ]
+      },
+      {
+        "id": "telephone",
+        "associations": [
+          "calling",
+          "landline",
+          "communication",
+          "ringing",
+          "phone"
+        ]
+      },
+      {
+        "id": "telephone receiver",
+        "associations": [
+          "call",
+          "handset",
+          "speaking",
+          "listening",
+          "phone"
+        ]
+      },
+      {
+        "id": "pager",
+        "associations": [
+          "beeper",
+          "message alert",
+          "call-back",
+          "notification",
+          "communication"
+        ]
+      },
+      {
+        "id": "fax machine",
+        "associations": [
+          "document",
+          "sending",
+          "office",
+          "paper",
+          "transmission"
+        ]
+      },
+      {
+        "id": "battery",
+        "associations": [
+          "power",
+          "energy",
+          "charge",
+          "portable",
+          "electricity"
+        ]
+      },
+      {
+        "id": "low battery",
+        "associations": [
+          "nearly empty",
+          "power warning",
+          "charge needed",
+          "draining",
+          "energy"
+        ]
+      },
+      {
+        "id": "electric plug",
+        "associations": [
+          "power",
+          "outlet",
+          "charging",
+          "connection",
+          "electricity"
+        ]
+      },
+      {
+        "id": "laptop",
+        "associations": [
+          "computer",
+          "portable",
+          "work",
+          "typing",
+          "luggage"
+        ]
+      },
+      {
+        "id": "desktop computer",
+        "associations": [
+          "computer",
+          "workstation",
+          "monitor",
+          "office",
+          "personal computer"
+        ]
+      },
+      {
+        "id": "printer",
+        "associations": [
+          "printing",
+          "paper",
+          "documents",
+          "office",
+          "output"
+        ]
+      },
+      {
+        "id": "keyboard",
+        "associations": [
+          "typing",
+          "keys",
+          "computer input",
+          "text",
+          "work"
+        ]
+      },
+      {
+        "id": "computer mouse",
+        "associations": [
+          "clicking",
+          "pointer",
+          "navigation",
+          "computer control",
+          "cursor"
+        ]
+      },
+      {
+        "id": "trackball",
+        "associations": [
+          "pointer control",
+          "navigation",
+          "rolling",
+          "computer input",
+          "cursor"
+        ]
+      },
+      {
+        "id": "computer disk",
+        "associations": [
+          "storage",
+          "data",
+          "backup",
+          "save",
+          "diskette"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_03b38f0347353d22016abfaf9beda487d0bc605b46041754dc",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1316,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 684,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2000
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "bell",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a bell or its common uses."
+      },
+      {
+        "id": "bell with slash",
+        "rejected": [],
+        "reason": "All associations match the muted/disabled bell meaning."
+      },
+      {
+        "id": "musical score",
+        "rejected": [],
+        "reason": "All associations are directly related to sheet music and notation."
+      },
+      {
+        "id": "musical note",
+        "rejected": [],
+        "reason": "All associations are ordinary music-note related concepts."
+      },
+      {
+        "id": "musical notes",
+        "rejected": [],
+        "reason": "All associations are ordinary music-note related concepts."
+      },
+      {
+        "id": "studio microphone",
+        "rejected": [],
+        "reason": "All associations are directly related to a studio microphone."
+      },
+      {
+        "id": "level slider",
+        "rejected": [],
+        "reason": "All associations are reasonable for a level/adjustment slider."
+      },
+      {
+        "id": "control knobs",
+        "rejected": [],
+        "reason": "All associations are reasonable for control knobs."
+      },
+      {
+        "id": "microphone",
+        "rejected": [],
+        "reason": "All associations are directly related to a microphone."
+      },
+      {
+        "id": "headphone",
+        "rejected": [],
+        "reason": "All associations are directly related to headphones."
+      },
+      {
+        "id": "radio",
+        "rejected": [],
+        "reason": "All associations are directly related to radio."
+      },
+      {
+        "id": "saxophone",
+        "rejected": [],
+        "reason": "All associations are directly related to a saxophone."
+      },
+      {
+        "id": "trumpet",
+        "rejected": [],
+        "reason": "All associations are directly related to a trumpet."
+      },
+      {
+        "id": "trombone",
+        "rejected": [],
+        "reason": "All associations are directly related to a trombone."
+      },
+      {
+        "id": "accordion",
+        "rejected": [],
+        "reason": "All associations are directly related to an accordion."
+      },
+      {
+        "id": "guitar",
+        "rejected": [],
+        "reason": "All associations are directly related to a guitar."
+      },
+      {
+        "id": "musical keyboard",
+        "rejected": [],
+        "reason": "All associations are directly related to a musical keyboard."
+      },
+      {
+        "id": "violin",
+        "rejected": [],
+        "reason": "All associations are directly related to a violin."
+      },
+      {
+        "id": "banjo",
+        "rejected": [],
+        "reason": "All associations are directly related to a banjo."
+      },
+      {
+        "id": "drum",
+        "rejected": [],
+        "reason": "All associations are directly related to a drum."
+      },
+      {
+        "id": "long drum",
+        "rejected": [],
+        "reason": "All associations are directly related to a long drum."
+      },
+      {
+        "id": "maracas",
+        "rejected": [],
+        "reason": "All associations are directly related to maracas."
+      },
+      {
+        "id": "flute",
+        "rejected": [],
+        "reason": "All associations are directly related to a flute."
+      },
+      {
+        "id": "harp",
+        "rejected": [],
+        "reason": "All associations are directly related to a harp."
+      },
+      {
+        "id": "mobile phone",
+        "rejected": [],
+        "reason": "All associations are directly related to a mobile phone."
+      },
+      {
+        "id": "mobile phone with arrow",
+        "rejected": [],
+        "reason": "All associations are plausible for a phone action icon."
+      },
+      {
+        "id": "telephone",
+        "rejected": [],
+        "reason": "All associations are directly related to a telephone."
+      },
+      {
+        "id": "telephone receiver",
+        "rejected": [],
+        "reason": "All associations are directly related to a telephone receiver."
+      },
+      {
+        "id": "pager",
+        "rejected": [],
+        "reason": "All associations are directly related to a pager."
+      },
+      {
+        "id": "fax machine",
+        "rejected": [],
+        "reason": "All associations are directly related to a fax machine."
+      },
+      {
+        "id": "battery",
+        "rejected": [],
+        "reason": "All associations are directly related to a battery."
+      },
+      {
+        "id": "low battery",
+        "rejected": [],
+        "reason": "All associations are directly related to low battery status."
+      },
+      {
+        "id": "electric plug",
+        "rejected": [],
+        "reason": "All associations are directly related to an electric plug."
+      },
+      {
+        "id": "laptop",
+        "rejected": [],
+        "reason": "All associations are directly related to a laptop."
+      },
+      {
+        "id": "desktop computer",
+        "rejected": [],
+        "reason": "All associations are directly related to a desktop computer."
+      },
+      {
+        "id": "printer",
+        "rejected": [],
+        "reason": "All associations are directly related to a printer."
+      },
+      {
+        "id": "keyboard",
+        "rejected": [],
+        "reason": "All associations are directly related to a keyboard."
+      },
+      {
+        "id": "computer mouse",
+        "rejected": [],
+        "reason": "All associations are directly related to a computer mouse."
+      },
+      {
+        "id": "trackball",
+        "rejected": [],
+        "reason": "All associations are directly related to a trackball."
+      },
+      {
+        "id": "computer disk",
+        "rejected": [],
+        "reason": "All associations are directly related to a computer disk."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0264b1c84e1b0834016abfafa1242c87d09c526920c61d302b",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3128,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 796,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3924
+    }
+  }
+}

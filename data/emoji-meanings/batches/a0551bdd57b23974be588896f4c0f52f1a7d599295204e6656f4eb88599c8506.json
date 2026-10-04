@@ -1,0 +1,685 @@
+{
+  "names": [
+    "brown circle",
+    "black circle",
+    "red square",
+    "orange square",
+    "yellow square",
+    "green square",
+    "blue square",
+    "purple square",
+    "brown square",
+    "black large square",
+    "white large square",
+    "black medium square",
+    "white medium square",
+    "black medium-small square",
+    "white medium-small square",
+    "black small square",
+    "white small square",
+    "large orange diamond",
+    "large blue diamond",
+    "small orange diamond",
+    "small blue diamond",
+    "red triangle pointed up",
+    "red triangle pointed down",
+    "diamond with a dot",
+    "radio button",
+    "white square button",
+    "black square button",
+    "chequered flag",
+    "triangular flag",
+    "crossed flags",
+    "black flag",
+    "white flag",
+    "rainbow flag",
+    "transgender flag",
+    "pirate flag",
+    "flag: Ascension Island",
+    "flag: Andorra",
+    "flag: United Arab Emirates",
+    "flag: Afghanistan",
+    "flag: Antigua & Barbuda"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "brown circle",
+        "associations": [
+          "round shape",
+          "brown color",
+          "dot",
+          "disc",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "black circle",
+        "associations": [
+          "round shape",
+          "black color",
+          "dot",
+          "disc",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "red square",
+        "associations": [
+          "square shape",
+          "red color",
+          "tile",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "orange square",
+        "associations": [
+          "square shape",
+          "orange color",
+          "tile",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "yellow square",
+        "associations": [
+          "square shape",
+          "yellow color",
+          "tile",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "green square",
+        "associations": [
+          "square shape",
+          "green color",
+          "tile",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "blue square",
+        "associations": [
+          "square shape",
+          "blue color",
+          "tile",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "purple square",
+        "associations": [
+          "square shape",
+          "purple color",
+          "tile",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "brown square",
+        "associations": [
+          "square shape",
+          "brown color",
+          "tile",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "black large square",
+        "associations": [
+          "large square",
+          "black color",
+          "block",
+          "panel",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "white large square",
+        "associations": [
+          "large square",
+          "white color",
+          "block",
+          "panel",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "black medium square",
+        "associations": [
+          "medium square",
+          "black color",
+          "tile",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "white medium square",
+        "associations": [
+          "medium square",
+          "white color",
+          "tile",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "black medium-small square",
+        "associations": [
+          "small square",
+          "black color",
+          "tile",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "white medium-small square",
+        "associations": [
+          "small square",
+          "white color",
+          "tile",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "black small square",
+        "associations": [
+          "small square",
+          "black color",
+          "dot",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "white small square",
+        "associations": [
+          "small square",
+          "white color",
+          "dot",
+          "block",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "large orange diamond",
+        "associations": [
+          "large diamond",
+          "orange color",
+          "gem shape",
+          "tilted square",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "large blue diamond",
+        "associations": [
+          "large diamond",
+          "blue color",
+          "gem shape",
+          "tilted square",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "small orange diamond",
+        "associations": [
+          "small diamond",
+          "orange color",
+          "gem shape",
+          "tilted square",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "small blue diamond",
+        "associations": [
+          "small diamond",
+          "blue color",
+          "gem shape",
+          "tilted square",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "red triangle pointed up",
+        "associations": [
+          "triangle shape",
+          "red color",
+          "pointed up",
+          "arrow-like",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "red triangle pointed down",
+        "associations": [
+          "triangle shape",
+          "red color",
+          "pointed down",
+          "arrow-like",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "diamond with a dot",
+        "associations": [
+          "diamond shape",
+          "dot inside",
+          "symbol",
+          "marker",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "radio button",
+        "associations": [
+          "selection control",
+          "form field",
+          "toggle",
+          "click target",
+          "user interface"
+        ]
+      },
+      {
+        "id": "white square button",
+        "associations": [
+          "button",
+          "white square",
+          "pressable control",
+          "UI element",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "black square button",
+        "associations": [
+          "button",
+          "black square",
+          "pressable control",
+          "UI element",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "chequered flag",
+        "associations": [
+          "checkered pattern",
+          "finish line",
+          "racing flag",
+          "signal",
+          "goal"
+        ]
+      },
+      {
+        "id": "triangular flag",
+        "associations": [
+          "pennant",
+          "banner",
+          "marker",
+          "signal",
+          "flag shape"
+        ]
+      },
+      {
+        "id": "crossed flags",
+        "associations": [
+          "two flags",
+          "celebration",
+          "event",
+          "symbol",
+          "greeting"
+        ]
+      },
+      {
+        "id": "black flag",
+        "associations": [
+          "black flag",
+          "signal",
+          "warning",
+          "mourning",
+          "simple icon"
+        ]
+      },
+      {
+        "id": "white flag",
+        "associations": [
+          "white flag",
+          "surrender",
+          "peace",
+          "truce",
+          "signal"
+        ]
+      },
+      {
+        "id": "rainbow flag",
+        "associations": [
+          "rainbow colors",
+          "pride",
+          "celebration",
+          "identity",
+          "flag"
+        ]
+      },
+      {
+        "id": "transgender flag",
+        "associations": [
+          "gender identity",
+          "blue pink white",
+          "pride",
+          "community",
+          "flag"
+        ]
+      },
+      {
+        "id": "pirate flag",
+        "associations": [
+          "skull-and-crossbones",
+          "piracy",
+          "warning",
+          "sea adventure",
+          "flag"
+        ]
+      },
+      {
+        "id": "flag: Ascension Island",
+        "associations": [
+          "island flag",
+          "blue field",
+          "regional emblem",
+          "territory",
+          "flag"
+        ]
+      },
+      {
+        "id": "flag: Andorra",
+        "associations": [
+          "national flag",
+          "blue yellow red",
+          "coat of arms",
+          "country",
+          "flag"
+        ]
+      },
+      {
+        "id": "flag: United Arab Emirates",
+        "associations": [
+          "national flag",
+          "red green white black",
+          "country",
+          "state symbol",
+          "flag"
+        ]
+      },
+      {
+        "id": "flag: Afghanistan",
+        "associations": [
+          "national flag",
+          "black red green",
+          "country",
+          "state symbol",
+          "flag"
+        ]
+      },
+      {
+        "id": "flag: Antigua & Barbuda",
+        "associations": [
+          "national flag",
+          "sun and stripes",
+          "country",
+          "island nation",
+          "flag"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0326321e788340c5016abfafd53c3087d08aaadc280436586e",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1436,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 772,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2208
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "brown circle",
+        "rejected": [],
+        "reason": "All associations are directly related to a brown circular shape and do not introduce unrelated meanings."
+      },
+      {
+        "id": "black circle",
+        "rejected": [],
+        "reason": "All associations are directly related to a black circular shape and do not introduce unrelated meanings."
+      },
+      {
+        "id": "red square",
+        "rejected": [],
+        "reason": "All associations are directly related to a red square shape."
+      },
+      {
+        "id": "orange square",
+        "rejected": [],
+        "reason": "All associations are directly related to an orange square shape."
+      },
+      {
+        "id": "yellow square",
+        "rejected": [],
+        "reason": "All associations are directly related to a yellow square shape."
+      },
+      {
+        "id": "green square",
+        "rejected": [],
+        "reason": "All associations are directly related to a green square shape."
+      },
+      {
+        "id": "blue square",
+        "rejected": [],
+        "reason": "All associations are directly related to a blue square shape."
+      },
+      {
+        "id": "purple square",
+        "rejected": [],
+        "reason": "All associations are directly related to a purple square shape."
+      },
+      {
+        "id": "brown square",
+        "rejected": [],
+        "reason": "All associations are directly related to a brown square shape."
+      },
+      {
+        "id": "black large square",
+        "rejected": [],
+        "reason": "All associations are directly related to a black large square shape."
+      },
+      {
+        "id": "white large square",
+        "rejected": [],
+        "reason": "All associations are directly related to a white large square shape."
+      },
+      {
+        "id": "black medium square",
+        "rejected": [],
+        "reason": "All associations are directly related to a black medium square shape."
+      },
+      {
+        "id": "white medium square",
+        "rejected": [],
+        "reason": "All associations are directly related to a white medium square shape."
+      },
+      {
+        "id": "black medium-small square",
+        "rejected": [],
+        "reason": "All associations are directly related to a black medium-small square shape."
+      },
+      {
+        "id": "white medium-small square",
+        "rejected": [],
+        "reason": "All associations are directly related to a white medium-small square shape."
+      },
+      {
+        "id": "black small square",
+        "rejected": [],
+        "reason": "All associations are directly related to a black small square shape."
+      },
+      {
+        "id": "white small square",
+        "rejected": [],
+        "reason": "All associations are directly related to a white small square shape."
+      },
+      {
+        "id": "large orange diamond",
+        "rejected": [],
+        "reason": "All associations are directly related to a large orange diamond shape."
+      },
+      {
+        "id": "large blue diamond",
+        "rejected": [],
+        "reason": "All associations are directly related to a large blue diamond shape."
+      },
+      {
+        "id": "small orange diamond",
+        "rejected": [],
+        "reason": "All associations are directly related to a small orange diamond shape."
+      },
+      {
+        "id": "small blue diamond",
+        "rejected": [],
+        "reason": "All associations are directly related to a small blue diamond shape."
+      },
+      {
+        "id": "red triangle pointed up",
+        "rejected": [],
+        "reason": "All associations are directly related to a red triangle pointing up."
+      },
+      {
+        "id": "red triangle pointed down",
+        "rejected": [],
+        "reason": "All associations are directly related to a red triangle pointing down."
+      },
+      {
+        "id": "diamond with a dot",
+        "rejected": [],
+        "reason": "All associations are directly related to a diamond with a dot."
+      },
+      {
+        "id": "radio button",
+        "rejected": [],
+        "reason": "All associations are directly related to a UI radio button control."
+      },
+      {
+        "id": "white square button",
+        "rejected": [],
+        "reason": "All associations are directly related to a white square button."
+      },
+      {
+        "id": "black square button",
+        "rejected": [],
+        "reason": "All associations are directly related to a black square button."
+      },
+      {
+        "id": "chequered flag",
+        "rejected": [],
+        "reason": "All associations are directly related to a chequered flag."
+      },
+      {
+        "id": "triangular flag",
+        "rejected": [],
+        "reason": "All associations are directly related to a triangular flag/pennant."
+      },
+      {
+        "id": "crossed flags",
+        "rejected": [],
+        "reason": "All associations are directly related to crossed flags."
+      },
+      {
+        "id": "black flag",
+        "rejected": [],
+        "reason": "All associations are directly related to a black flag."
+      },
+      {
+        "id": "white flag",
+        "rejected": [],
+        "reason": "All associations are directly related to a white flag."
+      },
+      {
+        "id": "rainbow flag",
+        "rejected": [],
+        "reason": "All associations are directly related to a rainbow flag."
+      },
+      {
+        "id": "transgender flag",
+        "rejected": [],
+        "reason": "All associations are directly related to the transgender flag."
+      },
+      {
+        "id": "pirate flag",
+        "rejected": [],
+        "reason": "All associations are directly related to a pirate flag."
+      },
+      {
+        "id": "flag: Ascension Island",
+        "rejected": [],
+        "reason": "All associations are directly related to the Ascension Island flag."
+      },
+      {
+        "id": "flag: Andorra",
+        "rejected": [],
+        "reason": "All associations are directly related to the flag of Andorra."
+      },
+      {
+        "id": "flag: United Arab Emirates",
+        "rejected": [],
+        "reason": "All associations are directly related to the flag of the United Arab Emirates."
+      },
+      {
+        "id": "flag: Afghanistan",
+        "rejected": [],
+        "reason": "All associations are directly related to the flag of Afghanistan."
+      },
+      {
+        "id": "flag: Antigua & Barbuda",
+        "rejected": [],
+        "reason": "All associations are directly related to the flag of Antigua and Barbuda."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_00f1b536a134a060016abfafda99ec87d09df8a8cfe8f7e855",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3304,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 925,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4229
+    }
+  }
+}

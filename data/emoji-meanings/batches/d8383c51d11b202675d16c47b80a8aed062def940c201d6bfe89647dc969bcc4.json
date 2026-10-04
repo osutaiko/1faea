@@ -1,0 +1,733 @@
+{
+  "names": [
+    "sign of the horns",
+    "call me hand",
+    "backhand index pointing left",
+    "backhand index pointing right",
+    "backhand index pointing up",
+    "middle finger",
+    "backhand index pointing down",
+    "index pointing up",
+    "index pointing at the viewer",
+    "thumbs up",
+    "thumbs down",
+    "raised fist",
+    "oncoming fist",
+    "left-facing fist",
+    "right-facing fist",
+    "clapping hands",
+    "raising hands",
+    "heart hands",
+    "open hands",
+    "palms up together",
+    "handshake",
+    "folded hands",
+    "writing hand",
+    "nail polish",
+    "selfie",
+    "flexed biceps",
+    "mechanical arm",
+    "mechanical leg",
+    "leg",
+    "foot",
+    "ear",
+    "ear with hearing aid",
+    "nose",
+    "brain",
+    "anatomical heart",
+    "lungs",
+    "tooth",
+    "bone",
+    "eyes",
+    "eye"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "sign of the horns",
+        "associations": [
+          "rock music",
+          "concert",
+          "horn gesture",
+          "rebellion",
+          "excitement"
+        ]
+      },
+      {
+        "id": "call me hand",
+        "associations": [
+          "phone call",
+          "call me",
+          "texting",
+          "hang loose",
+          "contact"
+        ]
+      },
+      {
+        "id": "backhand index pointing left",
+        "associations": [
+          "left",
+          "direction",
+          "pointing",
+          "indication",
+          "navigation"
+        ]
+      },
+      {
+        "id": "backhand index pointing right",
+        "associations": [
+          "right",
+          "direction",
+          "pointing",
+          "indication",
+          "navigation"
+        ]
+      },
+      {
+        "id": "backhand index pointing up",
+        "associations": [
+          "up",
+          "direction",
+          "pointing",
+          "attention",
+          "indicator"
+        ]
+      },
+      {
+        "id": "middle finger",
+        "associations": [
+          "rude gesture",
+          "insult",
+          "anger",
+          "offense",
+          "rebellion"
+        ]
+      },
+      {
+        "id": "backhand index pointing down",
+        "associations": [
+          "down",
+          "direction",
+          "pointing",
+          "attention",
+          "indicator"
+        ]
+      },
+      {
+        "id": "index pointing up",
+        "associations": [
+          "up",
+          "pointing",
+          "attention",
+          "instruction",
+          "number one"
+        ]
+      },
+      {
+        "id": "index pointing at the viewer",
+        "associations": [
+          "you",
+          "direct address",
+          "pointing",
+          "attention",
+          "accusation"
+        ]
+      },
+      {
+        "id": "thumbs up",
+        "associations": [
+          "approval",
+          "yes",
+          "good",
+          "like",
+          "success"
+        ]
+      },
+      {
+        "id": "thumbs down",
+        "associations": [
+          "disapproval",
+          "no",
+          "bad",
+          "reject",
+          "failure"
+        ]
+      },
+      {
+        "id": "raised fist",
+        "associations": [
+          "solidarity",
+          "power",
+          "defiance",
+          "strength",
+          "protest"
+        ]
+      },
+      {
+        "id": "oncoming fist",
+        "associations": [
+          "fist bump",
+          "greeting",
+          "punch",
+          "impact",
+          "encounter"
+        ]
+      },
+      {
+        "id": "left-facing fist",
+        "associations": [
+          "fist bump",
+          "left",
+          "punch",
+          "impact",
+          "greeting"
+        ]
+      },
+      {
+        "id": "right-facing fist",
+        "associations": [
+          "fist bump",
+          "right",
+          "punch",
+          "impact",
+          "greeting"
+        ]
+      },
+      {
+        "id": "clapping hands",
+        "associations": [
+          "applause",
+          "praise",
+          "approval",
+          "celebration",
+          "cheering"
+        ]
+      },
+      {
+        "id": "raising hands",
+        "associations": [
+          "celebration",
+          "praise",
+          "joy",
+          "cheer",
+          "success"
+        ]
+      },
+      {
+        "id": "heart hands",
+        "associations": [
+          "love",
+          "affection",
+          "care",
+          "heart",
+          "appreciation"
+        ]
+      },
+      {
+        "id": "open hands",
+        "associations": [
+          "welcome",
+          "offering",
+          "embrace",
+          "open gesture",
+          "sharing"
+        ]
+      },
+      {
+        "id": "palms up together",
+        "associations": [
+          "prayer",
+          "pleading",
+          "thanks",
+          "request",
+          "hope"
+        ]
+      },
+      {
+        "id": "handshake",
+        "associations": [
+          "agreement",
+          "deal",
+          "greeting",
+          "partnership",
+          "trust"
+        ]
+      },
+      {
+        "id": "folded hands",
+        "associations": [
+          "prayer",
+          "thanks",
+          "please",
+          "respect",
+          "hope"
+        ]
+      },
+      {
+        "id": "writing hand",
+        "associations": [
+          "writing",
+          "note",
+          "signature",
+          "pen",
+          "handwriting"
+        ]
+      },
+      {
+        "id": "nail polish",
+        "associations": [
+          "beauty",
+          "cosmetics",
+          "manicure",
+          "style",
+          "fashion"
+        ]
+      },
+      {
+        "id": "selfie",
+        "associations": [
+          "photo",
+          "camera",
+          "portrait",
+          "self-portrait",
+          "social media"
+        ]
+      },
+      {
+        "id": "flexed biceps",
+        "associations": [
+          "strength",
+          "muscle",
+          "fitness",
+          "power",
+          "workout"
+        ]
+      },
+      {
+        "id": "mechanical arm",
+        "associations": [
+          "prosthetic",
+          "robot",
+          "machine",
+          "replacement",
+          "technology"
+        ]
+      },
+      {
+        "id": "mechanical leg",
+        "associations": [
+          "prosthetic",
+          "robot",
+          "machine",
+          "replacement",
+          "technology"
+        ]
+      },
+      {
+        "id": "leg",
+        "associations": [
+          "limb",
+          "walking",
+          "standing",
+          "movement",
+          "body"
+        ]
+      },
+      {
+        "id": "foot",
+        "associations": [
+          "limb",
+          "step",
+          "walking",
+          "balance",
+          "body"
+        ]
+      },
+      {
+        "id": "ear",
+        "associations": [
+          "hearing",
+          "listening",
+          "sound",
+          "auditory",
+          "body"
+        ]
+      },
+      {
+        "id": "ear with hearing aid",
+        "associations": [
+          "hearing aid",
+          "listening",
+          "hearing",
+          "sound",
+          "support"
+        ]
+      },
+      {
+        "id": "nose",
+        "associations": [
+          "smell",
+          "breathing",
+          "face",
+          "scent",
+          "body"
+        ]
+      },
+      {
+        "id": "brain",
+        "associations": [
+          "mind",
+          "thinking",
+          "intelligence",
+          "memory",
+          "cognition"
+        ]
+      },
+      {
+        "id": "anatomical heart",
+        "associations": [
+          "heart",
+          "organ",
+          "body",
+          "cardiology",
+          "life"
+        ]
+      },
+      {
+        "id": "lungs",
+        "associations": [
+          "breathing",
+          "respiration",
+          "air",
+          "health",
+          "body"
+        ]
+      },
+      {
+        "id": "tooth",
+        "associations": [
+          "teeth",
+          "dental",
+          "bite",
+          "mouth",
+          "health"
+        ]
+      },
+      {
+        "id": "bone",
+        "associations": [
+          "skeleton",
+          "body",
+          "strength",
+          "calcium",
+          "structure"
+        ]
+      },
+      {
+        "id": "eyes",
+        "associations": [
+          "vision",
+          "seeing",
+          "looking",
+          "gaze",
+          "attention"
+        ]
+      },
+      {
+        "id": "eye",
+        "associations": [
+          "vision",
+          "seeing",
+          "looking",
+          "gaze",
+          "attention"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_04f25067a108eb34016abfade3801487d09d6945167981c5a0",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 993,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 901,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1894
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "sign of the horns",
+        "rejected": [
+          "rock music",
+          "concert",
+          "rebellion",
+          "excitement"
+        ],
+        "reason": "These are contextual or figurative associations; the core meaning is the hand gesture itself."
+      },
+      {
+        "id": "call me hand",
+        "rejected": [
+          "phone call",
+          "texting",
+          "hang loose",
+          "contact"
+        ],
+        "reason": "These are broader or alternative usages; the core meaning is the call-me hand gesture."
+      },
+      {
+        "id": "backhand index pointing left",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "backhand index pointing right",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "backhand index pointing up",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "middle finger",
+        "rejected": [
+          "rebellion"
+        ],
+        "reason": "The gesture is an insult/rude gesture; rebellion is not a direct core association."
+      },
+      {
+        "id": "backhand index pointing down",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "index pointing up",
+        "rejected": [
+          "number one"
+        ],
+        "reason": "This is a common interpretation, but not the literal core meaning of the pointing-up gesture."
+      },
+      {
+        "id": "index pointing at the viewer",
+        "rejected": [
+          "accusation"
+        ],
+        "reason": "Pointing at the viewer indicates 'you' or direct address; accusation is an added inference."
+      },
+      {
+        "id": "thumbs up",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "thumbs down",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "raised fist",
+        "rejected": [
+          "solidarity",
+          "defiance",
+          "protest"
+        ],
+        "reason": "These are political/social interpretations rather than the literal core meaning of a raised fist."
+      },
+      {
+        "id": "oncoming fist",
+        "rejected": [
+          "fist bump",
+          "greeting",
+          "encounter"
+        ],
+        "reason": "The core meaning is an oncoming fist/punch, not a greeting."
+      },
+      {
+        "id": "left-facing fist",
+        "rejected": [
+          "fist bump",
+          "greeting"
+        ],
+        "reason": "The core meaning is a left-facing fist; fist bump/greeting are misleading substitutions."
+      },
+      {
+        "id": "right-facing fist",
+        "rejected": [
+          "fist bump",
+          "greeting"
+        ],
+        "reason": "The core meaning is a right-facing fist; fist bump/greeting are misleading substitutions."
+      },
+      {
+        "id": "clapping hands",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "raising hands",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "heart hands",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "open hands",
+        "rejected": [
+          "embrace"
+        ],
+        "reason": "Embrace is not a direct meaning of the open hands emoji."
+      },
+      {
+        "id": "palms up together",
+        "rejected": [
+          "prayer",
+          "pleading",
+          "thanks",
+          "request",
+          "hope"
+        ],
+        "reason": "These are contextual uses; the core meaning is palms up together/open hands rather than a specific prayer/request meaning."
+      },
+      {
+        "id": "handshake",
+        "rejected": [
+          "trust"
+        ],
+        "reason": "Agreement/deal/greeting/partnership are ordinary uses; trust is more inferential than core."
+      },
+      {
+        "id": "folded hands",
+        "rejected": [
+          "please"
+        ],
+        "reason": "Please is an inferred usage; the core meaning is folded/prayer hands."
+      },
+      {
+        "id": "writing hand",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "nail polish",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "selfie",
+        "rejected": [
+          "social media"
+        ],
+        "reason": "Social media is contextual, not the core meaning of the selfie emoji."
+      },
+      {
+        "id": "flexed biceps",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "mechanical arm",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "mechanical leg",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "leg",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "foot",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "ear",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "ear with hearing aid",
+        "rejected": [
+          "support"
+        ],
+        "reason": "The core meaning is an ear with a hearing aid; support is an inferred benefit."
+      },
+      {
+        "id": "nose",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "brain",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "anatomical heart",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "lungs",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "tooth",
+        "rejected": [
+          "teeth"
+        ],
+        "reason": "The ID is singular; 'teeth' is a plural mismatch and misleading substitution."
+      },
+      {
+        "id": "bone",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "eyes",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "eye",
+        "rejected": [],
+        "reason": ""
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0f6a542811764e7b016abfadead96487d0aeed8f814c8fb61d",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1498,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 911,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2409
+    }
+  }
+}

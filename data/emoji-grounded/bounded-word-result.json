@@ -1,0 +1,43 @@
+{
+  "grounding_steps": 300,
+  "reconstruction_steps": 20,
+  "reply_steps": 800,
+  "selected_reply_step": 700,
+  "elapsed_seconds": 148.40700000000652,
+  "token_limit_rejected": {
+    "train": 54,
+    "validation": 5,
+    "test": 6
+  },
+  "reconstruction_audit": {
+    "losses": {
+      "correct": 4.577735066413879,
+      "reversed": 4.329697489738464,
+      "empty": 3.2471729516983032
+    },
+    "note": "Teacher-forced English reconstruction only; compare zero and reversed states to detect bottleneck bypass."
+  },
+  "test": {
+    "reply_loss": 0.9941968628854463,
+    "count": 11,
+    "exact_reference_state": 0.09090909090909091,
+    "answer_lexicon_anchor_recall": 0.0,
+    "symbols_used": 8,
+    "generated_symbols_used": 1,
+    "distinct_question_states": 10,
+    "distinct_replies": 1,
+    "metric_limit": "Reference emoji states are learned latent codes, not verified emoji answers. Anchor recall checks words, not factual correctness.",
+    "test_used_for_selection": false
+  },
+  "generated_qa_labels": 0,
+  "map_embeddings_frozen": true,
+  "pretrained_text_backbone_frozen": true,
+  "runtime_english_decoder": false,
+  "promoted": false,
+  "general_use_ready": false,
+  "experiment": "grounded-v3",
+  "training_pairs": 102,
+  "validation_pairs": 3,
+  "test_pairs": 11,
+  "interpretation": "Question-state collapse improved, but replies remain collapsed. Reconstruction loses to the zero-state baseline; no general answering improvement demonstrated."
+}

@@ -1,0 +1,326 @@
+{
+  "experiment": "objective-v3",
+  "training": {
+    "grounding_steps": 300,
+    "reconstruction_steps": 40,
+    "reply_steps": 800,
+    "selected_reply_step": 500,
+    "elapsed_seconds": 370.2179999999935,
+    "token_limit_rejected": {
+      "train": 54,
+      "validation": 5,
+      "test": 6
+    },
+    "reconstruction_audit": {
+      "losses": {
+        "correct": 3.5110806226730347,
+        "reversed": 3.505226254463196,
+        "empty": 3.7468719482421875,
+        "masked_correct": 10.798084259033203,
+        "masked_reversed": 10.60327959060669,
+        "masked_empty": 11.29941463470459
+      },
+      "note": "Teacher-forced English reconstruction only; compare zero and reversed states to detect bottleneck bypass."
+    },
+    "test": {
+      "reply_loss": 5.285271538628472,
+      "count": 11,
+      "exact_reference_state": 0.0,
+      "answer_lexicon_anchor_recall": 0.02564102564102564,
+      "symbols_used": 48,
+      "generated_symbols_used": 28,
+      "distinct_question_states": 11,
+      "distinct_replies": 11,
+      "metric_limit": "Reference emoji states are learned latent codes, not verified emoji answers. Anchor recall checks words, not factual correctness.",
+      "test_used_for_selection": false
+    },
+    "generated_qa_labels": 0,
+    "map_embeddings_frozen": true,
+    "pretrained_text_backbone_frozen": true,
+    "runtime_english_decoder": false,
+    "promoted": false,
+    "general_use_ready": false
+  },
+  "meaning_evaluation": {
+    "name": "objective-v3",
+    "passed": 2,
+    "total": 12,
+    "evaluation_only": true,
+    "used_for_selection": false,
+    "limitation": "Narrow human-specified literal concepts and ordering; not factual or general-chat validation.",
+    "examples": [
+      {
+        "question": "Which animal meows?",
+        "groups": [
+          "🐈🐱"
+        ],
+        "forbidden": "🐕🐶",
+        "state": "🐎🐎🐎🐈📥🐎🐎🐎",
+        "reply": "ℹ️🥀📂📂📂📂📂📂",
+        "core_meanings": [
+          "information",
+          "wilted flower",
+          "open file folder",
+          "open file folder",
+          "open file folder",
+          "open file folder",
+          "open file folder",
+          "open file folder"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Which animal barks?",
+        "groups": [
+          "🐕🐶"
+        ],
+        "forbidden": "🐈🐱",
+        "state": "🦬🦬🦬🦮🐾🐃🐃🐃",
+        "reply": "ℹ️ℹ️🧑‍🎓📂📂📂📂📂",
+        "core_meanings": [
+          "information",
+          "information",
+          "student",
+          "open file folder",
+          "open file folder",
+          "open file folder",
+          "open file folder",
+          "open file folder"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "What should I carry to stay dry in rain?",
+        "groups": [
+          "☂️☔"
+        ],
+        "forbidden": "",
+        "state": "☔🎒🎒🎒☔☔☔☔",
+        "reply": "☔☔☔🥀☔☔☔☔",
+        "core_meanings": [
+          "umbrella with rain drops",
+          "umbrella with rain drops",
+          "umbrella with rain drops",
+          "wilted flower",
+          "umbrella with rain drops",
+          "umbrella with rain drops",
+          "umbrella with rain drops",
+          "umbrella with rain drops"
+        ],
+        "terminated": true,
+        "passed": true
+      },
+      {
+        "question": "Which fruit is yellow and curved?",
+        "groups": [
+          "🍌"
+        ],
+        "forbidden": "",
+        "state": "🍐🥝🥝🟡🟡↪️🥝🥝",
+        "reply": "🛕🫜📂📂📂📂📂📂",
+        "core_meanings": [
+          "hindu temple",
+          "root vegetable",
+          "open file folder",
+          "open file folder",
+          "open file folder",
+          "open file folder",
+          "open file folder",
+          "open file folder"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "What do bees make?",
+        "groups": [
+          "🍯"
+        ],
+        "forbidden": "",
+        "state": "🐝🐝🐝🐝🐝🐝🐝🐝",
+        "reply": "ℹ️🍅🧑‍🌾🚱🧑‍🌾🧑‍🌾🧑‍🌾🧑‍🌾",
+        "core_meanings": [
+          "information",
+          "tomato",
+          "farmer",
+          "non-potable water",
+          "farmer",
+          "farmer",
+          "farmer",
+          "farmer"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "What planet do we live on?",
+        "groups": [
+          "🌍🌎🌏"
+        ],
+        "forbidden": "",
+        "state": "🪐🪐🪐🪐🪐🔛🪐🪐",
+        "reply": "🪹🍃🗂️🗂️📂📂📂📂",
+        "core_meanings": [
+          "empty nest",
+          "leaf fluttering in wind",
+          "card index dividers",
+          "card index dividers",
+          "open file folder",
+          "open file folder",
+          "open file folder",
+          "open file folder"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Show a dog chasing a cat, with the pursuer first.",
+        "groups": [
+          "🐕🐶",
+          "🐈🐱"
+        ],
+        "forbidden": "",
+        "ordered": true,
+        "state": "😾🐈🦮🐈🐈🦮😾🐈",
+        "reply": "😿😿😿😿😿😿😿😿",
+        "core_meanings": [
+          "crying cat",
+          "crying cat",
+          "crying cat",
+          "crying cat",
+          "crying cat",
+          "crying cat",
+          "crying cat",
+          "crying cat"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Show a cat chasing a dog, with the pursuer first.",
+        "groups": [
+          "🐈🐱",
+          "🐕🐶"
+        ],
+        "forbidden": "",
+        "ordered": true,
+        "state": "😾🐈🐈🐈🐈😾😾🐈",
+        "reply": "😿😿😿😿😿😿😿😿",
+        "core_meanings": [
+          "crying cat",
+          "crying cat",
+          "crying cat",
+          "crying cat",
+          "crying cat",
+          "crying cat",
+          "crying cat",
+          "crying cat"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Show a person giving a gift to a robot, with the giver first.",
+        "groups": [
+          "🧑👤",
+          "🎁",
+          "🤖"
+        ],
+        "forbidden": "",
+        "ordered": true,
+        "state": "🤖🎁🎁🎁🤖🤖🎁🤖",
+        "reply": "📆📆📆📆📆📆📆📂",
+        "core_meanings": [
+          "tear-off calendar",
+          "tear-off calendar",
+          "tear-off calendar",
+          "tear-off calendar",
+          "tear-off calendar",
+          "tear-off calendar",
+          "tear-off calendar",
+          "open file folder"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Show a robot giving a gift to a person, with the giver first.",
+        "groups": [
+          "🤖",
+          "🎁",
+          "🧑👤"
+        ],
+        "forbidden": "",
+        "ordered": true,
+        "state": "🤖🤖🎁🎁🤖🤖🎁🤖",
+        "reply": "ℹ️⏱️🥹📆📆📆📆📂",
+        "core_meanings": [
+          "information",
+          "stopwatch",
+          "face holding back tears",
+          "tear-off calendar",
+          "tear-off calendar",
+          "tear-off calendar",
+          "tear-off calendar",
+          "open file folder"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Say that smoking is forbidden.",
+        "groups": [
+          "🚭"
+        ],
+        "forbidden": "",
+        "state": "🚬🚫🚭🚬🚫🚫🚭🚭",
+        "reply": "🚰🚫🍳🚱📂📂📂📂",
+        "core_meanings": [
+          "potable water",
+          "prohibited",
+          "cooking",
+          "non-potable water",
+          "open file folder",
+          "open file folder",
+          "open file folder",
+          "open file folder"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Say that bicycles are forbidden.",
+        "groups": [
+          "🚳"
+        ],
+        "forbidden": "",
+        "state": "🚳🚫🚳🚳🚳🚫🚳🚳",
+        "reply": "🚳🚳🚳🚳🚳📂📂📂",
+        "core_meanings": [
+          "no bicycles",
+          "no bicycles",
+          "no bicycles",
+          "no bicycles",
+          "no bicycles",
+          "open file folder",
+          "open file folder",
+          "open file folder"
+        ],
+        "terminated": true,
+        "passed": true
+      }
+    ]
+  },
+  "baseline_meaning_evaluation": {
+    "name": "semantic-v1",
+    "passed": 2,
+    "total": 12,
+    "evaluation_only": true,
+    "used_for_selection": false,
+    "limitation": "Narrow human-specified literal concepts and ordering; not factual or general-chat validation."
+  },
+  "tests_passed": 75,
+  "interpretation": "Real states beat zero states within the revised reconstruction decoder, but reversed states perform slightly better. Fixed answer checks stay at 2/12 and all four participant-order checks fail. Ordered content objective is implemented; reliable relational understanding and answering are not established. No new generated Q&A, no promotion."
+}

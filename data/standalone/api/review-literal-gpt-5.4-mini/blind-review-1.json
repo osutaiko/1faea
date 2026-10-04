@@ -1,0 +1,137 @@
+{
+  "fingerprint": "7512551d99f5d6a36f0452b5091e0bbf2501468834125186b1ea509d3692b2cc",
+  "decoded": {
+    "rows": [
+      {
+        "id": "caff938670e997dd",
+        "state_reading": "man biking | chequered flag | unknown",
+        "answer_reading": "person biking | person mountain biking | person bouncing ball"
+      },
+      {
+        "id": "b05d83d1b573c4e6",
+        "state_reading": "fork and knife | then / leads to | herb | deer | then / leads to | tiger | then / leads to | eagle | then / leads to | skull",
+        "answer_reading": "seedling | leaf fluttering in wind | bug | bird | fox | lion"
+      },
+      {
+        "id": "4a406bd756ca6325",
+        "state_reading": "books | unknown | green book | blue book | orange book | fork and knife with plate | unknown",
+        "answer_reading": "books | student | microscope | nerd face | compass | memo"
+      },
+      {
+        "id": "380dc0a03f3bed52",
+        "state_reading": "school | fork and knife | then / leads to | leaf fluttering in wind | then / leads to | paw prints | then / leads to | lion | then / leads to | skull | unknown",
+        "answer_reading": "herb | ant | bird | snake | eagle"
+      },
+      {
+        "id": "5aa4719bbcc7d27f",
+        "state_reading": "speaker high volume | then / leads to | straight ruler | triangular ruler | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "46fd7dc6ea5e7a7b",
+        "state_reading": "musical score | musical notes | unknown",
+        "answer_reading": "musical score | violin | trumpet | saxophone"
+      },
+      {
+        "id": "b000c3c4e1890ed4",
+        "state_reading": "fork and knife with plate | cooked rice | unknown",
+        "answer_reading": "bowl with spoon | bowl with spoon | honey pot | glass of milk"
+      },
+      {
+        "id": "b22491e2aa2a6fdb",
+        "state_reading": "cloud with snow | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "0aee9a02f28837c2",
+        "state_reading": "couch and lamp | unknown",
+        "answer_reading": "couch and lamp"
+      },
+      {
+        "id": "4907d545aca70962",
+        "state_reading": "herb | school | unknown",
+        "answer_reading": "seedling | sun with face | butterfly | deer"
+      }
+    ]
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "caff938670e997dd",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state keeps the cycling-races topic, but the answer is only partly relevant and includes an unrelated item (bouncing ball), so it does not faithfully answer with types of cycling races."
+      },
+      {
+        "id": "b05d83d1b573c4e6",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state shows a predation chain, which matches the food-chain topic. The answer is another valid chain of organisms and works as an example for the definition question."
+      },
+      {
+        "id": "4a406bd756ca6325",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state preserves the request for non-fiction books, but the answer is mostly unrelated objects and does not provide book suggestions."
+      },
+      {
+        "id": "380dc0a03f3bed52",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state represents a food chain, but the answer is just a list of organisms without explaining what a food chain is."
+      },
+      {
+        "id": "5aa4719bbcc7d27f",
+        "state_faithful": false,
+        "answer_faithful": true,
+        "reason": "The state does not preserve the question about the speed of sound. The answer is unknown, which is acceptable because the needed information is not provided."
+      },
+      {
+        "id": "46fd7dc6ea5e7a7b",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state does not preserve the question about classical music genres, and the answer lists instruments rather than genres."
+      },
+      {
+        "id": "b000c3c4e1890ed4",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state is about food in general, not breakfast cereal, and the answer does not name a cereal or a faithful suggestion."
+      },
+      {
+        "id": "b22491e2aa2a6fdb",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state indicates snowy weather is being discussed, but the answer is just unknown and does not reflect the available information."
+      },
+      {
+        "id": "0aee9a02f28837c2",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the sofa/couch concept, and the answer matches it directly."
+      },
+      {
+        "id": "4907d545aca70962",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state does not preserve the why-plants-are-important question, and the answer is only a list of related things rather than an explanation."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_0ae8fb61b145ee05016abfa54acabc87d0999e7cd5cdb50187",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 935,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1763,
+      "output_tokens_details": {
+        "reasoning_tokens": 1168
+      },
+      "total_tokens": 2698
+    }
+  }
+}

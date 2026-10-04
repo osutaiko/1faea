@@ -1,0 +1,50 @@
+{
+  "grounding_steps": 300,
+  "reconstruction_steps": 20,
+  "reply_steps": 800,
+  "selected_reply_step": 600,
+  "elapsed_seconds": 150.10900000005495,
+  "token_limit_rejected": {
+    "train": 54,
+    "validation": 5,
+    "test": 6
+  },
+  "reconstruction_audit": {
+    "losses": {
+      "correct": 3.711364507675171,
+      "reversed": 3.7453196048736572,
+      "empty": 3.2471729516983032
+    },
+    "note": "Teacher-forced English reconstruction only; compare zero and reversed states to detect bottleneck bypass."
+  },
+  "test": {
+    "reply_loss": 5.8016255311291625,
+    "count": 11,
+    "exact_reference_state": 0.0,
+    "answer_lexicon_anchor_recall": 0.0,
+    "symbols_used": 45,
+    "generated_symbols_used": 22,
+    "distinct_question_states": 11,
+    "distinct_replies": 11,
+    "metric_limit": "Reference emoji states are learned latent codes, not verified emoji answers. Anchor recall checks words, not factual correctness.",
+    "test_used_for_selection": false
+  },
+  "generated_qa_labels": 0,
+  "map_embeddings_frozen": true,
+  "pretrained_text_backbone_frozen": true,
+  "runtime_english_decoder": false,
+  "promoted": false,
+  "general_use_ready": false,
+  "experiment": "semantic-v1",
+  "training_pairs": 102,
+  "validation_pairs": 3,
+  "test_pairs": 11,
+  "semantic_encoder": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "license": "Apache-2.0",
+    "source": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+    "dimensions": 384
+  },
+  "interpretation": "Semantic initialization prevents collapse and produces varied replies. No exact learned reference-state matches or literal answer-anchor recall; reconstruction still loses to zero states. No general answering improvement established."
+}

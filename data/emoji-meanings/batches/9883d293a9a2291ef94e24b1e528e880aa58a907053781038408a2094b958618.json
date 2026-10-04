@@ -1,0 +1,758 @@
+{
+  "names": [
+    "person: bald",
+    "person, bald",
+    "woman: blond hair",
+    "woman, blond hair",
+    "man: blond hair",
+    "man, blond hair",
+    "older person",
+    "old man",
+    "old woman",
+    "person frowning",
+    "man frowning",
+    "woman frowning",
+    "person pouting",
+    "man pouting",
+    "woman pouting",
+    "person gesturing NO",
+    "man gesturing NO",
+    "woman gesturing NO",
+    "person gesturing OK",
+    "man gesturing OK",
+    "woman gesturing OK",
+    "person tipping hand",
+    "man tipping hand",
+    "woman tipping hand",
+    "person raising hand",
+    "man raising hand",
+    "woman raising hand",
+    "deaf person",
+    "deaf man",
+    "deaf woman",
+    "person bowing",
+    "man bowing",
+    "woman bowing",
+    "person facepalming",
+    "man facepalming",
+    "woman facepalming",
+    "person shrugging",
+    "man shrugging",
+    "woman shrugging",
+    "health worker"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "person: bald",
+        "associations": [
+          "hair loss",
+          "shaved head",
+          "bald head",
+          "person",
+          "clean scalp"
+        ]
+      },
+      {
+        "id": "person, bald",
+        "associations": [
+          "hair loss",
+          "shaved head",
+          "bald head",
+          "person",
+          "clean scalp"
+        ]
+      },
+      {
+        "id": "woman: blond hair",
+        "associations": [
+          "blond hair",
+          "woman",
+          "light hair",
+          "hair color",
+          "person"
+        ]
+      },
+      {
+        "id": "woman, blond hair",
+        "associations": [
+          "blond hair",
+          "woman",
+          "light hair",
+          "hair color",
+          "person"
+        ]
+      },
+      {
+        "id": "man: blond hair",
+        "associations": [
+          "blond hair",
+          "man",
+          "light hair",
+          "hair color",
+          "person"
+        ]
+      },
+      {
+        "id": "man, blond hair",
+        "associations": [
+          "blond hair",
+          "man",
+          "light hair",
+          "hair color",
+          "person"
+        ]
+      },
+      {
+        "id": "older person",
+        "associations": [
+          "age",
+          "senior",
+          "elderly",
+          "person",
+          "maturity"
+        ]
+      },
+      {
+        "id": "old man",
+        "associations": [
+          "older age",
+          "man",
+          "senior",
+          "elderly",
+          "maturity"
+        ]
+      },
+      {
+        "id": "old woman",
+        "associations": [
+          "older age",
+          "woman",
+          "senior",
+          "elderly",
+          "maturity"
+        ]
+      },
+      {
+        "id": "person frowning",
+        "associations": [
+          "sadness",
+          "displeasure",
+          "concern",
+          "downturned mouth",
+          "person"
+        ]
+      },
+      {
+        "id": "man frowning",
+        "associations": [
+          "sadness",
+          "displeasure",
+          "concern",
+          "downturned mouth",
+          "man"
+        ]
+      },
+      {
+        "id": "woman frowning",
+        "associations": [
+          "sadness",
+          "displeasure",
+          "concern",
+          "downturned mouth",
+          "woman"
+        ]
+      },
+      {
+        "id": "person pouting",
+        "associations": [
+          "annoyance",
+          "grumpiness",
+          "displeasure",
+          "pursed lips",
+          "person"
+        ]
+      },
+      {
+        "id": "man pouting",
+        "associations": [
+          "annoyance",
+          "grumpiness",
+          "displeasure",
+          "pursed lips",
+          "man"
+        ]
+      },
+      {
+        "id": "woman pouting",
+        "associations": [
+          "annoyance",
+          "grumpiness",
+          "displeasure",
+          "pursed lips",
+          "woman"
+        ]
+      },
+      {
+        "id": "person gesturing NO",
+        "associations": [
+          "refusal",
+          "rejection",
+          "stop",
+          "protest",
+          "hand gesture"
+        ]
+      },
+      {
+        "id": "man gesturing NO",
+        "associations": [
+          "refusal",
+          "rejection",
+          "stop",
+          "protest",
+          "hand gesture"
+        ]
+      },
+      {
+        "id": "woman gesturing NO",
+        "associations": [
+          "refusal",
+          "rejection",
+          "stop",
+          "protest",
+          "hand gesture"
+        ]
+      },
+      {
+        "id": "person gesturing OK",
+        "associations": [
+          "approval",
+          "agreement",
+          "okay",
+          "confirmation",
+          "hand sign"
+        ]
+      },
+      {
+        "id": "man gesturing OK",
+        "associations": [
+          "approval",
+          "agreement",
+          "okay",
+          "confirmation",
+          "hand sign"
+        ]
+      },
+      {
+        "id": "woman gesturing OK",
+        "associations": [
+          "approval",
+          "agreement",
+          "okay",
+          "confirmation",
+          "hand sign"
+        ]
+      },
+      {
+        "id": "person tipping hand",
+        "associations": [
+          "sarcasm",
+          "attitude",
+          "information desk",
+          "service",
+          "hand gesture"
+        ]
+      },
+      {
+        "id": "man tipping hand",
+        "associations": [
+          "sarcasm",
+          "attitude",
+          "information desk",
+          "service",
+          "hand gesture"
+        ]
+      },
+      {
+        "id": "woman tipping hand",
+        "associations": [
+          "sarcasm",
+          "attitude",
+          "information desk",
+          "service",
+          "hand gesture"
+        ]
+      },
+      {
+        "id": "person raising hand",
+        "associations": [
+          "volunteering",
+          "question",
+          "greeting",
+          "attention",
+          "hand up"
+        ]
+      },
+      {
+        "id": "man raising hand",
+        "associations": [
+          "volunteering",
+          "question",
+          "greeting",
+          "attention",
+          "hand up"
+        ]
+      },
+      {
+        "id": "woman raising hand",
+        "associations": [
+          "volunteering",
+          "question",
+          "greeting",
+          "attention",
+          "hand up"
+        ]
+      },
+      {
+        "id": "deaf person",
+        "associations": [
+          "hearing loss",
+          "sign language",
+          "communication",
+          "accessibility",
+          "person"
+        ]
+      },
+      {
+        "id": "deaf man",
+        "associations": [
+          "hearing loss",
+          "sign language",
+          "communication",
+          "accessibility",
+          "man"
+        ]
+      },
+      {
+        "id": "deaf woman",
+        "associations": [
+          "hearing loss",
+          "sign language",
+          "communication",
+          "accessibility",
+          "woman"
+        ]
+      },
+      {
+        "id": "person bowing",
+        "associations": [
+          "respect",
+          "greeting",
+          "apology",
+          "thanks",
+          "gesture"
+        ]
+      },
+      {
+        "id": "man bowing",
+        "associations": [
+          "respect",
+          "greeting",
+          "apology",
+          "thanks",
+          "gesture"
+        ]
+      },
+      {
+        "id": "woman bowing",
+        "associations": [
+          "respect",
+          "greeting",
+          "apology",
+          "thanks",
+          "gesture"
+        ]
+      },
+      {
+        "id": "person facepalming",
+        "associations": [
+          "frustration",
+          "embarrassment",
+          "disbelief",
+          "mistake",
+          "hand to face"
+        ]
+      },
+      {
+        "id": "man facepalming",
+        "associations": [
+          "frustration",
+          "embarrassment",
+          "disbelief",
+          "mistake",
+          "hand to face"
+        ]
+      },
+      {
+        "id": "woman facepalming",
+        "associations": [
+          "frustration",
+          "embarrassment",
+          "disbelief",
+          "mistake",
+          "hand to face"
+        ]
+      },
+      {
+        "id": "person shrugging",
+        "associations": [
+          "uncertainty",
+          "confusion",
+          "indifference",
+          "doubt",
+          "shoulder shrug"
+        ]
+      },
+      {
+        "id": "man shrugging",
+        "associations": [
+          "uncertainty",
+          "confusion",
+          "indifference",
+          "doubt",
+          "shoulder shrug"
+        ]
+      },
+      {
+        "id": "woman shrugging",
+        "associations": [
+          "uncertainty",
+          "confusion",
+          "indifference",
+          "doubt",
+          "shoulder shrug"
+        ]
+      },
+      {
+        "id": "health worker",
+        "associations": [
+          "medical care",
+          "doctor",
+          "nurse",
+          "clinic",
+          "helping"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_060e6b7170a94a4c016abfadef200087d08b26c775b70f693e",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1056,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1011,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2067
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "person: bald",
+        "rejected": [
+          "hair loss",
+          "clean scalp"
+        ],
+        "reason": "Too medical/specific and not part of the literal core meaning; 'bald' means lacking hair, not necessarily hair loss or a clean scalp."
+      },
+      {
+        "id": "person, bald",
+        "rejected": [
+          "hair loss",
+          "clean scalp"
+        ],
+        "reason": "Too medical/specific and not part of the literal core meaning; 'bald' means lacking hair, not necessarily hair loss or a clean scalp."
+      },
+      {
+        "id": "woman: blond hair",
+        "rejected": [
+          "light hair"
+        ],
+        "reason": "Too vague; the core meaning is blond hair specifically, not just light hair."
+      },
+      {
+        "id": "woman, blond hair",
+        "rejected": [
+          "light hair"
+        ],
+        "reason": "Too vague; the core meaning is blond hair specifically, not just light hair."
+      },
+      {
+        "id": "man: blond hair",
+        "rejected": [
+          "light hair"
+        ],
+        "reason": "Too vague; the core meaning is blond hair specifically, not just light hair."
+      },
+      {
+        "id": "man, blond hair",
+        "rejected": [
+          "light hair"
+        ],
+        "reason": "Too vague; the core meaning is blond hair specifically, not just light hair."
+      },
+      {
+        "id": "older person",
+        "rejected": [
+          "age",
+          "maturity"
+        ],
+        "reason": "Overly abstract and not direct core meaning associations; the emoji denotes an older person, not the abstract concepts of age or maturity."
+      },
+      {
+        "id": "old man",
+        "rejected": [
+          "older age",
+          "maturity"
+        ],
+        "reason": "Overly abstract and not direct core meaning associations; the emoji denotes an old man, not the abstract concepts of age or maturity."
+      },
+      {
+        "id": "old woman",
+        "rejected": [
+          "older age",
+          "maturity"
+        ],
+        "reason": "Overly abstract and not direct core meaning associations; the emoji denotes an old woman, not the abstract concepts of age or maturity."
+      },
+      {
+        "id": "person frowning",
+        "rejected": [],
+        "reason": "All associations are related and appropriate."
+      },
+      {
+        "id": "man frowning",
+        "rejected": [],
+        "reason": "All associations are related and appropriate."
+      },
+      {
+        "id": "woman frowning",
+        "rejected": [],
+        "reason": "All associations are related and appropriate."
+      },
+      {
+        "id": "person pouting",
+        "rejected": [],
+        "reason": "All associations are related and appropriate."
+      },
+      {
+        "id": "man pouting",
+        "rejected": [],
+        "reason": "All associations are related and appropriate."
+      },
+      {
+        "id": "woman pouting",
+        "rejected": [],
+        "reason": "All associations are related and appropriate."
+      },
+      {
+        "id": "person gesturing NO",
+        "rejected": [
+          "stop"
+        ],
+        "reason": "'NO' is refusal/rejection; 'stop' is a different, potentially misleading meaning."
+      },
+      {
+        "id": "man gesturing NO",
+        "rejected": [
+          "stop"
+        ],
+        "reason": "'NO' is refusal/rejection; 'stop' is a different, potentially misleading meaning."
+      },
+      {
+        "id": "woman gesturing NO",
+        "rejected": [
+          "stop"
+        ],
+        "reason": "'NO' is refusal/rejection; 'stop' is a different, potentially misleading meaning."
+      },
+      {
+        "id": "person gesturing OK",
+        "rejected": [],
+        "reason": "All associations are related and appropriate."
+      },
+      {
+        "id": "man gesturing OK",
+        "rejected": [],
+        "reason": "All associations are related and appropriate."
+      },
+      {
+        "id": "woman gesturing OK",
+        "rejected": [],
+        "reason": "All associations are related and appropriate."
+      },
+      {
+        "id": "person tipping hand",
+        "rejected": [
+          "information desk",
+          "service"
+        ],
+        "reason": "These are context-specific interpretations not inherent to the core gesture and can be misleading."
+      },
+      {
+        "id": "man tipping hand",
+        "rejected": [
+          "information desk",
+          "service"
+        ],
+        "reason": "These are context-specific interpretations not inherent to the core gesture and can be misleading."
+      },
+      {
+        "id": "woman tipping hand",
+        "rejected": [
+          "information desk",
+          "service"
+        ],
+        "reason": "These are context-specific interpretations not inherent to the core gesture and can be misleading."
+      },
+      {
+        "id": "person raising hand",
+        "rejected": [
+          "greeting"
+        ],
+        "reason": "'Raising hand' commonly means volunteering or asking a question; 'greeting' is a weaker, potentially misleading interpretation."
+      },
+      {
+        "id": "man raising hand",
+        "rejected": [
+          "greeting"
+        ],
+        "reason": "'Raising hand' commonly means volunteering or asking a question; 'greeting' is a weaker, potentially misleading interpretation."
+      },
+      {
+        "id": "woman raising hand",
+        "rejected": [
+          "greeting"
+        ],
+        "reason": "'Raising hand' commonly means volunteering or asking a question; 'greeting' is a weaker, potentially misleading interpretation."
+      },
+      {
+        "id": "deaf person",
+        "rejected": [
+          "hearing loss",
+          "communication",
+          "accessibility"
+        ],
+        "reason": "These are related but shift from the literal core meaning to condition/effects; the emoji core meaning is deaf person."
+      },
+      {
+        "id": "deaf man",
+        "rejected": [
+          "hearing loss",
+          "communication",
+          "accessibility"
+        ],
+        "reason": "These are related but shift from the literal core meaning to condition/effects; the emoji core meaning is deaf man."
+      },
+      {
+        "id": "deaf woman",
+        "rejected": [
+          "hearing loss",
+          "communication",
+          "accessibility"
+        ],
+        "reason": "These are related but shift from the literal core meaning to condition/effects; the emoji core meaning is deaf woman."
+      },
+      {
+        "id": "person bowing",
+        "rejected": [
+          "thanks"
+        ],
+        "reason": "Bowing can indicate respect, greeting, or apology; 'thanks' is more interpretive and not always implied."
+      },
+      {
+        "id": "man bowing",
+        "rejected": [
+          "thanks"
+        ],
+        "reason": "Bowing can indicate respect, greeting, or apology; 'thanks' is more interpretive and not always implied."
+      },
+      {
+        "id": "woman bowing",
+        "rejected": [
+          "thanks"
+        ],
+        "reason": "Bowing can indicate respect, greeting, or apology; 'thanks' is more interpretive and not always implied."
+      },
+      {
+        "id": "person facepalming",
+        "rejected": [],
+        "reason": "All associations are related and appropriate."
+      },
+      {
+        "id": "man facepalming",
+        "rejected": [],
+        "reason": "All associations are related and appropriate."
+      },
+      {
+        "id": "woman facepalming",
+        "rejected": [],
+        "reason": "All associations are related and appropriate."
+      },
+      {
+        "id": "person shrugging",
+        "rejected": [
+          "indifference"
+        ],
+        "reason": "Shrugging primarily conveys uncertainty or not knowing; 'indifference' is not always implied and can be misleading."
+      },
+      {
+        "id": "man shrugging",
+        "rejected": [
+          "indifference"
+        ],
+        "reason": "Shrugging primarily conveys uncertainty or not knowing; 'indifference' is not always implied and can be misleading."
+      },
+      {
+        "id": "woman shrugging",
+        "rejected": [
+          "indifference"
+        ],
+        "reason": "Shrugging primarily conveys uncertainty or not knowing; 'indifference' is not always implied and can be misleading."
+      },
+      {
+        "id": "health worker",
+        "rejected": [
+          "doctor",
+          "nurse",
+          "clinic",
+          "helping"
+        ],
+        "reason": "These are role or context assumptions, not the literal core meaning; the emoji denotes a health worker generally."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0b5b047e4a6db97a016abfadf3a2d887d0806c2616f735f820",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1629,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1359,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2988
+    }
+  }
+}

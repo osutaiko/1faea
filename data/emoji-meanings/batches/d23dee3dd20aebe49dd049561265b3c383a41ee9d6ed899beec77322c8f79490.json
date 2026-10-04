@@ -1,0 +1,317 @@
+{
+  "names": [
+    "flag: St. Vincent & Grenadines",
+    "flag: Venezuela",
+    "flag: British Virgin Islands",
+    "flag: U.S. Virgin Islands",
+    "flag: Vietnam",
+    "flag: Vanuatu",
+    "flag: Wallis & Futuna",
+    "flag: Samoa",
+    "flag: Kosovo",
+    "flag: Yemen",
+    "flag: Mayotte",
+    "flag: South Africa",
+    "flag: Zambia",
+    "flag: Zimbabwe",
+    "flag: England",
+    "flag: Scotland",
+    "flag: Wales"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "flag: St. Vincent & Grenadines",
+        "associations": [
+          "flag",
+          "national identity",
+          "Caribbean",
+          "country",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Venezuela",
+        "associations": [
+          "flag",
+          "national identity",
+          "South America",
+          "country",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: British Virgin Islands",
+        "associations": [
+          "flag",
+          "national identity",
+          "Caribbean",
+          "territory",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: U.S. Virgin Islands",
+        "associations": [
+          "flag",
+          "national identity",
+          "Caribbean",
+          "territory",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Vietnam",
+        "associations": [
+          "flag",
+          "national identity",
+          "Southeast Asia",
+          "country",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Vanuatu",
+        "associations": [
+          "flag",
+          "national identity",
+          "Pacific Islands",
+          "country",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Wallis & Futuna",
+        "associations": [
+          "flag",
+          "national identity",
+          "Pacific Islands",
+          "territory",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Samoa",
+        "associations": [
+          "flag",
+          "national identity",
+          "Pacific Islands",
+          "country",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Kosovo",
+        "associations": [
+          "flag",
+          "national identity",
+          "Europe",
+          "country",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Yemen",
+        "associations": [
+          "flag",
+          "national identity",
+          "Middle East",
+          "country",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Mayotte",
+        "associations": [
+          "flag",
+          "national identity",
+          "Indian Ocean",
+          "territory",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: South Africa",
+        "associations": [
+          "flag",
+          "national identity",
+          "Africa",
+          "country",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Zambia",
+        "associations": [
+          "flag",
+          "national identity",
+          "Africa",
+          "country",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Zimbabwe",
+        "associations": [
+          "flag",
+          "national identity",
+          "Africa",
+          "country",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: England",
+        "associations": [
+          "flag",
+          "national identity",
+          "England",
+          "region",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Scotland",
+        "associations": [
+          "flag",
+          "national identity",
+          "Scotland",
+          "region",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Wales",
+        "associations": [
+          "flag",
+          "national identity",
+          "Wales",
+          "region",
+          "travel"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0b7787f0e508f9df016abfaff90f4487d0907aff0b74834e47",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 728,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 318,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1046
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "flag: St. Vincent & Grenadines",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Saint Vincent and the Grenadines."
+      },
+      {
+        "id": "flag: Venezuela",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Venezuela."
+      },
+      {
+        "id": "flag: British Virgin Islands",
+        "rejected": [],
+        "reason": "All associations are broadly related to the British Virgin Islands flag."
+      },
+      {
+        "id": "flag: U.S. Virgin Islands",
+        "rejected": [],
+        "reason": "All associations are broadly related to the U.S. Virgin Islands flag."
+      },
+      {
+        "id": "flag: Vietnam",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Vietnam."
+      },
+      {
+        "id": "flag: Vanuatu",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Vanuatu."
+      },
+      {
+        "id": "flag: Wallis & Futuna",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Wallis and Futuna."
+      },
+      {
+        "id": "flag: Samoa",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Samoa."
+      },
+      {
+        "id": "flag: Kosovo",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Kosovo."
+      },
+      {
+        "id": "flag: Yemen",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Yemen."
+      },
+      {
+        "id": "flag: Mayotte",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Mayotte."
+      },
+      {
+        "id": "flag: South Africa",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of South Africa."
+      },
+      {
+        "id": "flag: Zambia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Zambia."
+      },
+      {
+        "id": "flag: Zimbabwe",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Zimbabwe."
+      },
+      {
+        "id": "flag: England",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of England."
+      },
+      {
+        "id": "flag: Scotland",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Scotland."
+      },
+      {
+        "id": "flag: Wales",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag of Wales."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_072fe5c1ed11f435016abfaffb294487d089a3ffb63beb80d3",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1430,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 419,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1849
+    }
+  }
+}

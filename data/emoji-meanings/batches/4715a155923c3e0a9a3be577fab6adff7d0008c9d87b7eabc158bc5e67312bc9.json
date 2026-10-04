@@ -1,0 +1,685 @@
+{
+  "names": [
+    "person walking",
+    "man walking",
+    "woman walking",
+    "person walking facing right",
+    "woman walking facing right",
+    "man walking facing right",
+    "person standing",
+    "man standing",
+    "woman standing",
+    "person kneeling",
+    "man kneeling",
+    "woman kneeling",
+    "person kneeling facing right",
+    "woman kneeling facing right",
+    "man kneeling facing right",
+    "person with white cane",
+    "person with white cane facing right",
+    "man with white cane",
+    "man with white cane facing right",
+    "woman with white cane",
+    "woman with white cane facing right",
+    "person in motorized wheelchair",
+    "person in motorized wheelchair facing right",
+    "man in motorized wheelchair",
+    "man in motorized wheelchair facing right",
+    "woman in motorized wheelchair",
+    "woman in motorized wheelchair facing right",
+    "person in manual wheelchair",
+    "person in manual wheelchair facing right",
+    "man in manual wheelchair",
+    "man in manual wheelchair facing right",
+    "woman in manual wheelchair",
+    "woman in manual wheelchair facing right",
+    "person running",
+    "man running",
+    "woman running",
+    "person running facing right",
+    "woman running facing right",
+    "man running facing right",
+    "ballet dancer"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "person walking",
+        "associations": [
+          "walking",
+          "step",
+          "motion",
+          "travel",
+          "stroll"
+        ]
+      },
+      {
+        "id": "man walking",
+        "associations": [
+          "walking",
+          "step",
+          "motion",
+          "travel",
+          "stroll"
+        ]
+      },
+      {
+        "id": "woman walking",
+        "associations": [
+          "walking",
+          "step",
+          "motion",
+          "travel",
+          "stroll"
+        ]
+      },
+      {
+        "id": "person walking facing right",
+        "associations": [
+          "walking",
+          "rightward",
+          "step",
+          "motion",
+          "direction"
+        ]
+      },
+      {
+        "id": "woman walking facing right",
+        "associations": [
+          "walking",
+          "rightward",
+          "step",
+          "motion",
+          "direction"
+        ]
+      },
+      {
+        "id": "man walking facing right",
+        "associations": [
+          "walking",
+          "rightward",
+          "step",
+          "motion",
+          "direction"
+        ]
+      },
+      {
+        "id": "person standing",
+        "associations": [
+          "standing",
+          "upright",
+          "stillness",
+          "pause",
+          "pose"
+        ]
+      },
+      {
+        "id": "man standing",
+        "associations": [
+          "standing",
+          "upright",
+          "stillness",
+          "pause",
+          "pose"
+        ]
+      },
+      {
+        "id": "woman standing",
+        "associations": [
+          "standing",
+          "upright",
+          "stillness",
+          "pause",
+          "pose"
+        ]
+      },
+      {
+        "id": "person kneeling",
+        "associations": [
+          "kneeling",
+          "crouch",
+          "bow",
+          "rest",
+          "prayer"
+        ]
+      },
+      {
+        "id": "man kneeling",
+        "associations": [
+          "kneeling",
+          "crouch",
+          "bow",
+          "rest",
+          "prayer"
+        ]
+      },
+      {
+        "id": "woman kneeling",
+        "associations": [
+          "kneeling",
+          "crouch",
+          "bow",
+          "rest",
+          "prayer"
+        ]
+      },
+      {
+        "id": "person kneeling facing right",
+        "associations": [
+          "kneeling",
+          "rightward",
+          "crouch",
+          "bow",
+          "direction"
+        ]
+      },
+      {
+        "id": "woman kneeling facing right",
+        "associations": [
+          "kneeling",
+          "rightward",
+          "crouch",
+          "bow",
+          "direction"
+        ]
+      },
+      {
+        "id": "man kneeling facing right",
+        "associations": [
+          "kneeling",
+          "rightward",
+          "crouch",
+          "bow",
+          "direction"
+        ]
+      },
+      {
+        "id": "person with white cane",
+        "associations": [
+          "white cane",
+          "blindness",
+          "mobility aid",
+          "navigation",
+          "accessibility"
+        ]
+      },
+      {
+        "id": "person with white cane facing right",
+        "associations": [
+          "white cane",
+          "rightward",
+          "blindness",
+          "mobility aid",
+          "navigation"
+        ]
+      },
+      {
+        "id": "man with white cane",
+        "associations": [
+          "white cane",
+          "blindness",
+          "mobility aid",
+          "navigation",
+          "accessibility"
+        ]
+      },
+      {
+        "id": "man with white cane facing right",
+        "associations": [
+          "white cane",
+          "rightward",
+          "blindness",
+          "mobility aid",
+          "navigation"
+        ]
+      },
+      {
+        "id": "woman with white cane",
+        "associations": [
+          "white cane",
+          "blindness",
+          "mobility aid",
+          "navigation",
+          "accessibility"
+        ]
+      },
+      {
+        "id": "woman with white cane facing right",
+        "associations": [
+          "white cane",
+          "rightward",
+          "blindness",
+          "mobility aid",
+          "navigation"
+        ]
+      },
+      {
+        "id": "person in motorized wheelchair",
+        "associations": [
+          "motorized wheelchair",
+          "mobility aid",
+          "powered chair",
+          "independence",
+          "accessibility"
+        ]
+      },
+      {
+        "id": "person in motorized wheelchair facing right",
+        "associations": [
+          "motorized wheelchair",
+          "rightward",
+          "mobility aid",
+          "powered chair",
+          "direction"
+        ]
+      },
+      {
+        "id": "man in motorized wheelchair",
+        "associations": [
+          "motorized wheelchair",
+          "mobility aid",
+          "powered chair",
+          "independence",
+          "accessibility"
+        ]
+      },
+      {
+        "id": "man in motorized wheelchair facing right",
+        "associations": [
+          "motorized wheelchair",
+          "rightward",
+          "mobility aid",
+          "powered chair",
+          "direction"
+        ]
+      },
+      {
+        "id": "woman in motorized wheelchair",
+        "associations": [
+          "motorized wheelchair",
+          "mobility aid",
+          "powered chair",
+          "independence",
+          "accessibility"
+        ]
+      },
+      {
+        "id": "woman in motorized wheelchair facing right",
+        "associations": [
+          "motorized wheelchair",
+          "rightward",
+          "mobility aid",
+          "powered chair",
+          "direction"
+        ]
+      },
+      {
+        "id": "person in manual wheelchair",
+        "associations": [
+          "manual wheelchair",
+          "mobility aid",
+          "self-propelled",
+          "accessibility",
+          "movement"
+        ]
+      },
+      {
+        "id": "person in manual wheelchair facing right",
+        "associations": [
+          "manual wheelchair",
+          "rightward",
+          "mobility aid",
+          "self-propelled",
+          "direction"
+        ]
+      },
+      {
+        "id": "man in manual wheelchair",
+        "associations": [
+          "manual wheelchair",
+          "mobility aid",
+          "self-propelled",
+          "accessibility",
+          "movement"
+        ]
+      },
+      {
+        "id": "man in manual wheelchair facing right",
+        "associations": [
+          "manual wheelchair",
+          "rightward",
+          "mobility aid",
+          "self-propelled",
+          "direction"
+        ]
+      },
+      {
+        "id": "woman in manual wheelchair",
+        "associations": [
+          "manual wheelchair",
+          "mobility aid",
+          "self-propelled",
+          "accessibility",
+          "movement"
+        ]
+      },
+      {
+        "id": "woman in manual wheelchair facing right",
+        "associations": [
+          "manual wheelchair",
+          "rightward",
+          "mobility aid",
+          "self-propelled",
+          "direction"
+        ]
+      },
+      {
+        "id": "person running",
+        "associations": [
+          "running",
+          "sprint",
+          "jog",
+          "speed",
+          "exercise"
+        ]
+      },
+      {
+        "id": "man running",
+        "associations": [
+          "running",
+          "sprint",
+          "jog",
+          "speed",
+          "exercise"
+        ]
+      },
+      {
+        "id": "woman running",
+        "associations": [
+          "running",
+          "sprint",
+          "jog",
+          "speed",
+          "exercise"
+        ]
+      },
+      {
+        "id": "person running facing right",
+        "associations": [
+          "running",
+          "rightward",
+          "sprint",
+          "jog",
+          "speed"
+        ]
+      },
+      {
+        "id": "woman running facing right",
+        "associations": [
+          "running",
+          "rightward",
+          "sprint",
+          "jog",
+          "speed"
+        ]
+      },
+      {
+        "id": "man running facing right",
+        "associations": [
+          "running",
+          "rightward",
+          "sprint",
+          "jog",
+          "speed"
+        ]
+      },
+      {
+        "id": "ballet dancer",
+        "associations": [
+          "ballet",
+          "dance",
+          "grace",
+          "performance",
+          "tutu"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0e3e7c420e771fc8016abfaea3e31c87d0a6f1dc19d0d51dce",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1565,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 822,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2387
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "person walking",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or near-synonyms for walking."
+      },
+      {
+        "id": "man walking",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or near-synonyms for walking."
+      },
+      {
+        "id": "woman walking",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or near-synonyms for walking."
+      },
+      {
+        "id": "person walking facing right",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or direction cues consistent with the core meaning."
+      },
+      {
+        "id": "woman walking facing right",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or direction cues consistent with the core meaning."
+      },
+      {
+        "id": "man walking facing right",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or direction cues consistent with the core meaning."
+      },
+      {
+        "id": "person standing",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or near-synonyms for standing."
+      },
+      {
+        "id": "man standing",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or near-synonyms for standing."
+      },
+      {
+        "id": "woman standing",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or near-synonyms for standing."
+      },
+      {
+        "id": "person kneeling",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or near-synonyms for kneeling."
+      },
+      {
+        "id": "man kneeling",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or near-synonyms for kneeling."
+      },
+      {
+        "id": "woman kneeling",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or near-synonyms for kneeling."
+      },
+      {
+        "id": "person kneeling facing right",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or direction cues consistent with the core meaning."
+      },
+      {
+        "id": "woman kneeling facing right",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or direction cues consistent with the core meaning."
+      },
+      {
+        "id": "man kneeling facing right",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or direction cues consistent with the core meaning."
+      },
+      {
+        "id": "person with white cane",
+        "rejected": [],
+        "reason": "All associations are directly related to a white cane and its common accessibility context."
+      },
+      {
+        "id": "person with white cane facing right",
+        "rejected": [],
+        "reason": "All associations are directly related to a white cane and a direction cue consistent with the core meaning."
+      },
+      {
+        "id": "man with white cane",
+        "rejected": [],
+        "reason": "All associations are directly related to a white cane and its common accessibility context."
+      },
+      {
+        "id": "man with white cane facing right",
+        "rejected": [],
+        "reason": "All associations are directly related to a white cane and a direction cue consistent with the core meaning."
+      },
+      {
+        "id": "woman with white cane",
+        "rejected": [],
+        "reason": "All associations are directly related to a white cane and its common accessibility context."
+      },
+      {
+        "id": "woman with white cane facing right",
+        "rejected": [],
+        "reason": "All associations are directly related to a white cane and a direction cue consistent with the core meaning."
+      },
+      {
+        "id": "person in motorized wheelchair",
+        "rejected": [],
+        "reason": "All associations are directly related to a motorized wheelchair and accessibility context."
+      },
+      {
+        "id": "person in motorized wheelchair facing right",
+        "rejected": [],
+        "reason": "All associations are directly related to a motorized wheelchair and a direction cue consistent with the core meaning."
+      },
+      {
+        "id": "man in motorized wheelchair",
+        "rejected": [],
+        "reason": "All associations are directly related to a motorized wheelchair and accessibility context."
+      },
+      {
+        "id": "man in motorized wheelchair facing right",
+        "rejected": [],
+        "reason": "All associations are directly related to a motorized wheelchair and a direction cue consistent with the core meaning."
+      },
+      {
+        "id": "woman in motorized wheelchair",
+        "rejected": [],
+        "reason": "All associations are directly related to a motorized wheelchair and accessibility context."
+      },
+      {
+        "id": "woman in motorized wheelchair facing right",
+        "rejected": [],
+        "reason": "All associations are directly related to a motorized wheelchair and a direction cue consistent with the core meaning."
+      },
+      {
+        "id": "person in manual wheelchair",
+        "rejected": [],
+        "reason": "All associations are directly related to a manual wheelchair and accessibility context."
+      },
+      {
+        "id": "person in manual wheelchair facing right",
+        "rejected": [],
+        "reason": "All associations are directly related to a manual wheelchair and a direction cue consistent with the core meaning."
+      },
+      {
+        "id": "man in manual wheelchair",
+        "rejected": [],
+        "reason": "All associations are directly related to a manual wheelchair and accessibility context."
+      },
+      {
+        "id": "man in manual wheelchair facing right",
+        "rejected": [],
+        "reason": "All associations are directly related to a manual wheelchair and a direction cue consistent with the core meaning."
+      },
+      {
+        "id": "woman in manual wheelchair",
+        "rejected": [],
+        "reason": "All associations are directly related to a manual wheelchair and accessibility context."
+      },
+      {
+        "id": "woman in manual wheelchair facing right",
+        "rejected": [],
+        "reason": "All associations are directly related to a manual wheelchair and a direction cue consistent with the core meaning."
+      },
+      {
+        "id": "person running",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or near-synonyms for running."
+      },
+      {
+        "id": "man running",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or near-synonyms for running."
+      },
+      {
+        "id": "woman running",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or near-synonyms for running."
+      },
+      {
+        "id": "person running facing right",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or direction cues consistent with the core meaning."
+      },
+      {
+        "id": "woman running facing right",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or direction cues consistent with the core meaning."
+      },
+      {
+        "id": "man running facing right",
+        "rejected": [],
+        "reason": "All associations are ordinary related actions or direction cues consistent with the core meaning."
+      },
+      {
+        "id": "ballet dancer",
+        "rejected": [],
+        "reason": "All associations are ordinary related concepts for ballet dancer; none are unrelated or misleading."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0185347ddbdc8766016abfaea80c8c87d0aca6a32ba17223df",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2716,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1116,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3832
+    }
+  }
+}

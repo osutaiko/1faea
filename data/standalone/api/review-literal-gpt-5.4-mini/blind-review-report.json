@@ -1,0 +1,963 @@
+{
+  "model": "gpt-5.4-mini",
+  "controls_passed": true,
+  "candidate_approvals": 33,
+  "candidates": 99,
+  "training_performed": false,
+  "verdicts": [
+    {
+      "id": "b15c218dd149f78e",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state keeps the phone/battery topic, and the answer gives a way to save battery life by turning the mobile phone off.",
+      "state_reading": "mobile phone | battery | unknown",
+      "answer_reading": "battery | ZZZ | mobile phone off | dim button | black circle",
+      "approved": true
+    },
+    {
+      "id": "f7bc2488732b0092",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the subject of a violin, but the answer is only a list of related music items and does not explain what a violin is.",
+      "state_reading": "musical note | violin | unknown",
+      "answer_reading": "violin | musical score | banjo | musical notes",
+      "approved": false
+    },
+    {
+      "id": "5705576de6cffe64",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state is about sleep, and the answer lists factors related to sleep quality.",
+      "state_reading": "sleeping face | unknown",
+      "answer_reading": "sleeping face | bed | mantelpiece clock | no mobile phones | crescent moon | person in lotus position",
+      "approved": true
+    },
+    {
+      "id": "1759dfa120c41921",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state drifts away from Paris-specific landmarks into generic travel imagery, and the answer lists landmarks/items that do not faithfully answer the Paris landmarks question.",
+      "state_reading": "globe showing Europe-Africa | airplane | cityscape | unknown",
+      "answer_reading": "Tokyo tower | castle | artist palette | wine glass | baguette bread",
+      "approved": false
+    },
+    {
+      "id": "39201c44085dd526",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state preserves the healthy snack topic, and the answer provides several snack suggestions.",
+      "state_reading": "red apple | carrot | peanuts | unknown",
+      "answer_reading": "carrot | red apple | peanuts | cucumber | green salad",
+      "approved": true
+    },
+    {
+      "id": "9a704e5ab644d595",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the illness/doctor topic, but the answer does not actually say whether to go to the doctor or give a clear answer to that question.",
+      "state_reading": "slightly smiling face | face with thermometer | hospital | unknown",
+      "answer_reading": "thinking face | health worker | hospital | pill",
+      "approved": false
+    },
+    {
+      "id": "9620c26f7155f184",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state does not faithfully represent how rain is measured because it uses a ruler rather than the needed rain-measurement concept, and the answer repeats that mismatch instead of answering the question.",
+      "state_reading": "cloud with rain | straight ruler | unknown",
+      "answer_reading": "cloud with rain | straight ruler",
+      "approved": false
+    },
+    {
+      "id": "86a3a1c78dbc18af",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state keeps the genetics/heredity topic, but the answer is only a related set of words and does not define heredity.",
+      "state_reading": "dna | student | unknown",
+      "answer_reading": "dna | brain | family",
+      "approved": false
+    },
+    {
+      "id": "ce868481ed2e1369",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the cat entertainment topic, but the answer lists unrelated or too-generic items and does not clearly tell how to keep a cat entertained.",
+      "state_reading": "cat | thinking face | teddy bear | tennis | unknown",
+      "answer_reading": "tennis | teddy bear | man running | grinning cat",
+      "approved": false
+    },
+    {
+      "id": "5dcd97dd2cd4ec94",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state preserves the plant topic, and the answer gives things plants need to grow, such as sun and water.",
+      "state_reading": "seedling | unknown",
+      "answer_reading": "sun | droplet | potted plant | seedling | farmer",
+      "approved": true
+    },
+    {
+      "id": "caff938670e997dd",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state keeps the cycling-races topic, but the answer is just a mixed list of biking-related items and does not give popular types of cycling races.",
+      "state_reading": "man biking | chequered flag | unknown",
+      "answer_reading": "person biking | person mountain biking | person bouncing ball",
+      "approved": false
+    },
+    {
+      "id": "b05d83d1b573c4e6",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state depicts a food chain, matching the question, but the answer is only another chain of organisms and does not explain what a food chain is.",
+      "state_reading": "fork and knife | then / leads to | herb | deer | then / leads to | tiger | then / leads to | eagle | then / leads to | skull",
+      "answer_reading": "seedling | leaf fluttering in wind | bug | bird | fox | lion",
+      "approved": false
+    },
+    {
+      "id": "4a406bd756ca6325",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state stays on the topic of books and suggestions, but the answer lists school-related objects rather than non-fiction book suggestions.",
+      "state_reading": "books | unknown | green book | blue book | orange book | fork and knife with plate | unknown",
+      "answer_reading": "books | student | microscope | nerd face | compass | memo",
+      "approved": false
+    },
+    {
+      "id": "380dc0a03f3bed52",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the food-chain context, but the answer is just a set of organisms and does not answer the definition question.",
+      "state_reading": "school | fork and knife | then / leads to | leaf fluttering in wind | then / leads to | paw prints | then / leads to | lion | then / leads to | skull | unknown",
+      "answer_reading": "herb | ant | bird | snake | eagle",
+      "approved": false
+    },
+    {
+      "id": "5aa4719bbcc7d27f",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state does not preserve the question about the speed of sound, and the answer is only unknown without providing the requested information.",
+      "state_reading": "speaker high volume | then / leads to | straight ruler | triangular ruler | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "46fd7dc6ea5e7a7b",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question asks about classical music genres, but the state and answer are about a musical score and instruments, not genres.",
+      "state_reading": "musical score | musical notes | unknown",
+      "answer_reading": "musical score | violin | trumpet | saxophone",
+      "approved": false
+    },
+    {
+      "id": "b000c3c4e1890ed4",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state is about general food rather than breakfast cereal, and the answer lists breakfast items instead of a cereal.",
+      "state_reading": "fork and knife with plate | cooked rice | unknown",
+      "answer_reading": "bowl with spoon | bowl with spoon | honey pot | glass of milk",
+      "approved": false
+    },
+    {
+      "id": "b22491e2aa2a6fdb",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state matches a snow forecast question, and answering unknown is acceptable because the information is not available.",
+      "state_reading": "cloud with snow | unknown",
+      "answer_reading": "unknown",
+      "approved": true
+    },
+    {
+      "id": "0aee9a02f28837c2",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the sofa topic, but the answer adds an unrelated lamp and does not faithfully define or identify a sofa.",
+      "state_reading": "couch and lamp | unknown",
+      "answer_reading": "couch and lamp",
+      "approved": false
+    },
+    {
+      "id": "4907d545aca70962",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state does not really preserve the question about why plants are important, and the answer is just a list of plant-related items rather than an explanation.",
+      "state_reading": "herb | school | unknown",
+      "answer_reading": "seedling | sun with face | butterfly | deer",
+      "approved": false
+    },
+    {
+      "id": "c3748c5864b84150",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state captures feeling tired and uncertainty about sleep, but the answer is just 'unknown' rather than a number of hours.",
+      "state_reading": "tired face | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "4db0d73caed50d6e",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state talks about a person thinking through a pushpin-magnet-hook chain, which does not preserve the pulley question. The answer also does not define a pulley.",
+      "state_reading": "person | thinking face | clause boundary | pushpin | then / leads to | magnet | then / leads to | hook",
+      "answer_reading": "magnet | then / leads to | hook",
+      "approved": false
+    },
+    {
+      "id": "9ef377e871f91839",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state is about smartphones and cameras, but the answer only names 'camera with flash' and does not state the difference from a regular phone.",
+      "state_reading": "mobile phone | magnifying glass tilted left | clause boundary | camera with flash | unknown",
+      "answer_reading": "camera with flash",
+      "approved": false
+    },
+    {
+      "id": "02cbbb1aaddaaa76",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state matches creating a sleep schedule for a family, but the answer is just a calendar-to-clock chain and does not give a tip or schedule guidance.",
+      "state_reading": "family | person in bed | clause boundary | calendar | then / leads to | mantelpiece clock",
+      "answer_reading": "calendar | then / leads to | mantelpiece clock",
+      "approved": false
+    },
+    {
+      "id": "c7f5bfd71dc71ad6",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state preserves the idea of an animal life cycle, and the answer gives a valid sequence from chick to rooster.",
+      "state_reading": "hatching chick | then / leads to | baby chick | then / leads to | rooster | clause boundary | pushpin | then / leads to | counterclockwise arrows button",
+      "answer_reading": "hatching chick | then / leads to | baby chick | then / leads to | rooster",
+      "approved": true
+    },
+    {
+      "id": "36e5764e3ee432d4",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state mentions a shopping cart and department store, not the question about grocery-store layout. The answer 'unknown' does not provide the requested information.",
+      "state_reading": "shopping cart | department store | clause boundary | round pushpin | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "d7ccb399ffe81885",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the hydration question, but the answer 'unknown' does not provide how much water to drink.",
+      "state_reading": "droplet | clause boundary | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "17feddfc6ab0cc91",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state keeps the grocery-shopping money-saving context, and a memo can reasonably stand for starting with a shopping list or note of what to buy.",
+      "state_reading": "shopping cart | money bag | clause boundary | pushpin | then / leads to | memo",
+      "answer_reading": "memo",
+      "approved": true
+    },
+    {
+      "id": "543b3eef7dd37890",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state lists devices rather than asking about uses of light, and the answer lists devices instead of actual uses of light.",
+      "state_reading": "light bulb | clause boundary | pushpin | then / leads to | mobile phone | clause boundary | camera | clause boundary | flashlight",
+      "answer_reading": "mobile phone | camera | flashlight",
+      "approved": false
+    },
+    {
+      "id": "c7be74a664947ab8",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state does not preserve the question about genes versus environment in shaping traits and behavior. The answer 'unknown' also does not address the distinction.",
+      "state_reading": "dna | clause boundary | globe showing Europe-Africa | then / leads to | eye | clause boundary | brain | clause boundary | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "797d1707e016473e",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state stays on ecosystems/nature, but the answer is only \"unknown\" and does not explain what an ecosystem is.",
+      "state_reading": "seedling | globe showing Europe-Africa | paw prints | people holding hands",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "d9e174d886050ffa",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state keeps the topic on dog food/pet food, but \"unknown\" does not provide the requested commercial pet food types.",
+      "state_reading": "dog face | fork and knife with plate | shopping bags",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "4e70be3d7ff9c2b4",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The question asks for beginner kitchen utensils, and the answer lists appropriate utensil items.",
+      "state_reading": "cooking | kitchen knife | fork and knife",
+      "answer_reading": "fork and knife | spoon | kitchen knife",
+      "approved": true
+    },
+    {
+      "id": "0ed7f8b488af32f1",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the topic of food before basketball, but \"unknown\" does not answer the question.",
+      "state_reading": "basketball | fork and knife with plate | fast-forward button",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "c3a4892275e19ae2",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The answer lists sports such as soccer, basketball, tennis, and swimming, which fits the request for popular sports.",
+      "state_reading": "trophy | sports medal | soccer ball | basketball | tennis | person swimming",
+      "answer_reading": "soccer ball | basketball | tennis | person swimming",
+      "approved": true
+    },
+    {
+      "id": "553f98911c872a1f",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state remains about choosing a pet, but \"unknown\" does not give any pet options or guidance.",
+      "state_reading": "dog face | cat face | fish | person",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "aa46675cf90125a9",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state keeps the veterinary check-up topic, but \"unknown\" does not describe what to expect.",
+      "state_reading": "dog face | health worker | clipboard",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "cfbd3d2563fa88e0",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The question is about coworker conflict, and the answer’s communication/reconciliation symbols can reasonably address that issue.",
+      "state_reading": "briefcase | busts in silhouette | unamused face",
+      "answer_reading": "handshake | left speech bubble | folded hands",
+      "approved": true
+    },
+    {
+      "id": "5a473f499fe99802",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state is about music streaming options, but \"unknown\" does not provide any options.",
+      "state_reading": "musical note | mobile phone | wireless",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "b9cdb889f9e980a2",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the time-comparison topic, but \"unknown\" does not explain the difference between a minute and an hour.",
+      "state_reading": "stopwatch | divide | alarm clock",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "93f1c98bfcca9e41",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question asks about popular hat styles, but the readings only show generic clothing-related objects and do not identify any style or preference.",
+      "state_reading": "woman’s hat | person | t-shirt",
+      "answer_reading": "woman’s hat | COOL button | t-shirt",
+      "approved": false
+    },
+    {
+      "id": "679498d9731e6128",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question asks for key factors that improve work performance, but the reading only lists objects and lacks a clear factor or explanation.",
+      "state_reading": "briefcase | then / leads to | flexed biceps | brain",
+      "answer_reading": "briefcase | then / leads to | flexed biceps | brain",
+      "approved": false
+    },
+    {
+      "id": "ed675ef69e9e8195",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question is about reducing commute costs and carpooling, but the reading does not clearly represent carpooling or explain how it helps save money.",
+      "state_reading": "automobile | busts in silhouette | then / leads to | money bag",
+      "answer_reading": "automobile | busts in silhouette | then / leads to | money bag",
+      "approved": false
+    },
+    {
+      "id": "17c535b422440f64",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question asks for the definition of velocity, but the reading only shows motion-related symbols and does not provide a definition.",
+      "state_reading": "person running | then / leads to | left-right arrow | high voltage",
+      "answer_reading": "person running | then / leads to | left-right arrow | high voltage",
+      "approved": false
+    },
+    {
+      "id": "bb437f4a45b7d3ce",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question asks for the main function of the human ear, but the answer does not clearly state hearing or explain the ear's function.",
+      "state_reading": "ear | then / leads to | ear | unknown",
+      "answer_reading": "ear | then / leads to | speaker high volume",
+      "approved": false
+    },
+    {
+      "id": "1851672b135fb7b6",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question asks how apps make money, but the reading only shows a phone, money, and a coin without a clear monetization method.",
+      "state_reading": "mobile phone | money bag | then / leads to | unknown",
+      "answer_reading": "mobile phone | money bag | then / leads to | coin",
+      "approved": false
+    },
+    {
+      "id": "8d671049ca38b9b6",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question asks how to stay safe while shopping online, but the reading only shows a locked symbol and does not give safety advice.",
+      "state_reading": "shopping cart | then / leads to | locked | unknown",
+      "answer_reading": "locked | unknown",
+      "approved": false
+    },
+    {
+      "id": "71e319b4132e177e",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question asks for the definition of a simile, but the reading does not provide any definition or example showing the comparison structure.",
+      "state_reading": "left speech bubble | then / leads to | unknown | then / leads to | magnifying glass tilted left",
+      "answer_reading": "left speech bubble | then / leads to | unknown",
+      "approved": false
+    },
+    {
+      "id": "636d77706faeabf1",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The question asks for items for a shopping list, and the reading provides appropriate grocery items like bread, milk, and salt.",
+      "state_reading": "shopping cart | then / leads to | salt | bread | glass of milk",
+      "answer_reading": "bread | glass of milk | salt",
+      "approved": true
+    },
+    {
+      "id": "397f5f47d82b6a83",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question asks for strategies to improve football defense, but the reading only contains generic sports/strength symbols and no clear defensive strategy.",
+      "state_reading": "soccer ball | shield | then / leads to | flexed biceps",
+      "answer_reading": "shield | then / leads to | flexed biceps",
+      "approved": false
+    },
+    {
+      "id": "176ab1e08ec2fa2b",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "Both readings stay on subway etiquette/basic rules. The answer includes relevant rule-like elements such as metro, doors, walking, and attention/announcement cues, so it still addresses the question.",
+      "state_reading": "metro | person | NEW button | cityscape | not the following concept | door | person walking | megaphone | eyes | ear",
+      "answer_reading": "metro | not the following concept | door | person walking | then / leads to | door | person walking | not the following concept | megaphone | neutral face | eyes | ear",
+      "approved": true
+    },
+    {
+      "id": "5f372e717a3409a8",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The question asks for types of food, and both readings list foods that fit that request.",
+      "state_reading": "face savoring food | fork and knife with plate | hamburger | pizza | green salad | sushi | steaming bowl | bread | taco | strawberry",
+      "answer_reading": "hamburger | pizza | green salad | sushi | steaming bowl | bread | taco | strawberry",
+      "approved": true
+    },
+    {
+      "id": "44bbeb72d1161f73",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The readings are about sleep routine tips and include bedtime-related items like bed, alarm clock, phone off, and hot beverage.",
+      "state_reading": "sleeping face | crescent moon | person in bed | alarm clock | mantelpiece clock | person taking bath | mobile phone off | hot beverage | crescent moon",
+      "answer_reading": "person in bed | crescent moon | alarm clock | mantelpiece clock | mobile phone off | hot beverage",
+      "approved": true
+    },
+    {
+      "id": "72a89fd5d27c7332",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The topic is endangered animals, but the answer does not cleanly give one endangered animal; it mixes multiple animals with unknown and a negation marker.",
+      "state_reading": "paw prints | unknown | panda | rhinoceros | not the following concept | eyes",
+      "answer_reading": "panda | not the following concept | rhinoceros | eyes | unknown",
+      "approved": false
+    },
+    {
+      "id": "7c86af4aafe7dba2",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The question asks for the difference between window shopping and comparison shopping, and the answer preserves those shopping-related distinctions with relevant symbols.",
+      "state_reading": "shopping bags | window | magnifying glass tilted left | bar chart | magnifying glass tilted right | balance scale",
+      "answer_reading": "window | magnifying glass tilted left | bar chart | magnifying glass tilted right | balance scale",
+      "approved": true
+    },
+    {
+      "id": "ee5fde4dc538f3da",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The readings concern traffic and the environment, and the answer still conveys vehicle/traffic plus environmental context.",
+      "state_reading": "automobile | fog | globe showing Europe-Africa | dashing away | not the following concept | herb",
+      "answer_reading": "automobile | dashing away | fog | globe showing Europe-Africa | not the following concept | herb",
+      "approved": true
+    },
+    {
+      "id": "f1ac03fe61ff3913",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question asks for a definition of density, but neither reading faithfully represents that concept; the answer especially does not provide a density definition.",
+      "state_reading": "pushpin | balance scale | then / leads to | package | clause boundary | balance scale | heavy equals sign",
+      "answer_reading": "package | balance scale | heavy equals sign | clause boundary | pushpin | package",
+      "approved": false
+    },
+    {
+      "id": "fbd7c3f01b0cea98",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The question asks for gluten-free main courses, and the answer gives several plausible gluten-free foods.",
+      "state_reading": "family | fork and knife with plate | not the following concept | sheaf of rice | bread | cut of meat | fish | broccoli | cooked rice",
+      "answer_reading": "cut of meat | fish | broccoli | cooked rice | beans | ear of corn",
+      "approved": true
+    },
+    {
+      "id": "fa8c6cf56cf88b78",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "Wearable payment devices should center on wearable items like watches or rings, but the readings also include non-wearable items such as a credit card and mobile phone, so the question is not faithfully preserved.",
+      "state_reading": "credit card | t-shirt | mobile phone | watch | ring",
+      "answer_reading": "mobile phone | watch | credit card | ring",
+      "approved": false
+    },
+    {
+      "id": "bb089ef3d2190f1f",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question asks for break activities, but the answer is only unknown and provides no activities.",
+      "state_reading": "office worker | tired face | plus | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "a68c3672d2ae1422",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state keeps the vacation/resort topic, but the answer is just unknown and does not provide any popular options.",
+      "state_reading": "hotel | beach with umbrella | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "f70169167822ae06",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state matches a social media analytics topic, but unknown does not define it or answer the question.",
+      "state_reading": "technologist | bar chart | speech balloon",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "ddb8f7d557a9b65c",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state points to car safety, but unknown gives no safety features.",
+      "state_reading": "automobile | shield | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "3fed1ce49fff52b7",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state is about vitamins/food/supplements, but unknown does not tell where to start or what vitamins to get.",
+      "state_reading": "person | green salad | pill | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "5e9e70de1da4c211",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the fitness-app topic, but unknown provides no recommendation.",
+      "state_reading": "mobile phone | person lifting weights | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "758ed57ca67fb7f6",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state is mathematically related to division, but unknown is not a definition of a fraction.",
+      "state_reading": "divide | input numbers",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "9f9a64b21af9131f",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state is a weather depiction, but unknown does not describe the weather shown.",
+      "state_reading": "sun behind small cloud | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "5b426a41cd91bb2b",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state matches bike maintenance, but unknown gives no maintenance information.",
+      "state_reading": "bicycle | wrench | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "5b78e695391d662b",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the shopping/discounts topic, but unknown does not answer whether there are sales.",
+      "state_reading": "shopping bags | shorts | Japanese “discount” button | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "16263da338abc589",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state is about discovering music, but musical note is not a recommendation or answer to the request.",
+      "state_reading": "thought balloon | musical note | NEW button | magnifying glass tilted left | ear | red heart | musical notes",
+      "answer_reading": "musical note",
+      "approved": false
+    },
+    {
+      "id": "0854fea7f4c1c6f2",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state stays on summer fashion and colors, and the answer lists specific colors that fit the question.",
+      "state_reading": "thought balloon | t-shirt | sun | rainbow | red square | blue square | green square",
+      "answer_reading": "red square | blue square | green square",
+      "approved": true
+    },
+    {
+      "id": "3fac58984df68e96",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state is sleep-related, but the answer only shows sleeping imagery and does not give any bedtime routine tips.",
+      "state_reading": "thought balloon | sleeping face | person in bed | crescent moon | three o’clock | then / leads to | herb",
+      "answer_reading": "crescent moon | person in bed | sleeping face",
+      "approved": false
+    },
+    {
+      "id": "d9f2db220de2736a",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state fits the groundwater topic, but the answer is just a droplet and does not define groundwater.",
+      "state_reading": "thought balloon | cloud with rain | seedling | hole | droplet",
+      "answer_reading": "droplet",
+      "approved": false
+    },
+    {
+      "id": "6a02df73f026279e",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state is about musical instruments, and the answer names a trumpet, which is a popular wind instrument.",
+      "state_reading": "thought balloon | musical note | trumpet | magnifying glass tilted left",
+      "answer_reading": "trumpet",
+      "approved": true
+    },
+    {
+      "id": "cf9657134853fb80",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The answer is unknown, which is acceptable here because the question asks for a personal favorite that cannot be faithfully supplied.",
+      "state_reading": "thought balloon | cooking | television | unknown",
+      "answer_reading": "unknown",
+      "approved": true
+    },
+    {
+      "id": "ec08d18e71378121",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state stays on Japan and cultural items, and the answer lists relevant things to know about Japanese culture.",
+      "state_reading": "thought balloon | flag: Japan | Japanese castle | cooked rice | folded hands | Japanese dolls",
+      "answer_reading": "flag: Japan | cooked rice | folded hands | Japanese dolls",
+      "approved": true
+    },
+    {
+      "id": "d35d6cedf8c50dba",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state is about shopping and a memo/list, and the answer corresponds to making a shopping list.",
+      "state_reading": "thought balloon | shopping cart | memo | clipboard | NEW button",
+      "answer_reading": "shopping cart | memo",
+      "approved": true
+    },
+    {
+      "id": "af44cdd2ec195903",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state is about suit shopping, but the answer only depicts a suit-like outfit and does not address where to start.",
+      "state_reading": "thought balloon | person in tuxedo | coat | magnifying glass tilted left",
+      "answer_reading": "person in tuxedo | coat",
+      "approved": false
+    },
+    {
+      "id": "f240d147c35aa435",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state is about cooking for family, and the answer gives plausible easy dinner ideas.",
+      "state_reading": "thought balloon | cooking | family | pot of food | memo",
+      "answer_reading": "pot of food | green salad | cooked rice",
+      "approved": true
+    },
+    {
+      "id": "8ce93260660bd763",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state is about working out and motivation, and the answer suggests exercise leading to strength, which fits the request.",
+      "state_reading": "person | person lifting weights | thinking face | thought balloon | unknown",
+      "answer_reading": "person lifting weights | then / leads to | heavy equals sign | flexed biceps",
+      "approved": true
+    },
+    {
+      "id": "b5d3113900f1c938",
+      "state_faithful": false,
+      "answer_faithful": true,
+      "reason": "The state only shows music in general, not an instrument or unusual instrument. \"Flute\" is a valid example of a musical instrument, so it answers the request.",
+      "state_reading": "person | musical note | thinking face | unknown",
+      "answer_reading": "flute",
+      "approved": false
+    },
+    {
+      "id": "cb268c69038bb3ec",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the topic of art supplies for painting. The answer adds a framed picture, which is not an art supply needed to get started.",
+      "state_reading": "person | artist palette | paintbrush | crayon | thinking face | unknown",
+      "answer_reading": "artist palette | paintbrush | crayon | framed picture",
+      "approved": false
+    },
+    {
+      "id": "fd95e7274a103a30",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state keeps the topic of a music festival, though not the superlative detail. The answer is just \"unknown,\" which does not answer the question about the biggest music festival.",
+      "state_reading": "musical note | circus tent | thinking face | globe showing Europe-Africa | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "b4769445e9c5403e",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state clearly matches a housewarming/new home celebration. The answer gives relevant celebration items and activities.",
+      "state_reading": "family | house | party popper | thinking face | unknown",
+      "answer_reading": "party popper | house | wrapped gift | fork and knife with plate",
+      "approved": true
+    },
+    {
+      "id": "8881a091f5a6120a",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state does not preserve the concept of a screw. The answer describes a nut/bolt and gear relation, not what a screw is.",
+      "state_reading": "wrench | gear | thinking face | unknown",
+      "answer_reading": "nut and bolt | then / leads to | gear",
+      "approved": false
+    },
+    {
+      "id": "ee8283cbffed8956",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state only shows baseball, not a baseball bat or bat types. The answer just repeats baseball, which does not answer the question.",
+      "state_reading": "baseball | thinking face | unknown",
+      "answer_reading": "baseball",
+      "approved": false
+    },
+    {
+      "id": "cd1737f6ac55a85f",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state preserves the ocean pollution topic. The answer conveys harm/danger, which fits the question asking whether it is a big problem.",
+      "state_reading": "water wave | microbe | pile of poo | thinking face | unknown",
+      "answer_reading": "water wave | microbe | skull",
+      "approved": true
+    },
+    {
+      "id": "3e638c4f3a6ad6fe",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state matches a fashion-trends question. The answer lists fashion items that fit the topic.",
+      "state_reading": "dress | coat | high-heeled shoe | thinking face | unknown",
+      "answer_reading": "dress | coat | high-heeled shoe | handbag",
+      "approved": true
+    },
+    {
+      "id": "7f437a9e37873a04",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state preserves the ancient civilization/geography topic. The answer points to the Africa/Europe globe, which answers the continent question.",
+      "state_reading": "classical building | globe showing Europe-Africa | thinking face | unknown",
+      "answer_reading": "globe showing Europe-Africa",
+      "approved": true
+    },
+    {
+      "id": "d4b38a491af1cbf3",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state preserves the topic of TV shows. \"Unknown\" is acceptable here because no specific recommendation is given and the needed information is missing.",
+      "state_reading": "person | television | magnifying glass tilted left | unknown",
+      "answer_reading": "unknown",
+      "approved": true
+    },
+    {
+      "id": "e543ca1d0cd49b09",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state keeps the topic as music/searching for a song, which matches the question, and 'unknown' is an acceptable answer because no specific song is represented.",
+      "state_reading": "person | musical notes | magnifying glass tilted left | unknown",
+      "answer_reading": "unknown",
+      "approved": true
+    },
+    {
+      "id": "6bfc41031e8a3143",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The question asks what makes a cake rise, but the state shows a shortcake and an up arrow rather than a faithful representation of leavening or rising causes. The answer lists unrelated items instead of explaining the cause.",
+      "state_reading": "person | shortcake | up arrow | unknown",
+      "answer_reading": "lungs | petri dish | cooking | egg",
+      "approved": false
+    },
+    {
+      "id": "c82ca3a1529bcca4",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state preserves the airplane/accident topic, and 'unknown' is acceptable because the exact crash chance is not represented.",
+      "state_reading": "person | airplane | collision | unknown",
+      "answer_reading": "unknown",
+      "approved": true
+    },
+    {
+      "id": "099c2df6dde305e8",
+      "state_faithful": false,
+      "answer_faithful": true,
+      "reason": "The question asks for amusement parks near the user, but the state only shows a ferris wheel and search icon, which is too generic and does not preserve the location-based request. The answer is unknown, which is acceptable because no actual parks are provided.",
+      "state_reading": "person | ferris wheel | magnifying glass tilted left | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "54d8a59d531255cc",
+      "state_faithful": false,
+      "answer_faithful": true,
+      "reason": "The question asks for the oldest sport in the world, but the state only shows a sports medal and search icon, which does not preserve the specific definition/comparison needed. 'Unknown' is acceptable since no sport is identified.",
+      "state_reading": "person | sports medal | magnifying glass tilted left | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "307aa92ff934a257",
+      "state_faithful": false,
+      "answer_faithful": true,
+      "reason": "The question is about types of vacuum cleaners, but the state shows a broom and search icon, which does not faithfully represent vacuums. The answer is unknown, which is acceptable because no vacuum types are given.",
+      "state_reading": "person | broom | magnifying glass tilted left | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    },
+    {
+      "id": "93f3d90c7c50f8a8",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state correctly points to polar bears and climate/fire context, preserving the question topic. However, 'melting face' is not a faithful answer to what is happening to polar bears; it does not clearly state the actual condition or situation asked about.",
+      "state_reading": "polar bear | globe showing Europe-Africa | fire | unknown",
+      "answer_reading": "melting face | unknown",
+      "approved": false
+    },
+    {
+      "id": "ebc52954f68611a8",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state preserves the agriculture/wind/crops topic, and 'unknown' is acceptable because the specific effects are not represented.",
+      "state_reading": "farmer | wind face | seedling | unknown",
+      "answer_reading": "unknown",
+      "approved": true
+    },
+    {
+      "id": "73e5b3e007311f52",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state keeps the focus on food and family/cultural recipes, matching the request for recipes with cultural significance to families. 'Unknown' is acceptable because no specific recipe is given.",
+      "state_reading": "person | pot of food | family | unknown",
+      "answer_reading": "unknown",
+      "approved": true
+    },
+    {
+      "id": "control-heredity",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state keeps the topic of heredity as DNA, but the answer is just related terms and does not define heredity.",
+      "state_reading": "dna",
+      "answer_reading": "dna | brain | family",
+      "approved": false
+    },
+    {
+      "id": "control-battery",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the phone battery topic, but a black circle does not answer how to make the battery last longer.",
+      "state_reading": "mobile phone | battery",
+      "answer_reading": "black circle",
+      "approved": false
+    },
+    {
+      "id": "control-paris",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "Tokyo tower is not a landmark in Paris, so neither the state nor the answer matches the question.",
+      "state_reading": "Tokyo tower",
+      "answer_reading": "Tokyo tower",
+      "approved": false
+    },
+    {
+      "id": "control-rain",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "Cloud with rain is about rain, but it does not preserve the question of how rain is measured, and ruler plus rain is not a faithful method for measuring rain.",
+      "state_reading": "cloud with rain",
+      "answer_reading": "cloud with rain | straight ruler",
+      "approved": false
+    },
+    {
+      "id": "control-snack",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state includes a red apple, which fits a fruit snack, and the answer correctly gives that snack.",
+      "state_reading": "red apple | unknown",
+      "answer_reading": "red apple",
+      "approved": true
+    },
+    {
+      "id": "control-pet",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state includes a cat, which is a common pet, and the answer matches the question.",
+      "state_reading": "cat | unknown",
+      "answer_reading": "cat",
+      "approved": true
+    },
+    {
+      "id": "control-weather",
+      "state_faithful": false,
+      "answer_faithful": true,
+      "reason": "Cloud with snow is related to snow weather but does not faithfully represent the specific forecast question; unknown is acceptable because the information needed to answer is missing.",
+      "state_reading": "cloud with snow | unknown",
+      "answer_reading": "unknown",
+      "approved": false
+    }
+  ]
+}

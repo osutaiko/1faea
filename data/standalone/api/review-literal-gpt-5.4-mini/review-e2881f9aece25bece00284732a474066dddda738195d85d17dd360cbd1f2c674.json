@@ -1,0 +1,137 @@
+{
+  "fingerprint": "e2881f9aece25bece00284732a474066dddda738195d85d17dd360cbd1f2c674",
+  "decoded": {
+    "rows": [
+      {
+        "id": "b5d3113900f1c938",
+        "state_reading": "person | musical note | thinking face | unknown",
+        "answer_reading": "flute"
+      },
+      {
+        "id": "cb268c69038bb3ec",
+        "state_reading": "person | artist palette | paintbrush | crayon | thinking face | unknown",
+        "answer_reading": "artist palette | paintbrush | crayon | framed picture"
+      },
+      {
+        "id": "fd95e7274a103a30",
+        "state_reading": "musical note | circus tent | thinking face | globe showing Europe-Africa | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "b4769445e9c5403e",
+        "state_reading": "family | house | party popper | thinking face | unknown",
+        "answer_reading": "party popper | house | wrapped gift | fork and knife with plate"
+      },
+      {
+        "id": "8881a091f5a6120a",
+        "state_reading": "wrench | gear | thinking face | unknown",
+        "answer_reading": "nut and bolt | then / leads to | gear"
+      },
+      {
+        "id": "ee8283cbffed8956",
+        "state_reading": "baseball | thinking face | unknown",
+        "answer_reading": "baseball"
+      },
+      {
+        "id": "cd1737f6ac55a85f",
+        "state_reading": "water wave | microbe | pile of poo | thinking face | unknown",
+        "answer_reading": "water wave | microbe | skull"
+      },
+      {
+        "id": "3e638c4f3a6ad6fe",
+        "state_reading": "dress | coat | high-heeled shoe | thinking face | unknown",
+        "answer_reading": "dress | coat | high-heeled shoe | handbag"
+      },
+      {
+        "id": "7f437a9e37873a04",
+        "state_reading": "classical building | globe showing Europe-Africa | thinking face | unknown",
+        "answer_reading": "globe showing Europe-Africa"
+      },
+      {
+        "id": "d4b38a491af1cbf3",
+        "state_reading": "person | television | magnifying glass tilted left | unknown",
+        "answer_reading": "unknown"
+      }
+    ]
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "b5d3113900f1c938",
+        "state_faithful": false,
+        "answer_faithful": true,
+        "reason": "The state only shows music in general, not an instrument or unusual instrument. \"Flute\" is a valid example of a musical instrument, so it answers the request."
+      },
+      {
+        "id": "cb268c69038bb3ec",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state preserves the topic of art supplies for painting. The answer adds a framed picture, which is not an art supply needed to get started."
+      },
+      {
+        "id": "fd95e7274a103a30",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state keeps the topic of a music festival, though not the superlative detail. The answer is just \"unknown,\" which does not answer the question about the biggest music festival."
+      },
+      {
+        "id": "b4769445e9c5403e",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state clearly matches a housewarming/new home celebration. The answer gives relevant celebration items and activities."
+      },
+      {
+        "id": "8881a091f5a6120a",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state does not preserve the concept of a screw. The answer describes a nut/bolt and gear relation, not what a screw is."
+      },
+      {
+        "id": "ee8283cbffed8956",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state only shows baseball, not a baseball bat or bat types. The answer just repeats baseball, which does not answer the question."
+      },
+      {
+        "id": "cd1737f6ac55a85f",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the ocean pollution topic. The answer conveys harm/danger, which fits the question asking whether it is a big problem."
+      },
+      {
+        "id": "3e638c4f3a6ad6fe",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state matches a fashion-trends question. The answer lists fashion items that fit the topic."
+      },
+      {
+        "id": "7f437a9e37873a04",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the ancient civilization/geography topic. The answer points to the Africa/Europe globe, which answers the continent question."
+      },
+      {
+        "id": "d4b38a491af1cbf3",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the topic of TV shows. \"Unknown\" is acceptable here because no specific recommendation is given and the needed information is missing."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_082912a8b732addb016abfa6a1353487d0a254e9b0f25197ca",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 936,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1609,
+      "output_tokens_details": {
+        "reasoning_tokens": 1001
+      },
+      "total_tokens": 2545
+    }
+  }
+}

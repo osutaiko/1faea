@@ -1,0 +1,685 @@
+{
+  "names": [
+    "flag: Cook Islands",
+    "flag: Chile",
+    "flag: Cameroon",
+    "flag: China",
+    "flag: Colombia",
+    "flag: Clipperton Island",
+    "flag: Sark",
+    "flag: Costa Rica",
+    "flag: Cuba",
+    "flag: Cape Verde",
+    "flag: Curaçao",
+    "flag: Christmas Island",
+    "flag: Cyprus",
+    "flag: Czechia",
+    "flag: Germany",
+    "flag: Diego Garcia",
+    "flag: Djibouti",
+    "flag: Denmark",
+    "flag: Dominica",
+    "flag: Dominican Republic",
+    "flag: Algeria",
+    "flag: Ceuta & Melilla",
+    "flag: Ecuador",
+    "flag: Estonia",
+    "flag: Egypt",
+    "flag: Western Sahara",
+    "flag: Eritrea",
+    "flag: Spain",
+    "flag: Ethiopia",
+    "flag: European Union",
+    "flag: Finland",
+    "flag: Fiji",
+    "flag: Falkland Islands",
+    "flag: Micronesia",
+    "flag: Faroe Islands",
+    "flag: France",
+    "flag: Gabon",
+    "flag: United Kingdom",
+    "flag: Grenada",
+    "flag: Georgia"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "flag: Cook Islands",
+        "associations": [
+          "Pacific nation",
+          "islands",
+          "travel",
+          "ocean",
+          "nationhood"
+        ]
+      },
+      {
+        "id": "flag: Chile",
+        "associations": [
+          "South America",
+          "Andes",
+          "nation",
+          "travel",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Cameroon",
+        "associations": [
+          "Central Africa",
+          "nation",
+          "culture",
+          "travel",
+          "country flag"
+        ]
+      },
+      {
+        "id": "flag: China",
+        "associations": [
+          "East Asia",
+          "nation",
+          "culture",
+          "travel",
+          "country flag"
+        ]
+      },
+      {
+        "id": "flag: Colombia",
+        "associations": [
+          "South America",
+          "nation",
+          "Andes",
+          "travel",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Clipperton Island",
+        "associations": [
+          "island",
+          "Pacific",
+          "territory",
+          "remote",
+          "marine"
+        ]
+      },
+      {
+        "id": "flag: Sark",
+        "associations": [
+          "island",
+          "channel",
+          "territory",
+          "small",
+          "local identity"
+        ]
+      },
+      {
+        "id": "flag: Costa Rica",
+        "associations": [
+          "Central America",
+          "nation",
+          "nature",
+          "travel",
+          "country flag"
+        ]
+      },
+      {
+        "id": "flag: Cuba",
+        "associations": [
+          "Caribbean",
+          "nation",
+          "island",
+          "travel",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Cape Verde",
+        "associations": [
+          "Atlantic islands",
+          "nation",
+          "ocean",
+          "travel",
+          "country flag"
+        ]
+      },
+      {
+        "id": "flag: Curaçao",
+        "associations": [
+          "Caribbean island",
+          "territory",
+          "travel",
+          "sea",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Christmas Island",
+        "associations": [
+          "island",
+          "Indian Ocean",
+          "territory",
+          "nature",
+          "remote"
+        ]
+      },
+      {
+        "id": "flag: Cyprus",
+        "associations": [
+          "Mediterranean",
+          "nation",
+          "island",
+          "travel",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Czechia",
+        "associations": [
+          "Europe",
+          "nation",
+          "travel",
+          "country flag",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Germany",
+        "associations": [
+          "Europe",
+          "nation",
+          "travel",
+          "country flag",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Diego Garcia",
+        "associations": [
+          "island",
+          "Indian Ocean",
+          "territory",
+          "remote",
+          "military"
+        ]
+      },
+      {
+        "id": "flag: Djibouti",
+        "associations": [
+          "Horn of Africa",
+          "nation",
+          "coast",
+          "travel",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Denmark",
+        "associations": [
+          "Nordic",
+          "nation",
+          "travel",
+          "country flag",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Dominica",
+        "associations": [
+          "Caribbean",
+          "island",
+          "nation",
+          "nature",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Dominican Republic",
+        "associations": [
+          "Caribbean",
+          "nation",
+          "island",
+          "travel",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Algeria",
+        "associations": [
+          "North Africa",
+          "nation",
+          "desert",
+          "travel",
+          "country flag"
+        ]
+      },
+      {
+        "id": "flag: Ceuta & Melilla",
+        "associations": [
+          "enclave",
+          "Spain",
+          "territory",
+          "coast",
+          "border"
+        ]
+      },
+      {
+        "id": "flag: Ecuador",
+        "associations": [
+          "South America",
+          "equator",
+          "nation",
+          "travel",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Estonia",
+        "associations": [
+          "Baltic",
+          "nation",
+          "digital",
+          "travel",
+          "country flag"
+        ]
+      },
+      {
+        "id": "flag: Egypt",
+        "associations": [
+          "North Africa",
+          "nation",
+          "ancient",
+          "desert",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Western Sahara",
+        "associations": [
+          "desert",
+          "territory",
+          "North Africa",
+          "coast",
+          "region"
+        ]
+      },
+      {
+        "id": "flag: Eritrea",
+        "associations": [
+          "Horn of Africa",
+          "nation",
+          "coast",
+          "travel",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Spain",
+        "associations": [
+          "Europe",
+          "nation",
+          "travel",
+          "culture",
+          "country flag"
+        ]
+      },
+      {
+        "id": "flag: Ethiopia",
+        "associations": [
+          "Horn of Africa",
+          "nation",
+          "highlands",
+          "travel",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: European Union",
+        "associations": [
+          "Europe",
+          "union",
+          "stars",
+          "politics",
+          "integration"
+        ]
+      },
+      {
+        "id": "flag: Finland",
+        "associations": [
+          "Nordic",
+          "nation",
+          "winter",
+          "travel",
+          "country flag"
+        ]
+      },
+      {
+        "id": "flag: Fiji",
+        "associations": [
+          "Pacific islands",
+          "nation",
+          "ocean",
+          "travel",
+          "tourism"
+        ]
+      },
+      {
+        "id": "flag: Falkland Islands",
+        "associations": [
+          "islands",
+          "Atlantic",
+          "territory",
+          "remote",
+          "ocean"
+        ]
+      },
+      {
+        "id": "flag: Micronesia",
+        "associations": [
+          "Pacific",
+          "islands",
+          "nation",
+          "ocean",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Faroe Islands",
+        "associations": [
+          "North Atlantic",
+          "islands",
+          "territory",
+          "windy",
+          "remote"
+        ]
+      },
+      {
+        "id": "flag: France",
+        "associations": [
+          "Europe",
+          "nation",
+          "culture",
+          "travel",
+          "country flag"
+        ]
+      },
+      {
+        "id": "flag: Gabon",
+        "associations": [
+          "Central Africa",
+          "nation",
+          "rainforest",
+          "travel",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: United Kingdom",
+        "associations": [
+          "Britain",
+          "nation",
+          "union",
+          "travel",
+          "country flag"
+        ]
+      },
+      {
+        "id": "flag: Grenada",
+        "associations": [
+          "Caribbean",
+          "island",
+          "nation",
+          "spice",
+          "travel"
+        ]
+      },
+      {
+        "id": "flag: Georgia",
+        "associations": [
+          "nation",
+          "Caucasus",
+          "travel",
+          "identity",
+          "country flag"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_03a108fcd757fefb016abfafdfc9f887d0aeb6bc791c387fa8",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1524,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 737,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2261
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "flag: Cook Islands",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Chile",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Cameroon",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: China",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Colombia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Clipperton Island",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Sark",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Costa Rica",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Cuba",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Cape Verde",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Curaçao",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Christmas Island",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Cyprus",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Czechia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Germany",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Diego Garcia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Djibouti",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Denmark",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Dominica",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Dominican Republic",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Algeria",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Ceuta & Melilla",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Ecuador",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Estonia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Egypt",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Western Sahara",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Eritrea",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Spain",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Ethiopia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: European Union",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Finland",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Fiji",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Falkland Islands",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Micronesia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Faroe Islands",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: France",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Gabon",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: United Kingdom",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Grenada",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      },
+      {
+        "id": "flag: Georgia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag entity."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0027dabc40ac75a4016abfafe482a887d0888ff50a134d53d1",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3238,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 879,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4117
+    }
+  }
+}

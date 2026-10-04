@@ -27,17 +27,14 @@ TEMPLATES = (
 )
 
 
-def generate():
+def generate(specs, output):
     torch.set_num_threads(2)
     torch.manual_seed(313)
     sources = json.loads((DIRECTORY / 'teacher.json').read_text(encoding='utf-8'))
     options = dict(revision=sources['revision'], cache_dir=ROOT / '.hf-cache', local_files_only=True)
     tokenizer = AutoTokenizer.from_pretrained(sources['model'], **options)
     model = AutoModelForCausalLM.from_pretrained(sources['model'], dtype=torch.bfloat16, **options).eval()
-    output = DIRECTORY / 'generated-user-prompts.jsonl'
     with output.open('w', encoding='utf-8') as journal:
-        specs = [(skill, state, reply, training) for skill, state, reply, training, *_ in SKILLS]
-        specs.extend((skill, state, (), training) for skill, state, training in TEMPLATES)
         for skill, state, reply, training in specs:
             prompt = ('Write six different short messages a USER could send with the same intent as these examples: '
                       + ' / '.join(training[:3])
@@ -68,4 +65,6 @@ def generate():
 
 
 if __name__ == '__main__':
-    generate()
+    specs = [(skill, state, reply, training) for skill, state, reply, training, *_ in SKILLS]
+    specs.extend((skill, state, (), training) for skill, state, training in TEMPLATES)
+    generate(specs, DIRECTORY / 'generated-user-prompts.jsonl')

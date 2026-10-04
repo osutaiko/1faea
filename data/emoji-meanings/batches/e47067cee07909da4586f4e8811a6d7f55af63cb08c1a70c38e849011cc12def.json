@@ -1,0 +1,701 @@
+{
+  "names": [
+    "sari",
+    "one-piece swimsuit",
+    "briefs",
+    "shorts",
+    "bikini",
+    "woman’s clothes",
+    "folding hand fan",
+    "purse",
+    "handbag",
+    "clutch bag",
+    "shopping bags",
+    "backpack",
+    "thong sandal",
+    "man’s shoe",
+    "running shoe",
+    "hiking boot",
+    "flat shoe",
+    "high-heeled shoe",
+    "woman’s sandal",
+    "ballet shoes",
+    "woman’s boot",
+    "hair pick",
+    "crown",
+    "woman’s hat",
+    "top hat",
+    "graduation cap",
+    "billed cap",
+    "military helmet",
+    "rescue worker’s helmet",
+    "prayer beads",
+    "lipstick",
+    "ring",
+    "gem stone",
+    "muted speaker",
+    "speaker low volume",
+    "speaker medium volume",
+    "speaker high volume",
+    "loudspeaker",
+    "megaphone",
+    "postal horn"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "sari",
+        "associations": [
+          "drape",
+          "traditional dress",
+          "fabric wrap",
+          "South Asian clothing",
+          "elegant attire"
+        ]
+      },
+      {
+        "id": "one-piece swimsuit",
+        "associations": [
+          "swimwear",
+          "poolside",
+          "beachwear",
+          "full-body suit",
+          "swimming"
+        ]
+      },
+      {
+        "id": "briefs",
+        "associations": [
+          "underwear",
+          "support",
+          "undergarment",
+          "minimal coverage",
+          "daily wear"
+        ]
+      },
+      {
+        "id": "shorts",
+        "associations": [
+          "casual wear",
+          "warm weather",
+          "legs",
+          "sportswear",
+          "pants"
+        ]
+      },
+      {
+        "id": "bikini",
+        "associations": [
+          "two-piece swimwear",
+          "beachwear",
+          "sunbathing",
+          "swimming",
+          "summer"
+        ]
+      },
+      {
+        "id": "woman’s clothes",
+        "associations": [
+          "women’s fashion",
+          "apparel",
+          "wardrobe",
+          "dresses",
+          "skirts"
+        ]
+      },
+      {
+        "id": "folding hand fan",
+        "associations": [
+          "cooling",
+          "breeze",
+          "portable fan",
+          "hand accessory",
+          "graceful motion"
+        ]
+      },
+      {
+        "id": "purse",
+        "associations": [
+          "money holder",
+          "small bag",
+          "accessory",
+          "essentials",
+          "handheld"
+        ]
+      },
+      {
+        "id": "handbag",
+        "associations": [
+          "carried bag",
+          "fashion accessory",
+          "personal items",
+          "daily use",
+          "women’s accessory"
+        ]
+      },
+      {
+        "id": "clutch bag",
+        "associations": [
+          "evening bag",
+          "small handbag",
+          "formal accessory",
+          "held in hand",
+          "minimalist"
+        ]
+      },
+      {
+        "id": "shopping bags",
+        "associations": [
+          "retail",
+          "purchases",
+          "carrying",
+          "errands",
+          "bags"
+        ]
+      },
+      {
+        "id": "backpack",
+        "associations": [
+          "school bag",
+          "travel",
+          "carry gear",
+          "shoulder straps",
+          "pack"
+        ]
+      },
+      {
+        "id": "thong sandal",
+        "associations": [
+          "flip-flop",
+          "summer footwear",
+          "casual",
+          "beach",
+          "strap"
+        ]
+      },
+      {
+        "id": "man’s shoe",
+        "associations": [
+          "men’s footwear",
+          "formal wear",
+          "everyday shoe",
+          "lace-up",
+          "footwear"
+        ]
+      },
+      {
+        "id": "running shoe",
+        "associations": [
+          "athletic shoe",
+          "jogging",
+          "sport",
+          "comfort",
+          "training"
+        ]
+      },
+      {
+        "id": "hiking boot",
+        "associations": [
+          "trail gear",
+          "outdoors",
+          "sturdy footwear",
+          "walking",
+          "rugged"
+        ]
+      },
+      {
+        "id": "flat shoe",
+        "associations": [
+          "low heel",
+          "comfortable",
+          "casual footwear",
+          "simple style",
+          "walking"
+        ]
+      },
+      {
+        "id": "high-heeled shoe",
+        "associations": [
+          "heel",
+          "fashion",
+          "dressy",
+          "elegance",
+          "formal"
+        ]
+      },
+      {
+        "id": "woman’s sandal",
+        "associations": [
+          "summer shoe",
+          "open-toe",
+          "casual wear",
+          "warm weather",
+          "footwear"
+        ]
+      },
+      {
+        "id": "ballet shoes",
+        "associations": [
+          "dancewear",
+          "toe shoe",
+          "grace",
+          "practice",
+          "light footwear"
+        ]
+      },
+      {
+        "id": "woman’s boot",
+        "associations": [
+          "boot",
+          "cold weather",
+          "fashion footwear",
+          "ankle support",
+          "outerwear"
+        ]
+      },
+      {
+        "id": "hair pick",
+        "associations": [
+          "comb",
+          "hair styling",
+          "detangling",
+          "afro pick",
+          "grooming"
+        ]
+      },
+      {
+        "id": "crown",
+        "associations": [
+          "royalty",
+          "king",
+          "queen",
+          "power",
+          "headwear"
+        ]
+      },
+      {
+        "id": "woman’s hat",
+        "associations": [
+          "headwear",
+          "sun protection",
+          "fashion accessory",
+          "outfit",
+          "style"
+        ]
+      },
+      {
+        "id": "top hat",
+        "associations": [
+          "formal hat",
+          "classic style",
+          "ceremony",
+          "evening wear",
+          "tall hat"
+        ]
+      },
+      {
+        "id": "graduation cap",
+        "associations": [
+          "diploma",
+          "commencement",
+          "achievement",
+          "academic dress",
+          "celebration"
+        ]
+      },
+      {
+        "id": "billed cap",
+        "associations": [
+          "baseball cap",
+          "visor",
+          "casual wear",
+          "sun shade",
+          "sport"
+        ]
+      },
+      {
+        "id": "military helmet",
+        "associations": [
+          "armor",
+          "soldier",
+          "protection",
+          "combat",
+          "headgear"
+        ]
+      },
+      {
+        "id": "rescue worker’s helmet",
+        "associations": [
+          "safety gear",
+          "emergency response",
+          "protection",
+          "rescue",
+          "helmet"
+        ]
+      },
+      {
+        "id": "prayer beads",
+        "associations": [
+          "devotion",
+          "meditation",
+          "rosary",
+          "spiritual practice",
+          "counting prayers"
+        ]
+      },
+      {
+        "id": "lipstick",
+        "associations": [
+          "makeup",
+          "cosmetic",
+          "color",
+          "beauty",
+          "lips"
+        ]
+      },
+      {
+        "id": "ring",
+        "associations": [
+          "jewelry",
+          "band",
+          "finger",
+          "gift",
+          "engagement"
+        ]
+      },
+      {
+        "id": "gem stone",
+        "associations": [
+          "jewel",
+          "precious",
+          "sparkle",
+          "mineral",
+          "ornament"
+        ]
+      },
+      {
+        "id": "muted speaker",
+        "associations": [
+          "silent",
+          "audio off",
+          "sound control",
+          "mute",
+          "quiet"
+        ]
+      },
+      {
+        "id": "speaker low volume",
+        "associations": [
+          "quiet sound",
+          "audio",
+          "volume control",
+          "soft",
+          "low"
+        ]
+      },
+      {
+        "id": "speaker medium volume",
+        "associations": [
+          "moderate sound",
+          "audio",
+          "volume control",
+          "balanced",
+          "listening"
+        ]
+      },
+      {
+        "id": "speaker high volume",
+        "associations": [
+          "loud sound",
+          "audio",
+          "volume control",
+          "strong",
+          "amplified"
+        ]
+      },
+      {
+        "id": "loudspeaker",
+        "associations": [
+          "announcement",
+          "broadcast",
+          "public address",
+          "amplifier",
+          "voice"
+        ]
+      },
+      {
+        "id": "megaphone",
+        "associations": [
+          "shout",
+          "public address",
+          "amplify voice",
+          "announce",
+          "cone"
+        ]
+      },
+      {
+        "id": "postal horn",
+        "associations": [
+          "mail delivery",
+          "signal",
+          "horn",
+          "announcement",
+          "post"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_09375642712dd0d3016abfaf9917bc87d0a724adb92e68304a",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1412,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 794,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2206
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "sari",
+        "rejected": [],
+        "reason": "All associations are directly related to the garment or its appearance/context."
+      },
+      {
+        "id": "one-piece swimsuit",
+        "rejected": [
+          "full-body suit"
+        ],
+        "reason": "This is misleadingly generic; the emoji means a one-piece swimsuit, not any full-body suit."
+      },
+      {
+        "id": "briefs",
+        "rejected": [
+          "support"
+        ],
+        "reason": "Too vague and not a core meaning association for briefs."
+      },
+      {
+        "id": "shorts",
+        "rejected": [
+          "pants"
+        ],
+        "reason": "Pants are a different clothing category and can mislead the core meaning."
+      },
+      {
+        "id": "bikini",
+        "rejected": [],
+        "reason": "All associations are directly related to the swimsuit."
+      },
+      {
+        "id": "woman’s clothes",
+        "rejected": [],
+        "reason": "All associations are ordinary related clothing terms."
+      },
+      {
+        "id": "folding hand fan",
+        "rejected": [],
+        "reason": "All associations fit the object’s use or appearance."
+      },
+      {
+        "id": "purse",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "handbag",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "clutch bag",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "shopping bags",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "backpack",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "thong sandal",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "man’s shoe",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "running shoe",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "hiking boot",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "flat shoe",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "high-heeled shoe",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "woman’s sandal",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "ballet shoes",
+        "rejected": [
+          "toe shoe"
+        ],
+        "reason": "This is a specific ballet subtype and can be misleading as a substitution rather than a broad association."
+      },
+      {
+        "id": "woman’s boot",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "hair pick",
+        "rejected": [
+          "comb"
+        ],
+        "reason": "A comb is a different grooming tool and is a misleading substitution."
+      },
+      {
+        "id": "crown",
+        "rejected": [
+          "power"
+        ],
+        "reason": "This is an abstract concept not inherent to the emoji’s literal core meaning."
+      },
+      {
+        "id": "woman’s hat",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "top hat",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "graduation cap",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "billed cap",
+        "rejected": [
+          "visor"
+        ],
+        "reason": "A visor is a different item and is a misleading substitution for a billed cap."
+      },
+      {
+        "id": "military helmet",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "rescue worker’s helmet",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "prayer beads",
+        "rejected": [
+          "rosary"
+        ],
+        "reason": "Rosary is a specific religious object and a misleading named substitution."
+      },
+      {
+        "id": "lipstick",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "ring",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "gem stone",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "muted speaker",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "speaker low volume",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "speaker medium volume",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "speaker high volume",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "loudspeaker",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "megaphone",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      },
+      {
+        "id": "postal horn",
+        "rejected": [],
+        "reason": "All associations are acceptable related terms."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_02558a20468ece34016abfaf9fe4f087d0a89d07f6212228c5",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3375,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 815,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4190
+    }
+  }
+}

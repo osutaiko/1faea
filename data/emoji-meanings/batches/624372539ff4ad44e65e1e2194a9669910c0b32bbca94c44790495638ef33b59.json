@@ -1,0 +1,924 @@
+{
+  "names": [
+    "admission tickets",
+    "ticket",
+    "military medal",
+    "trophy",
+    "sports medal",
+    "1st place medal",
+    "2nd place medal",
+    "3rd place medal",
+    "soccer ball",
+    "baseball",
+    "softball",
+    "basketball",
+    "volleyball",
+    "american football",
+    "rugby football",
+    "tennis",
+    "flying disc",
+    "bowling",
+    "cricket game",
+    "field hockey",
+    "ice hockey",
+    "lacrosse",
+    "ping pong",
+    "badminton",
+    "boxing glove",
+    "martial arts uniform",
+    "goal net",
+    "flag in hole",
+    "ice skate",
+    "fishing pole",
+    "diving mask",
+    "running shirt",
+    "skis",
+    "sled",
+    "curling stone",
+    "bullseye",
+    "yo-yo",
+    "kite",
+    "water pistol",
+    "pool 8 ball"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "admission tickets",
+        "associations": [
+          "entry pass",
+          "event access",
+          "stub",
+          "gate admission",
+          "concert ticket"
+        ]
+      },
+      {
+        "id": "ticket",
+        "associations": [
+          "pass",
+          "fare slip",
+          "admission stub",
+          "voucher",
+          "receipt"
+        ]
+      },
+      {
+        "id": "military medal",
+        "associations": [
+          "service award",
+          "decorations",
+          "honor",
+          "valor",
+          "badge"
+        ]
+      },
+      {
+        "id": "trophy",
+        "associations": [
+          "award cup",
+          "victory prize",
+          "championship",
+          "achievement",
+          "winner"
+        ]
+      },
+      {
+        "id": "sports medal",
+        "associations": [
+          "award medal",
+          "competition prize",
+          "podium",
+          "honor",
+          "finish"
+        ]
+      },
+      {
+        "id": "1st place medal",
+        "associations": [
+          "gold medal",
+          "winner",
+          "champion",
+          "podium top",
+          "victory"
+        ]
+      },
+      {
+        "id": "2nd place medal",
+        "associations": [
+          "silver medal",
+          "runner-up",
+          "podium",
+          "award",
+          "finish"
+        ]
+      },
+      {
+        "id": "3rd place medal",
+        "associations": [
+          "bronze medal",
+          "third place",
+          "podium",
+          "award",
+          "finish"
+        ]
+      },
+      {
+        "id": "soccer ball",
+        "associations": [
+          "football",
+          "kick",
+          "goal",
+          "match",
+          "round ball"
+        ]
+      },
+      {
+        "id": "baseball",
+        "associations": [
+          "bat-and-ball",
+          "pitch",
+          "diamond",
+          "inning",
+          "ball game"
+        ]
+      },
+      {
+        "id": "softball",
+        "associations": [
+          "slowpitch",
+          "diamond",
+          "bat-and-ball",
+          "game ball",
+          "pitch"
+        ]
+      },
+      {
+        "id": "basketball",
+        "associations": [
+          "hoop",
+          "dribble",
+          "court",
+          "slam dunk",
+          "round ball"
+        ]
+      },
+      {
+        "id": "volleyball",
+        "associations": [
+          "net",
+          "serve",
+          "spike",
+          "bump",
+          "court"
+        ]
+      },
+      {
+        "id": "american football",
+        "associations": [
+          "pigskin",
+          "touchdown",
+          "tackle",
+          "gridiron",
+          "helmet"
+        ]
+      },
+      {
+        "id": "rugby football",
+        "associations": [
+          "oval ball",
+          "scrum",
+          "tackle",
+          "try",
+          "pitch"
+        ]
+      },
+      {
+        "id": "tennis",
+        "associations": [
+          "racket",
+          "serve",
+          "court",
+          "match",
+          "backhand"
+        ]
+      },
+      {
+        "id": "flying disc",
+        "associations": [
+          "frisbee",
+          "throw",
+          "catch",
+          "disc",
+          "park game"
+        ]
+      },
+      {
+        "id": "bowling",
+        "associations": [
+          "pins",
+          "strike",
+          "lane",
+          "roll",
+          "split"
+        ]
+      },
+      {
+        "id": "cricket game",
+        "associations": [
+          "bat",
+          "wicket",
+          "pitch",
+          "innings",
+          "bowler"
+        ]
+      },
+      {
+        "id": "field hockey",
+        "associations": [
+          "stick",
+          "goal",
+          "turf",
+          "match",
+          "puck"
+        ]
+      },
+      {
+        "id": "ice hockey",
+        "associations": [
+          "rink",
+          "puck",
+          "stick",
+          "check",
+          "goal"
+        ]
+      },
+      {
+        "id": "lacrosse",
+        "associations": [
+          "stick",
+          "netted head",
+          "goal",
+          "pass",
+          "field game"
+        ]
+      },
+      {
+        "id": "ping pong",
+        "associations": [
+          "table tennis",
+          "paddle",
+          "spin",
+          "net",
+          "rally"
+        ]
+      },
+      {
+        "id": "badminton",
+        "associations": [
+          "shuttlecock",
+          "racket",
+          "net",
+          "smash",
+          "court"
+        ]
+      },
+      {
+        "id": "boxing glove",
+        "associations": [
+          "punch",
+          "sparring",
+          "ring",
+          "fight",
+          "protective gear"
+        ]
+      },
+      {
+        "id": "martial arts uniform",
+        "associations": [
+          "gi",
+          "belt",
+          "dojo",
+          "training",
+          "uniform"
+        ]
+      },
+      {
+        "id": "goal net",
+        "associations": [
+          "net",
+          "goal",
+          "score",
+          "trap",
+          "sports"
+        ]
+      },
+      {
+        "id": "flag in hole",
+        "associations": [
+          "golf",
+          "putt",
+          "cup",
+          "green",
+          "hole"
+        ]
+      },
+      {
+        "id": "ice skate",
+        "associations": [
+          "blade",
+          "rink",
+          "glide",
+          "winter",
+          "skating"
+        ]
+      },
+      {
+        "id": "fishing pole",
+        "associations": [
+          "rod",
+          "line",
+          "hook",
+          "bait",
+          "catch"
+        ]
+      },
+      {
+        "id": "diving mask",
+        "associations": [
+          "snorkel",
+          "underwater",
+          "goggles",
+          "swim",
+          "reveal"
+        ]
+      },
+      {
+        "id": "running shirt",
+        "associations": [
+          "jogging",
+          "athletic wear",
+          "race",
+          "sweat",
+          "fitness"
+        ]
+      },
+      {
+        "id": "skis",
+        "associations": [
+          "snow",
+          "slide",
+          "slope",
+          "winter sports",
+          "bindings"
+        ]
+      },
+      {
+        "id": "sled",
+        "associations": [
+          "snow",
+          "slide",
+          "hill",
+          "ride",
+          "winter"
+        ]
+      },
+      {
+        "id": "curling stone",
+        "associations": [
+          "ice",
+          "slide",
+          "curling",
+          "broom",
+          "target"
+        ]
+      },
+      {
+        "id": "bullseye",
+        "associations": [
+          "target",
+          "center",
+          "aim",
+          "hit",
+          "accuracy"
+        ]
+      },
+      {
+        "id": "yo-yo",
+        "associations": [
+          "string",
+          "toy",
+          "spin",
+          "trick",
+          "play"
+        ]
+      },
+      {
+        "id": "kite",
+        "associations": [
+          "string",
+          "fly",
+          "wind",
+          "sky",
+          "play"
+        ]
+      },
+      {
+        "id": "water pistol",
+        "associations": [
+          "squirt",
+          "spray",
+          "water fight",
+          "toy",
+          "summer"
+        ]
+      },
+      {
+        "id": "pool 8 ball",
+        "associations": [
+          "pool",
+          "billiards",
+          "black ball",
+          "pocket",
+          "cue"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_01de1e8bba205a51016abfaf895b2487d0860bbd814e4f8457",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1367,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 693,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2060
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "admission tickets",
+        "rejected": [
+          "entry pass",
+          "event access",
+          "gate admission",
+          "concert ticket"
+        ],
+        "reason": "These are close but broader or substitutive phrases; only \"stub\" is a direct ticket-related association."
+      },
+      {
+        "id": "ticket",
+        "rejected": [
+          "pass",
+          "fare slip",
+          "admission stub",
+          "voucher",
+          "receipt"
+        ],
+        "reason": "Several are misleading substitutions or different document types; only direct ticket-related meaning is retained."
+      },
+      {
+        "id": "military medal",
+        "rejected": [
+          "service award",
+          "decorations",
+          "honor",
+          "valor",
+          "badge"
+        ],
+        "reason": "These are generic or related honors, but \"badge\" is not a medal and the others are broader abstractions."
+      },
+      {
+        "id": "trophy",
+        "rejected": [
+          "award cup",
+          "victory prize",
+          "championship",
+          "achievement",
+          "winner"
+        ],
+        "reason": "Only \"award cup\" is a direct trophy synonym; the others are broader outcomes or titles."
+      },
+      {
+        "id": "sports medal",
+        "rejected": [
+          "award medal",
+          "competition prize",
+          "podium",
+          "honor",
+          "finish"
+        ],
+        "reason": "These are related but not the object itself; they describe context, placement, or abstract reward."
+      },
+      {
+        "id": "1st place medal",
+        "rejected": [
+          "gold medal",
+          "winner",
+          "champion",
+          "podium top",
+          "victory"
+        ],
+        "reason": "\"Gold medal\" is a close label but is a named equivalent rather than the core object; the others are results or titles."
+      },
+      {
+        "id": "2nd place medal",
+        "rejected": [
+          "silver medal",
+          "runner-up",
+          "podium",
+          "award",
+          "finish"
+        ],
+        "reason": "\"Silver medal\" is the closest specific label; the remaining items are contextual or outcome terms."
+      },
+      {
+        "id": "3rd place medal",
+        "rejected": [
+          "bronze medal",
+          "third place",
+          "podium",
+          "award",
+          "finish"
+        ],
+        "reason": "\"Bronze medal\" is the closest specific label; the remaining items are contextual or outcome terms."
+      },
+      {
+        "id": "soccer ball",
+        "rejected": [
+          "football",
+          "kick",
+          "goal",
+          "match",
+          "round ball"
+        ],
+        "reason": "\"Football\" is a regional synonym, but the others are actions or game context rather than the object."
+      },
+      {
+        "id": "baseball",
+        "rejected": [
+          "bat-and-ball",
+          "pitch",
+          "diamond",
+          "inning",
+          "ball game"
+        ],
+        "reason": "These describe the sport rather than the ball itself."
+      },
+      {
+        "id": "softball",
+        "rejected": [
+          "slowpitch",
+          "diamond",
+          "bat-and-ball",
+          "game ball",
+          "pitch"
+        ],
+        "reason": "These are sport descriptors or play styles, not the specific ball."
+      },
+      {
+        "id": "basketball",
+        "rejected": [
+          "hoop",
+          "dribble",
+          "court",
+          "slam dunk",
+          "round ball"
+        ],
+        "reason": "These are related game elements or actions, not the ball itself."
+      },
+      {
+        "id": "volleyball",
+        "rejected": [
+          "net",
+          "serve",
+          "spike",
+          "bump",
+          "court"
+        ],
+        "reason": "These are gameplay terms and equipment, not the ball."
+      },
+      {
+        "id": "american football",
+        "rejected": [
+          "pigskin",
+          "touchdown",
+          "tackle",
+          "gridiron",
+          "helmet"
+        ],
+        "reason": "\"Pigskin\" is a colloquial name, but the others are game concepts or equipment."
+      },
+      {
+        "id": "rugby football",
+        "rejected": [
+          "oval ball",
+          "scrum",
+          "tackle",
+          "try",
+          "pitch"
+        ],
+        "reason": "\"Oval ball\" is a near-synonym; the others are sport mechanics or field terms."
+      },
+      {
+        "id": "tennis",
+        "rejected": [
+          "racket",
+          "serve",
+          "court",
+          "match",
+          "backhand"
+        ],
+        "reason": "These are equipment or play terms, not the sport's core object or literal meaning."
+      },
+      {
+        "id": "flying disc",
+        "rejected": [
+          "frisbee",
+          "throw",
+          "catch",
+          "disc",
+          "park game"
+        ],
+        "reason": "\"Frisbee\" is a brand-like common name; the others are actions or context."
+      },
+      {
+        "id": "bowling",
+        "rejected": [
+          "pins",
+          "strike",
+          "lane",
+          "roll",
+          "split"
+        ],
+        "reason": "These are bowling terms and outcomes, not the activity itself."
+      },
+      {
+        "id": "cricket game",
+        "rejected": [
+          "bat",
+          "wicket",
+          "pitch",
+          "innings",
+          "bowler"
+        ],
+        "reason": "These are cricket elements, but they do not directly name the game."
+      },
+      {
+        "id": "field hockey",
+        "rejected": [
+          "stick",
+          "goal",
+          "turf",
+          "match",
+          "puck"
+        ],
+        "reason": "These are equipment or game terms; \"puck\" is misleading because it belongs to hockey variants, not field hockey."
+      },
+      {
+        "id": "ice hockey",
+        "rejected": [
+          "rink",
+          "puck",
+          "stick",
+          "check",
+          "goal"
+        ],
+        "reason": "These are equipment or gameplay terms rather than the sport name."
+      },
+      {
+        "id": "lacrosse",
+        "rejected": [
+          "stick",
+          "netted head",
+          "goal",
+          "pass",
+          "field game"
+        ],
+        "reason": "These are equipment or gameplay descriptors, not the sport itself."
+      },
+      {
+        "id": "ping pong",
+        "rejected": [
+          "table tennis",
+          "paddle",
+          "spin",
+          "net",
+          "rally"
+        ],
+        "reason": "\"Table tennis\" is a direct alternate name, but the rest are equipment or play terms."
+      },
+      {
+        "id": "badminton",
+        "rejected": [
+          "shuttlecock",
+          "racket",
+          "net",
+          "smash",
+          "court"
+        ],
+        "reason": "These are sport elements or actions rather than the game name."
+      },
+      {
+        "id": "boxing glove",
+        "rejected": [
+          "punch",
+          "sparring",
+          "ring",
+          "fight",
+          "protective gear"
+        ],
+        "reason": "These are activities or context, not the glove itself."
+      },
+      {
+        "id": "martial arts uniform",
+        "rejected": [
+          "gi",
+          "belt",
+          "dojo",
+          "training",
+          "uniform"
+        ],
+        "reason": "\"Gi\" is a specific style name; the others are context or related gear, not the uniform itself."
+      },
+      {
+        "id": "goal net",
+        "rejected": [
+          "net",
+          "goal",
+          "score",
+          "trap",
+          "sports"
+        ],
+        "reason": "These are generic or contextual terms; only \"net\" is directly related, but too broad to keep as a precise association."
+      },
+      {
+        "id": "flag in hole",
+        "rejected": [
+          "golf",
+          "putt",
+          "cup",
+          "green",
+          "hole"
+        ],
+        "reason": "These are golf-context terms; the named phrase is a misleading paraphrase of the flagstick in a hole concept."
+      },
+      {
+        "id": "ice skate",
+        "rejected": [
+          "blade",
+          "rink",
+          "glide",
+          "winter",
+          "skating"
+        ],
+        "reason": "These are related features or actions, but not the skate itself."
+      },
+      {
+        "id": "fishing pole",
+        "rejected": [
+          "rod",
+          "line",
+          "hook",
+          "bait",
+          "catch"
+        ],
+        "reason": "These are fishing components or outcomes; \"rod\" is the closest synonym, but the others are not the object."
+      },
+      {
+        "id": "diving mask",
+        "rejected": [
+          "snorkel",
+          "underwater",
+          "goggles",
+          "swim",
+          "reveal"
+        ],
+        "reason": "\"Snorkel\" and \"goggles\" are related gear, but the others are activity/context terms; \"reveal\" is unrelated."
+      },
+      {
+        "id": "running shirt",
+        "rejected": [
+          "jogging",
+          "athletic wear",
+          "race",
+          "sweat",
+          "fitness"
+        ],
+        "reason": "These are activity or category terms, not the shirt itself."
+      },
+      {
+        "id": "skis",
+        "rejected": [
+          "snow",
+          "slide",
+          "slope",
+          "winter sports",
+          "bindings"
+        ],
+        "reason": "These are winter-sport context or usage terms rather than the equipment itself."
+      },
+      {
+        "id": "sled",
+        "rejected": [
+          "snow",
+          "slide",
+          "hill",
+          "ride",
+          "winter"
+        ],
+        "reason": "These are usage/context terms, not the sled itself."
+      },
+      {
+        "id": "curling stone",
+        "rejected": [
+          "ice",
+          "slide",
+          "curling",
+          "broom",
+          "target"
+        ],
+        "reason": "These are sport context terms; they do not directly name the stone."
+      },
+      {
+        "id": "bullseye",
+        "rejected": [
+          "target",
+          "center",
+          "aim",
+          "hit",
+          "accuracy"
+        ],
+        "reason": "These are related concepts, but \"bullseye\" is the specific target center and the others are broader abstractions."
+      },
+      {
+        "id": "yo-yo",
+        "rejected": [
+          "string",
+          "toy",
+          "spin",
+          "trick",
+          "play"
+        ],
+        "reason": "These are related features or activities, but not the toy's core name."
+      },
+      {
+        "id": "kite",
+        "rejected": [
+          "string",
+          "fly",
+          "wind",
+          "sky",
+          "play"
+        ],
+        "reason": "These are usage/context terms rather than the object itself."
+      },
+      {
+        "id": "water pistol",
+        "rejected": [
+          "squirt",
+          "spray",
+          "water fight",
+          "toy",
+          "summer"
+        ],
+        "reason": "These are actions or context; \"toy\" is too broad to be a direct association."
+      },
+      {
+        "id": "pool 8 ball",
+        "rejected": [
+          "pool",
+          "billiards",
+          "black ball",
+          "pocket",
+          "cue"
+        ],
+        "reason": "\"Pool\" and \"billiards\" are game names, while the others are context or equipment rather than the ball itself."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0c71b51f16c0f6a6016abfaf8efa2887d09e6a99f56fa3815e",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3146,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1636,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4782
+    }
+  }
+}

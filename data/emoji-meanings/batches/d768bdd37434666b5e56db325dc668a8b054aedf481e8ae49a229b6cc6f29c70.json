@@ -1,0 +1,726 @@
+{
+  "names": [
+    "worm",
+    "microbe",
+    "bouquet",
+    "cherry blossom",
+    "white flower",
+    "lotus",
+    "rosette",
+    "rose",
+    "wilted flower",
+    "hibiscus",
+    "sunflower",
+    "blossom",
+    "tulip",
+    "hyacinth",
+    "seedling",
+    "potted plant",
+    "evergreen tree",
+    "deciduous tree",
+    "palm tree",
+    "cactus",
+    "sheaf of rice",
+    "herb",
+    "shamrock",
+    "four leaf clover",
+    "maple leaf",
+    "fallen leaf",
+    "leaf fluttering in wind",
+    "empty nest",
+    "nest with eggs",
+    "mushroom",
+    "leafless tree",
+    "grapes",
+    "melon",
+    "watermelon",
+    "tangerine",
+    "lemon",
+    "lime",
+    "banana",
+    "pineapple",
+    "mango"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "worm",
+        "associations": [
+          "soil",
+          "larva",
+          "creeping",
+          "bait",
+          "burrowing"
+        ]
+      },
+      {
+        "id": "microbe",
+        "associations": [
+          "tiny organism",
+          "bacteria",
+          "virus",
+          "microscope",
+          "germ"
+        ]
+      },
+      {
+        "id": "bouquet",
+        "associations": [
+          "flowers",
+          "gift",
+          "arrangement",
+          "celebration",
+          "fragrance"
+        ]
+      },
+      {
+        "id": "cherry blossom",
+        "associations": [
+          "spring",
+          "petals",
+          "sakura",
+          "bloom",
+          "beauty"
+        ]
+      },
+      {
+        "id": "white flower",
+        "associations": [
+          "purity",
+          "petals",
+          "bloom",
+          "delicacy",
+          "bouquet"
+        ]
+      },
+      {
+        "id": "lotus",
+        "associations": [
+          "water flower",
+          "purity",
+          "bloom",
+          "pond",
+          "serenity"
+        ]
+      },
+      {
+        "id": "rosette",
+        "associations": [
+          "flower shape",
+          "ornament",
+          "badge",
+          "pattern",
+          "decorative"
+        ]
+      },
+      {
+        "id": "rose",
+        "associations": [
+          "love",
+          "petals",
+          "romance",
+          "bouquet",
+          "thorn"
+        ]
+      },
+      {
+        "id": "wilted flower",
+        "associations": [
+          "droop",
+          "fading",
+          "decay",
+          "sadness",
+          "dry petals"
+        ]
+      },
+      {
+        "id": "hibiscus",
+        "associations": [
+          "tropical",
+          "large bloom",
+          "bright color",
+          "flower",
+          "warm climate"
+        ]
+      },
+      {
+        "id": "sunflower",
+        "associations": [
+          "sun",
+          "yellow",
+          "field",
+          "seeds",
+          "tall stem"
+        ]
+      },
+      {
+        "id": "blossom",
+        "associations": [
+          "flowering",
+          "spring",
+          "bloom",
+          "petal",
+          "growth"
+        ]
+      },
+      {
+        "id": "tulip",
+        "associations": [
+          "spring flower",
+          "bulb",
+          "petals",
+          "garden",
+          "colorful"
+        ]
+      },
+      {
+        "id": "hyacinth",
+        "associations": [
+          "spring bloom",
+          "fragrance",
+          "clustered flowers",
+          "garden",
+          "purple"
+        ]
+      },
+      {
+        "id": "seedling",
+        "associations": [
+          "young plant",
+          "sprout",
+          "growth",
+          "soil",
+          "new life"
+        ]
+      },
+      {
+        "id": "potted plant",
+        "associations": [
+          "indoor plant",
+          "pot",
+          "home decor",
+          "watering",
+          "greenery"
+        ]
+      },
+      {
+        "id": "evergreen tree",
+        "associations": [
+          "pine",
+          "needle leaves",
+          "winter",
+          "forest",
+          "year-round green"
+        ]
+      },
+      {
+        "id": "deciduous tree",
+        "associations": [
+          "broadleaf",
+          "seasonal",
+          "autumn",
+          "branches",
+          "shade"
+        ]
+      },
+      {
+        "id": "palm tree",
+        "associations": [
+          "tropical",
+          "beach",
+          "fronds",
+          "sun",
+          "vacation"
+        ]
+      },
+      {
+        "id": "cactus",
+        "associations": [
+          "desert",
+          "spines",
+          "succulent",
+          "dryness",
+          "resilience"
+        ]
+      },
+      {
+        "id": "sheaf of rice",
+        "associations": [
+          "grain",
+          "harvest",
+          "farm",
+          "bundled stalks",
+          "abundance"
+        ]
+      },
+      {
+        "id": "herb",
+        "associations": [
+          "aromatic",
+          "culinary",
+          "leafy",
+          "seasoning",
+          "medicinal"
+        ]
+      },
+      {
+        "id": "shamrock",
+        "associations": [
+          "clover",
+          "Ireland",
+          "luck",
+          "green",
+          "three leaves"
+        ]
+      },
+      {
+        "id": "four leaf clover",
+        "associations": [
+          "luck",
+          "rare",
+          "green",
+          "clover",
+          "fortune"
+        ]
+      },
+      {
+        "id": "maple leaf",
+        "associations": [
+          "autumn",
+          "red",
+          "tree leaf",
+          "Canada",
+          "fall"
+        ]
+      },
+      {
+        "id": "fallen leaf",
+        "associations": [
+          "autumn",
+          "ground",
+          "dry leaf",
+          "decay",
+          "season change"
+        ]
+      },
+      {
+        "id": "leaf fluttering in wind",
+        "associations": [
+          "breeze",
+          "motion",
+          "lightness",
+          "fall",
+          "drifting"
+        ]
+      },
+      {
+        "id": "empty nest",
+        "associations": [
+          "absence",
+          "leaving home",
+          "nest",
+          "quiet",
+          "emptiness"
+        ]
+      },
+      {
+        "id": "nest with eggs",
+        "associations": [
+          "birds",
+          "nest",
+          "hatching",
+          "parenting",
+          "care"
+        ]
+      },
+      {
+        "id": "mushroom",
+        "associations": [
+          "fungus",
+          "forest",
+          "cap",
+          "spore",
+          "edible"
+        ]
+      },
+      {
+        "id": "leafless tree",
+        "associations": [
+          "winter",
+          "bare branches",
+          "silhouette",
+          "cold",
+          "dormant"
+        ]
+      },
+      {
+        "id": "grapes",
+        "associations": [
+          "vine",
+          "cluster",
+          "wine",
+          "fruit",
+          "purple"
+        ]
+      },
+      {
+        "id": "melon",
+        "associations": [
+          "sweet fruit",
+          "slice",
+          "summer",
+          "juicy",
+          "refreshing"
+        ]
+      },
+      {
+        "id": "watermelon",
+        "associations": [
+          "summer",
+          "slice",
+          "juicy",
+          "seeds",
+          "refreshing"
+        ]
+      },
+      {
+        "id": "tangerine",
+        "associations": [
+          "citrus",
+          "orange",
+          "sweet",
+          "peel",
+          "juice"
+        ]
+      },
+      {
+        "id": "lemon",
+        "associations": [
+          "citrus",
+          "sour",
+          "yellow",
+          "juice",
+          "zest"
+        ]
+      },
+      {
+        "id": "lime",
+        "associations": [
+          "citrus",
+          "green",
+          "sour",
+          "juice",
+          "zest"
+        ]
+      },
+      {
+        "id": "banana",
+        "associations": [
+          "yellow",
+          "peel",
+          "fruit",
+          "soft",
+          "snack"
+        ]
+      },
+      {
+        "id": "pineapple",
+        "associations": [
+          "tropical",
+          "spiky",
+          "sweet",
+          "fruit",
+          "juice"
+        ]
+      },
+      {
+        "id": "mango",
+        "associations": [
+          "tropical",
+          "sweet",
+          "juicy",
+          "fruit",
+          "orange flesh"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_09711b7222a1fb68016abfaecbcf8c87d08d4c8eabc97153f8",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1367,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 724,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2091
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "worm",
+        "rejected": [
+          "larva"
+        ],
+        "reason": "A worm is not a larva; this is a misleading substitution of a different creature/life stage."
+      },
+      {
+        "id": "microbe",
+        "rejected": [
+          "virus"
+        ],
+        "reason": "Microbe is a broad term for microscopic organisms; virus is related but often excluded from living microbes in common use, so this is a borderline unsupported generalization."
+      },
+      {
+        "id": "bouquet",
+        "rejected": [],
+        "reason": "All associations are ordinary and relevant."
+      },
+      {
+        "id": "cherry blossom",
+        "rejected": [
+          "sakura"
+        ],
+        "reason": "This is a named-entity synonym/translation rather than an association; it bypasses the core meaning."
+      },
+      {
+        "id": "white flower",
+        "rejected": [
+          "purity"
+        ],
+        "reason": "Purity is an abstract symbolic association that is not directly supported by the literal object."
+      },
+      {
+        "id": "lotus",
+        "rejected": [
+          "water flower"
+        ],
+        "reason": "Too vague and descriptive as a substitution for the named flower rather than a normal association."
+      },
+      {
+        "id": "rosette",
+        "rejected": [],
+        "reason": "All associations are relevant to the decorative/flower-like meaning."
+      },
+      {
+        "id": "rose",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "wilted flower",
+        "rejected": [
+          "decay"
+        ],
+        "reason": "A wilted flower suggests fading or drooping, but decay overstates the meaning and implies rot."
+      },
+      {
+        "id": "hibiscus",
+        "rejected": [
+          "warm climate"
+        ],
+        "reason": "This is an environmental inference rather than a core association with the flower itself."
+      },
+      {
+        "id": "sunflower",
+        "rejected": [
+          "sun"
+        ],
+        "reason": "This is a name-based pun rather than a direct association with the flower."
+      },
+      {
+        "id": "blossom",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "tulip",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "hyacinth",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "seedling",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "potted plant",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "evergreen tree",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "deciduous tree",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "palm tree",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "cactus",
+        "rejected": [
+          "resilience"
+        ],
+        "reason": "Resilience is an abstract trait not directly depicted by the object."
+      },
+      {
+        "id": "sheaf of rice",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "herb",
+        "rejected": [
+          "medicinal"
+        ],
+        "reason": "Medicinal use is not inherent to the literal meaning and can be misleading."
+      },
+      {
+        "id": "shamrock",
+        "rejected": [
+          "clover",
+          "Ireland"
+        ],
+        "reason": "These are identity/name-based substitutions; the association should not redefine the core meaning through a national symbol or synonym."
+      },
+      {
+        "id": "four leaf clover",
+        "rejected": [
+          "rare",
+          "fortune"
+        ],
+        "reason": "These are interpretive claims rather than direct visual/object associations."
+      },
+      {
+        "id": "maple leaf",
+        "rejected": [
+          "Canada"
+        ],
+        "reason": "This is a national-symbol association that is not inherent to the leaf itself."
+      },
+      {
+        "id": "fallen leaf",
+        "rejected": [
+          "decay"
+        ],
+        "reason": "A fallen leaf indicates being on the ground or seasonal change, but decay is an overstatement."
+      },
+      {
+        "id": "leaf fluttering in wind",
+        "rejected": [
+          "fall"
+        ],
+        "reason": "This is a season-based inference not guaranteed by the image concept."
+      },
+      {
+        "id": "empty nest",
+        "rejected": [
+          "leaving home"
+        ],
+        "reason": "This is a metaphorical interpretation, not a direct association."
+      },
+      {
+        "id": "nest with eggs",
+        "rejected": [
+          "parenting",
+          "care"
+        ],
+        "reason": "These are inferred human concepts rather than literal nest associations."
+      },
+      {
+        "id": "mushroom",
+        "rejected": [
+          "edible"
+        ],
+        "reason": "Edibility is species-dependent and not a core meaning of the generic mushroom emoji."
+      },
+      {
+        "id": "leafless tree",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "grapes",
+        "rejected": [
+          "wine"
+        ],
+        "reason": "Wine is a processed product, not a direct association with grapes."
+      },
+      {
+        "id": "melon",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "watermelon",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "tangerine",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "lemon",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "lime",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "banana",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "pineapple",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      },
+      {
+        "id": "mango",
+        "rejected": [],
+        "reason": "All associations are relevant."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0898113a61d28088016abfaed13c8c87d0acc78b38f3f1bc80",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2552,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 920,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3472
+    }
+  }
+}

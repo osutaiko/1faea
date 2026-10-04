@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "train": 22,
+    "validation": 4,
+    "test": 4
+  },
+  "accepted": 33,
+  "quarantined_overlap": 3,
+  "conflicting_train_states": 0,
+  "labels_sha256": "5ea1c8c2e0314a12af5ffc676cd44e337a68405d86e31fd917a566527e976bb0",
+  "semantic_review": "catalog readings plus model judgments; provisional, not ground truth",
+  "overlap_review": "model-based paraphrase audit against all reserved prompts; not exhaustive"
+}

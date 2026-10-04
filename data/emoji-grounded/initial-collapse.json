@@ -1,0 +1,34 @@
+{
+  "reconstruction_steps": 120,
+  "reply_steps": 800,
+  "selected_reply_step": 800,
+  "elapsed_seconds": 534.375,
+  "token_limit_rejected": {
+    "train": 54,
+    "validation": 5,
+    "test": 6
+  },
+  "reconstruction_audit": {
+    "losses": {
+      "correct": 5.7102179527282715,
+      "reversed": 5.7102179527282715,
+      "empty": 3.2471729516983032
+    },
+    "note": "Teacher-forced English reconstruction only; compare zero and reversed states to detect bottleneck bypass."
+  },
+  "test": {
+    "reply_loss": 0.0005312665469116635,
+    "count": 11,
+    "exact_reference_state": 1.0,
+    "answer_lexicon_anchor_recall": 0.014925373134328358,
+    "symbols_used": 1,
+    "metric_limit": "Reference emoji states are learned latent codes, not verified emoji answers. Anchor recall checks words, not factual correctness.",
+    "test_used_for_selection": false
+  },
+  "generated_qa_labels": 0,
+  "map_embeddings_frozen": true,
+  "pretrained_text_backbone_frozen": true,
+  "runtime_english_decoder": false,
+  "promoted": false,
+  "general_use_ready": false
+}

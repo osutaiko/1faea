@@ -4,7 +4,169 @@
 
 🧠 💬 🚀 🔬 🧪 🤖 🌈 ✨ 🎉 📚 🧩 💡 🎯 📊 🔥 🛠️ ⚙️ 💻 🫪 🛠️ ⚙️ 💻 🎯 📊 🔥 📚 🧩 💡 🌈 ✨ 🎉 🔬 🧪 🤖 🧠 💬 🚀
 
-## Conversation prototype 🧠 💬 🚀 🫪
+## Current development checkpoint 🫪 🧠 💬 🧪
+
+🧩📚 The new **meaning-map + premade-data** path uses a one-time map of 3,951
+emojis and existing UltraChat English answers. It generates **zero new Q&A labels**.
+The map retains literal core meanings and separate associations; generation and
+automated auditing cost approximately **$0.56**. See [meanings](data/emoji-meanings/README.md). 😋🌈🔍
+
+🏋️🧠 The first bounded experiment uses 102 training, three validation, and 11 test
+pairs. Frozen semantic description embeddings initialize the emoji vocabulary.
+An English reconstruction decoder is used only during training. Runtime reads
+English questions, commits hard emoji IDs, and generates emojis directly.
+No English assistant answer is generated at runtime. 📚➡️🧩➡️💬
+
+🧪📊 Raw word-vector trials collapsed. Semantic initialization avoids that collapse:
+11 test questions produce 11 distinct replies using 22 emojis. However, it achieves
+**0/11 exact learned reference-state matches**, zero literal answer-anchor recall,
+and worse reconstruction than zeroed states. These are diagnostic metrics, not
+general-chat accuracy. Replies remain unreliable; this prototype is **not promoted**.
+The earlier chat checkpoint remains active. All **73 tests pass**. 🚧🔬🫪
+
+🔍 [Method](data/emoji-grounded/README.md) · [Results](data/emoji-grounded/result.json)
+· [Dataset](data/emoji-grounded/report.json) · [Map audit](data/emoji-meanings/report.json) 📚💾✨
+
+```powershell
+# One-time map asset; an existing map is not regenerated.
+.venv\Scripts\python.exe -X utf8 emoji_meanings.py
+.venv\Scripts\python.exe -X utf8 emoji_grounded_data.py --pages 20
+.venv\Scripts\python.exe -X utf8 emoji_grounded_semantics.py
+.venv\Scripts\python.exe -X utf8 emoji_grounded_fit.py --name semantic-v1 --grounding-steps 300 --reconstruction-steps 20 --reply-steps 800
+# Inspect the experimental checkpoint. Each question is independent.
+.venv\Scripts\python.exe -X utf8 emoji_grounded_chat.py --question "How can I stay dry in the rain?"
+```
+
+📚 🌱 The standalone dataset pipeline prepares 200 public user questions:
+160 training, 20 validation, and 20 test prompts. It defines no question categories.
+[Teacher instructions](data/standalone/TEACHER.md) request direct compositional emoji
+states and answers. English readings are generated afterward for auditing.
+This assistant generated 200 direct emoji candidates. A separate audit by the same
+assistant rejected 48 ambiguous answers and quarantined seven remaining training
+examples that overlap held-out requests. The provisional dataset has 111 training,
+16 validation, and 18 test rows. This is not independent verification. 🧪🔍🫪
+
+🏋️ 📊 A 2,000-step standalone trial reaches **0/10 exact matches on answerable test questions**
+and matches 4/8 abstention targets. Its 22.2% overall
+score is below the 44.4% always-unknown baseline. It is not promoted.
+More varied, verified supervision is needed; more steps on this tiny set did not help.
+Exact matching can miss valid alternative answers, and these targets remain provisional.
+All 73 implementation tests pass. 🚧❓🧪✅
+
+🤖 📚 The API runner generates direct emoji candidates and reviews them with a
+distinct model in separate requests, using [Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs).
+The first external pilot uses GPT-4.1 mini generation and GPT-4.1 review on 20 questions.
+The reviewer approves 11, including two unknown answers. Successful requests cost an
+estimated $0.063 at published token prices. Review still accepts invented meanings:
+brain as genetic transmission and black circle as switching off a phone.
+These labels are not promoted or used for training. See [pilot results](data/standalone/api/pilot-report.json). 🧪💸🔍🚧
+Automated review remains a model judgment, not verified ground truth. 🔍🫪
+
+📚🔍 The expanded run covers 100 questions. One invalid candidate is quarantined.
+GPT-5.4 mini reviews fixed catalog meanings, without an English answer generated
+before the emojis. It passes seven calibration checks and accepts 33/99 candidates.
+Three training prompts overlap held-out requests. The provisional set contains
+22 training, four validation, and four test examples. 🧩🛡️📊
+
+🏋️🧪 An 800-step trial matches **0/3 answerable test targets** and the one unknown
+target. It equals the 25% always-unknown baseline and is not promoted.
+The sample is tiny, and calibration does not establish reliable review on every question.
+All successful API requests, including exploratory reviews, cost an estimated **$0.372**.
+See [review](data/standalone/api/review-literal-gpt-5.4-mini/blind-review-report.json),
+[dataset](data/standalone/api/dataset-report.json), [training](data/standalone/api/training-result.json),
+and [cost](data/standalone/api/cost-report.json) reports. 💸📚🔬🫪
+
+```powershell
+.venv\Scripts\python.exe -X utf8 conversation_standalone_data.py prepare
+.venv\Scripts\python.exe -X utf8 conversation_standalone_data.py validate teacher-results.jsonl
+.venv\Scripts\python.exe -X utf8 conversation_standalone_bootstrap.py
+.venv\Scripts\python.exe -X utf8 conversation_standalone_fit.py
+# Requires a valid OPENAI_API_KEY and two accessible structured-output models.
+.venv\Scripts\python.exe -X utf8 conversation_standalone_teacher.py --generator GENERATOR_MODEL_ID --reviewer REVIEWER_MODEL_ID --limit 20
+.venv\Scripts\python.exe -X utf8 conversation_standalone_review.py
+.venv\Scripts\python.exe -X utf8 conversation_standalone_compile.py
+.venv\Scripts\python.exe -X utf8 conversation_standalone_fit.py --dataset data/standalone/api/provisional.jsonl --name api-reviewed --steps 800
+# Use the earlier checkpoint without carrying history between questions.
+.venv\Scripts\python.exe -X utf8 conversation_web.py --independent
+```
+
+🔍 ✅ Validation checks format and emoji vocabulary. Semantic review and cross-split
+similarity checks remain necessary for future production training. API candidates
+are separate from the provisional bootstrap labels. 📚🧠
+
+🧠 🔤 🌈 The new curriculum adds 16 everyday intents, quantities from zero to nine,
+mixed attributes, and user corrections. It has 1,408 training 🏋️ rows, 224 validation ✅
+rows, and 416 test 🔍 rows. Supplemental entity pools are frozen and disjoint.
+All 3,953 emoji sequences remain available. Availability does not establish mastery. 🫪✨
+
+📚 🧩 💡 Training also uses 38 reviewed teacher user paraphrases, 256 number-wording
+variants, and 23 reviewed public user inputs. Targets are authored directly as emojis.
+Public assistant answers are not training targets. 🏋️🤖📚
+
+⚡ 🛠️ 🧠 A small causal emoji processor learns from frozen pretrained emoji features.
+It rebuilds features from integer IDs at every reply step. A validation-selected input
+blend preserves earlier skills. The input backbone still reads ordinary text.
+Each stage uses continuous numerical activations; only committed emoji states persist. 🔢🫪💬
+
+| Frozen checkpoint evaluation 🔍 | Rows/turns | Exact replies 🎯 |
+| --- | ---: | ---: |
+| New combinations, supplied history 🧩 | 416 | 62.0% |
+| Ordinary numbers, supplied history 🔢 | 416 | 61.3% |
+| Ordinary numbers, own-history stress sessions 💬 | 384 | 6.8% |
+| Earlier curriculum, supplied history 📚 | 2,189 | 85.4% |
+| Public supported requests 📚 | 5 | 60.0% |
+| Public unsupported requests: correct abstention ❓ | 27 | 14.8% |
+
+🧪 🔍 These are restricted-language scores. Public labels check coarse intent and scope,
+not whether an answer fully solves the request. Selection used validation only.
+The final test prompts did not select or train this checkpoint. ✅📊🫪
+Earlier-curriculum correct state-plus-reply traces improve from 73.3% to 81.1%.
+All evaluated outputs terminate. 🎯✅🔚
+The earlier checkpoint scores 7.7% on the same number-wording test and 4.7% on
+the same own-history stress sessions. Both remain poor at complete conversations. 💬🚧🫪
+The 32 stress sessions run all three contrast queries in sequence. Training uses
+the same snapshot for these queries and only one query in each continuation. 💬🔄🧩
+
+⚡ ⏱️ The median emoji reply stage takes 0.021 seconds, versus 1.04 seconds for its
+pretrained-feature parent, on 12 identical validation memories. Both answer 11 correctly.
+This benchmark excludes text encoding and model loading. Full local smoke turns take
+roughly 0.2–0.3 seconds. 🏃💬✨
+
+🚧 🧠 The model is **not ready for general use**. Generated history quickly degrades
+replies. Unsupported requests often receive guesses. Next experiments should train on
+generated emoji transcripts, strengthen user-fact handling, and calibrate the unknown
+state. The next checkpoint needs a fresh untouched test set. 🧪📚❓🔄
+
+```powershell
+# Open the local, single-session playground 🫪💬
+.venv\Scripts\python.exe -X utf8 conversation_web.py
+# Use the same checkpoint in the terminal 🧠🔤
+.venv\Scripts\python.exe -X utf8 conversation.py --experiment conversation-compositional --semantic-encoder chat --name reliability-selected
+# Create data, then train the supplemental and reviewed adaptations 📚🏋️
+.venv\Scripts\python.exe -X utf8 conversation_reliability_data.py
+.venv\Scripts\python.exe -X utf8 conversation_topic_curate.py
+.venv\Scripts\python.exe -X utf8 conversation_public_scope.py
+.venv\Scripts\python.exe -X utf8 conversation_reliability_fit.py
+.venv\Scripts\python.exe -X utf8 conversation_reliability_fit.py --name reliability-reviewed --parent reliability --steps 3200 --seed 439 --learning-rate 0.00005 --reviewed
+.venv\Scripts\python.exe -X utf8 conversation_emoji_features.py
+.venv\Scripts\python.exe -X utf8 conversation_reliability_select.py --blend-only --blend-name reliability-blended75 --reviewed-weight 0.75
+# Evaluate validation before selecting; include every candidate with completed reports ✅
+.venv\Scripts\python.exe -X utf8 conversation_reliability_evaluate.py --name reliability-blended75 --split validation --live
+.venv\Scripts\python.exe -X utf8 conversation_reliability_select.py --names selected reliability-blended75
+# Audit runtime and memory; neither command trains or selects models 🔍🧠
+.venv\Scripts\python.exe -X utf8 conversation_runtime_benchmark.py
+.venv\Scripts\python.exe -X utf8 conversation_memory_audit.py
+```
+
+📦 💾 Local checkpoints, reports, and the model card live in
+`runs/conversation-compositional/reliability-selected/`. Checkpoints are excluded from Git.
+The scripts require the earlier pretrained cache and experiment artifacts.
+The archived checkpoint records this run; rerunning the workflow can produce different scores.
+All 60 implementation tests pass. Tests do not establish language quality. 🧪✅🫪
+
+✨ 🫪 🌈 🫪 ✨
+
+## Earlier conversation prototype 🧠 💬 🚀 🫪
 
 🔬 🧪 🤖 `conversation.py` reads text, replies in emojis, and keeps
 emoji-only conversation 💬 memory 🧠. It uses frozen
@@ -28,9 +190,9 @@ rows. Emoji targets are authored directly. An offline
 experiment generated English **user-message paraphrases**; reviewed candidates
 and additional authored input templates added 788 inputs. None exactly match normalized validation ✅ or test prompts. We rejected teacher answers,
 perspective changes, lost placeholders, and altered facts.
-Approved indices are bound to the reviewed source file's SHA-256. Conversation 💬 inference does not load this teacher. The downloaded
+Approved indices are bound to the reviewed source file's SHA-256. Conversation 💬 inference does not load this teacher. The earlier experiment used the downloaded
 [Everyday Conversations](https://huggingface.co/datasets/HuggingFaceTB/everyday-conversations-llama3.1-2k)
-corpus supplies an unscored natural-prompt audit, not supervised training 🏋️.
+corpus for an unscored natural-prompt audit 🔍.
 Model revisions and source metadata are in `data/conversation/`.
 
 🎯 📊 🔥 Validation ✅ loss selects each run's input checkpoint 💾. Greedy validation ✅ selects the output head:
@@ -699,3 +861,98 @@ quantization; both exceed the corresponding 32-slot capacities.
 - [PyTorch hard Gumbel-softmax](https://docs.pytorch.org/docs/2.14/generated/torch.nn.functional.gumbel_softmax.html) 📚 🧩 💡
   documents the same straight-through gradient trick; this prototype 🧪 uses argmax
   without Gumbel sampling.
+
+### 🧩 Ordered-content objective trial 🏋️🔍
+
+`objective-v3` trains ordered contextual reconstruction and masked English
+reconstruction with reversed/empty-state contrasts. Ambiguous association anchors
+are skipped. A fixed evaluation-only set checks answer concepts and participant
+order. No additional teacher-generated Q&A is used. 📚🫪
+
+Real states now beat empty states in a small reconstruction audit, but reversed
+states still do slightly better. Answer checks remain **2/12**, including **0/4**
+participant-order checks. Reliable answering and relational meaning remain unproven.
+**75 tests pass.** The English decoder and training projections stay out of runtime.
+[Results](data/emoji-grounded/objective-result.json). 🧪🚧
+
+### 🫪 Five-hour standalone development run ⏱️🏋️
+
+`emoji_general_run.py` runs for a persisted five-hour deadline, with atomic training
+snapshots and periodic validation. `emoji_general_chat.py` uses the resulting
+checkpoint for independent questions. No English answer is generated at runtime. 💬🧠
+
+🌐 The downloaded official Emoji 18.0 file contains **3,972** fully qualified
+sequences and components. This run includes all of them, including 🔚 and ▶️ as
+ordinary symbols. New symbols use their literal Unicode names; the original
+one-time AI association map remains unchanged. Catalog support and learned
+meaning recall are measured separately. 🔍📋
+
+📚 Training adds premade [Dolly 15k](https://huggingface.co/datasets/databricks/databricks-dolly-15k)
+examples, retaining supplied context when it fits. This dataset is **CC-BY-SA-3.0**;
+its source and derived data retain that attribution. UltraChat remains MIT.
+No new AI-generated Q&A is used. Exact prompts are deduplicated; paraphrase overlap
+is not exhaustively checked. The fixed answer checks never select checkpoints. 🧪🚧
+
+💾 Run status, source hashes, checkpoints, coverage, and final examples are saved
+under `runs/emoji-general/five-hour/`. Results are pending while the worker runs.
+**78 tests pass.** General-chat capability is not established yet. 🫪⏳
+
+🔧 During the five-hour run, validation samples revealed one-symbol topic replies.
+Training targets now retain up to six literal/contextual answer codes. Definition
+replay is reduced to 5%, and mismatched question states provide a contrastive loss.
+The prior checkpoint is retained; validation selection restarts because targets
+changed. The original deadline stays fixed. This correction is not yet evidence
+of general answering capability. 🧪🚧
+
+### 📊 Standalone run result 🫪🚧
+
+The selected checkpoint passes **5/12** fixed concept checks and **1/4** role-order
+checks. All **3,972** official sequences/components are represented. Training-map
+literal recall is **3,918/3,972 (98.6%)**; exact supplied-state first-output recall
+is **3,517/3,972 (88.5%)**. These are map recall checks, not general-chat accuracy. 🔍
+
+Held-out replies still omit requested information or give unrelated symbols.
+Basic general chatting was **not demonstrated**. The model remains experimental.
+The logs show progress through about **3h20m**, followed by a large execution/clock
+gap; total wall time is **18h37m**. Five hours of continuous training cannot be
+verified. [Final audit](data/emoji-grounded/five-hour-result.json). 🧪⏱️
+
+### 🧠 Pretrained direct emoji decoder pilot 🫪🏋️
+
+`emoji_pretrained_model.py` adapts the cached SmolLM2-360M-Instruct transformer
+with PEFT LoRA on query/value projections. It consumes only committed emoji IDs
+and emoji prefix IDs. Frozen meaning vectors initialize the input lookup;
+a new output head predicts 3,972 emoji classes plus an end marker. Each generation
+step rebuilds from IDs with no continuous cache. No English answer is generated
+or translated at runtime. Numerical activations inside the transformer remain
+continuous. 🔢🧩
+
+📚 The existing 9,016 premade training pairs supply the same answer-state targets.
+The encoder stays fixed so this trial isolates the reply architecture. The base
+weights remain frozen; 5,561,733 adapter/head parameters train. Checkpoints contain
+adapters and heads, referencing the pinned cached backbone rather than copying it.
+No additional AI-generated Q&A is used. 💾✅
+
+🧪 The initial **150-step** pilot passes **0/12** fixed checks. It produces frequent
+symbols or ends early. This is much shorter training than the earlier experiment
+and does not establish the architecture's potential. **80 tests pass.** It is not
+promoted. [Pilot results](data/emoji-grounded/pretrained-pilot-result.json). 🚧📊
+
+```powershell
+.venv\Scripts\python.exe -X utf8 emoji_pretrained_fit.py --name pilot --steps 150
+.venv\Scripts\python.exe -X utf8 emoji_pretrained_chat.py --name pilot
+```
+
+🏋️ The unattended `aligned-v1` experiment runs **1,000 vocabulary-alignment**
+updates, covering all 3,972 symbols, followed by **2,000 premade Q&A** updates.
+Half of training prefix positions may use the model's predictions. Runtime
+outputs remain direct emoji IDs. Results are pending; this schedule does not
+establish correct meanings or general answering capability. 🫪⏳
+
+📉 `aligned-v1` completed 1,000 meaning-alignment and 2,000 answer updates in
+about **92 minutes**. It passes **0/12** fixed checks versus the prior model's 5/12.
+Only **3/3,972** exact supplied-state first-symbol checks pass, and all ten sampled
+held-out replies contain one symbol. This decoder collapsed despite lower loss;
+vocabulary support does not establish learned meaning. The existing chat model
+is retained. [Final aligned audit](data/emoji-grounded/pretrained-aligned-result.json).
+General standalone chatting remains **not demonstrated**. 🧪🚧

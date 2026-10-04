@@ -1,0 +1,652 @@
+{
+  "names": [
+    "shopping cart",
+    "cigarette",
+    "coffin",
+    "headstone",
+    "funeral urn",
+    "nazar amulet",
+    "hamsa",
+    "moai",
+    "placard",
+    "identification card",
+    "ATM sign",
+    "litter in bin sign",
+    "potable water",
+    "wheelchair symbol",
+    "men’s room",
+    "women’s room",
+    "restroom",
+    "baby symbol",
+    "water closet",
+    "passport control",
+    "customs",
+    "baggage claim",
+    "left luggage",
+    "warning",
+    "children crossing",
+    "no entry",
+    "prohibited",
+    "no bicycles",
+    "no smoking",
+    "no littering",
+    "non-potable water",
+    "no pedestrians",
+    "no mobile phones",
+    "no one under eighteen",
+    "radioactive",
+    "biohazard",
+    "up arrow",
+    "up-right arrow",
+    "right arrow",
+    "down-right arrow"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "shopping cart",
+        "associations": [
+          "basket",
+          "checkout",
+          "groceries",
+          "store"
+        ]
+      },
+      {
+        "id": "cigarette",
+        "associations": [
+          "smoke",
+          "tobacco",
+          "lighter",
+          "ash"
+        ]
+      },
+      {
+        "id": "coffin",
+        "associations": [
+          "burial",
+          "funeral",
+          "death",
+          "cemetery"
+        ]
+      },
+      {
+        "id": "headstone",
+        "associations": [
+          "grave",
+          "memorial",
+          "inscription",
+          "cemetery"
+        ]
+      },
+      {
+        "id": "funeral urn",
+        "associations": [
+          "ashes",
+          "memorial",
+          "cremation",
+          "mourning"
+        ]
+      },
+      {
+        "id": "nazar amulet",
+        "associations": [
+          "protection",
+          "evil eye",
+          "charm",
+          "luck"
+        ]
+      },
+      {
+        "id": "hamsa",
+        "associations": [
+          "protection",
+          "hand symbol",
+          "amulet",
+          "blessing"
+        ]
+      },
+      {
+        "id": "moai",
+        "associations": [
+          "statue",
+          "stone figure",
+          "island",
+          "monument"
+        ]
+      },
+      {
+        "id": "placard",
+        "associations": [
+          "sign",
+          "poster",
+          "notice",
+          "message"
+        ]
+      },
+      {
+        "id": "identification card",
+        "associations": [
+          "ID",
+          "badge",
+          "name",
+          "access"
+        ]
+      },
+      {
+        "id": "ATM sign",
+        "associations": [
+          "cash",
+          "bank",
+          "money",
+          "withdrawal"
+        ]
+      },
+      {
+        "id": "litter in bin sign",
+        "associations": [
+          "trash",
+          "recycling",
+          "cleanliness",
+          "bin"
+        ]
+      },
+      {
+        "id": "potable water",
+        "associations": [
+          "drinking water",
+          "safe",
+          "tap",
+          "hydration"
+        ]
+      },
+      {
+        "id": "wheelchair symbol",
+        "associations": [
+          "accessibility",
+          "disability",
+          "ramp",
+          "mobility"
+        ]
+      },
+      {
+        "id": "men’s room",
+        "associations": [
+          "toilet",
+          "male",
+          "stall",
+          "bathroom"
+        ]
+      },
+      {
+        "id": "women’s room",
+        "associations": [
+          "toilet",
+          "female",
+          "stall",
+          "bathroom"
+        ]
+      },
+      {
+        "id": "restroom",
+        "associations": [
+          "toilet",
+          "bathroom",
+          "washroom",
+          "facilities"
+        ]
+      },
+      {
+        "id": "baby symbol",
+        "associations": [
+          "infant",
+          "child",
+          "nursery",
+          "family"
+        ]
+      },
+      {
+        "id": "water closet",
+        "associations": [
+          "toilet",
+          "lavatory",
+          "bathroom",
+          "restroom"
+        ]
+      },
+      {
+        "id": "passport control",
+        "associations": [
+          "border",
+          "immigration",
+          "travel",
+          "passport"
+        ]
+      },
+      {
+        "id": "customs",
+        "associations": [
+          "inspection",
+          "taxes",
+          "border",
+          "declaration"
+        ]
+      },
+      {
+        "id": "baggage claim",
+        "associations": [
+          "luggage",
+          "airport",
+          "carousel",
+          "arrival"
+        ]
+      },
+      {
+        "id": "left luggage",
+        "associations": [
+          "storage",
+          "bags",
+          "locker",
+          "depot"
+        ]
+      },
+      {
+        "id": "warning",
+        "associations": [
+          "caution",
+          "alert",
+          "danger",
+          "notice"
+        ]
+      },
+      {
+        "id": "children crossing",
+        "associations": [
+          "school",
+          "kids",
+          "road",
+          "safety"
+        ]
+      },
+      {
+        "id": "no entry",
+        "associations": [
+          "stop",
+          "barrier",
+          "restricted",
+          "entry"
+        ]
+      },
+      {
+        "id": "prohibited",
+        "associations": [
+          "forbidden",
+          "ban",
+          "not allowed",
+          "restricted"
+        ]
+      },
+      {
+        "id": "no bicycles",
+        "associations": [
+          "bike",
+          "ban",
+          "cycling",
+          "path"
+        ]
+      },
+      {
+        "id": "no smoking",
+        "associations": [
+          "smoke",
+          "ban",
+          "cigarette",
+          "health"
+        ]
+      },
+      {
+        "id": "no littering",
+        "associations": [
+          "trash",
+          "clean",
+          "ban",
+          "rubbish"
+        ]
+      },
+      {
+        "id": "non-potable water",
+        "associations": [
+          "unsafe",
+          "do not drink",
+          "water",
+          "contamination"
+        ]
+      },
+      {
+        "id": "no pedestrians",
+        "associations": [
+          "walk",
+          "ban",
+          "foot traffic",
+          "road"
+        ]
+      },
+      {
+        "id": "no mobile phones",
+        "associations": [
+          "phone",
+          "ban",
+          "silence",
+          "electronics"
+        ]
+      },
+      {
+        "id": "no one under eighteen",
+        "associations": [
+          "age limit",
+          "adult",
+          "restricted",
+          "minimum age"
+        ]
+      },
+      {
+        "id": "radioactive",
+        "associations": [
+          "radiation",
+          "hazard",
+          "warning",
+          "nuclear"
+        ]
+      },
+      {
+        "id": "biohazard",
+        "associations": [
+          "contamination",
+          "hazard",
+          "infectious",
+          "waste"
+        ]
+      },
+      {
+        "id": "up arrow",
+        "associations": [
+          "up",
+          "direction",
+          "north",
+          "ascend"
+        ]
+      },
+      {
+        "id": "up-right arrow",
+        "associations": [
+          "diagonal",
+          "northeast",
+          "direction",
+          "move"
+        ]
+      },
+      {
+        "id": "right arrow",
+        "associations": [
+          "right",
+          "direction",
+          "forward",
+          "next"
+        ]
+      },
+      {
+        "id": "down-right arrow",
+        "associations": [
+          "diagonal",
+          "southeast",
+          "direction",
+          "move"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_007c67db0a4ce3a6016abfafb95ac887d091094833496fd3f7",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1385,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 599,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1984
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "shopping cart",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "cigarette",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "coffin",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "headstone",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "funeral urn",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "nazar amulet",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "hamsa",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "moai",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "placard",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "identification card",
+        "rejected": [
+          "access"
+        ],
+        "reason": "An identification card is related to identity, name, or ID, but 'access' is an effect/usage rather than a core association."
+      },
+      {
+        "id": "ATM sign",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "litter in bin sign",
+        "rejected": [
+          "recycling"
+        ],
+        "reason": "A litter-in-bin sign is about disposal of trash in bins, not recycling specifically."
+      },
+      {
+        "id": "potable water",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "wheelchair symbol",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "men’s room",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "women’s room",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "restroom",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "baby symbol",
+        "rejected": [
+          "child",
+          "family"
+        ],
+        "reason": "The baby symbol directly indicates an infant/baby; 'child' and 'family' are broader or different meanings."
+      },
+      {
+        "id": "water closet",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "passport control",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "customs",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "baggage claim",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "left luggage",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "warning",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "children crossing",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "no entry",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "prohibited",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "no bicycles",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "no smoking",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "no littering",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "non-potable water",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "no pedestrians",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "no mobile phones",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "no one under eighteen",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "radioactive",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "biohazard",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "up arrow",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "up-right arrow",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "right arrow",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "down-right arrow",
+        "rejected": [],
+        "reason": ""
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0e60c297723c3597016abfafbda1a887d08de521eb73bc0b2a",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2924,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 546,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3470
+    }
+  }
+}

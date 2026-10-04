@@ -1,0 +1,162 @@
+{
+  "decoded": {
+    "rows": [
+      {
+        "id": "caff938670e997dd",
+        "state_reading": "man biking, chequered flag, red question mark",
+        "answer_reading": "person biking, person mountain biking, person bouncing ball",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "b05d83d1b573c4e6",
+        "state_reading": "fork and knife, right arrow, herb, deer, right arrow, tiger, right arrow, eagle, right arrow, skull",
+        "answer_reading": "seedling, leaf fluttering in wind, bug, bird, fox, lion",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "4a406bd756ca6325",
+        "state_reading": "books, red question mark, green book, blue book, orange book, fork and knife with plate, red question mark",
+        "answer_reading": "books, student, microscope, nerd face, compass, memo",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "380dc0a03f3bed52",
+        "state_reading": "school, fork and knife with plate, right arrow, leaf fluttering in wind, right arrow, paw prints, right arrow, lion, right arrow, skull, red question mark",
+        "answer_reading": "herb, ant, bird, snake, eagle",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "5aa4719bbcc7d27f",
+        "state_reading": "speaker high volume, right arrow, straight ruler, triangular ruler, red question mark",
+        "answer_reading": "red question mark",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "46fd7dc6ea5e7a7b",
+        "state_reading": "musical score, musical notes, red question mark",
+        "answer_reading": "musical score, violin, trumpet, saxophone",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "b000c3c4e1890ed4",
+        "state_reading": "fork and knife with plate, cooked rice, red question mark",
+        "answer_reading": "bowl with spoon, bowl with spoon, honey pot, glass of milk",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "b22491e2aa2a6fdb",
+        "state_reading": "cloud with snow, red question mark",
+        "answer_reading": "red question mark",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "0aee9a02f28837c2",
+        "state_reading": "couch and lamp, red question mark",
+        "answer_reading": "couch and lamp",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "4907d545aca70962",
+        "state_reading": "herb, school, red question mark",
+        "answer_reading": "seedling, sun with face, butterfly, deer",
+        "unsupported_meanings": false
+      }
+    ]
+  },
+  "decoder": {
+    "id": "resp_0d456af92cf3203a016abfa4458e6c87d08624ac1e88557df5",
+    "model": "gpt-4.1-2025-04-14",
+    "usage": {
+      "input_tokens": 1386,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 544,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1930
+    }
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "caff938670e997dd",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks for popular types of cycling races, but both readings give objects (types of cyclists or actions) rather than types of races (such as road race, time trial, etc). Thus, the core distinction of 'types of cycling races' is not preserved."
+      },
+      {
+        "id": "b05d83d1b573c4e6",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state reading depicts a food chain in sequence, and the answer reading lists representative organisms in a food chain. Both faithfully address the question 'What is a food chain?'."
+      },
+      {
+        "id": "4a406bd756ca6325",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks for specific book suggestions. The state reading lists generic book objects and a fork/knife, and the answer reading lists generic study-related items, not suggestions. Neither provides actual non-fiction book recommendations or examples."
+      },
+      {
+        "id": "380dc0a03f3bed52",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "Both the state and answer readings illustrate or list organisms forming a food chain and thus directly support answering 'what is a food chain?'."
+      },
+      {
+        "id": "5aa4719bbcc7d27f",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks 'What is the speed of sound?', requiring a factual value. The state reading depicts sound leading to rulers and a question mark but never provides a measurement or a direct answer. The answer is just a question mark, which is insufficient."
+      },
+      {
+        "id": "46fd7dc6ea5e7a7b",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks for classical music genres, not just musical instruments. The state and answer readings focus on music in general and instruments, failing to address genres specifically."
+      },
+      {
+        "id": "b000c3c4e1890ed4",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question requests popular breakfast cereals. The readings mostly depict bowls, a honey pot, and milk, alluding to the context of breakfast but not naming or exemplifying specific cereal brands or types as required."
+      },
+      {
+        "id": "b22491e2aa2a6fdb",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state reading (cloud with snow + question mark) preserves the essential content (querying if it will snow). The answer, however, is just the question mark, not an answer to the forecast query."
+      },
+      {
+        "id": "0aee9a02f28837c2",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "Both readings represent a sofa with an appropriate emoji and thus maintain the central meaning of the question and answer."
+      },
+      {
+        "id": "4907d545aca70962",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks for reasons why plants are important; however, both readings simply list related objects (plants, sun, butterfly, deer) without addressing the 'why' or 'importance' explicitly."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_0bfc4a9adf31bf7d016abfa44912b087d09bef34a7dd70f9a9",
+    "model": "gpt-4.1-2025-04-14",
+    "usage": {
+      "input_tokens": 972,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 709,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1681
+    }
+  }
+}

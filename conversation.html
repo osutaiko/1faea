@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🫪 · Emoji conversation</title>
+<style>
+  :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #10151c; color: #edf1f7; }
+  body { max-width: 760px; margin: 40px auto; padding: 0 20px; }
+  h1 { font-size: 52px; margin: 0; }
+  p { line-height: 1.6; color: #aebbd0; }
+  button, input { font: inherit; border: 1px solid #435066; border-radius: 10px; padding: 12px; }
+  button { background: #263954; color: #fff; cursor: pointer; }
+  button:disabled { opacity: .5; cursor: wait; }
+  input[type=text] { flex: 1; min-width: 0; background: #172230; color: #fff; }
+  form { display: flex; gap: 10px; margin-top: 20px; }
+  .controls { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+  #messages { min-height: 180px; margin-top: 20px; }
+  .message { padding: 14px 18px; border-radius: 14px; margin: 12px 0; overflow-wrap: anywhere; }
+  .user { background: #1c2b3e; margin-left: 40px; }
+  .assistant { background: #172a24; margin-right: 40px; font-size: 30px; }
+  .trace { font-size: 18px; color: #adbed3; background: #17202d; }
+  .error { color: #ffb3ad; }
+  details { margin-top: 28px; padding: 16px; border: 1px solid #344254; border-radius: 12px; }
+  #memory { font-size: 24px; overflow-wrap: anywhere; }
+  a { color: #92c9ff; }
+</style>
+<h1>🫪</h1>
+<p>Read text. Remember in emojis. Reply in emojis. 🧠💬<br>
+This research prototype supports a limited grammar. Open-ended replies remain unreliable.</p>
+<div class="controls">
+  <label><input id="traces" type="checkbox"> Show emoji states</label>
+  <button id="reset" type="button">🔄 Reset memory</button>
+</div>
+<div id="messages" aria-live="polite"></div>
+<form id="form">
+  <input id="text" type="text" aria-label="Your message" placeholder="I like pizza. / What do I like?" autocomplete="off" required>
+  <button id="send" type="submit">Send ➡️</button>
+</form>
+<p id="status" role="status">One local session. Text limit: 128 tokens. Emoji memory: 128 symbols.</p>
+<details>
+  <summary>🧩 Read the state grammar</summary>
+  <p>💖🍕 = like pizza · 💔🥦 = dislike broccoli · 🔄💖🍣 = update preference to sushi<br>
+  🧠💖❓ = recall preference · 📌🚲🎨🔵 = store blue bicycle · ❓🚲🎨 = ask its color<br>
+  📌🍎🔢3️⃣ = store three apples · ❓🍎🔢 = ask how many<br>
+  👤 = user · 🤖 = assistant · 🔹 = turn boundary · ❓ = unknown<br>
+  Facts use emoji glyphs or exact Unicode names. Everyday aliases may be missed.</p>
+  <p>Only integer emoji IDs persist inside the model. Each stage still uses numerical activations.</p>
+</details>
+<details>
+  <summary>🧠 Current emoji memory</summary>
+  <p id="memory">∅</p>
+</details>
+<script>
+  const form = document.querySelector('#form');
+  const text = document.querySelector('#text');
+  const messages = document.querySelector('#messages');
+  const status = document.querySelector('#status');
+  const buttons = [...document.querySelectorAll('button')];
+  function add(value, kind) {
+    const element = document.createElement('div');
+    element.className = 'message ' + kind;
+    element.textContent = value;
+    messages.append(element);
+  }
+  async function request(path, payload) {
+    buttons.forEach(button => button.disabled = true);
+    text.disabled = true;
+    status.textContent = '🧠 Generating…';
+    try {
+      const response = await fetch(path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.error);
+      document.querySelector('#memory').textContent = result.memory || '∅';
+      status.textContent = result.dropped_turns ? `Memory discarded ${result.dropped_turns} old turns.` : '🟢 Ready';
+      return result;
+    } catch (error) {
+      status.textContent = error.message;
+      status.classList.add('error');
+      return null;
+    } finally {
+      buttons.forEach(button => button.disabled = false);
+      text.disabled = false;
+      text.focus();
+    }
+  }
+  form.addEventListener('submit', async event => {
+    event.preventDefault();
+    const value = text.value.trim();
+    if (!value) return;
+    add(value, 'user');
+    text.value = '';
+    status.classList.remove('error');
+    const result = await request('/turn', { text: value });
+    if (!result) return;
+    if (document.querySelector('#traces').checked) add('🧩 ' + result.state, 'trace');
+    add(result.reply || '∅', 'assistant');
+    if (!result.reply_terminated || !result.state_terminated) status.textContent = 'Generation hit its limit. This reply may be incomplete.';
+  });
+  document.querySelector('#reset').addEventListener('click', async () => {
+    const result = await request('/reset', {});
+    if (result) { messages.replaceChildren(); add(result.reply, 'assistant'); }
+  });
+</script>
+</html>

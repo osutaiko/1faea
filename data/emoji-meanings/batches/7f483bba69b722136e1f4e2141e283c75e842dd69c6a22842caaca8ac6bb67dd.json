@@ -1,0 +1,685 @@
+{
+  "names": [
+    "woman dancing",
+    "man dancing",
+    "person in suit levitating",
+    "people with bunny ears",
+    "men with bunny ears",
+    "women with bunny ears",
+    "person in steamy room",
+    "man in steamy room",
+    "woman in steamy room",
+    "person climbing",
+    "man climbing",
+    "woman climbing",
+    "person fencing",
+    "horse racing",
+    "skier",
+    "snowboarder",
+    "person golfing",
+    "man golfing",
+    "woman golfing",
+    "person surfing",
+    "man surfing",
+    "woman surfing",
+    "person rowing boat",
+    "man rowing boat",
+    "woman rowing boat",
+    "person swimming",
+    "man swimming",
+    "woman swimming",
+    "person bouncing ball",
+    "man bouncing ball",
+    "woman bouncing ball",
+    "person lifting weights",
+    "man lifting weights",
+    "woman lifting weights",
+    "person biking",
+    "man biking",
+    "woman biking",
+    "person mountain biking",
+    "man mountain biking",
+    "woman mountain biking"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "woman dancing",
+        "associations": [
+          "dance",
+          "movement",
+          "music",
+          "performance",
+          "joy"
+        ]
+      },
+      {
+        "id": "man dancing",
+        "associations": [
+          "dance",
+          "movement",
+          "music",
+          "performance",
+          "energy"
+        ]
+      },
+      {
+        "id": "person in suit levitating",
+        "associations": [
+          "floating",
+          "suit",
+          "surreal",
+          "magic",
+          "weightless"
+        ]
+      },
+      {
+        "id": "people with bunny ears",
+        "associations": [
+          "playful",
+          "costume",
+          "party",
+          "bunny ears",
+          "celebration"
+        ]
+      },
+      {
+        "id": "men with bunny ears",
+        "associations": [
+          "playful",
+          "costume",
+          "party",
+          "bunny ears",
+          "celebration"
+        ]
+      },
+      {
+        "id": "women with bunny ears",
+        "associations": [
+          "playful",
+          "costume",
+          "party",
+          "bunny ears",
+          "celebration"
+        ]
+      },
+      {
+        "id": "person in steamy room",
+        "associations": [
+          "steam",
+          "heat",
+          "relaxation",
+          "sauna",
+          "sweat"
+        ]
+      },
+      {
+        "id": "man in steamy room",
+        "associations": [
+          "steam",
+          "heat",
+          "relaxation",
+          "sauna",
+          "sweat"
+        ]
+      },
+      {
+        "id": "woman in steamy room",
+        "associations": [
+          "steam",
+          "heat",
+          "relaxation",
+          "sauna",
+          "sweat"
+        ]
+      },
+      {
+        "id": "person climbing",
+        "associations": [
+          "climb",
+          "ascent",
+          "rock",
+          "effort",
+          "challenge"
+        ]
+      },
+      {
+        "id": "man climbing",
+        "associations": [
+          "climb",
+          "ascent",
+          "rock",
+          "effort",
+          "challenge"
+        ]
+      },
+      {
+        "id": "woman climbing",
+        "associations": [
+          "climb",
+          "ascent",
+          "rock",
+          "effort",
+          "challenge"
+        ]
+      },
+      {
+        "id": "person fencing",
+        "associations": [
+          "fencing",
+          "sword",
+          "duel",
+          "sport",
+          "precision"
+        ]
+      },
+      {
+        "id": "horse racing",
+        "associations": [
+          "race",
+          "horse",
+          "speed",
+          "track",
+          "competition"
+        ]
+      },
+      {
+        "id": "skier",
+        "associations": [
+          "ski",
+          "snow",
+          "slopes",
+          "winter",
+          "gliding"
+        ]
+      },
+      {
+        "id": "snowboarder",
+        "associations": [
+          "snowboard",
+          "snow",
+          "slopes",
+          "winter",
+          "tricks"
+        ]
+      },
+      {
+        "id": "person golfing",
+        "associations": [
+          "golf",
+          "club",
+          "course",
+          "swing",
+          "focus"
+        ]
+      },
+      {
+        "id": "man golfing",
+        "associations": [
+          "golf",
+          "club",
+          "course",
+          "swing",
+          "focus"
+        ]
+      },
+      {
+        "id": "woman golfing",
+        "associations": [
+          "golf",
+          "club",
+          "course",
+          "swing",
+          "focus"
+        ]
+      },
+      {
+        "id": "person surfing",
+        "associations": [
+          "surfing",
+          "wave",
+          "board",
+          "ocean",
+          "balance"
+        ]
+      },
+      {
+        "id": "man surfing",
+        "associations": [
+          "surfing",
+          "wave",
+          "board",
+          "ocean",
+          "balance"
+        ]
+      },
+      {
+        "id": "woman surfing",
+        "associations": [
+          "surfing",
+          "wave",
+          "board",
+          "ocean",
+          "balance"
+        ]
+      },
+      {
+        "id": "person rowing boat",
+        "associations": [
+          "rowing",
+          "boat",
+          "oars",
+          "water",
+          "rhythm"
+        ]
+      },
+      {
+        "id": "man rowing boat",
+        "associations": [
+          "rowing",
+          "boat",
+          "oars",
+          "water",
+          "rhythm"
+        ]
+      },
+      {
+        "id": "woman rowing boat",
+        "associations": [
+          "rowing",
+          "boat",
+          "oars",
+          "water",
+          "rhythm"
+        ]
+      },
+      {
+        "id": "person swimming",
+        "associations": [
+          "swimming",
+          "water",
+          "stroke",
+          "pool",
+          "exercise"
+        ]
+      },
+      {
+        "id": "man swimming",
+        "associations": [
+          "swimming",
+          "water",
+          "stroke",
+          "pool",
+          "exercise"
+        ]
+      },
+      {
+        "id": "woman swimming",
+        "associations": [
+          "swimming",
+          "water",
+          "stroke",
+          "pool",
+          "exercise"
+        ]
+      },
+      {
+        "id": "person bouncing ball",
+        "associations": [
+          "bouncing",
+          "ball",
+          "dribble",
+          "play",
+          "sport"
+        ]
+      },
+      {
+        "id": "man bouncing ball",
+        "associations": [
+          "bouncing",
+          "ball",
+          "dribble",
+          "play",
+          "sport"
+        ]
+      },
+      {
+        "id": "woman bouncing ball",
+        "associations": [
+          "bouncing",
+          "ball",
+          "dribble",
+          "play",
+          "sport"
+        ]
+      },
+      {
+        "id": "person lifting weights",
+        "associations": [
+          "weights",
+          "lifting",
+          "gym",
+          "strength",
+          "fitness"
+        ]
+      },
+      {
+        "id": "man lifting weights",
+        "associations": [
+          "weights",
+          "lifting",
+          "gym",
+          "strength",
+          "fitness"
+        ]
+      },
+      {
+        "id": "woman lifting weights",
+        "associations": [
+          "weights",
+          "lifting",
+          "gym",
+          "strength",
+          "fitness"
+        ]
+      },
+      {
+        "id": "person biking",
+        "associations": [
+          "biking",
+          "bicycle",
+          "ride",
+          "speed",
+          "commute"
+        ]
+      },
+      {
+        "id": "man biking",
+        "associations": [
+          "biking",
+          "bicycle",
+          "ride",
+          "speed",
+          "commute"
+        ]
+      },
+      {
+        "id": "woman biking",
+        "associations": [
+          "biking",
+          "bicycle",
+          "ride",
+          "speed",
+          "commute"
+        ]
+      },
+      {
+        "id": "person mountain biking",
+        "associations": [
+          "mountain biking",
+          "trail",
+          "bike",
+          "outdoors",
+          "adventure"
+        ]
+      },
+      {
+        "id": "man mountain biking",
+        "associations": [
+          "mountain biking",
+          "trail",
+          "bike",
+          "outdoors",
+          "adventure"
+        ]
+      },
+      {
+        "id": "woman mountain biking",
+        "associations": [
+          "mountain biking",
+          "trail",
+          "bike",
+          "outdoors",
+          "adventure"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_03b68e344d23781b016abfaeaad7f087d099e413eb139bbe5c",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1403,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 701,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2104
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "woman dancing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "man dancing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "person in suit levitating",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "people with bunny ears",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "men with bunny ears",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "women with bunny ears",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "person in steamy room",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "man in steamy room",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "woman in steamy room",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "person climbing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "man climbing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "woman climbing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "person fencing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "horse racing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "skier",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "snowboarder",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "person golfing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "man golfing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "woman golfing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "person surfing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "man surfing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "woman surfing",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "person rowing boat",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "man rowing boat",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "woman rowing boat",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "person swimming",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "man swimming",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "woman swimming",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "person bouncing ball",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "man bouncing ball",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "woman bouncing ball",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "person lifting weights",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "man lifting weights",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "woman lifting weights",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "person biking",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "man biking",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "woman biking",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "person mountain biking",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "man mountain biking",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      },
+      {
+        "id": "woman mountain biking",
+        "rejected": [],
+        "reason": "All associations are ordinary and consistent with the core meaning."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_02fecaf79562327b016abfaeaedb3487d091e757667f15a42d",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2541,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 880,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3421
+    }
+  }
+}

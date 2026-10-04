@@ -1,0 +1,13 @@
+{
+  "runtime_bytes": 16454895,
+  "runtime_sha256": "6df8144263a5b3c0e48724a9ec788a5abe01e862189e1b85ca1f5db263aa5cbb",
+  "english_decoder_weights_exported": false,
+  "semantic_encoder": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "license": "Apache-2.0",
+    "source": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+    "dimensions": 384
+  },
+  "selected_reply_step": 600
+}

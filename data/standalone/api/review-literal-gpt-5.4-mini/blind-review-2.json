@@ -1,0 +1,104 @@
+{
+  "fingerprint": "4bd73e311e2667a3a2d98354edd9b69a899e7362cd5f652215483c59b4dbce1d",
+  "decoded": {
+    "rows": [
+      {
+        "id": "control-heredity",
+        "state_reading": "dna",
+        "answer_reading": "dna | brain | family"
+      },
+      {
+        "id": "control-battery",
+        "state_reading": "mobile phone | battery",
+        "answer_reading": "black circle"
+      },
+      {
+        "id": "control-paris",
+        "state_reading": "Tokyo tower",
+        "answer_reading": "Tokyo tower"
+      },
+      {
+        "id": "control-rain",
+        "state_reading": "cloud with rain",
+        "answer_reading": "cloud with rain | straight ruler"
+      },
+      {
+        "id": "control-snack",
+        "state_reading": "red apple | unknown",
+        "answer_reading": "red apple"
+      },
+      {
+        "id": "control-pet",
+        "state_reading": "cat | unknown",
+        "answer_reading": "cat"
+      },
+      {
+        "id": "control-weather",
+        "state_reading": "cloud with snow | unknown",
+        "answer_reading": "unknown"
+      }
+    ]
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "control-heredity",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state keeps the topic of heredity via DNA, but the answer is only a list of related things and does not define heredity or answer the question."
+      },
+      {
+        "id": "control-battery",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state stays on phone battery life, but a black circle does not literally answer how to make the battery last longer."
+      },
+      {
+        "id": "control-paris",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "Tokyo Tower is not a landmark in Paris, so the state does not preserve the question or answer it."
+      },
+      {
+        "id": "control-rain",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state matches the topic of rainfall, but a cloud with rain plus a straight ruler does not faithfully represent how rain is measured."
+      },
+      {
+        "id": "control-snack",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the fruit-snack topic, and a red apple is a valid fruit snack."
+      },
+      {
+        "id": "control-pet",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the common-pet topic, and a cat is a valid answer."
+      },
+      {
+        "id": "control-weather",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state keeps the snow/weather topic, and 'unknown' is a faithful response when the answer cannot be determined."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_0b16c9af99d3f940016abfa5569e1887d0860f398dcc41222a",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 515,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 677,
+      "output_tokens_details": {
+        "reasoning_tokens": 325
+      },
+      "total_tokens": 1192
+    }
+  }
+}

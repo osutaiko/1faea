@@ -1,0 +1,685 @@
+{
+  "names": [
+    "flag: Comoros",
+    "flag: St. Kitts & Nevis",
+    "flag: North Korea",
+    "flag: South Korea",
+    "flag: Kuwait",
+    "flag: Cayman Islands",
+    "flag: Kazakhstan",
+    "flag: Laos",
+    "flag: Lebanon",
+    "flag: St. Lucia",
+    "flag: Liechtenstein",
+    "flag: Sri Lanka",
+    "flag: Liberia",
+    "flag: Lesotho",
+    "flag: Lithuania",
+    "flag: Luxembourg",
+    "flag: Latvia",
+    "flag: Libya",
+    "flag: Morocco",
+    "flag: Monaco",
+    "flag: Moldova",
+    "flag: Montenegro",
+    "flag: St. Martin",
+    "flag: Madagascar",
+    "flag: Marshall Islands",
+    "flag: North Macedonia",
+    "flag: Mali",
+    "flag: Myanmar (Burma)",
+    "flag: Mongolia",
+    "flag: Macao SAR China",
+    "flag: Northern Mariana Islands",
+    "flag: Martinique",
+    "flag: Mauritania",
+    "flag: Montserrat",
+    "flag: Malta",
+    "flag: Mauritius",
+    "flag: Maldives",
+    "flag: Malawi",
+    "flag: Mexico",
+    "flag: Malaysia"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "flag: Comoros",
+        "associations": [
+          "Comoros",
+          "island nation",
+          "ocean",
+          "flag",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: St. Kitts & Nevis",
+        "associations": [
+          "St. Kitts & Nevis",
+          "Caribbean",
+          "islands",
+          "flag",
+          "national pride"
+        ]
+      },
+      {
+        "id": "flag: North Korea",
+        "associations": [
+          "North Korea",
+          "national flag",
+          "state symbol",
+          "Korean peninsula",
+          "official emblem"
+        ]
+      },
+      {
+        "id": "flag: South Korea",
+        "associations": [
+          "South Korea",
+          "national flag",
+          "Korean peninsula",
+          "state symbol",
+          "modern identity"
+        ]
+      },
+      {
+        "id": "flag: Kuwait",
+        "associations": [
+          "Kuwait",
+          "national flag",
+          "Gulf state",
+          "state symbol",
+          "sovereignty"
+        ]
+      },
+      {
+        "id": "flag: Cayman Islands",
+        "associations": [
+          "Cayman Islands",
+          "Caribbean",
+          "islands",
+          "flag",
+          "tourism"
+        ]
+      },
+      {
+        "id": "flag: Kazakhstan",
+        "associations": [
+          "Kazakhstan",
+          "Central Asia",
+          "national flag",
+          "steppe",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Laos",
+        "associations": [
+          "Laos",
+          "Southeast Asia",
+          "national flag",
+          "mountains",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Lebanon",
+        "associations": [
+          "Lebanon",
+          "cedar tree",
+          "national flag",
+          "Levant",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: St. Lucia",
+        "associations": [
+          "St. Lucia",
+          "Caribbean",
+          "island nation",
+          "flag",
+          "tropical"
+        ]
+      },
+      {
+        "id": "flag: Liechtenstein",
+        "associations": [
+          "Liechtenstein",
+          "small state",
+          "Alps",
+          "national flag",
+          "principality"
+        ]
+      },
+      {
+        "id": "flag: Sri Lanka",
+        "associations": [
+          "Sri Lanka",
+          "island nation",
+          "Indian Ocean",
+          "national flag",
+          "heritage"
+        ]
+      },
+      {
+        "id": "flag: Liberia",
+        "associations": [
+          "Liberia",
+          "West Africa",
+          "national flag",
+          "state symbol",
+          "coast"
+        ]
+      },
+      {
+        "id": "flag: Lesotho",
+        "associations": [
+          "Lesotho",
+          "mountain kingdom",
+          "Africa",
+          "national flag",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Lithuania",
+        "associations": [
+          "Lithuania",
+          "Baltic",
+          "national flag",
+          "state symbol",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Luxembourg",
+        "associations": [
+          "Luxembourg",
+          "Europe",
+          "national flag",
+          "state symbol",
+          "small country"
+        ]
+      },
+      {
+        "id": "flag: Latvia",
+        "associations": [
+          "Latvia",
+          "Baltic",
+          "national flag",
+          "state symbol",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Libya",
+        "associations": [
+          "Libya",
+          "North Africa",
+          "national flag",
+          "state symbol",
+          "desert"
+        ]
+      },
+      {
+        "id": "flag: Morocco",
+        "associations": [
+          "Morocco",
+          "North Africa",
+          "national flag",
+          "state symbol",
+          "red"
+        ]
+      },
+      {
+        "id": "flag: Monaco",
+        "associations": [
+          "Monaco",
+          "microstate",
+          "Europe",
+          "national flag",
+          "luxury"
+        ]
+      },
+      {
+        "id": "flag: Moldova",
+        "associations": [
+          "Moldova",
+          "Eastern Europe",
+          "national flag",
+          "state symbol",
+          "country"
+        ]
+      },
+      {
+        "id": "flag: Montenegro",
+        "associations": [
+          "Montenegro",
+          "Balkans",
+          "national flag",
+          "state symbol",
+          "mountains"
+        ]
+      },
+      {
+        "id": "flag: St. Martin",
+        "associations": [
+          "St. Martin",
+          "Caribbean",
+          "island territory",
+          "flag",
+          "coast"
+        ]
+      },
+      {
+        "id": "flag: Madagascar",
+        "associations": [
+          "Madagascar",
+          "island",
+          "Indian Ocean",
+          "national flag",
+          "wildlife"
+        ]
+      },
+      {
+        "id": "flag: Marshall Islands",
+        "associations": [
+          "Marshall Islands",
+          "Pacific",
+          "islands",
+          "national flag",
+          "ocean"
+        ]
+      },
+      {
+        "id": "flag: North Macedonia",
+        "associations": [
+          "North Macedonia",
+          "Balkans",
+          "national flag",
+          "state symbol",
+          "country"
+        ]
+      },
+      {
+        "id": "flag: Mali",
+        "associations": [
+          "Mali",
+          "West Africa",
+          "national flag",
+          "state symbol",
+          "Sahel"
+        ]
+      },
+      {
+        "id": "flag: Myanmar (Burma)",
+        "associations": [
+          "Myanmar",
+          "Burma",
+          "Southeast Asia",
+          "national flag",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Mongolia",
+        "associations": [
+          "Mongolia",
+          "steppe",
+          "national flag",
+          "Asia",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Macao SAR China",
+        "associations": [
+          "Macao SAR China",
+          "special region",
+          "flag",
+          "coastal",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Northern Mariana Islands",
+        "associations": [
+          "Northern Mariana Islands",
+          "Pacific",
+          "territory",
+          "flag",
+          "islands"
+        ]
+      },
+      {
+        "id": "flag: Martinique",
+        "associations": [
+          "Martinique",
+          "Caribbean",
+          "island",
+          "flag",
+          "French territory"
+        ]
+      },
+      {
+        "id": "flag: Mauritania",
+        "associations": [
+          "Mauritania",
+          "West Africa",
+          "national flag",
+          "desert",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Montserrat",
+        "associations": [
+          "Montserrat",
+          "Caribbean",
+          "territory",
+          "flag",
+          "island"
+        ]
+      },
+      {
+        "id": "flag: Malta",
+        "associations": [
+          "Malta",
+          "Mediterranean",
+          "island nation",
+          "national flag",
+          "history"
+        ]
+      },
+      {
+        "id": "flag: Mauritius",
+        "associations": [
+          "Mauritius",
+          "Indian Ocean",
+          "island nation",
+          "national flag",
+          "tropical"
+        ]
+      },
+      {
+        "id": "flag: Maldives",
+        "associations": [
+          "Maldives",
+          "atolls",
+          "Indian Ocean",
+          "national flag",
+          "beach"
+        ]
+      },
+      {
+        "id": "flag: Malawi",
+        "associations": [
+          "Malawi",
+          "Africa",
+          "national flag",
+          "lake",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Mexico",
+        "associations": [
+          "Mexico",
+          "national flag",
+          "country",
+          "heritage",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Malaysia",
+        "associations": [
+          "Malaysia",
+          "Southeast Asia",
+          "national flag",
+          "country",
+          "state symbol"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0b988d5edbd472a2016abfafe8ffa887d0876f85f94c210a49",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1525,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 850,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2375
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "flag: Comoros",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: St. Kitts & Nevis",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: North Korea",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: South Korea",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Kuwait",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Cayman Islands",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Kazakhstan",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Laos",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Lebanon",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: St. Lucia",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Liechtenstein",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Sri Lanka",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Liberia",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Lesotho",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Lithuania",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Luxembourg",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Latvia",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Libya",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Morocco",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Monaco",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Moldova",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Montenegro",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: St. Martin",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Madagascar",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Marshall Islands",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: North Macedonia",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Mali",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Myanmar (Burma)",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Mongolia",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Macao SAR China",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Northern Mariana Islands",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Martinique",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Mauritania",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Montserrat",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Malta",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Mauritius",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Maldives",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Malawi",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Mexico",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flag: Malaysia",
+        "rejected": [],
+        "reason": ""
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0ea6941d3b51bdba016abfafee5bcc87d0a4d407c0eda6a32d",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3459,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 521,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3980
+    }
+  }
+}

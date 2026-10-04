@@ -1,0 +1,703 @@
+{
+  "names": [
+    "ladder",
+    "shovel",
+    "alembic",
+    "test tube",
+    "petri dish",
+    "dna",
+    "microscope",
+    "telescope",
+    "satellite antenna",
+    "syringe",
+    "drop of blood",
+    "pill",
+    "adhesive bandage",
+    "crutch",
+    "stethoscope",
+    "x-ray",
+    "door",
+    "elevator",
+    "mirror",
+    "window",
+    "bed",
+    "couch and lamp",
+    "chair",
+    "toilet",
+    "plunger",
+    "shower",
+    "bathtub",
+    "mouse trap",
+    "razor",
+    "lotion bottle",
+    "safety pin",
+    "broom",
+    "basket",
+    "roll of paper",
+    "bucket",
+    "soap",
+    "bubbles",
+    "toothbrush",
+    "sponge",
+    "fire extinguisher"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "ladder",
+        "associations": [
+          "climb",
+          "steps",
+          "height",
+          "support",
+          "reach"
+        ]
+      },
+      {
+        "id": "shovel",
+        "associations": [
+          "dig",
+          "garden",
+          "soil",
+          "tool",
+          "scoop"
+        ]
+      },
+      {
+        "id": "alembic",
+        "associations": [
+          "alchemy",
+          "distillation",
+          "lab vessel",
+          "chemistry",
+          "glassware"
+        ]
+      },
+      {
+        "id": "test tube",
+        "associations": [
+          "sample",
+          "lab",
+          "chemistry",
+          "glass tube",
+          "experiment"
+        ]
+      },
+      {
+        "id": "petri dish",
+        "associations": [
+          "culture",
+          "lab",
+          "sample",
+          "biology",
+          "dish"
+        ]
+      },
+      {
+        "id": "dna",
+        "associations": [
+          "genes",
+          "genetic code",
+          "helix",
+          "inheritance",
+          "biology"
+        ]
+      },
+      {
+        "id": "microscope",
+        "associations": [
+          "magnify",
+          "small objects",
+          "lab",
+          "biology",
+          "lens"
+        ]
+      },
+      {
+        "id": "telescope",
+        "associations": [
+          "stars",
+          "viewing distance",
+          "astronomy",
+          "lens",
+          "space"
+        ]
+      },
+      {
+        "id": "satellite antenna",
+        "associations": [
+          "signal",
+          "communication",
+          "dish",
+          "broadcast",
+          "reception"
+        ]
+      },
+      {
+        "id": "syringe",
+        "associations": [
+          "injection",
+          "needle",
+          "medicine",
+          "vaccination",
+          "dose"
+        ]
+      },
+      {
+        "id": "drop of blood",
+        "associations": [
+          "blood",
+          "sample",
+          "injury",
+          "medical",
+          "red"
+        ]
+      },
+      {
+        "id": "pill",
+        "associations": [
+          "medicine",
+          "tablet",
+          "dose",
+          "health",
+          "swallow"
+        ]
+      },
+      {
+        "id": "adhesive bandage",
+        "associations": [
+          "wound",
+          "first aid",
+          "covering",
+          "protection",
+          "healing"
+        ]
+      },
+      {
+        "id": "crutch",
+        "associations": [
+          "walking aid",
+          "support",
+          "injury",
+          "mobility",
+          "rehabilitation"
+        ]
+      },
+      {
+        "id": "stethoscope",
+        "associations": [
+          "heartbeat",
+          "doctor",
+          "listening",
+          "medical",
+          "examination"
+        ]
+      },
+      {
+        "id": "x-ray",
+        "associations": [
+          "bones",
+          "scan",
+          "medical imaging",
+          "diagnosis",
+          "radiology"
+        ]
+      },
+      {
+        "id": "door",
+        "associations": [
+          "entry",
+          "exit",
+          "opening",
+          "room",
+          "threshold"
+        ]
+      },
+      {
+        "id": "elevator",
+        "associations": [
+          "lift",
+          "floor",
+          "up and down",
+          "building",
+          "transport"
+        ]
+      },
+      {
+        "id": "mirror",
+        "associations": [
+          "reflection",
+          "self-image",
+          "glass",
+          "look",
+          "shine"
+        ]
+      },
+      {
+        "id": "window",
+        "associations": [
+          "view",
+          "light",
+          "glass",
+          "opening",
+          "frame"
+        ]
+      },
+      {
+        "id": "bed",
+        "associations": [
+          "sleep",
+          "rest",
+          "bedroom",
+          "mattress",
+          "comfort"
+        ]
+      },
+      {
+        "id": "couch and lamp",
+        "associations": [
+          "living room",
+          "relaxing",
+          "furniture",
+          "cozy",
+          "home"
+        ]
+      },
+      {
+        "id": "chair",
+        "associations": [
+          "seat",
+          "sitting",
+          "furniture",
+          "support",
+          "table"
+        ]
+      },
+      {
+        "id": "toilet",
+        "associations": [
+          "bathroom",
+          "flush",
+          "restroom",
+          "plumbing",
+          "hygiene"
+        ]
+      },
+      {
+        "id": "plunger",
+        "associations": [
+          "clog",
+          "unclog",
+          "bathroom",
+          "tool",
+          "repair"
+        ]
+      },
+      {
+        "id": "shower",
+        "associations": [
+          "wash",
+          "water",
+          "bathroom",
+          "clean",
+          "rinse"
+        ]
+      },
+      {
+        "id": "bathtub",
+        "associations": [
+          "bath",
+          "soak",
+          "water",
+          "relax",
+          "clean"
+        ]
+      },
+      {
+        "id": "mouse trap",
+        "associations": [
+          "rodent",
+          "catch",
+          "bait",
+          "pest",
+          "trap"
+        ]
+      },
+      {
+        "id": "razor",
+        "associations": [
+          "shave",
+          "blade",
+          "grooming",
+          "hair removal",
+          "sharp"
+        ]
+      },
+      {
+        "id": "lotion bottle",
+        "associations": [
+          "moisturize",
+          "skin care",
+          "bottle",
+          "cream",
+          "softness"
+        ]
+      },
+      {
+        "id": "safety pin",
+        "associations": [
+          "fasten",
+          "clothing",
+          "pin",
+          "clip",
+          "secure"
+        ]
+      },
+      {
+        "id": "broom",
+        "associations": [
+          "sweep",
+          "cleaning",
+          "dust",
+          "floor",
+          "bristles"
+        ]
+      },
+      {
+        "id": "basket",
+        "associations": [
+          "carry",
+          "weave",
+          "container",
+          "storage",
+          "handle"
+        ]
+      },
+      {
+        "id": "roll of paper",
+        "associations": [
+          "paper",
+          "toilet paper",
+          "roll",
+          "tissue",
+          "soft"
+        ]
+      },
+      {
+        "id": "bucket",
+        "associations": [
+          "container",
+          "carry",
+          "water",
+          "pail",
+          "fill"
+        ]
+      },
+      {
+        "id": "soap",
+        "associations": [
+          "clean",
+          "lather",
+          "wash",
+          "hygiene",
+          "foam"
+        ]
+      },
+      {
+        "id": "bubbles",
+        "associations": [
+          "foam",
+          "float",
+          "soap",
+          "pop",
+          "light"
+        ]
+      },
+      {
+        "id": "toothbrush",
+        "associations": [
+          "teeth",
+          "brush",
+          "oral care",
+          "clean",
+          "daily"
+        ]
+      },
+      {
+        "id": "sponge",
+        "associations": [
+          "absorb",
+          "clean",
+          "scrub",
+          "soft",
+          "wash"
+        ]
+      },
+      {
+        "id": "fire extinguisher",
+        "associations": [
+          "fire",
+          "safety",
+          "emergency",
+          "spray",
+          "extinguish"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_00741dac2bcd8e35016abfafb295e087d0b73dfd4232351bfb",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1331,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 672,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2003
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "ladder",
+        "rejected": [],
+        "reason": "All associations are directly related to a ladder."
+      },
+      {
+        "id": "shovel",
+        "rejected": [],
+        "reason": "All associations are directly related to a shovel."
+      },
+      {
+        "id": "alembic",
+        "rejected": [
+          "alchemy"
+        ],
+        "reason": "An alembic is a distillation vessel; 'alchemy' is a broader historical context rather than the literal core meaning."
+      },
+      {
+        "id": "test tube",
+        "rejected": [],
+        "reason": "All associations are directly related to a test tube."
+      },
+      {
+        "id": "petri dish",
+        "rejected": [
+          "dish"
+        ],
+        "reason": "A petri dish is a lab culture dish; 'dish' is too generic and not a specific association."
+      },
+      {
+        "id": "dna",
+        "rejected": [],
+        "reason": "All associations are directly related to DNA."
+      },
+      {
+        "id": "microscope",
+        "rejected": [],
+        "reason": "All associations are directly related to a microscope."
+      },
+      {
+        "id": "telescope",
+        "rejected": [
+          "viewing distance"
+        ],
+        "reason": "This is vague and not a standard association for a telescope compared with the others."
+      },
+      {
+        "id": "satellite antenna",
+        "rejected": [],
+        "reason": "All associations are directly related to a satellite antenna."
+      },
+      {
+        "id": "syringe",
+        "rejected": [],
+        "reason": "All associations are directly related to a syringe."
+      },
+      {
+        "id": "drop of blood",
+        "rejected": [
+          "red"
+        ],
+        "reason": "Color alone is too indirect; the other associations are more literal."
+      },
+      {
+        "id": "pill",
+        "rejected": [],
+        "reason": "All associations are directly related to a pill."
+      },
+      {
+        "id": "adhesive bandage",
+        "rejected": [],
+        "reason": "All associations are directly related to an adhesive bandage."
+      },
+      {
+        "id": "crutch",
+        "rejected": [],
+        "reason": "All associations are directly related to a crutch."
+      },
+      {
+        "id": "stethoscope",
+        "rejected": [
+          "doctor"
+        ],
+        "reason": "A stethoscope is used by doctors, but 'doctor' names a person rather than the object’s core meaning."
+      },
+      {
+        "id": "x-ray",
+        "rejected": [],
+        "reason": "All associations are directly related to x-ray."
+      },
+      {
+        "id": "door",
+        "rejected": [],
+        "reason": "All associations are directly related to a door."
+      },
+      {
+        "id": "elevator",
+        "rejected": [],
+        "reason": "All associations are directly related to an elevator."
+      },
+      {
+        "id": "mirror",
+        "rejected": [
+          "shine"
+        ],
+        "reason": "A mirror reflects; 'shine' is only loosely related and not a core association."
+      },
+      {
+        "id": "window",
+        "rejected": [],
+        "reason": "All associations are directly related to a window."
+      },
+      {
+        "id": "bed",
+        "rejected": [],
+        "reason": "All associations are directly related to a bed."
+      },
+      {
+        "id": "couch and lamp",
+        "rejected": [
+          "furniture"
+        ],
+        "reason": "This is too generic for the specific combined emoji meaning."
+      },
+      {
+        "id": "chair",
+        "rejected": [
+          "table"
+        ],
+        "reason": "A table is not a chair and is unrelated as an association here."
+      },
+      {
+        "id": "toilet",
+        "rejected": [],
+        "reason": "All associations are directly related to a toilet."
+      },
+      {
+        "id": "plunger",
+        "rejected": [],
+        "reason": "All associations are directly related to a plunger."
+      },
+      {
+        "id": "shower",
+        "rejected": [],
+        "reason": "All associations are directly related to a shower."
+      },
+      {
+        "id": "bathtub",
+        "rejected": [],
+        "reason": "All associations are directly related to a bathtub."
+      },
+      {
+        "id": "mouse trap",
+        "rejected": [],
+        "reason": "All associations are directly related to a mouse trap."
+      },
+      {
+        "id": "razor",
+        "rejected": [],
+        "reason": "All associations are directly related to a razor."
+      },
+      {
+        "id": "lotion bottle",
+        "rejected": [
+          "bottle"
+        ],
+        "reason": "This is a container term rather than a semantic association with the lotion itself."
+      },
+      {
+        "id": "safety pin",
+        "rejected": [],
+        "reason": "All associations are directly related to a safety pin."
+      },
+      {
+        "id": "broom",
+        "rejected": [],
+        "reason": "All associations are directly related to a broom."
+      },
+      {
+        "id": "basket",
+        "rejected": [],
+        "reason": "All associations are directly related to a basket."
+      },
+      {
+        "id": "roll of paper",
+        "rejected": [],
+        "reason": "All associations are directly related to a roll of paper."
+      },
+      {
+        "id": "bucket",
+        "rejected": [],
+        "reason": "All associations are directly related to a bucket."
+      },
+      {
+        "id": "soap",
+        "rejected": [],
+        "reason": "All associations are directly related to soap."
+      },
+      {
+        "id": "bubbles",
+        "rejected": [],
+        "reason": "All associations are directly related to bubbles."
+      },
+      {
+        "id": "toothbrush",
+        "rejected": [],
+        "reason": "All associations are directly related to a toothbrush."
+      },
+      {
+        "id": "sponge",
+        "rejected": [],
+        "reason": "All associations are directly related to a sponge."
+      },
+      {
+        "id": "fire extinguisher",
+        "rejected": [],
+        "reason": "All associations are directly related to a fire extinguisher."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_03c015bdd3119cb6016abfafb8513087d0be1d301b4ce77421",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3104,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 884,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3988
+    }
+  }
+}

@@ -1,0 +1,705 @@
+{
+  "names": [
+    "A button (blood type)",
+    "AB button (blood type)",
+    "B button (blood type)",
+    "CL button",
+    "COOL button",
+    "FREE button",
+    "information",
+    "ID button",
+    "circled M",
+    "NEW button",
+    "NG button",
+    "O button (blood type)",
+    "OK button",
+    "P button",
+    "SOS button",
+    "UP! button",
+    "VS button",
+    "Japanese “here” button",
+    "Japanese “service charge” button",
+    "Japanese “monthly amount” button",
+    "Japanese “not free of charge” button",
+    "Japanese “reserved” button",
+    "Japanese “bargain” button",
+    "Japanese “discount” button",
+    "Japanese “free of charge” button",
+    "Japanese “prohibited” button",
+    "Japanese “acceptable” button",
+    "Japanese “application” button",
+    "Japanese “passing grade” button",
+    "Japanese “vacancy” button",
+    "Japanese “congratulations” button",
+    "Japanese “secret” button",
+    "Japanese “open for business” button",
+    "Japanese “no vacancy” button",
+    "red circle",
+    "orange circle",
+    "yellow circle",
+    "green circle",
+    "blue circle",
+    "purple circle"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "A button (blood type)",
+        "associations": [
+          "blood type",
+          "group A",
+          "medical label",
+          "compatibility",
+          "marker"
+        ]
+      },
+      {
+        "id": "AB button (blood type)",
+        "associations": [
+          "blood type",
+          "group AB",
+          "medical label",
+          "compatibility",
+          "marker"
+        ]
+      },
+      {
+        "id": "B button (blood type)",
+        "associations": [
+          "blood type",
+          "group B",
+          "medical label",
+          "compatibility",
+          "marker"
+        ]
+      },
+      {
+        "id": "CL button",
+        "associations": [
+          "button",
+          "abbreviation",
+          "label",
+          "interface",
+          "control"
+        ]
+      },
+      {
+        "id": "COOL button",
+        "associations": [
+          "button",
+          "approval",
+          "style",
+          "slang",
+          "positive"
+        ]
+      },
+      {
+        "id": "FREE button",
+        "associations": [
+          "button",
+          "no cost",
+          "promotion",
+          "offer",
+          "discount"
+        ]
+      },
+      {
+        "id": "information",
+        "associations": [
+          "data",
+          "details",
+          "facts",
+          "notice",
+          "help"
+        ]
+      },
+      {
+        "id": "ID button",
+        "associations": [
+          "button",
+          "identification",
+          "profile",
+          "badge",
+          "access"
+        ]
+      },
+      {
+        "id": "circled M",
+        "associations": [
+          "symbol",
+          "metro",
+          "mass transit",
+          "map marker",
+          "location"
+        ]
+      },
+      {
+        "id": "NEW button",
+        "associations": [
+          "button",
+          "recent",
+          "fresh",
+          "update",
+          "announcement"
+        ]
+      },
+      {
+        "id": "NG button",
+        "associations": [
+          "button",
+          "error",
+          "no good",
+          "rejection",
+          "fail"
+        ]
+      },
+      {
+        "id": "O button (blood type)",
+        "associations": [
+          "blood type",
+          "group O",
+          "medical label",
+          "compatibility",
+          "marker"
+        ]
+      },
+      {
+        "id": "OK button",
+        "associations": [
+          "button",
+          "approval",
+          "confirm",
+          "accept",
+          "fine"
+        ]
+      },
+      {
+        "id": "P button",
+        "associations": [
+          "button",
+          "parking",
+          "symbol",
+          "label",
+          "direction"
+        ]
+      },
+      {
+        "id": "SOS button",
+        "associations": [
+          "button",
+          "distress",
+          "emergency",
+          "help",
+          "alert"
+        ]
+      },
+      {
+        "id": "UP! button",
+        "associations": [
+          "button",
+          "increase",
+          "higher",
+          "lift",
+          "direction"
+        ]
+      },
+      {
+        "id": "VS button",
+        "associations": [
+          "button",
+          "comparison",
+          "opposition",
+          "matchup",
+          "against"
+        ]
+      },
+      {
+        "id": "Japanese “here” button",
+        "associations": [
+          "button",
+          "location",
+          "pointer",
+          "present",
+          "place"
+        ]
+      },
+      {
+        "id": "Japanese “service charge” button",
+        "associations": [
+          "button",
+          "fee",
+          "charge",
+          "cost",
+          "billing"
+        ]
+      },
+      {
+        "id": "Japanese “monthly amount” button",
+        "associations": [
+          "button",
+          "monthly fee",
+          "payment",
+          "subscription",
+          "billing"
+        ]
+      },
+      {
+        "id": "Japanese “not free of charge” button",
+        "associations": [
+          "button",
+          "paid",
+          "fee",
+          "charge",
+          "cost"
+        ]
+      },
+      {
+        "id": "Japanese “reserved” button",
+        "associations": [
+          "button",
+          "booked",
+          "saved",
+          "occupied",
+          "unavailable"
+        ]
+      },
+      {
+        "id": "Japanese “bargain” button",
+        "associations": [
+          "button",
+          "deal",
+          "value",
+          "sale",
+          "saving"
+        ]
+      },
+      {
+        "id": "Japanese “discount” button",
+        "associations": [
+          "button",
+          "reduction",
+          "sale",
+          "coupon",
+          "saving"
+        ]
+      },
+      {
+        "id": "Japanese “free of charge” button",
+        "associations": [
+          "button",
+          "gratis",
+          "no cost",
+          "complimentary",
+          "free"
+        ]
+      },
+      {
+        "id": "Japanese “prohibited” button",
+        "associations": [
+          "button",
+          "forbidden",
+          "no entry",
+          "ban",
+          "restriction"
+        ]
+      },
+      {
+        "id": "Japanese “acceptable” button",
+        "associations": [
+          "button",
+          "allowed",
+          "okay",
+          "permitted",
+          "approval"
+        ]
+      },
+      {
+        "id": "Japanese “application” button",
+        "associations": [
+          "button",
+          "form",
+          "apply",
+          "request",
+          "submission"
+        ]
+      },
+      {
+        "id": "Japanese “passing grade” button",
+        "associations": [
+          "button",
+          "pass",
+          "approved",
+          "score",
+          "success"
+        ]
+      },
+      {
+        "id": "Japanese “vacancy” button",
+        "associations": [
+          "button",
+          "available",
+          "open",
+          "empty",
+          "availability"
+        ]
+      },
+      {
+        "id": "Japanese “congratulations” button",
+        "associations": [
+          "button",
+          "celebration",
+          "success",
+          "praise",
+          "achievement"
+        ]
+      },
+      {
+        "id": "Japanese “secret” button",
+        "associations": [
+          "button",
+          "hidden",
+          "private",
+          "confidential",
+          "classified"
+        ]
+      },
+      {
+        "id": "Japanese “open for business” button",
+        "associations": [
+          "button",
+          "open",
+          "ready",
+          "active",
+          "business hours"
+        ]
+      },
+      {
+        "id": "Japanese “no vacancy” button",
+        "associations": [
+          "button",
+          "full",
+          "sold out",
+          "occupied",
+          "unavailable"
+        ]
+      },
+      {
+        "id": "red circle",
+        "associations": [
+          "circle",
+          "red",
+          "alert",
+          "stop",
+          "dot"
+        ]
+      },
+      {
+        "id": "orange circle",
+        "associations": [
+          "circle",
+          "orange",
+          "warm color",
+          "marker",
+          "dot"
+        ]
+      },
+      {
+        "id": "yellow circle",
+        "associations": [
+          "circle",
+          "yellow",
+          "bright",
+          "warning",
+          "dot"
+        ]
+      },
+      {
+        "id": "green circle",
+        "associations": [
+          "circle",
+          "green",
+          "go",
+          "safe",
+          "dot"
+        ]
+      },
+      {
+        "id": "blue circle",
+        "associations": [
+          "circle",
+          "blue",
+          "cool color",
+          "calm",
+          "dot"
+        ]
+      },
+      {
+        "id": "purple circle",
+        "associations": [
+          "circle",
+          "purple",
+          "violet",
+          "royal",
+          "dot"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0ec6927347728089016abfafcc98b887d09632628da2903064",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1648,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 704,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2352
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "A button (blood type)",
+        "rejected": [],
+        "reason": "All associations are directly related to the blood type A symbol."
+      },
+      {
+        "id": "AB button (blood type)",
+        "rejected": [],
+        "reason": "All associations are directly related to the blood type AB symbol."
+      },
+      {
+        "id": "B button (blood type)",
+        "rejected": [],
+        "reason": "All associations are directly related to the blood type B symbol."
+      },
+      {
+        "id": "CL button",
+        "rejected": [
+          "abbreviation"
+        ],
+        "reason": "This is a named button label, not generally an abbreviation in the meaning sense."
+      },
+      {
+        "id": "COOL button",
+        "rejected": [
+          "slang"
+        ],
+        "reason": "The core meaning is a button label; 'slang' is a language-register label rather than an association."
+      },
+      {
+        "id": "FREE button",
+        "rejected": [
+          "promotion",
+          "offer",
+          "discount"
+        ],
+        "reason": "These are marketing concepts that may accompany the button but are not core meaning associations."
+      },
+      {
+        "id": "information",
+        "rejected": [],
+        "reason": "All associations are ordinary semantic relatives of information."
+      },
+      {
+        "id": "ID button",
+        "rejected": [],
+        "reason": "All associations are directly related to an ID/identification button."
+      },
+      {
+        "id": "circled M",
+        "rejected": [
+          "metro",
+          "mass transit",
+          "map marker",
+          "location"
+        ],
+        "reason": "The symbol is a circled M; these are contextual interpretations rather than the literal core meaning."
+      },
+      {
+        "id": "NEW button",
+        "rejected": [],
+        "reason": "All associations are directly related to a 'new' label/button."
+      },
+      {
+        "id": "NG button",
+        "rejected": [
+          "error",
+          "rejection",
+          "fail"
+        ],
+        "reason": "These are broader inferred outcomes; the literal label is 'NG'."
+      },
+      {
+        "id": "O button (blood type)",
+        "rejected": [],
+        "reason": "All associations are directly related to the blood type O symbol."
+      },
+      {
+        "id": "OK button",
+        "rejected": [],
+        "reason": "All associations are directly related to an OK/approval button."
+      },
+      {
+        "id": "P button",
+        "rejected": [
+          "parking",
+          "direction"
+        ],
+        "reason": "These are context-specific interpretations, not the core literal meaning of the P button label."
+      },
+      {
+        "id": "SOS button",
+        "rejected": [],
+        "reason": "All associations are directly related to an SOS emergency button."
+      },
+      {
+        "id": "UP! button",
+        "rejected": [],
+        "reason": "All associations are directly related to an upward/increase button."
+      },
+      {
+        "id": "VS button",
+        "rejected": [],
+        "reason": "All associations are directly related to a versus/comparison button."
+      },
+      {
+        "id": "Japanese “here” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'here' label."
+      },
+      {
+        "id": "Japanese “service charge” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'service charge' label."
+      },
+      {
+        "id": "Japanese “monthly amount” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'monthly amount' label."
+      },
+      {
+        "id": "Japanese “not free of charge” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'not free of charge' label."
+      },
+      {
+        "id": "Japanese “reserved” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'reserved' label."
+      },
+      {
+        "id": "Japanese “bargain” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'bargain' label."
+      },
+      {
+        "id": "Japanese “discount” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'discount' label."
+      },
+      {
+        "id": "Japanese “free of charge” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'free of charge' label."
+      },
+      {
+        "id": "Japanese “prohibited” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'prohibited' label."
+      },
+      {
+        "id": "Japanese “acceptable” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'acceptable' label."
+      },
+      {
+        "id": "Japanese “application” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'application' label."
+      },
+      {
+        "id": "Japanese “passing grade” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'passing grade' label."
+      },
+      {
+        "id": "Japanese “vacancy” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'vacancy' label."
+      },
+      {
+        "id": "Japanese “congratulations” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'congratulations' label."
+      },
+      {
+        "id": "Japanese “secret” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'secret' label."
+      },
+      {
+        "id": "Japanese “open for business” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'open for business' label."
+      },
+      {
+        "id": "Japanese “no vacancy” button",
+        "rejected": [],
+        "reason": "All associations are directly related to the Japanese 'no vacancy' label."
+      },
+      {
+        "id": "red circle",
+        "rejected": [],
+        "reason": "All associations are ordinary descriptions or common connotations of a red circle."
+      },
+      {
+        "id": "orange circle",
+        "rejected": [],
+        "reason": "All associations are ordinary descriptions or common connotations of an orange circle."
+      },
+      {
+        "id": "yellow circle",
+        "rejected": [],
+        "reason": "All associations are ordinary descriptions or common connotations of a yellow circle."
+      },
+      {
+        "id": "green circle",
+        "rejected": [],
+        "reason": "All associations are ordinary descriptions or common connotations of a green circle."
+      },
+      {
+        "id": "blue circle",
+        "rejected": [],
+        "reason": "All associations are ordinary descriptions or common connotations of a blue circle."
+      },
+      {
+        "id": "purple circle",
+        "rejected": [],
+        "reason": "All associations are ordinary descriptions or common connotations of a purple circle."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_036099e250926eac016abfafd16fa087d0b20ed1b44d6fc3e7",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3248,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1084,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4332
+    }
+  }
+}

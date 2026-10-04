@@ -1,0 +1,712 @@
+{
+  "names": [
+    "factory",
+    "Japanese castle",
+    "castle",
+    "wedding",
+    "Tokyo tower",
+    "Statue of Liberty",
+    "church",
+    "mosque",
+    "hindu temple",
+    "synagogue",
+    "shinto shrine",
+    "kaaba",
+    "fountain",
+    "tent",
+    "foggy",
+    "night with stars",
+    "cityscape",
+    "sunrise over mountains",
+    "sunrise",
+    "cityscape at dusk",
+    "sunset",
+    "bridge at night",
+    "hot springs",
+    "carousel horse",
+    "playground slide",
+    "ferris wheel",
+    "roller coaster",
+    "barber pole",
+    "circus tent",
+    "locomotive",
+    "railway car",
+    "high-speed train",
+    "bullet train",
+    "train",
+    "metro",
+    "light rail",
+    "station",
+    "tram",
+    "monorail",
+    "mountain railway"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "factory",
+        "associations": [
+          "industry",
+          "machines",
+          "workplace",
+          "production",
+          "smokestacks"
+        ]
+      },
+      {
+        "id": "Japanese castle",
+        "associations": [
+          "fortress",
+          "wooden architecture",
+          "history",
+          "moat",
+          "turrets"
+        ]
+      },
+      {
+        "id": "castle",
+        "associations": [
+          "fortress",
+          "stone walls",
+          "royalty",
+          "tower",
+          "moat"
+        ]
+      },
+      {
+        "id": "wedding",
+        "associations": [
+          "marriage",
+          "ceremony",
+          "rings",
+          "bride",
+          "celebration"
+        ]
+      },
+      {
+        "id": "Tokyo tower",
+        "associations": [
+          "tower",
+          "landmark",
+          "observation deck",
+          "city lights",
+          "broadcast"
+        ]
+      },
+      {
+        "id": "Statue of Liberty",
+        "associations": [
+          "statue",
+          "harbor",
+          "freedom",
+          "torch",
+          "landmark"
+        ]
+      },
+      {
+        "id": "church",
+        "associations": [
+          "chapel",
+          "worship",
+          "cross",
+          "pews",
+          "religion"
+        ]
+      },
+      {
+        "id": "mosque",
+        "associations": [
+          "minaret",
+          "prayer",
+          "dome",
+          "worship",
+          "Islam"
+        ]
+      },
+      {
+        "id": "hindu temple",
+        "associations": [
+          "sanctuary",
+          "deity",
+          "carvings",
+          "prayer",
+          "ritual"
+        ]
+      },
+      {
+        "id": "synagogue",
+        "associations": [
+          "prayer",
+          "Torah",
+          "community",
+          "worship",
+          "Judaism"
+        ]
+      },
+      {
+        "id": "shinto shrine",
+        "associations": [
+          "torii",
+          "ritual",
+          "spirit",
+          "purification",
+          "Japan"
+        ]
+      },
+      {
+        "id": "kaaba",
+        "associations": [
+          "pilgrimage",
+          "cuboid",
+          "Mecca",
+          "prayer",
+          "Islam"
+        ]
+      },
+      {
+        "id": "fountain",
+        "associations": [
+          "water",
+          "spray",
+          "plaza",
+          "ornament",
+          "pool"
+        ]
+      },
+      {
+        "id": "tent",
+        "associations": [
+          "camping",
+          "shelter",
+          "outdoors",
+          "canvas",
+          "temporary"
+        ]
+      },
+      {
+        "id": "foggy",
+        "associations": [
+          "mist",
+          "low visibility",
+          "cloudy",
+          "damp",
+          "blurred"
+        ]
+      },
+      {
+        "id": "night with stars",
+        "associations": [
+          "starlight",
+          "dark sky",
+          "constellations",
+          "quiet",
+          "space"
+        ]
+      },
+      {
+        "id": "cityscape",
+        "associations": [
+          "skyline",
+          "buildings",
+          "urban",
+          "lights",
+          "downtown"
+        ]
+      },
+      {
+        "id": "sunrise over mountains",
+        "associations": [
+          "dawn",
+          "peaks",
+          "glow",
+          "horizon",
+          "nature"
+        ]
+      },
+      {
+        "id": "sunrise",
+        "associations": [
+          "dawn",
+          "morning",
+          "light",
+          "daybreak",
+          "warmth"
+        ]
+      },
+      {
+        "id": "cityscape at dusk",
+        "associations": [
+          "twilight",
+          "skyline",
+          "evening",
+          "lights",
+          "urban"
+        ]
+      },
+      {
+        "id": "sunset",
+        "associations": [
+          "dusk",
+          "orange sky",
+          "evening",
+          "horizon",
+          "calm"
+        ]
+      },
+      {
+        "id": "bridge at night",
+        "associations": [
+          "water",
+          "lights",
+          "crossing",
+          "reflection",
+          "night"
+        ]
+      },
+      {
+        "id": "hot springs",
+        "associations": [
+          "warm water",
+          "steam",
+          "relaxation",
+          "spa",
+          "bathing"
+        ]
+      },
+      {
+        "id": "carousel horse",
+        "associations": [
+          "ride",
+          "amusement park",
+          "painted",
+          "gallop",
+          "nostalgia"
+        ]
+      },
+      {
+        "id": "playground slide",
+        "associations": [
+          "play",
+          "children",
+          "sloping",
+          "glide",
+          "recreation"
+        ]
+      },
+      {
+        "id": "ferris wheel",
+        "associations": [
+          "cabin",
+          "amusement park",
+          "spinning",
+          "view",
+          "fair"
+        ]
+      },
+      {
+        "id": "roller coaster",
+        "associations": [
+          "thrill",
+          "tracks",
+          "drops",
+          "speed",
+          "amusement park"
+        ]
+      },
+      {
+        "id": "barber pole",
+        "associations": [
+          "barbershop",
+          "striped",
+          "grooming",
+          "sign",
+          "salon"
+        ]
+      },
+      {
+        "id": "circus tent",
+        "associations": [
+          "big top",
+          "performance",
+          "striped",
+          "circus",
+          "entertainment"
+        ]
+      },
+      {
+        "id": "locomotive",
+        "associations": [
+          "engine",
+          "railway",
+          "smoke",
+          "power",
+          "front car"
+        ]
+      },
+      {
+        "id": "railway car",
+        "associations": [
+          "train car",
+          "passenger",
+          "cargo",
+          "carriage",
+          "rail"
+        ]
+      },
+      {
+        "id": "high-speed train",
+        "associations": [
+          "fast travel",
+          "rail",
+          "modern",
+          "sleek",
+          "express"
+        ]
+      },
+      {
+        "id": "bullet train",
+        "associations": [
+          "speed",
+          "rail",
+          "streamlined",
+          "express",
+          "Japan"
+        ]
+      },
+      {
+        "id": "train",
+        "associations": [
+          "railway",
+          "passengers",
+          "travel",
+          "tracks",
+          "station"
+        ]
+      },
+      {
+        "id": "metro",
+        "associations": [
+          "subway",
+          "underground",
+          "commute",
+          "urban",
+          "platform"
+        ]
+      },
+      {
+        "id": "light rail",
+        "associations": [
+          "streetcar",
+          "urban transit",
+          "tracks",
+          "city",
+          "tram"
+        ]
+      },
+      {
+        "id": "station",
+        "associations": [
+          "platform",
+          "travel",
+          "waiting",
+          "departure",
+          "arrival"
+        ]
+      },
+      {
+        "id": "tram",
+        "associations": [
+          "streetcar",
+          "tracks",
+          "city transit",
+          "ride",
+          "platform"
+        ]
+      },
+      {
+        "id": "monorail",
+        "associations": [
+          "single rail",
+          "elevated",
+          "transit",
+          "modern",
+          "gliding"
+        ]
+      },
+      {
+        "id": "mountain railway",
+        "associations": [
+          "incline",
+          "scenic",
+          "cables",
+          "switchbacks",
+          "summit"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0b876188f1fe2df3016abfaee1fd6087d0bd6f4464f4f415da",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1346,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 729,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2075
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "factory",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a factory."
+      },
+      {
+        "id": "Japanese castle",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a Japanese castle."
+      },
+      {
+        "id": "castle",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a castle."
+      },
+      {
+        "id": "wedding",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a wedding."
+      },
+      {
+        "id": "Tokyo tower",
+        "rejected": [
+          "city lights",
+          "broadcast"
+        ],
+        "reason": "These are only indirectly or contextually related; the core meaning is the named landmark itself, so broad functional/context associations are misleading as primary associations."
+      },
+      {
+        "id": "Statue of Liberty",
+        "rejected": [
+          "harbor",
+          "freedom"
+        ],
+        "reason": "The named monument is the core meaning; these are contextual or symbolic rather than direct object associations."
+      },
+      {
+        "id": "church",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a church."
+      },
+      {
+        "id": "mosque",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a mosque."
+      },
+      {
+        "id": "hindu temple",
+        "rejected": [
+          "sanctuary",
+          "deity",
+          "ritual"
+        ],
+        "reason": "These are broad religious concepts rather than direct visual or ordinary object associations with a Hindu temple."
+      },
+      {
+        "id": "synagogue",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a synagogue."
+      },
+      {
+        "id": "shinto shrine",
+        "rejected": [
+          "spirit",
+          "Japan"
+        ],
+        "reason": "These are too broad or contextual; they do not directly name or describe the shrine itself."
+      },
+      {
+        "id": "kaaba",
+        "rejected": [
+          "pilgrimage",
+          "prayer"
+        ],
+        "reason": "These are associated religious practices rather than direct object associations with the Kaaba."
+      },
+      {
+        "id": "fountain",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a fountain."
+      },
+      {
+        "id": "tent",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a tent."
+      },
+      {
+        "id": "foggy",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to foggy conditions."
+      },
+      {
+        "id": "night with stars",
+        "rejected": [
+          "space"
+        ],
+        "reason": "Space is not a direct everyday association with a starry night scene and can be misleading as a substitution."
+      },
+      {
+        "id": "cityscape",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a cityscape."
+      },
+      {
+        "id": "sunrise over mountains",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a sunrise over mountains."
+      },
+      {
+        "id": "sunrise",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to sunrise."
+      },
+      {
+        "id": "cityscape at dusk",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a cityscape at dusk."
+      },
+      {
+        "id": "sunset",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to sunset."
+      },
+      {
+        "id": "bridge at night",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a bridge at night."
+      },
+      {
+        "id": "hot springs",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to hot springs."
+      },
+      {
+        "id": "carousel horse",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a carousel horse."
+      },
+      {
+        "id": "playground slide",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a playground slide."
+      },
+      {
+        "id": "ferris wheel",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a ferris wheel."
+      },
+      {
+        "id": "roller coaster",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a roller coaster."
+      },
+      {
+        "id": "barber pole",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a barber pole."
+      },
+      {
+        "id": "circus tent",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a circus tent."
+      },
+      {
+        "id": "locomotive",
+        "rejected": [
+          "front car"
+        ],
+        "reason": "This is a positional phrase rather than a standard association; the rest are directly related."
+      },
+      {
+        "id": "railway car",
+        "rejected": [
+          "cargo",
+          "carriage"
+        ],
+        "reason": "These are broader or variant terms that can be misleading; the main association is a railway passenger car."
+      },
+      {
+        "id": "high-speed train",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a high-speed train."
+      },
+      {
+        "id": "bullet train",
+        "rejected": [
+          "Japan"
+        ],
+        "reason": "Japan is a geographic association, not a direct object attribute, and can be a misleading named-entity shortcut."
+      },
+      {
+        "id": "train",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a train."
+      },
+      {
+        "id": "metro",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a metro."
+      },
+      {
+        "id": "light rail",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a light rail."
+      },
+      {
+        "id": "station",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a station."
+      },
+      {
+        "id": "tram",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a tram."
+      },
+      {
+        "id": "monorail",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a monorail."
+      },
+      {
+        "id": "mountain railway",
+        "rejected": [
+          "cables"
+        ],
+        "reason": "Cables are not a standard defining feature of a mountain railway and may be misleading; the others are acceptable."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_099663031c9865e1016abfaee7a77c87d0aa9c26d19c50de22",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2550,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1020,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3570
+    }
+  }
+}

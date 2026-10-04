@@ -1,0 +1,685 @@
+{
+  "names": [
+    "crystal ball",
+    "magic wand",
+    "video game",
+    "joystick",
+    "slot machine",
+    "game die",
+    "puzzle piece",
+    "teddy bear",
+    "piñata",
+    "mirror ball",
+    "nesting dolls",
+    "spade suit",
+    "heart suit",
+    "diamond suit",
+    "club suit",
+    "chess pawn",
+    "joker",
+    "mahjong red dragon",
+    "flower playing cards",
+    "performing arts",
+    "framed picture",
+    "artist palette",
+    "thread",
+    "sewing needle",
+    "yarn",
+    "knot",
+    "glasses",
+    "sunglasses",
+    "goggles",
+    "lab coat",
+    "safety vest",
+    "necktie",
+    "t-shirt",
+    "jeans",
+    "scarf",
+    "gloves",
+    "coat",
+    "socks",
+    "dress",
+    "kimono"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "crystal ball",
+        "associations": [
+          "fortune-telling",
+          "magic",
+          "prediction",
+          "mystery",
+          "scrying"
+        ]
+      },
+      {
+        "id": "magic wand",
+        "associations": [
+          "magic",
+          "spellcasting",
+          "wizard",
+          "trick",
+          "illusion"
+        ]
+      },
+      {
+        "id": "video game",
+        "associations": [
+          "gaming",
+          "console",
+          "play",
+          "controller",
+          "virtual world"
+        ]
+      },
+      {
+        "id": "joystick",
+        "associations": [
+          "controller",
+          "gaming",
+          "lever",
+          "arcade",
+          "input"
+        ]
+      },
+      {
+        "id": "slot machine",
+        "associations": [
+          "casino",
+          "gambling",
+          "reels",
+          "jackpot",
+          "luck"
+        ]
+      },
+      {
+        "id": "game die",
+        "associations": [
+          "dice",
+          "randomness",
+          "roll",
+          "chance",
+          "game piece"
+        ]
+      },
+      {
+        "id": "puzzle piece",
+        "associations": [
+          "puzzle",
+          "fit",
+          "fragment",
+          "solution",
+          "connection"
+        ]
+      },
+      {
+        "id": "teddy bear",
+        "associations": [
+          "stuffed animal",
+          "toy",
+          "cuddly",
+          "soft",
+          "comfort"
+        ]
+      },
+      {
+        "id": "piñata",
+        "associations": [
+          "party",
+          "candy",
+          "celebration",
+          "hit",
+          "festive"
+        ]
+      },
+      {
+        "id": "mirror ball",
+        "associations": [
+          "disco",
+          "dance",
+          "sparkle",
+          "party",
+          "reflection"
+        ]
+      },
+      {
+        "id": "nesting dolls",
+        "associations": [
+          "matryoshka",
+          "stacking",
+          "nested",
+          "set",
+          "crafted"
+        ]
+      },
+      {
+        "id": "spade suit",
+        "associations": [
+          "cards",
+          "spade",
+          "trump",
+          "black",
+          "playing"
+        ]
+      },
+      {
+        "id": "heart suit",
+        "associations": [
+          "cards",
+          "heart",
+          "love",
+          "red",
+          "playing"
+        ]
+      },
+      {
+        "id": "diamond suit",
+        "associations": [
+          "cards",
+          "diamond",
+          "wealth",
+          "red",
+          "playing"
+        ]
+      },
+      {
+        "id": "club suit",
+        "associations": [
+          "cards",
+          "club",
+          "black",
+          "playing",
+          "trump"
+        ]
+      },
+      {
+        "id": "chess pawn",
+        "associations": [
+          "chess",
+          "pawn",
+          "move",
+          "piece",
+          "strategy"
+        ]
+      },
+      {
+        "id": "joker",
+        "associations": [
+          "wild card",
+          "jester",
+          "cards",
+          "trickster",
+          "playful"
+        ]
+      },
+      {
+        "id": "mahjong red dragon",
+        "associations": [
+          "mahjong",
+          "dragon",
+          "tile",
+          "red",
+          "gaming"
+        ]
+      },
+      {
+        "id": "flower playing cards",
+        "associations": [
+          "cards",
+          "flower",
+          "decorative",
+          "ornamental",
+          "playing"
+        ]
+      },
+      {
+        "id": "performing arts",
+        "associations": [
+          "theater",
+          "dance",
+          "music",
+          "stage",
+          "performance"
+        ]
+      },
+      {
+        "id": "framed picture",
+        "associations": [
+          "photo",
+          "frame",
+          "art",
+          "display",
+          "wall"
+        ]
+      },
+      {
+        "id": "artist palette",
+        "associations": [
+          "painting",
+          "colors",
+          "brushes",
+          "art",
+          "mixing"
+        ]
+      },
+      {
+        "id": "thread",
+        "associations": [
+          "string",
+          "sewing",
+          "line",
+          "fiber",
+          "stitching"
+        ]
+      },
+      {
+        "id": "sewing needle",
+        "associations": [
+          "sewing",
+          "needle",
+          "stitch",
+          "thread",
+          "craft"
+        ]
+      },
+      {
+        "id": "yarn",
+        "associations": [
+          "wool",
+          "knitting",
+          "fiber",
+          "soft",
+          "craft"
+        ]
+      },
+      {
+        "id": "knot",
+        "associations": [
+          "tie",
+          "loop",
+          "fasten",
+          "binding",
+          "cord"
+        ]
+      },
+      {
+        "id": "glasses",
+        "associations": [
+          "eyewear",
+          "vision",
+          "frames",
+          "reading",
+          "sight"
+        ]
+      },
+      {
+        "id": "sunglasses",
+        "associations": [
+          "eyewear",
+          "shade",
+          "sun",
+          "cool",
+          "vision"
+        ]
+      },
+      {
+        "id": "goggles",
+        "associations": [
+          "eyewear",
+          "protection",
+          "safety",
+          "swimming",
+          "eyes"
+        ]
+      },
+      {
+        "id": "lab coat",
+        "associations": [
+          "science",
+          "doctor",
+          "research",
+          "white coat",
+          "professional"
+        ]
+      },
+      {
+        "id": "safety vest",
+        "associations": [
+          "reflective",
+          "protection",
+          "visibility",
+          "workwear",
+          "bright"
+        ]
+      },
+      {
+        "id": "necktie",
+        "associations": [
+          "formal",
+          "suit",
+          "business",
+          "collar",
+          "dressy"
+        ]
+      },
+      {
+        "id": "t-shirt",
+        "associations": [
+          "casual",
+          "shirt",
+          "cotton",
+          "everyday",
+          "clothing"
+        ]
+      },
+      {
+        "id": "jeans",
+        "associations": [
+          "denim",
+          "pants",
+          "casual",
+          "blue",
+          "clothing"
+        ]
+      },
+      {
+        "id": "scarf",
+        "associations": [
+          "warmth",
+          "winter",
+          "wrap",
+          "accessory",
+          "fabric"
+        ]
+      },
+      {
+        "id": "gloves",
+        "associations": [
+          "hands",
+          "warmth",
+          "protection",
+          "mitts",
+          "pair"
+        ]
+      },
+      {
+        "id": "coat",
+        "associations": [
+          "outerwear",
+          "warmth",
+          "jacket",
+          "cold",
+          "clothing"
+        ]
+      },
+      {
+        "id": "socks",
+        "associations": [
+          "feet",
+          "warmth",
+          "pair",
+          "footwear",
+          "soft"
+        ]
+      },
+      {
+        "id": "dress",
+        "associations": [
+          "clothing",
+          "fashion",
+          "formal",
+          "outfit",
+          "garment"
+        ]
+      },
+      {
+        "id": "kimono",
+        "associations": [
+          "traditional",
+          "robe",
+          "Japanese",
+          "dress",
+          "sash"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_03f504bcb9612e94016abfaf90e01087d0a637d1a5f6953ede",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1352,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 674,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2026
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "crystal ball",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "magic wand",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "video game",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "joystick",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "slot machine",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "game die",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "puzzle piece",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "teddy bear",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "piñata",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "mirror ball",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "nesting dolls",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "spade suit",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "heart suit",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "diamond suit",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "club suit",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "chess pawn",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "joker",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "mahjong red dragon",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "flower playing cards",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "performing arts",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "framed picture",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "artist palette",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "thread",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "sewing needle",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "yarn",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "knot",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "glasses",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "sunglasses",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "goggles",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "lab coat",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "safety vest",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "necktie",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "t-shirt",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "jeans",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "scarf",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "gloves",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "coat",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "socks",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "dress",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      },
+      {
+        "id": "kimono",
+        "rejected": [],
+        "reason": "All associations are directly related to the literal core meaning."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_00f9398fe4ae4957016abfaf96bf8887d0a0cae94561d10160",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3111,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 862,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3973
+    }
+  }
+}

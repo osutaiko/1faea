@@ -149,7 +149,15 @@ def load(name, encoder_type=AtomicDecoder):
         raise ValueError('Conversation stages require the same pretrained model')
     if not torch.equal(checkpoints[0]['model']['embedding.weight'], checkpoints[1]['model']['embedding.weight']):
         raise ValueError('Conversation stages require the same grounded emoji embeddings')
-    reader = ConversationReader(checkpoints[0]['base_model'])
+    if 'emoji_features' in checkpoints[1]:
+        from conversation_emoji_features import EmojiFeatureReader
+        adapter = output / checkpoints[0]['input_adapter'] if 'input_adapter' in checkpoints[0] else None
+        reader = EmojiFeatureReader(checkpoints[0]['base_model'], output / checkpoints[1]['emoji_features'], adapter)
+    elif 'input_adapter' in checkpoints[0]:
+        from conversation_input_adapter import AdaptedConversationReader
+        reader = AdaptedConversationReader(checkpoints[0]['base_model'], output / checkpoints[0]['input_adapter'])
+    else:
+        reader = ConversationReader(checkpoints[0]['base_model'])
     models = []
     for model_type, checkpoint in zip((encoder_type, AtomicDecoder), checkpoints):
         model = model_type(checkpoint['model']['embedding.weight'], **checkpoint['config'])

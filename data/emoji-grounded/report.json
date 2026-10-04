@@ -1,0 +1,24 @@
+{
+  "dataset": "HuggingFaceH4/ultrachat_200k",
+  "source": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k",
+  "license": "MIT",
+  "training_pages": 20,
+  "counts": {
+    "train": 156,
+    "validation": 8,
+    "test": 17
+  },
+  "generated_qa_labels": 0,
+  "first_turn_only": true,
+  "rejected": {
+    "truncated": 0,
+    "length": 2019,
+    "duplicate": 0
+  },
+  "split_policy": "source train_sft for training; source test_sft hash partition for validation/test; exact prompt deduplication only",
+  "files_sha256": {
+    "train": "899b044cef4a35bd2c9787ac88f0864d042accefd396606159bc9e395f32718e",
+    "validation": "ac53f2d0fe014452f4b37c323d0fd8fd57593c6ccae4f7fcd4ef37bc1fe12ca7",
+    "test": "29fdb6a82246436c809324174f7a141f4eff3a4c772b7c6dcca53a71f8e22d4b"
+  }
+}

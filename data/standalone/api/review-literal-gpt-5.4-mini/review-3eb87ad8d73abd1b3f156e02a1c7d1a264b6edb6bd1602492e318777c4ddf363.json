@@ -1,0 +1,137 @@
+{
+  "fingerprint": "3eb87ad8d73abd1b3f156e02a1c7d1a264b6edb6bd1602492e318777c4ddf363",
+  "decoded": {
+    "rows": [
+      {
+        "id": "93f1c98bfcca9e41",
+        "state_reading": "woman’s hat | person | t-shirt",
+        "answer_reading": "woman’s hat | COOL button | t-shirt"
+      },
+      {
+        "id": "679498d9731e6128",
+        "state_reading": "briefcase | then / leads to | flexed biceps | brain",
+        "answer_reading": "briefcase | then / leads to | flexed biceps | brain"
+      },
+      {
+        "id": "ed675ef69e9e8195",
+        "state_reading": "automobile | busts in silhouette | then / leads to | money bag",
+        "answer_reading": "automobile | busts in silhouette | then / leads to | money bag"
+      },
+      {
+        "id": "17c535b422440f64",
+        "state_reading": "person running | then / leads to | left-right arrow | high voltage",
+        "answer_reading": "person running | then / leads to | left-right arrow | high voltage"
+      },
+      {
+        "id": "bb437f4a45b7d3ce",
+        "state_reading": "ear | then / leads to | ear | unknown",
+        "answer_reading": "ear | then / leads to | speaker high volume"
+      },
+      {
+        "id": "1851672b135fb7b6",
+        "state_reading": "mobile phone | money bag | then / leads to | unknown",
+        "answer_reading": "mobile phone | money bag | then / leads to | coin"
+      },
+      {
+        "id": "8d671049ca38b9b6",
+        "state_reading": "shopping cart | then / leads to | locked | unknown",
+        "answer_reading": "locked | unknown"
+      },
+      {
+        "id": "71e319b4132e177e",
+        "state_reading": "left speech bubble | then / leads to | unknown | then / leads to | magnifying glass tilted left",
+        "answer_reading": "left speech bubble | then / leads to | unknown"
+      },
+      {
+        "id": "636d77706faeabf1",
+        "state_reading": "shopping cart | then / leads to | salt | bread | glass of milk",
+        "answer_reading": "bread | glass of milk | salt"
+      },
+      {
+        "id": "397f5f47d82b6a83",
+        "state_reading": "soccer ball | shield | then / leads to | flexed biceps",
+        "answer_reading": "shield | then / leads to | flexed biceps"
+      }
+    ]
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "93f1c98bfcca9e41",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks about popular hat styles, but the readings only show generic clothing-related objects and do not identify any style or preference."
+      },
+      {
+        "id": "679498d9731e6128",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks for key factors that improve work performance, but the reading only lists objects and lacks a clear factor or explanation."
+      },
+      {
+        "id": "ed675ef69e9e8195",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question is about reducing commute costs and carpooling, but the reading does not clearly represent carpooling or explain how it helps save money."
+      },
+      {
+        "id": "17c535b422440f64",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks for the definition of velocity, but the reading only shows motion-related symbols and does not provide a definition."
+      },
+      {
+        "id": "bb437f4a45b7d3ce",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks for the main function of the human ear, but the answer does not clearly state hearing or explain the ear's function."
+      },
+      {
+        "id": "1851672b135fb7b6",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks how apps make money, but the reading only shows a phone, money, and a coin without a clear monetization method."
+      },
+      {
+        "id": "8d671049ca38b9b6",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks how to stay safe while shopping online, but the reading only shows a locked symbol and does not give safety advice."
+      },
+      {
+        "id": "71e319b4132e177e",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks for the definition of a simile, but the reading does not provide any definition or example showing the comparison structure."
+      },
+      {
+        "id": "636d77706faeabf1",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The question asks for items for a shopping list, and the reading provides appropriate grocery items like bread, milk, and salt."
+      },
+      {
+        "id": "397f5f47d82b6a83",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks for strategies to improve football defense, but the reading only contains generic sports/strength symbols and no clear defensive strategy."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_0369819d9f23fc8e016abfa6843c6087d091f9e61b9cd1773c",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1005,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1395,
+      "output_tokens_details": {
+        "reasoning_tokens": 803
+      },
+      "total_tokens": 2400
+    }
+  }
+}

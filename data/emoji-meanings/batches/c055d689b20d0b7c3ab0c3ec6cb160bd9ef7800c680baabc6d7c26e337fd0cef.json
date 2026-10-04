@@ -1,0 +1,705 @@
+{
+  "names": [
+    "poultry leg",
+    "cut of meat",
+    "bacon",
+    "hamburger",
+    "french fries",
+    "pizza",
+    "hot dog",
+    "sandwich",
+    "taco",
+    "burrito",
+    "tamale",
+    "stuffed flatbread",
+    "falafel",
+    "egg",
+    "cooking",
+    "shallow pan of food",
+    "pot of food",
+    "fondue",
+    "bowl with spoon",
+    "green salad",
+    "popcorn",
+    "butter",
+    "salt",
+    "canned food",
+    "bento box",
+    "rice cracker",
+    "rice ball",
+    "cooked rice",
+    "curry rice",
+    "steaming bowl",
+    "spaghetti",
+    "roasted sweet potato",
+    "oden",
+    "sushi",
+    "fried shrimp",
+    "fish cake with swirl",
+    "moon cake",
+    "dango",
+    "dumpling",
+    "fortune cookie"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "poultry leg",
+        "associations": [
+          "drumstick",
+          "chicken leg",
+          "roasted meat",
+          "bone",
+          "crispy skin"
+        ]
+      },
+      {
+        "id": "cut of meat",
+        "associations": [
+          "steak",
+          "slice",
+          "butcher",
+          "raw meat",
+          "grill"
+        ]
+      },
+      {
+        "id": "bacon",
+        "associations": [
+          "strip",
+          "breakfast",
+          "smoky",
+          "crispy",
+          "pork"
+        ]
+      },
+      {
+        "id": "hamburger",
+        "associations": [
+          "burger",
+          "bun",
+          "patty",
+          "fast food",
+          "cheeseburger"
+        ]
+      },
+      {
+        "id": "french fries",
+        "associations": [
+          "fries",
+          "potato",
+          "snack",
+          "crispy",
+          "ketchup"
+        ]
+      },
+      {
+        "id": "pizza",
+        "associations": [
+          "slice",
+          "cheese",
+          "pepperoni",
+          "oven",
+          "takeout"
+        ]
+      },
+      {
+        "id": "hot dog",
+        "associations": [
+          "sausage",
+          "bun",
+          "mustard",
+          "ballpark",
+          "street food"
+        ]
+      },
+      {
+        "id": "sandwich",
+        "associations": [
+          "bread",
+          "lunch",
+          "fillings",
+          "sub",
+          "handheld"
+        ]
+      },
+      {
+        "id": "taco",
+        "associations": [
+          "shell",
+          "filling",
+          "salsa",
+          "Mexican food",
+          "street food"
+        ]
+      },
+      {
+        "id": "burrito",
+        "associations": [
+          "wrap",
+          "beans",
+          "rice",
+          "rolled",
+          "salsa"
+        ]
+      },
+      {
+        "id": "tamale",
+        "associations": [
+          "corn husk",
+          "masa",
+          "stuffed",
+          "steamed",
+          "traditional"
+        ]
+      },
+      {
+        "id": "stuffed flatbread",
+        "associations": [
+          "pocket",
+          "filled",
+          "bread",
+          "savory",
+          "street food"
+        ]
+      },
+      {
+        "id": "falafel",
+        "associations": [
+          "chickpea",
+          "ball",
+          "fried",
+          "Middle Eastern",
+          "herb"
+        ]
+      },
+      {
+        "id": "egg",
+        "associations": [
+          "shell",
+          "yolk",
+          "white",
+          "breakfast",
+          "scramble"
+        ]
+      },
+      {
+        "id": "cooking",
+        "associations": [
+          "recipe",
+          "heat",
+          "stir",
+          "kitchen",
+          "preparing"
+        ]
+      },
+      {
+        "id": "shallow pan of food",
+        "associations": [
+          "tray",
+          "baked",
+          "casserole",
+          "serving",
+          "oven"
+        ]
+      },
+      {
+        "id": "pot of food",
+        "associations": [
+          "stew",
+          "soup",
+          "simmering",
+          "ladle",
+          "hearty"
+        ]
+      },
+      {
+        "id": "fondue",
+        "associations": [
+          "melted cheese",
+          "dip",
+          "skewer",
+          "sharing",
+          "warm"
+        ]
+      },
+      {
+        "id": "bowl with spoon",
+        "associations": [
+          "soup",
+          "cereal",
+          "eat",
+          "spoon",
+          "meal"
+        ]
+      },
+      {
+        "id": "green salad",
+        "associations": [
+          "lettuce",
+          "fresh",
+          "vegetables",
+          "dressing",
+          "healthy"
+        ]
+      },
+      {
+        "id": "popcorn",
+        "associations": [
+          "movie",
+          "snack",
+          "buttery",
+          "kernel",
+          "bucket"
+        ]
+      },
+      {
+        "id": "butter",
+        "associations": [
+          "spread",
+          "dairy",
+          "melted",
+          "rich",
+          "toast"
+        ]
+      },
+      {
+        "id": "salt",
+        "associations": [
+          "seasoning",
+          "sodium",
+          "pinch",
+          "sprinkle",
+          "shaker"
+        ]
+      },
+      {
+        "id": "canned food",
+        "associations": [
+          "tin",
+          "preserved",
+          "shelf-stable",
+          "peas",
+          "storage"
+        ]
+      },
+      {
+        "id": "bento box",
+        "associations": [
+          "lunchbox",
+          "compartments",
+          "meal",
+          "packed",
+          "Japanese"
+        ]
+      },
+      {
+        "id": "rice cracker",
+        "associations": [
+          "crisp",
+          "snack",
+          "rice",
+          "light",
+          "crunchy"
+        ]
+      },
+      {
+        "id": "rice ball",
+        "associations": [
+          "onigiri",
+          "handheld",
+          "rice",
+          "seaweed",
+          "snack"
+        ]
+      },
+      {
+        "id": "cooked rice",
+        "associations": [
+          "grain",
+          "side dish",
+          "steamed",
+          "fluffy",
+          "staple"
+        ]
+      },
+      {
+        "id": "curry rice",
+        "associations": [
+          "curry",
+          "rice",
+          "sauce",
+          "spicy",
+          "comfort food"
+        ]
+      },
+      {
+        "id": "steaming bowl",
+        "associations": [
+          "hot soup",
+          "noodles",
+          "broth",
+          "steam",
+          "comfort"
+        ]
+      },
+      {
+        "id": "spaghetti",
+        "associations": [
+          "noodles",
+          "pasta",
+          "sauce",
+          "fork",
+          "Italian"
+        ]
+      },
+      {
+        "id": "roasted sweet potato",
+        "associations": [
+          "baked",
+          "sweet",
+          "warm",
+          "autumn",
+          "vegetable"
+        ]
+      },
+      {
+        "id": "oden",
+        "associations": [
+          "broth",
+          "fish cake",
+          "hotpot",
+          "winter",
+          "skewers"
+        ]
+      },
+      {
+        "id": "sushi",
+        "associations": [
+          "roll",
+          "rice",
+          "seafood",
+          "wasabi",
+          "Japanese"
+        ]
+      },
+      {
+        "id": "fried shrimp",
+        "associations": [
+          "shrimp",
+          "batter",
+          "crispy",
+          "seafood",
+          "tempura"
+        ]
+      },
+      {
+        "id": "fish cake with swirl",
+        "associations": [
+          "surimi",
+          "slice",
+          "swirl",
+          "processed",
+          "garnish"
+        ]
+      },
+      {
+        "id": "moon cake",
+        "associations": [
+          "festival",
+          "sweet",
+          "pastry",
+          "round",
+          "fillings"
+        ]
+      },
+      {
+        "id": "dango",
+        "associations": [
+          "skewers",
+          "mochi",
+          "sweet",
+          "rice flour",
+          "chewy"
+        ]
+      },
+      {
+        "id": "dumpling",
+        "associations": [
+          "filled",
+          "steamed",
+          "boiled",
+          "bite-sized",
+          "wrapper"
+        ]
+      },
+      {
+        "id": "fortune cookie",
+        "associations": [
+          "fortune",
+          "crisp",
+          "message",
+          "dessert",
+          "prediction"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_06b3b6189746314c016abfaed7b44887d0aebb8043e0e2efc0",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1364,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 743,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2107
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "poultry leg",
+        "rejected": [],
+        "reason": "All associations are related to a poultry leg."
+      },
+      {
+        "id": "cut of meat",
+        "rejected": [
+          "butcher"
+        ],
+        "reason": "\"butcher\" refers to a person, not the food item itself; the rest are reasonable associations."
+      },
+      {
+        "id": "bacon",
+        "rejected": [],
+        "reason": "All associations are related to bacon."
+      },
+      {
+        "id": "hamburger",
+        "rejected": [],
+        "reason": "All associations are related to a hamburger."
+      },
+      {
+        "id": "french fries",
+        "rejected": [],
+        "reason": "All associations are related to french fries."
+      },
+      {
+        "id": "pizza",
+        "rejected": [],
+        "reason": "All associations are related to pizza."
+      },
+      {
+        "id": "hot dog",
+        "rejected": [],
+        "reason": "All associations are related to a hot dog."
+      },
+      {
+        "id": "sandwich",
+        "rejected": [
+          "sub"
+        ],
+        "reason": "\"sub\" is a subtype/specific named form of sandwich and can be misleading as a direct association for the generic item; the rest are acceptable."
+      },
+      {
+        "id": "taco",
+        "rejected": [
+          "Mexican food"
+        ],
+        "reason": "\"Mexican food\" is overly broad and can be misleading as a category label rather than a direct association."
+      },
+      {
+        "id": "burrito",
+        "rejected": [],
+        "reason": "All associations are related to a burrito."
+      },
+      {
+        "id": "tamale",
+        "rejected": [],
+        "reason": "All associations are related to a tamale."
+      },
+      {
+        "id": "stuffed flatbread",
+        "rejected": [],
+        "reason": "All associations are related to stuffed flatbread."
+      },
+      {
+        "id": "falafel",
+        "rejected": [
+          "Middle Eastern"
+        ],
+        "reason": "\"Middle Eastern\" is a regional/cultural label rather than a direct food association."
+      },
+      {
+        "id": "egg",
+        "rejected": [],
+        "reason": "All associations are related to an egg."
+      },
+      {
+        "id": "cooking",
+        "rejected": [],
+        "reason": "All associations are related to cooking."
+      },
+      {
+        "id": "shallow pan of food",
+        "rejected": [],
+        "reason": "All associations are related to a shallow pan of food."
+      },
+      {
+        "id": "pot of food",
+        "rejected": [],
+        "reason": "All associations are related to a pot of food."
+      },
+      {
+        "id": "fondue",
+        "rejected": [],
+        "reason": "All associations are related to fondue."
+      },
+      {
+        "id": "bowl with spoon",
+        "rejected": [],
+        "reason": "All associations are related to a bowl with spoon."
+      },
+      {
+        "id": "green salad",
+        "rejected": [],
+        "reason": "All associations are related to green salad."
+      },
+      {
+        "id": "popcorn",
+        "rejected": [],
+        "reason": "All associations are related to popcorn."
+      },
+      {
+        "id": "butter",
+        "rejected": [],
+        "reason": "All associations are related to butter."
+      },
+      {
+        "id": "salt",
+        "rejected": [
+          "sodium"
+        ],
+        "reason": "\"sodium\" is the chemical element rather than the everyday food association; the others are acceptable."
+      },
+      {
+        "id": "canned food",
+        "rejected": [],
+        "reason": "All associations are related to canned food."
+      },
+      {
+        "id": "bento box",
+        "rejected": [
+          "Japanese"
+        ],
+        "reason": "\"Japanese\" is a nationality/culture label rather than a direct object association."
+      },
+      {
+        "id": "rice cracker",
+        "rejected": [],
+        "reason": "All associations are related to rice crackers."
+      },
+      {
+        "id": "rice ball",
+        "rejected": [
+          "onigiri"
+        ],
+        "reason": "\"onigiri\" is a named synonym/translation that can override the generic core meaning instead of associating to the item itself."
+      },
+      {
+        "id": "cooked rice",
+        "rejected": [],
+        "reason": "All associations are related to cooked rice."
+      },
+      {
+        "id": "curry rice",
+        "rejected": [],
+        "reason": "All associations are related to curry rice."
+      },
+      {
+        "id": "steaming bowl",
+        "rejected": [],
+        "reason": "All associations are related to a steaming bowl."
+      },
+      {
+        "id": "spaghetti",
+        "rejected": [
+          "Italian"
+        ],
+        "reason": "\"Italian\" is a cuisine/nationality label rather than a direct association to spaghetti."
+      },
+      {
+        "id": "roasted sweet potato",
+        "rejected": [],
+        "reason": "All associations are related to roasted sweet potato."
+      },
+      {
+        "id": "oden",
+        "rejected": [],
+        "reason": "All associations are related to oden."
+      },
+      {
+        "id": "sushi",
+        "rejected": [
+          "roll"
+        ],
+        "reason": "\"roll\" is too specific and can mislead toward sushi rolls rather than sushi generally."
+      },
+      {
+        "id": "fried shrimp",
+        "rejected": [],
+        "reason": "All associations are related to fried shrimp."
+      },
+      {
+        "id": "fish cake with swirl",
+        "rejected": [],
+        "reason": "All associations are related to fish cake with swirl."
+      },
+      {
+        "id": "moon cake",
+        "rejected": [],
+        "reason": "All associations are related to moon cake."
+      },
+      {
+        "id": "dango",
+        "rejected": [],
+        "reason": "All associations are related to dango."
+      },
+      {
+        "id": "dumpling",
+        "rejected": [],
+        "reason": "All associations are related to dumpling."
+      },
+      {
+        "id": "fortune cookie",
+        "rejected": [
+          "prediction"
+        ],
+        "reason": "\"prediction\" is a conceptual abstraction rather than a direct association with the food item."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0e173dc6c56bf0f9016abfaedd1a4087d0b70ead59a1de631b",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2570,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 911,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3481
+    }
+  }
+}

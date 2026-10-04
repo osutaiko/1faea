@@ -1,0 +1,735 @@
+{
+  "names": [
+    "currency exchange",
+    "heavy dollar sign",
+    "medical symbol",
+    "recycling symbol",
+    "fleur-de-lis",
+    "trident emblem",
+    "name badge",
+    "Japanese symbol for beginner",
+    "hollow red circle",
+    "check box with check",
+    "check mark",
+    "cross mark button",
+    "curly loop",
+    "double curly loop",
+    "part alternation mark",
+    "eight-spoked asterisk",
+    "eight-pointed star",
+    "sparkle",
+    "copyright",
+    "registered",
+    "trade mark",
+    "splatter",
+    "keycap: #",
+    "keycap: *",
+    "keycap: 0",
+    "keycap: 1",
+    "keycap: 2",
+    "keycap: 3",
+    "keycap: 4",
+    "keycap: 5",
+    "keycap: 6",
+    "keycap: 7",
+    "keycap: 8",
+    "keycap: 9",
+    "keycap: 10",
+    "input latin uppercase",
+    "input latin lowercase",
+    "input numbers",
+    "input symbols",
+    "input latin letters"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "currency exchange",
+        "associations": [
+          "money conversion",
+          "exchange rate",
+          "foreign currency",
+          "travel finance",
+          "banking",
+          "cash trade"
+        ]
+      },
+      {
+        "id": "heavy dollar sign",
+        "associations": [
+          "money symbol",
+          "price",
+          "cost",
+          "wealth",
+          "payment",
+          "finance"
+        ]
+      },
+      {
+        "id": "medical symbol",
+        "associations": [
+          "healthcare",
+          "doctor",
+          "hospital",
+          "medicine",
+          "emergency care",
+          "clinic"
+        ]
+      },
+      {
+        "id": "recycling symbol",
+        "associations": [
+          "reuse",
+          "waste sorting",
+          "eco-friendly",
+          "sustainability",
+          "reduced waste",
+          "green living"
+        ]
+      },
+      {
+        "id": "fleur-de-lis",
+        "associations": [
+          "decorative emblem",
+          "heraldry",
+          "ornament",
+          "royalty",
+          "symbolic flower",
+          "classic motif"
+        ]
+      },
+      {
+        "id": "trident emblem",
+        "associations": [
+          "trident",
+          "three-pronged symbol",
+          "power",
+          "marine theme",
+          "spearhead",
+          "crest"
+        ]
+      },
+      {
+        "id": "name badge",
+        "associations": [
+          "identity tag",
+          "label",
+          "nameplate",
+          "event badge",
+          "staff badge",
+          "introduction"
+        ]
+      },
+      {
+        "id": "Japanese symbol for beginner",
+        "associations": [
+          "beginner",
+          "starter",
+          "learning",
+          "first steps",
+          "newcomer",
+          "guide mark"
+        ]
+      },
+      {
+        "id": "hollow red circle",
+        "associations": [
+          "circle",
+          "selection marker",
+          "standout",
+          "stop-like sign",
+          "indicator",
+          "target"
+        ]
+      },
+      {
+        "id": "check box with check",
+        "associations": [
+          "checked box",
+          "selection",
+          "completed",
+          "confirmed",
+          "ticked",
+          "approved"
+        ]
+      },
+      {
+        "id": "check mark",
+        "associations": [
+          "yes",
+          "correct",
+          "approval",
+          "completion",
+          "confirmation",
+          "success"
+        ]
+      },
+      {
+        "id": "cross mark button",
+        "associations": [
+          "no",
+          "cancel",
+          "wrong",
+          "reject",
+          "dismiss",
+          "close"
+        ]
+      },
+      {
+        "id": "curly loop",
+        "associations": [
+          "swirl",
+          "curl",
+          "loop",
+          "ornament",
+          "scribble",
+          "twist"
+        ]
+      },
+      {
+        "id": "double curly loop",
+        "associations": [
+          "double swirl",
+          "double curl",
+          "ornament",
+          "decorative loops",
+          "twist",
+          "paired loops"
+        ]
+      },
+      {
+        "id": "part alternation mark",
+        "associations": [
+          "division",
+          "alternation",
+          "choice",
+          "split",
+          "option",
+          "branching"
+        ]
+      },
+      {
+        "id": "eight-spoked asterisk",
+        "associations": [
+          "asterisk",
+          "starburst",
+          "burst",
+          "attention",
+          "ornament",
+          "symbol"
+        ]
+      },
+      {
+        "id": "eight-pointed star",
+        "associations": [
+          "star",
+          "radiance",
+          "spark",
+          "ornamental",
+          "shine",
+          "badge"
+        ]
+      },
+      {
+        "id": "sparkle",
+        "associations": [
+          "glitter",
+          "shine",
+          "twinkle",
+          "magic",
+          "shine effect",
+          "bright accent"
+        ]
+      },
+      {
+        "id": "copyright",
+        "associations": [
+          "rights reserved",
+          "authorship",
+          "legal notice",
+          "ownership",
+          "protection",
+          "publication"
+        ]
+      },
+      {
+        "id": "registered",
+        "associations": [
+          "registration",
+          "trademark",
+          "official record",
+          "approved mark",
+          "brand",
+          "licensed"
+        ]
+      },
+      {
+        "id": "trade mark",
+        "associations": [
+          "brand",
+          "logo",
+          "product identity",
+          "commercial mark",
+          "ownership",
+          "label"
+        ]
+      },
+      {
+        "id": "splatter",
+        "associations": [
+          "paint splash",
+          "blot",
+          "mess",
+          "drop pattern",
+          "burst",
+          "smudge"
+        ]
+      },
+      {
+        "id": "keycap: #",
+        "associations": [
+          "hash",
+          "number sign",
+          "pound key",
+          "typing",
+          "keyboard",
+          "symbol"
+        ]
+      },
+      {
+        "id": "keycap: *",
+        "associations": [
+          "asterisk",
+          "star key",
+          "typing",
+          "keyboard",
+          "symbol",
+          "dial pad"
+        ]
+      },
+      {
+        "id": "keycap: 0",
+        "associations": [
+          "zero",
+          "digit",
+          "number",
+          "keypad",
+          "input",
+          "counting"
+        ]
+      },
+      {
+        "id": "keycap: 1",
+        "associations": [
+          "one",
+          "digit",
+          "number",
+          "keypad",
+          "input",
+          "counting"
+        ]
+      },
+      {
+        "id": "keycap: 2",
+        "associations": [
+          "two",
+          "digit",
+          "number",
+          "keypad",
+          "input",
+          "counting"
+        ]
+      },
+      {
+        "id": "keycap: 3",
+        "associations": [
+          "three",
+          "digit",
+          "number",
+          "keypad",
+          "input",
+          "counting"
+        ]
+      },
+      {
+        "id": "keycap: 4",
+        "associations": [
+          "four",
+          "digit",
+          "number",
+          "keypad",
+          "input",
+          "counting"
+        ]
+      },
+      {
+        "id": "keycap: 5",
+        "associations": [
+          "five",
+          "digit",
+          "number",
+          "keypad",
+          "input",
+          "counting"
+        ]
+      },
+      {
+        "id": "keycap: 6",
+        "associations": [
+          "six",
+          "digit",
+          "number",
+          "keypad",
+          "input",
+          "counting"
+        ]
+      },
+      {
+        "id": "keycap: 7",
+        "associations": [
+          "seven",
+          "digit",
+          "number",
+          "keypad",
+          "input",
+          "counting"
+        ]
+      },
+      {
+        "id": "keycap: 8",
+        "associations": [
+          "eight",
+          "digit",
+          "number",
+          "keypad",
+          "input",
+          "counting"
+        ]
+      },
+      {
+        "id": "keycap: 9",
+        "associations": [
+          "nine",
+          "digit",
+          "number",
+          "keypad",
+          "input",
+          "counting"
+        ]
+      },
+      {
+        "id": "keycap: 10",
+        "associations": [
+          "ten",
+          "double digit",
+          "number",
+          "keypad",
+          "input",
+          "counting"
+        ]
+      },
+      {
+        "id": "input latin uppercase",
+        "associations": [
+          "uppercase letters",
+          "capital letters",
+          "typing",
+          "alphabet",
+          "text entry",
+          "letter input"
+        ]
+      },
+      {
+        "id": "input latin lowercase",
+        "associations": [
+          "lowercase letters",
+          "small letters",
+          "typing",
+          "alphabet",
+          "text entry",
+          "letter input"
+        ]
+      },
+      {
+        "id": "input numbers",
+        "associations": [
+          "digits",
+          "numeric entry",
+          "typing",
+          "calculator",
+          "number input",
+          "counting"
+        ]
+      },
+      {
+        "id": "input symbols",
+        "associations": [
+          "special characters",
+          "punctuation",
+          "typing",
+          "keyboard",
+          "signs",
+          "text entry"
+        ]
+      },
+      {
+        "id": "input latin letters",
+        "associations": [
+          "alphabetic input",
+          "letters",
+          "typing",
+          "text entry",
+          "A to Z",
+          "characters"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_012546a8151e3916016abfafc99b9487d095d9dd4259b5c9b6",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1490,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 845,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2335
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "currency exchange",
+        "rejected": [],
+        "reason": "All associations are directly related to exchanging currency."
+      },
+      {
+        "id": "heavy dollar sign",
+        "rejected": [],
+        "reason": "All associations are directly related to the dollar sign and money."
+      },
+      {
+        "id": "medical symbol",
+        "rejected": [],
+        "reason": "All associations are directly related to medical and healthcare contexts."
+      },
+      {
+        "id": "recycling symbol",
+        "rejected": [],
+        "reason": "All associations are directly related to recycling and sustainability."
+      },
+      {
+        "id": "fleur-de-lis",
+        "rejected": [],
+        "reason": "All associations are directly related to the fleur-de-lis as an emblem or decorative motif."
+      },
+      {
+        "id": "trident emblem",
+        "rejected": [],
+        "reason": "All associations are directly related to a trident or trident-like emblem."
+      },
+      {
+        "id": "name badge",
+        "rejected": [],
+        "reason": "All associations are directly related to a name badge or identification tag."
+      },
+      {
+        "id": "Japanese symbol for beginner",
+        "rejected": [],
+        "reason": "All associations are aligned with the beginner meaning of the symbol."
+      },
+      {
+        "id": "hollow red circle",
+        "rejected": [
+          "stop-like sign"
+        ],
+        "reason": "This association is misleading because the hollow red circle is not inherently a stop sign; it is more generally a marker or indicator."
+      },
+      {
+        "id": "check box with check",
+        "rejected": [],
+        "reason": "All associations are directly related to a checked checkbox and selection/completion."
+      },
+      {
+        "id": "check mark",
+        "rejected": [],
+        "reason": "All associations are directly related to a check mark indicating confirmation or correctness."
+      },
+      {
+        "id": "cross mark button",
+        "rejected": [],
+        "reason": "All associations are directly related to a cross/cancel button."
+      },
+      {
+        "id": "curly loop",
+        "rejected": [],
+        "reason": "All associations are directly related to a curly loop or swirl."
+      },
+      {
+        "id": "double curly loop",
+        "rejected": [],
+        "reason": "All associations are directly related to a double curly loop or paired swirl."
+      },
+      {
+        "id": "part alternation mark",
+        "rejected": [
+          "division"
+        ],
+        "reason": "This is misleading because the mark indicates part alternation or alternation, not mathematical division."
+      },
+      {
+        "id": "eight-spoked asterisk",
+        "rejected": [
+          "asterisk"
+        ],
+        "reason": "This is a direct naming mismatch: the emoji is an eight-spoked asterisk-like symbol, so the plain term 'asterisk' is too generic and can be misleading as a substitution for the exact symbol."
+      },
+      {
+        "id": "eight-pointed star",
+        "rejected": [],
+        "reason": "All associations are broadly consistent with an eight-pointed star."
+      },
+      {
+        "id": "sparkle",
+        "rejected": [],
+        "reason": "All associations are directly related to sparkle and shine."
+      },
+      {
+        "id": "copyright",
+        "rejected": [],
+        "reason": "All associations are directly related to copyright."
+      },
+      {
+        "id": "registered",
+        "rejected": [],
+        "reason": "All associations are directly related to registration and the registered mark."
+      },
+      {
+        "id": "trade mark",
+        "rejected": [],
+        "reason": "All associations are directly related to trademark and branding."
+      },
+      {
+        "id": "splatter",
+        "rejected": [],
+        "reason": "All associations are directly related to splatter or paint splash imagery."
+      },
+      {
+        "id": "keycap: #",
+        "rejected": [
+          "pound key"
+        ],
+        "reason": "This is region-specific and misleading; the keycap is the # symbol, not inherently a 'pound' key."
+      },
+      {
+        "id": "keycap: *",
+        "rejected": [
+          "asterisk"
+        ],
+        "reason": "This is a naming mismatch because the emoji is a keycap showing the * symbol; 'asterisk' is the symbol's name, but as an association it can be misleadingly generic compared with the literal keycap character."
+      },
+      {
+        "id": "keycap: 0",
+        "rejected": [],
+        "reason": "All associations are directly related to the zero keycap."
+      },
+      {
+        "id": "keycap: 1",
+        "rejected": [],
+        "reason": "All associations are directly related to the one keycap."
+      },
+      {
+        "id": "keycap: 2",
+        "rejected": [],
+        "reason": "All associations are directly related to the two keycap."
+      },
+      {
+        "id": "keycap: 3",
+        "rejected": [],
+        "reason": "All associations are directly related to the three keycap."
+      },
+      {
+        "id": "keycap: 4",
+        "rejected": [],
+        "reason": "All associations are directly related to the four keycap."
+      },
+      {
+        "id": "keycap: 5",
+        "rejected": [],
+        "reason": "All associations are directly related to the five keycap."
+      },
+      {
+        "id": "keycap: 6",
+        "rejected": [],
+        "reason": "All associations are directly related to the six keycap."
+      },
+      {
+        "id": "keycap: 7",
+        "rejected": [],
+        "reason": "All associations are directly related to the seven keycap."
+      },
+      {
+        "id": "keycap: 8",
+        "rejected": [],
+        "reason": "All associations are directly related to the eight keycap."
+      },
+      {
+        "id": "keycap: 9",
+        "rejected": [],
+        "reason": "All associations are directly related to the nine keycap."
+      },
+      {
+        "id": "keycap: 10",
+        "rejected": [],
+        "reason": "All associations are directly related to the ten keycap."
+      },
+      {
+        "id": "input latin uppercase",
+        "rejected": [],
+        "reason": "All associations are directly related to uppercase Latin input."
+      },
+      {
+        "id": "input latin lowercase",
+        "rejected": [],
+        "reason": "All associations are directly related to lowercase Latin input."
+      },
+      {
+        "id": "input numbers",
+        "rejected": [],
+        "reason": "All associations are directly related to numeric input."
+      },
+      {
+        "id": "input symbols",
+        "rejected": [],
+        "reason": "All associations are directly related to symbol input."
+      },
+      {
+        "id": "input latin letters",
+        "rejected": [],
+        "reason": "All associations are directly related to Latin letter input."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_06d6fc7d65c83dd2016abfafcf800c87d0937ff8f03e6e9978",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3490,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1039,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4529
+    }
+  }
+}

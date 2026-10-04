@@ -1,0 +1,137 @@
+{
+  "fingerprint": "d773347217b05edbf5b1579af4b3f843478cdb9a9977a2449c0b042c5b739198",
+  "decoded": {
+    "rows": [
+      {
+        "id": "176ab1e08ec2fa2b",
+        "state_reading": "metro | person | NEW button | cityscape | not the following concept | door | person walking | megaphone | eyes | ear",
+        "answer_reading": "metro | not the following concept | door | person walking | then / leads to | door | person walking | not the following concept | megaphone | neutral face | eyes | ear"
+      },
+      {
+        "id": "5f372e717a3409a8",
+        "state_reading": "face savoring food | fork and knife with plate | hamburger | pizza | green salad | sushi | steaming bowl | bread | taco | strawberry",
+        "answer_reading": "hamburger | pizza | green salad | sushi | steaming bowl | bread | taco | strawberry"
+      },
+      {
+        "id": "44bbeb72d1161f73",
+        "state_reading": "sleeping face | crescent moon | person in bed | alarm clock | mantelpiece clock | person taking bath | mobile phone off | hot beverage | crescent moon",
+        "answer_reading": "person in bed | crescent moon | alarm clock | mantelpiece clock | mobile phone off | hot beverage"
+      },
+      {
+        "id": "72a89fd5d27c7332",
+        "state_reading": "paw prints | unknown | panda | rhinoceros | not the following concept | eyes",
+        "answer_reading": "panda | not the following concept | rhinoceros | eyes | unknown"
+      },
+      {
+        "id": "7c86af4aafe7dba2",
+        "state_reading": "shopping bags | window | magnifying glass tilted left | bar chart | magnifying glass tilted right | balance scale",
+        "answer_reading": "window | magnifying glass tilted left | bar chart | magnifying glass tilted right | balance scale"
+      },
+      {
+        "id": "ee5fde4dc538f3da",
+        "state_reading": "automobile | fog | globe showing Europe-Africa | dashing away | not the following concept | herb",
+        "answer_reading": "automobile | dashing away | fog | globe showing Europe-Africa | not the following concept | herb"
+      },
+      {
+        "id": "f1ac03fe61ff3913",
+        "state_reading": "pushpin | balance scale | then / leads to | package | clause boundary | balance scale | heavy equals sign",
+        "answer_reading": "package | balance scale | heavy equals sign | clause boundary | pushpin | package"
+      },
+      {
+        "id": "fbd7c3f01b0cea98",
+        "state_reading": "family | fork and knife with plate | not the following concept | sheaf of rice | bread | cut of meat | fish | broccoli | cooked rice",
+        "answer_reading": "cut of meat | fish | broccoli | cooked rice | beans | ear of corn"
+      },
+      {
+        "id": "fa8c6cf56cf88b78",
+        "state_reading": "credit card | t-shirt | mobile phone | watch | ring",
+        "answer_reading": "mobile phone | watch | credit card | ring"
+      },
+      {
+        "id": "bb089ef3d2190f1f",
+        "state_reading": "office worker | tired face | plus | unknown",
+        "answer_reading": "unknown"
+      }
+    ]
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "176ab1e08ec2fa2b",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "Both readings stay on subway etiquette/basic rules. The answer includes relevant rule-like elements such as metro, doors, walking, and attention/announcement cues, so it still addresses the question."
+      },
+      {
+        "id": "5f372e717a3409a8",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The question asks for types of food, and both readings list foods that fit that request."
+      },
+      {
+        "id": "44bbeb72d1161f73",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The readings are about sleep routine tips and include bedtime-related items like bed, alarm clock, phone off, and hot beverage."
+      },
+      {
+        "id": "72a89fd5d27c7332",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The topic is endangered animals, but the answer does not cleanly give one endangered animal; it mixes multiple animals with unknown and a negation marker."
+      },
+      {
+        "id": "7c86af4aafe7dba2",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The question asks for the difference between window shopping and comparison shopping, and the answer preserves those shopping-related distinctions with relevant symbols."
+      },
+      {
+        "id": "ee5fde4dc538f3da",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The readings concern traffic and the environment, and the answer still conveys vehicle/traffic plus environmental context."
+      },
+      {
+        "id": "f1ac03fe61ff3913",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks for a definition of density, but neither reading faithfully represents that concept; the answer especially does not provide a density definition."
+      },
+      {
+        "id": "fbd7c3f01b0cea98",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The question asks for gluten-free main courses, and the answer gives several plausible gluten-free foods."
+      },
+      {
+        "id": "fa8c6cf56cf88b78",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "Wearable payment devices should center on wearable items like watches or rings, but the readings also include non-wearable items such as a credit card and mobile phone, so the question is not faithfully preserved."
+      },
+      {
+        "id": "bb089ef3d2190f1f",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks for break activities, but the answer is only unknown and provides no activities."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_04a9951eabd71bae016abfa68bde0487d08a8cc569adbe6db3",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1131,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1700,
+      "output_tokens_details": {
+        "reasoning_tokens": 1106
+      },
+      "total_tokens": 2831
+    }
+  }
+}

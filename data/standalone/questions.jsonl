@@ -1,0 +1,200 @@
+{"id": "b15c218dd149f78e", "question": "My phone's battery life is really bad. Is there a way to make it last longer?", "split": "train", "source_index": 24}
+{"id": "f7bc2488732b0092", "question": "I'm looking for information about musical instruments. What is a violin?", "split": "train", "source_index": 25}
+{"id": "5705576de6cffe64", "question": "I'm having trouble sleeping lately. What affects sleep quality?", "split": "train", "source_index": 26}
+{"id": "1759dfa120c41921", "question": "I'm planning a trip to Paris. What are some famous landmarks I should visit?", "split": "train", "source_index": 27}
+{"id": "39201c44085dd526", "question": "I'm looking for a healthy snack option. Do you have any suggestions?", "split": "train", "source_index": 28}
+{"id": "9a704e5ab644d595", "question": "I'm feeling unwell and I'm not sure if I should go to the doctor.", "split": "train", "source_index": 29}
+{"id": "9620c26f7155f184", "question": "I was wondering, how do we measure rain?", "split": "train", "source_index": 30}
+{"id": "86a3a1c78dbc18af", "question": "I'm learning about genetics in school. What is heredity?", "split": "train", "source_index": 31}
+{"id": "ce868481ed2e1369", "question": "I have a cat and I'm worried she's getting bored. What can I do to keep her entertained?", "split": "train", "source_index": 32}
+{"id": "5dcd97dd2cd4ec94", "question": "I'm learning about plants in school. What do plants need to grow?", "split": "train", "source_index": 33}
+{"id": "caff938670e997dd", "question": "I'm interested in cycling races. What are some popular types?", "split": "train", "source_index": 34}
+{"id": "b05d83d1b573c4e6", "question": "What's a food chain?", "split": "train", "source_index": 35}
+{"id": "4a406bd756ca6325", "question": "I'm looking for some new non-fiction books to read. Do you have any suggestions?", "split": "test", "source_index": 36}
+{"id": "380dc0a03f3bed52", "question": "I'm learning about food chains in school and I was wondering, what is a food chain?", "split": "validation", "source_index": 37}
+{"id": "5aa4719bbcc7d27f", "question": "What is the speed of sound?", "split": "train", "source_index": 38}
+{"id": "46fd7dc6ea5e7a7b", "question": "I'm interested in learning more about classical music. What are some popular classical music genres?", "split": "validation", "source_index": 39}
+{"id": "b000c3c4e1890ed4", "question": "I'm looking for a new breakfast cereal. What's a popular one?", "split": "train", "source_index": 40}
+{"id": "b22491e2aa2a6fdb", "question": "Is it going to snow today?", "split": "validation", "source_index": 41}
+{"id": "0aee9a02f28837c2", "question": "What is a sofa?", "split": "train", "source_index": 42}
+{"id": "4907d545aca70962", "question": "I'm learning about plants in school. Why are plants important?", "split": "train", "source_index": 43}
+{"id": "c3748c5864b84150", "question": "I'm feeling tired and I'm not sure if I'm sleeping enough. How many hours of sleep should I get each night?", "split": "train", "source_index": 44}
+{"id": "4db0d73caed50d6e", "question": "I'm learning about simple machines in school and I was wondering, what is a pulley?", "split": "train", "source_index": 45}
+{"id": "9ef377e871f91839", "question": "I'm thinking of buying a new smartphone. What's the main difference between a good camera phone and a regular one?", "split": "train", "source_index": 46}
+{"id": "02cbbb1aaddaaa76", "question": "I'm having trouble getting my kids to bed on time. Do you have any tips for creating a sleep schedule for families?", "split": "train", "source_index": 47}
+{"id": "c7f5bfd71dc71ad6", "question": "I'm learning about animal life cycles in school. What is a life cycle?", "split": "train", "source_index": 48}
+{"id": "36e5764e3ee432d4", "question": "I'm going grocery shopping and I'm having trouble finding things in the store. Do they have a standard layout?", "split": "validation", "source_index": 49}
+{"id": "d7ccb399ffe81885", "question": "I'm trying to stay hydrated, but I'm not sure how much water I should be drinking.", "split": "train", "source_index": 50}
+{"id": "17feddfc6ab0cc91", "question": "I'm going grocery shopping and I want to save money. What's a good way to start?", "split": "test", "source_index": 51}
+{"id": "543b3eef7dd37890", "question": "I've been wondering about light in technology. What are some uses of light?", "split": "train", "source_index": 52}
+{"id": "c7be74a664947ab8", "question": "I'm learning about genetics in school, and I was wondering, what's the difference between genes and environment when it comes to how we look and behave?", "split": "train", "source_index": 53}
+{"id": "797d1707e016473e", "question": "I want to learn about ecosystems. What is an ecosystem?", "split": "train", "source_index": 54}
+{"id": "d9e174d886050ffa", "question": "I'm looking for information about pet food for my dog. What types of commercial pet foods are available?", "split": "train", "source_index": 55}
+{"id": "4e70be3d7ff9c2b4", "question": "I'm looking for a new set of kitchen utensils. What are the must-haves for a beginner?", "split": "train", "source_index": 56}
+{"id": "0ed7f8b488af32f1", "question": "I'm starting to get into playing basketball and I was wondering what kind of food I should eat before a game.", "split": "train", "source_index": 57}
+{"id": "c3a4892275e19ae2", "question": "I'm interested in sports. What are some popular sports?", "split": "test", "source_index": 58}
+{"id": "553f98911c872a1f", "question": "I'm thinking about getting a pet, but I'm not sure what kind to get.", "split": "train", "source_index": 59}
+{"id": "aa46675cf90125a9", "question": "I'm taking my dog to the vet for a check-up. What can I expect?", "split": "train", "source_index": 60}
+{"id": "cfbd3d2563fa88e0", "question": "I'm having some issues with my coworker. We don't seem to get along.", "split": "train", "source_index": 61}
+{"id": "5a473f499fe99802", "question": "I'm looking for a new music streaming service. What are my options?", "split": "test", "source_index": 62}
+{"id": "b9cdb889f9e980a2", "question": "What's the difference between a minute and an hour?", "split": "train", "source_index": 63}
+{"id": "93f1c98bfcca9e41", "question": "I'm looking for a new hat to go with my casual outfits. What styles are popular right now?", "split": "train", "source_index": 64}
+{"id": "679498d9731e6128", "question": "I'm trying to improve my performance at work. What are some key factors that can help me do that?", "split": "train", "source_index": 65}
+{"id": "ed675ef69e9e8195", "question": "I'm looking for ways to reduce my daily commute costs. I've heard carpooling is a good option.", "split": "train", "source_index": 66}
+{"id": "17c535b422440f64", "question": "I'm learning about motion in physics class and I was wondering, what is velocity?", "split": "validation", "source_index": 67}
+{"id": "bb437f4a45b7d3ce", "question": "I have a question about the human ear. What is the main function of the human ear?", "split": "train", "source_index": 68}
+{"id": "1851672b135fb7b6", "question": "I'm interested in learning about apps. What are some popular ways for apps to make money?", "split": "train", "source_index": 69}
+{"id": "8d671049ca38b9b6", "question": "I'm planning to do some online shopping. How can I stay safe?", "split": "train", "source_index": 70}
+{"id": "71e319b4132e177e", "question": "I'm having trouble with my Language Arts homework. What is a simile?", "split": "train", "source_index": 71}
+{"id": "636d77706faeabf1", "question": "I'm going shopping and I need to make a list. What are some things I should have on my shopping list?", "split": "test", "source_index": 72}
+{"id": "397f5f47d82b6a83", "question": "I'm a football coach and I'm looking for some strategies to improve my team's defense. Do you have any suggestions?", "split": "train", "source_index": 73}
+{"id": "176ab1e08ec2fa2b", "question": "I'm new to the city and I'm going to be taking the subway a lot. What are some basic rules I should know?", "split": "train", "source_index": 74}
+{"id": "5f372e717a3409a8", "question": "I'm hungry, what types of food are there?", "split": "train", "source_index": 75}
+{"id": "44bbeb72d1161f73", "question": "I'm having trouble sleeping at night. Do you have any tips on how to establish a sleep routine?", "split": "train", "source_index": 76}
+{"id": "72a89fd5d27c7332", "question": "I'm interested in learning about endangered animals. Can you tell me about one?", "split": "train", "source_index": 77}
+{"id": "7c86af4aafe7dba2", "question": "I'm going shopping this weekend. What's the difference between window shopping and comparison shopping?", "split": "train", "source_index": 78}
+{"id": "054fd847eba8aab6", "question": "I'm planning a road trip from New York to Los Angeles. What's the best route to take?", "split": "validation", "source_index": 79}
+{"id": "ee5fde4dc538f3da", "question": "I'm worried about traffic and the environment. Is traffic bad for the environment?", "split": "train", "source_index": 80}
+{"id": "f1ac03fe61ff3913", "question": "What is density?", "split": "train", "source_index": 81}
+{"id": "fbd7c3f01b0cea98", "question": "I'm planning a family dinner tonight, and my sister is gluten-free. What are some good gluten-free options for main courses?", "split": "train", "source_index": 82}
+{"id": "fa8c6cf56cf88b78", "question": "I'm interested in wearable payment devices. What are some popular types?", "split": "train", "source_index": 83}
+{"id": "bb089ef3d2190f1f", "question": "I'm feeling tired at work. What are some good break activities?", "split": "train", "source_index": 84}
+{"id": "a68c3672d2ae1422", "question": "I'm looking for an all-inclusive resort for my next vacation. What are some popular options?", "split": "train", "source_index": 85}
+{"id": "f70169167822ae06", "question": "I'm interested in learning more about social media analytics. What is it?", "split": "train", "source_index": 86}
+{"id": "ddb8f7d557a9b65c", "question": "I'm looking for a new car. What are some important safety features to consider?", "split": "test", "source_index": 87}
+{"id": "3fed1ce49fff52b7", "question": "I'm trying to get more vitamins in my diet, but I'm not sure where to start.", "split": "train", "source_index": 88}
+{"id": "5e9e70de1da4c211", "question": "I'm looking for a new fitness app to help me stay motivated. Do you have any recommendations?", "split": "train", "source_index": 89}
+{"id": "758ed57ca67fb7f6", "question": "What is a fraction?", "split": "train", "source_index": 90}
+{"id": "9f9a64b21af9131f", "question": "What's the weather like today?", "split": "train", "source_index": 91}
+{"id": "5b426a41cd91bb2b", "question": "I'm thinking of getting a bike, but I don't know much about maintenance.", "split": "train", "source_index": 92}
+{"id": "5b78e695391d662b", "question": "I'm looking for some discounts on summer clothes. Do you know if there are any sales going on?", "split": "train", "source_index": 93}
+{"id": "16263da338abc589", "question": "I'm looking for some new music to listen to, I like pop music.", "split": "train", "source_index": 94}
+{"id": "0854fea7f4c1c6f2", "question": "I'm looking for some inspiration for my summer wardrobe. What are some popular colors for summer fashion this year?", "split": "train", "source_index": 95}
+{"id": "3fac58984df68e96", "question": "I'm having trouble sleeping at night. Do you have any bedtime routine tips?", "split": "train", "source_index": 96}
+{"id": "d9f2db220de2736a", "question": "I'm learning about the water cycle in school. What is groundwater?", "split": "test", "source_index": 97}
+{"id": "6a02df73f026279e", "question": "I'm interested in learning about musical instruments. What's a popular wind instrument?", "split": "validation", "source_index": 98}
+{"id": "cf9657134853fb80", "question": "I love watching cooking shows. What's your favorite cooking show?", "split": "train", "source_index": 99}
+{"id": "ec08d18e71378121", "question": "I'm moving to Japan soon and I want to learn more about the culture. What are some things I should know?", "split": "train", "source_index": 100}
+{"id": "d35d6cedf8c50dba", "question": "I'm going shopping and I need to make a list. Can you help me with that?", "split": "train", "source_index": 101}
+{"id": "af44cdd2ec195903", "question": "I'm looking for a new suit, but I'm not sure where to start.", "split": "train", "source_index": 102}
+{"id": "f240d147c35aa435", "question": "I'm planning to cook dinner for my family tonight, do you have any easy recipe suggestions?", "split": "validation", "source_index": 103}
+{"id": "8ce93260660bd763", "question": "I want to start working out, but I'm struggling to find motivation. Do you have any tips?", "split": "validation", "source_index": 104}
+{"id": "b5d3113900f1c938", "question": "I'm interested in learning about unusual musical instruments. Can you tell me about one?", "split": "train", "source_index": 105}
+{"id": "cb268c69038bb3ec", "question": "I'm interested in painting as a hobby. What kind of art supplies do I need to get started?", "split": "train", "source_index": 106}
+{"id": "fd95e7274a103a30", "question": "I'm looking for information about music festivals. What's the biggest music festival in the world?", "split": "train", "source_index": 107}
+{"id": "b4769445e9c5403e", "question": "My family and I just moved into a new home, and we're planning a housewarming party. What are some common things people do to celebrate a new home?", "split": "train", "source_index": 108}
+{"id": "8881a091f5a6120a", "question": "I'm learning about simple machines. What is a screw?", "split": "train", "source_index": 109}
+{"id": "ee8283cbffed8956", "question": "I'm looking for a new baseball bat. What types are available?", "split": "train", "source_index": 110}
+{"id": "cd1737f6ac55a85f", "question": "I'm worried about pollution in our oceans. Is it really a big problem?", "split": "train", "source_index": 111}
+{"id": "3e638c4f3a6ad6fe", "question": "I'm looking for information about the latest fashion trends. What's popular right now?", "split": "train", "source_index": 112}
+{"id": "7f437a9e37873a04", "question": "I'm learning about ancient civilizations. What continent was ancient Egypt on?", "split": "train", "source_index": 113}
+{"id": "d4b38a491af1cbf3", "question": "I'm looking for a new TV show to binge-watch. Do you have any recommendations?", "split": "test", "source_index": 114}
+{"id": "e543ca1d0cd49b09", "question": "I'm looking for some new music to listen to. What's a popular song right now?", "split": "train", "source_index": 115}
+{"id": "6bfc41031e8a3143", "question": "I want to bake a cake, but I don't know what makes it rise.", "split": "train", "source_index": 116}
+{"id": "c82ca3a1529bcca4", "question": "I'm a little worried about air travel safety. What are the chances of a plane crashing?", "split": "train", "source_index": 117}
+{"id": "099c2df6dde305e8", "question": "I'm looking for something fun to do this summer. What amusement parks are near me?", "split": "train", "source_index": 118}
+{"id": "54d8a59d531255cc", "question": "I'm interested in sports. What's the oldest sport in the world?", "split": "train", "source_index": 119}
+{"id": "307aa92ff934a257", "question": "I'm cleaning my house and I need a new vacuum cleaner. What types are available?", "split": "train", "source_index": 120}
+{"id": "93f3d90c7c50f8a8", "question": "I'm worried about climate change. What's happening to polar bears?", "split": "train", "source_index": 121}
+{"id": "ebc52954f68611a8", "question": "I'm a farmer and I'm worried about the wind affecting my crops. How does wind affect agriculture?", "split": "train", "source_index": 122}
+{"id": "73e5b3e007311f52", "question": "I'm looking for some new recipes to try out, especially ones that have cultural significance to families.", "split": "train", "source_index": 123}
+{"id": "ae956760f5ef4b97", "question": "I'm going to a concert this weekend and I was wondering what makes a good concert sound system.", "split": "train", "source_index": 124}
+{"id": "310a6bf3be3544cb", "question": "I'm planning to visit the shopping district this weekend. What can I do there?", "split": "train", "source_index": 125}
+{"id": "cad35b4cefba82de", "question": "I'm interested in learning more about pressure cooking. What is pressure cooking?", "split": "train", "source_index": 126}
+{"id": "d3736254cfd47db5", "question": "I'm trying to learn new vocabulary for my language class. I've heard of spaced repetition, but I'm not sure what it is.", "split": "test", "source_index": 127}
+{"id": "d739723025cd333e", "question": "I'm looking for a new hobby. Do you have any suggestions?", "split": "train", "source_index": 128}
+{"id": "bcaf9899f718a20c", "question": "I'm having trouble sleeping at night. Do you have any suggestions?", "split": "test", "source_index": 129}
+{"id": "701b995956a3ef09", "question": "I'm looking for some discounts on electronics. Are there any flash sales happening?", "split": "train", "source_index": 130}
+{"id": "88f7d992637fa743", "question": "I'm feeling really thirsty today. Is it because of the heat?", "split": "train", "source_index": 131}
+{"id": "2d5d7cab01bcde62", "question": "I'm looking for ideas to decorate my living room. What are some popular fabrics for upholstery?", "split": "train", "source_index": 132}
+{"id": "73ede5288ba7db51", "question": "I'm having trouble sleeping at night. Do you know what sleep apnea is?", "split": "validation", "source_index": 133}
+{"id": "9f32d21862be2a7b", "question": "I'm thinking of remodeling my kitchen. What are some popular materials for countertops?", "split": "test", "source_index": 134}
+{"id": "686a727a7dbd93cf", "question": "I'm looking for a new kitchen gadget. What's the most useful one you'd recommend?", "split": "test", "source_index": 135}
+{"id": "eb208ddb0bcadc20", "question": "Is it going to rain today?", "split": "train", "source_index": 136}
+{"id": "0ecf2f2353c1165b", "question": "I'm curious about magnets and compasses. How do compasses work?", "split": "train", "source_index": 137}
+{"id": "bc13c9a4b8345288", "question": "I'm looking for a place to eat. What kinds of restaurants are there?", "split": "train", "source_index": 138}
+{"id": "06d429a033a75a92", "question": "I'm looking for a place to eat. What types of restaurants are there?", "split": "train", "source_index": 139}
+{"id": "74326ab246487510", "question": "I'm having trouble staying organized with my schoolwork. Do you have any tips for managing my homework?", "split": "train", "source_index": 140}
+{"id": "e195ac046db55c9a", "question": "I'm looking for some ideas for wall art in my living room. What are some popular types of wall art?", "split": "train", "source_index": 141}
+{"id": "dabbf1379ac856cf", "question": "I'm learning about genetics and family trees. What is heredity?", "split": "test", "source_index": 142}
+{"id": "98be9d0d07b02e36", "question": "I'm trying to organize my small apartment and I don't know where to start.", "split": "train", "source_index": 143}
+{"id": "b4e4cea1bb2a85c3", "question": "What are the four seasons?", "split": "validation", "source_index": 144}
+{"id": "1a9fee267c57039c", "question": "I'm looking for information about bus rapid transit. What is it?", "split": "train", "source_index": 145}
+{"id": "b6c4efdb565a0e55", "question": "I'm planning a family gathering this weekend and I want to hear some story ideas to share with my family.", "split": "train", "source_index": 146}
+{"id": "695143637064cff4", "question": "I'm trying to create a budget and I'm not sure how much I should save for emergencies.", "split": "train", "source_index": 147}
+{"id": "0aad23aef06acb46", "question": "I have a big family with lots of siblings. What are some common communication styles among siblings?", "split": "test", "source_index": 148}
+{"id": "54194482ca9eae72", "question": "I'm interested in sports psychology. What is it?", "split": "train", "source_index": 149}
+{"id": "46e2d2a007408869", "question": "I'm a big sports fan. Who are some famous athletes that were inducted into the Hall of Fame recently?", "split": "train", "source_index": 151}
+{"id": "47d11adab5e5b9fc", "question": "I'm going to a wedding and I need to know how to keep my suit looking good.", "split": "train", "source_index": 152}
+{"id": "2174ac8353e6f9fd", "question": "I'm having trouble communicating with my grandparents. They don't use smartphones or the internet, so it's hard to stay in touch.", "split": "train", "source_index": 153}
+{"id": "c133e86ae86bd7f9", "question": "I'm hungry, what are some quick meal ideas?", "split": "validation", "source_index": 155}
+{"id": "bf74507728eadc0e", "question": "I'm a bit confused about the difference between the metric system and the imperial system. Can you explain it to me?", "split": "train", "source_index": 156}
+{"id": "7bd4cfd84d20beb0", "question": "I'm new to the company and I'm trying to figure out my commute options. Does the company offer a shuttle service?", "split": "validation", "source_index": 157}
+{"id": "15cd4d9ba0fbb3f4", "question": "I'm planning to do some gardening this weekend. What are the best tools to use for pruning and trimming?", "split": "validation", "source_index": 158}
+{"id": "71c038cd8fe37356", "question": "I'm looking for music festivals happening this summer. Do you know any popular ones?", "split": "train", "source_index": 159}
+{"id": "b8c3921aac712b1e", "question": "I'm feeling tired at work. Is it okay to take a nap?", "split": "train", "source_index": 160}
+{"id": "c19aeb3b2a1a5cf1", "question": "It's really windy outside. What kind of clothing should I wear?", "split": "train", "source_index": 161}
+{"id": "b81a068fe2793945", "question": "Our school is having a book fair next week. What is a book fair?", "split": "train", "source_index": 162}
+{"id": "ca826aec5b640f42", "question": "I've been feeling tired lately and I want to know how I can improve my overall health.", "split": "train", "source_index": 163}
+{"id": "b0a4498811bc1b56", "question": "I'm looking for a new fitness app to help me stay active. Do you have any recommendations?", "split": "train", "source_index": 164}
+{"id": "1c110f97db86b736", "question": "I'm looking for ways to improve my professional skills, particularly my creativity. Do you have any suggestions?", "split": "train", "source_index": 165}
+{"id": "2f7b4aede8fa8fe4", "question": "I'm thinking of upgrading my home with some smart devices. What's the benefit of smart lighting?", "split": "train", "source_index": 166}
+{"id": "23184c37ff9d6099", "question": "I'm trying to eat healthier. Do you have any tips for meal planning?", "split": "test", "source_index": 167}
+{"id": "e24d272a964433ff", "question": "I'm looking for a new hobby, something I can do at home. I enjoy cooking and trying new recipes.", "split": "train", "source_index": 168}
+{"id": "24d1df32976a9f1f", "question": "I'm having trouble communicating with the marketing team. Do you have any tips?", "split": "train", "source_index": 169}
+{"id": "80cfb5271b44aac9", "question": "What causes the seasons to change?", "split": "train", "source_index": 170}
+{"id": "deeb0a7bde46fac5", "question": "I'm looking for a new way to cook my favorite beef stew. Do you have any suggestions?", "split": "test", "source_index": 171}
+{"id": "3c1442d95b2c43fa", "question": "I'm looking for educational apps for my kids. Can you suggest some?", "split": "train", "source_index": 172}
+{"id": "a6e93e4f8b3cbb46", "question": "I'm having trouble getting my kids to bed on time. Do you have any bedtime routine tips?", "split": "train", "source_index": 173}
+{"id": "fcf485108751c227", "question": "I'm looking for a new exercise machine for my home gym. What's the difference between a leg press and a leg extension?", "split": "train", "source_index": 174}
+{"id": "da01a17a47f70146", "question": "I'm looking for ways to make learning more interesting. What are some popular visual aids that can help?", "split": "train", "source_index": 175}
+{"id": "857658df5df26b59", "question": "I'm thinking about getting a pet for my family, especially my kids. What are the benefits of having a pet for children?", "split": "train", "source_index": 176}
+{"id": "e83efe5ec1305d0e", "question": "I'm looking for deals on laptops. Do you have any recommendations?", "split": "train", "source_index": 177}
+{"id": "21291b4268e22cc4", "question": "I'm going to a wedding and I don't know what to wear. Can you tell me about traditional wedding attire?", "split": "train", "source_index": 178}
+{"id": "a4dfaedd67145404", "question": "I'm looking for ways to make my daily commute easier. I'm tired of driving to work and dealing with traffic.", "split": "train", "source_index": 179}
+{"id": "6af33d6444e8fc1c", "question": "I'm a student and I'm looking for some discounts on laptops. Do you know of any sales going on?", "split": "validation", "source_index": 180}
+{"id": "408d95f978c6bcce", "question": "I have a pest control problem at home. I've seen some ants in my kitchen.", "split": "train", "source_index": 181}
+{"id": "f518530e409cbd82", "question": "I'm learning about minerals in school, and I was wondering what quartz is.", "split": "train", "source_index": 182}
+{"id": "72b28b9810c2dd42", "question": "I'm starting a chemistry class and I want to know the basics of lab safety.", "split": "train", "source_index": 183}
+{"id": "e4643212e72b85db", "question": "I'm trying to get in shape for soccer season. What's a good exercise for building endurance?", "split": "test", "source_index": 184}
+{"id": "f5c6358506b70b52", "question": "I'm new to the gym and I don't know which machine exercises to do for my legs.", "split": "train", "source_index": 185}
+{"id": "cdf26f39fe02be5f", "question": "I'm learning about geology in school and I was wondering, what causes earthquakes?", "split": "train", "source_index": 186}
+{"id": "cd8299ce6d9d44a2", "question": "I'm trying to declutter my home and get organized. Do you have any tips?", "split": "train", "source_index": 187}
+{"id": "ee5a6c4e8a18389d", "question": "I'm looking for a new smartphone. What are some popular brands?", "split": "train", "source_index": 188}
+{"id": "1d5e0268a5e96ae9", "question": "I'm learning about volcanoes in school and I was wondering, what is a volcano?", "split": "train", "source_index": 189}
+{"id": "18979afa540911fe", "question": "I'm a teacher and I'm looking for new ways to demonstrate math concepts to my students. Do you have any suggestions?", "split": "validation", "source_index": 190}
+{"id": "7cd7009daf241777", "question": "I'm planning a family reunion and I want to know more about common family traditions.", "split": "train", "source_index": 191}
+{"id": "99897405ce35f0c5", "question": "I'm looking for a snack. Do you have any recommendations?", "split": "train", "source_index": 192}
+{"id": "060bf775ae35abac", "question": "I'm looking for information about community services in my area. What kinds of services are available?", "split": "train", "source_index": 193}
+{"id": "631b75335f737215", "question": "I'm thinking about getting a pet, and I want to know if they need exercise.", "split": "test", "source_index": 194}
+{"id": "733f8c181cbe24a2", "question": "I've noticed that some cultures seem to view time very differently. Can you tell me more about that?", "split": "train", "source_index": 195}
+{"id": "20412196a8c428cc", "question": "I'm thinking about my home. What are the main rooms in a house?", "split": "validation", "source_index": 196}
+{"id": "d66e2cb492b63b13", "question": "I'm going grocery shopping this weekend. What's in season right now?", "split": "train", "source_index": 197}
+{"id": "f8dabb89c0cdb0d8", "question": "I'm getting married soon and I'm trying to decide on a wedding theme. Do you have any suggestions?", "split": "train", "source_index": 198}
+{"id": "b843aa42aeb0da7b", "question": "I'm thinking about food. What are some common meals people eat for breakfast?", "split": "validation", "source_index": 199}
+{"id": "894f9e8fbb85bc4d", "question": "I'm looking for information about vintage sports equipment. What's one of the most valuable vintage sports items?", "split": "train", "source_index": 200}
+{"id": "4eade701d632b76f", "question": "I'm thinking of getting a dog, what kind of exercise does it need?", "split": "train", "source_index": 201}
+{"id": "e39607c870ba125a", "question": "I'm interested in bicycles. What are the main types of bicycles?", "split": "train", "source_index": 202}
+{"id": "be91e12c40772c58", "question": "I'm thinking about getting a pet for my family, do you think it's a good idea?", "split": "train", "source_index": 203}
+{"id": "076c953a123d502d", "question": "I'm looking for ways to improve my performance at work. What are some key factors that affect job performance?", "split": "train", "source_index": 204}
+{"id": "4c7a02d21bbfaa46", "question": "I'm looking for a new hobby, something creative. I've heard of plein air painting. What is it?", "split": "train", "source_index": 205}
+{"id": "d8e3a35c52d82917", "question": "I'm looking for some new casual shoes. What's popular right now?", "split": "train", "source_index": 206}
+{"id": "16c80f3c707e3427", "question": "I'm a teacher and I'm interested in learning more about the flipped classroom method.", "split": "train", "source_index": 207}
+{"id": "d0f407c9932d45b3", "question": "I'm having trouble at work. What are some key factors that affect job performance?", "split": "train", "source_index": 208}
+{"id": "8b48f0ade9783b68", "question": "I'm looking for a good video conferencing platform for work. What are some popular options?", "split": "test", "source_index": 209}
+{"id": "08fbe19bc1ff066d", "question": "I'm learning about shapes in school. Can you tell me about some shapes I see in everyday objects?", "split": "validation", "source_index": 210}
+{"id": "08ae7ac092f4fac8", "question": "I have a problem with aphids in my garden. What can I do to get rid of them?", "split": "train", "source_index": 211}
+{"id": "8e50ce0bd6632fc7", "question": "I'm learning about the human body in school. What is the main job of the circulatory system?", "split": "train", "source_index": 212}
+{"id": "c73a8989776e9664", "question": "I'm looking for a taxi service to get to the airport. Do you know any good options?", "split": "train", "source_index": 213}
+{"id": "a36da6549dd7411e", "question": "I'm thinking about organizing my home. What are the main rooms in a house?", "split": "train", "source_index": 214}
+{"id": "99e6cdf00047c876", "question": "I'm interested in starting yoga for beginners. What's the best way to get started?", "split": "train", "source_index": 215}
+{"id": "c934a19c3411fa72", "question": "I'm trying to save time on grocery shopping. What are some benefits of online grocery shopping?", "split": "train", "source_index": 216}
+{"id": "d54a808babe6823f", "question": "I'm interested in learning more about the future of energy. What are some alternative energy sources?", "split": "train", "source_index": 217}
+{"id": "2228cc6dd946d3df", "question": "I'm looking to start a board game collection. What are some popular board games for beginners?", "split": "validation", "source_index": 218}
+{"id": "129fa3cc05961392", "question": "I'm planning a family outing this weekend. Do you have any suggestions for outdoor activities?", "split": "train", "source_index": 219}
+{"id": "ecff562a7fb817f7", "question": "I'm taking my dog to the vet for vaccinations. What are the most common vaccinations for dogs?", "split": "train", "source_index": 220}
+{"id": "5cb7a1bd09463bd5", "question": "I have a leaky faucet in my kitchen. What should I do?", "split": "train", "source_index": 221}
+{"id": "916f2240efd2eb94", "question": "I love spending time with my family, especially when we're with our pets. Do you think having pets helps bring families closer together?", "split": "test", "source_index": 222}
+{"id": "52d76a7d910e071f", "question": "I'm looking for ways to get to work. What are my public transportation options?", "split": "train", "source_index": 223}
+{"id": "c3d301355b6d2b9f", "question": "I want to make a simple vegetarian dish for dinner. Do you have any suggestions?", "split": "train", "source_index": 224}
+{"id": "c53ad0d8c2854417", "question": "I'm looking for some home workout videos to help me get started with my fitness routine.", "split": "train", "source_index": 225}

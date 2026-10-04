@@ -1,0 +1,18 @@
+{
+  "seeds": {
+    "entities": 401,
+    "train": 409,
+    "validation": 419,
+    "test": 421
+  },
+  "target_revision": 2,
+  "entity_splits": "frozen entities.json",
+  "counts": {
+    "train": 1408,
+    "validation": 224,
+    "test": 416
+  },
+  "topics": 16,
+  "targets": "directly authored emoji symbols",
+  "evaluation": "supplemental entity pools are disjoint; test templates are held out"
+}

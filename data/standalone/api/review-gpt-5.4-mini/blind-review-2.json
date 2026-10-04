@@ -1,0 +1,127 @@
+{
+  "fingerprint": "1d13b22f463da96f7cd2db3f1e7d7f3c0239d1accc0779384649baea755f4ab0",
+  "decoded": {
+    "rows": [
+      {
+        "id": "control-heredity",
+        "state_reading": "🧬",
+        "answer_reading": "🧬 🧠 👪",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "control-battery",
+        "state_reading": "📱 🔋",
+        "answer_reading": "⚫",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "control-paris",
+        "state_reading": "🗼",
+        "answer_reading": "🗼",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "control-rain",
+        "state_reading": "🌧️",
+        "answer_reading": "🌧️ 📏",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "control-snack",
+        "state_reading": "🍎 ❓",
+        "answer_reading": "🍎",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "control-pet",
+        "state_reading": "🐈 ❓",
+        "answer_reading": "🐈",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "control-weather",
+        "state_reading": "🌨️ ❓",
+        "answer_reading": "❓",
+        "unsupported_meanings": false
+      }
+    ]
+  },
+  "decoder": {
+    "id": "resp_0f4d21917b664c5c016abfa4cddf3487d094556e065a814f3b",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1002,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 217,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1219
+    }
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "control-heredity",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state keeps the topic of heredity, but the answer adds unrelated emojis and does not actually define heredity."
+      },
+      {
+        "id": "control-battery",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state matches the phone-battery topic, but a black circle does not answer how to make the battery last longer."
+      },
+      {
+        "id": "control-paris",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the Paris landmark topic and the answer gives a landmark that can answer the request."
+      },
+      {
+        "id": "control-rain",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state only shows rain and omits the measuring aspect needed by the question, and the answer adds a ruler without actually indicating a rain-measuring method or instrument."
+      },
+      {
+        "id": "control-snack",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the fruit-snack prompt, and apple is a valid answer."
+      },
+      {
+        "id": "control-pet",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the common-pet prompt, and a cat is a valid answer."
+      },
+      {
+        "id": "control-weather",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state does not preserve the yes/no weather question, and a question mark alone is unknown rather than an answer."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_043c563fdbadce02016abfa4cf8e3487d08c3522e485ebc7dd",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 582,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 343,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 925
+    }
+  }
+}

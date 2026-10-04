@@ -1,0 +1,1000 @@
+{
+  "names": [
+    "smiling face with open hands",
+    "face with hand over mouth",
+    "face with open eyes and hand over mouth",
+    "face with peeking eye",
+    "shushing face",
+    "thinking face",
+    "saluting face",
+    "zipper-mouth face",
+    "face with raised eyebrow",
+    "neutral face",
+    "expressionless face",
+    "face without mouth",
+    "dotted line face",
+    "face in clouds",
+    "smirking face",
+    "unamused face",
+    "face with rolling eyes",
+    "grimacing face",
+    "face exhaling",
+    "lying face",
+    "shaking face",
+    "head shaking horizontally",
+    "head shaking vertically",
+    "relieved face",
+    "pensive face",
+    "sleepy face",
+    "drooling face",
+    "sleeping face",
+    "face with bags under eyes",
+    "face with medical mask",
+    "face with thermometer",
+    "face with head-bandage",
+    "nauseated face",
+    "face vomiting",
+    "sneezing face",
+    "hot face",
+    "cold face",
+    "woozy face",
+    "face with crossed-out eyes",
+    "face with spiral eyes"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "smiling face with open hands",
+        "associations": [
+          "welcome",
+          "hug",
+          "embrace",
+          "open arms",
+          "warmth"
+        ]
+      },
+      {
+        "id": "face with hand over mouth",
+        "associations": [
+          "surprised",
+          "gasp",
+          "covering mouth",
+          "embarrassment",
+          "shock"
+        ]
+      },
+      {
+        "id": "face with open eyes and hand over mouth",
+        "associations": [
+          "astonished",
+          "gasp",
+          "silent surprise",
+          "covering mouth",
+          "shock"
+        ]
+      },
+      {
+        "id": "face with peeking eye",
+        "associations": [
+          "peeking",
+          "watching",
+          "curious",
+          "sneaky",
+          "hidden"
+        ]
+      },
+      {
+        "id": "shushing face",
+        "associations": [
+          "quiet",
+          "silence",
+          "shh",
+          "secret",
+          "hush"
+        ]
+      },
+      {
+        "id": "thinking face",
+        "associations": [
+          "pondering",
+          "questioning",
+          "considering",
+          "thoughtful",
+          "hmm"
+        ]
+      },
+      {
+        "id": "saluting face",
+        "associations": [
+          "respect",
+          "salute",
+          "duty",
+          "acknowledgment",
+          "service"
+        ]
+      },
+      {
+        "id": "zipper-mouth face",
+        "associations": [
+          "silent",
+          "secret",
+          "shut up",
+          "sealed",
+          "withheld"
+        ]
+      },
+      {
+        "id": "face with raised eyebrow",
+        "associations": [
+          "skeptical",
+          "dubious",
+          "questioning",
+          "side-eye",
+          "curious"
+        ]
+      },
+      {
+        "id": "neutral face",
+        "associations": [
+          "indifferent",
+          "blank",
+          "neutral",
+          "plain",
+          "unimpressed"
+        ]
+      },
+      {
+        "id": "expressionless face",
+        "associations": [
+          "blank",
+          "deadpan",
+          "emotionless",
+          "flat",
+          "unmoved"
+        ]
+      },
+      {
+        "id": "face without mouth",
+        "associations": [
+          "silent",
+          "speechless",
+          "blank",
+          "mute",
+          "wordless"
+        ]
+      },
+      {
+        "id": "dotted line face",
+        "associations": [
+          "uncertain",
+          "ghostly",
+          "fading",
+          "dizzy",
+          "disconnected"
+        ]
+      },
+      {
+        "id": "face in clouds",
+        "associations": [
+          "dreamy",
+          "foggy",
+          "confused",
+          "hidden",
+          "mind wandering"
+        ]
+      },
+      {
+        "id": "smirking face",
+        "associations": [
+          "smug",
+          "mischievous",
+          "knowing",
+          "flirtatious",
+          "self-satisfied"
+        ]
+      },
+      {
+        "id": "unamused face",
+        "associations": [
+          "annoyed",
+          "bored",
+          "skeptical",
+          "displeased",
+          "meh"
+        ]
+      },
+      {
+        "id": "face with rolling eyes",
+        "associations": [
+          "exasperated",
+          "dismissive",
+          "annoyed",
+          "sigh",
+          "impatient"
+        ]
+      },
+      {
+        "id": "grimacing face",
+        "associations": [
+          "awkward",
+          "tense",
+          "uneasy",
+          "nervous",
+          "cringe"
+        ]
+      },
+      {
+        "id": "face exhaling",
+        "associations": [
+          "relief",
+          "sigh",
+          "tired",
+          "release",
+          "calm"
+        ]
+      },
+      {
+        "id": "lying face",
+        "associations": [
+          "lie",
+          "dishonest",
+          "Pinocchio",
+          "deception",
+          "fib"
+        ]
+      },
+      {
+        "id": "shaking face",
+        "associations": [
+          "shaking",
+          "shock",
+          "trembling",
+          "dizzy",
+          "disturbed"
+        ]
+      },
+      {
+        "id": "head shaking horizontally",
+        "associations": [
+          "no",
+          "rejection",
+          "denial",
+          "refusal",
+          "disagree"
+        ]
+      },
+      {
+        "id": "head shaking vertically",
+        "associations": [
+          "yes",
+          "agreement",
+          "nod",
+          "approval",
+          "affirmation"
+        ]
+      },
+      {
+        "id": "relieved face",
+        "associations": [
+          "relief",
+          "calm",
+          "content",
+          "satisfied",
+          "easy"
+        ]
+      },
+      {
+        "id": "pensive face",
+        "associations": [
+          "reflective",
+          "sad",
+          "thoughtful",
+          "brooding",
+          "melancholy"
+        ]
+      },
+      {
+        "id": "sleepy face",
+        "associations": [
+          "sleepy",
+          "drowsy",
+          "tired",
+          "yawning",
+          "fatigued"
+        ]
+      },
+      {
+        "id": "drooling face",
+        "associations": [
+          "drool",
+          "hungry",
+          "desire",
+          "sleepy",
+          "longing"
+        ]
+      },
+      {
+        "id": "sleeping face",
+        "associations": [
+          "asleep",
+          "sleep",
+          "rest",
+          "slumber",
+          "dreaming"
+        ]
+      },
+      {
+        "id": "face with bags under eyes",
+        "associations": [
+          "exhausted",
+          "tired",
+          "overworked",
+          "weary",
+          "sleep-deprived"
+        ]
+      },
+      {
+        "id": "face with medical mask",
+        "associations": [
+          "mask",
+          "health",
+          "sick",
+          "protection",
+          "hospital"
+        ]
+      },
+      {
+        "id": "face with thermometer",
+        "associations": [
+          "fever",
+          "sick",
+          "illness",
+          "temperature",
+          "unwell"
+        ]
+      },
+      {
+        "id": "face with head-bandage",
+        "associations": [
+          "injured",
+          "bandaged",
+          "hurt",
+          "recovery",
+          "sore"
+        ]
+      },
+      {
+        "id": "nauseated face",
+        "associations": [
+          "nausea",
+          "sick",
+          "disgust",
+          "queasy",
+          "ill"
+        ]
+      },
+      {
+        "id": "face vomiting",
+        "associations": [
+          "vomit",
+          "sick",
+          "retching",
+          "nausea",
+          "gross"
+        ]
+      },
+      {
+        "id": "sneezing face",
+        "associations": [
+          "sneeze",
+          "allergy",
+          "cold",
+          "illness",
+          "achoo"
+        ]
+      },
+      {
+        "id": "hot face",
+        "associations": [
+          "heat",
+          "warm",
+          "flushed",
+          "sweaty",
+          "overheated"
+        ]
+      },
+      {
+        "id": "cold face",
+        "associations": [
+          "cold",
+          "freezing",
+          "chilly",
+          "shivering",
+          "icy"
+        ]
+      },
+      {
+        "id": "woozy face",
+        "associations": [
+          "dizzy",
+          "tipsy",
+          "stunned",
+          "unsteady",
+          "confused"
+        ]
+      },
+      {
+        "id": "face with crossed-out eyes",
+        "associations": [
+          "fainted",
+          "dead",
+          "dizzy",
+          "knocked out",
+          "speechless"
+        ]
+      },
+      {
+        "id": "face with spiral eyes",
+        "associations": [
+          "dizzy",
+          "hypnotized",
+          "confused",
+          "stunned",
+          "spirals"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_07a95f394c354e93016abfad413f4887d0aa2f992004b737b9",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 911,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1028,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1939
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "smiling face with open hands",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of open hands and welcome/hug gestures."
+      },
+      {
+        "id": "face with hand over mouth",
+        "rejected": [],
+        "reason": "All associations fit surprise, gasp, or embarrassed covering-mouth meanings."
+      },
+      {
+        "id": "face with open eyes and hand over mouth",
+        "rejected": [],
+        "reason": "All associations match astonished surprise with a hand over mouth."
+      },
+      {
+        "id": "face with peeking eye",
+        "rejected": [],
+        "reason": "All associations are related to peeking, watching, and hidden curiosity."
+      },
+      {
+        "id": "shushing face",
+        "rejected": [],
+        "reason": "All associations are direct shushing/quiet/secret meanings."
+      },
+      {
+        "id": "thinking face",
+        "rejected": [],
+        "reason": "All associations are standard thinking/pondering meanings."
+      },
+      {
+        "id": "saluting face",
+        "rejected": [],
+        "reason": "All associations are ordinary salute/respect meanings."
+      },
+      {
+        "id": "zipper-mouth face",
+        "rejected": [
+          "shut up"
+        ],
+        "reason": "\"Shut up\" is an aggressive insult, not a neutral association for the emoji's core meaning of keeping quiet or sealed mouth."
+      },
+      {
+        "id": "face with raised eyebrow",
+        "rejected": [],
+        "reason": "All associations are common skepticism or questioning interpretations."
+      },
+      {
+        "id": "neutral face",
+        "rejected": [
+          "unimpressed"
+        ],
+        "reason": "\"Unimpressed\" is a stronger subjective interpretation than the core neutral expression and can mislead toward annoyance rather than neutrality."
+      },
+      {
+        "id": "expressionless face",
+        "rejected": [],
+        "reason": "All associations match a flat, emotionless expression."
+      },
+      {
+        "id": "face without mouth",
+        "rejected": [],
+        "reason": "All associations are acceptable for silence, speechlessness, or blankness."
+      },
+      {
+        "id": "dotted line face",
+        "rejected": [
+          "ghostly",
+          "fading"
+        ],
+        "reason": "These are unsupported and misleading; the emoji does not inherently mean ghostly or disappearing."
+      },
+      {
+        "id": "face in clouds",
+        "rejected": [
+          "hidden"
+        ],
+        "reason": "\"Hidden\" is misleading; the emoji suggests clouded thought or mind-wandering, not concealment."
+      },
+      {
+        "id": "smirking face",
+        "rejected": [],
+        "reason": "All associations are standard for a smirking expression."
+      },
+      {
+        "id": "unamused face",
+        "rejected": [
+          "meh"
+        ],
+        "reason": "\"Meh\" is colloquial and not a direct association with the emoji's core meaning."
+      },
+      {
+        "id": "face with rolling eyes",
+        "rejected": [],
+        "reason": "All associations fit annoyance, dismissal, or exasperation."
+      },
+      {
+        "id": "grimacing face",
+        "rejected": [],
+        "reason": "All associations are appropriate for awkward or tense discomfort."
+      },
+      {
+        "id": "face exhaling",
+        "rejected": [
+          "tired"
+        ],
+        "reason": "\"Tired\" is not a core meaning of the emoji and can overstate the expression."
+      },
+      {
+        "id": "lying face",
+        "rejected": [
+          "Pinocchio"
+        ],
+        "reason": "\"Pinocchio\" is a misleading named-entity substitution rather than the emoji's actual meaning of lying/deception."
+      },
+      {
+        "id": "shaking face",
+        "rejected": [
+          "disturbed"
+        ],
+        "reason": "\"Disturbed\" is not a standard core association and is too interpretive for this emoji."
+      },
+      {
+        "id": "head shaking horizontally",
+        "rejected": [
+          "no",
+          "rejection",
+          "denial",
+          "refusal",
+          "disagree"
+        ],
+        "reason": "This is a motion description, but the emoji's core meaning is the head-shaking gesture itself; these are semantic interpretations rather than the literal association list and are overly abstracted here."
+      },
+      {
+        "id": "head shaking vertically",
+        "rejected": [
+          "yes",
+          "agreement",
+          "nod",
+          "approval",
+          "affirmation"
+        ],
+        "reason": "This is a motion description, but the emoji's core meaning is the head-shaking gesture itself; these are semantic interpretations rather than the literal association list and are overly abstracted here."
+      },
+      {
+        "id": "relieved face",
+        "rejected": [
+          "easy"
+        ],
+        "reason": "\"Easy\" is vague and not a direct association with relief or contentment."
+      },
+      {
+        "id": "pensive face",
+        "rejected": [
+          "sad"
+        ],
+        "reason": "\"Sad\" is not guaranteed by the emoji and can misrepresent it; pensive means thoughtful/contemplative."
+      },
+      {
+        "id": "sleepy face",
+        "rejected": [],
+        "reason": "All associations are appropriate for sleepiness and drowsiness."
+      },
+      {
+        "id": "drooling face",
+        "rejected": [
+          "desire",
+          "sleepy"
+        ],
+        "reason": "\"Desire\" is too vague and \"sleepy\" is not the core meaning; the emoji is more about drooling, craving, or sleepiness, but these terms can mislead."
+      },
+      {
+        "id": "sleeping face",
+        "rejected": [],
+        "reason": "All associations match sleep and being asleep."
+      },
+      {
+        "id": "face with bags under eyes",
+        "rejected": [],
+        "reason": "All associations are appropriate for exhaustion and sleep deprivation."
+      },
+      {
+        "id": "face with medical mask",
+        "rejected": [],
+        "reason": "All associations are ordinary for a medical mask and health/sickness context."
+      },
+      {
+        "id": "face with thermometer",
+        "rejected": [],
+        "reason": "All associations fit fever, sickness, and illness."
+      },
+      {
+        "id": "face with head-bandage",
+        "rejected": [],
+        "reason": "All associations are appropriate for injury and recovery."
+      },
+      {
+        "id": "nauseated face",
+        "rejected": [],
+        "reason": "All associations match nausea, disgust, and feeling ill."
+      },
+      {
+        "id": "face vomiting",
+        "rejected": [
+          "gross"
+        ],
+        "reason": "\"Gross\" is a reaction rather than a direct association with vomiting and can drift into unrelated disgust meaning."
+      },
+      {
+        "id": "sneezing face",
+        "rejected": [],
+        "reason": "All associations are appropriate for sneezing and allergy/cold symptoms."
+      },
+      {
+        "id": "hot face",
+        "rejected": [],
+        "reason": "All associations fit heat, flushing, and overheating."
+      },
+      {
+        "id": "cold face",
+        "rejected": [],
+        "reason": "All associations fit cold, freezing, and shivering."
+      },
+      {
+        "id": "woozy face",
+        "rejected": [
+          "confused"
+        ],
+        "reason": "\"Confused\" is not the core meaning and can mislead; woozy primarily conveys dizziness or unsteadiness."
+      },
+      {
+        "id": "face with crossed-out eyes",
+        "rejected": [
+          "dead"
+        ],
+        "reason": "\"Dead\" is an unsupported and potentially misleading substitution; the emoji indicates fainted/knocked out or exhausted, not death."
+      },
+      {
+        "id": "face with spiral eyes",
+        "rejected": [],
+        "reason": "All associations are acceptable for dizziness, hypnosis, or being overwhelmed."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_05ebab18fa3a9b29016abfadd2fe0c87d090ba4e40556deb29",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1659,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1291,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2950
+    }
+  },
+  "invalid_audits": [
+    {
+      "audit": {
+        "rows": [
+          {
+            "id": "smiling face with open hands",
+            "rejected": [
+              "hug",
+              "embrace",
+              "open arms"
+            ],
+            "reason": "These associations are not supported by the core meaning of open hands; they imply hugging that the emoji does not specifically mean."
+          },
+          {
+            "id": "face with hand over mouth",
+            "rejected": [
+              "embarrassment"
+            ],
+            "reason": "This is an ordinary surprise/gasp emoji; embarrassment is a possible but less supported interpretation and can mislead the core meaning."
+          },
+          {
+            "id": "face with open eyes and hand over mouth",
+            "rejected": [
+              "covering mouth"
+            ],
+            "reason": "Redundant wording that narrows the emoji to the hand action rather than the expressive meaning of astonishment/surprise."
+          },
+          {
+            "id": "face with peeking eye",
+            "rejected": [
+              "sneaky",
+              "hidden"
+            ],
+            "reason": "These are interpretive and potentially misleading; the core meaning is peeking/looking, not necessarily secrecy or concealment."
+          },
+          {
+            "id": "shushing face",
+            "rejected": [
+              "secret"
+            ],
+            "reason": "Shushing implies quiet/silence; 'secret' adds an unsupported meaning."
+          },
+          {
+            "id": "saluting face",
+            "rejected": [
+              "duty",
+              "service"
+            ],
+            "reason": "These are broader institutional interpretations not directly supported by the emoji's core saluting gesture."
+          },
+          {
+            "id": "zipper-mouth face",
+            "rejected": [
+              "shut up",
+              "withheld"
+            ],
+            "reason": "'Shut up' is a rude command and not a core meaning; 'withheld' is an unsupported abstraction."
+          },
+          {
+            "id": "face with raised eyebrow",
+            "rejected": [
+              "side-eye"
+            ],
+            "reason": "'Side-eye' is a related expression but not the literal core meaning and can be a misleading substitution."
+          },
+          {
+            "id": "neutral face",
+            "rejected": [
+              "unimpressed"
+            ],
+            "reason": "Unimpressed is a separate emotional interpretation; the core meaning is neutral/blank."
+          },
+          {
+            "id": "face without mouth",
+            "rejected": [
+              "silent",
+              "speechless",
+              "mute",
+              "wordless"
+            ],
+            "reason": "These imply a communicative state rather than the literal absence of a mouth."
+          },
+          {
+            "id": "dotted line face",
+            "rejected": [
+              "ghostly",
+              "fading",
+              "dizzy",
+              "disconnected"
+            ],
+            "reason": "These are unsupported interpretations; the emoji suggests a dotted/outlined, uncertain appearance rather than those specific states."
+          },
+          {
+            "id": "face in clouds",
+            "rejected": [
+              "mind wandering"
+            ],
+            "reason": "This is a figurative extrapolation not clearly grounded in the core emoji meaning."
+          },
+          {
+            "id": "smirking face",
+            "rejected": [
+              "flirtatious"
+            ],
+            "reason": "Flirtation is a context-dependent interpretation and not a core meaning."
+          },
+          {
+            "id": "unamused face",
+            "rejected": [
+              "meh"
+            ],
+            "reason": "'Meh' is slangy and not a literal core association."
+          },
+          {
+            "id": "face with rolling eyes",
+            "rejected": [
+              "sigh"
+            ],
+            "reason": "A sound/action not directly represented by the emoji; it is a misleading substitution."
+          },
+          {
+            "id": "grimacing face",
+            "rejected": [
+              "cringe"
+            ],
+            "reason": "'Cringe' is slangy and more interpretive than the core meaning of grimacing/awkwardness."
+          },
+          {
+            "id": "face exhaling",
+            "rejected": [
+              "calm"
+            ],
+            "reason": "Calm is too broad and not a core association of exhaling."
+          },
+          {
+            "id": "lying face",
+            "rejected": [
+              "Pinocchio"
+            ],
+            "reason": "This is a named-entity reference and a misleading substitution rather than a direct association."
+          },
+          {
+            "id": "head shaking horizontally",
+            "rejected": [
+              "disagree"
+            ],
+            "reason": "The emoji means no/denial; 'disagree' is a broader conversational inference rather than the literal motion meaning."
+          },
+          {
+            "id": "head shaking vertically",
+            "rejected": [
+              "affirmation"
+            ],
+            "reason": "Too abstract compared with the core yes/nod meaning."
+          },
+          {
+            "id": "relieved face",
+            "rejected": [
+              "easy"
+            ],
+            "reason": "Too vague and not a standard core association."
+          },
+          {
+            "id": "pensive face",
+            "rejected": [
+              "sad"
+            ],
+            "reason": "Pensive means thoughtful/reflective; sadness is a separate emotion and can mislead the core meaning."
+          },
+          {
+            "id": "drooling face",
+            "rejected": [
+              "sleepy"
+            ],
+            "reason": "Drooling is more associated with desire/hunger than sleepiness."
+          },
+          {
+            "id": "face with medical mask",
+            "rejected": [
+              "hospital"
+            ],
+            "reason": "A location is not part of the core meaning and is too specific."
+          },
+          {
+            "id": "face with thermometer",
+            "rejected": [
+              "temperature"
+            ],
+            "reason": "Too generic; the emoji denotes fever/illness rather than temperature in general."
+          },
+          {
+            "id": "face with head-bandage",
+            "rejected": [
+              "recovery"
+            ],
+            "reason": "Recovery is a consequence, not the core depicted meaning."
+          },
+          {
+            "id": "nauseated face",
+            "rejected": [
+              "disgust"
+            ],
+            "reason": "Disgust is related but not identical; the core meaning is nausea/queasy illness."
+          },
+          {
+            "id": "face vomiting",
+            "rejected": [
+              "gross"
+            ],
+            "reason": "Slangy reaction term; not a core meaning."
+          },
+          {
+            "id": "sneezing face",
+            "rejected": [
+              "achoo"
+            ],
+            "reason": "Onomatopoeia rather than a meaning association."
+          },
+          {
+            "id": "hot face",
+            "rejected": [
+              "warm"
+            ],
+            "reason": "Too broad and potentially misleading; the core is overheated/flushed."
+          },
+          {
+            "id": "cold face",
+            "rejected": [
+              "icy"
+            ],
+            "reason": "Too metaphorical compared with the literal cold/freezing meaning."
+          },
+          {
+            "id": "woozy face",
+            "rejected": [
+              "stunned"
+            ],
+            "reason": "Stunned is a different state; woozy is dizziness/unsteadiness."
+          },
+          {
+            "id": "face with crossed-out eyes",
+            "rejected": [
+              "dead"
+            ],
+            "reason": "This is a potentially misleading overstatement; the emoji commonly means fainted/knocked out."
+          },
+          {
+            "id": "face with spiral eyes",
+            "rejected": [
+              "spirals"
+            ],
+            "reason": "Describes the visual detail rather than the association/meaning."
+          }
+        ]
+      },
+      "reviewer": {
+        "id": "resp_0ec9aaaf93af8ad6016abfad466ec087d0b12ec10368484d10",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 1475,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1177,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2652
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,685 @@
+{
+  "names": [
+    "flag: St. Helena",
+    "flag: Slovenia",
+    "flag: Svalbard & Jan Mayen",
+    "flag: Slovakia",
+    "flag: Sierra Leone",
+    "flag: San Marino",
+    "flag: Senegal",
+    "flag: Somalia",
+    "flag: Suriname",
+    "flag: South Sudan",
+    "flag: São Tomé & Príncipe",
+    "flag: El Salvador",
+    "flag: Sint Maarten",
+    "flag: Syria",
+    "flag: Eswatini",
+    "flag: Tristan da Cunha",
+    "flag: Turks & Caicos Islands",
+    "flag: Chad",
+    "flag: French Southern Territories",
+    "flag: Togo",
+    "flag: Thailand",
+    "flag: Tajikistan",
+    "flag: Tokelau",
+    "flag: Timor-Leste",
+    "flag: Turkmenistan",
+    "flag: Tunisia",
+    "flag: Tonga",
+    "flag: Türkiye",
+    "flag: Trinidad & Tobago",
+    "flag: Tuvalu",
+    "flag: Taiwan",
+    "flag: Tanzania",
+    "flag: Ukraine",
+    "flag: Uganda",
+    "flag: U.S. Outlying Islands",
+    "flag: United Nations",
+    "flag: United States",
+    "flag: Uruguay",
+    "flag: Uzbekistan",
+    "flag: Vatican City"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "flag: St. Helena",
+        "associations": [
+          "island territory",
+          "South Atlantic",
+          "Union Jack motif",
+          "remote place",
+          "ocean travel"
+        ]
+      },
+      {
+        "id": "flag: Slovenia",
+        "associations": [
+          "European country",
+          "tricolor",
+          "mountains",
+          "national pride",
+          "state emblem"
+        ]
+      },
+      {
+        "id": "flag: Svalbard & Jan Mayen",
+        "associations": [
+          "Arctic islands",
+          "cold climate",
+          "remote territory",
+          "Norwegian connection",
+          "polar region"
+        ]
+      },
+      {
+        "id": "flag: Slovakia",
+        "associations": [
+          "Central Europe",
+          "tricolor",
+          "national flag",
+          "cultural identity",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Sierra Leone",
+        "associations": [
+          "West Africa",
+          "green white blue",
+          "national emblem",
+          "coastal nation",
+          "country pride"
+        ]
+      },
+      {
+        "id": "flag: San Marino",
+        "associations": [
+          "microstate",
+          "Europe",
+          "historic republic",
+          "blue and white",
+          "national flag"
+        ]
+      },
+      {
+        "id": "flag: Senegal",
+        "associations": [
+          "West Africa",
+          "green yellow red",
+          "star symbol",
+          "national identity",
+          "Sahel region"
+        ]
+      },
+      {
+        "id": "flag: Somalia",
+        "associations": [
+          "Horn of Africa",
+          "blue flag",
+          "white star",
+          "national emblem",
+          "coastal country"
+        ]
+      },
+      {
+        "id": "flag: Suriname",
+        "associations": [
+          "South America",
+          "green red white",
+          "central star",
+          "national pride",
+          "tropical country"
+        ]
+      },
+      {
+        "id": "flag: South Sudan",
+        "associations": [
+          "African nation",
+          "black red green",
+          "star symbol",
+          "national flag",
+          "new state"
+        ]
+      },
+      {
+        "id": "flag: São Tomé & Príncipe",
+        "associations": [
+          "island nation",
+          "Gulf of Guinea",
+          "green yellow red",
+          "tropical islands",
+          "national symbol"
+        ]
+      },
+      {
+        "id": "flag: El Salvador",
+        "associations": [
+          "Central America",
+          "blue white blue",
+          "national emblem",
+          "volcanoes",
+          "country pride"
+        ]
+      },
+      {
+        "id": "flag: Sint Maarten",
+        "associations": [
+          "Caribbean island",
+          "Dutch territory",
+          "red white blue",
+          "tourism",
+          "island identity"
+        ]
+      },
+      {
+        "id": "flag: Syria",
+        "associations": [
+          "Middle East",
+          "red white black",
+          "green stars",
+          "national symbol",
+          "regional identity"
+        ]
+      },
+      {
+        "id": "flag: Eswatini",
+        "associations": [
+          "southern Africa",
+          "monarchy",
+          "red blue yellow",
+          "national flag",
+          "cultural symbol"
+        ]
+      },
+      {
+        "id": "flag: Tristan da Cunha",
+        "associations": [
+          "remote island",
+          "South Atlantic",
+          "island territory",
+          "oceanic place",
+          "Union Jack motif"
+        ]
+      },
+      {
+        "id": "flag: Turks & Caicos Islands",
+        "associations": [
+          "Caribbean territory",
+          "British connection",
+          "seal emblem",
+          "turquoise waters",
+          "island flag"
+        ]
+      },
+      {
+        "id": "flag: Chad",
+        "associations": [
+          "Central Africa",
+          "blue yellow red",
+          "national flag",
+          "African state",
+          "country identity"
+        ]
+      },
+      {
+        "id": "flag: French Southern Territories",
+        "associations": [
+          "southern oceans",
+          "French territory",
+          "wild nature",
+          "remote lands",
+          "research area"
+        ]
+      },
+      {
+        "id": "flag: Togo",
+        "associations": [
+          "West Africa",
+          "green yellow red",
+          "white star",
+          "national emblem",
+          "country pride"
+        ]
+      },
+      {
+        "id": "flag: Thailand",
+        "associations": [
+          "Southeast Asia",
+          "red white blue",
+          "national identity",
+          "elephant symbolism",
+          "country flag"
+        ]
+      },
+      {
+        "id": "flag: Tajikistan",
+        "associations": [
+          "Central Asia",
+          "red white green",
+          "crown emblem",
+          "national pride",
+          "mountain nation"
+        ]
+      },
+      {
+        "id": "flag: Tokelau",
+        "associations": [
+          "Pacific islands",
+          "territory flag",
+          "ocean life",
+          "remote atolls",
+          "blue motif"
+        ]
+      },
+      {
+        "id": "flag: Timor-Leste",
+        "associations": [
+          "Southeast Asia",
+          "red black yellow",
+          "star emblem",
+          "national symbol",
+          "independence"
+        ]
+      },
+      {
+        "id": "flag: Turkmenistan",
+        "associations": [
+          "Central Asia",
+          "green field",
+          "carpet motif",
+          "national emblem",
+          "desert country"
+        ]
+      },
+      {
+        "id": "flag: Tunisia",
+        "associations": [
+          "North Africa",
+          "red and white",
+          "crescent star",
+          "national pride",
+          "Mediterranean coast"
+        ]
+      },
+      {
+        "id": "flag: Tonga",
+        "associations": [
+          "Pacific kingdom",
+          "red and white",
+          "cross symbol",
+          "national flag",
+          "island nation"
+        ]
+      },
+      {
+        "id": "flag: Türkiye",
+        "associations": [
+          "crossroads country",
+          "red flag",
+          "crescent star",
+          "national identity",
+          "Eurasian nation"
+        ]
+      },
+      {
+        "id": "flag: Trinidad & Tobago",
+        "associations": [
+          "Caribbean islands",
+          "red black white",
+          "tropical nation",
+          "national pride",
+          "island flag"
+        ]
+      },
+      {
+        "id": "flag: Tuvalu",
+        "associations": [
+          "Pacific island nation",
+          "light blue",
+          "small country",
+          "ocean islands",
+          "national symbol"
+        ]
+      },
+      {
+        "id": "flag: Taiwan",
+        "associations": [
+          "East Asia",
+          "blue red white",
+          "sun emblem",
+          "national identity",
+          "island nation"
+        ]
+      },
+      {
+        "id": "flag: Tanzania",
+        "associations": [
+          "East Africa",
+          "green black blue",
+          "yellow stripes",
+          "national flag",
+          "coastal nation"
+        ]
+      },
+      {
+        "id": "flag: Ukraine",
+        "associations": [
+          "Eastern Europe",
+          "blue yellow",
+          "national pride",
+          "peace and wheat",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Uganda",
+        "associations": [
+          "East Africa",
+          "black yellow red",
+          "crested crane",
+          "national emblem",
+          "country pride"
+        ]
+      },
+      {
+        "id": "flag: U.S. Outlying Islands",
+        "associations": [
+          "remote territories",
+          "Pacific islands",
+          "Caribbean areas",
+          "U.S. connection",
+          "island group"
+        ]
+      },
+      {
+        "id": "flag: United Nations",
+        "associations": [
+          "global organization",
+          "blue flag",
+          "world peace",
+          "international cooperation",
+          "diplomacy"
+        ]
+      },
+      {
+        "id": "flag: United States",
+        "associations": [
+          "country flag",
+          "stars and stripes",
+          "national symbol",
+          "patriotism",
+          "North America"
+        ]
+      },
+      {
+        "id": "flag: Uruguay",
+        "associations": [
+          "South America",
+          "blue white sun",
+          "national flag",
+          "coastal nation",
+          "country pride"
+        ]
+      },
+      {
+        "id": "flag: Uzbekistan",
+        "associations": [
+          "Central Asia",
+          "blue white green",
+          "national emblem",
+          "silk road",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Vatican City",
+        "associations": [
+          "microstate",
+          "holy city",
+          "yellow white",
+          "religious center",
+          "papal symbol"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_04c49eb410ee2f7c016abfaff2f05487d0a107cf3fcc08bdbc",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1603,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 953,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2556
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "flag: St. Helena",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag and territory."
+      },
+      {
+        "id": "flag: Slovenia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Svalbard & Jan Mayen",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Arctic territory flag."
+      },
+      {
+        "id": "flag: Slovakia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Sierra Leone",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: San Marino",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag and country."
+      },
+      {
+        "id": "flag: Senegal",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Somalia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Suriname",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: South Sudan",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: São Tomé & Príncipe",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: El Salvador",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Sint Maarten",
+        "rejected": [],
+        "reason": "All associations are broadly related to the territory flag."
+      },
+      {
+        "id": "flag: Syria",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Eswatini",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Tristan da Cunha",
+        "rejected": [],
+        "reason": "All associations are broadly related to the island territory flag."
+      },
+      {
+        "id": "flag: Turks & Caicos Islands",
+        "rejected": [],
+        "reason": "All associations are broadly related to the territory flag."
+      },
+      {
+        "id": "flag: Chad",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: French Southern Territories",
+        "rejected": [],
+        "reason": "All associations are broadly related to the territory flag."
+      },
+      {
+        "id": "flag: Togo",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Thailand",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Tajikistan",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Tokelau",
+        "rejected": [],
+        "reason": "All associations are broadly related to the territory flag."
+      },
+      {
+        "id": "flag: Timor-Leste",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Turkmenistan",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Tunisia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Tonga",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Türkiye",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Trinidad & Tobago",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Tuvalu",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Taiwan",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag."
+      },
+      {
+        "id": "flag: Tanzania",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Ukraine",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Uganda",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: U.S. Outlying Islands",
+        "rejected": [],
+        "reason": "All associations are broadly related to the territory group."
+      },
+      {
+        "id": "flag: United Nations",
+        "rejected": [],
+        "reason": "All associations are broadly related to the UN flag."
+      },
+      {
+        "id": "flag: United States",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Uruguay",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Uzbekistan",
+        "rejected": [],
+        "reason": "All associations are broadly related to the national flag."
+      },
+      {
+        "id": "flag: Vatican City",
+        "rejected": [],
+        "reason": "All associations are broadly related to the flag."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0add5e50bbca7d7a016abfaff9e6c087d097db9fafdbc17b5b",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3683,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 903,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4586
+    }
+  }
+}

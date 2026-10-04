@@ -65,7 +65,8 @@ def score_checkpoint(name, paths, semantic=False):
     correct, count = 0, 0
     for path in paths:
         data = conversation.batch(path)
-        predictions = model.generate(lambda: (data['text_features'], data['text_mask'], data['text_ids']), len(data['meaning']))
+        predictions = model.generate(lambda active: (data['text_features'][active], data['text_mask'][active],
+                                                      data['text_ids'][active]), len(data['meaning']))
         for prediction, row in zip(predictions, data['rows']):
             correct += END in prediction.tolist() and visible(prediction) == row['state']
             count += 1

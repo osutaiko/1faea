@@ -1,0 +1,685 @@
+{
+  "names": [
+    "tongue",
+    "mouth",
+    "biting lip",
+    "baby",
+    "child",
+    "boy",
+    "girl",
+    "person",
+    "person: blond hair",
+    "person, blond hair",
+    "man",
+    "person: beard",
+    "person, beard",
+    "man: beard",
+    "man, beard",
+    "woman: beard",
+    "woman, beard",
+    "man: red hair",
+    "man, red hair",
+    "man: curly hair",
+    "man, curly hair",
+    "man: white hair",
+    "man, white hair",
+    "man: bald",
+    "man, bald",
+    "woman",
+    "woman: red hair",
+    "woman, red hair",
+    "person: red hair",
+    "person, red hair",
+    "woman: curly hair",
+    "woman, curly hair",
+    "person: curly hair",
+    "person, curly hair",
+    "woman: white hair",
+    "woman, white hair",
+    "person: white hair",
+    "person, white hair",
+    "woman: bald",
+    "woman, bald"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "tongue",
+        "associations": [
+          "taste",
+          "mouth",
+          "speech",
+          "licking",
+          "sticking out"
+        ]
+      },
+      {
+        "id": "mouth",
+        "associations": [
+          "lips",
+          "speech",
+          "eat",
+          "talk",
+          "smile"
+        ]
+      },
+      {
+        "id": "biting lip",
+        "associations": [
+          "nervous",
+          "anxious",
+          "hesitation",
+          "worry",
+          "restraint"
+        ]
+      },
+      {
+        "id": "baby",
+        "associations": [
+          "infant",
+          "small",
+          "crying",
+          "cute",
+          "diaper"
+        ]
+      },
+      {
+        "id": "child",
+        "associations": [
+          "young",
+          "play",
+          "school",
+          "growth",
+          "kid"
+        ]
+      },
+      {
+        "id": "boy",
+        "associations": [
+          "male child",
+          "young",
+          "play",
+          "school",
+          "son"
+        ]
+      },
+      {
+        "id": "girl",
+        "associations": [
+          "female child",
+          "young",
+          "play",
+          "school",
+          "daughter"
+        ]
+      },
+      {
+        "id": "person",
+        "associations": [
+          "human",
+          "individual",
+          "body",
+          "face",
+          "self"
+        ]
+      },
+      {
+        "id": "person: blond hair",
+        "associations": [
+          "person",
+          "blond hair",
+          "hair color",
+          "human",
+          "appearance"
+        ]
+      },
+      {
+        "id": "person, blond hair",
+        "associations": [
+          "person",
+          "blond hair",
+          "hair color",
+          "human",
+          "appearance"
+        ]
+      },
+      {
+        "id": "man",
+        "associations": [
+          "adult",
+          "male",
+          "person",
+          "human",
+          "gentleman"
+        ]
+      },
+      {
+        "id": "person: beard",
+        "associations": [
+          "person",
+          "beard",
+          "facial hair",
+          "hair",
+          "appearance"
+        ]
+      },
+      {
+        "id": "person, beard",
+        "associations": [
+          "person",
+          "beard",
+          "facial hair",
+          "hair",
+          "appearance"
+        ]
+      },
+      {
+        "id": "man: beard",
+        "associations": [
+          "man",
+          "beard",
+          "facial hair",
+          "masculine",
+          "appearance"
+        ]
+      },
+      {
+        "id": "man, beard",
+        "associations": [
+          "man",
+          "beard",
+          "facial hair",
+          "masculine",
+          "appearance"
+        ]
+      },
+      {
+        "id": "woman: beard",
+        "associations": [
+          "woman",
+          "beard",
+          "facial hair",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "woman, beard",
+        "associations": [
+          "woman",
+          "beard",
+          "facial hair",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "man: red hair",
+        "associations": [
+          "man",
+          "red hair",
+          "hair color",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "man, red hair",
+        "associations": [
+          "man",
+          "red hair",
+          "hair color",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "man: curly hair",
+        "associations": [
+          "man",
+          "curly hair",
+          "hair texture",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "man, curly hair",
+        "associations": [
+          "man",
+          "curly hair",
+          "hair texture",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "man: white hair",
+        "associations": [
+          "man",
+          "white hair",
+          "hair color",
+          "older",
+          "appearance"
+        ]
+      },
+      {
+        "id": "man, white hair",
+        "associations": [
+          "man",
+          "white hair",
+          "hair color",
+          "older",
+          "appearance"
+        ]
+      },
+      {
+        "id": "man: bald",
+        "associations": [
+          "man",
+          "bald",
+          "hairless",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "man, bald",
+        "associations": [
+          "man",
+          "bald",
+          "hairless",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "woman",
+        "associations": [
+          "adult",
+          "female",
+          "person",
+          "human",
+          "lady"
+        ]
+      },
+      {
+        "id": "woman: red hair",
+        "associations": [
+          "woman",
+          "red hair",
+          "hair color",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "woman, red hair",
+        "associations": [
+          "woman",
+          "red hair",
+          "hair color",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "person: red hair",
+        "associations": [
+          "person",
+          "red hair",
+          "hair color",
+          "appearance",
+          "human"
+        ]
+      },
+      {
+        "id": "person, red hair",
+        "associations": [
+          "person",
+          "red hair",
+          "hair color",
+          "appearance",
+          "human"
+        ]
+      },
+      {
+        "id": "woman: curly hair",
+        "associations": [
+          "woman",
+          "curly hair",
+          "hair texture",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "woman, curly hair",
+        "associations": [
+          "woman",
+          "curly hair",
+          "hair texture",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "person: curly hair",
+        "associations": [
+          "person",
+          "curly hair",
+          "hair texture",
+          "appearance",
+          "human"
+        ]
+      },
+      {
+        "id": "person, curly hair",
+        "associations": [
+          "person",
+          "curly hair",
+          "hair texture",
+          "appearance",
+          "human"
+        ]
+      },
+      {
+        "id": "woman: white hair",
+        "associations": [
+          "woman",
+          "white hair",
+          "hair color",
+          "older",
+          "appearance"
+        ]
+      },
+      {
+        "id": "woman, white hair",
+        "associations": [
+          "woman",
+          "white hair",
+          "hair color",
+          "older",
+          "appearance"
+        ]
+      },
+      {
+        "id": "person: white hair",
+        "associations": [
+          "person",
+          "white hair",
+          "hair color",
+          "older",
+          "appearance"
+        ]
+      },
+      {
+        "id": "person, white hair",
+        "associations": [
+          "person",
+          "white hair",
+          "hair color",
+          "older",
+          "appearance"
+        ]
+      },
+      {
+        "id": "woman: bald",
+        "associations": [
+          "woman",
+          "bald",
+          "hairless",
+          "appearance",
+          "person"
+        ]
+      },
+      {
+        "id": "woman, bald",
+        "associations": [
+          "woman",
+          "bald",
+          "hairless",
+          "appearance",
+          "person"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_02566f8f8a9eb8e1016abfade7ac0487d0ad03b46118d7e453",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1038,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 913,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1951
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "tongue",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the tongue emoji."
+      },
+      {
+        "id": "mouth",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the mouth emoji."
+      },
+      {
+        "id": "biting lip",
+        "rejected": [],
+        "reason": "All associations fit the common emotional/action meaning of biting the lip."
+      },
+      {
+        "id": "baby",
+        "rejected": [],
+        "reason": "All associations are directly related to a baby."
+      },
+      {
+        "id": "child",
+        "rejected": [],
+        "reason": "All associations are directly related to a child."
+      },
+      {
+        "id": "boy",
+        "rejected": [],
+        "reason": "All associations are directly related to a boy."
+      },
+      {
+        "id": "girl",
+        "rejected": [],
+        "reason": "All associations are directly related to a girl."
+      },
+      {
+        "id": "person",
+        "rejected": [],
+        "reason": "All associations are directly related to a person."
+      },
+      {
+        "id": "person: blond hair",
+        "rejected": [],
+        "reason": "All associations are directly related to the emoji's hair feature."
+      },
+      {
+        "id": "person, blond hair",
+        "rejected": [],
+        "reason": "All associations are directly related to the emoji's hair feature."
+      },
+      {
+        "id": "man",
+        "rejected": [],
+        "reason": "All associations are directly related to a man."
+      },
+      {
+        "id": "person: beard",
+        "rejected": [],
+        "reason": "All associations are directly related to a bearded person."
+      },
+      {
+        "id": "person, beard",
+        "rejected": [],
+        "reason": "All associations are directly related to a bearded person."
+      },
+      {
+        "id": "man: beard",
+        "rejected": [],
+        "reason": "All associations are directly related to a bearded man."
+      },
+      {
+        "id": "man, beard",
+        "rejected": [],
+        "reason": "All associations are directly related to a bearded man."
+      },
+      {
+        "id": "woman: beard",
+        "rejected": [],
+        "reason": "All associations are directly related to a bearded woman emoji."
+      },
+      {
+        "id": "woman, beard",
+        "rejected": [],
+        "reason": "All associations are directly related to a bearded woman emoji."
+      },
+      {
+        "id": "man: red hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a man with red hair."
+      },
+      {
+        "id": "man, red hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a man with red hair."
+      },
+      {
+        "id": "man: curly hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a man with curly hair."
+      },
+      {
+        "id": "man, curly hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a man with curly hair."
+      },
+      {
+        "id": "man: white hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a man with white hair."
+      },
+      {
+        "id": "man, white hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a man with white hair."
+      },
+      {
+        "id": "man: bald",
+        "rejected": [],
+        "reason": "All associations are directly related to a bald man."
+      },
+      {
+        "id": "man, bald",
+        "rejected": [],
+        "reason": "All associations are directly related to a bald man."
+      },
+      {
+        "id": "woman",
+        "rejected": [],
+        "reason": "All associations are directly related to a woman."
+      },
+      {
+        "id": "woman: red hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a woman with red hair."
+      },
+      {
+        "id": "woman, red hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a woman with red hair."
+      },
+      {
+        "id": "person: red hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a person with red hair."
+      },
+      {
+        "id": "person, red hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a person with red hair."
+      },
+      {
+        "id": "woman: curly hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a woman with curly hair."
+      },
+      {
+        "id": "woman, curly hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a woman with curly hair."
+      },
+      {
+        "id": "person: curly hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a person with curly hair."
+      },
+      {
+        "id": "person, curly hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a person with curly hair."
+      },
+      {
+        "id": "woman: white hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a woman with white hair."
+      },
+      {
+        "id": "woman, white hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a woman with white hair."
+      },
+      {
+        "id": "person: white hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a person with white hair."
+      },
+      {
+        "id": "person, white hair",
+        "rejected": [],
+        "reason": "All associations are directly related to a person with white hair."
+      },
+      {
+        "id": "woman: bald",
+        "rejected": [],
+        "reason": "All associations are directly related to a bald woman."
+      },
+      {
+        "id": "woman, bald",
+        "rejected": [],
+        "reason": "All associations are directly related to a bald woman."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0a99426d5a729ed0016abfadeb40f087d0b7b9e94fef5aed62",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1525,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 984,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2509
+    }
+  }
+}

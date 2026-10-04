@@ -1,0 +1,40 @@
+{
+  "steps": 800,
+  "counts": {
+    "train": 22,
+    "validation": 4,
+    "test": 4
+  },
+  "selected_step": 200,
+  "test": {
+    "all": {
+      "count": 4,
+      "state": 0.0,
+      "reply": 0.25,
+      "trace": 0.0,
+      "oracle": 0.25,
+      "terminated": 1.0
+    },
+    "answerable": {
+      "count": 3,
+      "state": 0.0,
+      "reply": 0.0,
+      "trace": 0.0,
+      "oracle": 0.0,
+      "terminated": 1.0
+    },
+    "abstention": {
+      "count": 1,
+      "state": 0.0,
+      "reply": 1.0,
+      "trace": 0.0,
+      "oracle": 1.0,
+      "terminated": 1.0
+    }
+  },
+  "always_unknown_reply_accuracy": 0.25,
+  "promoted": false,
+  "general_use_ready": false,
+  "labels_sha256": "02ac0240c687c8efca3a9375900ad5eb4b9cd4a7fdd33e73101b37761bdc669e",
+  "interpretation": "Tiny provisional test set; no exact answerable matches. No evidence of general Q&A improvement."
+}

@@ -1,0 +1,685 @@
+{
+  "names": [
+    "down arrow",
+    "down-left arrow",
+    "up-left arrow",
+    "up-down arrow",
+    "left-right arrow",
+    "right arrow curving left",
+    "left arrow curving right",
+    "right arrow curving up",
+    "right arrow curving down",
+    "clockwise vertical arrows",
+    "counterclockwise arrows button",
+    "BACK arrow",
+    "ON! arrow",
+    "SOON arrow",
+    "TOP arrow",
+    "place of worship",
+    "atom symbol",
+    "om",
+    "star of David",
+    "wheel of dharma",
+    "yin yang",
+    "latin cross",
+    "orthodox cross",
+    "star and crescent",
+    "peace symbol",
+    "menorah",
+    "dotted six-pointed star",
+    "khanda",
+    "Aries",
+    "Taurus",
+    "Gemini",
+    "Cancer",
+    "Leo",
+    "Virgo",
+    "Libra",
+    "Scorpio",
+    "Sagittarius",
+    "Capricorn",
+    "Aquarius",
+    "Pisces"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "down arrow",
+        "associations": [
+          "downward",
+          "lower",
+          "descend",
+          "south",
+          "decrease"
+        ]
+      },
+      {
+        "id": "down-left arrow",
+        "associations": [
+          "downward left",
+          "diagonal",
+          "lower left",
+          "back and down",
+          "southwest"
+        ]
+      },
+      {
+        "id": "up-left arrow",
+        "associations": [
+          "upward left",
+          "diagonal",
+          "upper left",
+          "northwest",
+          "back and up"
+        ]
+      },
+      {
+        "id": "up-down arrow",
+        "associations": [
+          "vertical",
+          "up and down",
+          "two-way",
+          "height",
+          "range"
+        ]
+      },
+      {
+        "id": "left-right arrow",
+        "associations": [
+          "horizontal",
+          "left and right",
+          "two-way",
+          "width",
+          "swap"
+        ]
+      },
+      {
+        "id": "right arrow curving left",
+        "associations": [
+          "return",
+          "turn back",
+          "undo",
+          "reverse",
+          "loop"
+        ]
+      },
+      {
+        "id": "left arrow curving right",
+        "associations": [
+          "reverse return",
+          "turn back",
+          "undo",
+          "loop",
+          "bounce back"
+        ]
+      },
+      {
+        "id": "right arrow curving up",
+        "associations": [
+          "redirect",
+          "turn upward",
+          "bend",
+          "detour",
+          "change direction"
+        ]
+      },
+      {
+        "id": "right arrow curving down",
+        "associations": [
+          "redirect",
+          "turn downward",
+          "bend",
+          "detour",
+          "change direction"
+        ]
+      },
+      {
+        "id": "clockwise vertical arrows",
+        "associations": [
+          "refresh",
+          "rotate",
+          "cycle",
+          "repeat",
+          "reload"
+        ]
+      },
+      {
+        "id": "counterclockwise arrows button",
+        "associations": [
+          "refresh",
+          "reverse",
+          "rotate",
+          "cycle",
+          "reload"
+        ]
+      },
+      {
+        "id": "BACK arrow",
+        "associations": [
+          "back",
+          "return",
+          "previous",
+          "go back",
+          "undo"
+        ]
+      },
+      {
+        "id": "ON! arrow",
+        "associations": [
+          "start",
+          "go on",
+          "activate",
+          "begin",
+          "proceed"
+        ]
+      },
+      {
+        "id": "SOON arrow",
+        "associations": [
+          "coming soon",
+          "pending",
+          "up next",
+          "future",
+          "wait"
+        ]
+      },
+      {
+        "id": "TOP arrow",
+        "associations": [
+          "top",
+          "up",
+          "scroll to top",
+          "first",
+          "highest"
+        ]
+      },
+      {
+        "id": "place of worship",
+        "associations": [
+          "prayer",
+          "religion",
+          "sanctuary",
+          "faith",
+          "sacred"
+        ]
+      },
+      {
+        "id": "atom symbol",
+        "associations": [
+          "science",
+          "physics",
+          "nuclear",
+          "chemistry",
+          "particle"
+        ]
+      },
+      {
+        "id": "om",
+        "associations": [
+          "meditation",
+          "chanting",
+          "spiritual",
+          "harmony",
+          "mantra"
+        ]
+      },
+      {
+        "id": "star of David",
+        "associations": [
+          "Judaism",
+          "faith",
+          "Jewish",
+          "symbol",
+          "heritage"
+        ]
+      },
+      {
+        "id": "wheel of dharma",
+        "associations": [
+          "Buddhism",
+          "teachings",
+          "path",
+          "wisdom",
+          "reincarnation"
+        ]
+      },
+      {
+        "id": "yin yang",
+        "associations": [
+          "balance",
+          "dualism",
+          "harmony",
+          "contrast",
+          "complement"
+        ]
+      },
+      {
+        "id": "latin cross",
+        "associations": [
+          "Christianity",
+          "faith",
+          "church",
+          "sacrifice",
+          "religion"
+        ]
+      },
+      {
+        "id": "orthodox cross",
+        "associations": [
+          "Christianity",
+          "eastern",
+          "faith",
+          "church",
+          "tradition"
+        ]
+      },
+      {
+        "id": "star and crescent",
+        "associations": [
+          "Islam",
+          "faith",
+          "mosque",
+          "symbol",
+          "tradition"
+        ]
+      },
+      {
+        "id": "peace symbol",
+        "associations": [
+          "peace",
+          "antiwar",
+          "love",
+          "unity",
+          "calm"
+        ]
+      },
+      {
+        "id": "menorah",
+        "associations": [
+          "Judaism",
+          "candles",
+          "Hanukkah",
+          "light",
+          "festival"
+        ]
+      },
+      {
+        "id": "dotted six-pointed star",
+        "associations": [
+          "sparkle",
+          "pattern",
+          "ornament",
+          "symbol",
+          "geometry"
+        ]
+      },
+      {
+        "id": "khanda",
+        "associations": [
+          "Sikhism",
+          "faith",
+          "sword",
+          "strength",
+          "community"
+        ]
+      },
+      {
+        "id": "Aries",
+        "associations": [
+          "zodiac",
+          "ram",
+          "spring",
+          "assertive",
+          "sign"
+        ]
+      },
+      {
+        "id": "Taurus",
+        "associations": [
+          "zodiac",
+          "bull",
+          "steady",
+          "earth",
+          "sign"
+        ]
+      },
+      {
+        "id": "Gemini",
+        "associations": [
+          "zodiac",
+          "twins",
+          "dual",
+          "air",
+          "sign"
+        ]
+      },
+      {
+        "id": "Cancer",
+        "associations": [
+          "zodiac",
+          "crab",
+          "nurturing",
+          "water",
+          "sign"
+        ]
+      },
+      {
+        "id": "Leo",
+        "associations": [
+          "zodiac",
+          "lion",
+          "pride",
+          "fire",
+          "sign"
+        ]
+      },
+      {
+        "id": "Virgo",
+        "associations": [
+          "zodiac",
+          "virgin",
+          "detail",
+          "earth",
+          "sign"
+        ]
+      },
+      {
+        "id": "Libra",
+        "associations": [
+          "zodiac",
+          "scales",
+          "balance",
+          "air",
+          "sign"
+        ]
+      },
+      {
+        "id": "Scorpio",
+        "associations": [
+          "zodiac",
+          "scorpion",
+          "intense",
+          "water",
+          "sign"
+        ]
+      },
+      {
+        "id": "Sagittarius",
+        "associations": [
+          "zodiac",
+          "archer",
+          "adventure",
+          "fire",
+          "sign"
+        ]
+      },
+      {
+        "id": "Capricorn",
+        "associations": [
+          "zodiac",
+          "goat",
+          "discipline",
+          "earth",
+          "sign"
+        ]
+      },
+      {
+        "id": "Aquarius",
+        "associations": [
+          "zodiac",
+          "water bearer",
+          "independent",
+          "air",
+          "sign"
+        ]
+      },
+      {
+        "id": "Pisces",
+        "associations": [
+          "zodiac",
+          "fish",
+          "dreamy",
+          "water",
+          "sign"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_01a1c3e4d001affc016abfafbf9e4c87d0b54064a3f7840596",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1403,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 715,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2118
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "down arrow",
+        "rejected": [],
+        "reason": "All associations are directly related to a downward arrow."
+      },
+      {
+        "id": "down-left arrow",
+        "rejected": [],
+        "reason": "All associations are directly related to a down-left arrow."
+      },
+      {
+        "id": "up-left arrow",
+        "rejected": [],
+        "reason": "All associations are directly related to an up-left arrow."
+      },
+      {
+        "id": "up-down arrow",
+        "rejected": [],
+        "reason": "All associations are directly related to a vertical two-way arrow."
+      },
+      {
+        "id": "left-right arrow",
+        "rejected": [],
+        "reason": "All associations are directly related to a horizontal two-way arrow."
+      },
+      {
+        "id": "right arrow curving left",
+        "rejected": [],
+        "reason": "All associations fit a curving return/back direction."
+      },
+      {
+        "id": "left arrow curving right",
+        "rejected": [],
+        "reason": "All associations fit a curving return/back direction."
+      },
+      {
+        "id": "right arrow curving up",
+        "rejected": [],
+        "reason": "All associations are reasonable for a right arrow curving upward."
+      },
+      {
+        "id": "right arrow curving down",
+        "rejected": [],
+        "reason": "All associations are reasonable for a right arrow curving downward."
+      },
+      {
+        "id": "clockwise vertical arrows",
+        "rejected": [],
+        "reason": "All associations are reasonable for a clockwise refresh/rotate symbol."
+      },
+      {
+        "id": "counterclockwise arrows button",
+        "rejected": [],
+        "reason": "All associations are reasonable for a counterclockwise refresh/rotate symbol."
+      },
+      {
+        "id": "BACK arrow",
+        "rejected": [],
+        "reason": "All associations are directly related to a back arrow."
+      },
+      {
+        "id": "ON! arrow",
+        "rejected": [],
+        "reason": "All associations are reasonable for an on/start arrow."
+      },
+      {
+        "id": "SOON arrow",
+        "rejected": [],
+        "reason": "All associations are reasonable for a soon/up-next arrow."
+      },
+      {
+        "id": "TOP arrow",
+        "rejected": [],
+        "reason": "All associations are directly related to a top/up arrow."
+      },
+      {
+        "id": "place of worship",
+        "rejected": [],
+        "reason": "All associations are directly related to a place of worship."
+      },
+      {
+        "id": "atom symbol",
+        "rejected": [],
+        "reason": "All associations are related to the atom symbol."
+      },
+      {
+        "id": "om",
+        "rejected": [],
+        "reason": "All associations are acceptable for the om symbol."
+      },
+      {
+        "id": "star of David",
+        "rejected": [],
+        "reason": "All associations are directly related to the Star of David."
+      },
+      {
+        "id": "wheel of dharma",
+        "rejected": [],
+        "reason": "All associations are directly related to the wheel of dharma."
+      },
+      {
+        "id": "yin yang",
+        "rejected": [],
+        "reason": "All associations are directly related to yin yang."
+      },
+      {
+        "id": "latin cross",
+        "rejected": [],
+        "reason": "All associations are directly related to the Latin cross."
+      },
+      {
+        "id": "orthodox cross",
+        "rejected": [],
+        "reason": "All associations are directly related to the Orthodox cross."
+      },
+      {
+        "id": "star and crescent",
+        "rejected": [],
+        "reason": "All associations are directly related to the star and crescent."
+      },
+      {
+        "id": "peace symbol",
+        "rejected": [],
+        "reason": "All associations are directly related to the peace symbol."
+      },
+      {
+        "id": "menorah",
+        "rejected": [],
+        "reason": "All associations are directly related to the menorah."
+      },
+      {
+        "id": "dotted six-pointed star",
+        "rejected": [],
+        "reason": "All associations are directly related to a dotted six-pointed star."
+      },
+      {
+        "id": "khanda",
+        "rejected": [],
+        "reason": "All associations are directly related to the khanda."
+      },
+      {
+        "id": "Aries",
+        "rejected": [],
+        "reason": "All associations are directly related to Aries."
+      },
+      {
+        "id": "Taurus",
+        "rejected": [],
+        "reason": "All associations are directly related to Taurus."
+      },
+      {
+        "id": "Gemini",
+        "rejected": [],
+        "reason": "All associations are directly related to Gemini."
+      },
+      {
+        "id": "Cancer",
+        "rejected": [],
+        "reason": "All associations are directly related to Cancer."
+      },
+      {
+        "id": "Leo",
+        "rejected": [],
+        "reason": "All associations are directly related to Leo."
+      },
+      {
+        "id": "Virgo",
+        "rejected": [],
+        "reason": "All associations are directly related to Virgo."
+      },
+      {
+        "id": "Libra",
+        "rejected": [],
+        "reason": "All associations are directly related to Libra."
+      },
+      {
+        "id": "Scorpio",
+        "rejected": [],
+        "reason": "All associations are directly related to Scorpio."
+      },
+      {
+        "id": "Sagittarius",
+        "rejected": [],
+        "reason": "All associations are directly related to Sagittarius."
+      },
+      {
+        "id": "Capricorn",
+        "rejected": [],
+        "reason": "All associations are directly related to Capricorn."
+      },
+      {
+        "id": "Aquarius",
+        "rejected": [],
+        "reason": "All associations are directly related to Aquarius."
+      },
+      {
+        "id": "Pisces",
+        "rejected": [],
+        "reason": "All associations are directly related to Pisces."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0b7a5379b77ec83d016abfafc4e0c887d08a73f224024c078e",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3190,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 840,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4030
+    }
+  }
+}

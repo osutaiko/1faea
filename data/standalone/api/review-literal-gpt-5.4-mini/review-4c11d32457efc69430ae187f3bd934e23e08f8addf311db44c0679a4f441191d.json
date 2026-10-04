@@ -1,0 +1,137 @@
+{
+  "fingerprint": "4c11d32457efc69430ae187f3bd934e23e08f8addf311db44c0679a4f441191d",
+  "decoded": {
+    "rows": [
+      {
+        "id": "797d1707e016473e",
+        "state_reading": "seedling | globe showing Europe-Africa | paw prints | people holding hands",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "d9e174d886050ffa",
+        "state_reading": "dog face | fork and knife with plate | shopping bags",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "4e70be3d7ff9c2b4",
+        "state_reading": "cooking | kitchen knife | fork and knife",
+        "answer_reading": "fork and knife | spoon | kitchen knife"
+      },
+      {
+        "id": "0ed7f8b488af32f1",
+        "state_reading": "basketball | fork and knife with plate | fast-forward button",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "c3a4892275e19ae2",
+        "state_reading": "trophy | sports medal | soccer ball | basketball | tennis | person swimming",
+        "answer_reading": "soccer ball | basketball | tennis | person swimming"
+      },
+      {
+        "id": "553f98911c872a1f",
+        "state_reading": "dog face | cat face | fish | person",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "aa46675cf90125a9",
+        "state_reading": "dog face | health worker | clipboard",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "cfbd3d2563fa88e0",
+        "state_reading": "briefcase | busts in silhouette | unamused face",
+        "answer_reading": "handshake | left speech bubble | folded hands"
+      },
+      {
+        "id": "5a473f499fe99802",
+        "state_reading": "musical note | mobile phone | wireless",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "b9cdb889f9e980a2",
+        "state_reading": "stopwatch | divide | alarm clock",
+        "answer_reading": "unknown"
+      }
+    ]
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "797d1707e016473e",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state stays on ecosystems/nature, but the answer is only \"unknown\" and does not explain what an ecosystem is."
+      },
+      {
+        "id": "d9e174d886050ffa",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state keeps the topic on dog food/pet food, but \"unknown\" does not provide the requested commercial pet food types."
+      },
+      {
+        "id": "4e70be3d7ff9c2b4",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The question asks for beginner kitchen utensils, and the answer lists appropriate utensil items."
+      },
+      {
+        "id": "0ed7f8b488af32f1",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state preserves the topic of food before basketball, but \"unknown\" does not answer the question."
+      },
+      {
+        "id": "c3a4892275e19ae2",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The answer lists sports such as soccer, basketball, tennis, and swimming, which fits the request for popular sports."
+      },
+      {
+        "id": "553f98911c872a1f",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state remains about choosing a pet, but \"unknown\" does not give any pet options or guidance."
+      },
+      {
+        "id": "aa46675cf90125a9",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state keeps the veterinary check-up topic, but \"unknown\" does not describe what to expect."
+      },
+      {
+        "id": "cfbd3d2563fa88e0",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The question is about coworker conflict, and the answer’s communication/reconciliation symbols can reasonably address that issue."
+      },
+      {
+        "id": "5a473f499fe99802",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state is about music streaming options, but \"unknown\" does not provide any options."
+      },
+      {
+        "id": "b9cdb889f9e980a2",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state preserves the time-comparison topic, but \"unknown\" does not explain the difference between a minute and an hour."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_0321f841ebe4efc6016abfa67f37ac87d0a666176489c548b3",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 875,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1060,
+      "output_tokens_details": {
+        "reasoning_tokens": 512
+      },
+      "total_tokens": 1935
+    }
+  }
+}

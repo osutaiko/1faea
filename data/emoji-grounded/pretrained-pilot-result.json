@@ -1,0 +1,200 @@
+{
+  "selected_step": 150,
+  "elapsed_seconds": 223.85900000005495,
+  "test_loss": 5.759997670645332,
+  "fixed_checks_passed": 0,
+  "fixed_checks_total": 12,
+  "examples": [
+    {
+      "question": "Which animal meows?",
+      "groups": [
+        "🐈🐱"
+      ],
+      "forbidden": "🐕🐶",
+      "state": "🐈🐈🐎🐈🐈🐎🐎🐎",
+      "reply": "1️⃣",
+      "symbols": [
+        "1️⃣"
+      ],
+      "core_meanings": [
+        "keycap: 1"
+      ],
+      "terminated": true,
+      "passed": false
+    },
+    {
+      "question": "Which animal barks?",
+      "groups": [
+        "🐕🐶"
+      ],
+      "forbidden": "🐈🐱",
+      "state": "🐕🐕🐕🐾🐾🐾🐕🐾",
+      "reply": "",
+      "symbols": [],
+      "core_meanings": [],
+      "terminated": true,
+      "passed": false
+    },
+    {
+      "question": "What should I carry to stay dry in rain?",
+      "groups": [
+        "☂️☔"
+      ],
+      "forbidden": "",
+      "state": "☔🎒☔☔☔☔☔☔",
+      "reply": "",
+      "symbols": [],
+      "core_meanings": [],
+      "terminated": true,
+      "passed": false
+    },
+    {
+      "question": "Which fruit is yellow and curved?",
+      "groups": [
+        "🍌"
+      ],
+      "forbidden": "",
+      "state": "🥝🥝🥝🟡🥝↩️🥝🥝",
+      "reply": "",
+      "symbols": [],
+      "core_meanings": [],
+      "terminated": true,
+      "passed": false
+    },
+    {
+      "question": "What do bees make?",
+      "groups": [
+        "🍯"
+      ],
+      "forbidden": "",
+      "state": "🐝🐝🐝🐝🐝🐝🐝🐝",
+      "reply": "1️⃣",
+      "symbols": [
+        "1️⃣"
+      ],
+      "core_meanings": [
+        "keycap: 1"
+      ],
+      "terminated": true,
+      "passed": false
+    },
+    {
+      "question": "What planet do we live on?",
+      "groups": [
+        "🌍🌎🌏"
+      ],
+      "forbidden": "",
+      "state": "🪐🪐🪐🪐🪐🪐🪐🪐",
+      "reply": "1️⃣",
+      "symbols": [
+        "1️⃣"
+      ],
+      "core_meanings": [
+        "keycap: 1"
+      ],
+      "terminated": true,
+      "passed": false
+    },
+    {
+      "question": "Show a dog chasing a cat, with the pursuer first.",
+      "groups": [
+        "🐕🐶",
+        "🐈🐱"
+      ],
+      "forbidden": "",
+      "ordered": true,
+      "state": "🐈🐈🦮🐈🐈🦮🐈🐈",
+      "reply": "🐕",
+      "symbols": [
+        "🐕"
+      ],
+      "core_meanings": [
+        "dog"
+      ],
+      "terminated": true,
+      "passed": false
+    },
+    {
+      "question": "Show a cat chasing a dog, with the pursuer first.",
+      "groups": [
+        "🐈🐱",
+        "🐕🐶"
+      ],
+      "forbidden": "",
+      "ordered": true,
+      "state": "🐈🐈🐈🐈🐈🦮🐈🐈",
+      "reply": "🐕",
+      "symbols": [
+        "🐕"
+      ],
+      "core_meanings": [
+        "dog"
+      ],
+      "terminated": true,
+      "passed": false
+    },
+    {
+      "question": "Show a person giving a gift to a robot, with the giver first.",
+      "groups": [
+        "🧑👤",
+        "🎁",
+        "🤖"
+      ],
+      "forbidden": "",
+      "ordered": true,
+      "state": "🤖🎁🎁🎁🤖🤖🎁🤖",
+      "reply": "",
+      "symbols": [],
+      "core_meanings": [],
+      "terminated": true,
+      "passed": false
+    },
+    {
+      "question": "Show a robot giving a gift to a person, with the giver first.",
+      "groups": [
+        "🤖",
+        "🎁",
+        "🧑👤"
+      ],
+      "forbidden": "",
+      "ordered": true,
+      "state": "🤖🤖🎁🎁🤖🤖🎁🤖",
+      "reply": "",
+      "symbols": [],
+      "core_meanings": [],
+      "terminated": true,
+      "passed": false
+    },
+    {
+      "question": "Say that smoking is forbidden.",
+      "groups": [
+        "🚭"
+      ],
+      "forbidden": "",
+      "state": "🚬🚭🚭🚭🚫🚫🚭🚭",
+      "reply": "",
+      "symbols": [],
+      "core_meanings": [],
+      "terminated": true,
+      "passed": false
+    },
+    {
+      "question": "Say that bicycles are forbidden.",
+      "groups": [
+        "🚳"
+      ],
+      "forbidden": "",
+      "state": "🚳🚫🚳🚳🚳🚫🚳🚳",
+      "reply": "",
+      "symbols": [],
+      "core_meanings": [],
+      "terminated": true,
+      "passed": false
+    }
+  ],
+  "trainable_parameters": 5561733,
+  "runtime_english_answer_generation": false,
+  "generated_qa_labels": 0,
+  "promoted": false,
+  "general_use_ready": false
+}

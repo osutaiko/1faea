@@ -1,0 +1,708 @@
+{
+  "names": [
+    "person feeding baby",
+    "baby angel",
+    "Santa Claus",
+    "Mrs. Claus",
+    "Mx Claus",
+    "superhero",
+    "man superhero",
+    "woman superhero",
+    "supervillain",
+    "man supervillain",
+    "woman supervillain",
+    "mage",
+    "man mage",
+    "woman mage",
+    "fairy",
+    "man fairy",
+    "woman fairy",
+    "vampire",
+    "man vampire",
+    "woman vampire",
+    "merperson",
+    "merman",
+    "mermaid",
+    "elf",
+    "man elf",
+    "woman elf",
+    "genie",
+    "man genie",
+    "woman genie",
+    "zombie",
+    "man zombie",
+    "woman zombie",
+    "troll",
+    "hairy creature",
+    "person getting massage",
+    "man getting massage",
+    "woman getting massage",
+    "person getting haircut",
+    "man getting haircut",
+    "woman getting haircut"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "person feeding baby",
+        "associations": [
+          "feeding bottle",
+          "caretaking",
+          "infant",
+          "nurturing",
+          "meal time"
+        ]
+      },
+      {
+        "id": "baby angel",
+        "associations": [
+          "halo",
+          "wings",
+          "innocence",
+          "sleeping baby",
+          "cherub"
+        ]
+      },
+      {
+        "id": "Santa Claus",
+        "associations": [
+          "Christmas",
+          "gift giving",
+          "sleigh",
+          "North Pole",
+          "reindeer"
+        ]
+      },
+      {
+        "id": "Mrs. Claus",
+        "associations": [
+          "Christmas",
+          "Santa's partner",
+          "holiday",
+          "cookies",
+          "North Pole"
+        ]
+      },
+      {
+        "id": "Mx Claus",
+        "associations": [
+          "Christmas",
+          "gift giving",
+          "holiday figure",
+          "North Pole",
+          "festive"
+        ]
+      },
+      {
+        "id": "superhero",
+        "associations": [
+          "cape",
+          "heroic",
+          "powers",
+          "rescue",
+          "comic books"
+        ]
+      },
+      {
+        "id": "man superhero",
+        "associations": [
+          "cape",
+          "heroic",
+          "powers",
+          "rescue",
+          "comic books"
+        ]
+      },
+      {
+        "id": "woman superhero",
+        "associations": [
+          "cape",
+          "heroic",
+          "powers",
+          "rescue",
+          "comic books"
+        ]
+      },
+      {
+        "id": "supervillain",
+        "associations": [
+          "evil",
+          "scheme",
+          "powers",
+          "rival",
+          "comic books"
+        ]
+      },
+      {
+        "id": "man supervillain",
+        "associations": [
+          "evil",
+          "scheme",
+          "powers",
+          "rival",
+          "comic books"
+        ]
+      },
+      {
+        "id": "woman supervillain",
+        "associations": [
+          "evil",
+          "scheme",
+          "powers",
+          "rival",
+          "comic books"
+        ]
+      },
+      {
+        "id": "mage",
+        "associations": [
+          "magic",
+          "spellcasting",
+          "staff",
+          "wizardry",
+          "fantasy"
+        ]
+      },
+      {
+        "id": "man mage",
+        "associations": [
+          "magic",
+          "spellcasting",
+          "staff",
+          "wizardry",
+          "fantasy"
+        ]
+      },
+      {
+        "id": "woman mage",
+        "associations": [
+          "magic",
+          "spellcasting",
+          "staff",
+          "wizardry",
+          "fantasy"
+        ]
+      },
+      {
+        "id": "fairy",
+        "associations": [
+          "magic",
+          "wings",
+          "sparkles",
+          "nature",
+          "tiny"
+        ]
+      },
+      {
+        "id": "man fairy",
+        "associations": [
+          "magic",
+          "wings",
+          "sparkles",
+          "nature",
+          "tiny"
+        ]
+      },
+      {
+        "id": "woman fairy",
+        "associations": [
+          "magic",
+          "wings",
+          "sparkles",
+          "nature",
+          "tiny"
+        ]
+      },
+      {
+        "id": "vampire",
+        "associations": [
+          "fangs",
+          "night",
+          "blood",
+          "cloak",
+          "undead"
+        ]
+      },
+      {
+        "id": "man vampire",
+        "associations": [
+          "fangs",
+          "night",
+          "blood",
+          "cloak",
+          "undead"
+        ]
+      },
+      {
+        "id": "woman vampire",
+        "associations": [
+          "fangs",
+          "night",
+          "blood",
+          "cloak",
+          "undead"
+        ]
+      },
+      {
+        "id": "merperson",
+        "associations": [
+          "ocean",
+          "tail",
+          "swimming",
+          "myth",
+          "sea"
+        ]
+      },
+      {
+        "id": "merman",
+        "associations": [
+          "ocean",
+          "tail",
+          "swimming",
+          "myth",
+          "sea"
+        ]
+      },
+      {
+        "id": "mermaid",
+        "associations": [
+          "ocean",
+          "tail",
+          "swimming",
+          "myth",
+          "sea"
+        ]
+      },
+      {
+        "id": "elf",
+        "associations": [
+          "pointed ears",
+          "forest",
+          "magic",
+          "fantasy",
+          "helper"
+        ]
+      },
+      {
+        "id": "man elf",
+        "associations": [
+          "pointed ears",
+          "forest",
+          "magic",
+          "fantasy",
+          "helper"
+        ]
+      },
+      {
+        "id": "woman elf",
+        "associations": [
+          "pointed ears",
+          "forest",
+          "magic",
+          "fantasy",
+          "helper"
+        ]
+      },
+      {
+        "id": "genie",
+        "associations": [
+          "wish granting",
+          "lamp",
+          "magic",
+          "spirit",
+          "fantasy"
+        ]
+      },
+      {
+        "id": "man genie",
+        "associations": [
+          "wish granting",
+          "lamp",
+          "magic",
+          "spirit",
+          "fantasy"
+        ]
+      },
+      {
+        "id": "woman genie",
+        "associations": [
+          "wish granting",
+          "lamp",
+          "magic",
+          "spirit",
+          "fantasy"
+        ]
+      },
+      {
+        "id": "zombie",
+        "associations": [
+          "undead",
+          "groaning",
+          "decay",
+          "monster",
+          "horror"
+        ]
+      },
+      {
+        "id": "man zombie",
+        "associations": [
+          "undead",
+          "groaning",
+          "decay",
+          "monster",
+          "horror"
+        ]
+      },
+      {
+        "id": "woman zombie",
+        "associations": [
+          "undead",
+          "groaning",
+          "decay",
+          "monster",
+          "horror"
+        ]
+      },
+      {
+        "id": "troll",
+        "associations": [
+          "bridge",
+          "monster",
+          "trickster",
+          "grotesque",
+          "folklore"
+        ]
+      },
+      {
+        "id": "hairy creature",
+        "associations": [
+          "fur",
+          "monster",
+          "wild",
+          "beast",
+          "fictional"
+        ]
+      },
+      {
+        "id": "person getting massage",
+        "associations": [
+          "relaxation",
+          "spa",
+          "hands",
+          "therapy",
+          "muscle tension"
+        ]
+      },
+      {
+        "id": "man getting massage",
+        "associations": [
+          "relaxation",
+          "spa",
+          "hands",
+          "therapy",
+          "muscle tension"
+        ]
+      },
+      {
+        "id": "woman getting massage",
+        "associations": [
+          "relaxation",
+          "spa",
+          "hands",
+          "therapy",
+          "muscle tension"
+        ]
+      },
+      {
+        "id": "person getting haircut",
+        "associations": [
+          "salon",
+          "scissors",
+          "trim",
+          "styling",
+          "hairdressing"
+        ]
+      },
+      {
+        "id": "man getting haircut",
+        "associations": [
+          "salon",
+          "scissors",
+          "trim",
+          "styling",
+          "hairdressing"
+        ]
+      },
+      {
+        "id": "woman getting haircut",
+        "associations": [
+          "salon",
+          "scissors",
+          "trim",
+          "styling",
+          "hairdressing"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0a23217016962a00016abfadf9730887d08488e048cc86e0e3",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 948,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 919,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1867
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "person feeding baby",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to feeding a baby."
+      },
+      {
+        "id": "baby angel",
+        "rejected": [
+          "sleeping baby"
+        ],
+        "reason": "The core meaning is a baby angel/cherub, not a sleeping baby."
+      },
+      {
+        "id": "Santa Claus",
+        "rejected": [],
+        "reason": "All associations are standard Santa Claus associations."
+      },
+      {
+        "id": "Mrs. Claus",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to Mrs. Claus."
+      },
+      {
+        "id": "Mx Claus",
+        "rejected": [
+          "Christmas",
+          "gift giving",
+          "North Pole"
+        ],
+        "reason": "Mx Claus is a gender-neutral Claus figure; the listed items are strong Santa Claus-specific associations and can mislead by substituting Santa for the named entity."
+      },
+      {
+        "id": "superhero",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a superhero."
+      },
+      {
+        "id": "man superhero",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a male superhero."
+      },
+      {
+        "id": "woman superhero",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a female superhero."
+      },
+      {
+        "id": "supervillain",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a supervillain."
+      },
+      {
+        "id": "man supervillain",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a male supervillain."
+      },
+      {
+        "id": "woman supervillain",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a female supervillain."
+      },
+      {
+        "id": "mage",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a mage."
+      },
+      {
+        "id": "man mage",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a male mage."
+      },
+      {
+        "id": "woman mage",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a female mage."
+      },
+      {
+        "id": "fairy",
+        "rejected": [
+          "nature",
+          "tiny"
+        ],
+        "reason": "Fairies are magical fantasy beings; 'nature' and 'tiny' are not reliable core associations and can be misleading as defining traits."
+      },
+      {
+        "id": "man fairy",
+        "rejected": [
+          "nature",
+          "tiny"
+        ],
+        "reason": "Same issue as fairy; those traits are not core-defining."
+      },
+      {
+        "id": "woman fairy",
+        "rejected": [
+          "nature",
+          "tiny"
+        ],
+        "reason": "Same issue as fairy; those traits are not core-defining."
+      },
+      {
+        "id": "vampire",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a vampire."
+      },
+      {
+        "id": "man vampire",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a male vampire."
+      },
+      {
+        "id": "woman vampire",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a female vampire."
+      },
+      {
+        "id": "merperson",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a merperson."
+      },
+      {
+        "id": "merman",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a merman."
+      },
+      {
+        "id": "mermaid",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a mermaid."
+      },
+      {
+        "id": "elf",
+        "rejected": [
+          "helper"
+        ],
+        "reason": "Elves are fantasy beings; 'helper' is an occupation/role stereotype and not a core meaning for the emoji."
+      },
+      {
+        "id": "man elf",
+        "rejected": [
+          "helper"
+        ],
+        "reason": "Same issue as elf; 'helper' is not a core meaning."
+      },
+      {
+        "id": "woman elf",
+        "rejected": [
+          "helper"
+        ],
+        "reason": "Same issue as elf; 'helper' is not a core meaning."
+      },
+      {
+        "id": "genie",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a genie."
+      },
+      {
+        "id": "man genie",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a male genie."
+      },
+      {
+        "id": "woman genie",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a female genie."
+      },
+      {
+        "id": "zombie",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a zombie."
+      },
+      {
+        "id": "man zombie",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a male zombie."
+      },
+      {
+        "id": "woman zombie",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a female zombie."
+      },
+      {
+        "id": "troll",
+        "rejected": [
+          "bridge"
+        ],
+        "reason": "'Bridge' is a folklore trope but not a core meaning of troll and can be misleading as a defining association."
+      },
+      {
+        "id": "hairy creature",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a hairy creature."
+      },
+      {
+        "id": "person getting massage",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to getting a massage."
+      },
+      {
+        "id": "man getting massage",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to getting a massage."
+      },
+      {
+        "id": "woman getting massage",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to getting a massage."
+      },
+      {
+        "id": "person getting haircut",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to getting a haircut."
+      },
+      {
+        "id": "man getting haircut",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to getting a haircut."
+      },
+      {
+        "id": "woman getting haircut",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to getting a haircut."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_000c2405ca9b8746016abfadfd48b887d082a15437cdb9fcab",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1501,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1051,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2552
+    }
+  }
+}

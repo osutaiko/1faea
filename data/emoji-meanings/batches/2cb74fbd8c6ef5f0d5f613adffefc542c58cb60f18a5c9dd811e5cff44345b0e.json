@@ -1,0 +1,709 @@
+{
+  "names": [
+    "guide dog",
+    "service dog",
+    "poodle",
+    "wolf",
+    "fox",
+    "raccoon",
+    "cat",
+    "black cat",
+    "lion",
+    "tiger face",
+    "tiger",
+    "leopard",
+    "horse face",
+    "moose",
+    "donkey",
+    "horse",
+    "unicorn",
+    "zebra",
+    "deer",
+    "bison",
+    "cow face",
+    "ox",
+    "water buffalo",
+    "cow",
+    "pig face",
+    "pig",
+    "boar",
+    "pig nose",
+    "ram",
+    "ewe",
+    "goat",
+    "camel",
+    "two-hump camel",
+    "llama",
+    "giraffe",
+    "elephant",
+    "mammoth",
+    "rhinoceros",
+    "hippopotamus",
+    "mouse face"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "guide dog",
+        "associations": [
+          "blindness aid",
+          "helper",
+          "leash",
+          "navigation",
+          "trained animal"
+        ]
+      },
+      {
+        "id": "service dog",
+        "associations": [
+          "assistance",
+          "task support",
+          "working animal",
+          "helper",
+          "training"
+        ]
+      },
+      {
+        "id": "poodle",
+        "associations": [
+          "curly coat",
+          "grooming",
+          "pet dog",
+          "breed",
+          "elegance"
+        ]
+      },
+      {
+        "id": "wolf",
+        "associations": [
+          "pack",
+          "wild canine",
+          "howl",
+          "predator",
+          "forest"
+        ]
+      },
+      {
+        "id": "fox",
+        "associations": [
+          "cunning",
+          "wild animal",
+          "bushy tail",
+          "sly",
+          "forest"
+        ]
+      },
+      {
+        "id": "raccoon",
+        "associations": [
+          "mask face",
+          "nocturnal",
+          "trash bin",
+          "wild mammal",
+          "striped tail"
+        ]
+      },
+      {
+        "id": "cat",
+        "associations": [
+          "pet",
+          "meow",
+          "whiskers",
+          "independent",
+          "feline"
+        ]
+      },
+      {
+        "id": "black cat",
+        "associations": [
+          "dark fur",
+          "cat",
+          "mystery",
+          "luck",
+          "nocturnal"
+        ]
+      },
+      {
+        "id": "lion",
+        "associations": [
+          "mane",
+          "roar",
+          "big cat",
+          "savanna",
+          "king"
+        ]
+      },
+      {
+        "id": "tiger face",
+        "associations": [
+          "stripes",
+          "big cat",
+          "face",
+          "roar",
+          "wild"
+        ]
+      },
+      {
+        "id": "tiger",
+        "associations": [
+          "stripes",
+          "predator",
+          "big cat",
+          "jungle",
+          "power"
+        ]
+      },
+      {
+        "id": "leopard",
+        "associations": [
+          "spots",
+          "big cat",
+          "stealth",
+          "predator",
+          "wild"
+        ]
+      },
+      {
+        "id": "horse face",
+        "associations": [
+          "face",
+          "mane",
+          "equine",
+          "animal",
+          "neigh"
+        ]
+      },
+      {
+        "id": "moose",
+        "associations": [
+          "antlers",
+          "forest",
+          "large animal",
+          "wild",
+          "deer"
+        ]
+      },
+      {
+        "id": "donkey",
+        "associations": [
+          "long ears",
+          "pack animal",
+          "bray",
+          "farm",
+          "stubborn"
+        ]
+      },
+      {
+        "id": "horse",
+        "associations": [
+          "ride",
+          "mane",
+          "gallop",
+          "equine",
+          "stable"
+        ]
+      },
+      {
+        "id": "unicorn",
+        "associations": [
+          "horn",
+          "magic",
+          "myth",
+          "sparkle",
+          "fantasy"
+        ]
+      },
+      {
+        "id": "zebra",
+        "associations": [
+          "stripes",
+          "savanna",
+          "horse-like",
+          "wild",
+          "equine"
+        ]
+      },
+      {
+        "id": "deer",
+        "associations": [
+          "antlers",
+          "forest",
+          "graceful",
+          "wild",
+          "buck"
+        ]
+      },
+      {
+        "id": "bison",
+        "associations": [
+          "herd",
+          "grassland",
+          "large animal",
+          "wild",
+          "buffalo"
+        ]
+      },
+      {
+        "id": "cow face",
+        "associations": [
+          "face",
+          "moo",
+          "horns",
+          "farm",
+          "bovine"
+        ]
+      },
+      {
+        "id": "ox",
+        "associations": [
+          "draft animal",
+          "plow",
+          "strong",
+          "cattle",
+          "work"
+        ]
+      },
+      {
+        "id": "water buffalo",
+        "associations": [
+          "horns",
+          "mud",
+          "farm animal",
+          "draft",
+          "cattle"
+        ]
+      },
+      {
+        "id": "cow",
+        "associations": [
+          "milk",
+          "moo",
+          "farm",
+          "bovine",
+          "pasture"
+        ]
+      },
+      {
+        "id": "pig face",
+        "associations": [
+          "snout",
+          "face",
+          "piglet",
+          "mud",
+          "farm"
+        ]
+      },
+      {
+        "id": "pig",
+        "associations": [
+          "snout",
+          "mud",
+          "farm",
+          "pork",
+          "animal"
+        ]
+      },
+      {
+        "id": "boar",
+        "associations": [
+          "wild pig",
+          "tusks",
+          "forest",
+          "bristly",
+          "wild"
+        ]
+      },
+      {
+        "id": "pig nose",
+        "associations": [
+          "snout",
+          "nose",
+          "pig",
+          "cute",
+          "pink"
+        ]
+      },
+      {
+        "id": "ram",
+        "associations": [
+          "horns",
+          "male sheep",
+          "butt",
+          "flock",
+          "strong"
+        ]
+      },
+      {
+        "id": "ewe",
+        "associations": [
+          "female sheep",
+          "wool",
+          "flock",
+          "gentle",
+          "pasture"
+        ]
+      },
+      {
+        "id": "goat",
+        "associations": [
+          "horns",
+          "climb",
+          "farm",
+          "goatee",
+          "bleat"
+        ]
+      },
+      {
+        "id": "camel",
+        "associations": [
+          "humps",
+          "desert",
+          "travel",
+          "pack animal",
+          "sand"
+        ]
+      },
+      {
+        "id": "two-hump camel",
+        "associations": [
+          "two humps",
+          "desert",
+          "camel",
+          "Bactrian",
+          "pack animal"
+        ]
+      },
+      {
+        "id": "llama",
+        "associations": [
+          "fluffy",
+          "Andes",
+          "pack animal",
+          "spit",
+          "camelid"
+        ]
+      },
+      {
+        "id": "giraffe",
+        "associations": [
+          "long neck",
+          "spots",
+          "tall",
+          "savanna",
+          "browser"
+        ]
+      },
+      {
+        "id": "elephant",
+        "associations": [
+          "trunk",
+          "tusks",
+          "large",
+          "memory",
+          "gray"
+        ]
+      },
+      {
+        "id": "mammoth",
+        "associations": [
+          "woolly",
+          "extinct",
+          "tusks",
+          "ice age",
+          "ancient"
+        ]
+      },
+      {
+        "id": "rhinoceros",
+        "associations": [
+          "horn",
+          "thick skin",
+          "large",
+          "wild",
+          "power"
+        ]
+      },
+      {
+        "id": "hippopotamus",
+        "associations": [
+          "river",
+          "large",
+          "wide mouth",
+          "aquatic",
+          "wild"
+        ]
+      },
+      {
+        "id": "mouse face",
+        "associations": [
+          "small",
+          "whiskers",
+          "ears",
+          "cute",
+          "rodent"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_08baeed3822e4dad016abfaeb76f9087d0be8730c10b10ce1c",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1310,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 715,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2025
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "guide dog",
+        "rejected": [],
+        "reason": "All associations are related to a guide dog."
+      },
+      {
+        "id": "service dog",
+        "rejected": [],
+        "reason": "All associations are related to a service dog."
+      },
+      {
+        "id": "poodle",
+        "rejected": [],
+        "reason": "All associations are related to a poodle."
+      },
+      {
+        "id": "wolf",
+        "rejected": [],
+        "reason": "All associations are related to a wolf."
+      },
+      {
+        "id": "fox",
+        "rejected": [],
+        "reason": "All associations are related to a fox."
+      },
+      {
+        "id": "raccoon",
+        "rejected": [
+          "trash bin"
+        ],
+        "reason": "\"trash bin\" is not a core or ordinary association for raccoon; it is a misleading activity/object stereotype."
+      },
+      {
+        "id": "cat",
+        "rejected": [],
+        "reason": "All associations are related to a cat."
+      },
+      {
+        "id": "black cat",
+        "rejected": [
+          "luck"
+        ],
+        "reason": "\"luck\" is a superstitious association and not a literal core meaning of black cat."
+      },
+      {
+        "id": "lion",
+        "rejected": [
+          "king"
+        ],
+        "reason": "\"king\" is a metaphorical title, not a literal core meaning of lion."
+      },
+      {
+        "id": "tiger face",
+        "rejected": [],
+        "reason": "All associations are related to a tiger face."
+      },
+      {
+        "id": "tiger",
+        "rejected": [],
+        "reason": "All associations are related to a tiger."
+      },
+      {
+        "id": "leopard",
+        "rejected": [],
+        "reason": "All associations are related to a leopard."
+      },
+      {
+        "id": "horse face",
+        "rejected": [],
+        "reason": "All associations are related to a horse face."
+      },
+      {
+        "id": "moose",
+        "rejected": [
+          "deer"
+        ],
+        "reason": "\"deer\" is a different animal and can be misleading as a substitution, not a direct moose association."
+      },
+      {
+        "id": "donkey",
+        "rejected": [
+          "stubborn"
+        ],
+        "reason": "\"stubborn\" is a stereotype rather than a literal or ordinary core meaning association."
+      },
+      {
+        "id": "horse",
+        "rejected": [],
+        "reason": "All associations are related to a horse."
+      },
+      {
+        "id": "unicorn",
+        "rejected": [],
+        "reason": "All associations are related to a unicorn."
+      },
+      {
+        "id": "zebra",
+        "rejected": [
+          "horse-like"
+        ],
+        "reason": "\"horse-like\" is a comparison to another animal rather than the literal core meaning of zebra."
+      },
+      {
+        "id": "deer",
+        "rejected": [],
+        "reason": "All associations are related to a deer."
+      },
+      {
+        "id": "bison",
+        "rejected": [
+          "buffalo"
+        ],
+        "reason": "\"buffalo\" is a different named animal and is a misleading substitution for bison."
+      },
+      {
+        "id": "cow face",
+        "rejected": [],
+        "reason": "All associations are related to a cow face."
+      },
+      {
+        "id": "ox",
+        "rejected": [],
+        "reason": "All associations are related to an ox."
+      },
+      {
+        "id": "water buffalo",
+        "rejected": [
+          "farm animal"
+        ],
+        "reason": "\"farm animal\" is too generic and not a core-specific association for water buffalo."
+      },
+      {
+        "id": "cow",
+        "rejected": [],
+        "reason": "All associations are related to a cow."
+      },
+      {
+        "id": "pig face",
+        "rejected": [],
+        "reason": "All associations are related to a pig face."
+      },
+      {
+        "id": "pig",
+        "rejected": [],
+        "reason": "All associations are related to a pig."
+      },
+      {
+        "id": "boar",
+        "rejected": [],
+        "reason": "All associations are related to a boar."
+      },
+      {
+        "id": "pig nose",
+        "rejected": [
+          "cute"
+        ],
+        "reason": "\"cute\" is an evaluative descriptor rather than a literal core meaning association."
+      },
+      {
+        "id": "ram",
+        "rejected": [
+          "butt"
+        ],
+        "reason": "\"butt\" refers to ramming behavior but is a crude/body-part phrasing and not a clean core association here."
+      },
+      {
+        "id": "ewe",
+        "rejected": [],
+        "reason": "All associations are related to an ewe."
+      },
+      {
+        "id": "goat",
+        "rejected": [
+          "goatee"
+        ],
+        "reason": "\"goatee\" is a human facial-hair term and a misleading named-entity/wordplay substitution, not a goat core meaning."
+      },
+      {
+        "id": "camel",
+        "rejected": [],
+        "reason": "All associations are related to a camel."
+      },
+      {
+        "id": "two-hump camel",
+        "rejected": [],
+        "reason": "All associations are related to a two-hump camel."
+      },
+      {
+        "id": "llama",
+        "rejected": [],
+        "reason": "All associations are related to a llama."
+      },
+      {
+        "id": "giraffe",
+        "rejected": [
+          "browser"
+        ],
+        "reason": "\"browser\" is a misleading technical/wordplay term, not a literal giraffe association."
+      },
+      {
+        "id": "elephant",
+        "rejected": [],
+        "reason": "All associations are related to an elephant."
+      },
+      {
+        "id": "mammoth",
+        "rejected": [],
+        "reason": "All associations are related to a mammoth."
+      },
+      {
+        "id": "rhinoceros",
+        "rejected": [],
+        "reason": "All associations are related to a rhinoceros."
+      },
+      {
+        "id": "hippopotamus",
+        "rejected": [],
+        "reason": "All associations are related to a hippopotamus."
+      },
+      {
+        "id": "mouse face",
+        "rejected": [],
+        "reason": "All associations are related to a mouse face."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_066553715b68c922016abfaebcbd3087d09bd8033f57098aa2",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2524,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 923,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3447
+    }
+  }
+}

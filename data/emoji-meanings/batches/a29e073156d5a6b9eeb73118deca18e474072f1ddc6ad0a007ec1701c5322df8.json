@@ -1,0 +1,727 @@
+{
+  "names": [
+    "flag: Mozambique",
+    "flag: Namibia",
+    "flag: New Caledonia",
+    "flag: Niger",
+    "flag: Norfolk Island",
+    "flag: Nigeria",
+    "flag: Nicaragua",
+    "flag: Netherlands",
+    "flag: Norway",
+    "flag: Nepal",
+    "flag: Nauru",
+    "flag: Niue",
+    "flag: New Zealand",
+    "flag: Oman",
+    "flag: Panama",
+    "flag: Peru",
+    "flag: French Polynesia",
+    "flag: Papua New Guinea",
+    "flag: Philippines",
+    "flag: Pakistan",
+    "flag: Poland",
+    "flag: St. Pierre & Miquelon",
+    "flag: Pitcairn Islands",
+    "flag: Puerto Rico",
+    "flag: Palestinian Territories",
+    "flag: Portugal",
+    "flag: Palau",
+    "flag: Paraguay",
+    "flag: Qatar",
+    "flag: Réunion",
+    "flag: Romania",
+    "flag: Serbia",
+    "flag: Russia",
+    "flag: Rwanda",
+    "flag: Saudi Arabia",
+    "flag: Solomon Islands",
+    "flag: Seychelles",
+    "flag: Sudan",
+    "flag: Sweden",
+    "flag: Singapore"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "flag: Mozambique",
+        "associations": [
+          "national flag",
+          "country identity",
+          "green red black",
+          "emblem and star",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Namibia",
+        "associations": [
+          "national flag",
+          "country identity",
+          "blue red green",
+          "sun and diagonal bands",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: New Caledonia",
+        "associations": [
+          "territorial flag",
+          "island identity",
+          "blue red green",
+          "sun symbol",
+          "regional pride",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Niger",
+        "associations": [
+          "national flag",
+          "country identity",
+          "orange white green",
+          "central circle",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Norfolk Island",
+        "associations": [
+          "territorial flag",
+          "island identity",
+          "green white pine",
+          "local pride",
+          "coastal region",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Nigeria",
+        "associations": [
+          "national flag",
+          "country identity",
+          "green white green",
+          "simplicity",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Nicaragua",
+        "associations": [
+          "national flag",
+          "country identity",
+          "blue white blue",
+          "triangle emblem",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Netherlands",
+        "associations": [
+          "national flag",
+          "country identity",
+          "red white blue",
+          "European nation",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Norway",
+        "associations": [
+          "national flag",
+          "country identity",
+          "red white blue",
+          "Nordic nation",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Nepal",
+        "associations": [
+          "national flag",
+          "country identity",
+          "crimson blue",
+          "triangular flag",
+          "sun and moon",
+          "patriotism"
+        ]
+      },
+      {
+        "id": "flag: Nauru",
+        "associations": [
+          "national flag",
+          "country identity",
+          "blue yellow white",
+          "island nation",
+          "star symbol",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Niue",
+        "associations": [
+          "territorial flag",
+          "island identity",
+          "yellow blue",
+          "local pride",
+          "oceanic region",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: New Zealand",
+        "associations": [
+          "national flag",
+          "country identity",
+          "blue red white stars",
+          "Pacific nation",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Oman",
+        "associations": [
+          "national flag",
+          "country identity",
+          "red white green",
+          "crescent and emblem",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Panama",
+        "associations": [
+          "national flag",
+          "country identity",
+          "red blue white",
+          "quartered design",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Peru",
+        "associations": [
+          "national flag",
+          "country identity",
+          "red white red",
+          "Andean nation",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: French Polynesia",
+        "associations": [
+          "territorial flag",
+          "island identity",
+          "red white blue",
+          "ocean and sun",
+          "regional pride",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Papua New Guinea",
+        "associations": [
+          "national flag",
+          "country identity",
+          "black red yellow",
+          "bird and stars",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Philippines",
+        "associations": [
+          "national flag",
+          "country identity",
+          "blue red white yellow",
+          "sun and stars",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Pakistan",
+        "associations": [
+          "national flag",
+          "country identity",
+          "green white",
+          "crescent and star",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Poland",
+        "associations": [
+          "national flag",
+          "country identity",
+          "white red",
+          "simple design",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: St. Pierre & Miquelon",
+        "associations": [
+          "territorial flag",
+          "island identity",
+          "red white green",
+          "local pride",
+          "north atlantic",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Pitcairn Islands",
+        "associations": [
+          "territorial flag",
+          "island identity",
+          "blue green yellow",
+          "local pride",
+          "small community",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Puerto Rico",
+        "associations": [
+          "territorial flag",
+          "island identity",
+          "red white blue star",
+          "regional pride",
+          "caribbean identity",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Palestinian Territories",
+        "associations": [
+          "regional flag",
+          "national identity",
+          "black white green red",
+          "tri-color bands",
+          "solidarity",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Portugal",
+        "associations": [
+          "national flag",
+          "country identity",
+          "green red emblem",
+          "European nation",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Palau",
+        "associations": [
+          "national flag",
+          "country identity",
+          "blue yellow circle",
+          "ocean island",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Paraguay",
+        "associations": [
+          "national flag",
+          "country identity",
+          "red white blue emblem",
+          "central seal",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Qatar",
+        "associations": [
+          "national flag",
+          "country identity",
+          "maroon white serration",
+          "desert nation",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Réunion",
+        "associations": [
+          "territorial flag",
+          "island identity",
+          "blue red yellow",
+          "volcanic island",
+          "regional pride",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Romania",
+        "associations": [
+          "national flag",
+          "country identity",
+          "blue yellow red",
+          "european flag",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Serbia",
+        "associations": [
+          "national flag",
+          "country identity",
+          "red blue white emblem",
+          "balkan nation",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Russia",
+        "associations": [
+          "national flag",
+          "country identity",
+          "white blue red",
+          "slavic colors",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Rwanda",
+        "associations": [
+          "national flag",
+          "country identity",
+          "blue yellow green",
+          "sun motif",
+          "unity and hope",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Saudi Arabia",
+        "associations": [
+          "national flag",
+          "country identity",
+          "green white script",
+          "sword emblem",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Solomon Islands",
+        "associations": [
+          "national flag",
+          "country identity",
+          "blue green yellow stars",
+          "island chain",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Seychelles",
+        "associations": [
+          "national flag",
+          "country identity",
+          "diagonal color bands",
+          "island nation",
+          "ocean identity",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Sudan",
+        "associations": [
+          "national flag",
+          "country identity",
+          "red white black green",
+          "pan-arab colors",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Sweden",
+        "associations": [
+          "national flag",
+          "country identity",
+          "blue yellow cross",
+          "Nordic design",
+          "patriotism",
+          "state symbol"
+        ]
+      },
+      {
+        "id": "flag: Singapore",
+        "associations": [
+          "national flag",
+          "country identity",
+          "red white crescent stars",
+          "city-state",
+          "patriotism",
+          "state symbol"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_05607cbab7a3972c016abfafecce6487d0ac74a2c49f63ecdf",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1518,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1090,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2608
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "flag: Mozambique",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Namibia",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: New Caledonia",
+        "rejected": [],
+        "reason": "All associations are directly related to the territorial flag."
+      },
+      {
+        "id": "flag: Niger",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Norfolk Island",
+        "rejected": [],
+        "reason": "All associations are directly related to the territorial flag."
+      },
+      {
+        "id": "flag: Nigeria",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Nicaragua",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Netherlands",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Norway",
+        "rejected": [
+          "red white blue"
+        ],
+        "reason": "Norway's flag is red with a blue cross outlined in white, not a red-white-blue tricolor."
+      },
+      {
+        "id": "flag: Nepal",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Nauru",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Niue",
+        "rejected": [],
+        "reason": "All associations are directly related to the territorial flag."
+      },
+      {
+        "id": "flag: New Zealand",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Oman",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Panama",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Peru",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: French Polynesia",
+        "rejected": [],
+        "reason": "All associations are directly related to the territorial flag."
+      },
+      {
+        "id": "flag: Papua New Guinea",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Philippines",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Pakistan",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Poland",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: St. Pierre & Miquelon",
+        "rejected": [],
+        "reason": "All associations are directly related to the territorial flag."
+      },
+      {
+        "id": "flag: Pitcairn Islands",
+        "rejected": [],
+        "reason": "All associations are directly related to the territorial flag."
+      },
+      {
+        "id": "flag: Puerto Rico",
+        "rejected": [],
+        "reason": "All associations are directly related to the territorial flag."
+      },
+      {
+        "id": "flag: Palestinian Territories",
+        "rejected": [],
+        "reason": "All associations are directly related to the regional flag."
+      },
+      {
+        "id": "flag: Portugal",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Palau",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Paraguay",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Qatar",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Réunion",
+        "rejected": [],
+        "reason": "All associations are directly related to the territorial flag."
+      },
+      {
+        "id": "flag: Romania",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Serbia",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Russia",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Rwanda",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Saudi Arabia",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Solomon Islands",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Seychelles",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Sudan",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Sweden",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      },
+      {
+        "id": "flag: Singapore",
+        "rejected": [],
+        "reason": "All associations are directly related to the national flag."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0fe9144b21b776e9016abfaff3826c87d08522d5784c018557",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3984,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 893,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4877
+    }
+  }
+}

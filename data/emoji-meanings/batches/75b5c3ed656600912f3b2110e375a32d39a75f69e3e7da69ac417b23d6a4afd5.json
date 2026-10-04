@@ -1,0 +1,760 @@
+{
+  "names": [
+    "mouse",
+    "rat",
+    "hamster",
+    "rabbit face",
+    "rabbit",
+    "chipmunk",
+    "beaver",
+    "hedgehog",
+    "bat",
+    "bear",
+    "polar bear",
+    "koala",
+    "panda",
+    "sloth",
+    "otter",
+    "skunk",
+    "kangaroo",
+    "badger",
+    "paw prints",
+    "turkey",
+    "chicken",
+    "rooster",
+    "hatching chick",
+    "baby chick",
+    "front-facing baby chick",
+    "penguin",
+    "dove",
+    "eagle",
+    "duck",
+    "swan",
+    "owl",
+    "dodo",
+    "feather",
+    "flamingo",
+    "peacock",
+    "parrot",
+    "wing",
+    "black bird",
+    "goose",
+    "phoenix"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "mouse",
+        "associations": [
+          "small rodent",
+          "cheese",
+          "cursor",
+          "click",
+          "tiny",
+          "nest"
+        ]
+      },
+      {
+        "id": "rat",
+        "associations": [
+          "rodent",
+          "sewer",
+          "scurry",
+          "whiskers",
+          "gnawing",
+          "pest"
+        ]
+      },
+      {
+        "id": "hamster",
+        "associations": [
+          "wheel",
+          "pet",
+          "cheek pouches",
+          "cage",
+          "nocturnal",
+          "small rodent"
+        ]
+      },
+      {
+        "id": "rabbit face",
+        "associations": [
+          "bunny",
+          "cute",
+          "ears",
+          "nose",
+          "whiskers",
+          "face"
+        ]
+      },
+      {
+        "id": "rabbit",
+        "associations": [
+          "bunny",
+          "hop",
+          "burrow",
+          "carrot",
+          "ears",
+          "pet"
+        ]
+      },
+      {
+        "id": "chipmunk",
+        "associations": [
+          "striped rodent",
+          "nuts",
+          "cheeks",
+          "burrow",
+          "quick",
+          "small"
+        ]
+      },
+      {
+        "id": "beaver",
+        "associations": [
+          "dam",
+          "logs",
+          "gnawing",
+          "river",
+          "tail",
+          "rodent"
+        ]
+      },
+      {
+        "id": "hedgehog",
+        "associations": [
+          "spines",
+          "curl",
+          "small mammal",
+          "night",
+          "prickly",
+          "forest"
+        ]
+      },
+      {
+        "id": "bat",
+        "associations": [
+          "night",
+          "flying mammal",
+          "cave",
+          "echolocation",
+          "wings",
+          "dark"
+        ]
+      },
+      {
+        "id": "bear",
+        "associations": [
+          "wild animal",
+          "strength",
+          "fierce",
+          "forest",
+          "hug",
+          "honey"
+        ]
+      },
+      {
+        "id": "polar bear",
+        "associations": [
+          "ice",
+          "arctic",
+          "white fur",
+          "cold",
+          "seal",
+          "polar"
+        ]
+      },
+      {
+        "id": "koala",
+        "associations": [
+          "eucalyptus",
+          "tree",
+          "cuddly",
+          "marsupial",
+          "sleepy",
+          "Australia"
+        ]
+      },
+      {
+        "id": "panda",
+        "associations": [
+          "bamboo",
+          "black and white",
+          "cute",
+          "bear",
+          "calm",
+          "forest"
+        ]
+      },
+      {
+        "id": "sloth",
+        "associations": [
+          "slow",
+          "hanging",
+          "tree",
+          "lazy",
+          "sleepy",
+          "mellow"
+        ]
+      },
+      {
+        "id": "otter",
+        "associations": [
+          "playful",
+          "water",
+          "swim",
+          "slick",
+          "river",
+          "cute"
+        ]
+      },
+      {
+        "id": "skunk",
+        "associations": [
+          "smell",
+          "striped",
+          "spray",
+          "wild",
+          "black and white",
+          "odor"
+        ]
+      },
+      {
+        "id": "kangaroo",
+        "associations": [
+          "hop",
+          "pouch",
+          "marsupial",
+          "Australia",
+          "jump",
+          "strong legs"
+        ]
+      },
+      {
+        "id": "badger",
+        "associations": [
+          "burrow",
+          "striped face",
+          "digging",
+          "tough",
+          "wild",
+          "mammal"
+        ]
+      },
+      {
+        "id": "paw prints",
+        "associations": [
+          "tracks",
+          "footprints",
+          "animal trail",
+          "steps",
+          "print",
+          "path"
+        ]
+      },
+      {
+        "id": "turkey",
+        "associations": [
+          "bird",
+          "feast",
+          "gobble",
+          "feathers",
+          "farm",
+          "thanksgiving"
+        ]
+      },
+      {
+        "id": "chicken",
+        "associations": [
+          "hen",
+          "roost",
+          "egg",
+          "farm",
+          "feathers",
+          "cluck"
+        ]
+      },
+      {
+        "id": "rooster",
+        "associations": [
+          "crow",
+          "dawn",
+          "farm",
+          "comb",
+          "alert",
+          "male bird"
+        ]
+      },
+      {
+        "id": "hatching chick",
+        "associations": [
+          "egg",
+          "hatch",
+          "new life",
+          "breakout",
+          "baby bird",
+          "spring"
+        ]
+      },
+      {
+        "id": "baby chick",
+        "associations": [
+          "tiny bird",
+          "yellow",
+          "peep",
+          "cute",
+          "young",
+          "fluffy"
+        ]
+      },
+      {
+        "id": "front-facing baby chick",
+        "associations": [
+          "cute",
+          "yellow",
+          "face",
+          "tiny",
+          "bird",
+          "peep"
+        ]
+      },
+      {
+        "id": "penguin",
+        "associations": [
+          "ice",
+          "waddle",
+          "black and white",
+          "swim",
+          "cold",
+          "bird"
+        ]
+      },
+      {
+        "id": "dove",
+        "associations": [
+          "peace",
+          "bird",
+          "white",
+          "fly",
+          "gentle",
+          "love"
+        ]
+      },
+      {
+        "id": "eagle",
+        "associations": [
+          "soar",
+          "raptor",
+          "sharp eyes",
+          "power",
+          "flight",
+          "predator"
+        ]
+      },
+      {
+        "id": "duck",
+        "associations": [
+          "quack",
+          "water",
+          "bill",
+          "swim",
+          "pond",
+          "bird"
+        ]
+      },
+      {
+        "id": "swan",
+        "associations": [
+          "grace",
+          "water",
+          "white",
+          "neck",
+          "bird",
+          "elegant"
+        ]
+      },
+      {
+        "id": "owl",
+        "associations": [
+          "night",
+          "wise",
+          "hoot",
+          "eyes",
+          "bird",
+          "dark"
+        ]
+      },
+      {
+        "id": "dodo",
+        "associations": [
+          "extinct",
+          "bird",
+          "island",
+          "lost",
+          "historic",
+          "flightless"
+        ]
+      },
+      {
+        "id": "feather",
+        "associations": [
+          "soft",
+          "light",
+          "bird",
+          "quill",
+          "flight",
+          "down"
+        ]
+      },
+      {
+        "id": "flamingo",
+        "associations": [
+          "pink",
+          "wading",
+          "long legs",
+          "bird",
+          "graceful",
+          "flock"
+        ]
+      },
+      {
+        "id": "peacock",
+        "associations": [
+          "showy",
+          "tail",
+          "colorful",
+          "display",
+          "bird",
+          "pride"
+        ]
+      },
+      {
+        "id": "parrot",
+        "associations": [
+          "talk",
+          "colorful",
+          "bird",
+          "repeat",
+          "beak",
+          "tropical"
+        ]
+      },
+      {
+        "id": "wing",
+        "associations": [
+          "flight",
+          "bird",
+          "air",
+          "lift",
+          "feather",
+          "spread"
+        ]
+      },
+      {
+        "id": "black bird",
+        "associations": [
+          "dark plumage",
+          "bird",
+          "night",
+          "crow",
+          "silhouette",
+          "songbird"
+        ]
+      },
+      {
+        "id": "goose",
+        "associations": [
+          "honk",
+          "waterfowl",
+          "flock",
+          "bird",
+          "geese",
+          "wading"
+        ]
+      },
+      {
+        "id": "phoenix",
+        "associations": [
+          "rebirth",
+          "fire",
+          "myth",
+          "rise",
+          "resurrection",
+          "flame"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_029fbc1bf7af4e89016abfaebee9d087d0ab15166cf8d62f5a",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1304,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 792,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2096
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "mouse",
+        "rejected": [
+          "cheese",
+          "cursor",
+          "click",
+          "nest"
+        ],
+        "reason": "The emoji core meaning is a mouse; cheese and nest are not defining associations here, and cursor/click are software-symbol meanings that can mislead away from the animal."
+      },
+      {
+        "id": "rat",
+        "rejected": [
+          "sewer",
+          "pest"
+        ],
+        "reason": "These are stereotype-heavy associations that reduce the animal to a nuisance role rather than its core meaning."
+      },
+      {
+        "id": "hamster",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a hamster."
+      },
+      {
+        "id": "rabbit face",
+        "rejected": [
+          "bunny"
+        ],
+        "reason": "This is a face emoji for rabbit; 'bunny' shifts to the animal itself rather than the face icon, while the other terms are face features."
+      },
+      {
+        "id": "rabbit",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a rabbit."
+      },
+      {
+        "id": "chipmunk",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a chipmunk."
+      },
+      {
+        "id": "beaver",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a beaver."
+      },
+      {
+        "id": "hedgehog",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a hedgehog."
+      },
+      {
+        "id": "bat",
+        "rejected": [
+          "wings"
+        ],
+        "reason": "Bats have wings as limbs, but 'wings' alone can be misleading as an ordinary bird-style association; the rest are directly appropriate."
+      },
+      {
+        "id": "bear",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a bear."
+      },
+      {
+        "id": "polar bear",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a polar bear."
+      },
+      {
+        "id": "koala",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a koala."
+      },
+      {
+        "id": "panda",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a panda."
+      },
+      {
+        "id": "sloth",
+        "rejected": [
+          "lazy"
+        ],
+        "reason": "'Lazy' is a stereotype, not a literal or neutral association."
+      },
+      {
+        "id": "otter",
+        "rejected": [
+          "slick"
+        ],
+        "reason": "This is vague/slangy and not a standard direct association; the rest are appropriate."
+      },
+      {
+        "id": "skunk",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a skunk."
+      },
+      {
+        "id": "kangaroo",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a kangaroo."
+      },
+      {
+        "id": "badger",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a badger."
+      },
+      {
+        "id": "paw prints",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to paw prints."
+      },
+      {
+        "id": "turkey",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a turkey."
+      },
+      {
+        "id": "chicken",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a chicken."
+      },
+      {
+        "id": "rooster",
+        "rejected": [
+          "crow"
+        ],
+        "reason": "This is a verb/action rather than the rooster itself; it can be acceptable in context, but as a plain association it is misleadingly indirect."
+      },
+      {
+        "id": "hatching chick",
+        "rejected": [
+          "breakout"
+        ],
+        "reason": "'Breakout' is too slangy/indirect and can imply escaping rather than hatching."
+      },
+      {
+        "id": "baby chick",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a baby chick."
+      },
+      {
+        "id": "front-facing baby chick",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a front-facing baby chick."
+      },
+      {
+        "id": "penguin",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a penguin."
+      },
+      {
+        "id": "dove",
+        "rejected": [
+          "love"
+        ],
+        "reason": "'Love' is an abstract emotion, not a direct core meaning association for the dove emoji."
+      },
+      {
+        "id": "eagle",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to an eagle."
+      },
+      {
+        "id": "duck",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a duck."
+      },
+      {
+        "id": "swan",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a swan."
+      },
+      {
+        "id": "owl",
+        "rejected": [
+          "wise"
+        ],
+        "reason": "'Wise' is a common stereotype/metaphor, not a literal association."
+      },
+      {
+        "id": "dodo",
+        "rejected": [
+          "lost"
+        ],
+        "reason": "'Lost' is misleading and not a core meaning of the extinct bird emoji."
+      },
+      {
+        "id": "feather",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a feather."
+      },
+      {
+        "id": "flamingo",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a flamingo."
+      },
+      {
+        "id": "peacock",
+        "rejected": [
+          "pride"
+        ],
+        "reason": "'Pride' is an abstract metaphor and can imply identity symbolism rather than the bird itself."
+      },
+      {
+        "id": "parrot",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a parrot."
+      },
+      {
+        "id": "wing",
+        "rejected": [
+          "bird",
+          "feather"
+        ],
+        "reason": "'Wing' should not be redefined through whole-animal or feather substitutions; the remaining terms are fine."
+      },
+      {
+        "id": "black bird",
+        "rejected": [
+          "songbird"
+        ],
+        "reason": "'Songbird' is a misleading substitution for a generic black bird and may imply a different bird category."
+      },
+      {
+        "id": "goose",
+        "rejected": [
+          "geese"
+        ],
+        "reason": "This is just the plural form of the same word, not a distinct association."
+      },
+      {
+        "id": "phoenix",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the mythical phoenix."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_03b214dfb9032013016abfaec4dff887d0a98a68c54338f074",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2639,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1073,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3712
+    }
+  }
+}

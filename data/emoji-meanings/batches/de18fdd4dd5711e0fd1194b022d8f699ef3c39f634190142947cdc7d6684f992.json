@@ -1,0 +1,685 @@
+{
+  "names": [
+    "flag: French Guiana",
+    "flag: Guernsey",
+    "flag: Ghana",
+    "flag: Gibraltar",
+    "flag: Greenland",
+    "flag: Gambia",
+    "flag: Guinea",
+    "flag: Guadeloupe",
+    "flag: Equatorial Guinea",
+    "flag: Greece",
+    "flag: South Georgia & South Sandwich Islands",
+    "flag: Guatemala",
+    "flag: Guam",
+    "flag: Guinea-Bissau",
+    "flag: Guyana",
+    "flag: Hong Kong SAR China",
+    "flag: Heard & McDonald Islands",
+    "flag: Honduras",
+    "flag: Croatia",
+    "flag: Haiti",
+    "flag: Hungary",
+    "flag: Canary Islands",
+    "flag: Indonesia",
+    "flag: Ireland",
+    "flag: Israel",
+    "flag: Isle of Man",
+    "flag: India",
+    "flag: British Indian Ocean Territory",
+    "flag: Iraq",
+    "flag: Iran",
+    "flag: Iceland",
+    "flag: Italy",
+    "flag: Jersey",
+    "flag: Jamaica",
+    "flag: Jordan",
+    "flag: Japan",
+    "flag: Kenya",
+    "flag: Kyrgyzstan",
+    "flag: Cambodia",
+    "flag: Kiribati"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "flag: French Guiana",
+        "associations": [
+          "French Guiana",
+          "territory",
+          "flag",
+          "South America",
+          "regional identity"
+        ]
+      },
+      {
+        "id": "flag: Guernsey",
+        "associations": [
+          "Guernsey",
+          "island",
+          "territory",
+          "flag",
+          "regional identity"
+        ]
+      },
+      {
+        "id": "flag: Ghana",
+        "associations": [
+          "Ghana",
+          "nation",
+          "flag",
+          "West Africa",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Gibraltar",
+        "associations": [
+          "Gibraltar",
+          "peninsula",
+          "territory",
+          "flag",
+          "border"
+        ]
+      },
+      {
+        "id": "flag: Greenland",
+        "associations": [
+          "Greenland",
+          "island",
+          "territory",
+          "flag",
+          "Arctic"
+        ]
+      },
+      {
+        "id": "flag: Gambia",
+        "associations": [
+          "Gambia",
+          "nation",
+          "flag",
+          "West Africa",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Guinea",
+        "associations": [
+          "Guinea",
+          "nation",
+          "flag",
+          "West Africa",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Guadeloupe",
+        "associations": [
+          "Guadeloupe",
+          "island",
+          "territory",
+          "flag",
+          "Caribbean"
+        ]
+      },
+      {
+        "id": "flag: Equatorial Guinea",
+        "associations": [
+          "Equatorial Guinea",
+          "nation",
+          "flag",
+          "Central Africa",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Greece",
+        "associations": [
+          "Greece",
+          "nation",
+          "flag",
+          "Europe",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: South Georgia & South Sandwich Islands",
+        "associations": [
+          "South Georgia & South Sandwich Islands",
+          "territory",
+          "flag",
+          "remote islands",
+          "Atlantic"
+        ]
+      },
+      {
+        "id": "flag: Guatemala",
+        "associations": [
+          "Guatemala",
+          "nation",
+          "flag",
+          "Central America",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Guam",
+        "associations": [
+          "Guam",
+          "island",
+          "territory",
+          "flag",
+          "Pacific"
+        ]
+      },
+      {
+        "id": "flag: Guinea-Bissau",
+        "associations": [
+          "Guinea-Bissau",
+          "nation",
+          "flag",
+          "West Africa",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Guyana",
+        "associations": [
+          "Guyana",
+          "nation",
+          "flag",
+          "South America",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Hong Kong SAR China",
+        "associations": [
+          "Hong Kong SAR China",
+          "region",
+          "flag",
+          "urban",
+          "special administrative region"
+        ]
+      },
+      {
+        "id": "flag: Heard & McDonald Islands",
+        "associations": [
+          "Heard & McDonald Islands",
+          "islands",
+          "territory",
+          "flag",
+          "remote"
+        ]
+      },
+      {
+        "id": "flag: Honduras",
+        "associations": [
+          "Honduras",
+          "nation",
+          "flag",
+          "Central America",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Croatia",
+        "associations": [
+          "Croatia",
+          "nation",
+          "flag",
+          "Europe",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Haiti",
+        "associations": [
+          "Haiti",
+          "nation",
+          "flag",
+          "Caribbean",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Hungary",
+        "associations": [
+          "Hungary",
+          "nation",
+          "flag",
+          "Europe",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Canary Islands",
+        "associations": [
+          "Canary Islands",
+          "islands",
+          "territory",
+          "flag",
+          "Atlantic"
+        ]
+      },
+      {
+        "id": "flag: Indonesia",
+        "associations": [
+          "Indonesia",
+          "nation",
+          "flag",
+          "archipelago",
+          "Southeast Asia"
+        ]
+      },
+      {
+        "id": "flag: Ireland",
+        "associations": [
+          "Ireland",
+          "nation",
+          "flag",
+          "Europe",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Israel",
+        "associations": [
+          "Israel",
+          "nation",
+          "flag",
+          "Middle East",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Isle of Man",
+        "associations": [
+          "Isle of Man",
+          "island",
+          "territory",
+          "flag",
+          "regional identity"
+        ]
+      },
+      {
+        "id": "flag: India",
+        "associations": [
+          "India",
+          "nation",
+          "flag",
+          "South Asia",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: British Indian Ocean Territory",
+        "associations": [
+          "British Indian Ocean Territory",
+          "territory",
+          "flag",
+          "Indian Ocean",
+          "remote"
+        ]
+      },
+      {
+        "id": "flag: Iraq",
+        "associations": [
+          "Iraq",
+          "nation",
+          "flag",
+          "Middle East",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Iran",
+        "associations": [
+          "Iran",
+          "nation",
+          "flag",
+          "Middle East",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Iceland",
+        "associations": [
+          "Iceland",
+          "nation",
+          "flag",
+          "Nordic",
+          "island"
+        ]
+      },
+      {
+        "id": "flag: Italy",
+        "associations": [
+          "Italy",
+          "nation",
+          "flag",
+          "Europe",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Jersey",
+        "associations": [
+          "Jersey",
+          "island",
+          "territory",
+          "flag",
+          "regional identity"
+        ]
+      },
+      {
+        "id": "flag: Jamaica",
+        "associations": [
+          "Jamaica",
+          "nation",
+          "flag",
+          "Caribbean",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Jordan",
+        "associations": [
+          "Jordan",
+          "nation",
+          "flag",
+          "Middle East",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Japan",
+        "associations": [
+          "Japan",
+          "nation",
+          "flag",
+          "East Asia",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Kenya",
+        "associations": [
+          "Kenya",
+          "nation",
+          "flag",
+          "East Africa",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Kyrgyzstan",
+        "associations": [
+          "Kyrgyzstan",
+          "nation",
+          "flag",
+          "Central Asia",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Cambodia",
+        "associations": [
+          "Cambodia",
+          "nation",
+          "flag",
+          "Southeast Asia",
+          "national identity"
+        ]
+      },
+      {
+        "id": "flag: Kiribati",
+        "associations": [
+          "Kiribati",
+          "nation",
+          "flag",
+          "Pacific",
+          "island"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_07e311e2d53d4bdc016abfafe39e3487d0b0336579da20d578",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1535,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 787,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2322
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "flag: French Guiana",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of French Guiana."
+      },
+      {
+        "id": "flag: Guernsey",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Guernsey."
+      },
+      {
+        "id": "flag: Ghana",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Ghana."
+      },
+      {
+        "id": "flag: Gibraltar",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Gibraltar."
+      },
+      {
+        "id": "flag: Greenland",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Greenland."
+      },
+      {
+        "id": "flag: Gambia",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of The Gambia."
+      },
+      {
+        "id": "flag: Guinea",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Guinea."
+      },
+      {
+        "id": "flag: Guadeloupe",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Guadeloupe."
+      },
+      {
+        "id": "flag: Equatorial Guinea",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Equatorial Guinea."
+      },
+      {
+        "id": "flag: Greece",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Greece."
+      },
+      {
+        "id": "flag: South Georgia & South Sandwich Islands",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of South Georgia and the South Sandwich Islands."
+      },
+      {
+        "id": "flag: Guatemala",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Guatemala."
+      },
+      {
+        "id": "flag: Guam",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Guam."
+      },
+      {
+        "id": "flag: Guinea-Bissau",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Guinea-Bissau."
+      },
+      {
+        "id": "flag: Guyana",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Guyana."
+      },
+      {
+        "id": "flag: Hong Kong SAR China",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Hong Kong."
+      },
+      {
+        "id": "flag: Heard & McDonald Islands",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Heard Island and McDonald Islands."
+      },
+      {
+        "id": "flag: Honduras",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Honduras."
+      },
+      {
+        "id": "flag: Croatia",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Croatia."
+      },
+      {
+        "id": "flag: Haiti",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Haiti."
+      },
+      {
+        "id": "flag: Hungary",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Hungary."
+      },
+      {
+        "id": "flag: Canary Islands",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of the Canary Islands."
+      },
+      {
+        "id": "flag: Indonesia",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Indonesia."
+      },
+      {
+        "id": "flag: Ireland",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Ireland."
+      },
+      {
+        "id": "flag: Israel",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Israel."
+      },
+      {
+        "id": "flag: Isle of Man",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of the Isle of Man."
+      },
+      {
+        "id": "flag: India",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of India."
+      },
+      {
+        "id": "flag: British Indian Ocean Territory",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of the British Indian Ocean Territory."
+      },
+      {
+        "id": "flag: Iraq",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Iraq."
+      },
+      {
+        "id": "flag: Iran",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Iran."
+      },
+      {
+        "id": "flag: Iceland",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Iceland."
+      },
+      {
+        "id": "flag: Italy",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Italy."
+      },
+      {
+        "id": "flag: Jersey",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Jersey."
+      },
+      {
+        "id": "flag: Jamaica",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Jamaica."
+      },
+      {
+        "id": "flag: Jordan",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Jordan."
+      },
+      {
+        "id": "flag: Japan",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Japan."
+      },
+      {
+        "id": "flag: Kenya",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Kenya."
+      },
+      {
+        "id": "flag: Kyrgyzstan",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Kyrgyzstan."
+      },
+      {
+        "id": "flag: Cambodia",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Cambodia."
+      },
+      {
+        "id": "flag: Kiribati",
+        "rejected": [],
+        "reason": "All associations are broadly aligned with the flag of Kiribati."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_054c855399f4b8d4016abfafe7cf3887d08c1326cb4fc05430",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3334,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 963,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4297
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{"id": "b15c218dd149f78e", "state": ["❓", "📱", "🔋", "⏳"], "answer": ["📱", "➡️", "🔅", "🚫", "🎮", "🔋", "⏳"], "answer_reading": "mobile phone | then / leads to | dim button | not | video game | battery | hourglass not done", "needs_context": false}
+{"id": "f7bc2488732b0092", "state": ["❓", "🎻"], "answer": ["🎻", "🎵"], "answer_reading": "violin | musical note", "needs_context": false}
+{"id": "5705576de6cffe64", "state": ["❓", "😴"], "answer": ["☕", "📱", "🌃", "🔊", "➡️", "🚫", "😴"], "answer_reading": "hot beverage | mobile phone | night with stars | speaker high volume | then / leads to | not | sleeping face", "needs_context": false}
+{"id": "1759dfa120c41921", "state": ["❓", "🇫🇷", "🗼"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "39201c44085dd526", "state": ["❓", "🍎", "🍽️"], "answer": ["🍎", "🍌", "🥕"], "answer_reading": "red apple | banana | carrot", "needs_context": false}
+{"id": "9a704e5ab644d595", "state": ["❓", "🤒", "🧑‍⚕️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "9620c26f7155f184", "state": ["❓", "🌧️", "📏"], "answer": ["🌧️", "➡️", "🫙", "➡️", "📏"], "answer_reading": "cloud with rain | then / leads to | jar | then / leads to | straight ruler", "needs_context": false}
+{"id": "86a3a1c78dbc18af", "state": ["❓", "🧬", "👶"], "answer": ["👨‍👩‍👧", "🧬", "➡️", "👶"], "answer_reading": "family: man, woman, girl | dna | then / leads to | baby", "needs_context": false}
+{"id": "ce868481ed2e1369", "state": ["❓", "🐱", "🥱"], "answer": ["🐱", "➡️", "🧶", "🎾", "🪶"], "answer_reading": "cat face | then / leads to | yarn | tennis | feather", "needs_context": false}
+{"id": "5dcd97dd2cd4ec94", "state": ["❓", "🌱"], "answer": ["🌱", "➕", "☀️", "💧", "➡️", "🌿"], "answer_reading": "seedling | plus | sun | droplet | then / leads to | herb", "needs_context": false}
+{"id": "caff938670e997dd", "state": ["❓", "🚴", "🏁"], "answer": ["🚴", "🛣️", "🔹", "🚵", "🏔️"], "answer_reading": "person biking | motorway | clause boundary | person mountain biking | snow-capped mountain", "needs_context": false}
+{"id": "b05d83d1b573c4e6", "state": ["❓", "🌿", "🐛", "🐦"], "answer": ["🌿", "➡️", "🐛", "➡️", "🐦"], "answer_reading": "herb | then / leads to | bug | then / leads to | bird", "needs_context": false}
+{"id": "4a406bd756ca6325", "state": ["❓", "📚"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "380dc0a03f3bed52", "state": ["❓", "🌿", "🐛", "🐦"], "answer": ["🌿", "➡️", "🐛", "➡️", "🐦"], "answer_reading": "herb | then / leads to | bug | then / leads to | bird", "needs_context": false}
+{"id": "5aa4719bbcc7d27f", "state": ["❓", "🔊", "⏱️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "46fd7dc6ea5e7a7b", "state": ["❓", "🎼"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "b000c3c4e1890ed4", "state": ["❓", "🥣"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "b22491e2aa2a6fdb", "state": ["❓", "❄️", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "0aee9a02f28837c2", "state": ["❓", "🛋️"], "answer": ["🛋️", "👥", "🪑"], "answer_reading": "couch and lamp | busts in silhouette | chair", "needs_context": false}
+{"id": "4907d545aca70962", "state": ["❓", "🌿"], "answer": ["🌿", "➡️", "🍎", "🌬️", "🏡", "🐦"], "answer_reading": "herb | then / leads to | red apple | wind face | house with garden | bird", "needs_context": false}
+{"id": "c3748c5864b84150", "state": ["❓", "😴", "⏱️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "4db0d73caed50d6e", "state": ["❓", "🛞", "🪢"], "answer": ["🪢", "➡️", "🛞", "➡️", "📦", "⬆️"], "answer_reading": "knot | then / leads to | wheel | then / leads to | package | up arrow", "needs_context": false}
+{"id": "9ef377e871f91839", "state": ["❓", "📱", "📷"], "answer": ["📱", "📷", "➡️", "✨", "🖼️"], "answer_reading": "mobile phone | camera | then / leads to | sparkles | framed picture", "needs_context": false}
+{"id": "02cbbb1aaddaaa76", "state": ["❓", "👨‍👩‍👧", "😴", "📅"], "answer": ["📅", "➡️", "🛁", "📖", "🌃", "🛏️"], "answer_reading": "calendar | then / leads to | bathtub | open book | night with stars | bed", "needs_context": false}
+{"id": "c7f5bfd71dc71ad6", "state": ["❓", "🥚", "🐣", "🐔"], "answer": ["🥚", "➡️", "🐣", "➡️", "🐔", "➡️", "🥚"], "answer_reading": "egg | then / leads to | hatching chick | then / leads to | chicken | then / leads to | egg", "needs_context": false}
+{"id": "36e5764e3ee432d4", "state": ["❓", "🛒", "🗺️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "d7ccb399ffe81885", "state": ["❓", "💧", "🥤"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "17feddfc6ab0cc91", "state": ["❓", "🛒", "💰"], "answer": ["📝", "➡️", "🛒", "🔹", "💰", "🔍"], "answer_reading": "memo | then / leads to | shopping cart | clause boundary | money bag | magnifying glass tilted left", "needs_context": false}
+{"id": "543b3eef7dd37890", "state": ["❓", "💡", "💻"], "answer": ["💡", "➡️", "📷", "🔹", "💡", "➡️", "🔬"], "answer_reading": "light bulb | then / leads to | camera | clause boundary | light bulb | then / leads to | microscope", "needs_context": false}
+{"id": "c7be74a664947ab8", "state": ["❓", "🧬", "🌍"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "797d1707e016473e", "state": ["❓", "🌿", "🐾", "🌍"], "answer": ["🌿", "🐾", "💧", "☀️", "🔗"], "answer_reading": "herb | paw prints | droplet | sun | link", "needs_context": false}
+{"id": "d9e174d886050ffa", "state": ["❓", "🐕", "🍽️"], "answer": ["🐕", "🍽️", "➡️", "🥫", "🔹", "🥣"], "answer_reading": "dog | fork and knife with plate | then / leads to | canned food | clause boundary | bowl with spoon", "needs_context": false}
+{"id": "4e70be3d7ff9c2b4", "state": ["❓", "🍳", "🛠️"], "answer": ["🔪", "🥄", "🥣", "🍳"], "answer_reading": "kitchen knife | spoon | bowl with spoon | cooking", "needs_context": false}
+{"id": "0ed7f8b488af32f1", "state": ["❓", "🏀", "🍽️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "c3a4892275e19ae2", "state": ["❓", "🏅"], "answer": ["⚽", "🏀", "🎾", "🏊", "🏃"], "answer_reading": "soccer ball | basketball | tennis | person swimming | person running", "needs_context": false}
+{"id": "553f98911c872a1f", "state": ["❓", "🐾"], "answer": ["🐕", "🐈", "🐟", "🐇"], "answer_reading": "dog | cat | fish | rabbit", "needs_context": false}
+{"id": "aa46675cf90125a9", "state": ["❓", "🐕", "🧑‍⚕️"], "answer": ["🐕", "➡️", "🧑‍⚕️", "🩺"], "answer_reading": "dog | then / leads to | health worker | stethoscope", "needs_context": false}
+{"id": "cfbd3d2563fa88e0", "state": ["❓", "🧑‍💼", "😠"], "answer": ["👂", "➡️", "💬", "➡️", "🤝"], "answer_reading": "ear | then / leads to | speech balloon | then / leads to | handshake", "needs_context": false}
+{"id": "5a473f499fe99802", "state": ["❓", "🎵", "📱"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "b9cdb889f9e980a2", "state": ["❓", "⏱️", "🕐"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "93f1c98bfcca9e41", "state": ["❓", "👒", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "679498d9731e6128", "state": ["❓", "🧑‍💼", "📈"], "answer": ["🎯", "📋", "📚", "🤝", "🛌"], "answer_reading": "bullseye | clipboard | books | handshake | person in bed", "needs_context": false}
+{"id": "ed675ef69e9e8195", "state": ["❓", "🚗", "💰"], "answer": ["👥", "🚗", "➡️", "💰", "⬇️"], "answer_reading": "busts in silhouette | automobile | then / leads to | money bag | down arrow", "needs_context": false}
+{"id": "17c535b422440f64", "state": ["❓", "🏃", "⏱️", "➡️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "bb437f4a45b7d3ce", "state": ["❓", "👂"], "answer": ["👂", "➡️", "🔊"], "answer_reading": "ear | then / leads to | speaker high volume", "needs_context": false}
+{"id": "1851672b135fb7b6", "state": ["❓", "📱", "💰"], "answer": ["📱", "➡️", "📢", "💰", "🔹", "🛒", "💰"], "answer_reading": "mobile phone | then / leads to | loudspeaker | money bag | clause boundary | shopping cart | money bag", "needs_context": false}
+{"id": "8d671049ca38b9b6", "state": ["❓", "🛒", "💻", "🔒"], "answer": ["🛒", "💻", "➡️", "🔒", "🔍", "🚫", "📤", "🔑"], "answer_reading": "shopping cart | laptop | then / leads to | locked | magnifying glass tilted left | not | outbox tray | key", "needs_context": false}
+{"id": "71e319b4132e177e", "state": ["❓", "📝", "🟰"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "636d77706faeabf1", "state": ["❓", "🛒", "📝"], "answer": ["🥦", "🍎", "🥚", "🥛", "🍞"], "answer_reading": "broccoli | red apple | egg | glass of milk | bread", "needs_context": false}
+{"id": "397f5f47d82b6a83", "state": ["❓", "🏈", "🛡️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "176ab1e08ec2fa2b", "state": ["❓", "🚇"], "answer": ["🚇", "➡️", "🎫", "🔹", "👥", "➡️", "🚪", "🔹", "🚫", "🔊"], "answer_reading": "metro | then / leads to | ticket | clause boundary | busts in silhouette | then / leads to | door | clause boundary | not | speaker high volume", "needs_context": false}
+{"id": "5f372e717a3409a8", "state": ["❓", "🍽️"], "answer": ["🍎", "🥦", "🍞", "🥚", "🍖", "🐟"], "answer_reading": "red apple | broccoli | bread | egg | meat on bone | fish", "needs_context": false}
+{"id": "44bbeb72d1161f73", "state": ["❓", "😴", "📅"], "answer": ["📅", "➡️", "📖", "🌃", "🛏️", "🔹", "🚫", "📱"], "answer_reading": "calendar | then / leads to | open book | night with stars | bed | clause boundary | not | mobile phone", "needs_context": false}
+{"id": "72a89fd5d27c7332", "state": ["❓", "🐾", "⚠️"], "answer": ["🐅", "⚠️"], "answer_reading": "tiger | warning", "needs_context": false}
+{"id": "7c86af4aafe7dba2", "state": ["❓", "🛍️", "👀", "💰"], "answer": ["🪟", "👀", "🛍️", "🔹", "💰", "🔍", "🟰"], "answer_reading": "window | eyes | shopping bags | clause boundary | money bag | magnifying glass tilted left | heavy equals sign", "needs_context": false}
+{"id": "054fd847eba8aab6", "state": ["❓", "🚗", "🗺️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "ee5fde4dc538f3da", "state": ["❓", "🚗", "🌍"], "answer": ["🚗", "🚗", "➡️", "💨", "🌍", "⚠️"], "answer_reading": "automobile | automobile | then / leads to | dashing away | globe showing Europe-Africa | warning", "needs_context": false}
+{"id": "f1ac03fe61ff3913", "state": ["❓", "📦", "⚖️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "fbd7c3f01b0cea98", "state": ["❓", "🍽️", "🚫", "🌾"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "fa8c6cf56cf88b78", "state": ["❓", "⌚", "💳"], "answer": ["⌚", "💳", "🔹", "💍", "💳"], "answer_reading": "watch | credit card | clause boundary | ring | credit card", "needs_context": false}
+{"id": "bb089ef3d2190f1f", "state": ["❓", "🧑‍💼", "🥱"], "answer": ["🚶", "🌳", "💧", "🧘"], "answer_reading": "person walking | deciduous tree | droplet | person in lotus position", "needs_context": false}
+{"id": "a68c3672d2ae1422", "state": ["❓", "🏨", "🏖️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "f70169167822ae06", "state": ["❓", "📱", "📊"], "answer": ["📱", "💬", "❤️", "👀", "➡️", "📊"], "answer_reading": "mobile phone | speech balloon | red heart | eyes | then / leads to | bar chart", "needs_context": false}
+{"id": "ddb8f7d557a9b65c", "state": ["❓", "🚗", "🛡️"], "answer": ["🚗", "➡️", "🛡️", "🔍", "❓"], "answer_reading": "automobile | then / leads to | shield | magnifying glass tilted left | unknown", "needs_context": false}
+{"id": "3fed1ce49fff52b7", "state": ["❓", "🥗"], "answer": ["🥦", "🥕", "🍊", "🍎"], "answer_reading": "broccoli | carrot | tangerine | red apple", "needs_context": false}
+{"id": "5e9e70de1da4c211", "state": ["❓", "📱", "🏃"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "758ed57ca67fb7f6", "state": ["❓", "🍕", "➗"], "answer": ["🍕", "➡️", "➗", "➡️", "🍕"], "answer_reading": "pizza | then / leads to | divide | then / leads to | pizza", "needs_context": false}
+{"id": "9f9a64b21af9131f", "state": ["❓", "🌤️", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "5b426a41cd91bb2b", "state": ["❓", "🚲", "🔧"], "answer": ["🚲", "➡️", "🛞", "🔍", "🔧"], "answer_reading": "bicycle | then / leads to | wheel | magnifying glass tilted left | wrench", "needs_context": false}
+{"id": "5b78e695391d662b", "state": ["❓", "👕", "💰", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "16263da338abc589", "state": ["❓", "🎵", "🎤"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "0854fea7f4c1c6f2", "state": ["❓", "👕", "🎨", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "3fac58984df68e96", "state": ["❓", "😴", "📅"], "answer": ["📅", "➡️", "📖", "🌃", "🛏️", "🔹", "🚫", "📱"], "answer_reading": "calendar | then / leads to | open book | night with stars | bed | clause boundary | not | mobile phone", "needs_context": false}
+{"id": "d9f2db220de2736a", "state": ["❓", "💧", "⬇️", "🌍"], "answer": ["🌧️", "➡️", "💧", "⬇️", "🌍"], "answer_reading": "cloud with rain | then / leads to | droplet | down arrow | globe showing Europe-Africa", "needs_context": false}
+{"id": "6a02df73f026279e", "state": ["❓", "🎵", "🌬️"], "answer": ["🎷", "🌬️", "🎵"], "answer_reading": "saxophone | wind face | musical note", "needs_context": false}
+{"id": "cf9657134853fb80", "state": ["❓", "📺", "🍳", "❤️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "ec08d18e71378121", "state": ["❓", "🇯🇵"], "answer": ["🇯🇵", "🙇", "🔹", "🚫", "👟", "🏠"], "answer_reading": "flag: Japan | person bowing | clause boundary | not | running shoe | house", "needs_context": false}
+{"id": "d35d6cedf8c50dba", "state": ["❓", "🛒", "📝"], "answer": ["🥦", "🍎", "🥚", "🥛", "🍞"], "answer_reading": "broccoli | red apple | egg | glass of milk | bread", "needs_context": false}
+{"id": "af44cdd2ec195903", "state": ["❓", "🤵", "🛒"], "answer": ["🤵", "➡️", "📏", "🎨", "💰", "🔍"], "answer_reading": "person in tuxedo | then / leads to | straight ruler | artist palette | money bag | magnifying glass tilted left", "needs_context": false}
+{"id": "f240d147c35aa435", "state": ["❓", "🍽️", "🍳"], "answer": ["🍝", "🍅", "➡️", "🍳", "➡️", "🍽️"], "answer_reading": "spaghetti | tomato | then / leads to | cooking | then / leads to | fork and knife with plate", "needs_context": false}
+{"id": "8ce93260660bd763", "state": ["❓", "🏃", "🎯"], "answer": ["🎯", "➡️", "📅", "➡️", "🏃", "🤝"], "answer_reading": "bullseye | then / leads to | calendar | then / leads to | person running | handshake", "needs_context": false}
+{"id": "b5d3113900f1c938", "state": ["❓", "🎵", "🪕"], "answer": ["🪕", "🎵"], "answer_reading": "banjo | musical note", "needs_context": false}
+{"id": "cb268c69038bb3ec", "state": ["❓", "🎨", "🛒"], "answer": ["🎨", "🖌️", "🖼️", "💧"], "answer_reading": "artist palette | paintbrush | framed picture | droplet", "needs_context": false}
+{"id": "fd95e7274a103a30", "state": ["❓", "🎵", "🎪", "🏆"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "b4769445e9c5403e", "state": ["❓", "🏠", "🎉"], "answer": ["🏠", "➡️", "👥", "🎉", "🍽️", "🎵"], "answer_reading": "house | then / leads to | busts in silhouette | party popper | fork and knife with plate | musical note", "needs_context": false}
+{"id": "8881a091f5a6120a", "state": ["❓", "🔩"], "answer": ["🔩", "🔄", "➡️", "⬇️"], "answer_reading": "nut and bolt | counterclockwise arrows button | then / leads to | down arrow", "needs_context": false}
+{"id": "ee8283cbffed8956", "state": ["❓", "⚾", "🏏"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "cd1737f6ac55a85f", "state": ["❓", "🌊", "🗑️"], "answer": ["🌊", "🗑️", "➡️", "🐟", "⚠️"], "answer_reading": "water wave | wastebasket | then / leads to | fish | warning", "needs_context": false}
+{"id": "3e638c4f3a6ad6fe", "state": ["❓", "👗", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "7f437a9e37873a04", "state": ["❓", "🇪🇬", "🌍"], "answer": ["🇪🇬", "🌍"], "answer_reading": "flag: Egypt | globe showing Europe-Africa", "needs_context": false}
+{"id": "d4b38a491af1cbf3", "state": ["❓", "📺"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "e543ca1d0cd49b09", "state": ["❓", "🎵", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "6bfc41031e8a3143", "state": ["❓", "🎂", "⬆️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "c82ca3a1529bcca4", "state": ["❓", "✈️", "⚠️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "099c2df6dde305e8", "state": ["❓", "🎢", "📍"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "54d8a59d531255cc", "state": ["❓", "🏅", "⏳"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "307aa92ff934a257", "state": ["❓", "🧹", "🛒"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "93f3d90c7c50f8a8", "state": ["❓", "🐻‍❄️", "🌡️"], "answer": ["🌡️", "⬆️", "➡️", "🧊", "⬇️", "➡️", "🐻‍❄️", "⚠️"], "answer_reading": "thermometer | up arrow | then / leads to | ice | down arrow | then / leads to | polar bear | warning", "needs_context": false}
+{"id": "ebc52954f68611a8", "state": ["❓", "🌬️", "🌾"], "answer": ["🌬️", "➡️", "🌾", "⚠️"], "answer_reading": "wind face | then / leads to | sheaf of rice | warning", "needs_context": false}
+{"id": "73e5b3e007311f52", "state": ["❓", "👨‍👩‍👧", "🍳"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "ae956760f5ef4b97", "state": ["❓", "🎤", "🔊"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "310a6bf3be3544cb", "state": ["❓", "🛍️", "🏙️"], "answer": ["🛍️", "🍽️", "🚶"], "answer_reading": "shopping bags | fork and knife with plate | person walking", "needs_context": false}
+{"id": "cad35b4cefba82de", "state": ["❓", "🍳", "♨️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "d3736254cfd47db5", "state": ["❓", "📚", "🔁", "📅"], "answer": ["📚", "➡️", "🔁", "📅", "➡️", "🔁", "📅", "📅"], "answer_reading": "books | then / leads to | repeat button | calendar | then / leads to | repeat button | calendar | calendar", "needs_context": false}
+{"id": "d739723025cd333e", "state": ["❓", "🎨", "🎯"], "answer": ["🎨", "📚", "🌱", "🎸"], "answer_reading": "artist palette | books | seedling | guitar", "needs_context": false}
+{"id": "bcaf9899f718a20c", "state": ["❓", "😴"], "answer": ["📅", "➡️", "📖", "🌃", "🛏️", "🔹", "🚫", "📱"], "answer_reading": "calendar | then / leads to | open book | night with stars | bed | clause boundary | not | mobile phone", "needs_context": false}
+{"id": "701b995956a3ef09", "state": ["❓", "💻", "💰", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "88f7d992637fa743", "state": ["❓", "🌡️", "🥵", "🥤"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "2d5d7cab01bcde62", "state": ["❓", "🛋️", "🧵"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "73ede5288ba7db51", "state": ["❓", "😴", "🫁"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "9f32d21862be2a7b", "state": ["❓", "🍳", "🪨"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "686a727a7dbd93cf", "state": ["❓", "🍳", "🛠️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "eb208ddb0bcadc20", "state": ["❓", "🌧️", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "0ecf2f2353c1165b", "state": ["❓", "🧭", "🧲"], "answer": ["🧭", "🧲", "➡️", "🧭", "⬆️", "🌍"], "answer_reading": "compass | magnet | then / leads to | compass | up arrow | globe showing Europe-Africa", "needs_context": false}
+{"id": "bc13c9a4b8345288", "state": ["❓", "🍽️", "🏬"], "answer": ["🍔", "🍕", "🍣", "🍝"], "answer_reading": "hamburger | pizza | sushi | spaghetti", "needs_context": false}
+{"id": "06d429a033a75a92", "state": ["❓", "🍽️", "🏬"], "answer": ["🍔", "🍕", "🍣", "🍝"], "answer_reading": "hamburger | pizza | sushi | spaghetti", "needs_context": false}
+{"id": "74326ab246487510", "state": ["❓", "📚", "📝", "📅"], "answer": ["📝", "➡️", "📅", "➡️", "📚", "➡️", "✅"], "answer_reading": "memo | then / leads to | calendar | then / leads to | books | then / leads to | check mark button", "needs_context": false}
+{"id": "e195ac046db55c9a", "state": ["❓", "🖼️", "🏠"], "answer": ["🖼️", "📷", "🎨"], "answer_reading": "framed picture | camera | artist palette", "needs_context": false}
+{"id": "dabbf1379ac856cf", "state": ["❓", "🧬", "👶"], "answer": ["👨‍👩‍👧", "🧬", "➡️", "👶"], "answer_reading": "family: man, woman, girl | dna | then / leads to | baby", "needs_context": false}
+{"id": "98be9d0d07b02e36", "state": ["❓", "🏠", "📦"], "answer": ["📦", "➡️", "🗑️", "🔹", "📦", "➡️", "🗂️", "✅"], "answer_reading": "package | then / leads to | wastebasket | clause boundary | package | then / leads to | card index dividers | check mark button", "needs_context": false}
+{"id": "b4e4cea1bb2a85c3", "state": ["❓", "📅", "🌍"], "answer": ["🌱", "☀️", "🍂", "❄️"], "answer_reading": "seedling | sun | fallen leaf | snowflake", "needs_context": false}
+{"id": "1a9fee267c57039c", "state": ["❓", "🚌", "⚡"], "answer": ["🚌", "🛣️", "🚫", "🚗"], "answer_reading": "bus | motorway | not | automobile", "needs_context": false}
+{"id": "b6c4efdb565a0e55", "state": ["❓", "👨‍👩‍👧", "📖"], "answer": ["👶", "📷", "🎂", "🏖️", "➡️", "💬"], "answer_reading": "baby | camera | birthday cake | beach with umbrella | then / leads to | speech balloon", "needs_context": false}
+{"id": "695143637064cff4", "state": ["❓", "💰", "🆘"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "0aad23aef06acb46", "state": ["❓", "👨‍👩‍👧", "💬"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "54194482ca9eae72", "state": ["❓", "🏅", "🧠"], "answer": ["🏅", "🧠", "💭", "💪"], "answer_reading": "sports medal | brain | thought balloon | flexed biceps", "needs_context": false}
+{"id": "46e2d2a007408869", "state": ["❓", "🏅", "📅", "🏆"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "47d11adab5e5b9fc", "state": ["❓", "🤵", "✨"], "answer": ["🤵", "➡️", "🧼", "🔹", "🧥", "➡️", "🪝"], "answer_reading": "person in tuxedo | then / leads to | soap | clause boundary | coat | then / leads to | hook", "needs_context": false}
+{"id": "2174ac8353e6f9fd", "state": ["❓", "👵", "👴", "💬"], "answer": ["☎️", "✉️", "🏠", "🤝"], "answer_reading": "telephone | envelope | house | handshake", "needs_context": false}
+{"id": "c133e86ae86bd7f9", "state": ["❓", "🍽️", "⏱️"], "answer": ["🥪", "🥗", "🍳"], "answer_reading": "sandwich | green salad | cooking", "needs_context": false}
+{"id": "bf74507728eadc0e", "state": ["❓", "📏", "⚖️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "7bd4cfd84d20beb0", "state": ["❓", "🧑‍💼", "🚌"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "15cd4d9ba0fbb3f4", "state": ["❓", "🌿", "✂️"], "answer": ["🌿", "➡️", "✂️", "🧤"], "answer_reading": "herb | then / leads to | scissors | gloves", "needs_context": false}
+{"id": "71c038cd8fe37356", "state": ["❓", "🎵", "🎪", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "b8c3921aac712b1e", "state": ["❓", "🧑‍💼", "🥱", "😴"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "c19aeb3b2a1a5cf1", "state": ["❓", "🌬️", "🧥"], "answer": ["🧥", "🧣", "👖"], "answer_reading": "coat | scarf | jeans", "needs_context": false}
+{"id": "b81a068fe2793945", "state": ["❓", "🏫", "📚", "🛒"], "answer": ["📚", "🛒", "👥"], "answer_reading": "books | shopping cart | busts in silhouette", "needs_context": false}
+{"id": "ca826aec5b640f42", "state": ["❓", "🥱", "🩺"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "b0a4498811bc1b56", "state": ["❓", "📱", "🏃"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "1c110f97db86b736", "state": ["❓", "🧑‍💼", "💡"], "answer": ["📚", "🎨", "🧪", "💬", "➡️", "💡"], "answer_reading": "books | artist palette | test tube | speech balloon | then / leads to | light bulb", "needs_context": false}
+{"id": "2f7b4aede8fa8fe4", "state": ["❓", "💡", "📱"], "answer": ["📱", "➡️", "💡", "🔅", "🔆", "🔹", "📅", "💡"], "answer_reading": "mobile phone | then / leads to | light bulb | dim button | bright button | clause boundary | calendar | light bulb", "needs_context": false}
+{"id": "23184c37ff9d6099", "state": ["❓", "🥗", "📅"], "answer": ["📅", "➡️", "🥦", "🍎", "🥚", "📝", "➡️", "🛒"], "answer_reading": "calendar | then / leads to | broccoli | red apple | egg | memo | then / leads to | shopping cart", "needs_context": false}
+{"id": "e24d272a964433ff", "state": ["❓", "🏠", "🍳", "🎯"], "answer": ["📖", "🍳", "➡️", "🍽️", "📷"], "answer_reading": "open book | cooking | then / leads to | fork and knife with plate | camera", "needs_context": false}
+{"id": "24d1df32976a9f1f", "state": ["❓", "🧑‍💼", "💬"], "answer": ["👂", "💬", "📝", "🎯", "🤝"], "answer_reading": "ear | speech balloon | memo | bullseye | handshake", "needs_context": false}
+{"id": "80cfb5271b44aac9", "state": ["❓", "🌍", "☀️", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "deeb0a7bde46fac5", "state": ["❓", "🥩", "🍲"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "3c1442d95b2c43fa", "state": ["❓", "👶", "📱", "📚"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "a6e93e4f8b3cbb46", "state": ["❓", "👨‍👩‍👧", "😴", "📅"], "answer": ["📅", "➡️", "🛁", "📖", "🌃", "🛏️"], "answer_reading": "calendar | then / leads to | bathtub | open book | night with stars | bed", "needs_context": false}
+{"id": "fcf485108751c227", "state": ["❓", "🦵", "🏋️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "da01a17a47f70146", "state": ["❓", "📚", "👀"], "answer": ["🖼️", "🗺️", "📊", "📹"], "answer_reading": "framed picture | world map | bar chart | video camera", "needs_context": false}
+{"id": "857658df5df26b59", "state": ["❓", "👶", "🐾"], "answer": ["👶", "🐾", "➡️", "❤️", "🤝", "🚶"], "answer_reading": "baby | paw prints | then / leads to | red heart | handshake | person walking", "needs_context": false}
+{"id": "e83efe5ec1305d0e", "state": ["❓", "💻", "💰"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "21291b4268e22cc4", "state": ["❓", "💒", "👗"], "answer": ["👰", "🤵", "👗"], "answer_reading": "person with veil | person in tuxedo | dress", "needs_context": false}
+{"id": "a4dfaedd67145404", "state": ["❓", "🚗", "🧑‍💼"], "answer": ["🚆", "🚌", "🚲", "👥", "🚗"], "answer_reading": "train | bus | bicycle | busts in silhouette | automobile", "needs_context": false}
+{"id": "6af33d6444e8fc1c", "state": ["❓", "💻", "💰", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "408d95f978c6bcce", "state": ["❓", "🐜", "🍳"], "answer": ["🍳", "➡️", "🧹", "🧼", "🔹", "🍽️", "➡️", "🫙", "🔒"], "answer_reading": "cooking | then / leads to | broom | soap | clause boundary | fork and knife with plate | then / leads to | jar | locked", "needs_context": false}
+{"id": "f518530e409cbd82", "state": ["❓", "💎", "🪨"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "72b28b9810c2dd42", "state": ["❓", "🧪", "🛡️"], "answer": ["🥽", "🧤", "🥼", "🚫", "🍽️", "🔹", "🧑‍🏫", "👂"], "answer_reading": "goggles | gloves | lab coat | not | fork and knife with plate | clause boundary | teacher | ear", "needs_context": false}
+{"id": "e4643212e72b85db", "state": ["❓", "⚽", "🏃"], "answer": ["🏃", "🔁", "📅"], "answer_reading": "person running | repeat button | calendar", "needs_context": false}
+{"id": "f5c6358506b70b52", "state": ["❓", "🏋️", "🦵"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "cdf26f39fe02be5f", "state": ["❓", "🌍", "⚠️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "cd8299ce6d9d44a2", "state": ["❓", "🏠", "📦"], "answer": ["📦", "➡️", "🗑️", "🔹", "📦", "➡️", "🗂️", "✅"], "answer_reading": "package | then / leads to | wastebasket | clause boundary | package | then / leads to | card index dividers | check mark button", "needs_context": false}
+{"id": "ee5a6c4e8a18389d", "state": ["❓", "📱", "🏷️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "1d5e0268a5e96ae9", "state": ["❓", "🌋"], "answer": ["🌋", "➡️", "🔥", "💨", "🪨"], "answer_reading": "volcano | then / leads to | fire | dashing away | rock", "needs_context": false}
+{"id": "18979afa540911fe", "state": ["❓", "🧑‍🏫", "🔢", "👀"], "answer": ["🧮", "📊", "🔺", "🟦"], "answer_reading": "abacus | bar chart | red triangle pointed up | blue square", "needs_context": false}
+{"id": "7cd7009daf241777", "state": ["❓", "👨‍👩‍👧", "🎉"], "answer": ["👨‍👩‍👧", "🍽️", "📷", "🎂", "💬"], "answer_reading": "family: man, woman, girl | fork and knife with plate | camera | birthday cake | speech balloon", "needs_context": false}
+{"id": "99897405ce35f0c5", "state": ["❓", "🍽️"], "answer": ["🍎", "🍌", "🥕"], "answer_reading": "red apple | banana | carrot", "needs_context": false}
+{"id": "060bf775ae35abac", "state": ["❓", "🏙️", "🤝"], "answer": ["📚", "🚒", "🚑", "♻️"], "answer_reading": "books | fire engine | ambulance | recycling symbol", "needs_context": false}
+{"id": "631b75335f737215", "state": ["❓", "🐾", "🏃"], "answer": ["🐕", "➡️", "🚶", "🎾", "🔹", "🐈", "➡️", "🧶"], "answer_reading": "dog | then / leads to | person walking | tennis | clause boundary | cat | then / leads to | yarn", "needs_context": false}
+{"id": "733f8c181cbe24a2", "state": ["❓", "🌍", "⏱️"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "20412196a8c428cc", "state": ["❓", "🏠"], "answer": ["🛏️", "🛋️", "🍳", "🛁"], "answer_reading": "bed | couch and lamp | cooking | bathtub", "needs_context": false}
+{"id": "d66e2cb492b63b13", "state": ["❓", "🛒", "🥦", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "f8dabb89c0cdb0d8", "state": ["❓", "💒", "🎨"], "answer": ["💒", "🌸", "🔹", "💒", "🌳", "🔹", "💒", "🏖️"], "answer_reading": "wedding | cherry blossom | clause boundary | wedding | deciduous tree | clause boundary | wedding | beach with umbrella", "needs_context": false}
+{"id": "b843aa42aeb0da7b", "state": ["❓", "🌅", "🍽️"], "answer": ["🥚", "🍞", "🥣", "🍎"], "answer_reading": "egg | bread | bowl with spoon | red apple", "needs_context": false}
+{"id": "894f9e8fbb85bc4d", "state": ["❓", "🏅", "💰", "⏳"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "4eade701d632b76f", "state": ["❓", "🐕", "🏃"], "answer": ["🐕", "➡️", "🚶", "🎾", "🔁"], "answer_reading": "dog | then / leads to | person walking | tennis | repeat button", "needs_context": false}
+{"id": "e39607c870ba125a", "state": ["❓", "🚲"], "answer": ["🚴", "🛣️", "🔹", "🚵", "🏔️"], "answer_reading": "person biking | motorway | clause boundary | person mountain biking | snow-capped mountain", "needs_context": false}
+{"id": "be91e12c40772c58", "state": ["❓", "👨‍👩‍👧", "🐾"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "076c953a123d502d", "state": ["❓", "🧑‍💼", "📈"], "answer": ["🎯", "📋", "📚", "🤝", "🛌"], "answer_reading": "bullseye | clipboard | books | handshake | person in bed", "needs_context": false}
+{"id": "4c7a02d21bbfaa46", "state": ["❓", "🎨", "🌳"], "answer": ["🎨", "🖌️", "🌳", "☀️"], "answer_reading": "artist palette | paintbrush | deciduous tree | sun", "needs_context": false}
+{"id": "d8e3a35c52d82917", "state": ["❓", "👟", "📅"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "16c80f3c707e3427", "state": ["❓", "🏫", "🔄"], "answer": ["🏠", "➡️", "📹", "📚", "🔹", "🏫", "➡️", "🧪", "💬"], "answer_reading": "house | then / leads to | video camera | books | clause boundary | school | then / leads to | test tube | speech balloon", "needs_context": false}
+{"id": "d0f407c9932d45b3", "state": ["❓", "🧑‍💼", "📈"], "answer": ["🎯", "📋", "📚", "🤝", "🛌"], "answer_reading": "bullseye | clipboard | books | handshake | person in bed", "needs_context": false}
+{"id": "8b48f0ade9783b68", "state": ["❓", "📹", "💻", "🧑‍💼"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "08fbe19bc1ff066d", "state": ["❓", "🔺", "🟦", "🟠"], "answer": ["🛞", "🟠", "🔹", "🪟", "🟦"], "answer_reading": "wheel | orange circle | clause boundary | window | blue square", "needs_context": false}
+{"id": "08ae7ac092f4fac8", "state": ["❓", "🐛", "🌿"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "8e50ce0bd6632fc7", "state": ["❓", "🫀", "🩸"], "answer": ["🫀", "➡️", "🩸", "➡️", "🧍"], "answer_reading": "anatomical heart | then / leads to | drop of blood | then / leads to | person standing", "needs_context": false}
+{"id": "c73a8989776e9664", "state": ["❓", "🚕", "✈️", "📍"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "a36da6549dd7411e", "state": ["❓", "🏠"], "answer": ["🛏️", "🛋️", "🍳", "🛁"], "answer_reading": "bed | couch and lamp | cooking | bathtub", "needs_context": false}
+{"id": "99e6cdf00047c876", "state": ["❓", "🧘", "🎯"], "answer": ["🧘", "➡️", "🧑‍🏫", "👂", "🔁"], "answer_reading": "person in lotus position | then / leads to | teacher | ear | repeat button", "needs_context": false}
+{"id": "c934a19c3411fa72", "state": ["❓", "🛒", "💻"], "answer": ["💻", "🛒", "➡️", "🚚", "🏠"], "answer_reading": "laptop | shopping cart | then / leads to | delivery truck | house", "needs_context": false}
+{"id": "d54a808babe6823f", "state": ["❓", "⚡", "🌍"], "answer": ["☀️", "🌬️", "💧", "➡️", "⚡"], "answer_reading": "sun | wind face | droplet | then / leads to | high voltage", "needs_context": false}
+{"id": "2228cc6dd946d3df", "state": ["❓", "🎲", "🎯"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "129fa3cc05961392", "state": ["❓", "👨‍👩‍👧", "🌳"], "answer": ["🌳", "🚶", "🧺", "🍽️", "🚲"], "answer_reading": "deciduous tree | person walking | basket | fork and knife with plate | bicycle", "needs_context": false}
+{"id": "ecff562a7fb817f7", "state": ["❓", "🐕", "💉"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}
+{"id": "5cb7a1bd09463bd5", "state": ["❓", "🚰", "💧", "🔧"], "answer": ["🚰", "➡️", "🔧", "🧑‍🔧"], "answer_reading": "potable water | then / leads to | wrench | mechanic", "needs_context": false}
+{"id": "916f2240efd2eb94", "state": ["❓", "👨‍👩‍👧", "🐾", "❤️"], "answer": ["👨‍👩‍👧", "🐾", "➡️", "❤️", "🤝"], "answer_reading": "family: man, woman, girl | paw prints | then / leads to | red heart | handshake", "needs_context": false}
+{"id": "52d76a7d910e071f", "state": ["❓", "🧑‍💼", "🚏"], "answer": ["🚌", "🚆", "🚇", "🚊"], "answer_reading": "bus | train | metro | tram", "needs_context": false}
+{"id": "c3d301355b6d2b9f", "state": ["❓", "🥗", "🍳"], "answer": ["🥦", "🥕", "🍄", "➡️", "🍳", "➡️", "🍽️"], "answer_reading": "broccoli | carrot | mushroom | then / leads to | cooking | then / leads to | fork and knife with plate", "needs_context": false}
+{"id": "c53ad0d8c2854417", "state": ["❓", "🏠", "🏃", "📹"], "answer": ["❓"], "answer_reading": "unknown", "needs_context": false}

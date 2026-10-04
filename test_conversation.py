@@ -5,9 +5,10 @@ from unittest.mock import patch
 import torch
 
 from conversation_data import USER, ASSISTANT, SEPARATOR, IDS, SKILLS, splits
-from conversation_model import AtomicDecoder, SemanticAtomicDecoder, EmojiConversation, MEMORY_LIMIT, memory, visible
+from conversation_model import AtomicDecoder, SemanticAtomicDecoder, EmojiConversation, conversation_turns, MEMORY_LIMIT, memory, visible
 from conversation_composition import composition_splits
 from conversation_dialogue_fit import examples as dialogue_examples
+from conversation_reliability_data import dataset as reliability_dataset, entity_splits, TOPICS
 from emoji_catalog import ALPHABET
 from emoji_lm_model import END, START
 
@@ -62,6 +63,17 @@ class ConversationTests(unittest.TestCase):
             torch.testing.assert_close(source, state)
             torch.testing.assert_close(source_mask, mask)
 
+    def test_finished_rows_stop_requesting_backbone_features(self):
+        state, mask = memory([[], []], [[IDS['👋']], [IDS['🙏']]])
+        sizes = []
+        reader = SimpleNamespace(emoji_inputs=lambda source, source_mask:
+                                 sizes.append(len(source)) or torch.randn(len(source), source.shape[1], 32))
+        with patch.object(self.model, 'select', side_effect=[torch.tensor([END, IDS['👍']]), torch.tensor([END])]):
+            result = self.model.respond(reader, state, mask)
+        self.assertEqual(sizes, [2, 1])
+        self.assertEqual(visible(result[0]), [])
+        self.assertEqual(visible(result[1]), [IDS['👍']])
+
     def test_session_keeps_only_emoji_ids_and_passes_no_text_features_to_reply(self):
         seen = []
         encoder = SimpleNamespace(encode=lambda reader, texts: torch.tensor([[IDS['💖'], IDS['🍕'], END]]))
@@ -93,6 +105,20 @@ class ConversationTests(unittest.TestCase):
         self.assertEqual(sum(session.turn_lengths), len(session.history))
         self.assertEqual(session.history[0], USER)
         self.assertTrue(all(isinstance(token, int) for token in session.history))
+
+    def test_batched_sessions_keep_independent_emoji_memories(self):
+        encoder = SimpleNamespace(encode=lambda reader, texts: torch.tensor(
+            [[IDS['💖'], IDS['🍕'] if text == 'pizza' else IDS['🍣'], END] for text in texts]))
+        decoder = SimpleNamespace(respond=lambda reader, state, mask: torch.tensor(
+            [[IDS['👍'], state[index][mask[index]][-1].item(), END] for index in range(len(state))]))
+        sessions = [EmojiConversation(encoder, decoder, None) for _ in range(2)]
+        outputs = conversation_turns(sessions, ['pizza', 'sushi'])
+        self.assertEqual(outputs[0]['reply'], [IDS['👍'], IDS['🍕']])
+        self.assertEqual(outputs[1]['reply'], [IDS['👍'], IDS['🍣']])
+        self.assertNotIn(IDS['🍣'], sessions[0].history)
+        self.assertNotIn(IDS['🍕'], sessions[1].history)
+        with self.assertRaisesRegex(ValueError, 'only once'):
+            conversation_turns([sessions[0], sessions[0]], ['pizza', 'sushi'])
 
     def test_skills_have_separate_training_validation_and_test_phrases(self):
         for _, _, _, train, validation, test in SKILLS:
@@ -132,6 +158,50 @@ class ConversationTests(unittest.TestCase):
         self.assertGreater(max(len(row['history']) for row in rows), 48)
         for row in rows:
             self.assertLessEqual(len(row['history']) + 1 + len(row['state']), MEMORY_LIMIT)
+
+    def test_reliability_queries_contrast_attributes_for_identical_memory(self):
+        data, _ = reliability_dataset()
+        for split, rows in data.items():
+            grouped = {}
+            for row in rows:
+                if row['skill'] == 'attribute_operator':
+                    grouped.setdefault(tuple(row['history']), []).append(row)
+                self.assertLessEqual(len(row['history']) + 1 + len(row['state']), MEMORY_LIMIT)
+            for queries in grouped.values():
+                self.assertEqual(len(queries), 3)
+                self.assertEqual({row['state'][-1] for row in queries}, {IDS[symbol] for symbol in ('🎨', '📍', '🔢')})
+                self.assertEqual(len({tuple(row['reply']) for row in queries}), 3)
+
+    def test_reliability_entities_and_topic_phrases_are_held_out(self):
+        pools = entity_splits()
+        for a, b in (('train', 'validation'), ('train', 'test'), ('validation', 'test')):
+            self.assertFalse(set(pools[a]) & set(pools[b]))
+        for _, _, _, training, validation, test in TOPICS:
+            self.assertFalse(set(training) & set(validation))
+            self.assertFalse(set(training) & set(test))
+            self.assertFalse(set(validation) & set(test))
+
+    def test_reliability_corrections_override_assistant_claims(self):
+        _, episodes = reliability_dataset()
+        mismatches = 0
+        for episode in episodes['train']:
+            for row in episode:
+                if row['skill'] != 'updated_attribute_recall':
+                    continue
+                segments = []
+                current = []
+                for token in row['history']:
+                    if token == SEPARATOR:
+                        segments.append(current)
+                        current = []
+                    else:
+                        current.append(token)
+                user = next(segment[1:] for segment in reversed(segments) if segment[0] == USER)
+                assistant = next(segment[1:] for segment in reversed(segments) if segment[0] == ASSISTANT)
+                self.assertEqual(user[0], IDS['🔄'])
+                self.assertEqual(row['reply'][-1], user[-1])
+                mismatches += assistant[-1] != user[-1]
+        self.assertGreater(mismatches, 0)
 
 
 if __name__ == '__main__':

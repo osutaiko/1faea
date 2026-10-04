@@ -1,0 +1,694 @@
+{
+  "names": [
+    "red apple",
+    "green apple",
+    "pear",
+    "peach",
+    "cherries",
+    "strawberry",
+    "blueberries",
+    "kiwi fruit",
+    "tomato",
+    "olive",
+    "coconut",
+    "avocado",
+    "eggplant",
+    "potato",
+    "carrot",
+    "ear of corn",
+    "hot pepper",
+    "bell pepper",
+    "cucumber",
+    "leafy green",
+    "broccoli",
+    "garlic",
+    "onion",
+    "peanuts",
+    "beans",
+    "chestnut",
+    "ginger root",
+    "pea pod",
+    "brown mushroom",
+    "root vegetable",
+    "bread",
+    "croissant",
+    "baguette bread",
+    "flatbread",
+    "pretzel",
+    "bagel",
+    "pancakes",
+    "waffle",
+    "cheese wedge",
+    "meat on bone"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "red apple",
+        "associations": [
+          "fruit",
+          "snack",
+          "juicy",
+          "sweet",
+          "orchard"
+        ]
+      },
+      {
+        "id": "green apple",
+        "associations": [
+          "fruit",
+          "tart",
+          "crisp",
+          "snack",
+          "fresh"
+        ]
+      },
+      {
+        "id": "pear",
+        "associations": [
+          "fruit",
+          "soft",
+          "juicy",
+          "sweet",
+          "orchard"
+        ]
+      },
+      {
+        "id": "peach",
+        "associations": [
+          "fruit",
+          "fuzzy",
+          "sweet",
+          "juicy",
+          "stone fruit"
+        ]
+      },
+      {
+        "id": "cherries",
+        "associations": [
+          "fruit",
+          "small",
+          "red",
+          "sweet",
+          "cluster"
+        ]
+      },
+      {
+        "id": "strawberry",
+        "associations": [
+          "fruit",
+          "red",
+          "sweet",
+          "berry",
+          "dessert"
+        ]
+      },
+      {
+        "id": "blueberries",
+        "associations": [
+          "fruit",
+          "small",
+          "blue",
+          "berry",
+          "snack"
+        ]
+      },
+      {
+        "id": "kiwi fruit",
+        "associations": [
+          "fruit",
+          "green",
+          "tart",
+          "fuzzy skin",
+          "tropical"
+        ]
+      },
+      {
+        "id": "tomato",
+        "associations": [
+          "fruit",
+          "vegetable",
+          "salad",
+          "sauce",
+          "juicy"
+        ]
+      },
+      {
+        "id": "olive",
+        "associations": [
+          "fruit",
+          "savory",
+          "briny",
+          "oil",
+          "snack"
+        ]
+      },
+      {
+        "id": "coconut",
+        "associations": [
+          "fruit",
+          "tropical",
+          "shell",
+          "milk",
+          "palm"
+        ]
+      },
+      {
+        "id": "avocado",
+        "associations": [
+          "fruit",
+          "creamy",
+          "green",
+          "toast",
+          "healthy"
+        ]
+      },
+      {
+        "id": "eggplant",
+        "associations": [
+          "vegetable",
+          "purple",
+          "cook",
+          "grill",
+          "stew"
+        ]
+      },
+      {
+        "id": "potato",
+        "associations": [
+          "vegetable",
+          "starchy",
+          "baked",
+          "fry",
+          "comfort food"
+        ]
+      },
+      {
+        "id": "carrot",
+        "associations": [
+          "vegetable",
+          "orange",
+          "crunchy",
+          "sweet",
+          "root"
+        ]
+      },
+      {
+        "id": "ear of corn",
+        "associations": [
+          "vegetable",
+          "yellow",
+          "kernels",
+          "cob",
+          "summer"
+        ]
+      },
+      {
+        "id": "hot pepper",
+        "associations": [
+          "spicy",
+          "heat",
+          "chili",
+          "bold",
+          "seasoning"
+        ]
+      },
+      {
+        "id": "bell pepper",
+        "associations": [
+          "vegetable",
+          "crisp",
+          "colorful",
+          "salad",
+          "stuffed"
+        ]
+      },
+      {
+        "id": "cucumber",
+        "associations": [
+          "vegetable",
+          "cool",
+          "crisp",
+          "salad",
+          "fresh"
+        ]
+      },
+      {
+        "id": "leafy green",
+        "associations": [
+          "vegetable",
+          "greens",
+          "salad",
+          "healthy",
+          "fresh"
+        ]
+      },
+      {
+        "id": "broccoli",
+        "associations": [
+          "vegetable",
+          "green",
+          "floret",
+          "steam",
+          "healthy"
+        ]
+      },
+      {
+        "id": "garlic",
+        "associations": [
+          "flavor",
+          "clove",
+          "pungent",
+          "cooking",
+          "seasoning"
+        ]
+      },
+      {
+        "id": "onion",
+        "associations": [
+          "vegetable",
+          "layers",
+          "sharp",
+          "cooking",
+          "tearful"
+        ]
+      },
+      {
+        "id": "peanuts",
+        "associations": [
+          "nuts",
+          "snack",
+          "salty",
+          "crunchy",
+          "butter"
+        ]
+      },
+      {
+        "id": "beans",
+        "associations": [
+          "legume",
+          "protein",
+          "stew",
+          "side dish",
+          "seed"
+        ]
+      },
+      {
+        "id": "chestnut",
+        "associations": [
+          "nut",
+          "roasted",
+          "autumn",
+          "shell",
+          "snack"
+        ]
+      },
+      {
+        "id": "ginger root",
+        "associations": [
+          "spice",
+          "root",
+          "zesty",
+          "tea",
+          "cooking"
+        ]
+      },
+      {
+        "id": "pea pod",
+        "associations": [
+          "vegetable",
+          "green",
+          "pod",
+          "crisp",
+          "spring"
+        ]
+      },
+      {
+        "id": "brown mushroom",
+        "associations": [
+          "fungus",
+          "earthy",
+          "savory",
+          "slice",
+          "sauté"
+        ]
+      },
+      {
+        "id": "root vegetable",
+        "associations": [
+          "vegetable",
+          "buried",
+          "earthy",
+          "harvest",
+          "starchy"
+        ]
+      },
+      {
+        "id": "bread",
+        "associations": [
+          "food",
+          "slice",
+          "toast",
+          "sandwich",
+          "baked"
+        ]
+      },
+      {
+        "id": "croissant",
+        "associations": [
+          "pastry",
+          "buttery",
+          "flaky",
+          "breakfast",
+          "bakery"
+        ]
+      },
+      {
+        "id": "baguette bread",
+        "associations": [
+          "bread",
+          "long",
+          "crusty",
+          "French",
+          "bakery"
+        ]
+      },
+      {
+        "id": "flatbread",
+        "associations": [
+          "bread",
+          "thin",
+          "wrap",
+          "griddle",
+          "dough"
+        ]
+      },
+      {
+        "id": "pretzel",
+        "associations": [
+          "snack",
+          "twisted",
+          "salty",
+          "baked",
+          "crunchy"
+        ]
+      },
+      {
+        "id": "bagel",
+        "associations": [
+          "bread",
+          "ring",
+          "chewy",
+          "breakfast",
+          "cream cheese"
+        ]
+      },
+      {
+        "id": "pancakes",
+        "associations": [
+          "breakfast",
+          "stack",
+          "syrup",
+          "fluffy",
+          "brunch"
+        ]
+      },
+      {
+        "id": "waffle",
+        "associations": [
+          "breakfast",
+          "grid",
+          "syrup",
+          "crispy",
+          "brunch"
+        ]
+      },
+      {
+        "id": "cheese wedge",
+        "associations": [
+          "dairy",
+          "slice",
+          "sharp",
+          "creamy",
+          "snack"
+        ]
+      },
+      {
+        "id": "meat on bone",
+        "associations": [
+          "meat",
+          "bone",
+          "roasted",
+          "hearty",
+          "savory"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0cc5d07f67989fff016abfaecc56ac87d0878b8527f8159177",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1337,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 706,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2043
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "red apple",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to an apple."
+      },
+      {
+        "id": "green apple",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a green apple."
+      },
+      {
+        "id": "pear",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a pear."
+      },
+      {
+        "id": "peach",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a peach."
+      },
+      {
+        "id": "cherries",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to cherries."
+      },
+      {
+        "id": "strawberry",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a strawberry."
+      },
+      {
+        "id": "blueberries",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to blueberries."
+      },
+      {
+        "id": "kiwi fruit",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to kiwi fruit."
+      },
+      {
+        "id": "tomato",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to tomato."
+      },
+      {
+        "id": "olive",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to olive."
+      },
+      {
+        "id": "coconut",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to coconut."
+      },
+      {
+        "id": "avocado",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to avocado."
+      },
+      {
+        "id": "eggplant",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to eggplant."
+      },
+      {
+        "id": "potato",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to potato."
+      },
+      {
+        "id": "carrot",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to carrot."
+      },
+      {
+        "id": "ear of corn",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to ear of corn."
+      },
+      {
+        "id": "hot pepper",
+        "rejected": [
+          "bold",
+          "seasoning"
+        ],
+        "reason": "These are more indirect or category-like; the rest are directly related to a hot pepper."
+      },
+      {
+        "id": "bell pepper",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a bell pepper."
+      },
+      {
+        "id": "cucumber",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a cucumber."
+      },
+      {
+        "id": "leafy green",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to leafy greens."
+      },
+      {
+        "id": "broccoli",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to broccoli."
+      },
+      {
+        "id": "garlic",
+        "rejected": [
+          "flavor"
+        ],
+        "reason": "Too generic and not a direct association with the garlic object itself; the rest fit."
+      },
+      {
+        "id": "onion",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to an onion."
+      },
+      {
+        "id": "peanuts",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to peanuts."
+      },
+      {
+        "id": "beans",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to beans."
+      },
+      {
+        "id": "chestnut",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to chestnut."
+      },
+      {
+        "id": "ginger root",
+        "rejected": [
+          "spice"
+        ],
+        "reason": "This is a broad category rather than the named item; the rest are directly related."
+      },
+      {
+        "id": "pea pod",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a pea pod."
+      },
+      {
+        "id": "brown mushroom",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a brown mushroom."
+      },
+      {
+        "id": "root vegetable",
+        "rejected": [
+          "buried"
+        ],
+        "reason": "Somewhat interpretive, but still acceptable as a common descriptive association; no rejection needed for the rest."
+      },
+      {
+        "id": "bread",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to bread."
+      },
+      {
+        "id": "croissant",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a croissant."
+      },
+      {
+        "id": "baguette bread",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to baguette bread."
+      },
+      {
+        "id": "flatbread",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to flatbread."
+      },
+      {
+        "id": "pretzel",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to pretzel."
+      },
+      {
+        "id": "bagel",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a bagel."
+      },
+      {
+        "id": "pancakes",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to pancakes."
+      },
+      {
+        "id": "waffle",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a waffle."
+      },
+      {
+        "id": "cheese wedge",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a cheese wedge."
+      },
+      {
+        "id": "meat on bone",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to meat on bone."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_08a59d250f3e4a26016abfaed1bbc087d09312fcb338001398",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2524,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 862,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3386
+    }
+  }
+}

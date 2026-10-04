@@ -1,0 +1,685 @@
+{
+  "names": [
+    "five o’clock",
+    "five-thirty",
+    "six o’clock",
+    "six-thirty",
+    "seven o’clock",
+    "seven-thirty",
+    "eight o’clock",
+    "eight-thirty",
+    "nine o’clock",
+    "nine-thirty",
+    "ten o’clock",
+    "ten-thirty",
+    "eleven o’clock",
+    "eleven-thirty",
+    "new moon",
+    "waxing crescent moon",
+    "first quarter moon",
+    "waxing gibbous moon",
+    "full moon",
+    "waning gibbous moon",
+    "last quarter moon",
+    "waning crescent moon",
+    "crescent moon",
+    "new moon face",
+    "first quarter moon face",
+    "last quarter moon face",
+    "thermometer",
+    "sun",
+    "full moon face",
+    "sun with face",
+    "ringed planet",
+    "star",
+    "glowing star",
+    "shooting star",
+    "milky way",
+    "cloud",
+    "sun behind cloud",
+    "cloud with lightning and rain",
+    "sun behind small cloud",
+    "sun behind large cloud"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "five o’clock",
+        "associations": [
+          "time",
+          "clock face",
+          "appointment",
+          "schedule",
+          "hour"
+        ]
+      },
+      {
+        "id": "five-thirty",
+        "associations": [
+          "time",
+          "half past five",
+          "clock face",
+          "schedule",
+          "evening"
+        ]
+      },
+      {
+        "id": "six o’clock",
+        "associations": [
+          "time",
+          "clock face",
+          "appointment",
+          "schedule",
+          "hour"
+        ]
+      },
+      {
+        "id": "six-thirty",
+        "associations": [
+          "time",
+          "half past six",
+          "clock face",
+          "schedule",
+          "evening"
+        ]
+      },
+      {
+        "id": "seven o’clock",
+        "associations": [
+          "time",
+          "clock face",
+          "appointment",
+          "schedule",
+          "hour"
+        ]
+      },
+      {
+        "id": "seven-thirty",
+        "associations": [
+          "time",
+          "half past seven",
+          "clock face",
+          "schedule",
+          "evening"
+        ]
+      },
+      {
+        "id": "eight o’clock",
+        "associations": [
+          "time",
+          "clock face",
+          "appointment",
+          "schedule",
+          "hour"
+        ]
+      },
+      {
+        "id": "eight-thirty",
+        "associations": [
+          "time",
+          "half past eight",
+          "clock face",
+          "schedule",
+          "evening"
+        ]
+      },
+      {
+        "id": "nine o’clock",
+        "associations": [
+          "time",
+          "clock face",
+          "appointment",
+          "schedule",
+          "hour"
+        ]
+      },
+      {
+        "id": "nine-thirty",
+        "associations": [
+          "time",
+          "half past nine",
+          "clock face",
+          "schedule",
+          "evening"
+        ]
+      },
+      {
+        "id": "ten o’clock",
+        "associations": [
+          "time",
+          "clock face",
+          "appointment",
+          "schedule",
+          "hour"
+        ]
+      },
+      {
+        "id": "ten-thirty",
+        "associations": [
+          "time",
+          "half past ten",
+          "clock face",
+          "schedule",
+          "evening"
+        ]
+      },
+      {
+        "id": "eleven o’clock",
+        "associations": [
+          "time",
+          "clock face",
+          "appointment",
+          "schedule",
+          "hour"
+        ]
+      },
+      {
+        "id": "eleven-thirty",
+        "associations": [
+          "time",
+          "half past eleven",
+          "clock face",
+          "schedule",
+          "late morning"
+        ]
+      },
+      {
+        "id": "new moon",
+        "associations": [
+          "moon",
+          "dark sky",
+          "lunar phase",
+          "night",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "waxing crescent moon",
+        "associations": [
+          "moon",
+          "lunar phase",
+          "growing light",
+          "night sky",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "first quarter moon",
+        "associations": [
+          "moon",
+          "lunar phase",
+          "half lit",
+          "night sky",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "waxing gibbous moon",
+        "associations": [
+          "moon",
+          "lunar phase",
+          "nearly full",
+          "night sky",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "full moon",
+        "associations": [
+          "moon",
+          "bright night",
+          "lunar phase",
+          "round shape",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "waning gibbous moon",
+        "associations": [
+          "moon",
+          "lunar phase",
+          "shrinking light",
+          "night sky",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "last quarter moon",
+        "associations": [
+          "moon",
+          "lunar phase",
+          "half lit",
+          "night sky",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "waning crescent moon",
+        "associations": [
+          "moon",
+          "lunar phase",
+          "thin crescent",
+          "night sky",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "crescent moon",
+        "associations": [
+          "moon",
+          "lunar phase",
+          "sliver",
+          "night sky",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "new moon face",
+        "associations": [
+          "moon",
+          "face",
+          "night",
+          "symbol",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "first quarter moon face",
+        "associations": [
+          "moon",
+          "face",
+          "half lit",
+          "symbol",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "last quarter moon face",
+        "associations": [
+          "moon",
+          "face",
+          "half lit",
+          "symbol",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "thermometer",
+        "associations": [
+          "temperature",
+          "weather",
+          "measurement",
+          "heat",
+          "cold"
+        ]
+      },
+      {
+        "id": "sun",
+        "associations": [
+          "daylight",
+          "heat",
+          "sky",
+          "brightness",
+          "summer"
+        ]
+      },
+      {
+        "id": "full moon face",
+        "associations": [
+          "moon",
+          "face",
+          "night",
+          "symbol",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "sun with face",
+        "associations": [
+          "sun",
+          "face",
+          "daylight",
+          "warmth",
+          "symbol"
+        ]
+      },
+      {
+        "id": "ringed planet",
+        "associations": [
+          "planet",
+          "rings",
+          "space",
+          "astronomy",
+          "world"
+        ]
+      },
+      {
+        "id": "star",
+        "associations": [
+          "space",
+          "night sky",
+          "light",
+          "astronomy",
+          "sparkle"
+        ]
+      },
+      {
+        "id": "glowing star",
+        "associations": [
+          "star",
+          "shine",
+          "brightness",
+          "twinkle",
+          "space"
+        ]
+      },
+      {
+        "id": "shooting star",
+        "associations": [
+          "meteor",
+          "streak",
+          "night sky",
+          "wish",
+          "space"
+        ]
+      },
+      {
+        "id": "milky way",
+        "associations": [
+          "galaxy",
+          "stars",
+          "space",
+          "night sky",
+          "astronomy"
+        ]
+      },
+      {
+        "id": "cloud",
+        "associations": [
+          "sky",
+          "weather",
+          "vapor",
+          "gray",
+          "overcast"
+        ]
+      },
+      {
+        "id": "sun behind cloud",
+        "associations": [
+          "sun",
+          "cloud",
+          "partly cloudy",
+          "weather",
+          "sky"
+        ]
+      },
+      {
+        "id": "cloud with lightning and rain",
+        "associations": [
+          "storm",
+          "rain",
+          "lightning",
+          "weather",
+          "thundercloud"
+        ]
+      },
+      {
+        "id": "sun behind small cloud",
+        "associations": [
+          "sun",
+          "cloud",
+          "partly cloudy",
+          "weather",
+          "sky"
+        ]
+      },
+      {
+        "id": "sun behind large cloud",
+        "associations": [
+          "sun",
+          "cloud",
+          "mostly cloudy",
+          "weather",
+          "sky"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0ad2b954829e113b016abfaef9547487d081c8dd08149c200c",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1481,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 731,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2212
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "five o’clock",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "five-thirty",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "six o’clock",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "six-thirty",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "seven o’clock",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "seven-thirty",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "eight o’clock",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "eight-thirty",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "nine o’clock",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "nine-thirty",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "ten o’clock",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "ten-thirty",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "eleven o’clock",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "eleven-thirty",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the clock-face meaning."
+      },
+      {
+        "id": "new moon",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the lunar phase meaning."
+      },
+      {
+        "id": "waxing crescent moon",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the lunar phase meaning."
+      },
+      {
+        "id": "first quarter moon",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the lunar phase meaning."
+      },
+      {
+        "id": "waxing gibbous moon",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the lunar phase meaning."
+      },
+      {
+        "id": "full moon",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the lunar phase meaning."
+      },
+      {
+        "id": "waning gibbous moon",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the lunar phase meaning."
+      },
+      {
+        "id": "last quarter moon",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the lunar phase meaning."
+      },
+      {
+        "id": "waning crescent moon",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the lunar phase meaning."
+      },
+      {
+        "id": "crescent moon",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the lunar phase meaning."
+      },
+      {
+        "id": "new moon face",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the face-decorated moon meaning."
+      },
+      {
+        "id": "first quarter moon face",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the face-decorated moon meaning."
+      },
+      {
+        "id": "last quarter moon face",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the face-decorated moon meaning."
+      },
+      {
+        "id": "thermometer",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the thermometer meaning."
+      },
+      {
+        "id": "sun",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the sun meaning."
+      },
+      {
+        "id": "full moon face",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the face-decorated moon meaning."
+      },
+      {
+        "id": "sun with face",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the sun-with-face meaning."
+      },
+      {
+        "id": "ringed planet",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the ringed planet meaning."
+      },
+      {
+        "id": "star",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the star meaning."
+      },
+      {
+        "id": "glowing star",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the glowing star meaning."
+      },
+      {
+        "id": "shooting star",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the shooting star meaning."
+      },
+      {
+        "id": "milky way",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the Milky Way meaning."
+      },
+      {
+        "id": "cloud",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the cloud meaning."
+      },
+      {
+        "id": "sun behind cloud",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the partly cloudy meaning."
+      },
+      {
+        "id": "cloud with lightning and rain",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the storm cloud meaning."
+      },
+      {
+        "id": "sun behind small cloud",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the partly cloudy meaning."
+      },
+      {
+        "id": "sun behind large cloud",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the mostly cloudy meaning."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_004b14dcfbbd4916016abfaefded2487d0810d0fec04a1bda1",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2611,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 990,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3601
+    }
+  }
+}

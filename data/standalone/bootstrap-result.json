@@ -1,0 +1,62 @@
+{
+  "promoted": false,
+  "independent_verification": false,
+  "trained_steps": 2000,
+  "selected_step": 200,
+  "validation": {
+    "all": {
+      "count": 16,
+      "state": 0.0,
+      "reply": 0.4375,
+      "trace": 0.0,
+      "oracle": 0.375,
+      "terminated": 1.0
+    },
+    "answerable": {
+      "count": 7,
+      "state": 0.0,
+      "reply": 0.0,
+      "trace": 0.0,
+      "oracle": 0.0,
+      "terminated": 1.0
+    },
+    "abstention": {
+      "count": 9,
+      "state": 0.0,
+      "reply": 0.7777777777777778,
+      "trace": 0.0,
+      "oracle": 0.6666666666666666,
+      "terminated": 1.0
+    }
+  },
+  "test": {
+    "all": {
+      "count": 18,
+      "state": 0.1111111111111111,
+      "reply": 0.2222222222222222,
+      "trace": 0.0,
+      "oracle": 0.2777777777777778,
+      "terminated": 1.0
+    },
+    "answerable": {
+      "count": 10,
+      "state": 0.1,
+      "reply": 0.0,
+      "trace": 0.0,
+      "oracle": 0.0,
+      "terminated": 1.0
+    },
+    "abstention": {
+      "count": 8,
+      "state": 0.125,
+      "reply": 0.5,
+      "trace": 0.0,
+      "oracle": 0.625,
+      "terminated": 1.0
+    }
+  },
+  "always_unknown_test": 0.4444444444444444,
+  "interpretation": "Tiny provisional exact-match benchmark; not a measure of general language accuracy.",
+  "external_gpt_api_status": 401,
+  "implementation_tests": 66
+}

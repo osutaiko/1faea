@@ -1,0 +1,875 @@
+{
+  "names": [
+    "exploding head",
+    "cowboy hat face",
+    "partying face",
+    "disguised face",
+    "smiling face with sunglasses",
+    "nerd face",
+    "face with monocle",
+    "confused face",
+    "face with diagonal mouth",
+    "worried face",
+    "slightly frowning face",
+    "frowning face",
+    "face with open mouth",
+    "hushed face",
+    "astonished face",
+    "flushed face",
+    "distorted face",
+    "pleading face",
+    "face holding back tears",
+    "frowning face with open mouth",
+    "anguished face",
+    "fearful face",
+    "anxious face with sweat",
+    "sad but relieved face",
+    "crying face",
+    "loudly crying face",
+    "face screaming in fear",
+    "confounded face",
+    "persevering face",
+    "disappointed face",
+    "downcast face with sweat",
+    "weary face",
+    "tired face",
+    "yawning face",
+    "face with steam from nose",
+    "enraged face",
+    "angry face",
+    "face with symbols on mouth",
+    "smiling face with horns",
+    "angry face with horns"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "exploding head",
+        "associations": [
+          "shock",
+          "surprise",
+          "overwhelm",
+          "mind blown",
+          "astonishment"
+        ]
+      },
+      {
+        "id": "cowboy hat face",
+        "associations": [
+          "cowboy",
+          "hat",
+          "western",
+          "ranch",
+          "country style"
+        ]
+      },
+      {
+        "id": "partying face",
+        "associations": [
+          "celebration",
+          "party",
+          "confetti",
+          "joy",
+          "festive"
+        ]
+      },
+      {
+        "id": "disguised face",
+        "associations": [
+          "disguise",
+          "mask",
+          "secret",
+          "hidden identity",
+          "pretend"
+        ]
+      },
+      {
+        "id": "smiling face with sunglasses",
+        "associations": [
+          "cool",
+          "sunny",
+          "chill",
+          "confident",
+          "casual"
+        ]
+      },
+      {
+        "id": "nerd face",
+        "associations": [
+          "geeky",
+          "glasses",
+          "smart",
+          "studious",
+          "bookish"
+        ]
+      },
+      {
+        "id": "face with monocle",
+        "associations": [
+          "monocle",
+          "curious",
+          "scrutiny",
+          "inspection",
+          "posh"
+        ]
+      },
+      {
+        "id": "confused face",
+        "associations": [
+          "confusion",
+          "uncertain",
+          "puzzled",
+          "unsure",
+          "mixed up"
+        ]
+      },
+      {
+        "id": "face with diagonal mouth",
+        "associations": [
+          "uneasy",
+          "meh",
+          "awkward",
+          "skeptical",
+          "wry"
+        ]
+      },
+      {
+        "id": "worried face",
+        "associations": [
+          "worry",
+          "anxiety",
+          "concern",
+          "stress",
+          "unease"
+        ]
+      },
+      {
+        "id": "slightly frowning face",
+        "associations": [
+          "mild sadness",
+          "displeased",
+          "downcast",
+          "concerned",
+          "small frown"
+        ]
+      },
+      {
+        "id": "frowning face",
+        "associations": [
+          "sadness",
+          "displeasure",
+          "gloom",
+          "downward mood",
+          "frown"
+        ]
+      },
+      {
+        "id": "face with open mouth",
+        "associations": [
+          "surprise",
+          "speechless",
+          "gasp",
+          "astonishment",
+          "open mouth"
+        ]
+      },
+      {
+        "id": "hushed face",
+        "associations": [
+          "quiet",
+          "silence",
+          "shock",
+          "privacy",
+          "subtle surprise"
+        ]
+      },
+      {
+        "id": "astonished face",
+        "associations": [
+          "amazement",
+          "surprise",
+          "shock",
+          "wow",
+          "stunned"
+        ]
+      },
+      {
+        "id": "flushed face",
+        "associations": [
+          "blush",
+          "embarrassment",
+          "shyness",
+          "heat",
+          "self-conscious"
+        ]
+      },
+      {
+        "id": "distorted face",
+        "associations": [
+          "warped",
+          "twisted",
+          "confused",
+          "odd",
+          "strained"
+        ]
+      },
+      {
+        "id": "pleading face",
+        "associations": [
+          "begging",
+          "hopeful",
+          "plea",
+          "desperate",
+          "soft eyes"
+        ]
+      },
+      {
+        "id": "face holding back tears",
+        "associations": [
+          "emotion",
+          "tears",
+          "struggling",
+          "sadness",
+          "composure"
+        ]
+      },
+      {
+        "id": "frowning face with open mouth",
+        "associations": [
+          "shock",
+          "disbelief",
+          "alarm",
+          "gasp",
+          "distress"
+        ]
+      },
+      {
+        "id": "anguished face",
+        "associations": [
+          "pain",
+          "distress",
+          "agony",
+          "frustration",
+          "anguish"
+        ]
+      },
+      {
+        "id": "fearful face",
+        "associations": [
+          "fear",
+          "terror",
+          "scared",
+          "anxiety",
+          "panic"
+        ]
+      },
+      {
+        "id": "anxious face with sweat",
+        "associations": [
+          "anxiety",
+          "nervous",
+          "stress",
+          "sweat",
+          "worry"
+        ]
+      },
+      {
+        "id": "sad but relieved face",
+        "associations": [
+          "relief",
+          "sadness",
+          "mixed feelings",
+          "comfort",
+          "let down"
+        ]
+      },
+      {
+        "id": "crying face",
+        "associations": [
+          "tears",
+          "sadness",
+          "crying",
+          "hurt",
+          "grief"
+        ]
+      },
+      {
+        "id": "loudly crying face",
+        "associations": [
+          "sob",
+          "tears",
+          "deep sadness",
+          "wailing",
+          "grief"
+        ]
+      },
+      {
+        "id": "face screaming in fear",
+        "associations": [
+          "scream",
+          "fear",
+          "panic",
+          "horror",
+          "shock"
+        ]
+      },
+      {
+        "id": "confounded face",
+        "associations": [
+          "frustration",
+          "confusion",
+          "trouble",
+          "discouraged",
+          "mixed up"
+        ]
+      },
+      {
+        "id": "persevering face",
+        "associations": [
+          "determination",
+          "endurance",
+          "struggle",
+          "persistence",
+          "keep going"
+        ]
+      },
+      {
+        "id": "disappointed face",
+        "associations": [
+          "disappointment",
+          "letdown",
+          "sadness",
+          "dismay",
+          "regret"
+        ]
+      },
+      {
+        "id": "downcast face with sweat",
+        "associations": [
+          "stress",
+          "fatigue",
+          "worry",
+          "awkward",
+          "downhearted"
+        ]
+      },
+      {
+        "id": "weary face",
+        "associations": [
+          "exhaustion",
+          "tired",
+          "drained",
+          "stress",
+          "weariness"
+        ]
+      },
+      {
+        "id": "tired face",
+        "associations": [
+          "fatigue",
+          "sleepy",
+          "drained",
+          "exhausted",
+          "rest"
+        ]
+      },
+      {
+        "id": "yawning face",
+        "associations": [
+          "yawn",
+          "sleepiness",
+          "boredom",
+          "fatigue",
+          "drowsy"
+        ]
+      },
+      {
+        "id": "face with steam from nose",
+        "associations": [
+          "frustration",
+          "anger",
+          "huffing",
+          "pride",
+          "determination"
+        ]
+      },
+      {
+        "id": "enraged face",
+        "associations": [
+          "rage",
+          "fury",
+          "anger",
+          "outrage",
+          "mad"
+        ]
+      },
+      {
+        "id": "angry face",
+        "associations": [
+          "anger",
+          "irritation",
+          "mad",
+          "annoyed",
+          "furious"
+        ]
+      },
+      {
+        "id": "face with symbols on mouth",
+        "associations": [
+          "cursing",
+          "swearing",
+          "anger",
+          "censored",
+          "frustration"
+        ]
+      },
+      {
+        "id": "smiling face with horns",
+        "associations": [
+          "mischief",
+          "impish",
+          "playful",
+          "devilish",
+          "tricky"
+        ]
+      },
+      {
+        "id": "angry face with horns",
+        "associations": [
+          "evil",
+          "rage",
+          "devilish",
+          "menacing",
+          "angry"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_07c0bd14ca665bca016abfad48f0e087d0bee0f8bf2ebd6b39",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 935,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1032,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1967
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "exploding head",
+        "rejected": [
+          "mind blown"
+        ],
+        "reason": "Too figurative/slangy; the core meaning is shock or amazement, not a literal or standard association."
+      },
+      {
+        "id": "cowboy hat face",
+        "rejected": [
+          "ranch",
+          "country style"
+        ],
+        "reason": "These are broader lifestyle/style associations and are less direct than the literal cowboy/western meaning."
+      },
+      {
+        "id": "partying face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "disguised face",
+        "rejected": [
+          "secret",
+          "hidden identity",
+          "pretend"
+        ],
+        "reason": "These are inferred effects rather than direct associations; the emoji core meaning is disguise/masking."
+      },
+      {
+        "id": "smiling face with sunglasses",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "nerd face",
+        "rejected": [
+          "geeky"
+        ],
+        "reason": "Stereotype/slang; acceptable core association is the nerdy/studious look rather than a broad label."
+      },
+      {
+        "id": "face with monocle",
+        "rejected": [
+          "posh"
+        ],
+        "reason": "Unsupported social-class implication; the monocle does not inherently mean posh."
+      },
+      {
+        "id": "confused face",
+        "rejected": [
+          "mixed up"
+        ],
+        "reason": "Too colloquial/figurative compared with the direct meaning of confusion or uncertainty."
+      },
+      {
+        "id": "face with diagonal mouth",
+        "rejected": [
+          "wry"
+        ],
+        "reason": "This is a stylistic interpretation rather than a clear core association."
+      },
+      {
+        "id": "worried face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "slightly frowning face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "frowning face",
+        "rejected": [
+          "gloom",
+          "downward mood"
+        ],
+        "reason": "These are broader mood descriptions rather than direct emoji associations."
+      },
+      {
+        "id": "face with open mouth",
+        "rejected": [
+          "speechless",
+          "open mouth"
+        ],
+        "reason": "These duplicate or rephrase the literal visual feature rather than adding a distinct association."
+      },
+      {
+        "id": "hushed face",
+        "rejected": [
+          "privacy"
+        ],
+        "reason": "Unsupported; hush implies quiet or silence, not privacy."
+      },
+      {
+        "id": "astonished face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "flushed face",
+        "rejected": [
+          "heat"
+        ],
+        "reason": "Ambiguous physical cause; the emoji primarily indicates blushing/embarrassment."
+      },
+      {
+        "id": "distorted face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "pleading face",
+        "rejected": [
+          "soft eyes"
+        ],
+        "reason": "Vague visual description rather than a standard association."
+      },
+      {
+        "id": "face holding back tears",
+        "rejected": [
+          "emotion"
+        ],
+        "reason": "Too broad to be a meaningful association; it does not specifically match the emoji meaning."
+      },
+      {
+        "id": "frowning face with open mouth",
+        "rejected": [
+          "shock",
+          "disbelief",
+          "gasp"
+        ],
+        "reason": "These tilt toward a separate shock/gasp interpretation and are less direct than the emoji’s distressed frown."
+      },
+      {
+        "id": "anguished face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "fearful face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "anxious face with sweat",
+        "rejected": [
+          "sweat"
+        ],
+        "reason": "This repeats a visual detail rather than an association."
+      },
+      {
+        "id": "sad but relieved face",
+        "rejected": [
+          "let down"
+        ],
+        "reason": "This implies disappointment, which can mislead away from the mixed relief/sadness meaning."
+      },
+      {
+        "id": "crying face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "loudly crying face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "face screaming in fear",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "confounded face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "persevering face",
+        "rejected": [
+          "keep going"
+        ],
+        "reason": "This is an encouragement phrase rather than a direct association."
+      },
+      {
+        "id": "disappointed face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "downcast face with sweat",
+        "rejected": [
+          "awkward"
+        ],
+        "reason": "This is not a core meaning; the emoji is more about stress or discomfort."
+      },
+      {
+        "id": "weary face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "tired face",
+        "rejected": [
+          "rest"
+        ],
+        "reason": "This is a response/action, not an association describing the emoji’s meaning."
+      },
+      {
+        "id": "yawning face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "face with steam from nose",
+        "rejected": [
+          "pride",
+          "determination"
+        ],
+        "reason": "These are not core meanings; the emoji primarily conveys triumph, frustration, or anger."
+      },
+      {
+        "id": "enraged face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "angry face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "face with symbols on mouth",
+        "rejected": [
+          "cursing",
+          "swearing"
+        ],
+        "reason": "Unsupported as a direct meaning; the symbols indicate swearing/cursing is obscured, not that it is the core meaning."
+      },
+      {
+        "id": "smiling face with horns",
+        "rejected": [
+          "mischief",
+          "impish",
+          "playful",
+          "tricky"
+        ],
+        "reason": "These are interpretations, but the core meaning is a mischievous or devilish smile; 'playful' and similar can mislead into harmlessness."
+      },
+      {
+        "id": "angry face with horns",
+        "rejected": [
+          "evil"
+        ],
+        "reason": "Too strong and moralized; the emoji indicates anger/devilishness, not literal evil."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_08f82d4576174598016abfadd84e5487d090cfb543a6e26bca",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1675,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1076,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2751
+    }
+  },
+  "invalid_audits": [
+    {
+      "audit": {
+        "rows": [
+          {
+            "id": "smiling face with sunglasses",
+            "rejected": [
+              "sunny"
+            ],
+            "reason": "This emoji’s core meaning is coolness or confidence; 'sunny' is an unrelated weather condition, not a direct association."
+          },
+          {
+            "id": "nerd face",
+            "rejected": [
+              "geeky",
+              "smart",
+              "studious",
+              "bookish"
+            ],
+            "reason": "These are stereotype-based or interpretive traits rather than the emoji’s literal core meaning."
+          },
+          {
+            "id": "face with monocle",
+            "rejected": [
+              "posh"
+            ],
+            "reason": "'Posh' is a social-class stereotype and not a direct core association of the emoji."
+          },
+          {
+            "id": "face with diagonal mouth",
+            "rejected": [
+              "skeptical",
+              "wry"
+            ],
+            "reason": "These are interpretive attitudes not explicitly tied to the emoji’s core meaning."
+          },
+          {
+            "id": "hushed face",
+            "rejected": [
+              "privacy",
+              "subtle surprise"
+            ],
+            "reason": "'Privacy' is unrelated, and 'subtle surprise' is a misleading reinterpretation beyond the emoji’s core meaning of hush/silence."
+          },
+          {
+            "id": "distorted face",
+            "rejected": [
+              "confused"
+            ],
+            "reason": "'Confused' is not a standard direct meaning of this emoji and is a misleading substitution."
+          },
+          {
+            "id": "pleading face",
+            "rejected": [
+              "soft eyes"
+            ],
+            "reason": "This is a visual description rather than a meaningful association with the emoji’s core concept."
+          },
+          {
+            "id": "face holding back tears",
+            "rejected": [
+              "emotion",
+              "composure"
+            ],
+            "reason": "These are too vague or abstract and do not directly represent the emoji’s core meaning."
+          },
+          {
+            "id": "sad but relieved face",
+            "rejected": [
+              "let down"
+            ],
+            "reason": "'Let down' conflicts with the emoji’s relief component and is misleading as a core association."
+          },
+          {
+            "id": "downcast face with sweat",
+            "rejected": [
+              "awkward"
+            ],
+            "reason": "'Awkward' is not a direct core association and is a misleading substitution."
+          },
+          {
+            "id": "tired face",
+            "rejected": [
+              "sleepy",
+              "rest"
+            ],
+            "reason": "'Sleepy' and 'rest' are not the core meaning; the emoji primarily conveys tiredness/exhaustion."
+          },
+          {
+            "id": "face with steam from nose",
+            "rejected": [
+              "pride"
+            ],
+            "reason": "'Pride' is an unsupported interpretation and not a core association of the emoji."
+          },
+          {
+            "id": "smiling face with horns",
+            "rejected": [
+              "mischief",
+              "impish",
+              "playful",
+              "tricky"
+            ],
+            "reason": "These soften or reinterpret the emoji beyond its core meaning of devilish mischief/impishness and are not all directly supported as literal associations."
+          },
+          {
+            "id": "angry face with horns",
+            "rejected": [
+              "evil"
+            ],
+            "reason": "'Evil' is a misleading moral judgment rather than the emoji’s core meaning of anger/devilishness."
+          }
+        ]
+      },
+      "reviewer": {
+        "id": "resp_0f25b539df04f56b016abfad4e0b5c87d0a9264710732b6acf",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 1479,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 565,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2044
+        }
+      }
+    }
+  ]
+}

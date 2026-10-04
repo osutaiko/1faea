@@ -1,0 +1,687 @@
+{
+  "names": [
+    "person cartwheeling",
+    "man cartwheeling",
+    "woman cartwheeling",
+    "people wrestling",
+    "men wrestling",
+    "women wrestling",
+    "person playing water polo",
+    "man playing water polo",
+    "woman playing water polo",
+    "person playing handball",
+    "man playing handball",
+    "woman playing handball",
+    "person juggling",
+    "man juggling",
+    "woman juggling",
+    "person in lotus position",
+    "man in lotus position",
+    "woman in lotus position",
+    "person taking bath",
+    "person in bed",
+    "people holding hands",
+    "women holding hands",
+    "woman and man holding hands",
+    "men holding hands",
+    "kiss",
+    "kiss: person, person",
+    "kiss: woman, man",
+    "kiss: man, man",
+    "kiss: woman, woman",
+    "couple with heart",
+    "couple with heart: person, person",
+    "couple with heart: woman, man",
+    "couple with heart: man, man",
+    "couple with heart: woman, woman",
+    "family: man, woman, boy",
+    "family: man, woman, girl",
+    "family: man, woman, girl, boy",
+    "family: man, woman, boy, boy",
+    "family: man, woman, girl, girl",
+    "family: man, man, boy"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "person cartwheeling",
+        "associations": [
+          "gymnastics",
+          "acrobatics",
+          "flip",
+          "playful motion",
+          "balance"
+        ]
+      },
+      {
+        "id": "man cartwheeling",
+        "associations": [
+          "gymnastics",
+          "acrobatics",
+          "flip",
+          "playful motion",
+          "balance"
+        ]
+      },
+      {
+        "id": "woman cartwheeling",
+        "associations": [
+          "gymnastics",
+          "acrobatics",
+          "flip",
+          "playful motion",
+          "balance"
+        ]
+      },
+      {
+        "id": "people wrestling",
+        "associations": [
+          "grappling",
+          "combat sport",
+          "competition",
+          "takedown",
+          "strength"
+        ]
+      },
+      {
+        "id": "men wrestling",
+        "associations": [
+          "grappling",
+          "combat sport",
+          "competition",
+          "takedown",
+          "strength"
+        ]
+      },
+      {
+        "id": "women wrestling",
+        "associations": [
+          "grappling",
+          "combat sport",
+          "competition",
+          "takedown",
+          "strength"
+        ]
+      },
+      {
+        "id": "person playing water polo",
+        "associations": [
+          "pool sport",
+          "ball game",
+          "swimming",
+          "teamwork",
+          "competition"
+        ]
+      },
+      {
+        "id": "man playing water polo",
+        "associations": [
+          "pool sport",
+          "ball game",
+          "swimming",
+          "teamwork",
+          "competition"
+        ]
+      },
+      {
+        "id": "woman playing water polo",
+        "associations": [
+          "pool sport",
+          "ball game",
+          "swimming",
+          "teamwork",
+          "competition"
+        ]
+      },
+      {
+        "id": "person playing handball",
+        "associations": [
+          "court sport",
+          "throwing",
+          "team game",
+          "fast pace",
+          "competition"
+        ]
+      },
+      {
+        "id": "man playing handball",
+        "associations": [
+          "court sport",
+          "throwing",
+          "team game",
+          "fast pace",
+          "competition"
+        ]
+      },
+      {
+        "id": "woman playing handball",
+        "associations": [
+          "court sport",
+          "throwing",
+          "team game",
+          "fast pace",
+          "competition"
+        ]
+      },
+      {
+        "id": "person juggling",
+        "associations": [
+          "balls",
+          "skill",
+          "coordination",
+          "performance",
+          "practice"
+        ]
+      },
+      {
+        "id": "man juggling",
+        "associations": [
+          "balls",
+          "skill",
+          "coordination",
+          "performance",
+          "practice"
+        ]
+      },
+      {
+        "id": "woman juggling",
+        "associations": [
+          "balls",
+          "skill",
+          "coordination",
+          "performance",
+          "practice"
+        ]
+      },
+      {
+        "id": "person in lotus position",
+        "associations": [
+          "meditation",
+          "yoga",
+          "calm",
+          "mindfulness",
+          "cross-legged"
+        ]
+      },
+      {
+        "id": "man in lotus position",
+        "associations": [
+          "meditation",
+          "yoga",
+          "calm",
+          "mindfulness",
+          "cross-legged"
+        ]
+      },
+      {
+        "id": "woman in lotus position",
+        "associations": [
+          "meditation",
+          "yoga",
+          "calm",
+          "mindfulness",
+          "cross-legged"
+        ]
+      },
+      {
+        "id": "person taking bath",
+        "associations": [
+          "bathtub",
+          "washing",
+          "relaxation",
+          "water",
+          "self-care"
+        ]
+      },
+      {
+        "id": "person in bed",
+        "associations": [
+          "sleep",
+          "rest",
+          "lying down",
+          "blankets",
+          "illness"
+        ]
+      },
+      {
+        "id": "people holding hands",
+        "associations": [
+          "togetherness",
+          "support",
+          "friendship",
+          "unity",
+          "affection"
+        ]
+      },
+      {
+        "id": "women holding hands",
+        "associations": [
+          "togetherness",
+          "support",
+          "friendship",
+          "unity",
+          "affection"
+        ]
+      },
+      {
+        "id": "woman and man holding hands",
+        "associations": [
+          "togetherness",
+          "support",
+          "romance",
+          "unity",
+          "affection"
+        ]
+      },
+      {
+        "id": "men holding hands",
+        "associations": [
+          "togetherness",
+          "support",
+          "friendship",
+          "unity",
+          "affection"
+        ]
+      },
+      {
+        "id": "kiss",
+        "associations": [
+          "affection",
+          "romance",
+          "love",
+          "greeting",
+          "smooch"
+        ]
+      },
+      {
+        "id": "kiss: person, person",
+        "associations": [
+          "affection",
+          "romance",
+          "love",
+          "greeting",
+          "smooch"
+        ]
+      },
+      {
+        "id": "kiss: woman, man",
+        "associations": [
+          "affection",
+          "romance",
+          "love",
+          "greeting",
+          "smooch"
+        ]
+      },
+      {
+        "id": "kiss: man, man",
+        "associations": [
+          "affection",
+          "romance",
+          "love",
+          "greeting",
+          "smooch"
+        ]
+      },
+      {
+        "id": "kiss: woman, woman",
+        "associations": [
+          "affection",
+          "romance",
+          "love",
+          "greeting",
+          "smooch"
+        ]
+      },
+      {
+        "id": "couple with heart",
+        "associations": [
+          "romance",
+          "love",
+          "relationship",
+          "affection",
+          "pair"
+        ]
+      },
+      {
+        "id": "couple with heart: person, person",
+        "associations": [
+          "romance",
+          "love",
+          "relationship",
+          "affection",
+          "pair"
+        ]
+      },
+      {
+        "id": "couple with heart: woman, man",
+        "associations": [
+          "romance",
+          "love",
+          "relationship",
+          "affection",
+          "pair"
+        ]
+      },
+      {
+        "id": "couple with heart: man, man",
+        "associations": [
+          "romance",
+          "love",
+          "relationship",
+          "affection",
+          "pair"
+        ]
+      },
+      {
+        "id": "couple with heart: woman, woman",
+        "associations": [
+          "romance",
+          "love",
+          "relationship",
+          "affection",
+          "pair"
+        ]
+      },
+      {
+        "id": "family: man, woman, boy",
+        "associations": [
+          "family",
+          "parents",
+          "child",
+          "household",
+          "bond"
+        ]
+      },
+      {
+        "id": "family: man, woman, girl",
+        "associations": [
+          "family",
+          "parents",
+          "child",
+          "household",
+          "bond"
+        ]
+      },
+      {
+        "id": "family: man, woman, girl, boy",
+        "associations": [
+          "family",
+          "parents",
+          "children",
+          "household",
+          "bond"
+        ]
+      },
+      {
+        "id": "family: man, woman, boy, boy",
+        "associations": [
+          "family",
+          "parents",
+          "children",
+          "household",
+          "bond"
+        ]
+      },
+      {
+        "id": "family: man, woman, girl, girl",
+        "associations": [
+          "family",
+          "parents",
+          "children",
+          "household",
+          "bond"
+        ]
+      },
+      {
+        "id": "family: man, man, boy",
+        "associations": [
+          "family",
+          "parents",
+          "child",
+          "household",
+          "bond"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_03e08daa658152cf016abfaead517487d0bd9d6aaaca59c6de",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1634,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 816,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2450
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "person cartwheeling",
+        "rejected": [],
+        "reason": "All associations are directly related to cartwheeling."
+      },
+      {
+        "id": "man cartwheeling",
+        "rejected": [],
+        "reason": "All associations are directly related to cartwheeling."
+      },
+      {
+        "id": "woman cartwheeling",
+        "rejected": [],
+        "reason": "All associations are directly related to cartwheeling."
+      },
+      {
+        "id": "people wrestling",
+        "rejected": [],
+        "reason": "All associations are directly related to wrestling."
+      },
+      {
+        "id": "men wrestling",
+        "rejected": [],
+        "reason": "All associations are directly related to wrestling."
+      },
+      {
+        "id": "women wrestling",
+        "rejected": [],
+        "reason": "All associations are directly related to wrestling."
+      },
+      {
+        "id": "person playing water polo",
+        "rejected": [],
+        "reason": "All associations are directly related to water polo."
+      },
+      {
+        "id": "man playing water polo",
+        "rejected": [],
+        "reason": "All associations are directly related to water polo."
+      },
+      {
+        "id": "woman playing water polo",
+        "rejected": [],
+        "reason": "All associations are directly related to water polo."
+      },
+      {
+        "id": "person playing handball",
+        "rejected": [],
+        "reason": "All associations are directly related to handball."
+      },
+      {
+        "id": "man playing handball",
+        "rejected": [],
+        "reason": "All associations are directly related to handball."
+      },
+      {
+        "id": "woman playing handball",
+        "rejected": [],
+        "reason": "All associations are directly related to handball."
+      },
+      {
+        "id": "person juggling",
+        "rejected": [],
+        "reason": "All associations are directly related to juggling."
+      },
+      {
+        "id": "man juggling",
+        "rejected": [],
+        "reason": "All associations are directly related to juggling."
+      },
+      {
+        "id": "woman juggling",
+        "rejected": [],
+        "reason": "All associations are directly related to juggling."
+      },
+      {
+        "id": "person in lotus position",
+        "rejected": [],
+        "reason": "All associations are directly related to lotus position/yoga/meditation."
+      },
+      {
+        "id": "man in lotus position",
+        "rejected": [],
+        "reason": "All associations are directly related to lotus position/yoga/meditation."
+      },
+      {
+        "id": "woman in lotus position",
+        "rejected": [],
+        "reason": "All associations are directly related to lotus position/yoga/meditation."
+      },
+      {
+        "id": "person taking bath",
+        "rejected": [],
+        "reason": "All associations are directly related to bathing."
+      },
+      {
+        "id": "person in bed",
+        "rejected": [
+          "illness"
+        ],
+        "reason": "The emoji core meaning is being in bed; illness is possible but not inherent and is an unsupported narrowing."
+      },
+      {
+        "id": "people holding hands",
+        "rejected": [],
+        "reason": "All associations are directly related to holding hands."
+      },
+      {
+        "id": "women holding hands",
+        "rejected": [],
+        "reason": "All associations are directly related to holding hands."
+      },
+      {
+        "id": "woman and man holding hands",
+        "rejected": [],
+        "reason": "All associations are directly related to holding hands."
+      },
+      {
+        "id": "men holding hands",
+        "rejected": [],
+        "reason": "All associations are directly related to holding hands."
+      },
+      {
+        "id": "kiss",
+        "rejected": [],
+        "reason": "All associations are directly related to kissing."
+      },
+      {
+        "id": "kiss: person, person",
+        "rejected": [],
+        "reason": "All associations are directly related to kissing."
+      },
+      {
+        "id": "kiss: woman, man",
+        "rejected": [],
+        "reason": "All associations are directly related to kissing."
+      },
+      {
+        "id": "kiss: man, man",
+        "rejected": [],
+        "reason": "All associations are directly related to kissing."
+      },
+      {
+        "id": "kiss: woman, woman",
+        "rejected": [],
+        "reason": "All associations are directly related to kissing."
+      },
+      {
+        "id": "couple with heart",
+        "rejected": [],
+        "reason": "All associations are directly related to a romantic couple with a heart."
+      },
+      {
+        "id": "couple with heart: person, person",
+        "rejected": [],
+        "reason": "All associations are directly related to a romantic couple with a heart."
+      },
+      {
+        "id": "couple with heart: woman, man",
+        "rejected": [],
+        "reason": "All associations are directly related to a romantic couple with a heart."
+      },
+      {
+        "id": "couple with heart: man, man",
+        "rejected": [],
+        "reason": "All associations are directly related to a romantic couple with a heart."
+      },
+      {
+        "id": "couple with heart: woman, woman",
+        "rejected": [],
+        "reason": "All associations are directly related to a romantic couple with a heart."
+      },
+      {
+        "id": "family: man, woman, boy",
+        "rejected": [],
+        "reason": "All associations are directly related to a family group."
+      },
+      {
+        "id": "family: man, woman, girl",
+        "rejected": [],
+        "reason": "All associations are directly related to a family group."
+      },
+      {
+        "id": "family: man, woman, girl, boy",
+        "rejected": [],
+        "reason": "All associations are directly related to a family group."
+      },
+      {
+        "id": "family: man, woman, boy, boy",
+        "rejected": [],
+        "reason": "All associations are directly related to a family group."
+      },
+      {
+        "id": "family: man, woman, girl, girl",
+        "rejected": [],
+        "reason": "All associations are directly related to a family group."
+      },
+      {
+        "id": "family: man, man, boy",
+        "rejected": [],
+        "reason": "All associations are directly related to a family group."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0da04dd7f75d1350016abfaeb212b887d081c7c32eb792e4da",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2733,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 927,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3660
+    }
+  }
+}

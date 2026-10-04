@@ -1,0 +1,687 @@
+{
+  "names": [
+    "Ophiuchus",
+    "shuffle tracks button",
+    "repeat button",
+    "repeat single button",
+    "fast-forward button",
+    "next track button",
+    "play or pause button",
+    "reverse button",
+    "fast reverse button",
+    "last track button",
+    "upwards button",
+    "fast up button",
+    "downwards button",
+    "fast down button",
+    "pause button",
+    "stop button",
+    "record button",
+    "eject button",
+    "cinema",
+    "dim button",
+    "bright button",
+    "antenna bars",
+    "wireless",
+    "vibration mode",
+    "mobile phone off",
+    "female sign",
+    "male sign",
+    "transgender symbol",
+    "multiply",
+    "plus",
+    "minus",
+    "divide",
+    "heavy equals sign",
+    "infinity",
+    "double exclamation mark",
+    "exclamation question mark",
+    "white question mark",
+    "white exclamation mark",
+    "red exclamation mark",
+    "wavy dash"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "Ophiuchus",
+        "associations": [
+          "zodiac",
+          "constellation",
+          "serpent bearer",
+          "astronomy",
+          "stars"
+        ]
+      },
+      {
+        "id": "shuffle tracks button",
+        "associations": [
+          "shuffle",
+          "random order",
+          "music playback",
+          "mix",
+          "tracks"
+        ]
+      },
+      {
+        "id": "repeat button",
+        "associations": [
+          "loop",
+          "repeat",
+          "music playback",
+          "cycle",
+          "playback control"
+        ]
+      },
+      {
+        "id": "repeat single button",
+        "associations": [
+          "single track",
+          "loop one",
+          "repeat",
+          "music playback",
+          "playback control"
+        ]
+      },
+      {
+        "id": "fast-forward button",
+        "associations": [
+          "forward",
+          "skip ahead",
+          "advance",
+          "media control",
+          "speed up"
+        ]
+      },
+      {
+        "id": "next track button",
+        "associations": [
+          "next song",
+          "skip",
+          "forward",
+          "track change",
+          "media control"
+        ]
+      },
+      {
+        "id": "play or pause button",
+        "associations": [
+          "play",
+          "pause",
+          "toggle",
+          "media control",
+          "start or stop"
+        ]
+      },
+      {
+        "id": "reverse button",
+        "associations": [
+          "backward",
+          "rewind",
+          "reverse",
+          "media control",
+          "go back"
+        ]
+      },
+      {
+        "id": "fast reverse button",
+        "associations": [
+          "rewind quickly",
+          "backward",
+          "skip back",
+          "media control",
+          "speed"
+        ]
+      },
+      {
+        "id": "last track button",
+        "associations": [
+          "previous song",
+          "go back",
+          "track change",
+          "media control",
+          "last item"
+        ]
+      },
+      {
+        "id": "upwards button",
+        "associations": [
+          "up",
+          "increase",
+          "ascend",
+          "direction",
+          "arrow"
+        ]
+      },
+      {
+        "id": "fast up button",
+        "associations": [
+          "rise quickly",
+          "move up",
+          "increase",
+          "direction",
+          "speed"
+        ]
+      },
+      {
+        "id": "downwards button",
+        "associations": [
+          "down",
+          "decrease",
+          "descend",
+          "direction",
+          "arrow"
+        ]
+      },
+      {
+        "id": "fast down button",
+        "associations": [
+          "drop quickly",
+          "move down",
+          "decrease",
+          "direction",
+          "speed"
+        ]
+      },
+      {
+        "id": "pause button",
+        "associations": [
+          "pause",
+          "wait",
+          "hold",
+          "media control",
+          "temporary stop"
+        ]
+      },
+      {
+        "id": "stop button",
+        "associations": [
+          "stop",
+          "halt",
+          "end",
+          "media control",
+          "terminate"
+        ]
+      },
+      {
+        "id": "record button",
+        "associations": [
+          "record",
+          "capture",
+          "save audio",
+          "media control",
+          "red dot"
+        ]
+      },
+      {
+        "id": "eject button",
+        "associations": [
+          "eject",
+          "remove",
+          "open tray",
+          "media control",
+          "release"
+        ]
+      },
+      {
+        "id": "cinema",
+        "associations": [
+          "movie theater",
+          "film",
+          "screening",
+          "audience",
+          "entertainment"
+        ]
+      },
+      {
+        "id": "dim button",
+        "associations": [
+          "dim",
+          "lower brightness",
+          "darken",
+          "light control",
+          "low light"
+        ]
+      },
+      {
+        "id": "bright button",
+        "associations": [
+          "bright",
+          "increase brightness",
+          "lighten",
+          "light control",
+          "glow"
+        ]
+      },
+      {
+        "id": "antenna bars",
+        "associations": [
+          "signal",
+          "strength",
+          "reception",
+          "connection",
+          "mobile status"
+        ]
+      },
+      {
+        "id": "wireless",
+        "associations": [
+          "Wi-Fi",
+          "signal",
+          "cordless",
+          "network",
+          "connection"
+        ]
+      },
+      {
+        "id": "vibration mode",
+        "associations": [
+          "vibrate",
+          "silent alert",
+          "phone mode",
+          "buzz",
+          "notification"
+        ]
+      },
+      {
+        "id": "mobile phone off",
+        "associations": [
+          "phone off",
+          "power off",
+          "shutdown",
+          "no service",
+          "mobile status"
+        ]
+      },
+      {
+        "id": "female sign",
+        "associations": [
+          "female",
+          "woman",
+          "gender",
+          "symbol",
+          "Venus"
+        ]
+      },
+      {
+        "id": "male sign",
+        "associations": [
+          "male",
+          "man",
+          "gender",
+          "symbol",
+          "Mars"
+        ]
+      },
+      {
+        "id": "transgender symbol",
+        "associations": [
+          "transgender",
+          "gender identity",
+          "symbol",
+          "equality",
+          "diversity"
+        ]
+      },
+      {
+        "id": "multiply",
+        "associations": [
+          "times",
+          "multiply",
+          "product",
+          "math",
+          "operator"
+        ]
+      },
+      {
+        "id": "plus",
+        "associations": [
+          "addition",
+          "plus",
+          "increase",
+          "math",
+          "positive"
+        ]
+      },
+      {
+        "id": "minus",
+        "associations": [
+          "subtraction",
+          "minus",
+          "decrease",
+          "math",
+          "negative"
+        ]
+      },
+      {
+        "id": "divide",
+        "associations": [
+          "division",
+          "divide",
+          "quotient",
+          "math",
+          "operator"
+        ]
+      },
+      {
+        "id": "heavy equals sign",
+        "associations": [
+          "equals",
+          "same",
+          "equation",
+          "math",
+          "comparison"
+        ]
+      },
+      {
+        "id": "infinity",
+        "associations": [
+          "infinite",
+          "endless",
+          "limitless",
+          "math",
+          "eternity"
+        ]
+      },
+      {
+        "id": "double exclamation mark",
+        "associations": [
+          "surprise",
+          "emphasis",
+          "alarm",
+          "strong feeling",
+          "alert"
+        ]
+      },
+      {
+        "id": "exclamation question mark",
+        "associations": [
+          "interrobang",
+          "surprise",
+          "confusion",
+          "emphasis",
+          "punctuation"
+        ]
+      },
+      {
+        "id": "white question mark",
+        "associations": [
+          "question",
+          "uncertainty",
+          "inquiry",
+          "punctuation",
+          "curiosity"
+        ]
+      },
+      {
+        "id": "white exclamation mark",
+        "associations": [
+          "exclamation",
+          "alert",
+          "emphasis",
+          "surprise",
+          "punctuation"
+        ]
+      },
+      {
+        "id": "red exclamation mark",
+        "associations": [
+          "alert",
+          "warning",
+          "emphasis",
+          "surprise",
+          "urgent"
+        ]
+      },
+      {
+        "id": "wavy dash",
+        "associations": [
+          "wave",
+          "tilde",
+          "approximation",
+          "span",
+          "separator"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_05d4363f4ed6414d016abfafc17ac487d093d8932cf844b259",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1388,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 714,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2102
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "Ophiuchus",
+        "rejected": [
+          "zodiac"
+        ],
+        "reason": "Ophiuchus is a constellation/astrological figure, not a zodiac sign in the standard zodiac set."
+      },
+      {
+        "id": "shuffle tracks button",
+        "rejected": [],
+        "reason": "All associations are related to shuffling or playing tracks."
+      },
+      {
+        "id": "repeat button",
+        "rejected": [],
+        "reason": "All associations are related to repeating playback."
+      },
+      {
+        "id": "repeat single button",
+        "rejected": [],
+        "reason": "All associations fit repeat-one playback."
+      },
+      {
+        "id": "fast-forward button",
+        "rejected": [],
+        "reason": "All associations are related to fast-forward media control."
+      },
+      {
+        "id": "next track button",
+        "rejected": [],
+        "reason": "All associations are related to moving to the next track."
+      },
+      {
+        "id": "play or pause button",
+        "rejected": [],
+        "reason": "All associations are related to play/pause media control."
+      },
+      {
+        "id": "reverse button",
+        "rejected": [],
+        "reason": "All associations are related to reversing playback direction."
+      },
+      {
+        "id": "fast reverse button",
+        "rejected": [],
+        "reason": "All associations are related to fast reverse/rewind control."
+      },
+      {
+        "id": "last track button",
+        "rejected": [],
+        "reason": "All associations are related to going to the previous track."
+      },
+      {
+        "id": "upwards button",
+        "rejected": [],
+        "reason": "All associations are related to upward direction."
+      },
+      {
+        "id": "fast up button",
+        "rejected": [],
+        "reason": "All associations are related to moving upward quickly."
+      },
+      {
+        "id": "downwards button",
+        "rejected": [],
+        "reason": "All associations are related to downward direction."
+      },
+      {
+        "id": "fast down button",
+        "rejected": [],
+        "reason": "All associations are related to moving downward quickly."
+      },
+      {
+        "id": "pause button",
+        "rejected": [],
+        "reason": "All associations are related to pausing or holding playback."
+      },
+      {
+        "id": "stop button",
+        "rejected": [],
+        "reason": "All associations are related to stopping playback."
+      },
+      {
+        "id": "record button",
+        "rejected": [],
+        "reason": "All associations are related to recording."
+      },
+      {
+        "id": "eject button",
+        "rejected": [],
+        "reason": "All associations are related to ejecting/removing media."
+      },
+      {
+        "id": "cinema",
+        "rejected": [],
+        "reason": "All associations are related to a movie theater/cinema."
+      },
+      {
+        "id": "dim button",
+        "rejected": [],
+        "reason": "All associations are related to lowering brightness."
+      },
+      {
+        "id": "bright button",
+        "rejected": [],
+        "reason": "All associations are related to increasing brightness."
+      },
+      {
+        "id": "antenna bars",
+        "rejected": [],
+        "reason": "All associations are related to signal strength/status."
+      },
+      {
+        "id": "wireless",
+        "rejected": [],
+        "reason": "All associations are related to wireless networking."
+      },
+      {
+        "id": "vibration mode",
+        "rejected": [],
+        "reason": "All associations are related to phone vibration mode."
+      },
+      {
+        "id": "mobile phone off",
+        "rejected": [],
+        "reason": "All associations are related to a phone being off or unavailable."
+      },
+      {
+        "id": "female sign",
+        "rejected": [],
+        "reason": "All associations are related to the female sign."
+      },
+      {
+        "id": "male sign",
+        "rejected": [],
+        "reason": "All associations are related to the male sign."
+      },
+      {
+        "id": "transgender symbol",
+        "rejected": [],
+        "reason": "All associations are related to the transgender symbol."
+      },
+      {
+        "id": "multiply",
+        "rejected": [],
+        "reason": "All associations are related to multiplication."
+      },
+      {
+        "id": "plus",
+        "rejected": [],
+        "reason": "All associations are related to addition or the plus operator."
+      },
+      {
+        "id": "minus",
+        "rejected": [],
+        "reason": "All associations are related to subtraction or the minus operator."
+      },
+      {
+        "id": "divide",
+        "rejected": [],
+        "reason": "All associations are related to division."
+      },
+      {
+        "id": "heavy equals sign",
+        "rejected": [],
+        "reason": "All associations are related to equality or equivalence."
+      },
+      {
+        "id": "infinity",
+        "rejected": [],
+        "reason": "All associations are related to infinity."
+      },
+      {
+        "id": "double exclamation mark",
+        "rejected": [],
+        "reason": "All associations are related to emphasis or strong surprise."
+      },
+      {
+        "id": "exclamation question mark",
+        "rejected": [],
+        "reason": "All associations are related to the interrobang/punctuation."
+      },
+      {
+        "id": "white question mark",
+        "rejected": [],
+        "reason": "All associations are related to questioning or uncertainty."
+      },
+      {
+        "id": "white exclamation mark",
+        "rejected": [],
+        "reason": "All associations are related to exclamation or alerting."
+      },
+      {
+        "id": "red exclamation mark",
+        "rejected": [],
+        "reason": "All associations are related to warning or emphasis."
+      },
+      {
+        "id": "wavy dash",
+        "rejected": [],
+        "reason": "All associations are related to a wavy dash/tilde-like mark."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0a2b8563bcf53f92016abfafc78a2887d0bf2ae8bd3d37ab7d",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3188,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 832,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4020
+    }
+  }
+}

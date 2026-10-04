@@ -1,0 +1,163 @@
+{
+  "fingerprint": "3fa6ad3612673f37bf28e13575f5639ef3f235535fbf954886bf0cc02552adc1",
+  "decoded": {
+    "rows": [
+      {
+        "id": "caff938670e997dd",
+        "state_reading": "man biking chequered flag unknown",
+        "answer_reading": "person biking person mountain biking person bouncing ball",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "b05d83d1b573c4e6",
+        "state_reading": "fork and knife herb deer right arrow tiger right arrow eagle right arrow skull",
+        "answer_reading": "seedling leaf bug bird fox lion",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "4a406bd756ca6325",
+        "state_reading": "books unknown green book blue book orange book fork and knife with plate unknown",
+        "answer_reading": "books student microscope nerd face compass memo",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "380dc0a03f3bed52",
+        "state_reading": "school fork and knife leaf fluttering in wind right arrow paw prints right arrow lion right arrow skull unknown",
+        "answer_reading": "herb ant bird snake eagle",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "5aa4719bbcc7d27f",
+        "state_reading": "speaker high volume right arrow straight ruler triangular ruler unknown",
+        "answer_reading": "unknown",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "46fd7dc6ea5e7a7b",
+        "state_reading": "musical score musical notes unknown",
+        "answer_reading": "musical score violin trumpet saxophone",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "b000c3c4e1890ed4",
+        "state_reading": "fork and knife with plate cooked rice unknown",
+        "answer_reading": "bowl with spoon bowl with spoon honey pot glass of milk",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "b22491e2aa2a6fdb",
+        "state_reading": "cloud with snow unknown",
+        "answer_reading": "unknown",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "0aee9a02f28837c2",
+        "state_reading": "couch and lamp unknown",
+        "answer_reading": "couch and lamp",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "4907d545aca70962",
+        "state_reading": "herb school unknown",
+        "answer_reading": "seedling sun butterfly deer",
+        "unsupported_meanings": false
+      }
+    ]
+  },
+  "decoder": {
+    "id": "resp_05a789fe8e074613016abfa4c6c9f087d08d8459ea2d92b4fa",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1384,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 451,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1835
+    }
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "caff938670e997dd",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The question asks for types of cycling races. The answer lists unrelated objects/activities and does not provide race types."
+      },
+      {
+        "id": "b05d83d1b573c4e6",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The question asks for a definition of a food chain. The answer is just a list of organisms and does not explain the relationship."
+      },
+      {
+        "id": "4a406bd756ca6325",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The question asks for suggestions for non-fiction books. The answer is mostly unrelated items and does not provide book suggestions."
+      },
+      {
+        "id": "380dc0a03f3bed52",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The question asks what a food chain is. The answer lists organisms but does not define the concept or relationship."
+      },
+      {
+        "id": "5aa4719bbcc7d27f",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state indicates a measurement-style prompt with no specific value, and the answer 'unknown' is an appropriate faithful response because the actual speed of sound is not recoverable from the reading."
+      },
+      {
+        "id": "46fd7dc6ea5e7a7b",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The question asks about popular classical music genres. The answer lists instruments and a score, not genres."
+      },
+      {
+        "id": "b000c3c4e1890ed4",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The question asks for a popular breakfast cereal. The answer lists breakfast items/container objects rather than a cereal."
+      },
+      {
+        "id": "b22491e2aa2a6fdb",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state shows a snow/cloud symbol, and the answer 'unknown' is acceptable because no weather forecast or timing is provided to determine whether it will snow today."
+      },
+      {
+        "id": "0aee9a02f28837c2",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The question asks what a sofa is, and the answer gives the appropriate object description by naming a couch and lamp scene that preserves the sofa concept."
+      },
+      {
+        "id": "4907d545aca70962",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The question asks why plants are important. The answer is just a set of plant-related objects and does not explain importance."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_0019786455afec09016abfa4c9df3887d0a8719ca28d7d4d2c",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 922,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 594,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1516
+    }
+  }
+}

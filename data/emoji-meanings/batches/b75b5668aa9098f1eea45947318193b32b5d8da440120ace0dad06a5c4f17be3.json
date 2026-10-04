@@ -1,0 +1,725 @@
+{
+  "names": [
+    "floppy disk",
+    "optical disk",
+    "dvd",
+    "abacus",
+    "movie camera",
+    "film frames",
+    "film projector",
+    "clapper board",
+    "television",
+    "camera",
+    "camera with flash",
+    "video camera",
+    "videocassette",
+    "magnifying glass tilted right",
+    "candle",
+    "light bulb",
+    "flashlight",
+    "red paper lantern",
+    "diya lamp",
+    "notebook with decorative cover",
+    "closed book",
+    "open book",
+    "green book",
+    "blue book",
+    "orange book",
+    "books",
+    "notebook",
+    "ledger",
+    "page with curl",
+    "scroll",
+    "page facing up",
+    "newspaper",
+    "rolled-up newspaper",
+    "bookmark tabs",
+    "bookmark",
+    "label",
+    "coin",
+    "money bag",
+    "treasure chest",
+    "yen banknote"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "floppy disk",
+        "associations": [
+          "save file",
+          "storage",
+          "retro tech",
+          "computer data",
+          "backup",
+          "disk icon"
+        ]
+      },
+      {
+        "id": "optical disk",
+        "associations": [
+          "disc media",
+          "storage",
+          "music or software",
+          "round disc",
+          "data carrier",
+          "digital archive"
+        ]
+      },
+      {
+        "id": "dvd",
+        "associations": [
+          "video disc",
+          "movie playback",
+          "disc media",
+          "home entertainment",
+          "storage",
+          "film"
+        ]
+      },
+      {
+        "id": "abacus",
+        "associations": [
+          "counting tool",
+          "math",
+          "calculation",
+          "beads",
+          "arithmetic",
+          "education"
+        ]
+      },
+      {
+        "id": "movie camera",
+        "associations": [
+          "filming",
+          "cinema",
+          "recording",
+          "director",
+          "production",
+          "motion picture"
+        ]
+      },
+      {
+        "id": "film frames",
+        "associations": [
+          "movie strip",
+          "frames",
+          "sequence",
+          "editing",
+          "cinema",
+          "visual record"
+        ]
+      },
+      {
+        "id": "film projector",
+        "associations": [
+          "projection",
+          "movie theater",
+          "screening",
+          "cinema",
+          "display",
+          "old-fashioned tech"
+        ]
+      },
+      {
+        "id": "clapper board",
+        "associations": [
+          "film set",
+          "scene take",
+          "production",
+          "director",
+          "action",
+          "cinema"
+        ]
+      },
+      {
+        "id": "television",
+        "associations": [
+          "TV",
+          "broadcast",
+          "screen",
+          "watching",
+          "entertainment",
+          "news"
+        ]
+      },
+      {
+        "id": "camera",
+        "associations": [
+          "photography",
+          "picture taking",
+          "lens",
+          "snapshot",
+          "image capture",
+          "documenting"
+        ]
+      },
+      {
+        "id": "camera with flash",
+        "associations": [
+          "flash photo",
+          "bright shot",
+          "night photography",
+          "camera",
+          "snapshot",
+          "picture taking"
+        ]
+      },
+      {
+        "id": "video camera",
+        "associations": [
+          "recording",
+          "videography",
+          "camera",
+          "shooting video",
+          "broadcast",
+          "capture"
+        ]
+      },
+      {
+        "id": "videocassette",
+        "associations": [
+          "VHS",
+          "tape",
+          "retro video",
+          "home movie",
+          "playback",
+          "storage"
+        ]
+      },
+      {
+        "id": "magnifying glass tilted right",
+        "associations": [
+          "searching",
+          "inspection",
+          "zoom",
+          "finding details",
+          "look closely",
+          "investigation"
+        ]
+      },
+      {
+        "id": "candle",
+        "associations": [
+          "flame",
+          "light",
+          "wax",
+          "warmth",
+          "romance",
+          "safety"
+        ]
+      },
+      {
+        "id": "light bulb",
+        "associations": [
+          "idea",
+          "illumination",
+          "bright",
+          "invention",
+          "insight",
+          "electric light"
+        ]
+      },
+      {
+        "id": "flashlight",
+        "associations": [
+          "torch",
+          "portable light",
+          "darkness",
+          "searching",
+          "beam",
+          "emergency"
+        ]
+      },
+      {
+        "id": "red paper lantern",
+        "associations": [
+          "festival",
+          "lantern light",
+          "decorative",
+          "celebration",
+          "glow",
+          "hanging light"
+        ]
+      },
+      {
+        "id": "diya lamp",
+        "associations": [
+          "oil lamp",
+          "festival",
+          "light",
+          "tradition",
+          "prayer",
+          "warm glow"
+        ]
+      },
+      {
+        "id": "notebook with decorative cover",
+        "associations": [
+          "journal",
+          "notes",
+          "writing",
+          "stationery",
+          "planner",
+          "personal record"
+        ]
+      },
+      {
+        "id": "closed book",
+        "associations": [
+          "reading",
+          "book",
+          "sealed",
+          "studying",
+          "novel",
+          "quiet"
+        ]
+      },
+      {
+        "id": "open book",
+        "associations": [
+          "reading",
+          "study",
+          "pages",
+          "knowledge",
+          "book",
+          "learning"
+        ]
+      },
+      {
+        "id": "green book",
+        "associations": [
+          "book",
+          "reading",
+          "textbook",
+          "library",
+          "study",
+          "literature"
+        ]
+      },
+      {
+        "id": "blue book",
+        "associations": [
+          "book",
+          "reading",
+          "textbook",
+          "library",
+          "study",
+          "literature"
+        ]
+      },
+      {
+        "id": "orange book",
+        "associations": [
+          "book",
+          "reading",
+          "textbook",
+          "library",
+          "study",
+          "literature"
+        ]
+      },
+      {
+        "id": "books",
+        "associations": [
+          "reading",
+          "library",
+          "knowledge",
+          "study",
+          "education",
+          "literature"
+        ]
+      },
+      {
+        "id": "notebook",
+        "associations": [
+          "notes",
+          "writing",
+          "journal",
+          "school",
+          "planning",
+          "stationery"
+        ]
+      },
+      {
+        "id": "ledger",
+        "associations": [
+          "accounts",
+          "bookkeeping",
+          "records",
+          "finance",
+          "entries",
+          "audit"
+        ]
+      },
+      {
+        "id": "page with curl",
+        "associations": [
+          "document",
+          "page",
+          "corner fold",
+          "reading",
+          "paper",
+          "turning page"
+        ]
+      },
+      {
+        "id": "scroll",
+        "associations": [
+          "parchment",
+          "ancient text",
+          "document",
+          "unrolling",
+          "record",
+          "history"
+        ]
+      },
+      {
+        "id": "page facing up",
+        "associations": [
+          "sheet",
+          "document",
+          "reading",
+          "paper",
+          "text",
+          "viewed page"
+        ]
+      },
+      {
+        "id": "newspaper",
+        "associations": [
+          "news",
+          "headline",
+          "journalism",
+          "print",
+          "reporting",
+          "current events"
+        ]
+      },
+      {
+        "id": "rolled-up newspaper",
+        "associations": [
+          "paper",
+          "news",
+          "roll",
+          "tubular",
+          "delivery",
+          "print"
+        ]
+      },
+      {
+        "id": "bookmark tabs",
+        "associations": [
+          "tabs",
+          "organization",
+          "page markers",
+          "study",
+          "navigation",
+          "reading"
+        ]
+      },
+      {
+        "id": "bookmark",
+        "associations": [
+          "reading",
+          "page marker",
+          "save place",
+          "book",
+          "study",
+          "remember"
+        ]
+      },
+      {
+        "id": "label",
+        "associations": [
+          "tag",
+          "sticker",
+          "marking",
+          "name",
+          "identifier",
+          "package"
+        ]
+      },
+      {
+        "id": "coin",
+        "associations": [
+          "money",
+          "currency",
+          "change",
+          "payment",
+          "small value",
+          "metal"
+        ]
+      },
+      {
+        "id": "money bag",
+        "associations": [
+          "cash",
+          "wealth",
+          "savings",
+          "finance",
+          "profits",
+          "bag of money"
+        ]
+      },
+      {
+        "id": "treasure chest",
+        "associations": [
+          "treasure",
+          "loot",
+          "gold",
+          "storage",
+          "pirates",
+          "rewards"
+        ]
+      },
+      {
+        "id": "yen banknote",
+        "associations": [
+          "money",
+          "yen",
+          "currency",
+          "cash",
+          "payment",
+          "banknote"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0b19034cad1097f2016abfafa5612887d09b14050f8010c6a3",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1343,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 783,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2126
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "floppy disk",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "optical disk",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "dvd",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "abacus",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "movie camera",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "film frames",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "film projector",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "clapper board",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "television",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "camera",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "camera with flash",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "video camera",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "videocassette",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "magnifying glass tilted right",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "candle",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "light bulb",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "flashlight",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "red paper lantern",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "diya lamp",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "notebook with decorative cover",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "closed book",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "open book",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "green book",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "blue book",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "orange book",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "books",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "notebook",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "ledger",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "page with curl",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "scroll",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "page facing up",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "newspaper",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "rolled-up newspaper",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "bookmark tabs",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "bookmark",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "label",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "coin",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "money bag",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "treasure chest",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      },
+      {
+        "id": "yen banknote",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji's core meaning."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0d82c3c98afa5d8b016abfafab1bc887d09313c54ae4fd18cd",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3366,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 940,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4306
+    }
+  }
+}

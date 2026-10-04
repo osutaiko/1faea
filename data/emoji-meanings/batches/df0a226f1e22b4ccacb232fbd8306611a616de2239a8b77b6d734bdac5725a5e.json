@@ -1,0 +1,703 @@
+{
+  "names": [
+    "dollar banknote",
+    "euro banknote",
+    "pound banknote",
+    "money with wings",
+    "credit card",
+    "receipt",
+    "chart increasing with yen",
+    "envelope",
+    "e-mail",
+    "incoming envelope",
+    "envelope with arrow",
+    "outbox tray",
+    "inbox tray",
+    "package",
+    "closed mailbox with raised flag",
+    "closed mailbox with lowered flag",
+    "open mailbox with raised flag",
+    "open mailbox with lowered flag",
+    "postbox",
+    "ballot box with ballot",
+    "pencil",
+    "black nib",
+    "fountain pen",
+    "pen",
+    "paintbrush",
+    "crayon",
+    "memo",
+    "briefcase",
+    "file folder",
+    "open file folder",
+    "card index dividers",
+    "calendar",
+    "tear-off calendar",
+    "spiral notepad",
+    "spiral calendar",
+    "card index",
+    "chart increasing",
+    "chart decreasing",
+    "bar chart",
+    "clipboard"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "dollar banknote",
+        "associations": [
+          "cash",
+          "currency",
+          "payment",
+          "paper money",
+          "spending"
+        ]
+      },
+      {
+        "id": "euro banknote",
+        "associations": [
+          "cash",
+          "currency",
+          "payment",
+          "paper money",
+          "European money"
+        ]
+      },
+      {
+        "id": "pound banknote",
+        "associations": [
+          "cash",
+          "currency",
+          "payment",
+          "paper money",
+          "British money"
+        ]
+      },
+      {
+        "id": "money with wings",
+        "associations": [
+          "spending quickly",
+          "lost money",
+          "expenses",
+          "cash flying away",
+          "careless spending"
+        ]
+      },
+      {
+        "id": "credit card",
+        "associations": [
+          "payment card",
+          "swipe",
+          "purchase",
+          "billing",
+          "plastic card"
+        ]
+      },
+      {
+        "id": "receipt",
+        "associations": [
+          "proof of purchase",
+          "sales slip",
+          "record",
+          "transaction",
+          "bill"
+        ]
+      },
+      {
+        "id": "chart increasing with yen",
+        "associations": [
+          "growth",
+          "rising value",
+          "profit",
+          "finance",
+          "upward trend"
+        ]
+      },
+      {
+        "id": "envelope",
+        "associations": [
+          "mail",
+          "letter",
+          "post",
+          "correspondence",
+          "sealed paper"
+        ]
+      },
+      {
+        "id": "e-mail",
+        "associations": [
+          "email",
+          "digital message",
+          "online mail",
+          "inbox",
+          "send"
+        ]
+      },
+      {
+        "id": "incoming envelope",
+        "associations": [
+          "new mail",
+          "received letter",
+          "delivery",
+          "inbox",
+          "arrival"
+        ]
+      },
+      {
+        "id": "envelope with arrow",
+        "associations": [
+          "send mail",
+          "forward",
+          "reply",
+          "outgoing message",
+          "delivery"
+        ]
+      },
+      {
+        "id": "outbox tray",
+        "associations": [
+          "sent items",
+          "outgoing mail",
+          "dispatch",
+          "holding tray",
+          "workflow"
+        ]
+      },
+      {
+        "id": "inbox tray",
+        "associations": [
+          "incoming items",
+          "received mail",
+          "sorting tray",
+          "documents",
+          "workflow"
+        ]
+      },
+      {
+        "id": "package",
+        "associations": [
+          "parcel",
+          "delivery",
+          "box",
+          "shipment",
+          "mail item"
+        ]
+      },
+      {
+        "id": "closed mailbox with raised flag",
+        "associations": [
+          "mail waiting",
+          "outgoing or incoming post",
+          "postal box",
+          "notification",
+          "delivery"
+        ]
+      },
+      {
+        "id": "closed mailbox with lowered flag",
+        "associations": [
+          "empty mailbox",
+          "no new mail",
+          "postal box",
+          "home mail",
+          "delivery"
+        ]
+      },
+      {
+        "id": "open mailbox with raised flag",
+        "associations": [
+          "mail ready",
+          "open postbox",
+          "postal box",
+          "delivery",
+          "notification"
+        ]
+      },
+      {
+        "id": "open mailbox with lowered flag",
+        "associations": [
+          "open mailbox",
+          "postal box",
+          "no mail",
+          "delivery",
+          "collection"
+        ]
+      },
+      {
+        "id": "postbox",
+        "associations": [
+          "mail drop",
+          "postal box",
+          "letters",
+          "sending mail",
+          "mail collection"
+        ]
+      },
+      {
+        "id": "ballot box with ballot",
+        "associations": [
+          "voting",
+          "election",
+          "ballot",
+          "democracy",
+          "cast a vote"
+        ]
+      },
+      {
+        "id": "pencil",
+        "associations": [
+          "writing",
+          "drawing",
+          "school supply",
+          "sketching",
+          "editing"
+        ]
+      },
+      {
+        "id": "black nib",
+        "associations": [
+          "ink tip",
+          "writing tool",
+          "pen point",
+          "calligraphy",
+          "fine writing"
+        ]
+      },
+      {
+        "id": "fountain pen",
+        "associations": [
+          "ink pen",
+          "writing instrument",
+          "signature",
+          "calligraphy",
+          "luxury pen"
+        ]
+      },
+      {
+        "id": "pen",
+        "associations": [
+          "writing",
+          "signature",
+          "ink",
+          "note-taking",
+          "office supply"
+        ]
+      },
+      {
+        "id": "paintbrush",
+        "associations": [
+          "painting",
+          "art tool",
+          "bristles",
+          "brushwork",
+          "creative"
+        ]
+      },
+      {
+        "id": "crayon",
+        "associations": [
+          "coloring",
+          "drawing",
+          "kids' art",
+          "wax stick",
+          "bright color"
+        ]
+      },
+      {
+        "id": "memo",
+        "associations": [
+          "note",
+          "reminder",
+          "message",
+          "brief note",
+          "office communication"
+        ]
+      },
+      {
+        "id": "briefcase",
+        "associations": [
+          "business",
+          "work bag",
+          "documents",
+          "professional",
+          "travel"
+        ]
+      },
+      {
+        "id": "file folder",
+        "associations": [
+          "documents",
+          "organization",
+          "paperwork",
+          "storage",
+          "office"
+        ]
+      },
+      {
+        "id": "open file folder",
+        "associations": [
+          "open documents",
+          "organization",
+          "paperwork",
+          "accessible files",
+          "office"
+        ]
+      },
+      {
+        "id": "card index dividers",
+        "associations": [
+          "tabs",
+          "sorting",
+          "index cards",
+          "organization",
+          "sections"
+        ]
+      },
+      {
+        "id": "calendar",
+        "associations": [
+          "dates",
+          "schedule",
+          "planning",
+          "month view",
+          "appointments"
+        ]
+      },
+      {
+        "id": "tear-off calendar",
+        "associations": [
+          "daily page",
+          "date sheet",
+          "desk calendar",
+          "schedule",
+          "planning"
+        ]
+      },
+      {
+        "id": "spiral notepad",
+        "associations": [
+          "notebook",
+          "notes",
+          "writing pad",
+          "spiral binding",
+          "list making"
+        ]
+      },
+      {
+        "id": "spiral calendar",
+        "associations": [
+          "spiral-bound planner",
+          "dates",
+          "schedule",
+          "desk calendar",
+          "planning"
+        ]
+      },
+      {
+        "id": "card index",
+        "associations": [
+          "index card",
+          "reference",
+          "note card",
+          "record",
+          "filing"
+        ]
+      },
+      {
+        "id": "chart increasing",
+        "associations": [
+          "growth",
+          "upward trend",
+          "increase",
+          "progress",
+          "success"
+        ]
+      },
+      {
+        "id": "chart decreasing",
+        "associations": [
+          "decline",
+          "downward trend",
+          "loss",
+          "drop",
+          "decrease"
+        ]
+      },
+      {
+        "id": "bar chart",
+        "associations": [
+          "statistics",
+          "comparison",
+          "data",
+          "bars",
+          "analytics"
+        ]
+      },
+      {
+        "id": "clipboard",
+        "associations": [
+          "notes",
+          "forms",
+          "paper holder",
+          "checklist",
+          "organization"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_05a24259e8836cd5016abfafa620c487d094cef2cf60e53bd4",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1400,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 726,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2126
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "dollar banknote",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the literal meaning of a dollar bill."
+      },
+      {
+        "id": "euro banknote",
+        "rejected": [
+          "European money"
+        ],
+        "reason": "Too vague and slightly misleading as a named-region label; the core meaning is simply a euro banknote."
+      },
+      {
+        "id": "pound banknote",
+        "rejected": [
+          "British money"
+        ],
+        "reason": "Too vague and slightly misleading as a nationality label; the core meaning is simply a pound banknote."
+      },
+      {
+        "id": "money with wings",
+        "rejected": [],
+        "reason": "All associations fit the idiom of money disappearing quickly or being spent carelessly."
+      },
+      {
+        "id": "credit card",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a credit card."
+      },
+      {
+        "id": "receipt",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a receipt."
+      },
+      {
+        "id": "chart increasing with yen",
+        "rejected": [
+          "growth",
+          "rising value",
+          "profit",
+          "finance",
+          "upward trend"
+        ],
+        "reason": "This emoji specifically uses yen as the currency marker; the listed associations describe the general upward chart meaning and omit the yen-specific element, making them incomplete/misleading as direct core associations."
+      },
+      {
+        "id": "envelope",
+        "rejected": [
+          "sealed paper"
+        ],
+        "reason": "An envelope is mail packaging, not a generic sealed paper object."
+      },
+      {
+        "id": "e-mail",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to email."
+      },
+      {
+        "id": "incoming envelope",
+        "rejected": [
+          "inbox"
+        ],
+        "reason": "Inbox is a digital mail concept, not a direct meaning of an incoming envelope."
+      },
+      {
+        "id": "envelope with arrow",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to sending/forwarding mail."
+      },
+      {
+        "id": "outbox tray",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to an outbox tray."
+      },
+      {
+        "id": "inbox tray",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to an inbox tray."
+      },
+      {
+        "id": "package",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a package/parcel."
+      },
+      {
+        "id": "closed mailbox with raised flag",
+        "rejected": [
+          "outgoing or incoming post"
+        ],
+        "reason": "Too broad and ambiguous; the mailbox flag state is not itself a combined outgoing/incoming post meaning."
+      },
+      {
+        "id": "closed mailbox with lowered flag",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to an empty or inactive mailbox."
+      },
+      {
+        "id": "open mailbox with raised flag",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a mailbox with mail/notification."
+      },
+      {
+        "id": "open mailbox with lowered flag",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to an open mailbox with no mail or collection status."
+      },
+      {
+        "id": "postbox",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a postbox/mailbox."
+      },
+      {
+        "id": "ballot box with ballot",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to voting and ballots."
+      },
+      {
+        "id": "pencil",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a pencil."
+      },
+      {
+        "id": "black nib",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a pen nib."
+      },
+      {
+        "id": "fountain pen",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a fountain pen."
+      },
+      {
+        "id": "pen",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a pen."
+      },
+      {
+        "id": "paintbrush",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a paintbrush."
+      },
+      {
+        "id": "crayon",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a crayon."
+      },
+      {
+        "id": "memo",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a memo."
+      },
+      {
+        "id": "briefcase",
+        "rejected": [
+          "travel"
+        ],
+        "reason": "A briefcase is primarily a business/work container; travel is only incidental and can be misleading."
+      },
+      {
+        "id": "file folder",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a file folder."
+      },
+      {
+        "id": "open file folder",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to an open file folder."
+      },
+      {
+        "id": "card index dividers",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to index dividers."
+      },
+      {
+        "id": "calendar",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a calendar."
+      },
+      {
+        "id": "tear-off calendar",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a tear-off calendar."
+      },
+      {
+        "id": "spiral notepad",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a spiral notepad."
+      },
+      {
+        "id": "spiral calendar",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a spiral calendar/planner."
+      },
+      {
+        "id": "card index",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to an index card."
+      },
+      {
+        "id": "chart increasing",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to an increasing chart."
+      },
+      {
+        "id": "chart decreasing",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a decreasing chart."
+      },
+      {
+        "id": "bar chart",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a bar chart."
+      },
+      {
+        "id": "clipboard",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to a clipboard."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0e13857bcca6c0f0016abfafac7cd487d0945e626972159e99",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3212,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1037,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4249
+    }
+  }
+}

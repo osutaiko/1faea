@@ -1,0 +1,162 @@
+{
+  "decoded": {
+    "rows": [
+      {
+        "id": "b15c218dd149f78e",
+        "state_reading": "mobile phone, battery, red question mark",
+        "answer_reading": "battery, ZZZ, mobile phone off, dim button, black circle",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "f7bc2488732b0092",
+        "state_reading": "musical note, violin, red question mark",
+        "answer_reading": "violin, musical score, banjo, musical notes",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "5705576de6cffe64",
+        "state_reading": "sleeping face, red question mark",
+        "answer_reading": "sleeping face, bed, mantelpiece clock, no mobile phones, crescent moon, person in lotus position",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "1759dfa120c41921",
+        "state_reading": "globe showing Europe-Africa, airplane, cityscape, red question mark",
+        "answer_reading": "Tokyo tower, castle, artist palette, wine glass, baguette bread",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "39201c44085dd526",
+        "state_reading": "red apple, carrot, peanuts, red question mark",
+        "answer_reading": "carrot, red apple, peanuts, cucumber, green salad",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "9a704e5ab644d595",
+        "state_reading": "slightly smiling face, face with thermometer, hospital, red question mark",
+        "answer_reading": "thinking face, health worker, hospital, pill",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "9620c26f7155f184",
+        "state_reading": "cloud with rain, straight ruler, red question mark",
+        "answer_reading": "cloud with rain, straight ruler",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "86a3a1c78dbc18af",
+        "state_reading": "dna, student, red question mark",
+        "answer_reading": "dna, brain, family",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "ce868481ed2e1369",
+        "state_reading": "cat, thinking face, teddy bear, tennis, red question mark",
+        "answer_reading": "tennis, teddy bear, man running, grinning cat",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "5dcd97dd2cd4ec94",
+        "state_reading": "seedling, red question mark",
+        "answer_reading": "sun, droplet, potted plant, seedling, farmer",
+        "unsupported_meanings": false
+      }
+    ]
+  },
+  "decoder": {
+    "id": "resp_09c0bac49b9beb9b016abfa43d1d5087d09d6c88398b9bded7",
+    "model": "gpt-4.1-2025-04-14",
+    "usage": {
+      "input_tokens": 1350,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 499,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1849
+    }
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "b15c218dd149f78e",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state reading retains the core subject (phone, battery problem); the answer directly suggests ways to extend battery life (sleep mode, dim, off)."
+      },
+      {
+        "id": "f7bc2488732b0092",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The answer lists musical objects but does not define 'violin' as requested by the question. A list of instruments does not answer a 'what is' request."
+      },
+      {
+        "id": "5705576de6cffe64",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state is faithful (trouble sleeping). The answer reading lists several factors affecting sleep (bed, clock, no phones, moon, meditation), which is relevant to what affects sleep quality."
+      },
+      {
+        "id": "1759dfa120c41921",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "Question asks for Paris landmarks; the answer lists iconic symbols of Paris (tower, castle, art, food), thus is faithful."
+      },
+      {
+        "id": "39201c44085dd526",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state and answer lists healthy snacks appropriately and faithfully answers a request for suggestions."
+      },
+      {
+        "id": "9a704e5ab644d595",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the scenario (uncertain illness); the answer gives plausible steps (think, consult, hospital, medicine) aligned with deciding whether to see a doctor."
+      },
+      {
+        "id": "9620c26f7155f184",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the question (measuring rain); the answer directly presents the measure (rain + ruler, implying rain gauge measurement)."
+      },
+      {
+        "id": "86a3a1c78dbc18af",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The question asks for the definition of heredity; the answer lists related objects but does not define the term."
+      },
+      {
+        "id": "ce868481ed2e1369",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "State and answer relate to cat entertainment (toys, activity), thus the answer reading provides faithful suggestions to keep a cat entertained."
+      },
+      {
+        "id": "5dcd97dd2cd4ec94",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "State is about plant growth; answer lists key needs (sun, water, care), which directly answers the question."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_02003c872d98af09016abfa44046c087d0bd1daa7e48c0554f",
+    "model": "gpt-4.1-2025-04-14",
+    "usage": {
+      "input_tokens": 959,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 585,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1544
+    }
+  }
+}

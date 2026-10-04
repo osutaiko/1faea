@@ -1,0 +1,13 @@
+{
+  "source": "HuggingFaceTB/everyday-conversations-llama3.1-2k",
+  "source_sha256": "ebaad5807902139273497b010894d3cb35e045dbe3c006a42ac039079c2c9114",
+  "assistant_text_used": false,
+  "source_indices_start": 24,
+  "counts": {
+    "train": 160,
+    "validation": 20,
+    "test": 20
+  },
+  "split": "normalized question SHA-256 modulo ten; semantic overlap not yet audited",
+  "status": "questions prepared; no teacher labels or training yet"
+}

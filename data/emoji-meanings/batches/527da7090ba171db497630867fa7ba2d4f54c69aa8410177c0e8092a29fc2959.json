@@ -1,0 +1,725 @@
+{
+  "names": [
+    "frog",
+    "crocodile",
+    "turtle",
+    "lizard",
+    "snake",
+    "dragon face",
+    "dragon",
+    "sauropod",
+    "T-Rex",
+    "spouting whale",
+    "whale",
+    "dolphin",
+    "orca",
+    "seal",
+    "tropical fish",
+    "blowfish",
+    "shark",
+    "octopus",
+    "spiral shell",
+    "coral",
+    "jellyfish",
+    "crab",
+    "lobster",
+    "shrimp",
+    "squid",
+    "oyster",
+    "snail",
+    "butterfly",
+    "bug",
+    "ant",
+    "honeybee",
+    "beetle",
+    "lady beetle",
+    "cricket",
+    "cockroach",
+    "spider",
+    "spider web",
+    "scorpion",
+    "mosquito",
+    "fly"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "frog",
+        "associations": [
+          "amphibian",
+          "pond",
+          "jump",
+          "croak",
+          "green",
+          "wetland"
+        ]
+      },
+      {
+        "id": "crocodile",
+        "associations": [
+          "reptile",
+          "river",
+          "jaws",
+          "scales",
+          "predator",
+          "swamp"
+        ]
+      },
+      {
+        "id": "turtle",
+        "associations": [
+          "shell",
+          "slow",
+          "reptile",
+          "crawl",
+          "patience",
+          "beach"
+        ]
+      },
+      {
+        "id": "lizard",
+        "associations": [
+          "reptile",
+          "tail",
+          "scales",
+          "sunbask",
+          "crawl",
+          "small animal"
+        ]
+      },
+      {
+        "id": "snake",
+        "associations": [
+          "slither",
+          "reptile",
+          "fangs",
+          "coil",
+          "venom",
+          "grass"
+        ]
+      },
+      {
+        "id": "dragon face",
+        "associations": [
+          "myth",
+          "face",
+          "fire",
+          "fantasy",
+          "reptile-like",
+          "mask"
+        ]
+      },
+      {
+        "id": "dragon",
+        "associations": [
+          "myth",
+          "fire",
+          "wings",
+          "fantasy",
+          "power",
+          "legend"
+        ]
+      },
+      {
+        "id": "sauropod",
+        "associations": [
+          "dinosaur",
+          "long neck",
+          "herbivore",
+          "giant",
+          "prehistoric",
+          "tail"
+        ]
+      },
+      {
+        "id": "T-Rex",
+        "associations": [
+          "dinosaur",
+          "predator",
+          "teeth",
+          "prehistoric",
+          "power",
+          "hunt"
+        ]
+      },
+      {
+        "id": "spouting whale",
+        "associations": [
+          "whale",
+          "blowhole",
+          "ocean",
+          "spray",
+          "giant",
+          "marine"
+        ]
+      },
+      {
+        "id": "whale",
+        "associations": [
+          "ocean",
+          "giant",
+          "marine",
+          "mammal",
+          "deep sea",
+          "song"
+        ]
+      },
+      {
+        "id": "dolphin",
+        "associations": [
+          "smart",
+          "ocean",
+          "swim",
+          "playful",
+          "marine",
+          "leap"
+        ]
+      },
+      {
+        "id": "orca",
+        "associations": [
+          "black-and-white",
+          "ocean",
+          "predator",
+          "marine",
+          "pod",
+          "sleek"
+        ]
+      },
+      {
+        "id": "seal",
+        "associations": [
+          "flipper",
+          "ocean",
+          "cute",
+          "marine",
+          "rest",
+          "swim"
+        ]
+      },
+      {
+        "id": "tropical fish",
+        "associations": [
+          "colorful",
+          "reef",
+          "swim",
+          "aquarium",
+          "marine",
+          "small"
+        ]
+      },
+      {
+        "id": "blowfish",
+        "associations": [
+          "puffer",
+          "inflate",
+          "spines",
+          "marine",
+          "round",
+          "defense"
+        ]
+      },
+      {
+        "id": "shark",
+        "associations": [
+          "predator",
+          "ocean",
+          "teeth",
+          "fins",
+          "danger",
+          "swim"
+        ]
+      },
+      {
+        "id": "octopus",
+        "associations": [
+          "tentacles",
+          "smart",
+          "marine",
+          "squeeze",
+          "camouflage",
+          "ink"
+        ]
+      },
+      {
+        "id": "spiral shell",
+        "associations": [
+          "shell",
+          "spiral",
+          "beach",
+          "sea",
+          "curved",
+          "collecting"
+        ]
+      },
+      {
+        "id": "coral",
+        "associations": [
+          "reef",
+          "ocean",
+          "colorful",
+          "marine",
+          "branching",
+          "seabed"
+        ]
+      },
+      {
+        "id": "jellyfish",
+        "associations": [
+          "tentacles",
+          "marine",
+          "drift",
+          "sting",
+          "transparent",
+          "ocean"
+        ]
+      },
+      {
+        "id": "crab",
+        "associations": [
+          "claw",
+          "shell",
+          "sideways",
+          "beach",
+          "marine",
+          "pinch"
+        ]
+      },
+      {
+        "id": "lobster",
+        "associations": [
+          "claw",
+          "shell",
+          "red",
+          "marine",
+          "seafood",
+          "crustacean"
+        ]
+      },
+      {
+        "id": "shrimp",
+        "associations": [
+          "small",
+          "marine",
+          "shellfish",
+          "pink",
+          "swim",
+          "seafood"
+        ]
+      },
+      {
+        "id": "squid",
+        "associations": [
+          "tentacles",
+          "marine",
+          "ink",
+          "swim",
+          "cephalopod",
+          "ocean"
+        ]
+      },
+      {
+        "id": "oyster",
+        "associations": [
+          "shell",
+          "pearl",
+          "bivalve",
+          "marine",
+          "close",
+          "seabed"
+        ]
+      },
+      {
+        "id": "snail",
+        "associations": [
+          "shell",
+          "slow",
+          "crawl",
+          "garden",
+          "slimy",
+          "small"
+        ]
+      },
+      {
+        "id": "butterfly",
+        "associations": [
+          "wings",
+          "flutter",
+          "colorful",
+          "flower",
+          "metamorphosis",
+          "delicate"
+        ]
+      },
+      {
+        "id": "bug",
+        "associations": [
+          "insect",
+          "crawl",
+          "small",
+          "pest",
+          "antennae",
+          "outdoors"
+        ]
+      },
+      {
+        "id": "ant",
+        "associations": [
+          "insect",
+          "colony",
+          "crawl",
+          "worker",
+          "trail",
+          "small"
+        ]
+      },
+      {
+        "id": "honeybee",
+        "associations": [
+          "pollinator",
+          "hive",
+          "sting",
+          "buzz",
+          "flower",
+          "honey"
+        ]
+      },
+      {
+        "id": "beetle",
+        "associations": [
+          "insect",
+          "shell",
+          "crawl",
+          "hardback",
+          "antennae",
+          "small"
+        ]
+      },
+      {
+        "id": "lady beetle",
+        "associations": [
+          "insect",
+          "spots",
+          "red",
+          "garden",
+          "tiny",
+          "beneficial"
+        ]
+      },
+      {
+        "id": "cricket",
+        "associations": [
+          "insect",
+          "chirp",
+          "jump",
+          "night",
+          "grass",
+          "small"
+        ]
+      },
+      {
+        "id": "cockroach",
+        "associations": [
+          "insect",
+          "crawl",
+          "pest",
+          "dark",
+          "fast",
+          "urban"
+        ]
+      },
+      {
+        "id": "spider",
+        "associations": [
+          "eight legs",
+          "web",
+          "crawl",
+          "arachnid",
+          "silk",
+          "small"
+        ]
+      },
+      {
+        "id": "spider web",
+        "associations": [
+          "silk",
+          "trap",
+          "thread",
+          "web",
+          "sticky",
+          "pattern"
+        ]
+      },
+      {
+        "id": "scorpion",
+        "associations": [
+          "stinger",
+          "claws",
+          "desert",
+          "arachnid",
+          "venom",
+          "tail"
+        ]
+      },
+      {
+        "id": "mosquito",
+        "associations": [
+          "bite",
+          "buzz",
+          "pest",
+          "blood",
+          "summer",
+          "insect"
+        ]
+      },
+      {
+        "id": "fly",
+        "associations": [
+          "buzz",
+          "wings",
+          "insect",
+          "pest",
+          "quick",
+          "hover"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0e7cd6c6f9fb29d4016abfaec1b9c887d0931ea815bc0bf736",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1334,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 814,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2148
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "frog",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a frog."
+      },
+      {
+        "id": "crocodile",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a crocodile."
+      },
+      {
+        "id": "turtle",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a turtle."
+      },
+      {
+        "id": "lizard",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a lizard."
+      },
+      {
+        "id": "snake",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a snake."
+      },
+      {
+        "id": "dragon face",
+        "rejected": [],
+        "reason": "Associations stay within the mythic dragon face meaning; no unrelated or misleading items."
+      },
+      {
+        "id": "dragon",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a dragon."
+      },
+      {
+        "id": "sauropod",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a sauropod."
+      },
+      {
+        "id": "T-Rex",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a T-Rex."
+      },
+      {
+        "id": "spouting whale",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a spouting whale emoji."
+      },
+      {
+        "id": "whale",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a whale."
+      },
+      {
+        "id": "dolphin",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a dolphin."
+      },
+      {
+        "id": "orca",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to an orca."
+      },
+      {
+        "id": "seal",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a seal."
+      },
+      {
+        "id": "tropical fish",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to tropical fish."
+      },
+      {
+        "id": "blowfish",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a blowfish/pufferfish."
+      },
+      {
+        "id": "shark",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a shark."
+      },
+      {
+        "id": "octopus",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to an octopus."
+      },
+      {
+        "id": "spiral shell",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a spiral shell."
+      },
+      {
+        "id": "coral",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to coral."
+      },
+      {
+        "id": "jellyfish",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a jellyfish."
+      },
+      {
+        "id": "crab",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a crab."
+      },
+      {
+        "id": "lobster",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a lobster."
+      },
+      {
+        "id": "shrimp",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to shrimp."
+      },
+      {
+        "id": "squid",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a squid."
+      },
+      {
+        "id": "oyster",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to an oyster."
+      },
+      {
+        "id": "snail",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a snail."
+      },
+      {
+        "id": "butterfly",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a butterfly."
+      },
+      {
+        "id": "bug",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a bug/insect."
+      },
+      {
+        "id": "ant",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to an ant."
+      },
+      {
+        "id": "honeybee",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a honeybee."
+      },
+      {
+        "id": "beetle",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a beetle."
+      },
+      {
+        "id": "lady beetle",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a lady beetle."
+      },
+      {
+        "id": "cricket",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a cricket."
+      },
+      {
+        "id": "cockroach",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a cockroach."
+      },
+      {
+        "id": "spider",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a spider."
+      },
+      {
+        "id": "spider web",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a spider web."
+      },
+      {
+        "id": "scorpion",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a scorpion."
+      },
+      {
+        "id": "mosquito",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a mosquito."
+      },
+      {
+        "id": "fly",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to a fly."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_023d26c19eacf026016abfaec7e6f887d0b713a0969142a49b",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2671,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 848,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3519
+    }
+  }
+}

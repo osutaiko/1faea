@@ -1,0 +1,147 @@
+{
+  "result": {
+    "rows": [
+      {
+        "id": "b15c218dd149f78e",
+        "overlaps": false,
+        "reason": "No held-out question asks about phone battery life or extending battery longevity."
+      },
+      {
+        "id": "5705576de6cffe64",
+        "overlaps": true,
+        "reason": "A held-out question asks the same thing in paraphrased form: getting tips/suggestions for trouble sleeping at night."
+      },
+      {
+        "id": "39201c44085dd526",
+        "overlaps": false,
+        "reason": "No held-out question is specifically about healthy snack suggestions."
+      },
+      {
+        "id": "5dcd97dd2cd4ec94",
+        "overlaps": false,
+        "reason": "No held-out question asks what plants need to grow."
+      },
+      {
+        "id": "c7f5bfd71dc71ad6",
+        "overlaps": false,
+        "reason": "No held-out question asks what a life cycle is."
+      },
+      {
+        "id": "4e70be3d7ff9c2b4",
+        "overlaps": false,
+        "reason": "No held-out question asks for beginner kitchen utensil must-haves."
+      },
+      {
+        "id": "cfbd3d2563fa88e0",
+        "overlaps": false,
+        "reason": "No held-out question is about coworker conflict or workplace relationships."
+      },
+      {
+        "id": "176ab1e08ec2fa2b",
+        "overlaps": false,
+        "reason": "No held-out question asks for subway rules or transit etiquette."
+      },
+      {
+        "id": "5f372e717a3409a8",
+        "overlaps": false,
+        "reason": "No held-out question asks about types of food in general."
+      },
+      {
+        "id": "44bbeb72d1161f73",
+        "overlaps": true,
+        "reason": "A held-out question asks the same thing in paraphrased form: suggestions for trouble sleeping at night."
+      },
+      {
+        "id": "7c86af4aafe7dba2",
+        "overlaps": false,
+        "reason": "No held-out question asks about window shopping versus comparison shopping."
+      },
+      {
+        "id": "ee5fde4dc538f3da",
+        "overlaps": false,
+        "reason": "No held-out question asks whether traffic is bad for the environment."
+      },
+      {
+        "id": "fbd7c3f01b0cea98",
+        "overlaps": false,
+        "reason": "No held-out question asks for gluten-free main course options."
+      },
+      {
+        "id": "0854fea7f4c1c6f2",
+        "overlaps": false,
+        "reason": "No held-out question asks about summer fashion colors or trends."
+      },
+      {
+        "id": "cf9657134853fb80",
+        "overlaps": false,
+        "reason": "No held-out question asks for a favorite cooking show."
+      },
+      {
+        "id": "ec08d18e71378121",
+        "overlaps": false,
+        "reason": "No held-out question asks about Japanese culture or customs."
+      },
+      {
+        "id": "d35d6cedf8c50dba",
+        "overlaps": true,
+        "reason": "A held-out question asks the same thing in paraphrased form: making a shopping list / things to have on a shopping list."
+      },
+      {
+        "id": "b4769445e9c5403e",
+        "overlaps": false,
+        "reason": "No held-out question asks about housewarming or celebrating a new home."
+      },
+      {
+        "id": "cd1737f6ac55a85f",
+        "overlaps": false,
+        "reason": "No held-out question asks about ocean pollution."
+      },
+      {
+        "id": "3e638c4f3a6ad6fe",
+        "overlaps": false,
+        "reason": "No held-out question asks about current fashion trends."
+      },
+      {
+        "id": "7f437a9e37873a04",
+        "overlaps": false,
+        "reason": "No held-out question asks what continent ancient Egypt was on."
+      },
+      {
+        "id": "e543ca1d0cd49b09",
+        "overlaps": false,
+        "reason": "No held-out question asks for a popular song right now."
+      },
+      {
+        "id": "c82ca3a1529bcca4",
+        "overlaps": false,
+        "reason": "No held-out question asks about plane crash risk or air travel safety."
+      },
+      {
+        "id": "ebc52954f68611a8",
+        "overlaps": false,
+        "reason": "No held-out question asks how wind affects agriculture."
+      },
+      {
+        "id": "73e5b3e007311f52",
+        "overlaps": false,
+        "reason": "No held-out question asks for culturally significant family recipes."
+      }
+    ]
+  },
+  "metadata": {
+    "id": "resp_07b8c864ffe3c345016abfa6c47bec87d0b40b1fd805753ecf",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2515,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 977,
+      "output_tokens_details": {
+        "reasoning_tokens": 108
+      },
+      "total_tokens": 3492
+    }
+  }
+}

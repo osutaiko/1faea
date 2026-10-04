@@ -1,0 +1,689 @@
+{
+  "names": [
+    "takeout box",
+    "soft ice cream",
+    "shaved ice",
+    "ice cream",
+    "doughnut",
+    "cookie",
+    "birthday cake",
+    "shortcake",
+    "cupcake",
+    "pie",
+    "chocolate bar",
+    "candy",
+    "lollipop",
+    "custard",
+    "honey pot",
+    "baby bottle",
+    "glass of milk",
+    "hot beverage",
+    "teapot",
+    "teacup without handle",
+    "sake",
+    "bottle with popping cork",
+    "wine glass",
+    "cocktail glass",
+    "tropical drink",
+    "beer mug",
+    "clinking beer mugs",
+    "clinking glasses",
+    "tumbler glass",
+    "pouring liquid",
+    "cup with straw",
+    "bubble tea",
+    "beverage box",
+    "mate",
+    "ice",
+    "chopsticks",
+    "fork and knife with plate",
+    "fork and knife",
+    "spoon",
+    "kitchen knife"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "takeout box",
+        "associations": [
+          "food container",
+          "carryout meal",
+          "leftovers",
+          "lunch box",
+          "packaging"
+        ]
+      },
+      {
+        "id": "soft ice cream",
+        "associations": [
+          "frozen dessert",
+          "cone",
+          "swirl",
+          "summer treat",
+          "sweet"
+        ]
+      },
+      {
+        "id": "shaved ice",
+        "associations": [
+          "cold dessert",
+          "flavor syrup",
+          "snowy texture",
+          "refreshing",
+          "summer snack"
+        ]
+      },
+      {
+        "id": "ice cream",
+        "associations": [
+          "frozen treat",
+          "scoop",
+          "dessert",
+          "cold sweet",
+          "cone"
+        ]
+      },
+      {
+        "id": "doughnut",
+        "associations": [
+          "pastry",
+          "sweet ring",
+          "glazed",
+          "snack",
+          "bakery item"
+        ]
+      },
+      {
+        "id": "cookie",
+        "associations": [
+          "baked treat",
+          "sweet snack",
+          "crumbly",
+          "biscuit",
+          "dessert"
+        ]
+      },
+      {
+        "id": "birthday cake",
+        "associations": [
+          "celebration",
+          "candles",
+          "party",
+          "frosting",
+          "special occasion"
+        ]
+      },
+      {
+        "id": "shortcake",
+        "associations": [
+          "strawberries",
+          "cream",
+          "cake slice",
+          "dessert",
+          "fruit"
+        ]
+      },
+      {
+        "id": "cupcake",
+        "associations": [
+          "small cake",
+          "frosting",
+          "party treat",
+          "single serving",
+          "sweet"
+        ]
+      },
+      {
+        "id": "pie",
+        "associations": [
+          "crust",
+          "slice",
+          "baked dessert",
+          "fruit filling",
+          "serving"
+        ]
+      },
+      {
+        "id": "chocolate bar",
+        "associations": [
+          "candy",
+          "cocoa",
+          "sweet snack",
+          "wrapper",
+          "piece"
+        ]
+      },
+      {
+        "id": "candy",
+        "associations": [
+          "sugar",
+          "sweetness",
+          "treat",
+          "sweets",
+          "snack"
+        ]
+      },
+      {
+        "id": "lollipop",
+        "associations": [
+          "sucker",
+          "stick",
+          "sweet",
+          "hard candy",
+          "childhood"
+        ]
+      },
+      {
+        "id": "custard",
+        "associations": [
+          "creaminess",
+          "dessert",
+          "pudding",
+          "smooth texture",
+          "sweet"
+        ]
+      },
+      {
+        "id": "honey pot",
+        "associations": [
+          "honey",
+          "sweetener",
+          "jar",
+          "sticky",
+          "breakfast"
+        ]
+      },
+      {
+        "id": "baby bottle",
+        "associations": [
+          "infant feeding",
+          "milk",
+          "nursery",
+          "nipple",
+          "care"
+        ]
+      },
+      {
+        "id": "glass of milk",
+        "associations": [
+          "dairy",
+          "drink",
+          "white beverage",
+          "calcium",
+          "refreshment"
+        ]
+      },
+      {
+        "id": "hot beverage",
+        "associations": [
+          "warm drink",
+          "steam",
+          "mug",
+          "comfort",
+          "morning"
+        ]
+      },
+      {
+        "id": "teapot",
+        "associations": [
+          "tea service",
+          "brew",
+          "kettle",
+          "pouring",
+          "ceramic"
+        ]
+      },
+      {
+        "id": "teacup without handle",
+        "associations": [
+          "tea",
+          "cup",
+          "saucer",
+          "sip",
+          "delicate"
+        ]
+      },
+      {
+        "id": "sake",
+        "associations": [
+          "rice wine",
+          "Japanese drink",
+          "alcohol",
+          "toast",
+          "cup"
+        ]
+      },
+      {
+        "id": "bottle with popping cork",
+        "associations": [
+          "celebration",
+          "sparkling wine",
+          "toast",
+          "party",
+          "opening"
+        ]
+      },
+      {
+        "id": "wine glass",
+        "associations": [
+          "wine",
+          "stemware",
+          "toast",
+          "dinner",
+          "red or white"
+        ]
+      },
+      {
+        "id": "cocktail glass",
+        "associations": [
+          "mixed drink",
+          "martini",
+          "stemmed glass",
+          "bar",
+          "cocktail"
+        ]
+      },
+      {
+        "id": "tropical drink",
+        "associations": [
+          "vacation",
+          "umbrella",
+          "fruit juice",
+          "beach",
+          "refreshing"
+        ]
+      },
+      {
+        "id": "beer mug",
+        "associations": [
+          "beer",
+          "frothy",
+          "pub",
+          "cheers",
+          "drink"
+        ]
+      },
+      {
+        "id": "clinking beer mugs",
+        "associations": [
+          "cheers",
+          "toast",
+          "beer",
+          "celebration",
+          "pub"
+        ]
+      },
+      {
+        "id": "clinking glasses",
+        "associations": [
+          "toast",
+          "celebration",
+          "cheers",
+          "drinks",
+          "gathering"
+        ]
+      },
+      {
+        "id": "tumbler glass",
+        "associations": [
+          "glassware",
+          "water",
+          "whiskey",
+          "table setting",
+          "drink"
+        ]
+      },
+      {
+        "id": "pouring liquid",
+        "associations": [
+          "stream",
+          "fill",
+          "serving",
+          "flow",
+          "transfer"
+        ]
+      },
+      {
+        "id": "cup with straw",
+        "associations": [
+          "cold drink",
+          "sipping",
+          "takeaway",
+          "beverage",
+          "straw"
+        ]
+      },
+      {
+        "id": "bubble tea",
+        "associations": [
+          "tea drink",
+          "tapioca pearls",
+          "sweet beverage",
+          "straw",
+          "trend"
+        ]
+      },
+      {
+        "id": "beverage box",
+        "associations": [
+          "juice box",
+          "carton",
+          "drink",
+          "portable",
+          "straw"
+        ]
+      },
+      {
+        "id": "mate",
+        "associations": [
+          "herbal tea",
+          "gourd",
+          "straw",
+          "South American drink",
+          "shared"
+        ]
+      },
+      {
+        "id": "ice",
+        "associations": [
+          "frozen water",
+          "cold",
+          "cube",
+          "chill",
+          "melting"
+        ]
+      },
+      {
+        "id": "chopsticks",
+        "associations": [
+          "eating utensil",
+          "pair",
+          "Asian cuisine",
+          "pickup",
+          "tableware"
+        ]
+      },
+      {
+        "id": "fork and knife with plate",
+        "associations": [
+          "meal setting",
+          "tableware",
+          "dining",
+          "place setting",
+          "restaurant"
+        ]
+      },
+      {
+        "id": "fork and knife",
+        "associations": [
+          "utensils",
+          "eating",
+          "tableware",
+          "meal",
+          "dining"
+        ]
+      },
+      {
+        "id": "spoon",
+        "associations": [
+          "utensil",
+          "scoop",
+          "soup",
+          "dessert",
+          "tableware"
+        ]
+      },
+      {
+        "id": "kitchen knife",
+        "associations": [
+          "cutting",
+          "blade",
+          "prep",
+          "slicing",
+          "tool"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0748542cca15ab13016abfaed7b3d487d08bbcba0fd434b549",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1385,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 768,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2153
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "takeout box",
+        "rejected": [
+          "lunch box"
+        ],
+        "reason": "A takeout box is for carryout food, but 'lunch box' is a different, more specific reusable container and can mislead as a substitution."
+      },
+      {
+        "id": "soft ice cream",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "shaved ice",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "ice cream",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "doughnut",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "cookie",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "birthday cake",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "shortcake",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "cupcake",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "pie",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "chocolate bar",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "candy",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "lollipop",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "custard",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "honey pot",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "baby bottle",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "glass of milk",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "hot beverage",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "teapot",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "teacup without handle",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "sake",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "bottle with popping cork",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "wine glass",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "cocktail glass",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "tropical drink",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "beer mug",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "clinking beer mugs",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "clinking glasses",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "tumbler glass",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "pouring liquid",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "cup with straw",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "bubble tea",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "beverage box",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "mate",
+        "rejected": [
+          "herbal tea"
+        ],
+        "reason": "Mate is a specific South American caffeinated drink, not an herbal tea."
+      },
+      {
+        "id": "ice",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "chopsticks",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "fork and knife with plate",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "fork and knife",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "spoon",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      },
+      {
+        "id": "kitchen knife",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to the emoji meaning."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_066b6860cd7552d3016abfaedcfd2087d0836042d6de1b9e4a",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2602,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 907,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3509
+    }
+  }
+}

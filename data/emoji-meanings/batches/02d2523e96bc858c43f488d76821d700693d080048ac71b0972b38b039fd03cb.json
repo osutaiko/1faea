@@ -1,0 +1,717 @@
+{
+  "names": [
+    "ring buoy",
+    "sailboat",
+    "canoe",
+    "speedboat",
+    "passenger ship",
+    "ferry",
+    "motor boat",
+    "ship",
+    "airplane",
+    "small airplane",
+    "airplane departure",
+    "airplane arrival",
+    "parachute",
+    "seat",
+    "helicopter",
+    "suspension railway",
+    "mountain cableway",
+    "aerial tramway",
+    "satellite",
+    "rocket",
+    "flying saucer",
+    "bellhop bell",
+    "luggage",
+    "hourglass done",
+    "hourglass not done",
+    "watch",
+    "alarm clock",
+    "stopwatch",
+    "timer clock",
+    "mantelpiece clock",
+    "twelve o’clock",
+    "twelve-thirty",
+    "one o’clock",
+    "one-thirty",
+    "two o’clock",
+    "two-thirty",
+    "three o’clock",
+    "three-thirty",
+    "four o’clock",
+    "four-thirty"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "ring buoy",
+        "associations": [
+          "lifebuoy",
+          "water rescue",
+          "floating ring",
+          "safety gear",
+          "emergency"
+        ]
+      },
+      {
+        "id": "sailboat",
+        "associations": [
+          "sailing",
+          "wind-powered",
+          "mast",
+          "harbor",
+          "leisure"
+        ]
+      },
+      {
+        "id": "canoe",
+        "associations": [
+          "paddling",
+          "river trip",
+          "small boat",
+          "outdoors",
+          "watercraft"
+        ]
+      },
+      {
+        "id": "speedboat",
+        "associations": [
+          "fast boat",
+          "speed",
+          "wake",
+          "motorized",
+          "water travel"
+        ]
+      },
+      {
+        "id": "passenger ship",
+        "associations": [
+          "cruise",
+          "ocean travel",
+          "cabins",
+          "voyage",
+          "large vessel"
+        ]
+      },
+      {
+        "id": "ferry",
+        "associations": [
+          "crossing",
+          "commute",
+          "vehicle transport",
+          "harbor",
+          "passengers"
+        ]
+      },
+      {
+        "id": "motor boat",
+        "associations": [
+          "motorized boat",
+          "boating",
+          "lake",
+          "engine",
+          "recreation"
+        ]
+      },
+      {
+        "id": "ship",
+        "associations": [
+          "vessel",
+          "sea travel",
+          "cargo",
+          "naval",
+          "maritime"
+        ]
+      },
+      {
+        "id": "airplane",
+        "associations": [
+          "flight",
+          "air travel",
+          "airport",
+          "boarding",
+          "journey"
+        ]
+      },
+      {
+        "id": "small airplane",
+        "associations": [
+          "light aircraft",
+          "private flight",
+          "propeller",
+          "airstrip",
+          "aviation"
+        ]
+      },
+      {
+        "id": "airplane departure",
+        "associations": [
+          "takeoff",
+          "leaving",
+          "boarding gate",
+          "flight out",
+          "airport"
+        ]
+      },
+      {
+        "id": "airplane arrival",
+        "associations": [
+          "landing",
+          "arriving",
+          "terminal",
+          "flight in",
+          "airport"
+        ]
+      },
+      {
+        "id": "parachute",
+        "associations": [
+          "paratrooper",
+          "jump",
+          "descent",
+          "canopy",
+          "skydiving"
+        ]
+      },
+      {
+        "id": "seat",
+        "associations": [
+          "chair",
+          "place to sit",
+          "passenger",
+          "rest",
+          "row"
+        ]
+      },
+      {
+        "id": "helicopter",
+        "associations": [
+          "rotor",
+          "hovering",
+          "air rescue",
+          "aircraft",
+          "short flight"
+        ]
+      },
+      {
+        "id": "suspension railway",
+        "associations": [
+          "cable transit",
+          "elevated line",
+          "carriage",
+          "commute",
+          "mountain route"
+        ]
+      },
+      {
+        "id": "mountain cableway",
+        "associations": [
+          "cable car",
+          "mountain lift",
+          "ride",
+          "viewpoint",
+          "scenic"
+        ]
+      },
+      {
+        "id": "aerial tramway",
+        "associations": [
+          "cable cabin",
+          "gondola",
+          "sky ride",
+          "cable transport",
+          "height"
+        ]
+      },
+      {
+        "id": "satellite",
+        "associations": [
+          "orbit",
+          "space",
+          "signal",
+          "communication",
+          "spacecraft"
+        ]
+      },
+      {
+        "id": "rocket",
+        "associations": [
+          "launch",
+          "spaceflight",
+          "thruster",
+          "explosion",
+          "ascent"
+        ]
+      },
+      {
+        "id": "flying saucer",
+        "associations": [
+          "UFO",
+          "spaceship",
+          "alien",
+          "hovering",
+          "science fiction"
+        ]
+      },
+      {
+        "id": "bellhop bell",
+        "associations": [
+          "service bell",
+          "hotel",
+          "attention",
+          "desk",
+          "ring"
+        ]
+      },
+      {
+        "id": "luggage",
+        "associations": [
+          "suitcase",
+          "travel bag",
+          "packing",
+          "airport",
+          "baggage"
+        ]
+      },
+      {
+        "id": "hourglass done",
+        "associations": [
+          "elapsed",
+          "finished",
+          "time up",
+          "complete",
+          "waiting over"
+        ]
+      },
+      {
+        "id": "hourglass not done",
+        "associations": [
+          "still waiting",
+          "in progress",
+          "time passing",
+          "delay",
+          "unfinished"
+        ]
+      },
+      {
+        "id": "watch",
+        "associations": [
+          "wristwatch",
+          "timepiece",
+          "seconds",
+          "accessory",
+          "schedule"
+        ]
+      },
+      {
+        "id": "alarm clock",
+        "associations": [
+          "wake up",
+          "morning",
+          "ringing",
+          "time alarm",
+          "bedside"
+        ]
+      },
+      {
+        "id": "stopwatch",
+        "associations": [
+          "timing",
+          "seconds",
+          "measurement",
+          "sports",
+          "counting"
+        ]
+      },
+      {
+        "id": "timer clock",
+        "associations": [
+          "countdown",
+          "cooking",
+          "alarm",
+          "time limit",
+          "duration"
+        ]
+      },
+      {
+        "id": "mantelpiece clock",
+        "associations": [
+          "table clock",
+          "home decor",
+          "chiming",
+          "classic",
+          "living room"
+        ]
+      },
+      {
+        "id": "twelve o’clock",
+        "associations": [
+          "midnight",
+          "noon",
+          "full hour",
+          "clock face",
+          "twelve"
+        ]
+      },
+      {
+        "id": "twelve-thirty",
+        "associations": [
+          "half past twelve",
+          "12:30",
+          "midday",
+          "midnight plus thirty",
+          "clock time"
+        ]
+      },
+      {
+        "id": "one o’clock",
+        "associations": [
+          "1:00",
+          "top of the hour",
+          "clock face",
+          "afternoon",
+          "morning"
+        ]
+      },
+      {
+        "id": "one-thirty",
+        "associations": [
+          "half past one",
+          "1:30",
+          "clock time",
+          "afternoon",
+          "morning"
+        ]
+      },
+      {
+        "id": "two o’clock",
+        "associations": [
+          "2:00",
+          "top of the hour",
+          "clock face",
+          "afternoon",
+          "morning"
+        ]
+      },
+      {
+        "id": "two-thirty",
+        "associations": [
+          "half past two",
+          "2:30",
+          "clock time",
+          "afternoon",
+          "morning"
+        ]
+      },
+      {
+        "id": "three o’clock",
+        "associations": [
+          "3:00",
+          "top of the hour",
+          "clock face",
+          "afternoon",
+          "morning"
+        ]
+      },
+      {
+        "id": "three-thirty",
+        "associations": [
+          "half past three",
+          "3:30",
+          "clock time",
+          "afternoon",
+          "morning"
+        ]
+      },
+      {
+        "id": "four o’clock",
+        "associations": [
+          "4:00",
+          "top of the hour",
+          "clock face",
+          "afternoon",
+          "morning"
+        ]
+      },
+      {
+        "id": "four-thirty",
+        "associations": [
+          "half past four",
+          "4:30",
+          "clock time",
+          "afternoon",
+          "morning"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0b48446cdf701f33016abfaeed711087d095504f5ea7979e70",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1409,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 798,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2207
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "ring buoy",
+        "rejected": [],
+        "reason": "All associations are directly related to a lifebuoy/ring buoy."
+      },
+      {
+        "id": "sailboat",
+        "rejected": [],
+        "reason": "All associations are directly related to a sailboat."
+      },
+      {
+        "id": "canoe",
+        "rejected": [],
+        "reason": "All associations are directly related to a canoe."
+      },
+      {
+        "id": "speedboat",
+        "rejected": [],
+        "reason": "All associations are directly related to a speedboat."
+      },
+      {
+        "id": "passenger ship",
+        "rejected": [],
+        "reason": "All associations are directly related to a passenger ship."
+      },
+      {
+        "id": "ferry",
+        "rejected": [],
+        "reason": "All associations are directly related to a ferry."
+      },
+      {
+        "id": "motor boat",
+        "rejected": [],
+        "reason": "All associations are directly related to a motor boat."
+      },
+      {
+        "id": "ship",
+        "rejected": [],
+        "reason": "All associations are directly related to a ship."
+      },
+      {
+        "id": "airplane",
+        "rejected": [],
+        "reason": "All associations are directly related to an airplane."
+      },
+      {
+        "id": "small airplane",
+        "rejected": [],
+        "reason": "All associations are directly related to a small airplane."
+      },
+      {
+        "id": "airplane departure",
+        "rejected": [],
+        "reason": "All associations are directly related to airplane departure/takeoff."
+      },
+      {
+        "id": "airplane arrival",
+        "rejected": [],
+        "reason": "All associations are directly related to airplane arrival/landing."
+      },
+      {
+        "id": "parachute",
+        "rejected": [],
+        "reason": "All associations are directly related to a parachute."
+      },
+      {
+        "id": "seat",
+        "rejected": [],
+        "reason": "All associations are directly related to a seat."
+      },
+      {
+        "id": "helicopter",
+        "rejected": [],
+        "reason": "All associations are directly related to a helicopter."
+      },
+      {
+        "id": "suspension railway",
+        "rejected": [],
+        "reason": "All associations are directly related to a suspension railway."
+      },
+      {
+        "id": "mountain cableway",
+        "rejected": [],
+        "reason": "All associations are directly related to a mountain cableway."
+      },
+      {
+        "id": "aerial tramway",
+        "rejected": [],
+        "reason": "All associations are directly related to an aerial tramway."
+      },
+      {
+        "id": "satellite",
+        "rejected": [],
+        "reason": "All associations are directly related to a satellite."
+      },
+      {
+        "id": "rocket",
+        "rejected": [
+          "explosion"
+        ],
+        "reason": "A rocket is associated with launch/ascent/spaceflight, but 'explosion' is not a core meaning and can be misleading."
+      },
+      {
+        "id": "flying saucer",
+        "rejected": [],
+        "reason": "All associations are directly related to a flying saucer/UFO."
+      },
+      {
+        "id": "bellhop bell",
+        "rejected": [],
+        "reason": "All associations are directly related to a bellhop bell."
+      },
+      {
+        "id": "luggage",
+        "rejected": [],
+        "reason": "All associations are directly related to luggage."
+      },
+      {
+        "id": "hourglass done",
+        "rejected": [],
+        "reason": "All associations are directly related to an hourglass done/elapsed state."
+      },
+      {
+        "id": "hourglass not done",
+        "rejected": [],
+        "reason": "All associations are directly related to an hourglass not done/in progress state."
+      },
+      {
+        "id": "watch",
+        "rejected": [],
+        "reason": "All associations are directly related to a watch."
+      },
+      {
+        "id": "alarm clock",
+        "rejected": [],
+        "reason": "All associations are directly related to an alarm clock."
+      },
+      {
+        "id": "stopwatch",
+        "rejected": [],
+        "reason": "All associations are directly related to a stopwatch."
+      },
+      {
+        "id": "timer clock",
+        "rejected": [],
+        "reason": "All associations are directly related to a timer clock."
+      },
+      {
+        "id": "mantelpiece clock",
+        "rejected": [],
+        "reason": "All associations are directly related to a mantelpiece clock."
+      },
+      {
+        "id": "twelve o’clock",
+        "rejected": [
+          "midnight",
+          "noon"
+        ],
+        "reason": "The association is a specific time reference; the emoji core meaning is the clock showing twelve o’clock, not necessarily midnight or noon."
+      },
+      {
+        "id": "twelve-thirty",
+        "rejected": [
+          "midday",
+          "midnight plus thirty"
+        ],
+        "reason": "The association should reflect 12:30 specifically; 'midday' and 'midnight plus thirty' are misleading substitutions."
+      },
+      {
+        "id": "one o’clock",
+        "rejected": [
+          "afternoon",
+          "morning"
+        ],
+        "reason": "The emoji denotes 1:00 on a clock face; 'afternoon' and 'morning' are context-dependent and not core meaning."
+      },
+      {
+        "id": "one-thirty",
+        "rejected": [
+          "afternoon",
+          "morning"
+        ],
+        "reason": "The emoji denotes 1:30 on a clock face; 'afternoon' and 'morning' are context-dependent and not core meaning."
+      },
+      {
+        "id": "two o’clock",
+        "rejected": [
+          "afternoon",
+          "morning"
+        ],
+        "reason": "The emoji denotes 2:00 on a clock face; 'afternoon' and 'morning' are context-dependent and not core meaning."
+      },
+      {
+        "id": "two-thirty",
+        "rejected": [
+          "afternoon",
+          "morning"
+        ],
+        "reason": "The emoji denotes 2:30 on a clock face; 'afternoon' and 'morning' are context-dependent and not core meaning."
+      },
+      {
+        "id": "three o’clock",
+        "rejected": [
+          "afternoon",
+          "morning"
+        ],
+        "reason": "The emoji denotes 3:00 on a clock face; 'afternoon' and 'morning' are context-dependent and not core meaning."
+      },
+      {
+        "id": "three-thirty",
+        "rejected": [
+          "afternoon",
+          "morning"
+        ],
+        "reason": "The emoji denotes 3:30 on a clock face; 'afternoon' and 'morning' are context-dependent and not core meaning."
+      },
+      {
+        "id": "four o’clock",
+        "rejected": [
+          "afternoon",
+          "morning"
+        ],
+        "reason": "The emoji denotes 4:00 on a clock face; 'afternoon' and 'morning' are context-dependent and not core meaning."
+      },
+      {
+        "id": "four-thirty",
+        "rejected": [
+          "afternoon",
+          "morning"
+        ],
+        "reason": "The emoji denotes 4:30 on a clock face; 'afternoon' and 'morning' are context-dependent and not core meaning."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0a6b5c1032ea69bb016abfaef3719087d0a4a9f038d41ee105",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2650,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1114,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3764
+    }
+  }
+}

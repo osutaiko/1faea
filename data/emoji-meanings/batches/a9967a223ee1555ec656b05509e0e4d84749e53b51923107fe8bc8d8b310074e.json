@@ -1,0 +1,693 @@
+{
+  "names": [
+    "family: man, man, girl",
+    "family: man, man, girl, boy",
+    "family: man, man, boy, boy",
+    "family: man, man, girl, girl",
+    "family: woman, woman, boy",
+    "family: woman, woman, girl",
+    "family: woman, woman, girl, boy",
+    "family: woman, woman, boy, boy",
+    "family: woman, woman, girl, girl",
+    "family: man, boy",
+    "family: man, boy, boy",
+    "family: man, girl",
+    "family: man, girl, boy",
+    "family: man, girl, girl",
+    "family: woman, boy",
+    "family: woman, boy, boy",
+    "family: woman, girl",
+    "family: woman, girl, boy",
+    "family: woman, girl, girl",
+    "speaking head",
+    "bust in silhouette",
+    "busts in silhouette",
+    "people hugging",
+    "family",
+    "family: adult, adult, child",
+    "family: adult, adult, child, child",
+    "family: adult, child",
+    "family: adult, child, child",
+    "footprints",
+    "fingerprint",
+    "",
+    "red hair",
+    "curly hair",
+    "white hair",
+    "bald",
+    "monkey face",
+    "monkey",
+    "gorilla",
+    "orangutan",
+    "dog"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "family: man, man, girl",
+        "associations": [
+          "same-sex parents",
+          "parent-child",
+          "two adults",
+          "child",
+          "family"
+        ]
+      },
+      {
+        "id": "family: man, man, girl, boy",
+        "associations": [
+          "same-sex parents",
+          "parent-child",
+          "two adults",
+          "two children",
+          "family"
+        ]
+      },
+      {
+        "id": "family: man, man, boy, boy",
+        "associations": [
+          "same-sex parents",
+          "parent-child",
+          "two adults",
+          "two children",
+          "family"
+        ]
+      },
+      {
+        "id": "family: man, man, girl, girl",
+        "associations": [
+          "same-sex parents",
+          "parent-child",
+          "two adults",
+          "two children",
+          "family"
+        ]
+      },
+      {
+        "id": "family: woman, woman, boy",
+        "associations": [
+          "same-sex parents",
+          "parent-child",
+          "two adults",
+          "child",
+          "family"
+        ]
+      },
+      {
+        "id": "family: woman, woman, girl",
+        "associations": [
+          "same-sex parents",
+          "parent-child",
+          "two adults",
+          "child",
+          "family"
+        ]
+      },
+      {
+        "id": "family: woman, woman, girl, boy",
+        "associations": [
+          "same-sex parents",
+          "parent-child",
+          "two adults",
+          "two children",
+          "family"
+        ]
+      },
+      {
+        "id": "family: woman, woman, boy, boy",
+        "associations": [
+          "same-sex parents",
+          "parent-child",
+          "two adults",
+          "two children",
+          "family"
+        ]
+      },
+      {
+        "id": "family: woman, woman, girl, girl",
+        "associations": [
+          "same-sex parents",
+          "parent-child",
+          "two adults",
+          "two children",
+          "family"
+        ]
+      },
+      {
+        "id": "family: man, boy",
+        "associations": [
+          "father and son",
+          "parent-child",
+          "adult and child",
+          "family bond",
+          "care"
+        ]
+      },
+      {
+        "id": "family: man, boy, boy",
+        "associations": [
+          "father and sons",
+          "parent-child",
+          "adult and children",
+          "family bond",
+          "care"
+        ]
+      },
+      {
+        "id": "family: man, girl",
+        "associations": [
+          "father and daughter",
+          "parent-child",
+          "adult and child",
+          "family bond",
+          "care"
+        ]
+      },
+      {
+        "id": "family: man, girl, boy",
+        "associations": [
+          "father and children",
+          "parent-child",
+          "adult and children",
+          "family group",
+          "care"
+        ]
+      },
+      {
+        "id": "family: man, girl, girl",
+        "associations": [
+          "father and daughters",
+          "parent-child",
+          "adult and children",
+          "family group",
+          "care"
+        ]
+      },
+      {
+        "id": "family: woman, boy",
+        "associations": [
+          "mother and son",
+          "parent-child",
+          "adult and child",
+          "family bond",
+          "care"
+        ]
+      },
+      {
+        "id": "family: woman, boy, boy",
+        "associations": [
+          "mother and sons",
+          "parent-child",
+          "adult and children",
+          "family bond",
+          "care"
+        ]
+      },
+      {
+        "id": "family: woman, girl",
+        "associations": [
+          "mother and daughter",
+          "parent-child",
+          "adult and child",
+          "family bond",
+          "care"
+        ]
+      },
+      {
+        "id": "family: woman, girl, boy",
+        "associations": [
+          "mother and children",
+          "parent-child",
+          "adult and children",
+          "family group",
+          "care"
+        ]
+      },
+      {
+        "id": "family: woman, girl, girl",
+        "associations": [
+          "mother and daughters",
+          "parent-child",
+          "adult and children",
+          "family group",
+          "care"
+        ]
+      },
+      {
+        "id": "speaking head",
+        "associations": [
+          "speech",
+          "talking",
+          "announcement",
+          "voice",
+          "communication"
+        ]
+      },
+      {
+        "id": "bust in silhouette",
+        "associations": [
+          "profile",
+          "person icon",
+          "shadow",
+          "outline",
+          "anonymous"
+        ]
+      },
+      {
+        "id": "busts in silhouette",
+        "associations": [
+          "people icon",
+          "group",
+          "profiles",
+          "shadow",
+          "anonymous"
+        ]
+      },
+      {
+        "id": "people hugging",
+        "associations": [
+          "embrace",
+          "affection",
+          "support",
+          "closeness",
+          "comfort"
+        ]
+      },
+      {
+        "id": "family",
+        "associations": [
+          "relatives",
+          "household",
+          "togetherness",
+          "parents and children",
+          "bond"
+        ]
+      },
+      {
+        "id": "family: adult, adult, child",
+        "associations": [
+          "two parents",
+          "child",
+          "household",
+          "care",
+          "family"
+        ]
+      },
+      {
+        "id": "family: adult, adult, child, child",
+        "associations": [
+          "two parents",
+          "two children",
+          "household",
+          "care",
+          "family"
+        ]
+      },
+      {
+        "id": "family: adult, child",
+        "associations": [
+          "single parent",
+          "child",
+          "household",
+          "care",
+          "family"
+        ]
+      },
+      {
+        "id": "family: adult, child, child",
+        "associations": [
+          "single parent",
+          "two children",
+          "household",
+          "care",
+          "family"
+        ]
+      },
+      {
+        "id": "footprints",
+        "associations": [
+          "tracks",
+          "steps",
+          "walking",
+          "path",
+          "trail"
+        ]
+      },
+      {
+        "id": "fingerprint",
+        "associations": [
+          "identity",
+          "unique mark",
+          "touch",
+          "evidence",
+          "print"
+        ]
+      },
+      {
+        "id": "",
+        "associations": [
+          "blank",
+          "empty",
+          "placeholder",
+          "missing",
+          "none"
+        ]
+      },
+      {
+        "id": "red hair",
+        "associations": [
+          "ginger hair",
+          "auburn",
+          "hair color",
+          "blazing",
+          "red"
+        ]
+      },
+      {
+        "id": "curly hair",
+        "associations": [
+          "curls",
+          "wavy texture",
+          "hair style",
+          "spirals",
+          "ringlets"
+        ]
+      },
+      {
+        "id": "white hair",
+        "associations": [
+          "gray hair",
+          "silver hair",
+          "hair color",
+          "older age",
+          "pale"
+        ]
+      },
+      {
+        "id": "bald",
+        "associations": [
+          "hairless",
+          "shaved head",
+          "no hair",
+          "clean scalp",
+          "hair loss"
+        ]
+      },
+      {
+        "id": "monkey face",
+        "associations": [
+          "monkey",
+          "primate face",
+          "animal",
+          "playful",
+          "mischief"
+        ]
+      },
+      {
+        "id": "monkey",
+        "associations": [
+          "primate",
+          "animal",
+          "playful",
+          "jungle",
+          "mischief"
+        ]
+      },
+      {
+        "id": "gorilla",
+        "associations": [
+          "ape",
+          "primate",
+          "strong",
+          "animal",
+          "large"
+        ]
+      },
+      {
+        "id": "orangutan",
+        "associations": [
+          "ape",
+          "primate",
+          "tree-dwelling",
+          "animal",
+          "red fur"
+        ]
+      },
+      {
+        "id": "dog",
+        "associations": [
+          "pet",
+          "canine",
+          "animal",
+          "loyal",
+          "companion"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_066d497f0cbbc36f016abfaeb3259887d0ba1e97066d869e38",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1678,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 861,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2539
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "family: man, man, girl",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: man, man, girl, boy",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: man, man, boy, boy",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: man, man, girl, girl",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: woman, woman, boy",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: woman, woman, girl",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: woman, woman, girl, boy",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: woman, woman, boy, boy",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: woman, woman, girl, girl",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: man, boy",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: man, boy, boy",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: man, girl",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: man, girl, boy",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: man, girl, girl",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: woman, boy",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: woman, boy, boy",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: woman, girl",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: woman, girl, boy",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: woman, girl, girl",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "speaking head",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "bust in silhouette",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "busts in silhouette",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "people hugging",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: adult, adult, child",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: adult, adult, child, child",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: adult, child",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "family: adult, child, child",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "footprints",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "fingerprint",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "red hair",
+        "rejected": [
+          "blazing"
+        ],
+        "reason": "\"blazing\" is an unrelated metaphor and not a valid literal association for hair color."
+      },
+      {
+        "id": "curly hair",
+        "rejected": [
+          "wavy texture"
+        ],
+        "reason": "\"wavy texture\" is not the same as curly hair and is a misleading substitution."
+      },
+      {
+        "id": "white hair",
+        "rejected": [
+          "pale"
+        ],
+        "reason": "\"pale\" is unrelated to hair color and can imply skin tone instead."
+      },
+      {
+        "id": "bald",
+        "rejected": [
+          "clean scalp"
+        ],
+        "reason": "\"clean scalp\" is an odd unsupported phrase rather than a direct baldness association."
+      },
+      {
+        "id": "monkey face",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "monkey",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "gorilla",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "orangutan",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "dog",
+        "rejected": [],
+        "reason": "All associations are ordinary and directly related to the emoji meaning."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0f98cde1c03c7821016abfaeb8b80087d0bf1ac3f17f2681a6",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2792,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1046,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3838
+    }
+  }
+}

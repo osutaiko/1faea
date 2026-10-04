@@ -1,0 +1,198 @@
+{
+  "model": "gpt-5.4-mini",
+  "controls_passed": false,
+  "candidate_approvals": 5,
+  "candidates": 20,
+  "training_performed": false,
+  "verdicts": [
+    {
+      "id": "b15c218dd149f78e",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state preserves the phone-battery topic, but the answer only lists unrelated icons plus an unsupported 'sleeping' interpretation; it does not faithfully answer ways to make battery last longer.",
+      "approved": false
+    },
+    {
+      "id": "f7bc2488732b0092",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state keeps the subject of a violin, but the answer is just a set of instrument/music-related objects and does not define what a violin is.",
+      "approved": false
+    },
+    {
+      "id": "5705576de6cffe64",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state is about sleep, but the answer is only a list of sleep-related items and does not explain what affects sleep quality.",
+      "approved": false
+    },
+    {
+      "id": "1759dfa120c41921",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state is about planning a trip to Paris, but the answer names unrelated landmarks like Tokyo Tower and baguette instead of famous Paris landmarks.",
+      "approved": false
+    },
+    {
+      "id": "39201c44085dd526",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state is about a healthy snack, and the answer lists plausible snack foods such as carrot, apple, peanuts, and cucumber/green salad.",
+      "approved": true
+    },
+    {
+      "id": "9a704e5ab644d595",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state concerns deciding whether to see a doctor, but the answer does not address that decision and instead gives generic health-related icons.",
+      "approved": false
+    },
+    {
+      "id": "9620c26f7155f184",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state is about measuring rain, but the answer only repeats rain and a ruler; that does not identify a rain gauge or explain the measurement method.",
+      "approved": false
+    },
+    {
+      "id": "86a3a1c78dbc18af",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state asks what heredity is, but the answer is just related concepts (DNA, brain, family) and does not define heredity.",
+      "approved": false
+    },
+    {
+      "id": "ce868481ed2e1369",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state is about keeping a cat entertained, but the answer is a jumble of objects/activities and does not provide a faithful suggestion or explanation.",
+      "approved": false
+    },
+    {
+      "id": "5dcd97dd2cd4ec94",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state is about what plants need to grow, and the answer includes sun, water/droplet, a plant, and a farmer, which reasonably points to growth needs.",
+      "approved": true
+    },
+    {
+      "id": "caff938670e997dd",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The question asks for types of cycling races. The answer lists unrelated objects/activities and does not provide race types.",
+      "approved": false
+    },
+    {
+      "id": "b05d83d1b573c4e6",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The question asks for a definition of a food chain. The answer is just a list of organisms and does not explain the relationship.",
+      "approved": false
+    },
+    {
+      "id": "4a406bd756ca6325",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The question asks for suggestions for non-fiction books. The answer is mostly unrelated items and does not provide book suggestions.",
+      "approved": false
+    },
+    {
+      "id": "380dc0a03f3bed52",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The question asks what a food chain is. The answer lists organisms but does not define the concept or relationship.",
+      "approved": false
+    },
+    {
+      "id": "5aa4719bbcc7d27f",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state indicates a measurement-style prompt with no specific value, and the answer 'unknown' is an appropriate faithful response because the actual speed of sound is not recoverable from the reading.",
+      "approved": true
+    },
+    {
+      "id": "46fd7dc6ea5e7a7b",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The question asks about popular classical music genres. The answer lists instruments and a score, not genres.",
+      "approved": false
+    },
+    {
+      "id": "b000c3c4e1890ed4",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The question asks for a popular breakfast cereal. The answer lists breakfast items/container objects rather than a cereal.",
+      "approved": false
+    },
+    {
+      "id": "b22491e2aa2a6fdb",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state shows a snow/cloud symbol, and the answer 'unknown' is acceptable because no weather forecast or timing is provided to determine whether it will snow today.",
+      "approved": true
+    },
+    {
+      "id": "0aee9a02f28837c2",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The question asks what a sofa is, and the answer gives the appropriate object description by naming a couch and lamp scene that preserves the sofa concept.",
+      "approved": true
+    },
+    {
+      "id": "4907d545aca70962",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The question asks why plants are important. The answer is just a set of plant-related objects and does not explain importance.",
+      "approved": false
+    },
+    {
+      "id": "control-heredity",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state keeps the topic of heredity, but the answer adds unrelated emojis and does not actually define heredity.",
+      "approved": false
+    },
+    {
+      "id": "control-battery",
+      "state_faithful": true,
+      "answer_faithful": false,
+      "reason": "The state matches the phone-battery topic, but a black circle does not answer how to make the battery last longer.",
+      "approved": false
+    },
+    {
+      "id": "control-paris",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state preserves the Paris landmark topic and the answer gives a landmark that can answer the request.",
+      "approved": true
+    },
+    {
+      "id": "control-rain",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state only shows rain and omits the measuring aspect needed by the question, and the answer adds a ruler without actually indicating a rain-measuring method or instrument.",
+      "approved": false
+    },
+    {
+      "id": "control-snack",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state preserves the fruit-snack prompt, and apple is a valid answer.",
+      "approved": true
+    },
+    {
+      "id": "control-pet",
+      "state_faithful": true,
+      "answer_faithful": true,
+      "reason": "The state preserves the common-pet prompt, and a cat is a valid answer.",
+      "approved": true
+    },
+    {
+      "id": "control-weather",
+      "state_faithful": false,
+      "answer_faithful": false,
+      "reason": "The state does not preserve the yes/no weather question, and a question mark alone is unknown rather than an answer.",
+      "approved": false
+    }
+  ]
+}

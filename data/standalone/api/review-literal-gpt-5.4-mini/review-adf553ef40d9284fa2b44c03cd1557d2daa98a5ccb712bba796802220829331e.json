@@ -1,0 +1,126 @@
+{
+  "fingerprint": "adf553ef40d9284fa2b44c03cd1557d2daa98a5ccb712bba796802220829331e",
+  "decoded": {
+    "rows": [
+      {
+        "id": "e543ca1d0cd49b09",
+        "state_reading": "person | musical notes | magnifying glass tilted left | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "6bfc41031e8a3143",
+        "state_reading": "person | shortcake | up arrow | unknown",
+        "answer_reading": "lungs | petri dish | cooking | egg"
+      },
+      {
+        "id": "c82ca3a1529bcca4",
+        "state_reading": "person | airplane | collision | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "099c2df6dde305e8",
+        "state_reading": "person | ferris wheel | magnifying glass tilted left | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "54d8a59d531255cc",
+        "state_reading": "person | sports medal | magnifying glass tilted left | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "307aa92ff934a257",
+        "state_reading": "person | broom | magnifying glass tilted left | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "93f3d90c7c50f8a8",
+        "state_reading": "polar bear | globe showing Europe-Africa | fire | unknown",
+        "answer_reading": "melting face | unknown"
+      },
+      {
+        "id": "ebc52954f68611a8",
+        "state_reading": "farmer | wind face | seedling | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "73e5b3e007311f52",
+        "state_reading": "person | pot of food | family | unknown",
+        "answer_reading": "unknown"
+      }
+    ]
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "e543ca1d0cd49b09",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state keeps the topic as music/searching for a song, which matches the question, and 'unknown' is an acceptable answer because no specific song is represented."
+      },
+      {
+        "id": "6bfc41031e8a3143",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question asks what makes a cake rise, but the state shows a shortcake and an up arrow rather than a faithful representation of leavening or rising causes. The answer lists unrelated items instead of explaining the cause."
+      },
+      {
+        "id": "c82ca3a1529bcca4",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the airplane/accident topic, and 'unknown' is acceptable because the exact crash chance is not represented."
+      },
+      {
+        "id": "099c2df6dde305e8",
+        "state_faithful": false,
+        "answer_faithful": true,
+        "reason": "The question asks for amusement parks near the user, but the state only shows a ferris wheel and search icon, which is too generic and does not preserve the location-based request. The answer is unknown, which is acceptable because no actual parks are provided."
+      },
+      {
+        "id": "54d8a59d531255cc",
+        "state_faithful": false,
+        "answer_faithful": true,
+        "reason": "The question asks for the oldest sport in the world, but the state only shows a sports medal and search icon, which does not preserve the specific definition/comparison needed. 'Unknown' is acceptable since no sport is identified."
+      },
+      {
+        "id": "307aa92ff934a257",
+        "state_faithful": false,
+        "answer_faithful": true,
+        "reason": "The question is about types of vacuum cleaners, but the state shows a broom and search icon, which does not faithfully represent vacuums. The answer is unknown, which is acceptable because no vacuum types are given."
+      },
+      {
+        "id": "93f3d90c7c50f8a8",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state correctly points to polar bears and climate/fire context, preserving the question topic. However, 'melting face' is not a faithful answer to what is happening to polar bears; it does not clearly state the actual condition or situation asked about."
+      },
+      {
+        "id": "ebc52954f68611a8",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the agriculture/wind/crops topic, and 'unknown' is acceptable because the specific effects are not represented."
+      },
+      {
+        "id": "73e5b3e007311f52",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state keeps the focus on food and family/cultural recipes, matching the request for recipes with cultural significance to families. 'Unknown' is acceptable because no specific recipe is given."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_0a6c98c7d554d33d016abfa6a99bf087d0b6f146c9e28eb69c",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 809,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 698,
+      "output_tokens_details": {
+        "reasoning_tokens": 46
+      },
+      "total_tokens": 1507
+    }
+  }
+}

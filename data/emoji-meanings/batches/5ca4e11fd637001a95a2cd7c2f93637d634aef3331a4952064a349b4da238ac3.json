@@ -1,0 +1,703 @@
+{
+  "names": [
+    "woman pilot",
+    "astronaut",
+    "man astronaut",
+    "woman astronaut",
+    "firefighter",
+    "man firefighter",
+    "woman firefighter",
+    "police officer",
+    "man police officer",
+    "woman police officer",
+    "detective",
+    "man detective",
+    "woman detective",
+    "guard",
+    "man guard",
+    "woman guard",
+    "ninja",
+    "construction worker",
+    "man construction worker",
+    "woman construction worker",
+    "person with crown",
+    "prince",
+    "princess",
+    "person wearing turban",
+    "man wearing turban",
+    "woman wearing turban",
+    "person with skullcap",
+    "woman with headscarf",
+    "person in tuxedo",
+    "man in tuxedo",
+    "woman in tuxedo",
+    "person with veil",
+    "man with veil",
+    "woman with veil",
+    "pregnant woman",
+    "pregnant man",
+    "pregnant person",
+    "breast-feeding",
+    "woman feeding baby",
+    "man feeding baby"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "woman pilot",
+        "associations": [
+          "airplane",
+          "flight",
+          "cockpit",
+          "aviation",
+          "pilot uniform"
+        ]
+      },
+      {
+        "id": "astronaut",
+        "associations": [
+          "space",
+          "rocket",
+          "helmet",
+          "orbit",
+          "moon"
+        ]
+      },
+      {
+        "id": "man astronaut",
+        "associations": [
+          "space",
+          "spacesuit",
+          "rocket",
+          "orbit",
+          "moon"
+        ]
+      },
+      {
+        "id": "woman astronaut",
+        "associations": [
+          "space",
+          "spacesuit",
+          "rocket",
+          "orbit",
+          "moon"
+        ]
+      },
+      {
+        "id": "firefighter",
+        "associations": [
+          "fire",
+          "rescue",
+          "helmet",
+          "hose",
+          "emergency"
+        ]
+      },
+      {
+        "id": "man firefighter",
+        "associations": [
+          "fire",
+          "rescue",
+          "helmet",
+          "hose",
+          "emergency"
+        ]
+      },
+      {
+        "id": "woman firefighter",
+        "associations": [
+          "fire",
+          "rescue",
+          "helmet",
+          "hose",
+          "emergency"
+        ]
+      },
+      {
+        "id": "police officer",
+        "associations": [
+          "police",
+          "badge",
+          "uniform",
+          "arrest",
+          "law"
+        ]
+      },
+      {
+        "id": "man police officer",
+        "associations": [
+          "police",
+          "badge",
+          "uniform",
+          "arrest",
+          "law"
+        ]
+      },
+      {
+        "id": "woman police officer",
+        "associations": [
+          "police",
+          "badge",
+          "uniform",
+          "arrest",
+          "law"
+        ]
+      },
+      {
+        "id": "detective",
+        "associations": [
+          "mystery",
+          "investigation",
+          "clues",
+          "case",
+          "detective hat"
+        ]
+      },
+      {
+        "id": "man detective",
+        "associations": [
+          "mystery",
+          "investigation",
+          "clues",
+          "case",
+          "detective hat"
+        ]
+      },
+      {
+        "id": "woman detective",
+        "associations": [
+          "mystery",
+          "investigation",
+          "clues",
+          "case",
+          "detective hat"
+        ]
+      },
+      {
+        "id": "guard",
+        "associations": [
+          "security",
+          "watching",
+          "uniform",
+          "protect",
+          "patrol"
+        ]
+      },
+      {
+        "id": "man guard",
+        "associations": [
+          "security",
+          "watching",
+          "uniform",
+          "protect",
+          "patrol"
+        ]
+      },
+      {
+        "id": "woman guard",
+        "associations": [
+          "security",
+          "watching",
+          "uniform",
+          "protect",
+          "patrol"
+        ]
+      },
+      {
+        "id": "ninja",
+        "associations": [
+          "stealth",
+          "shadow",
+          "sword",
+          "martial arts",
+          "secret"
+        ]
+      },
+      {
+        "id": "construction worker",
+        "associations": [
+          "building",
+          "hard hat",
+          "tools",
+          "site",
+          "work"
+        ]
+      },
+      {
+        "id": "man construction worker",
+        "associations": [
+          "building",
+          "hard hat",
+          "tools",
+          "site",
+          "work"
+        ]
+      },
+      {
+        "id": "woman construction worker",
+        "associations": [
+          "building",
+          "hard hat",
+          "tools",
+          "site",
+          "work"
+        ]
+      },
+      {
+        "id": "person with crown",
+        "associations": [
+          "royalty",
+          "king",
+          "queen",
+          "ruler",
+          "jewels"
+        ]
+      },
+      {
+        "id": "prince",
+        "associations": [
+          "royalty",
+          "crown",
+          "castle",
+          "heir",
+          "noble"
+        ]
+      },
+      {
+        "id": "princess",
+        "associations": [
+          "royalty",
+          "crown",
+          "castle",
+          "gown",
+          "noble"
+        ]
+      },
+      {
+        "id": "person wearing turban",
+        "associations": [
+          "headwear",
+          "culture",
+          "cloth wrap",
+          "style",
+          "formal"
+        ]
+      },
+      {
+        "id": "man wearing turban",
+        "associations": [
+          "headwear",
+          "culture",
+          "cloth wrap",
+          "style",
+          "formal"
+        ]
+      },
+      {
+        "id": "woman wearing turban",
+        "associations": [
+          "headwear",
+          "culture",
+          "cloth wrap",
+          "style",
+          "formal"
+        ]
+      },
+      {
+        "id": "person with skullcap",
+        "associations": [
+          "cap",
+          "headwear",
+          "tradition",
+          "faith",
+          "covering"
+        ]
+      },
+      {
+        "id": "woman with headscarf",
+        "associations": [
+          "headscarf",
+          "veil",
+          "modesty",
+          "tradition",
+          "head covering"
+        ]
+      },
+      {
+        "id": "person in tuxedo",
+        "associations": [
+          "formal",
+          "suit",
+          "bow tie",
+          "elegant",
+          "event"
+        ]
+      },
+      {
+        "id": "man in tuxedo",
+        "associations": [
+          "formal",
+          "suit",
+          "bow tie",
+          "elegant",
+          "event"
+        ]
+      },
+      {
+        "id": "woman in tuxedo",
+        "associations": [
+          "formal",
+          "suit",
+          "bow tie",
+          "elegant",
+          "event"
+        ]
+      },
+      {
+        "id": "person with veil",
+        "associations": [
+          "veil",
+          "wedding",
+          "head covering",
+          "tradition",
+          "formal"
+        ]
+      },
+      {
+        "id": "man with veil",
+        "associations": [
+          "veil",
+          "head covering",
+          "tradition",
+          "formal",
+          "ceremony"
+        ]
+      },
+      {
+        "id": "woman with veil",
+        "associations": [
+          "veil",
+          "wedding",
+          "head covering",
+          "tradition",
+          "formal"
+        ]
+      },
+      {
+        "id": "pregnant woman",
+        "associations": [
+          "pregnancy",
+          "baby",
+          "belly",
+          "maternity",
+          "expecting"
+        ]
+      },
+      {
+        "id": "pregnant man",
+        "associations": [
+          "pregnancy",
+          "baby",
+          "belly",
+          "maternity",
+          "expecting"
+        ]
+      },
+      {
+        "id": "pregnant person",
+        "associations": [
+          "pregnancy",
+          "baby",
+          "belly",
+          "maternity",
+          "expecting"
+        ]
+      },
+      {
+        "id": "breast-feeding",
+        "associations": [
+          "nursing",
+          "baby",
+          "milk",
+          "care",
+          "feeding"
+        ]
+      },
+      {
+        "id": "woman feeding baby",
+        "associations": [
+          "baby",
+          "feeding",
+          "bottle",
+          "care",
+          "parenting"
+        ]
+      },
+      {
+        "id": "man feeding baby",
+        "associations": [
+          "baby",
+          "feeding",
+          "bottle",
+          "care",
+          "parenting"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0ff36a9b55e67698016abfadf95de887d095ecd0f1d8543bb9",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1005,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 918,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1923
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "woman pilot",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "astronaut",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "man astronaut",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "woman astronaut",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "firefighter",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "man firefighter",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "woman firefighter",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "police officer",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "man police officer",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "woman police officer",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "detective",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "man detective",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "woman detective",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "guard",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "man guard",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "woman guard",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "ninja",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "construction worker",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "man construction worker",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "woman construction worker",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "person with crown",
+        "rejected": [
+          "king",
+          "queen"
+        ],
+        "reason": "These are specific royalty roles, not the literal core meaning of a crowned person."
+      },
+      {
+        "id": "prince",
+        "rejected": [
+          "crown"
+        ],
+        "reason": "A crown is not inherent to the core meaning of prince and can mislead as a substitution."
+      },
+      {
+        "id": "princess",
+        "rejected": [
+          "crown"
+        ],
+        "reason": "A crown is not inherent to the core meaning of princess and can mislead as a substitution."
+      },
+      {
+        "id": "person wearing turban",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "man wearing turban",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "woman wearing turban",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "person with skullcap",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "woman with headscarf",
+        "rejected": [
+          "veil"
+        ],
+        "reason": "A veil is a different garment and is an unsupported substitution."
+      },
+      {
+        "id": "person in tuxedo",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "man in tuxedo",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "woman in tuxedo",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "person with veil",
+        "rejected": [
+          "wedding"
+        ],
+        "reason": "Wedding is only one possible context and can be misleading as a defining association."
+      },
+      {
+        "id": "man with veil",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "woman with veil",
+        "rejected": [
+          "wedding"
+        ],
+        "reason": "Wedding is only one possible context and can be misleading as a defining association."
+      },
+      {
+        "id": "pregnant woman",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "pregnant man",
+        "rejected": [
+          "baby",
+          "belly",
+          "maternity",
+          "expecting"
+        ],
+        "reason": "These associations imply a biological pregnancy role that is not the literal core meaning and can be misleading."
+      },
+      {
+        "id": "pregnant person",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "breast-feeding",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "woman feeding baby",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      },
+      {
+        "id": "man feeding baby",
+        "rejected": [],
+        "reason": "Associations are related and ordinary."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0b745d0ebd0dde27016abfadfd0c3487d0addc76cad532e66a",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1519,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 900,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2419
+    }
+  }
+}

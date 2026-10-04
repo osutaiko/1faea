@@ -1,0 +1,727 @@
+{
+  "names": [
+    "flag: Anguilla",
+    "flag: Albania",
+    "flag: Armenia",
+    "flag: Angola",
+    "flag: Antarctica",
+    "flag: Argentina",
+    "flag: American Samoa",
+    "flag: Austria",
+    "flag: Australia",
+    "flag: Aruba",
+    "flag: Åland Islands",
+    "flag: Azerbaijan",
+    "flag: Bosnia & Herzegovina",
+    "flag: Barbados",
+    "flag: Bangladesh",
+    "flag: Belgium",
+    "flag: Burkina Faso",
+    "flag: Bulgaria",
+    "flag: Bahrain",
+    "flag: Burundi",
+    "flag: Benin",
+    "flag: St. Barthélemy",
+    "flag: Bermuda",
+    "flag: Brunei",
+    "flag: Bolivia",
+    "flag: Caribbean Netherlands",
+    "flag: Brazil",
+    "flag: Bahamas",
+    "flag: Bhutan",
+    "flag: Bouvet Island",
+    "flag: Botswana",
+    "flag: Belarus",
+    "flag: Belize",
+    "flag: Canada",
+    "flag: Cocos (Keeling) Islands",
+    "flag: Congo - Kinshasa",
+    "flag: Central African Republic",
+    "flag: Congo - Brazzaville",
+    "flag: Switzerland",
+    "flag: Côte d’Ivoire"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "flag: Anguilla",
+        "associations": [
+          "Anguilla",
+          "Caribbean island",
+          "territory",
+          "blue and gold",
+          "coastal",
+          "flag"
+        ]
+      },
+      {
+        "id": "flag: Albania",
+        "associations": [
+          "Albania",
+          "Balkan country",
+          "red and black",
+          "eagle emblem",
+          "national flag",
+          "pride"
+        ]
+      },
+      {
+        "id": "flag: Armenia",
+        "associations": [
+          "Armenia",
+          "South Caucasus",
+          "red blue orange",
+          "nation",
+          "flag",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Angola",
+        "associations": [
+          "Angola",
+          "African country",
+          "red and black",
+          "star emblem",
+          "national flag",
+          "state"
+        ]
+      },
+      {
+        "id": "flag: Antarctica",
+        "associations": [
+          "Antarctica",
+          "icy continent",
+          "polar region",
+          "cold",
+          "research",
+          "flag"
+        ]
+      },
+      {
+        "id": "flag: Argentina",
+        "associations": [
+          "Argentina",
+          "South American country",
+          "sky blue and white",
+          "sun emblem",
+          "national flag",
+          "patriotism"
+        ]
+      },
+      {
+        "id": "flag: American Samoa",
+        "associations": [
+          "American Samoa",
+          "Pacific territory",
+          "islands",
+          "red white blue",
+          "flag",
+          "ocean"
+        ]
+      },
+      {
+        "id": "flag: Austria",
+        "associations": [
+          "Austria",
+          "Central Europe",
+          "red and white",
+          "nation",
+          "national flag",
+          "alpine"
+        ]
+      },
+      {
+        "id": "flag: Australia",
+        "associations": [
+          "Australia",
+          "Oceania",
+          "island continent",
+          "blue flag",
+          "Southern Cross",
+          "national flag"
+        ]
+      },
+      {
+        "id": "flag: Aruba",
+        "associations": [
+          "Aruba",
+          "Caribbean island",
+          "blue yellow red",
+          "territory",
+          "flag",
+          "tropical"
+        ]
+      },
+      {
+        "id": "flag: Åland Islands",
+        "associations": [
+          "Åland Islands",
+          "Baltic islands",
+          "autonomous region",
+          "blue and yellow",
+          "flag",
+          "seaside"
+        ]
+      },
+      {
+        "id": "flag: Azerbaijan",
+        "associations": [
+          "Azerbaijan",
+          "Caucasus country",
+          "blue red green",
+          "crescent star",
+          "national flag",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Bosnia & Herzegovina",
+        "associations": [
+          "Bosnia and Herzegovina",
+          "Balkan country",
+          "blue and yellow",
+          "stars",
+          "national flag",
+          "state"
+        ]
+      },
+      {
+        "id": "flag: Barbados",
+        "associations": [
+          "Barbados",
+          "Caribbean nation",
+          "blue and gold",
+          "trident emblem",
+          "flag",
+          "island"
+        ]
+      },
+      {
+        "id": "flag: Bangladesh",
+        "associations": [
+          "Bangladesh",
+          "South Asian country",
+          "green and red",
+          "circle emblem",
+          "national flag",
+          "independence"
+        ]
+      },
+      {
+        "id": "flag: Belgium",
+        "associations": [
+          "Belgium",
+          "Western Europe",
+          "black yellow red",
+          "tricolor",
+          "national flag",
+          "state"
+        ]
+      },
+      {
+        "id": "flag: Burkina Faso",
+        "associations": [
+          "Burkina Faso",
+          "West African country",
+          "red and green",
+          "star emblem",
+          "national flag",
+          "nation"
+        ]
+      },
+      {
+        "id": "flag: Bulgaria",
+        "associations": [
+          "Bulgaria",
+          "Balkan country",
+          "white green red",
+          "tricolor",
+          "national flag",
+          "state"
+        ]
+      },
+      {
+        "id": "flag: Bahrain",
+        "associations": [
+          "Bahrain",
+          "Gulf kingdom",
+          "red and white",
+          "island nation",
+          "flag",
+          "monarchy"
+        ]
+      },
+      {
+        "id": "flag: Burundi",
+        "associations": [
+          "Burundi",
+          "East African country",
+          "red white green",
+          "star emblem",
+          "national flag",
+          "state"
+        ]
+      },
+      {
+        "id": "flag: Benin",
+        "associations": [
+          "Benin",
+          "West African country",
+          "green yellow red",
+          "flag",
+          "nation",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: St. Barthélemy",
+        "associations": [
+          "St. Barthélemy",
+          "Caribbean island",
+          "territory",
+          "flag",
+          "coastal",
+          "island"
+        ]
+      },
+      {
+        "id": "flag: Bermuda",
+        "associations": [
+          "Bermuda",
+          "Atlantic island",
+          "red ensign",
+          "territory",
+          "flag",
+          "coast"
+        ]
+      },
+      {
+        "id": "flag: Brunei",
+        "associations": [
+          "Brunei",
+          "Southeast Asian country",
+          "yellow black white",
+          "royal",
+          "flag",
+          "state"
+        ]
+      },
+      {
+        "id": "flag: Bolivia",
+        "associations": [
+          "Bolivia",
+          "South American country",
+          "red yellow green",
+          "national flag",
+          "Andean",
+          "nation"
+        ]
+      },
+      {
+        "id": "flag: Caribbean Netherlands",
+        "associations": [
+          "Caribbean Netherlands",
+          "islands",
+          "Dutch territory",
+          "blue and yellow",
+          "flag",
+          "Caribbean"
+        ]
+      },
+      {
+        "id": "flag: Brazil",
+        "associations": [
+          "Brazil",
+          "South American country",
+          "green yellow blue",
+          "globe emblem",
+          "national flag",
+          "festive"
+        ]
+      },
+      {
+        "id": "flag: Bahamas",
+        "associations": [
+          "Bahamas",
+          "Caribbean archipelago",
+          "aquamarine black gold",
+          "islands",
+          "flag",
+          "tropical"
+        ]
+      },
+      {
+        "id": "flag: Bhutan",
+        "associations": [
+          "Bhutan",
+          "Himalayan kingdom",
+          "yellow orange",
+          "dragon emblem",
+          "national flag",
+          "mountain"
+        ]
+      },
+      {
+        "id": "flag: Bouvet Island",
+        "associations": [
+          "Bouvet Island",
+          "remote island",
+          "Antarctic",
+          "Norwegian territory",
+          "flag",
+          "cold"
+        ]
+      },
+      {
+        "id": "flag: Botswana",
+        "associations": [
+          "Botswana",
+          "southern African country",
+          "blue and black",
+          "nation",
+          "flag",
+          "state"
+        ]
+      },
+      {
+        "id": "flag: Belarus",
+        "associations": [
+          "Belarus",
+          "Eastern Europe",
+          "red green white",
+          "ornament",
+          "national flag",
+          "state"
+        ]
+      },
+      {
+        "id": "flag: Belize",
+        "associations": [
+          "Belize",
+          "Central American country",
+          "blue red",
+          "coat of arms",
+          "national flag",
+          "coastal"
+        ]
+      },
+      {
+        "id": "flag: Canada",
+        "associations": [
+          "Canada",
+          "North American country",
+          "red and white",
+          "maple leaf",
+          "national flag",
+          "identity"
+        ]
+      },
+      {
+        "id": "flag: Cocos (Keeling) Islands",
+        "associations": [
+          "Cocos (Keeling) Islands",
+          "Indian Ocean islands",
+          "territory",
+          "palm tree",
+          "flag",
+          "remote"
+        ]
+      },
+      {
+        "id": "flag: Congo - Kinshasa",
+        "associations": [
+          "Congo - Kinshasa",
+          "Democratic Republic of the Congo",
+          "central Africa",
+          "blue red yellow",
+          "national flag",
+          "state"
+        ]
+      },
+      {
+        "id": "flag: Central African Republic",
+        "associations": [
+          "Central African Republic",
+          "central African country",
+          "blue red yellow green",
+          "star emblem",
+          "national flag",
+          "state"
+        ]
+      },
+      {
+        "id": "flag: Congo - Brazzaville",
+        "associations": [
+          "Congo - Brazzaville",
+          "Republic of the Congo",
+          "central Africa",
+          "green yellow red",
+          "national flag",
+          "state"
+        ]
+      },
+      {
+        "id": "flag: Switzerland",
+        "associations": [
+          "Switzerland",
+          "Alpine country",
+          "red and white",
+          "cross emblem",
+          "national flag",
+          "neutral"
+        ]
+      },
+      {
+        "id": "flag: Côte d’Ivoire",
+        "associations": [
+          "Côte d’Ivoire",
+          "West African country",
+          "orange white green",
+          "national flag",
+          "state",
+          "identity"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0871259136839e0a016abfafd7122087d09f82867e3878daf0",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1562,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1049,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2611
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "flag: Anguilla",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Anguilla flag."
+      },
+      {
+        "id": "flag: Albania",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Albania flag."
+      },
+      {
+        "id": "flag: Armenia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Armenia flag."
+      },
+      {
+        "id": "flag: Angola",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Angola flag."
+      },
+      {
+        "id": "flag: Antarctica",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Antarctica flag."
+      },
+      {
+        "id": "flag: Argentina",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Argentina flag."
+      },
+      {
+        "id": "flag: American Samoa",
+        "rejected": [],
+        "reason": "All associations are broadly related to the American Samoa flag."
+      },
+      {
+        "id": "flag: Austria",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Austria flag."
+      },
+      {
+        "id": "flag: Australia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Australia flag."
+      },
+      {
+        "id": "flag: Aruba",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Aruba flag."
+      },
+      {
+        "id": "flag: Åland Islands",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Åland Islands flag."
+      },
+      {
+        "id": "flag: Azerbaijan",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Azerbaijan flag."
+      },
+      {
+        "id": "flag: Bosnia & Herzegovina",
+        "rejected": [
+          "Bosnia and Herzegovina"
+        ],
+        "reason": "The exact name differs from the ID label format, so this is a misleading substitution of the named entity."
+      },
+      {
+        "id": "flag: Barbados",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Barbados flag."
+      },
+      {
+        "id": "flag: Bangladesh",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Bangladesh flag."
+      },
+      {
+        "id": "flag: Belgium",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Belgium flag."
+      },
+      {
+        "id": "flag: Burkina Faso",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Burkina Faso flag."
+      },
+      {
+        "id": "flag: Bulgaria",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Bulgaria flag."
+      },
+      {
+        "id": "flag: Bahrain",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Bahrain flag."
+      },
+      {
+        "id": "flag: Burundi",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Burundi flag."
+      },
+      {
+        "id": "flag: Benin",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Benin flag."
+      },
+      {
+        "id": "flag: St. Barthélemy",
+        "rejected": [],
+        "reason": "All associations are broadly related to the St. Barthélemy flag."
+      },
+      {
+        "id": "flag: Bermuda",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Bermuda flag."
+      },
+      {
+        "id": "flag: Brunei",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Brunei flag."
+      },
+      {
+        "id": "flag: Bolivia",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Bolivia flag."
+      },
+      {
+        "id": "flag: Caribbean Netherlands",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Caribbean Netherlands flag."
+      },
+      {
+        "id": "flag: Brazil",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Brazil flag."
+      },
+      {
+        "id": "flag: Bahamas",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Bahamas flag."
+      },
+      {
+        "id": "flag: Bhutan",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Bhutan flag."
+      },
+      {
+        "id": "flag: Bouvet Island",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Bouvet Island flag."
+      },
+      {
+        "id": "flag: Botswana",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Botswana flag."
+      },
+      {
+        "id": "flag: Belarus",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Belarus flag."
+      },
+      {
+        "id": "flag: Belize",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Belize flag."
+      },
+      {
+        "id": "flag: Canada",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Canada flag."
+      },
+      {
+        "id": "flag: Cocos (Keeling) Islands",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Cocos (Keeling) Islands flag."
+      },
+      {
+        "id": "flag: Congo - Kinshasa",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Congo - Kinshasa flag."
+      },
+      {
+        "id": "flag: Central African Republic",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Central African Republic flag."
+      },
+      {
+        "id": "flag: Congo - Brazzaville",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Congo - Brazzaville flag."
+      },
+      {
+        "id": "flag: Switzerland",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Switzerland flag."
+      },
+      {
+        "id": "flag: Côte d’Ivoire",
+        "rejected": [],
+        "reason": "All associations are broadly related to the Côte d’Ivoire flag."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0e9187bc8847604b016abfafde9a0087d09f06b83d270f8289",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3927,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 941,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4868
+    }
+  }
+}

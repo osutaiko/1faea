@@ -1,0 +1,137 @@
+{
+  "fingerprint": "bbe0cf99507811cc8c804810126be49f2e2854fc10599242d5f8cddf21866b67",
+  "decoded": {
+    "rows": [
+      {
+        "id": "c3748c5864b84150",
+        "state_reading": "tired face | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "4db0d73caed50d6e",
+        "state_reading": "person | thinking face | clause boundary | pushpin | then / leads to | magnet | then / leads to | hook",
+        "answer_reading": "magnet | then / leads to | hook"
+      },
+      {
+        "id": "9ef377e871f91839",
+        "state_reading": "mobile phone | magnifying glass tilted left | clause boundary | camera with flash | unknown",
+        "answer_reading": "camera with flash"
+      },
+      {
+        "id": "02cbbb1aaddaaa76",
+        "state_reading": "family | person in bed | clause boundary | calendar | then / leads to | mantelpiece clock",
+        "answer_reading": "calendar | then / leads to | mantelpiece clock"
+      },
+      {
+        "id": "c7f5bfd71dc71ad6",
+        "state_reading": "hatching chick | then / leads to | baby chick | then / leads to | rooster | clause boundary | pushpin | then / leads to | counterclockwise arrows button",
+        "answer_reading": "hatching chick | then / leads to | baby chick | then / leads to | rooster"
+      },
+      {
+        "id": "36e5764e3ee432d4",
+        "state_reading": "shopping cart | department store | clause boundary | round pushpin | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "d7ccb399ffe81885",
+        "state_reading": "droplet | clause boundary | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "17feddfc6ab0cc91",
+        "state_reading": "shopping cart | money bag | clause boundary | pushpin | then / leads to | memo",
+        "answer_reading": "memo"
+      },
+      {
+        "id": "543b3eef7dd37890",
+        "state_reading": "light bulb | clause boundary | pushpin | then / leads to | mobile phone | clause boundary | camera | clause boundary | flashlight",
+        "answer_reading": "mobile phone | camera | flashlight"
+      },
+      {
+        "id": "c7be74a664947ab8",
+        "state_reading": "dna | clause boundary | globe showing Europe-Africa | then / leads to | eye | clause boundary | brain | clause boundary | unknown",
+        "answer_reading": "unknown"
+      }
+    ]
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "c3748c5864b84150",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state captures feeling tired and uncertainty about sleep, but the answer is just 'unknown' rather than a number of hours."
+      },
+      {
+        "id": "4db0d73caed50d6e",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state talks about a person thinking through a pushpin-magnet-hook chain, which does not preserve the pulley question. The answer also does not define a pulley."
+      },
+      {
+        "id": "9ef377e871f91839",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state is about smartphones and cameras, but the answer only names 'camera with flash' and does not state the difference from a regular phone."
+      },
+      {
+        "id": "02cbbb1aaddaaa76",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state matches creating a sleep schedule for a family, but the answer is just a calendar-to-clock chain and does not give a tip or schedule guidance."
+      },
+      {
+        "id": "c7f5bfd71dc71ad6",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the idea of an animal life cycle, and the answer gives a valid sequence from chick to rooster."
+      },
+      {
+        "id": "36e5764e3ee432d4",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state mentions a shopping cart and department store, not the question about grocery-store layout. The answer 'unknown' does not provide the requested information."
+      },
+      {
+        "id": "d7ccb399ffe81885",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state preserves the hydration question, but the answer 'unknown' does not provide how much water to drink."
+      },
+      {
+        "id": "17feddfc6ab0cc91",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state keeps the grocery-shopping money-saving context, and a memo can reasonably stand for starting with a shopping list or note of what to buy."
+      },
+      {
+        "id": "543b3eef7dd37890",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state lists devices rather than asking about uses of light, and the answer lists devices instead of actual uses of light."
+      },
+      {
+        "id": "c7be74a664947ab8",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state does not preserve the question about genes versus environment in shaping traits and behavior. The answer 'unknown' also does not address the distinction."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_0837c276f996366b016abfa67911fc87d0ac5acc2a352fa6bb",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1016,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1226,
+      "output_tokens_details": {
+        "reasoning_tokens": 627
+      },
+      "total_tokens": 2242
+    }
+  }
+}

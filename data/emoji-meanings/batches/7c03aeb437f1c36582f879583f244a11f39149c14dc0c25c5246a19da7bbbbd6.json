@@ -1,0 +1,977 @@
+{
+  "names": [
+    "tram car",
+    "bus",
+    "oncoming bus",
+    "trolleybus",
+    "minibus",
+    "ambulance",
+    "fire engine",
+    "police car",
+    "oncoming police car",
+    "taxi",
+    "oncoming taxi",
+    "automobile",
+    "oncoming automobile",
+    "sport utility vehicle",
+    "pickup truck",
+    "delivery truck",
+    "articulated lorry",
+    "tractor",
+    "racing car",
+    "motorcycle",
+    "motor scooter",
+    "manual wheelchair",
+    "motorized wheelchair",
+    "auto rickshaw",
+    "bicycle",
+    "kick scooter",
+    "skateboard",
+    "roller skate",
+    "bus stop",
+    "motorway",
+    "railway track",
+    "oil drum",
+    "fuel pump",
+    "wheel",
+    "police car light",
+    "horizontal traffic light",
+    "vertical traffic light",
+    "stop sign",
+    "construction",
+    "anchor"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "tram car",
+        "associations": [
+          "street tram",
+          "rail transit",
+          "city transport",
+          "public vehicle",
+          "tracks",
+          "commuter ride"
+        ]
+      },
+      {
+        "id": "bus",
+        "associations": [
+          "public transit",
+          "passengers",
+          "city bus",
+          "travel",
+          "route",
+          "stop"
+        ]
+      },
+      {
+        "id": "oncoming bus",
+        "associations": [
+          "approaching bus",
+          "head-on traffic",
+          "incoming vehicle",
+          "street scene",
+          "forward motion",
+          "public transit"
+        ]
+      },
+      {
+        "id": "trolleybus",
+        "associations": [
+          "electric bus",
+          "overhead wires",
+          "city transit",
+          "public transport",
+          "street vehicle",
+          "route"
+        ]
+      },
+      {
+        "id": "minibus",
+        "associations": [
+          "small bus",
+          "shuttle",
+          "group transport",
+          "compact vehicle",
+          "passengers",
+          "local travel"
+        ]
+      },
+      {
+        "id": "ambulance",
+        "associations": [
+          "emergency vehicle",
+          "medical aid",
+          "siren",
+          "rescue",
+          "hospital transport",
+          "urgent care"
+        ]
+      },
+      {
+        "id": "fire engine",
+        "associations": [
+          "fire truck",
+          "emergency response",
+          "siren",
+          "rescue",
+          "firefighting",
+          "red vehicle"
+        ]
+      },
+      {
+        "id": "police car",
+        "associations": [
+          "law enforcement",
+          "patrol",
+          "siren",
+          "official vehicle",
+          "response",
+          "police"
+        ]
+      },
+      {
+        "id": "oncoming police car",
+        "associations": [
+          "approaching patrol car",
+          "law enforcement",
+          "street traffic",
+          "siren",
+          "incoming vehicle",
+          "police"
+        ]
+      },
+      {
+        "id": "taxi",
+        "associations": [
+          "cab",
+          "ride service",
+          "fare",
+          "city travel",
+          "yellow car",
+          "pickup"
+        ]
+      },
+      {
+        "id": "oncoming taxi",
+        "associations": [
+          "approaching cab",
+          "street traffic",
+          "incoming vehicle",
+          "ride service",
+          "fare",
+          "city travel"
+        ]
+      },
+      {
+        "id": "automobile",
+        "associations": [
+          "car",
+          "vehicle",
+          "driving",
+          "road travel",
+          "personal transport",
+          "commute"
+        ]
+      },
+      {
+        "id": "oncoming automobile",
+        "associations": [
+          "approaching car",
+          "traffic",
+          "head-on view",
+          "moving vehicle",
+          "roadway",
+          "travel"
+        ]
+      },
+      {
+        "id": "sport utility vehicle",
+        "associations": [
+          "SUV",
+          "family vehicle",
+          "larger car",
+          "road travel",
+          "utility",
+          "cargo space"
+        ]
+      },
+      {
+        "id": "pickup truck",
+        "associations": [
+          "pickup",
+          "cargo bed",
+          "hauling",
+          "work vehicle",
+          "truck",
+          "transport"
+        ]
+      },
+      {
+        "id": "delivery truck",
+        "associations": [
+          "cargo truck",
+          "shipping",
+          "parcel delivery",
+          "freight",
+          "commercial vehicle",
+          "logistics"
+        ]
+      },
+      {
+        "id": "articulated lorry",
+        "associations": [
+          "semi truck",
+          "tractor trailer",
+          "long haul",
+          "freight",
+          "cargo",
+          "transport"
+        ]
+      },
+      {
+        "id": "tractor",
+        "associations": [
+          "farm vehicle",
+          "agriculture",
+          "field work",
+          "machinery",
+          "towing",
+          "rural"
+        ]
+      },
+      {
+        "id": "racing car",
+        "associations": [
+          "race car",
+          "speed",
+          "track",
+          "motorsport",
+          "competition",
+          "fast vehicle"
+        ]
+      },
+      {
+        "id": "motorcycle",
+        "associations": [
+          "motorbike",
+          "two-wheel ride",
+          "speed",
+          "helmet",
+          "road travel",
+          "engine"
+        ]
+      },
+      {
+        "id": "motor scooter",
+        "associations": [
+          "scooter",
+          "small motorbike",
+          "city ride",
+          "two wheels",
+          "light transport",
+          "commuting"
+        ]
+      },
+      {
+        "id": "manual wheelchair",
+        "associations": [
+          "mobility aid",
+          "push wheels",
+          "accessibility",
+          "seated transport",
+          "independence",
+          "assistive device"
+        ]
+      },
+      {
+        "id": "motorized wheelchair",
+        "associations": [
+          "power chair",
+          "mobility aid",
+          "electric drive",
+          "accessibility",
+          "assistive device",
+          "independence"
+        ]
+      },
+      {
+        "id": "auto rickshaw",
+        "associations": [
+          "three-wheeler",
+          "tuk-tuk",
+          "compact taxi",
+          "urban transport",
+          "passengers",
+          "local ride"
+        ]
+      },
+      {
+        "id": "bicycle",
+        "associations": [
+          "bike",
+          "pedal power",
+          "two wheels",
+          "cycling",
+          "exercise",
+          "commute"
+        ]
+      },
+      {
+        "id": "kick scooter",
+        "associations": [
+          "scooter",
+          "push-off",
+          "two wheels",
+          "urban ride",
+          "play",
+          "mobility"
+        ]
+      },
+      {
+        "id": "skateboard",
+        "associations": [
+          "deck",
+          "wheels",
+          "riding",
+          "tricks",
+          "street sport",
+          "balance"
+        ]
+      },
+      {
+        "id": "roller skate",
+        "associations": [
+          "skating",
+          "wheels",
+          "gliding",
+          "recreation",
+          "rink",
+          "movement"
+        ]
+      },
+      {
+        "id": "bus stop",
+        "associations": [
+          "pickup point",
+          "shelter",
+          "transit sign",
+          "waiting",
+          "public transport",
+          "station"
+        ]
+      },
+      {
+        "id": "motorway",
+        "associations": [
+          "highway",
+          "fast road",
+          "traffic lanes",
+          "long-distance travel",
+          "express route",
+          "road"
+        ]
+      },
+      {
+        "id": "railway track",
+        "associations": [
+          "train line",
+          "rails",
+          "rail transport",
+          "track bed",
+          "stations",
+          "infrastructure"
+        ]
+      },
+      {
+        "id": "oil drum",
+        "associations": [
+          "barrel",
+          "storage",
+          "industrial container",
+          "fuel",
+          "cargo",
+          "metal drum"
+        ]
+      },
+      {
+        "id": "fuel pump",
+        "associations": [
+          "gas pump",
+          "refueling",
+          "gas station",
+          "fuel",
+          "nozzle",
+          "vehicle"
+        ]
+      },
+      {
+        "id": "wheel",
+        "associations": [
+          "round part",
+          "rotation",
+          "rim",
+          "vehicle component",
+          "motion",
+          "circle"
+        ]
+      },
+      {
+        "id": "police car light",
+        "associations": [
+          "flashlight",
+          "beacon",
+          "emergency lights",
+          "warning",
+          "blue/red light",
+          "signal"
+        ]
+      },
+      {
+        "id": "horizontal traffic light",
+        "associations": [
+          "signal light",
+          "road control",
+          "traffic rules",
+          "horizontal mount",
+          "intersection",
+          "red amber green"
+        ]
+      },
+      {
+        "id": "vertical traffic light",
+        "associations": [
+          "signal light",
+          "road control",
+          "traffic rules",
+          "vertical mount",
+          "intersection",
+          "red amber green"
+        ]
+      },
+      {
+        "id": "stop sign",
+        "associations": [
+          "traffic sign",
+          "halt",
+          "octagon",
+          "road safety",
+          "yield to traffic",
+          "red sign"
+        ]
+      },
+      {
+        "id": "construction",
+        "associations": [
+          "building work",
+          "site",
+          "tools",
+          "development",
+          "repair",
+          "work zone"
+        ]
+      },
+      {
+        "id": "anchor",
+        "associations": [
+          "boat gear",
+          "mooring",
+          "weight",
+          "harbor",
+          "stability",
+          "seafaring"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0b69899a4daa6ed6016abfaeed264887d0a01045ddb6ac540d",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1358,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 884,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2242
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "tram car",
+        "rejected": [],
+        "reason": "All associations are related to a tram/car and its transit context."
+      },
+      {
+        "id": "bus",
+        "rejected": [],
+        "reason": "All associations are related to a bus and common transit context."
+      },
+      {
+        "id": "oncoming bus",
+        "rejected": [],
+        "reason": "All associations are compatible with an approaching bus."
+      },
+      {
+        "id": "trolleybus",
+        "rejected": [],
+        "reason": "All associations are related to a trolleybus/electric street transit."
+      },
+      {
+        "id": "minibus",
+        "rejected": [],
+        "reason": "All associations are related to a minibus/shuttle concept."
+      },
+      {
+        "id": "ambulance",
+        "rejected": [],
+        "reason": "All associations are standard ambulance-related associations."
+      },
+      {
+        "id": "fire engine",
+        "rejected": [],
+        "reason": "All associations are standard fire engine-related associations."
+      },
+      {
+        "id": "police car",
+        "rejected": [],
+        "reason": "All associations are standard police car-related associations."
+      },
+      {
+        "id": "oncoming police car",
+        "rejected": [],
+        "reason": "All associations are compatible with an approaching police car."
+      },
+      {
+        "id": "taxi",
+        "rejected": [],
+        "reason": "All associations are standard taxi-related associations."
+      },
+      {
+        "id": "oncoming taxi",
+        "rejected": [],
+        "reason": "All associations are compatible with an approaching taxi."
+      },
+      {
+        "id": "automobile",
+        "rejected": [],
+        "reason": "All associations are standard automobile-related associations."
+      },
+      {
+        "id": "oncoming automobile",
+        "rejected": [],
+        "reason": "All associations are compatible with an approaching automobile."
+      },
+      {
+        "id": "sport utility vehicle",
+        "rejected": [],
+        "reason": "All associations are standard SUV-related associations."
+      },
+      {
+        "id": "pickup truck",
+        "rejected": [],
+        "reason": "All associations are standard pickup-truck-related associations."
+      },
+      {
+        "id": "delivery truck",
+        "rejected": [],
+        "reason": "All associations are standard delivery-truck-related associations."
+      },
+      {
+        "id": "articulated lorry",
+        "rejected": [],
+        "reason": "All associations are standard articulated-lorry-related associations."
+      },
+      {
+        "id": "tractor",
+        "rejected": [],
+        "reason": "All associations are standard tractor-related associations."
+      },
+      {
+        "id": "racing car",
+        "rejected": [],
+        "reason": "All associations are standard racing-car-related associations."
+      },
+      {
+        "id": "motorcycle",
+        "rejected": [],
+        "reason": "All associations are standard motorcycle-related associations."
+      },
+      {
+        "id": "motor scooter",
+        "rejected": [],
+        "reason": "All associations are standard motor scooter-related associations."
+      },
+      {
+        "id": "manual wheelchair",
+        "rejected": [],
+        "reason": "All associations are standard manual-wheelchair-related associations."
+      },
+      {
+        "id": "motorized wheelchair",
+        "rejected": [],
+        "reason": "All associations are standard motorized-wheelchair-related associations."
+      },
+      {
+        "id": "auto rickshaw",
+        "rejected": [],
+        "reason": "All associations are standard auto-rickshaw-related associations."
+      },
+      {
+        "id": "bicycle",
+        "rejected": [],
+        "reason": "All associations are standard bicycle-related associations."
+      },
+      {
+        "id": "kick scooter",
+        "rejected": [],
+        "reason": "All associations are standard kick-scooter-related associations."
+      },
+      {
+        "id": "skateboard",
+        "rejected": [],
+        "reason": "All associations are standard skateboard-related associations."
+      },
+      {
+        "id": "roller skate",
+        "rejected": [],
+        "reason": "All associations are standard roller-skate-related associations."
+      },
+      {
+        "id": "bus stop",
+        "rejected": [],
+        "reason": "All associations are standard bus-stop-related associations."
+      },
+      {
+        "id": "motorway",
+        "rejected": [],
+        "reason": "All associations are standard motorway-related associations."
+      },
+      {
+        "id": "railway track",
+        "rejected": [],
+        "reason": "All associations are standard railway-track-related associations."
+      },
+      {
+        "id": "oil drum",
+        "rejected": [],
+        "reason": "All associations are standard oil-drum-related associations."
+      },
+      {
+        "id": "fuel pump",
+        "rejected": [],
+        "reason": "All associations are standard fuel-pump-related associations."
+      },
+      {
+        "id": "wheel",
+        "rejected": [],
+        "reason": "All associations are standard wheel-related associations."
+      },
+      {
+        "id": "police car light",
+        "rejected": [
+          "flashlight"
+        ],
+        "reason": "A flashlight is a handheld light source, not a police car light."
+      },
+      {
+        "id": "horizontal traffic light",
+        "rejected": [],
+        "reason": "All associations are standard horizontal-traffic-light-related associations."
+      },
+      {
+        "id": "vertical traffic light",
+        "rejected": [],
+        "reason": "All associations are standard vertical-traffic-light-related associations."
+      },
+      {
+        "id": "stop sign",
+        "rejected": [],
+        "reason": "All associations are standard stop-sign-related associations."
+      },
+      {
+        "id": "construction",
+        "rejected": [],
+        "reason": "All associations are standard construction-related associations."
+      },
+      {
+        "id": "anchor",
+        "rejected": [],
+        "reason": "All associations are standard anchor-related associations."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_08a75b9a79673a3f016abfaf84a77487d0ba22e2a3c5a17786",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3568,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 813,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4381
+    }
+  },
+  "invalid_audits": [
+    {
+      "audit": {
+        "rows": [
+          {
+            "id": "tram car",
+            "rejected": [],
+            "reason": "All associations are related to a tram car."
+          },
+          {
+            "id": "bus",
+            "rejected": [],
+            "reason": "All associations are related to a bus."
+          },
+          {
+            "id": "oncoming bus",
+            "rejected": [
+              "head-on traffic",
+              "street scene",
+              "forward motion"
+            ],
+            "reason": "These are scene/traffic descriptions rather than associations specific to an oncoming bus."
+          },
+          {
+            "id": "trolleybus",
+            "rejected": [],
+            "reason": "All associations are related to a trolleybus."
+          },
+          {
+            "id": "minibus",
+            "rejected": [],
+            "reason": "All associations are related to a minibus."
+          },
+          {
+            "id": "ambulance",
+            "rejected": [],
+            "reason": "All associations are related to an ambulance."
+          },
+          {
+            "id": "fire engine",
+            "rejected": [],
+            "reason": "All associations are related to a fire engine."
+          },
+          {
+            "id": "police car",
+            "rejected": [],
+            "reason": "All associations are related to a police car."
+          },
+          {
+            "id": "oncoming police car",
+            "rejected": [
+              "street traffic"
+            ],
+            "reason": "This is a generic traffic scene description, not specific to an oncoming police car."
+          },
+          {
+            "id": "taxi",
+            "rejected": [
+              "fare",
+              "yellow car",
+              "pickup"
+            ],
+            "reason": "These are misleading or ambiguous: fare is a payment concept, yellow car is a color-based stereotype, and pickup suggests a pickup truck rather than a taxi."
+          },
+          {
+            "id": "oncoming taxi",
+            "rejected": [
+              "street traffic"
+            ],
+            "reason": "This is a generic traffic scene description, not specific to an oncoming taxi."
+          },
+          {
+            "id": "automobile",
+            "rejected": [],
+            "reason": "All associations are related to an automobile."
+          },
+          {
+            "id": "oncoming automobile",
+            "rejected": [],
+            "reason": "All associations are related to an oncoming automobile."
+          },
+          {
+            "id": "sport utility vehicle",
+            "rejected": [],
+            "reason": "All associations are related to a sport utility vehicle."
+          },
+          {
+            "id": "pickup truck",
+            "rejected": [],
+            "reason": "All associations are related to a pickup truck."
+          },
+          {
+            "id": "delivery truck",
+            "rejected": [],
+            "reason": "All associations are related to a delivery truck."
+          },
+          {
+            "id": "articulated lorry",
+            "rejected": [],
+            "reason": "All associations are related to an articulated lorry."
+          },
+          {
+            "id": "tractor",
+            "rejected": [],
+            "reason": "All associations are related to a tractor."
+          },
+          {
+            "id": "racing car",
+            "rejected": [],
+            "reason": "All associations are related to a racing car."
+          },
+          {
+            "id": "motorcycle",
+            "rejected": [],
+            "reason": "All associations are related to a motorcycle."
+          },
+          {
+            "id": "motor scooter",
+            "rejected": [],
+            "reason": "All associations are related to a motor scooter."
+          },
+          {
+            "id": "manual wheelchair",
+            "rejected": [
+              "seated transport",
+              "independence"
+            ],
+            "reason": "These are broader or unsupported claims; the emoji denotes a wheelchair, not transport or an independence statement."
+          },
+          {
+            "id": "motorized wheelchair",
+            "rejected": [
+              "seated transport",
+              "independence"
+            ],
+            "reason": "These are broader or unsupported claims; the emoji denotes a motorized wheelchair, not transport or an independence statement."
+          },
+          {
+            "id": "auto rickshaw",
+            "rejected": [],
+            "reason": "All associations are related to an auto rickshaw."
+          },
+          {
+            "id": "bicycle",
+            "rejected": [],
+            "reason": "All associations are related to a bicycle."
+          },
+          {
+            "id": "kick scooter",
+            "rejected": [
+              "scooter"
+            ],
+            "reason": "This is too generic and overlaps with the named object itself without adding a distinct association."
+          },
+          {
+            "id": "skateboard",
+            "rejected": [],
+            "reason": "All associations are related to a skateboard."
+          },
+          {
+            "id": "roller skate",
+            "rejected": [],
+            "reason": "All associations are related to roller skates."
+          },
+          {
+            "id": "bus stop",
+            "rejected": [
+              "station"
+            ],
+            "reason": "Station is misleading; a bus stop is not a station in the usual sense."
+          },
+          {
+            "id": "motorway",
+            "rejected": [],
+            "reason": "All associations are related to a motorway."
+          },
+          {
+            "id": "railway track",
+            "rejected": [
+              "stations"
+            ],
+            "reason": "Stations are related infrastructure, but this emoji’s core meaning is railway track itself, not stations."
+          },
+          {
+            "id": "oil drum",
+            "rejected": [],
+            "reason": "All associations are related to an oil drum."
+          },
+          {
+            "id": "fuel pump",
+            "rejected": [],
+            "reason": "All associations are related to a fuel pump."
+          },
+          {
+            "id": "wheel",
+            "rejected": [],
+            "reason": "All associations are related to a wheel."
+          },
+          {
+            "id": "police car light",
+            "rejected": [
+              "flashlight"
+            ],
+            "reason": "Flashlight is a different object and not a valid association for police car lights."
+          },
+          {
+            "id": "horizontal traffic light",
+            "rejected": [],
+            "reason": "All associations are related to a horizontal traffic light."
+          },
+          {
+            "id": "vertical traffic light",
+            "rejected": [],
+            "reason": "All associations are related to a vertical traffic light."
+          },
+          {
+            "id": "stop sign",
+            "rejected": [],
+            "reason": "All associations are related to a stop sign."
+          },
+          {
+            "id": "construction",
+            "rejected": [],
+            "reason": "All associations are related to construction."
+          },
+          {
+            "id": "anchor",
+            "rejected": [],
+            "reason": "All associations are related to an anchor."
+          }
+        ]
+      },
+      "reviewer": {
+        "id": "resp_04063cb6f9946460016abfaef3c75487d0b0245310dda37793",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 2749,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 930,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3679
+        }
+      }
+    }
+  ]
+}

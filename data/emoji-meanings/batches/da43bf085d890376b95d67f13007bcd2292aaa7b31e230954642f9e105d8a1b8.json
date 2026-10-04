@@ -1,0 +1,705 @@
+{
+  "names": [
+    "blue heart",
+    "light blue heart",
+    "purple heart",
+    "brown heart",
+    "black heart",
+    "grey heart",
+    "white heart",
+    "kiss mark",
+    "hundred points",
+    "anger symbol",
+    "fight cloud",
+    "collision",
+    "dizzy",
+    "sweat droplets",
+    "dashing away",
+    "hole",
+    "speech balloon",
+    "eye in speech bubble",
+    "left speech bubble",
+    "right anger bubble",
+    "thought balloon",
+    "ZZZ",
+    "waving hand",
+    "raised back of hand",
+    "hand with fingers splayed",
+    "raised hand",
+    "vulcan salute",
+    "rightwards hand",
+    "leftwards hand",
+    "palm down hand",
+    "palm up hand",
+    "leftwards pushing hand",
+    "rightwards pushing hand",
+    "OK hand",
+    "pinched fingers",
+    "pinching hand",
+    "victory hand",
+    "crossed fingers",
+    "hand with index finger and thumb crossed",
+    "love-you gesture"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "blue heart",
+        "associations": [
+          "blue color",
+          "love",
+          "calm",
+          "trust",
+          "water"
+        ]
+      },
+      {
+        "id": "light blue heart",
+        "associations": [
+          "light blue color",
+          "soft love",
+          "peace",
+          "sky",
+          "gentle"
+        ]
+      },
+      {
+        "id": "purple heart",
+        "associations": [
+          "purple color",
+          "affection",
+          "luxury",
+          "pride",
+          "romance"
+        ]
+      },
+      {
+        "id": "brown heart",
+        "associations": [
+          "brown color",
+          "warmth",
+          "earth",
+          "comfort",
+          "support"
+        ]
+      },
+      {
+        "id": "black heart",
+        "associations": [
+          "black color",
+          "darkness",
+          "grief",
+          "edgy",
+          "love"
+        ]
+      },
+      {
+        "id": "grey heart",
+        "associations": [
+          "grey color",
+          "neutral",
+          "sadness",
+          "balance",
+          "subtle"
+        ]
+      },
+      {
+        "id": "white heart",
+        "associations": [
+          "white color",
+          "purity",
+          "peace",
+          "care",
+          "clean"
+        ]
+      },
+      {
+        "id": "kiss mark",
+        "associations": [
+          "kiss",
+          "lips",
+          "affection",
+          "smooch",
+          "romance"
+        ]
+      },
+      {
+        "id": "hundred points",
+        "associations": [
+          "100",
+          "perfect score",
+          "success",
+          "approval",
+          "excellent"
+        ]
+      },
+      {
+        "id": "anger symbol",
+        "associations": [
+          "anger",
+          "frustration",
+          "annoyance",
+          "rage",
+          "stress"
+        ]
+      },
+      {
+        "id": "fight cloud",
+        "associations": [
+          "fight",
+          "conflict",
+          "impact",
+          "argument",
+          "comic"
+        ]
+      },
+      {
+        "id": "collision",
+        "associations": [
+          "crash",
+          "impact",
+          "impact lines",
+          "hit",
+          "sudden"
+        ]
+      },
+      {
+        "id": "dizzy",
+        "associations": [
+          "dizzy",
+          "spinning",
+          "confusion",
+          "headache",
+          "disorientation"
+        ]
+      },
+      {
+        "id": "sweat droplets",
+        "associations": [
+          "sweat",
+          "rain",
+          "effort",
+          "nervousness",
+          "water"
+        ]
+      },
+      {
+        "id": "dashing away",
+        "associations": [
+          "running",
+          "speed",
+          "escape",
+          "motion",
+          "rush"
+        ]
+      },
+      {
+        "id": "hole",
+        "associations": [
+          "hole",
+          "gap",
+          "void",
+          "opening",
+          "missing"
+        ]
+      },
+      {
+        "id": "speech balloon",
+        "associations": [
+          "speech",
+          "talking",
+          "dialogue",
+          "message",
+          "comic"
+        ]
+      },
+      {
+        "id": "eye in speech bubble",
+        "associations": [
+          "watching",
+          "speaking",
+          "attention",
+          "observation",
+          "dialogue"
+        ]
+      },
+      {
+        "id": "left speech bubble",
+        "associations": [
+          "speech",
+          "left side",
+          "message",
+          "dialogue",
+          "comic"
+        ]
+      },
+      {
+        "id": "right anger bubble",
+        "associations": [
+          "anger",
+          "speech bubble",
+          "frustration",
+          "comic",
+          "right side"
+        ]
+      },
+      {
+        "id": "thought balloon",
+        "associations": [
+          "thinking",
+          "idea",
+          "mind",
+          "imagination",
+          "reflection"
+        ]
+      },
+      {
+        "id": "ZZZ",
+        "associations": [
+          "sleep",
+          "snoring",
+          "tired",
+          "rest",
+          "dreaming"
+        ]
+      },
+      {
+        "id": "waving hand",
+        "associations": [
+          "wave",
+          "hello",
+          "goodbye",
+          "greeting",
+          "hand"
+        ]
+      },
+      {
+        "id": "raised back of hand",
+        "associations": [
+          "raised hand",
+          "back of hand",
+          "wave",
+          "gesture",
+          "attention"
+        ]
+      },
+      {
+        "id": "hand with fingers splayed",
+        "associations": [
+          "open hand",
+          "spread fingers",
+          "stop",
+          "display",
+          "gesture"
+        ]
+      },
+      {
+        "id": "raised hand",
+        "associations": [
+          "raise",
+          "hand",
+          "volunteer",
+          "greeting",
+          "attention"
+        ]
+      },
+      {
+        "id": "vulcan salute",
+        "associations": [
+          "split fingers",
+          "greeting",
+          "space",
+          "hello",
+          "gesture"
+        ]
+      },
+      {
+        "id": "rightwards hand",
+        "associations": [
+          "pointing right",
+          "hand",
+          "direction",
+          "gesture",
+          "move"
+        ]
+      },
+      {
+        "id": "leftwards hand",
+        "associations": [
+          "pointing left",
+          "hand",
+          "direction",
+          "gesture",
+          "move"
+        ]
+      },
+      {
+        "id": "palm down hand",
+        "associations": [
+          "flat hand",
+          "downward",
+          "lowering",
+          "stop",
+          "gesture"
+        ]
+      },
+      {
+        "id": "palm up hand",
+        "associations": [
+          "open hand",
+          "upward",
+          "offering",
+          "asking",
+          "gesture"
+        ]
+      },
+      {
+        "id": "leftwards pushing hand",
+        "associations": [
+          "push left",
+          "hand",
+          "back off",
+          "move",
+          "gesture"
+        ]
+      },
+      {
+        "id": "rightwards pushing hand",
+        "associations": [
+          "push right",
+          "hand",
+          "back off",
+          "move",
+          "gesture"
+        ]
+      },
+      {
+        "id": "OK hand",
+        "associations": [
+          "okay",
+          "approval",
+          "circle",
+          "agreement",
+          "gesture"
+        ]
+      },
+      {
+        "id": "pinched fingers",
+        "associations": [
+          "pinch",
+          "small amount",
+          "precision",
+          "gesture",
+          "Italian-style"
+        ]
+      },
+      {
+        "id": "pinching hand",
+        "associations": [
+          "pinch",
+          "small",
+          "grab",
+          "precision",
+          "gesture"
+        ]
+      },
+      {
+        "id": "victory hand",
+        "associations": [
+          "victory",
+          "peace",
+          "two fingers",
+          "success",
+          "gesture"
+        ]
+      },
+      {
+        "id": "crossed fingers",
+        "associations": [
+          "hope",
+          "luck",
+          "wish",
+          "fingers crossed",
+          "optimism"
+        ]
+      },
+      {
+        "id": "hand with index finger and thumb crossed",
+        "associations": [
+          "hope",
+          "luck",
+          "crossed fingers",
+          "wish",
+          "gesture"
+        ]
+      },
+      {
+        "id": "love-you gesture",
+        "associations": [
+          "love",
+          "hand sign",
+          "affection",
+          "care",
+          "gesture"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_0af3b2422ca5b912016abfaddd947887d0912b49e14a1083dd",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1017,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 918,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1935
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "blue heart",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "light blue heart",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "purple heart",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "brown heart",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "black heart",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "grey heart",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "white heart",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "kiss mark",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "hundred points",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "anger symbol",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "fight cloud",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "collision",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "dizzy",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "sweat droplets",
+        "rejected": [
+          "rain"
+        ],
+        "reason": "Rain is not a core meaning of the emoji; it can be confused with sweat or effort, but rain is an unsupported substitution."
+      },
+      {
+        "id": "dashing away",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "hole",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "speech balloon",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "eye in speech bubble",
+        "rejected": [
+          "watching",
+          "attention",
+          "observation"
+        ],
+        "reason": "The emoji implies an eye in a speech bubble, not the abstract ideas of watching or observation."
+      },
+      {
+        "id": "left speech bubble",
+        "rejected": [
+          "left side"
+        ],
+        "reason": "Directional placement is not the core meaning; the emoji is a left speech bubble."
+      },
+      {
+        "id": "right anger bubble",
+        "rejected": [
+          "right side"
+        ],
+        "reason": "Directional placement is not the core meaning; the emoji is a right anger bubble."
+      },
+      {
+        "id": "thought balloon",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "ZZZ",
+        "rejected": [
+          "dreaming"
+        ],
+        "reason": "The core meaning is sleep or snoring; dreaming is not directly indicated by the emoji."
+      },
+      {
+        "id": "waving hand",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "raised back of hand",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "hand with fingers splayed",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "raised hand",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "vulcan salute",
+        "rejected": [
+          "space"
+        ],
+        "reason": "The emoji is a Vulcan salute; 'space' is a pop-culture association, not the literal core meaning."
+      },
+      {
+        "id": "rightwards hand",
+        "rejected": [
+          "pointing right"
+        ],
+        "reason": "The emoji is a rightwards hand, not specifically a pointing gesture."
+      },
+      {
+        "id": "leftwards hand",
+        "rejected": [
+          "pointing left"
+        ],
+        "reason": "The emoji is a leftwards hand, not specifically a pointing gesture."
+      },
+      {
+        "id": "palm down hand",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "palm up hand",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "leftwards pushing hand",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "rightwards pushing hand",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "OK hand",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "pinched fingers",
+        "rejected": [
+          "Italian-style"
+        ],
+        "reason": "This is a culturally specific stereotype rather than the emoji's literal core meaning."
+      },
+      {
+        "id": "pinching hand",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "victory hand",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "crossed fingers",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "hand with index finger and thumb crossed",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "love-you gesture",
+        "rejected": [],
+        "reason": ""
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_06f1244c0cfd8603016abfade3279487d094a57dac63c3d275",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1517,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 754,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2271
+    }
+  }
+}

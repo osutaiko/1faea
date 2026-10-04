@@ -1,0 +1,137 @@
+{
+  "fingerprint": "f391f41f9c1425432f57a61c349ab7d411b8903fbfd6cd91930525971b83bf7d",
+  "decoded": {
+    "rows": [
+      {
+        "id": "0854fea7f4c1c6f2",
+        "state_reading": "thought balloon | t-shirt | sun | rainbow | red square | blue square | green square",
+        "answer_reading": "red square | blue square | green square"
+      },
+      {
+        "id": "3fac58984df68e96",
+        "state_reading": "thought balloon | sleeping face | person in bed | crescent moon | three o’clock | then / leads to | herb",
+        "answer_reading": "crescent moon | person in bed | sleeping face"
+      },
+      {
+        "id": "d9f2db220de2736a",
+        "state_reading": "thought balloon | cloud with rain | seedling | hole | droplet",
+        "answer_reading": "droplet"
+      },
+      {
+        "id": "6a02df73f026279e",
+        "state_reading": "thought balloon | musical note | trumpet | magnifying glass tilted left",
+        "answer_reading": "trumpet"
+      },
+      {
+        "id": "cf9657134853fb80",
+        "state_reading": "thought balloon | cooking | television | unknown",
+        "answer_reading": "unknown"
+      },
+      {
+        "id": "ec08d18e71378121",
+        "state_reading": "thought balloon | flag: Japan | Japanese castle | cooked rice | folded hands | Japanese dolls",
+        "answer_reading": "flag: Japan | cooked rice | folded hands | Japanese dolls"
+      },
+      {
+        "id": "d35d6cedf8c50dba",
+        "state_reading": "thought balloon | shopping cart | memo | clipboard | NEW button",
+        "answer_reading": "shopping cart | memo"
+      },
+      {
+        "id": "af44cdd2ec195903",
+        "state_reading": "thought balloon | person in tuxedo | coat | magnifying glass tilted left",
+        "answer_reading": "person in tuxedo | coat"
+      },
+      {
+        "id": "f240d147c35aa435",
+        "state_reading": "thought balloon | cooking | family | pot of food | memo",
+        "answer_reading": "pot of food | green salad | cooked rice"
+      },
+      {
+        "id": "8ce93260660bd763",
+        "state_reading": "person | person lifting weights | thinking face | thought balloon | unknown",
+        "answer_reading": "person lifting weights | then / leads to | heavy equals sign | flexed biceps"
+      }
+    ]
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "0854fea7f4c1c6f2",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state stays on summer fashion and colors, and the answer lists specific colors that fit the question."
+      },
+      {
+        "id": "3fac58984df68e96",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state is sleep-related, but the answer only shows sleeping imagery and does not give any bedtime routine tips."
+      },
+      {
+        "id": "d9f2db220de2736a",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state fits the groundwater topic, but the answer is just a droplet and does not define groundwater."
+      },
+      {
+        "id": "6a02df73f026279e",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state is about musical instruments, and the answer names a trumpet, which is a popular wind instrument."
+      },
+      {
+        "id": "cf9657134853fb80",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The answer is unknown, which is acceptable here because the question asks for a personal favorite that cannot be faithfully supplied."
+      },
+      {
+        "id": "ec08d18e71378121",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state stays on Japan and cultural items, and the answer lists relevant things to know about Japanese culture."
+      },
+      {
+        "id": "d35d6cedf8c50dba",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state is about shopping and a memo/list, and the answer corresponds to making a shopping list."
+      },
+      {
+        "id": "af44cdd2ec195903",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state is about suit shopping, but the answer only depicts a suit-like outfit and does not address where to start."
+      },
+      {
+        "id": "f240d147c35aa435",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state is about cooking for family, and the answer gives plausible easy dinner ideas."
+      },
+      {
+        "id": "8ce93260660bd763",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state is about working out and motivation, and the answer suggests exercise leading to strength, which fits the request."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_02f71fc94ed5e42d016abfa699eeb087d09fb87cd1ace7e03a",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 958,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1447,
+      "output_tokens_details": {
+        "reasoning_tokens": 912
+      },
+      "total_tokens": 2405
+    }
+  }
+}

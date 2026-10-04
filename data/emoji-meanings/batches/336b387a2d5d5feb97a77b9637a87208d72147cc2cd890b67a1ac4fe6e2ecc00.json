@@ -1,0 +1,871 @@
+{
+  "names": [
+    "cat face",
+    "dog face",
+    "bird",
+    "fish",
+    "pushpin",
+    "left arrow",
+    "magnifying glass tilted left",
+    "white circle",
+    "check mark button",
+    "cross mark",
+    "red question mark",
+    "grinning face",
+    "grinning face with big eyes",
+    "grinning face with smiling eyes",
+    "beaming face with smiling eyes",
+    "grinning squinting face",
+    "grinning face with sweat",
+    "rolling on the floor laughing",
+    "face with tears of joy",
+    "slightly smiling face",
+    "upside-down face",
+    "melting face",
+    "winking face",
+    "smiling face with smiling eyes",
+    "smiling face with halo",
+    "smiling face with hearts",
+    "smiling face with heart-eyes",
+    "star-struck",
+    "face blowing a kiss",
+    "kissing face",
+    "smiling face",
+    "kissing face with closed eyes",
+    "kissing face with smiling eyes",
+    "smiling face with tear",
+    "face savoring food",
+    "face with tongue",
+    "winking face with tongue",
+    "zany face",
+    "squinting face with tongue",
+    "money-mouth face"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "cat face",
+        "associations": [
+          "cat",
+          "pet",
+          "whiskers",
+          "meow",
+          "feline"
+        ]
+      },
+      {
+        "id": "dog face",
+        "associations": [
+          "dog",
+          "pet",
+          "bark",
+          "puppy",
+          "canine"
+        ]
+      },
+      {
+        "id": "bird",
+        "associations": [
+          "bird",
+          "feathers",
+          "flying",
+          "wing",
+          "song"
+        ]
+      },
+      {
+        "id": "fish",
+        "associations": [
+          "fish",
+          "swimming",
+          "water",
+          "scale",
+          "seafood"
+        ]
+      },
+      {
+        "id": "pushpin",
+        "associations": [
+          "pin",
+          "notice",
+          "attach",
+          "paper",
+          "bulletin board"
+        ]
+      },
+      {
+        "id": "left arrow",
+        "associations": [
+          "left",
+          "direction",
+          "back",
+          "return",
+          "arrow"
+        ]
+      },
+      {
+        "id": "magnifying glass tilted left",
+        "associations": [
+          "search",
+          "inspect",
+          "zoom",
+          "find",
+          "magnifier"
+        ]
+      },
+      {
+        "id": "white circle",
+        "associations": [
+          "circle",
+          "dot",
+          "orb",
+          "symbol",
+          "shape"
+        ]
+      },
+      {
+        "id": "check mark button",
+        "associations": [
+          "check",
+          "confirm",
+          "approve",
+          "done",
+          "yes"
+        ]
+      },
+      {
+        "id": "cross mark",
+        "associations": [
+          "x",
+          "cancel",
+          "wrong",
+          "reject",
+          "close"
+        ]
+      },
+      {
+        "id": "red question mark",
+        "associations": [
+          "question",
+          "uncertain",
+          "help",
+          "ask",
+          "confusion"
+        ]
+      },
+      {
+        "id": "grinning face",
+        "associations": [
+          "smile",
+          "happy",
+          "joy",
+          "grin",
+          "cheerful"
+        ]
+      },
+      {
+        "id": "grinning face with big eyes",
+        "associations": [
+          "excited",
+          "happy",
+          "surprised",
+          "grin",
+          "eager"
+        ]
+      },
+      {
+        "id": "grinning face with smiling eyes",
+        "associations": [
+          "happy",
+          "smiling",
+          "cheerful",
+          "warm",
+          "grin"
+        ]
+      },
+      {
+        "id": "beaming face with smiling eyes",
+        "associations": [
+          "delighted",
+          "bright smile",
+          "joyful",
+          "happy",
+          "proud"
+        ]
+      },
+      {
+        "id": "grinning squinting face",
+        "associations": [
+          "laughing",
+          "cracked up",
+          "funny",
+          "squint",
+          "hilarious"
+        ]
+      },
+      {
+        "id": "grinning face with sweat",
+        "associations": [
+          "relief",
+          "awkward",
+          "nervous",
+          "smile",
+          "stress"
+        ]
+      },
+      {
+        "id": "rolling on the floor laughing",
+        "associations": [
+          "laughing",
+          "hilarious",
+          "rofl",
+          "funny",
+          "tears"
+        ]
+      },
+      {
+        "id": "face with tears of joy",
+        "associations": [
+          "laughing",
+          "tears",
+          "funny",
+          "joy",
+          "hilarious"
+        ]
+      },
+      {
+        "id": "slightly smiling face",
+        "associations": [
+          "mild smile",
+          "polite",
+          "calm",
+          "friendly",
+          "subtle"
+        ]
+      },
+      {
+        "id": "upside-down face",
+        "associations": [
+          "silly",
+          "sarcastic",
+          "playful",
+          "odd",
+          "joking"
+        ]
+      },
+      {
+        "id": "melting face",
+        "associations": [
+          "overwhelmed",
+          "embarrassed",
+          "hot",
+          "drained",
+          "meltdown"
+        ]
+      },
+      {
+        "id": "winking face",
+        "associations": [
+          "wink",
+          "playful",
+          "flirt",
+          "joke",
+          "teasing"
+        ]
+      },
+      {
+        "id": "smiling face with smiling eyes",
+        "associations": [
+          "warm",
+          "happy",
+          "gentle",
+          "content",
+          "smile"
+        ]
+      },
+      {
+        "id": "smiling face with halo",
+        "associations": [
+          "innocent",
+          "angelic",
+          "good",
+          "sweet",
+          "halo"
+        ]
+      },
+      {
+        "id": "smiling face with hearts",
+        "associations": [
+          "love",
+          "affection",
+          "adoring",
+          "warm",
+          "loving"
+        ]
+      },
+      {
+        "id": "smiling face with heart-eyes",
+        "associations": [
+          "love",
+          "crush",
+          "admiration",
+          "adoring",
+          "enamored"
+        ]
+      },
+      {
+        "id": "star-struck",
+        "associations": [
+          "astonished",
+          "admiration",
+          "excited",
+          "amazed",
+          "wow"
+        ]
+      },
+      {
+        "id": "face blowing a kiss",
+        "associations": [
+          "kiss",
+          "affection",
+          "love",
+          "bye",
+          "flirty"
+        ]
+      },
+      {
+        "id": "kissing face",
+        "associations": [
+          "kiss",
+          "love",
+          "affection",
+          "smooch",
+          "romance"
+        ]
+      },
+      {
+        "id": "smiling face",
+        "associations": [
+          "smile",
+          "friendly",
+          "happy",
+          "pleasant",
+          "content"
+        ]
+      },
+      {
+        "id": "kissing face with closed eyes",
+        "associations": [
+          "kiss",
+          "affection",
+          "romance",
+          "tender",
+          "smooch"
+        ]
+      },
+      {
+        "id": "kissing face with smiling eyes",
+        "associations": [
+          "kiss",
+          "playful",
+          "affection",
+          "sweet",
+          "romance"
+        ]
+      },
+      {
+        "id": "smiling face with tear",
+        "associations": [
+          "bittersweet",
+          "emotional",
+          "relief",
+          "sad",
+          "grateful"
+        ]
+      },
+      {
+        "id": "face savoring food",
+        "associations": [
+          "yum",
+          "delicious",
+          "taste",
+          "enjoyment",
+          "savor"
+        ]
+      },
+      {
+        "id": "face with tongue",
+        "associations": [
+          "playful",
+          "tease",
+          "silly",
+          "tongue",
+          "joking"
+        ]
+      },
+      {
+        "id": "winking face with tongue",
+        "associations": [
+          "silly",
+          "playful",
+          "teasing",
+          "wink",
+          "joke"
+        ]
+      },
+      {
+        "id": "zany face",
+        "associations": [
+          "crazy",
+          "wacky",
+          "goofy",
+          "wild",
+          "silly"
+        ]
+      },
+      {
+        "id": "squinting face with tongue",
+        "associations": [
+          "silly",
+          "tease",
+          "goofy",
+          "laughing",
+          "wry"
+        ]
+      },
+      {
+        "id": "money-mouth face",
+        "associations": [
+          "money",
+          "rich",
+          "cash",
+          "greedy",
+          "profit"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_00acf85767518faa016abfad41326487d0a71a7c19f41cd168",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 945,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1068,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2013
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "cat face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "dog face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "bird",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "fish",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "pushpin",
+        "rejected": [
+          "attach",
+          "paper"
+        ],
+        "reason": "These are actions/objects only loosely related and not core meanings of the pushpin emoji."
+      },
+      {
+        "id": "left arrow",
+        "rejected": [
+          "back",
+          "return"
+        ],
+        "reason": "These are contextual uses rather than the literal core meaning of a left arrow."
+      },
+      {
+        "id": "magnifying glass tilted left",
+        "rejected": [
+          "zoom"
+        ],
+        "reason": "Zoom is a misleading substitution; the emoji core meaning is a magnifying glass/search."
+      },
+      {
+        "id": "white circle",
+        "rejected": [
+          "dot",
+          "orb"
+        ],
+        "reason": "These are not exact core meanings and are more specific/substitute terms."
+      },
+      {
+        "id": "check mark button",
+        "rejected": [
+          "done",
+          "yes"
+        ],
+        "reason": "These are inferred functions rather than the literal check mark button meaning."
+      },
+      {
+        "id": "cross mark",
+        "rejected": [
+          "x",
+          "wrong",
+          "reject",
+          "close"
+        ],
+        "reason": "These are contextual uses or symbolic interpretations rather than the literal cross mark meaning."
+      },
+      {
+        "id": "red question mark",
+        "rejected": [
+          "help",
+          "ask",
+          "confusion"
+        ],
+        "reason": "These are inferred uses/emotions rather than the literal question mark meaning."
+      },
+      {
+        "id": "grinning face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "grinning face with big eyes",
+        "rejected": [
+          "surprised"
+        ],
+        "reason": "Surprised is not the core meaning of this emoji."
+      },
+      {
+        "id": "grinning face with smiling eyes",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "beaming face with smiling eyes",
+        "rejected": [
+          "proud"
+        ],
+        "reason": "Proud is not the core meaning of this emoji."
+      },
+      {
+        "id": "grinning squinting face",
+        "rejected": [
+          "laughing",
+          "cracked up",
+          "funny",
+          "hilarious"
+        ],
+        "reason": "These are stronger or broader interpretations than the literal grinning-squinting face meaning."
+      },
+      {
+        "id": "grinning face with sweat",
+        "rejected": [
+          "awkward",
+          "nervous",
+          "stress"
+        ],
+        "reason": "These are contextual interpretations rather than the literal meaning."
+      },
+      {
+        "id": "rolling on the floor laughing",
+        "rejected": [
+          "rofl"
+        ],
+        "reason": "This is an abbreviation/secret-code-like shorthand rather than the literal meaning."
+      },
+      {
+        "id": "face with tears of joy",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "slightly smiling face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "upside-down face",
+        "rejected": [
+          "sarcastic"
+        ],
+        "reason": "Sarcastic is a contextual use, not the core literal meaning."
+      },
+      {
+        "id": "melting face",
+        "rejected": [
+          "overwhelmed",
+          "embarrassed",
+          "drained",
+          "meltdown"
+        ],
+        "reason": "These are metaphorical interpretations rather than the literal melting face meaning."
+      },
+      {
+        "id": "winking face",
+        "rejected": [
+          "flirt",
+          "teasing"
+        ],
+        "reason": "These are contextual social uses rather than the core meaning."
+      },
+      {
+        "id": "smiling face with smiling eyes",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "smiling face with halo",
+        "rejected": [
+          "good",
+          "sweet"
+        ],
+        "reason": "These are moral/value judgments not contained in the literal emoji meaning."
+      },
+      {
+        "id": "smiling face with hearts",
+        "rejected": [
+          "adoring"
+        ],
+        "reason": "This is a stronger interpretive gloss than the core meaning."
+      },
+      {
+        "id": "smiling face with heart-eyes",
+        "rejected": [
+          "crush",
+          "enamored"
+        ],
+        "reason": "These are contextual or subjective interpretations rather than the literal meaning."
+      },
+      {
+        "id": "star-struck",
+        "rejected": [
+          "astonished"
+        ],
+        "reason": "Astonished is not the core meaning; the emoji expresses awe or admiration."
+      },
+      {
+        "id": "face blowing a kiss",
+        "rejected": [
+          "bye",
+          "flirty"
+        ],
+        "reason": "These are contextual uses rather than the literal kissing/blowing-a-kiss meaning."
+      },
+      {
+        "id": "kissing face",
+        "rejected": [
+          "romance"
+        ],
+        "reason": "Romance is an inferred context, not the core meaning."
+      },
+      {
+        "id": "smiling face",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "kissing face with closed eyes",
+        "rejected": [
+          "romance"
+        ],
+        "reason": "Romance is an inferred context, not the core meaning."
+      },
+      {
+        "id": "kissing face with smiling eyes",
+        "rejected": [
+          "playful"
+        ],
+        "reason": "Playful is a contextual interpretation rather than the literal meaning."
+      },
+      {
+        "id": "smiling face with tear",
+        "rejected": [
+          "bittersweet",
+          "emotional",
+          "sad",
+          "grateful"
+        ],
+        "reason": "These are interpretive feelings rather than the literal meaning of a smiling face with a tear."
+      },
+      {
+        "id": "face savoring food",
+        "rejected": [],
+        "reason": ""
+      },
+      {
+        "id": "face with tongue",
+        "rejected": [
+          "tease",
+          "joking"
+        ],
+        "reason": "These are contextual uses rather than the core literal meaning."
+      },
+      {
+        "id": "winking face with tongue",
+        "rejected": [
+          "teasing",
+          "joke"
+        ],
+        "reason": "These are contextual uses rather than the core literal meaning."
+      },
+      {
+        "id": "zany face",
+        "rejected": [
+          "crazy"
+        ],
+        "reason": "Crazy is a potentially misleading stereotype; the core meaning is zany/wacky."
+      },
+      {
+        "id": "squinting face with tongue",
+        "rejected": [
+          "laughing",
+          "wry"
+        ],
+        "reason": "These are not the literal core meaning of the emoji."
+      },
+      {
+        "id": "money-mouth face",
+        "rejected": [
+          "greedy"
+        ],
+        "reason": "Greedy is an evaluative stereotype rather than the literal emoji meaning."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0c5c05ace6ce8d32016abfadd2d2bc87d09e955bbc9fec82c5",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1637,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1136,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2773
+    }
+  },
+  "invalid_audits": [
+    {
+      "audit": {
+        "rows": [
+          {
+            "id": "fish",
+            "rejected": [
+              "seafood"
+            ],
+            "reason": "Seafood is food made from fish or shellfish, not a core meaning of the fish emoji itself."
+          },
+          {
+            "id": "pushpin",
+            "rejected": [
+              "bulletin board"
+            ],
+            "reason": "A bulletin board is a possible use context, not a direct association for the pushpin emoji."
+          },
+          {
+            "id": "white circle",
+            "rejected": [
+              "orb"
+            ],
+            "reason": "Orb is a misleading substitution; the emoji core meaning is a circle, not a 3D sphere."
+          },
+          {
+            "id": "check mark button",
+            "rejected": [
+              "approve"
+            ],
+            "reason": "Approve is an action/inference rather than the core meaning of the check mark button symbol."
+          },
+          {
+            "id": "cross mark",
+            "rejected": [
+              "reject"
+            ],
+            "reason": "Reject is an inferred action rather than the core meaning of the cross mark symbol."
+          },
+          {
+            "id": "red question mark",
+            "rejected": [
+              "help"
+            ],
+            "reason": "Help is not a core meaning of the red question mark symbol."
+          },
+          {
+            "id": "grinning face with big eyes",
+            "rejected": [
+              "surprised"
+            ],
+            "reason": "Surprised is a distinct expression and can misrepresent the intended grinning face meaning."
+          },
+          {
+            "id": "beaming face with smiling eyes",
+            "rejected": [
+              "proud"
+            ],
+            "reason": "Proud is not a standard core meaning of this emoji and is a misleading emotional substitution."
+          },
+          {
+            "id": "grinning squinting face",
+            "rejected": [
+              "cracked up"
+            ],
+            "reason": "Cracked up is slang that is not a direct association with the emoji's literal core meaning."
+          },
+          {
+            "id": "grinning face with sweat",
+            "rejected": [
+              "stress"
+            ],
+            "reason": "Stress is not the core meaning; the emoji more directly suggests awkward relief or nervousness."
+          },
+          {
+            "id": "melting face",
+            "rejected": [
+              "meltdown"
+            ],
+            "reason": "Meltdown is a figurative extension and not the literal core meaning of the melting face emoji."
+          }
+        ]
+      },
+      "reviewer": {
+        "id": "resp_090dbd91c5f93653016abfad466cbc87d0b49e1ee6815d799a",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 1436,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 393,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 1829
+        }
+      }
+    }
+  ]
+}

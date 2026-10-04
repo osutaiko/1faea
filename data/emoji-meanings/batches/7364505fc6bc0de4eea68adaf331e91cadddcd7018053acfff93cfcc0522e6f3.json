@@ -1,0 +1,1025 @@
+{
+  "names": [
+    "man health worker",
+    "woman health worker",
+    "student",
+    "man student",
+    "woman student",
+    "teacher",
+    "man teacher",
+    "woman teacher",
+    "judge",
+    "man judge",
+    "woman judge",
+    "farmer",
+    "man farmer",
+    "woman farmer",
+    "cook",
+    "man cook",
+    "woman cook",
+    "mechanic",
+    "man mechanic",
+    "woman mechanic",
+    "factory worker",
+    "man factory worker",
+    "woman factory worker",
+    "office worker",
+    "man office worker",
+    "woman office worker",
+    "scientist",
+    "man scientist",
+    "woman scientist",
+    "technologist",
+    "man technologist",
+    "woman technologist",
+    "singer",
+    "man singer",
+    "woman singer",
+    "artist",
+    "man artist",
+    "woman artist",
+    "pilot",
+    "man pilot"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "man health worker",
+        "associations": [
+          "hospital",
+          "care",
+          "nurse",
+          "doctor",
+          "medical"
+        ]
+      },
+      {
+        "id": "woman health worker",
+        "associations": [
+          "hospital",
+          "care",
+          "nurse",
+          "doctor",
+          "medical"
+        ]
+      },
+      {
+        "id": "student",
+        "associations": [
+          "school",
+          "study",
+          "books",
+          "learning",
+          "classroom"
+        ]
+      },
+      {
+        "id": "man student",
+        "associations": [
+          "school",
+          "study",
+          "books",
+          "learning",
+          "classroom"
+        ]
+      },
+      {
+        "id": "woman student",
+        "associations": [
+          "school",
+          "study",
+          "books",
+          "learning",
+          "classroom"
+        ]
+      },
+      {
+        "id": "teacher",
+        "associations": [
+          "classroom",
+          "lesson",
+          "school",
+          "chalkboard",
+          "learning"
+        ]
+      },
+      {
+        "id": "man teacher",
+        "associations": [
+          "classroom",
+          "lesson",
+          "school",
+          "chalkboard",
+          "learning"
+        ]
+      },
+      {
+        "id": "woman teacher",
+        "associations": [
+          "classroom",
+          "lesson",
+          "school",
+          "chalkboard",
+          "learning"
+        ]
+      },
+      {
+        "id": "judge",
+        "associations": [
+          "court",
+          "law",
+          "gavel",
+          "decision",
+          "justice"
+        ]
+      },
+      {
+        "id": "man judge",
+        "associations": [
+          "court",
+          "law",
+          "gavel",
+          "decision",
+          "justice"
+        ]
+      },
+      {
+        "id": "woman judge",
+        "associations": [
+          "court",
+          "law",
+          "gavel",
+          "decision",
+          "justice"
+        ]
+      },
+      {
+        "id": "farmer",
+        "associations": [
+          "field",
+          "crops",
+          "harvest",
+          "tractor",
+          "rural"
+        ]
+      },
+      {
+        "id": "man farmer",
+        "associations": [
+          "field",
+          "crops",
+          "harvest",
+          "tractor",
+          "rural"
+        ]
+      },
+      {
+        "id": "woman farmer",
+        "associations": [
+          "field",
+          "crops",
+          "harvest",
+          "tractor",
+          "rural"
+        ]
+      },
+      {
+        "id": "cook",
+        "associations": [
+          "kitchen",
+          "meal",
+          "recipe",
+          "pan",
+          "chef"
+        ]
+      },
+      {
+        "id": "man cook",
+        "associations": [
+          "kitchen",
+          "meal",
+          "recipe",
+          "pan",
+          "chef"
+        ]
+      },
+      {
+        "id": "woman cook",
+        "associations": [
+          "kitchen",
+          "meal",
+          "recipe",
+          "pan",
+          "chef"
+        ]
+      },
+      {
+        "id": "mechanic",
+        "associations": [
+          "garage",
+          "tools",
+          "repair",
+          "engine",
+          "wrench"
+        ]
+      },
+      {
+        "id": "man mechanic",
+        "associations": [
+          "garage",
+          "tools",
+          "repair",
+          "engine",
+          "wrench"
+        ]
+      },
+      {
+        "id": "woman mechanic",
+        "associations": [
+          "garage",
+          "tools",
+          "repair",
+          "engine",
+          "wrench"
+        ]
+      },
+      {
+        "id": "factory worker",
+        "associations": [
+          "factory",
+          "assembly",
+          "machines",
+          "shift",
+          "production"
+        ]
+      },
+      {
+        "id": "man factory worker",
+        "associations": [
+          "factory",
+          "assembly",
+          "machines",
+          "shift",
+          "production"
+        ]
+      },
+      {
+        "id": "woman factory worker",
+        "associations": [
+          "factory",
+          "assembly",
+          "machines",
+          "shift",
+          "production"
+        ]
+      },
+      {
+        "id": "office worker",
+        "associations": [
+          "desk",
+          "computer",
+          "paperwork",
+          "meeting",
+          "cubicle"
+        ]
+      },
+      {
+        "id": "man office worker",
+        "associations": [
+          "desk",
+          "computer",
+          "paperwork",
+          "meeting",
+          "cubicle"
+        ]
+      },
+      {
+        "id": "woman office worker",
+        "associations": [
+          "desk",
+          "computer",
+          "paperwork",
+          "meeting",
+          "cubicle"
+        ]
+      },
+      {
+        "id": "scientist",
+        "associations": [
+          "lab",
+          "experiment",
+          "research",
+          "microscope",
+          "discovery"
+        ]
+      },
+      {
+        "id": "man scientist",
+        "associations": [
+          "lab",
+          "experiment",
+          "research",
+          "microscope",
+          "discovery"
+        ]
+      },
+      {
+        "id": "woman scientist",
+        "associations": [
+          "lab",
+          "experiment",
+          "research",
+          "microscope",
+          "discovery"
+        ]
+      },
+      {
+        "id": "technologist",
+        "associations": [
+          "technology",
+          "devices",
+          "innovation",
+          "coding",
+          "digital"
+        ]
+      },
+      {
+        "id": "man technologist",
+        "associations": [
+          "technology",
+          "devices",
+          "innovation",
+          "coding",
+          "digital"
+        ]
+      },
+      {
+        "id": "woman technologist",
+        "associations": [
+          "technology",
+          "devices",
+          "innovation",
+          "coding",
+          "digital"
+        ]
+      },
+      {
+        "id": "singer",
+        "associations": [
+          "music",
+          "voice",
+          "song",
+          "microphone",
+          "performance"
+        ]
+      },
+      {
+        "id": "man singer",
+        "associations": [
+          "music",
+          "voice",
+          "song",
+          "microphone",
+          "performance"
+        ]
+      },
+      {
+        "id": "woman singer",
+        "associations": [
+          "music",
+          "voice",
+          "song",
+          "microphone",
+          "performance"
+        ]
+      },
+      {
+        "id": "artist",
+        "associations": [
+          "art",
+          "painting",
+          "creative",
+          "canvas",
+          "drawing"
+        ]
+      },
+      {
+        "id": "man artist",
+        "associations": [
+          "art",
+          "painting",
+          "creative",
+          "canvas",
+          "drawing"
+        ]
+      },
+      {
+        "id": "woman artist",
+        "associations": [
+          "art",
+          "painting",
+          "creative",
+          "canvas",
+          "drawing"
+        ]
+      },
+      {
+        "id": "pilot",
+        "associations": [
+          "airplane",
+          "flight",
+          "cockpit",
+          "travel",
+          "aviation"
+        ]
+      },
+      {
+        "id": "man pilot",
+        "associations": [
+          "airplane",
+          "flight",
+          "cockpit",
+          "travel",
+          "aviation"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_009318ac3df6dd62016abfadef8e2487d09f2b1157e8350d47",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 915,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 825,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1740
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "man health worker",
+        "rejected": [
+          "nurse",
+          "doctor"
+        ],
+        "reason": "Gendered professional emoji should not be narrowed by adding other specific professions; the core is a health worker, not necessarily a nurse or doctor."
+      },
+      {
+        "id": "woman health worker",
+        "rejected": [
+          "nurse",
+          "doctor"
+        ],
+        "reason": "Gendered professional emoji should not be narrowed by adding other specific professions; the core is a health worker, not necessarily a nurse or doctor."
+      },
+      {
+        "id": "student",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a student."
+      },
+      {
+        "id": "man student",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a student."
+      },
+      {
+        "id": "woman student",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a student."
+      },
+      {
+        "id": "teacher",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a teacher."
+      },
+      {
+        "id": "man teacher",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a teacher."
+      },
+      {
+        "id": "woman teacher",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a teacher."
+      },
+      {
+        "id": "judge",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a judge."
+      },
+      {
+        "id": "man judge",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a judge."
+      },
+      {
+        "id": "woman judge",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a judge."
+      },
+      {
+        "id": "farmer",
+        "rejected": [
+          "rural"
+        ],
+        "reason": "A farmer may live in rural areas, but 'rural' describes a place/setting rather than a direct core meaning association for the role."
+      },
+      {
+        "id": "man farmer",
+        "rejected": [
+          "rural"
+        ],
+        "reason": "A farmer may live in rural areas, but 'rural' describes a place/setting rather than a direct core meaning association for the role."
+      },
+      {
+        "id": "woman farmer",
+        "rejected": [
+          "rural"
+        ],
+        "reason": "A farmer may live in rural areas, but 'rural' describes a place/setting rather than a direct core meaning association for the role."
+      },
+      {
+        "id": "cook",
+        "rejected": [
+          "chef"
+        ],
+        "reason": "'Chef' is a distinct role/title and can be a misleading substitution for 'cook'."
+      },
+      {
+        "id": "man cook",
+        "rejected": [
+          "chef"
+        ],
+        "reason": "'Chef' is a distinct role/title and can be a misleading substitution for 'cook'."
+      },
+      {
+        "id": "woman cook",
+        "rejected": [
+          "chef"
+        ],
+        "reason": "'Chef' is a distinct role/title and can be a misleading substitution for 'cook'."
+      },
+      {
+        "id": "mechanic",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a mechanic."
+      },
+      {
+        "id": "man mechanic",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a mechanic."
+      },
+      {
+        "id": "woman mechanic",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a mechanic."
+      },
+      {
+        "id": "factory worker",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a factory worker."
+      },
+      {
+        "id": "man factory worker",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a factory worker."
+      },
+      {
+        "id": "woman factory worker",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a factory worker."
+      },
+      {
+        "id": "office worker",
+        "rejected": [
+          "cubicle"
+        ],
+        "reason": "A cubicle is a possible workplace object, but it is too specific as a defining association for the core meaning."
+      },
+      {
+        "id": "man office worker",
+        "rejected": [
+          "cubicle"
+        ],
+        "reason": "A cubicle is a possible workplace object, but it is too specific as a defining association for the core meaning."
+      },
+      {
+        "id": "woman office worker",
+        "rejected": [
+          "cubicle"
+        ],
+        "reason": "A cubicle is a possible workplace object, but it is too specific as a defining association for the core meaning."
+      },
+      {
+        "id": "scientist",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a scientist."
+      },
+      {
+        "id": "man scientist",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a scientist."
+      },
+      {
+        "id": "woman scientist",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a scientist."
+      },
+      {
+        "id": "technologist",
+        "rejected": [
+          "coding"
+        ],
+        "reason": "Coding is related but narrower than the broader core meaning of technologist; it can mislead by over-specifying the role."
+      },
+      {
+        "id": "man technologist",
+        "rejected": [
+          "coding"
+        ],
+        "reason": "Coding is related but narrower than the broader core meaning of technologist; it can mislead by over-specifying the role."
+      },
+      {
+        "id": "woman technologist",
+        "rejected": [
+          "coding"
+        ],
+        "reason": "Coding is related but narrower than the broader core meaning of technologist; it can mislead by over-specifying the role."
+      },
+      {
+        "id": "singer",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a singer."
+      },
+      {
+        "id": "man singer",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a singer."
+      },
+      {
+        "id": "woman singer",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a singer."
+      },
+      {
+        "id": "artist",
+        "rejected": [
+          "creative"
+        ],
+        "reason": "'Creative' is an adjective rather than a concrete association and is too generic to serve as a specific emoji association."
+      },
+      {
+        "id": "man artist",
+        "rejected": [
+          "creative"
+        ],
+        "reason": "'Creative' is an adjective rather than a concrete association and is too generic to serve as a specific emoji association."
+      },
+      {
+        "id": "woman artist",
+        "rejected": [
+          "creative"
+        ],
+        "reason": "'Creative' is an adjective rather than a concrete association and is too generic to serve as a specific emoji association."
+      },
+      {
+        "id": "pilot",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a pilot."
+      },
+      {
+        "id": "man pilot",
+        "rejected": [],
+        "reason": "All associations are ordinary and related to being a pilot."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0a42bfe76265c57b016abfaea3df8c87d0942daf8bbb15f1c2",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2432,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1120,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3552
+    }
+  },
+  "invalid_audits": [
+    {
+      "audit": {
+        "rows": [
+          {
+            "id": "man health worker",
+            "rejected": [
+              "nurse"
+            ],
+            "reason": "\"nurse\" is a specific job and can be a misleading substitution for the broader core meaning \"health worker\"."
+          },
+          {
+            "id": "woman health worker",
+            "rejected": [
+              "nurse"
+            ],
+            "reason": "\"nurse\" is a specific job and can be a misleading substitution for the broader core meaning \"health worker\"."
+          },
+          {
+            "id": "man scientist",
+            "rejected": [
+              "microscope"
+            ],
+            "reason": "\"microscope\" is an ordinary related object, but if the core meaning is the worker/person itself, this is acceptable; no rejection needed."
+          },
+          {
+            "id": "woman scientist",
+            "rejected": [
+              "microscope"
+            ],
+            "reason": "\"microscope\" is an ordinary related object, but if the core meaning is the worker/person itself, this is acceptable; no rejection needed."
+          },
+          {
+            "id": "pilot",
+            "rejected": [
+              "travel"
+            ],
+            "reason": "\"travel\" is too broad and can apply to many roles; it is related but not a core association for pilot compared with flight/aviation."
+          },
+          {
+            "id": "man pilot",
+            "rejected": [
+              "travel"
+            ],
+            "reason": "\"travel\" is too broad and can apply to many roles; it is related but not a core association for pilot compared with flight/aviation."
+          },
+          {
+            "id": "technologist",
+            "rejected": [
+              "coding"
+            ],
+            "reason": "\"coding\" is a narrower activity that may fit some technologists but not the core meaning of technologist in general."
+          },
+          {
+            "id": "man technologist",
+            "rejected": [
+              "coding"
+            ],
+            "reason": "\"coding\" is a narrower activity that may fit some technologists but not the core meaning of technologist in general."
+          },
+          {
+            "id": "woman technologist",
+            "rejected": [
+              "coding"
+            ],
+            "reason": "\"coding\" is a narrower activity that may fit some technologists but not the core meaning of technologist in general."
+          },
+          {
+            "id": "cook",
+            "rejected": [
+              "chef"
+            ],
+            "reason": "\"chef\" is a different but related role and can be a misleading substitution for the broader core meaning \"cook\"."
+          },
+          {
+            "id": "man cook",
+            "rejected": [
+              "chef"
+            ],
+            "reason": "\"chef\" is a different but related role and can be a misleading substitution for the broader core meaning \"cook\"."
+          },
+          {
+            "id": "woman cook",
+            "rejected": [
+              "chef"
+            ],
+            "reason": "\"chef\" is a different but related role and can be a misleading substitution for the broader core meaning \"cook\"."
+          },
+          {
+            "id": "judge",
+            "rejected": [
+              "gavel"
+            ],
+            "reason": "\"gavel\" is an ordinary related object, but not universal to judges and can over-specify the role."
+          },
+          {
+            "id": "man judge",
+            "rejected": [
+              "gavel"
+            ],
+            "reason": "\"gavel\" is an ordinary related object, but not universal to judges and can over-specify the role."
+          },
+          {
+            "id": "woman judge",
+            "rejected": [
+              "gavel"
+            ],
+            "reason": "\"gavel\" is an ordinary related object, but not universal to judges and can over-specify the role."
+          },
+          {
+            "id": "farmer",
+            "rejected": [
+              "tractor"
+            ],
+            "reason": "\"tractor\" is an associated tool, but not essential to the core meaning and can be misleading as a defining feature."
+          },
+          {
+            "id": "man farmer",
+            "rejected": [
+              "tractor"
+            ],
+            "reason": "\"tractor\" is an associated tool, but not essential to the core meaning and can be misleading as a defining feature."
+          },
+          {
+            "id": "woman farmer",
+            "rejected": [
+              "tractor"
+            ],
+            "reason": "\"tractor\" is an associated tool, but not essential to the core meaning and can be misleading as a defining feature."
+          },
+          {
+            "id": "factory worker",
+            "rejected": [
+              "assembly"
+            ],
+            "reason": "\"assembly\" is vague and can refer to many contexts; it is not a clear core association for factory worker."
+          },
+          {
+            "id": "man factory worker",
+            "rejected": [
+              "assembly"
+            ],
+            "reason": "\"assembly\" is vague and can refer to many contexts; it is not a clear core association for factory worker."
+          },
+          {
+            "id": "woman factory worker",
+            "rejected": [
+              "assembly"
+            ],
+            "reason": "\"assembly\" is vague and can refer to many contexts; it is not a clear core association for factory worker."
+          },
+          {
+            "id": "office worker",
+            "rejected": [
+              "cubicle"
+            ],
+            "reason": "\"cubicle\" is a workplace setting that may apply, but it is not a defining or universal association for office worker."
+          },
+          {
+            "id": "man office worker",
+            "rejected": [
+              "cubicle"
+            ],
+            "reason": "\"cubicle\" is a workplace setting that may apply, but it is not a defining or universal association for office worker."
+          },
+          {
+            "id": "woman office worker",
+            "rejected": [
+              "cubicle"
+            ],
+            "reason": "\"cubicle\" is a workplace setting that may apply, but it is not a defining or universal association for office worker."
+          },
+          {
+            "id": "singer",
+            "rejected": [
+              "microphone"
+            ],
+            "reason": "\"microphone\" is an ordinary related object, but not necessary to the core meaning and may be absent."
+          },
+          {
+            "id": "man singer",
+            "rejected": [
+              "microphone"
+            ],
+            "reason": "\"microphone\" is an ordinary related object, but not necessary to the core meaning and may be absent."
+          },
+          {
+            "id": "woman singer",
+            "rejected": [
+              "microphone"
+            ],
+            "reason": "\"microphone\" is an ordinary related object, but not necessary to the core meaning and may be absent."
+          },
+          {
+            "id": "artist",
+            "rejected": [
+              "painting"
+            ],
+            "reason": "\"painting\" is too specific; artists may work in many media, so this can narrow the meaning improperly."
+          },
+          {
+            "id": "man artist",
+            "rejected": [
+              "painting"
+            ],
+            "reason": "\"painting\" is too specific; artists may work in many media, so this can narrow the meaning improperly."
+          },
+          {
+            "id": "woman artist",
+            "rejected": [
+              "painting"
+            ],
+            "reason": "\"painting\" is too specific; artists may work in many media, so this can narrow the meaning improperly."
+          },
+          {
+            "id": "student",
+            "rejected": [
+              "school"
+            ],
+            "reason": "\"school\" is related, but a student may study in many settings; this is broader than a direct defining association."
+          },
+          {
+            "id": "man student",
+            "rejected": [
+              "school"
+            ],
+            "reason": "\"school\" is related, but a student may study in many settings; this is broader than a direct defining association."
+          },
+          {
+            "id": "woman student",
+            "rejected": [
+              "school"
+            ],
+            "reason": "\"school\" is related, but a student may study in many settings; this is broader than a direct defining association."
+          },
+          {
+            "id": "teacher",
+            "rejected": [
+              "chalkboard"
+            ],
+            "reason": "\"chalkboard\" is an optional classroom object and not a core meaning of teacher."
+          },
+          {
+            "id": "man teacher",
+            "rejected": [
+              "chalkboard"
+            ],
+            "reason": "\"chalkboard\" is an optional classroom object and not a core meaning of teacher."
+          },
+          {
+            "id": "woman teacher",
+            "rejected": [
+              "chalkboard"
+            ],
+            "reason": "\"chalkboard\" is an optional classroom object and not a core meaning of teacher."
+          },
+          {
+            "id": "scientist",
+            "rejected": [
+              "microscope"
+            ],
+            "reason": "\"microscope\" is a related tool, but not all scientists use one; it can over-specify the role."
+          },
+          {
+            "id": "man scientist",
+            "rejected": [
+              "microscope"
+            ],
+            "reason": "\"microscope\" is a related tool, but not all scientists use one; it can over-specify the role."
+          },
+          {
+            "id": "woman scientist",
+            "rejected": [
+              "microscope"
+            ],
+            "reason": "\"microscope\" is a related tool, but not all scientists use one; it can over-specify the role."
+          },
+          {
+            "id": "technologist",
+            "rejected": [
+              "devices"
+            ],
+            "reason": "\"devices\" is overly generic and not specific to the human role meaning."
+          }
+        ]
+      },
+      "reviewer": {
+        "id": "resp_0b5540a8e24ba5e2016abfadf2ca4887d0b87a396f011e9501",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 1396,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1567,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2963
+        }
+      }
+    }
+  ]
+}

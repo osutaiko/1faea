@@ -1,0 +1,137 @@
+{
+  "fingerprint": "75258b765cd1e740e98bc6c1dc1ed27479b808a658dc2fdd59a91d9f9fcb522f",
+  "decoded": {
+    "rows": [
+      {
+        "id": "b15c218dd149f78e",
+        "state_reading": "mobile phone | battery | unknown",
+        "answer_reading": "battery | ZZZ | mobile phone off | dim button | black circle"
+      },
+      {
+        "id": "f7bc2488732b0092",
+        "state_reading": "musical note | violin | unknown",
+        "answer_reading": "violin | musical score | banjo | musical notes"
+      },
+      {
+        "id": "5705576de6cffe64",
+        "state_reading": "sleeping face | unknown",
+        "answer_reading": "sleeping face | bed | mantelpiece clock | no mobile phones | crescent moon | person in lotus position"
+      },
+      {
+        "id": "1759dfa120c41921",
+        "state_reading": "globe showing Europe-Africa | airplane | cityscape | unknown",
+        "answer_reading": "Tokyo tower | castle | artist palette | wine glass | baguette bread"
+      },
+      {
+        "id": "39201c44085dd526",
+        "state_reading": "red apple | carrot | peanuts | unknown",
+        "answer_reading": "carrot | red apple | peanuts | cucumber | green salad"
+      },
+      {
+        "id": "9a704e5ab644d595",
+        "state_reading": "slightly smiling face | face with thermometer | hospital | unknown",
+        "answer_reading": "thinking face | health worker | hospital | pill"
+      },
+      {
+        "id": "9620c26f7155f184",
+        "state_reading": "cloud with rain | straight ruler | unknown",
+        "answer_reading": "cloud with rain | straight ruler"
+      },
+      {
+        "id": "86a3a1c78dbc18af",
+        "state_reading": "dna | student | unknown",
+        "answer_reading": "dna | brain | family"
+      },
+      {
+        "id": "ce868481ed2e1369",
+        "state_reading": "cat | thinking face | teddy bear | tennis | unknown",
+        "answer_reading": "tennis | teddy bear | man running | grinning cat"
+      },
+      {
+        "id": "5dcd97dd2cd4ec94",
+        "state_reading": "seedling | unknown",
+        "answer_reading": "sun | droplet | potted plant | seedling | farmer"
+      }
+    ]
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "b15c218dd149f78e",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state keeps the phone/battery topic, and the answer gives a way to save battery life by turning the mobile phone off."
+      },
+      {
+        "id": "f7bc2488732b0092",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state preserves the subject of a violin, but the answer is only a list of related music items and does not explain what a violin is."
+      },
+      {
+        "id": "5705576de6cffe64",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state is about sleep, and the answer lists factors related to sleep quality."
+      },
+      {
+        "id": "1759dfa120c41921",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state drifts away from Paris-specific landmarks into generic travel imagery, and the answer lists landmarks/items that do not faithfully answer the Paris landmarks question."
+      },
+      {
+        "id": "39201c44085dd526",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the healthy snack topic, and the answer provides several snack suggestions."
+      },
+      {
+        "id": "9a704e5ab644d595",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state preserves the illness/doctor topic, but the answer does not actually say whether to go to the doctor or give a clear answer to that question."
+      },
+      {
+        "id": "9620c26f7155f184",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The state does not faithfully represent how rain is measured because it uses a ruler rather than the needed rain-measurement concept, and the answer repeats that mismatch instead of answering the question."
+      },
+      {
+        "id": "86a3a1c78dbc18af",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state keeps the genetics/heredity topic, but the answer is only a related set of words and does not define heredity."
+      },
+      {
+        "id": "ce868481ed2e1369",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state preserves the cat entertainment topic, but the answer lists unrelated or too-generic items and does not clearly tell how to keep a cat entertained."
+      },
+      {
+        "id": "5dcd97dd2cd4ec94",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state preserves the plant topic, and the answer gives things plants need to grow, such as sun and water."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_05ddabf8f047cf19016abfa66c13e887d0b6e6ad7e865b5269",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 910,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1325,
+      "output_tokens_details": {
+        "reasoning_tokens": 739
+      },
+      "total_tokens": 2235
+    }
+  }
+}

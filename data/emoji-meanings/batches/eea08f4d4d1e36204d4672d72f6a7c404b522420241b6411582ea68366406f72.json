@@ -1,0 +1,732 @@
+{
+  "names": [
+    "jar",
+    "amphora",
+    "globe showing Europe-Africa",
+    "globe showing Americas",
+    "globe showing Asia-Australia",
+    "globe with meridians",
+    "world map",
+    "map of Japan",
+    "compass",
+    "snow-capped mountain",
+    "mountain",
+    "landslide",
+    "volcano",
+    "mount fuji",
+    "camping",
+    "beach with umbrella",
+    "desert",
+    "desert island",
+    "national park",
+    "stadium",
+    "classical building",
+    "building construction",
+    "brick",
+    "rock",
+    "wood",
+    "hut",
+    "houses",
+    "derelict house",
+    "house",
+    "house with garden",
+    "office building",
+    "Japanese post office",
+    "post office",
+    "hospital",
+    "bank",
+    "hotel",
+    "love hotel",
+    "convenience store",
+    "school",
+    "department store"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "jar",
+        "associations": [
+          "container",
+          "preserve",
+          "glass vessel",
+          "storage",
+          "lid"
+        ]
+      },
+      {
+        "id": "amphora",
+        "associations": [
+          "ancient vessel",
+          "ceramics",
+          "storage jar",
+          "clay pot",
+          "antique"
+        ]
+      },
+      {
+        "id": "globe showing Europe-Africa",
+        "associations": [
+          "earth",
+          "Europe",
+          "Africa",
+          "map",
+          "travel"
+        ]
+      },
+      {
+        "id": "globe showing Americas",
+        "associations": [
+          "earth",
+          "Americas",
+          "Western Hemisphere",
+          "map",
+          "travel"
+        ]
+      },
+      {
+        "id": "globe showing Asia-Australia",
+        "associations": [
+          "earth",
+          "Asia",
+          "Australia",
+          "Eastern Hemisphere",
+          "map"
+        ]
+      },
+      {
+        "id": "globe with meridians",
+        "associations": [
+          "earth",
+          "global",
+          "longitude",
+          "latitude",
+          "world"
+        ]
+      },
+      {
+        "id": "world map",
+        "associations": [
+          "map",
+          "earth",
+          "geography",
+          "atlas",
+          "travel"
+        ]
+      },
+      {
+        "id": "map of Japan",
+        "associations": [
+          "Japan",
+          "map",
+          "geography",
+          "navigation",
+          "islands"
+        ]
+      },
+      {
+        "id": "compass",
+        "associations": [
+          "navigation",
+          "direction",
+          "north",
+          "travel",
+          "orientation"
+        ]
+      },
+      {
+        "id": "snow-capped mountain",
+        "associations": [
+          "peak",
+          "snow",
+          "alpine",
+          "summit",
+          "cold"
+        ]
+      },
+      {
+        "id": "mountain",
+        "associations": [
+          "peak",
+          "climb",
+          "ridge",
+          "nature",
+          "highland"
+        ]
+      },
+      {
+        "id": "landslide",
+        "associations": [
+          "earth movement",
+          "collapse",
+          "mud",
+          "erosion",
+          "disaster"
+        ]
+      },
+      {
+        "id": "volcano",
+        "associations": [
+          "lava",
+          "eruption",
+          "magma",
+          "ash",
+          "mountain"
+        ]
+      },
+      {
+        "id": "mount fuji",
+        "associations": [
+          "Japan",
+          "peak",
+          "iconic mountain",
+          "snowy summit",
+          "landmark"
+        ]
+      },
+      {
+        "id": "camping",
+        "associations": [
+          "tent",
+          "outdoors",
+          "hiking",
+          "campfire",
+          "adventure"
+        ]
+      },
+      {
+        "id": "beach with umbrella",
+        "associations": [
+          "sand",
+          "sunshade",
+          "seaside",
+          "vacation",
+          "relaxation"
+        ]
+      },
+      {
+        "id": "desert",
+        "associations": [
+          "sand",
+          "arid",
+          "dunes",
+          "dry",
+          "wilderness"
+        ]
+      },
+      {
+        "id": "desert island",
+        "associations": [
+          "island",
+          "isolated",
+          "tropical",
+          "remote",
+          "vacation"
+        ]
+      },
+      {
+        "id": "national park",
+        "associations": [
+          "nature",
+          "protected land",
+          "wildlife",
+          "scenery",
+          "outdoors"
+        ]
+      },
+      {
+        "id": "stadium",
+        "associations": [
+          "sports",
+          "arena",
+          "crowd",
+          "game",
+          "event"
+        ]
+      },
+      {
+        "id": "classical building",
+        "associations": [
+          "historic",
+          "columns",
+          "architecture",
+          "monument",
+          "formal"
+        ]
+      },
+      {
+        "id": "building construction",
+        "associations": [
+          "crane",
+          "worksite",
+          "construction",
+          "development",
+          "building"
+        ]
+      },
+      {
+        "id": "brick",
+        "associations": [
+          "masonry",
+          "wall",
+          "clay",
+          "construction",
+          "block"
+        ]
+      },
+      {
+        "id": "rock",
+        "associations": [
+          "stone",
+          "boulder",
+          "hard",
+          "geology",
+          "natural"
+        ]
+      },
+      {
+        "id": "wood",
+        "associations": [
+          "timber",
+          "lumber",
+          "tree",
+          "material",
+          "forest"
+        ]
+      },
+      {
+        "id": "hut",
+        "associations": [
+          "small house",
+          "shelter",
+          "rural",
+          "simple",
+          "cottage"
+        ]
+      },
+      {
+        "id": "houses",
+        "associations": [
+          "homes",
+          "neighborhood",
+          "residential",
+          "buildings",
+          "community"
+        ]
+      },
+      {
+        "id": "derelict house",
+        "associations": [
+          "abandoned",
+          "ruin",
+          "dilapidated",
+          "empty",
+          "decay"
+        ]
+      },
+      {
+        "id": "house",
+        "associations": [
+          "home",
+          "residence",
+          "building",
+          "family",
+          "shelter"
+        ]
+      },
+      {
+        "id": "house with garden",
+        "associations": [
+          "home",
+          "yard",
+          "plants",
+          "suburban",
+          "residence"
+        ]
+      },
+      {
+        "id": "office building",
+        "associations": [
+          "workplace",
+          "corporate",
+          "tower",
+          "business",
+          "commercial"
+        ]
+      },
+      {
+        "id": "Japanese post office",
+        "associations": [
+          "mail",
+          "Japan",
+          "postal service",
+          "office",
+          "delivery"
+        ]
+      },
+      {
+        "id": "post office",
+        "associations": [
+          "mail",
+          "postal service",
+          "letters",
+          "shipping",
+          "office"
+        ]
+      },
+      {
+        "id": "hospital",
+        "associations": [
+          "medical",
+          "care",
+          "clinic",
+          "patients",
+          "emergency"
+        ]
+      },
+      {
+        "id": "bank",
+        "associations": [
+          "money",
+          "finance",
+          "savings",
+          "cash",
+          "loan"
+        ]
+      },
+      {
+        "id": "hotel",
+        "associations": [
+          "lodging",
+          "travel",
+          "room",
+          "guest",
+          "stay"
+        ]
+      },
+      {
+        "id": "love hotel",
+        "associations": [
+          "lodging",
+          "privacy",
+          "couples",
+          "short stay",
+          "hotel"
+        ]
+      },
+      {
+        "id": "convenience store",
+        "associations": [
+          "snacks",
+          "groceries",
+          "quick stop",
+          "retail",
+          "late night"
+        ]
+      },
+      {
+        "id": "school",
+        "associations": [
+          "education",
+          "classroom",
+          "students",
+          "learning",
+          "teacher"
+        ]
+      },
+      {
+        "id": "department store",
+        "associations": [
+          "shopping",
+          "retail",
+          "mall",
+          "goods",
+          "consumer"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_068ac0b854db3660016abfaee1568887d0976ae5ce626206a4",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1367,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 684,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2051
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "jar",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a jar."
+      },
+      {
+        "id": "amphora",
+        "rejected": [
+          "storage jar",
+          "antique"
+        ],
+        "reason": "An amphora is an ancient vessel; these are acceptable only as general context, but 'storage jar' is a misleading substitution and 'antique' is too vague as a defining association."
+      },
+      {
+        "id": "globe showing Europe-Africa",
+        "rejected": [
+          "map",
+          "travel"
+        ],
+        "reason": "The emoji depicts a globe, not a map; 'travel' is only tangential and not a core association."
+      },
+      {
+        "id": "globe showing Americas",
+        "rejected": [
+          "map",
+          "travel"
+        ],
+        "reason": "The emoji depicts a globe, not a map; 'travel' is only tangential and not a core association."
+      },
+      {
+        "id": "globe showing Asia-Australia",
+        "rejected": [
+          "map"
+        ],
+        "reason": "The emoji depicts a globe, not a map."
+      },
+      {
+        "id": "globe with meridians",
+        "rejected": [],
+        "reason": "All associations match a globe with meridians."
+      },
+      {
+        "id": "world map",
+        "rejected": [
+          "travel"
+        ],
+        "reason": "A world map is geographic, but 'travel' is an optional use rather than a direct meaning."
+      },
+      {
+        "id": "map of Japan",
+        "rejected": [
+          "navigation"
+        ],
+        "reason": "This is a map of Japan; 'navigation' is an inferred use, not the literal core meaning."
+      },
+      {
+        "id": "compass",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a compass."
+      },
+      {
+        "id": "snow-capped mountain",
+        "rejected": [
+          "alpine"
+        ],
+        "reason": "'Alpine' is a related adjective but not a direct association to the emoji's core meaning."
+      },
+      {
+        "id": "mountain",
+        "rejected": [
+          "highland"
+        ],
+        "reason": "'Highland' refers to terrain, not a mountain specifically."
+      },
+      {
+        "id": "landslide",
+        "rejected": [
+          "mud",
+          "erosion"
+        ],
+        "reason": "A landslide can involve earth movement and collapse, but 'mud' and 'erosion' are not core associations and can be misleading."
+      },
+      {
+        "id": "volcano",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a volcano."
+      },
+      {
+        "id": "mount fuji",
+        "rejected": [
+          "peak"
+        ],
+        "reason": "'Peak' is generic and does not identify Mount Fuji specifically."
+      },
+      {
+        "id": "camping",
+        "rejected": [
+          "hiking"
+        ],
+        "reason": "Hiking is related but not the core meaning of camping."
+      },
+      {
+        "id": "beach with umbrella",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a beach with umbrella."
+      },
+      {
+        "id": "desert",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a desert."
+      },
+      {
+        "id": "desert island",
+        "rejected": [
+          "tropical",
+          "vacation"
+        ],
+        "reason": "A desert island is about isolation; 'tropical' and 'vacation' are misleading and not inherent."
+      },
+      {
+        "id": "national park",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a national park."
+      },
+      {
+        "id": "stadium",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a stadium."
+      },
+      {
+        "id": "classical building",
+        "rejected": [
+          "formal"
+        ],
+        "reason": "'Formal' is not a direct association with a classical building."
+      },
+      {
+        "id": "building construction",
+        "rejected": [
+          "development"
+        ],
+        "reason": "'Development' is too broad and not specific to the construction emoji."
+      },
+      {
+        "id": "brick",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a brick."
+      },
+      {
+        "id": "rock",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a rock."
+      },
+      {
+        "id": "wood",
+        "rejected": [
+          "forest"
+        ],
+        "reason": "Wood comes from trees, but 'forest' is not a direct association with wood itself."
+      },
+      {
+        "id": "hut",
+        "rejected": [
+          "cottage"
+        ],
+        "reason": "A hut is a simple small shelter; 'cottage' is a different type of dwelling and a misleading substitution."
+      },
+      {
+        "id": "houses",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of houses."
+      },
+      {
+        "id": "derelict house",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a derelict house."
+      },
+      {
+        "id": "house",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a house."
+      },
+      {
+        "id": "house with garden",
+        "rejected": [
+          "suburban"
+        ],
+        "reason": "'Suburban' is contextual, not a direct visual or literal association."
+      },
+      {
+        "id": "office building",
+        "rejected": [
+          "tower"
+        ],
+        "reason": "An office building need not be a tower; this is a misleading narrowing."
+      },
+      {
+        "id": "Japanese post office",
+        "rejected": [
+          "office"
+        ],
+        "reason": "The emoji is specifically a Japanese post office; 'office' is too generic and loses the postal meaning."
+      },
+      {
+        "id": "post office",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a post office."
+      },
+      {
+        "id": "hospital",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a hospital."
+      },
+      {
+        "id": "bank",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a bank."
+      },
+      {
+        "id": "hotel",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a hotel."
+      },
+      {
+        "id": "love hotel",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a love hotel."
+      },
+      {
+        "id": "convenience store",
+        "rejected": [
+          "late night"
+        ],
+        "reason": "'Late night' is a common use-case, not a core meaning of the store itself."
+      },
+      {
+        "id": "school",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings of a school."
+      },
+      {
+        "id": "department store",
+        "rejected": [
+          "mall"
+        ],
+        "reason": "A department store is not the same as a mall; this is a misleading substitution."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0c2c565a708e43e7016abfaee6414087d08650d3fdf1d807b8",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 2512,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1080,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3592
+    }
+  }
+}

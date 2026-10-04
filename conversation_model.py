@@ -1,8 +1,10 @@
 """Text understanding, discrete emoji memory, and direct emoji reply generation."""
 
 import json
+from pathlib import Path
 import re
 
+from huggingface_hub import hf_hub_download
 import torch
 from torch import nn
 from torch.nn import functional as F
@@ -29,12 +31,13 @@ class ConversationReader:
         sources = json.loads((ROOT / 'data' / 'conversation' / 'sources.json').read_text(encoding='utf-8'))
         self.model_name = model_name or sources['model']
         revision = sources['model_revision'] if self.model_name == sources['model'] else None
-        self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, revision=revision,
-                                                       cache_dir=ROOT / '.hf-cache', local_files_only=True)
+        config = hf_hub_download(self.model_name, 'config.json', revision=revision, cache_dir=ROOT / '.hf-cache',
+                                 local_files_only=True)
+        directory = Path(config).parent
+        self.tokenizer = AutoTokenizer.from_pretrained(directory, local_files_only=True)
         self.tokenizer.pad_token = self.tokenizer.eos_token
         self.tokenizer.padding_side = 'right'
-        self.backbone = AutoModel.from_pretrained(self.model_name, revision=revision,
-                                                  cache_dir=ROOT / '.hf-cache', local_files_only=True,
+        self.backbone = AutoModel.from_pretrained(directory, local_files_only=True,
                                                   dtype=torch.bfloat16).eval().requires_grad_(False)
         embedding = self.backbone.get_input_embeddings()
         with torch.no_grad():
@@ -129,12 +132,13 @@ class AtomicDecoder(nn.Module):
     @torch.no_grad()
     def encode(self, reader, texts):
         features, mask, source_ids = reader.text_inputs(texts)
-        return self.generate(lambda: (features, mask, source_ids), len(texts))
+        return self.generate(lambda active: (features[active], mask[active], source_ids[active]), len(texts))
 
     @torch.no_grad()
     def respond(self, reader, state, mask):
         # Fresh pretrained features at every symbol. Only integer IDs persist.
-        return self.generate(lambda: (reader.emoji_inputs(state, mask), mask, state), len(state))
+        return self.generate(lambda active: (reader.emoji_inputs(state[active], mask[active]),
+                                             mask[active], state[active]), len(state))
 
     @torch.no_grad()
     def generate(self, inputs, batch_size):
@@ -143,9 +147,10 @@ class AtomicDecoder(nn.Module):
         prefix = torch.full((batch_size, 1), START)
         finished = torch.zeros(batch_size, dtype=torch.bool)
         for _ in range(PREFIX_LIMIT):
-            features, mask, source_ids = inputs()
-            token = self.select(features, mask, source_ids, prefix)
-            token = torch.where(finished, END, token)
+            active = (~finished).nonzero().flatten()
+            features, mask, source_ids = inputs(active)
+            token = torch.full((batch_size,), END)
+            token[active] = self.select(features, mask, source_ids, prefix[active])
             prefix = torch.cat((prefix, token[:, None]), dim=1)
             finished |= token == END
             if finished.all():
@@ -201,21 +206,39 @@ class EmojiConversation:
 
     @torch.no_grad()
     def turn(self, text):
-        selected = self.encoder.encode(self.reader, [text])[0]
-        state = visible(selected)
-        while len(self.history) + 1 + len(state) > MEMORY_LIMIT:
-            count = self.turn_lengths.pop(0)
-            del self.history[:count]
-            self.dropped_turns += 1
-        source, mask = memory([self.history], [state])
-        generated = self.decoder.respond(self.reader, source, mask)[0]
-        reply = visible(generated)
+        return conversation_turns([self], [text])[0]
+
+
+@torch.no_grad()
+def conversation_turns(sessions, texts):
+    """Batch independent sessions while retaining only each session's emoji IDs."""
+    if not sessions or len(sessions) != len(texts):
+        raise ValueError('Provide one message per nonempty session batch')
+    first = sessions[0]
+    if any((session.encoder is not first.encoder or session.decoder is not first.decoder or
+            session.reader is not first.reader) for session in sessions):
+        raise ValueError('Batched sessions must share their model and reader')
+    if len({id(session) for session in sessions}) != len(sessions):
+        raise ValueError('Each session may appear only once in a batch')
+    selected = first.encoder.encode(first.reader, texts)
+    states = [visible(tokens) for tokens in selected]
+    for session, state in zip(sessions, states):
+        while len(session.history) + 1 + len(state) > MEMORY_LIMIT:
+            count = session.turn_lengths.pop(0)
+            del session.history[:count]
+            session.dropped_turns += 1
+    source, mask = memory([session.history for session in sessions], states)
+    generated = first.decoder.respond(first.reader, source, mask)
+    results = []
+    for session, state, meaning, output in zip(sessions, states, selected, generated):
+        reply = visible(output)
         turn = [USER, *state, SEPARATOR, ASSISTANT, *reply, SEPARATOR]
-        self.history.extend(turn)
-        self.turn_lengths.append(len(turn))
-        while len(self.history) > MEMORY_LIMIT:
-            count = self.turn_lengths.pop(0)
-            del self.history[:count]
-            self.dropped_turns += 1
-        return dict(state=state, reply=reply, state_terminated=END in selected.tolist(),
-                    reply_terminated=END in generated.tolist())
+        session.history.extend(turn)
+        session.turn_lengths.append(len(turn))
+        while len(session.history) > MEMORY_LIMIT:
+            count = session.turn_lengths.pop(0)
+            del session.history[:count]
+            session.dropped_turns += 1
+        results.append(dict(state=state, reply=reply, state_terminated=END in meaning.tolist(),
+                            reply_terminated=END in output.tolist()))
+    return results

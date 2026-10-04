@@ -1,0 +1,104 @@
+{
+  "fingerprint": "4bd73e311e2667a3a2d98354edd9b69a899e7362cd5f652215483c59b4dbce1d",
+  "decoded": {
+    "rows": [
+      {
+        "id": "control-heredity",
+        "state_reading": "dna",
+        "answer_reading": "dna | brain | family"
+      },
+      {
+        "id": "control-battery",
+        "state_reading": "mobile phone | battery",
+        "answer_reading": "black circle"
+      },
+      {
+        "id": "control-paris",
+        "state_reading": "Tokyo tower",
+        "answer_reading": "Tokyo tower"
+      },
+      {
+        "id": "control-rain",
+        "state_reading": "cloud with rain",
+        "answer_reading": "cloud with rain | straight ruler"
+      },
+      {
+        "id": "control-snack",
+        "state_reading": "red apple | unknown",
+        "answer_reading": "red apple"
+      },
+      {
+        "id": "control-pet",
+        "state_reading": "cat | unknown",
+        "answer_reading": "cat"
+      },
+      {
+        "id": "control-weather",
+        "state_reading": "cloud with snow | unknown",
+        "answer_reading": "unknown"
+      }
+    ]
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "control-heredity",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state keeps the topic of heredity as DNA, but the answer is just related terms and does not define heredity."
+      },
+      {
+        "id": "control-battery",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state preserves the phone battery topic, but a black circle does not answer how to make the battery last longer."
+      },
+      {
+        "id": "control-paris",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "Tokyo tower is not a landmark in Paris, so neither the state nor the answer matches the question."
+      },
+      {
+        "id": "control-rain",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "Cloud with rain is about rain, but it does not preserve the question of how rain is measured, and ruler plus rain is not a faithful method for measuring rain."
+      },
+      {
+        "id": "control-snack",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state includes a red apple, which fits a fruit snack, and the answer correctly gives that snack."
+      },
+      {
+        "id": "control-pet",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state includes a cat, which is a common pet, and the answer matches the question."
+      },
+      {
+        "id": "control-weather",
+        "state_faithful": false,
+        "answer_faithful": true,
+        "reason": "Cloud with snow is related to snow weather but does not faithfully represent the specific forecast question; unknown is acceptable because the information needed to answer is missing."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_0da8a49db03b64e0016abfa6ad61bc87d0a059d7eb0f695561",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 515,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1115,
+      "output_tokens_details": {
+        "reasoning_tokens": 754
+      },
+      "total_tokens": 1630
+    }
+  }
+}

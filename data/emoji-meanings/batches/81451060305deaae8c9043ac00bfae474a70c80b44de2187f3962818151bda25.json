@@ -1,0 +1,707 @@
+{
+  "names": [
+    "skull",
+    "skull and crossbones",
+    "pile of poo",
+    "clown face",
+    "ogre",
+    "goblin",
+    "ghost",
+    "alien",
+    "alien monster",
+    "robot",
+    "grinning cat",
+    "grinning cat with smiling eyes",
+    "cat with tears of joy",
+    "smiling cat with heart-eyes",
+    "cat with wry smile",
+    "kissing cat",
+    "weary cat",
+    "crying cat",
+    "pouting cat",
+    "see-no-evil monkey",
+    "hear-no-evil monkey",
+    "speak-no-evil monkey",
+    "love letter",
+    "heart with arrow",
+    "heart with ribbon",
+    "sparkling heart",
+    "growing heart",
+    "beating heart",
+    "revolving hearts",
+    "two hearts",
+    "heart decoration",
+    "heart exclamation",
+    "broken heart",
+    "heart on fire",
+    "mending heart",
+    "red heart",
+    "pink heart",
+    "orange heart",
+    "yellow heart",
+    "green heart"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "skull",
+        "associations": [
+          "death",
+          "bones",
+          "danger",
+          "mortality",
+          "warning"
+        ]
+      },
+      {
+        "id": "skull and crossbones",
+        "associations": [
+          "poison",
+          "pirate flag",
+          "hazard",
+          "danger",
+          "toxic"
+        ]
+      },
+      {
+        "id": "pile of poo",
+        "associations": [
+          "mess",
+          "excrement",
+          "joke",
+          "gross",
+          "silly"
+        ]
+      },
+      {
+        "id": "clown face",
+        "associations": [
+          "circus",
+          "makeup",
+          "comedy",
+          "playful",
+          "jester"
+        ]
+      },
+      {
+        "id": "ogre",
+        "associations": [
+          "monster",
+          "giant",
+          "ugly",
+          "mean",
+          "fantasy"
+        ]
+      },
+      {
+        "id": "goblin",
+        "associations": [
+          "creature",
+          "mischief",
+          "gremlin",
+          "fantasy",
+          "trickster"
+        ]
+      },
+      {
+        "id": "ghost",
+        "associations": [
+          "spirit",
+          "haunting",
+          "invisible",
+          "scary",
+          "afterlife"
+        ]
+      },
+      {
+        "id": "alien",
+        "associations": [
+          "extraterrestrial",
+          "space",
+          "ufo",
+          "unknown",
+          "visitor"
+        ]
+      },
+      {
+        "id": "alien monster",
+        "associations": [
+          "monster",
+          "alien",
+          "creature",
+          "sci-fi",
+          "menacing"
+        ]
+      },
+      {
+        "id": "robot",
+        "associations": [
+          "machine",
+          "android",
+          "automation",
+          "metal",
+          "technology"
+        ]
+      },
+      {
+        "id": "grinning cat",
+        "associations": [
+          "cat",
+          "smile",
+          "playful",
+          "happy",
+          "grin"
+        ]
+      },
+      {
+        "id": "grinning cat with smiling eyes",
+        "associations": [
+          "cat",
+          "grin",
+          "cheerful",
+          "laughing",
+          "joyful"
+        ]
+      },
+      {
+        "id": "cat with tears of joy",
+        "associations": [
+          "cat",
+          "laughing",
+          "tears",
+          "funny",
+          "delighted"
+        ]
+      },
+      {
+        "id": "smiling cat with heart-eyes",
+        "associations": [
+          "cat",
+          "love",
+          "adoration",
+          "cute",
+          "infatuation"
+        ]
+      },
+      {
+        "id": "cat with wry smile",
+        "associations": [
+          "cat",
+          "smirk",
+          "dry humor",
+          "awkward",
+          "mischievous"
+        ]
+      },
+      {
+        "id": "kissing cat",
+        "associations": [
+          "cat",
+          "kiss",
+          "affection",
+          "love",
+          "sweet"
+        ]
+      },
+      {
+        "id": "weary cat",
+        "associations": [
+          "cat",
+          "tired",
+          "exhausted",
+          "sigh",
+          "drained"
+        ]
+      },
+      {
+        "id": "crying cat",
+        "associations": [
+          "cat",
+          "sad",
+          "tears",
+          "upset",
+          "lament"
+        ]
+      },
+      {
+        "id": "pouting cat",
+        "associations": [
+          "cat",
+          "angry",
+          "grumpy",
+          "huff",
+          "annoyed"
+        ]
+      },
+      {
+        "id": "see-no-evil monkey",
+        "associations": [
+          "monkey",
+          "covering eyes",
+          "avoidance",
+          "cuteness",
+          "silence"
+        ]
+      },
+      {
+        "id": "hear-no-evil monkey",
+        "associations": [
+          "monkey",
+          "covering ears",
+          "avoidance",
+          "cuteness",
+          "silence"
+        ]
+      },
+      {
+        "id": "speak-no-evil monkey",
+        "associations": [
+          "monkey",
+          "covering mouth",
+          "silence",
+          "secrecy",
+          "avoidance"
+        ]
+      },
+      {
+        "id": "love letter",
+        "associations": [
+          "romance",
+          "mail",
+          "note",
+          "affection",
+          "message"
+        ]
+      },
+      {
+        "id": "heart with arrow",
+        "associations": [
+          "love",
+          "Cupid",
+          "romance",
+          "targeted",
+          "attraction"
+        ]
+      },
+      {
+        "id": "heart with ribbon",
+        "associations": [
+          "gift",
+          "wrapped",
+          "love",
+          "present",
+          "special"
+        ]
+      },
+      {
+        "id": "sparkling heart",
+        "associations": [
+          "love",
+          "sparkles",
+          "shiny",
+          "affection",
+          "glamour"
+        ]
+      },
+      {
+        "id": "growing heart",
+        "associations": [
+          "love",
+          "expanding",
+          "growing",
+          "affection",
+          "warmth"
+        ]
+      },
+      {
+        "id": "beating heart",
+        "associations": [
+          "heartbeat",
+          "life",
+          "love",
+          "pulse",
+          "emotion"
+        ]
+      },
+      {
+        "id": "revolving hearts",
+        "associations": [
+          "love",
+          "rotation",
+          "romance",
+          "affection",
+          "motion"
+        ]
+      },
+      {
+        "id": "two hearts",
+        "associations": [
+          "love",
+          "pair",
+          "romance",
+          "affection",
+          "together"
+        ]
+      },
+      {
+        "id": "heart decoration",
+        "associations": [
+          "ornament",
+          "love",
+          "decorative",
+          "floral",
+          "fancy"
+        ]
+      },
+      {
+        "id": "heart exclamation",
+        "associations": [
+          "surprise",
+          "love",
+          "emphasis",
+          "strong feeling",
+          "excited"
+        ]
+      },
+      {
+        "id": "broken heart",
+        "associations": [
+          "sadness",
+          "breakup",
+          "hurt",
+          "loss",
+          "heartache"
+        ]
+      },
+      {
+        "id": "heart on fire",
+        "associations": [
+          "passion",
+          "romance",
+          "intense love",
+          "burning",
+          "desire"
+        ]
+      },
+      {
+        "id": "mending heart",
+        "associations": [
+          "healing",
+          "recovery",
+          "repair",
+          "comfort",
+          "heartache"
+        ]
+      },
+      {
+        "id": "red heart",
+        "associations": [
+          "love",
+          "romance",
+          "affection",
+          "passion",
+          "valentine"
+        ]
+      },
+      {
+        "id": "pink heart",
+        "associations": [
+          "love",
+          "sweet",
+          "cute",
+          "romance",
+          "soft"
+        ]
+      },
+      {
+        "id": "orange heart",
+        "associations": [
+          "warmth",
+          "friendship",
+          "energy",
+          "brightness",
+          "care"
+        ]
+      },
+      {
+        "id": "yellow heart",
+        "associations": [
+          "friendship",
+          "happiness",
+          "warmth",
+          "cheerful",
+          "affection"
+        ]
+      },
+      {
+        "id": "green heart",
+        "associations": [
+          "nature",
+          "envy",
+          "growth",
+          "health",
+          "freshness"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_04255ad1494e8af8016abfadd9161487d083b5e759cca2b3a0",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1035,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 960,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1995
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "skull",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "skull and crossbones",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "pile of poo",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "clown face",
+        "rejected": [
+          "jester"
+        ],
+        "reason": "Jester is a different named entity/type and not a core meaning association for clown face."
+      },
+      {
+        "id": "ogre",
+        "rejected": [
+          "ugly",
+          "mean"
+        ],
+        "reason": "These are stereotypes/subjective attributes rather than the emoji's core meaning."
+      },
+      {
+        "id": "goblin",
+        "rejected": [
+          "gremlin",
+          "trickster"
+        ],
+        "reason": "Gremlin is a misleading substitution and trickster is not a core meaning for goblin."
+      },
+      {
+        "id": "ghost",
+        "rejected": [
+          "invisible"
+        ],
+        "reason": "Invisible is an unsupported attribute rather than a core meaning association."
+      },
+      {
+        "id": "alien",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "alien monster",
+        "rejected": [
+          "alien"
+        ],
+        "reason": "Alien is redundant/misleading as a named-entity substitution within the specific alien monster meaning."
+      },
+      {
+        "id": "robot",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "grinning cat",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "grinning cat with smiling eyes",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "cat with tears of joy",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "smiling cat with heart-eyes",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "cat with wry smile",
+        "rejected": [
+          "dry humor"
+        ],
+        "reason": "Dry humor is an inferred personality trait, not a direct association."
+      },
+      {
+        "id": "kissing cat",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "weary cat",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "crying cat",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "pouting cat",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "see-no-evil monkey",
+        "rejected": [
+          "cuteness"
+        ],
+        "reason": "Cuteness is not a core meaning association; the emoji refers to the gesture/concept."
+      },
+      {
+        "id": "hear-no-evil monkey",
+        "rejected": [
+          "cuteness"
+        ],
+        "reason": "Cuteness is not a core meaning association; the emoji refers to the gesture/concept."
+      },
+      {
+        "id": "speak-no-evil monkey",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "love letter",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "heart with arrow",
+        "rejected": [
+          "targeted"
+        ],
+        "reason": "Targeted is a misleading literalization rather than a core meaning association."
+      },
+      {
+        "id": "heart with ribbon",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "sparkling heart",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "growing heart",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "beating heart",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "revolving hearts",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "two hearts",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "heart decoration",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "heart exclamation",
+        "rejected": [
+          "surprise"
+        ],
+        "reason": "Surprise is not a core meaning; the symbol conveys emphasis/strong feeling."
+      },
+      {
+        "id": "broken heart",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "heart on fire",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "mending heart",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "red heart",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "pink heart",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "orange heart",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "yellow heart",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      },
+      {
+        "id": "green heart",
+        "rejected": [],
+        "reason": "All associations are ordinary related meanings."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_09fce4b5cb5c2651016abfadde384887d0b66dae00494eed53",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1571,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 945,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2516
+    }
+  }
+}

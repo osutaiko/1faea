@@ -1,0 +1,925 @@
+{
+  "names": [
+    "sun behind rain cloud",
+    "cloud with rain",
+    "cloud with snow",
+    "cloud with lightning",
+    "tornado",
+    "fog",
+    "wind face",
+    "cyclone",
+    "rainbow",
+    "closed umbrella",
+    "umbrella",
+    "umbrella with rain drops",
+    "umbrella on ground",
+    "high voltage",
+    "snowflake",
+    "snowman",
+    "snowman without snow",
+    "comet",
+    "fire",
+    "droplet",
+    "water wave",
+    "jack-o-lantern",
+    "Christmas tree",
+    "fireworks",
+    "sparkler",
+    "firecracker",
+    "sparkles",
+    "balloon",
+    "party popper",
+    "confetti ball",
+    "tanabata tree",
+    "pine decoration",
+    "Japanese dolls",
+    "carp streamer",
+    "wind chime",
+    "moon viewing ceremony",
+    "red envelope",
+    "ribbon",
+    "wrapped gift",
+    "reminder ribbon"
+  ],
+  "model": "gpt-5.4-mini",
+  "generated": {
+    "rows": [
+      {
+        "id": "sun behind rain cloud",
+        "associations": [
+          "sunlight",
+          "showers",
+          "partly sunny",
+          "weather",
+          "mixed skies"
+        ]
+      },
+      {
+        "id": "cloud with rain",
+        "associations": [
+          "rain",
+          "drizzle",
+          "stormy weather",
+          "wet",
+          "cloudy"
+        ]
+      },
+      {
+        "id": "cloud with snow",
+        "associations": [
+          "snow",
+          "flurries",
+          "winter weather",
+          "cold",
+          "snowfall"
+        ]
+      },
+      {
+        "id": "cloud with lightning",
+        "associations": [
+          "thunderstorm",
+          "lightning",
+          "storm",
+          "severe weather",
+          "electric flash"
+        ]
+      },
+      {
+        "id": "tornado",
+        "associations": [
+          "twister",
+          "whirlwind",
+          "windstorm",
+          "funnel cloud",
+          "danger"
+        ]
+      },
+      {
+        "id": "fog",
+        "associations": [
+          "mist",
+          "low visibility",
+          "haze",
+          "overcast",
+          "blurred"
+        ]
+      },
+      {
+        "id": "wind face",
+        "associations": [
+          "gust",
+          "blowing wind",
+          "breeze",
+          "airflow",
+          "windy"
+        ]
+      },
+      {
+        "id": "cyclone",
+        "associations": [
+          "spiral storm",
+          "whirlpool",
+          "rotation",
+          "storm system",
+          "spin"
+        ]
+      },
+      {
+        "id": "rainbow",
+        "associations": [
+          "arc",
+          "colors",
+          "after rain",
+          "hope",
+          "bright sky"
+        ]
+      },
+      {
+        "id": "closed umbrella",
+        "associations": [
+          "compact umbrella",
+          "closed",
+          "carry",
+          "rain gear",
+          "portable"
+        ]
+      },
+      {
+        "id": "umbrella",
+        "associations": [
+          "parasol",
+          "shade",
+          "rain protection",
+          "cover",
+          "canopy"
+        ]
+      },
+      {
+        "id": "umbrella with rain drops",
+        "associations": [
+          "rain protection",
+          "wet weather",
+          "raindrops",
+          "shelter",
+          "umbrella"
+        ]
+      },
+      {
+        "id": "umbrella on ground",
+        "associations": [
+          "dropped umbrella",
+          "fallen",
+          "outside",
+          "rain gear",
+          "discarded"
+        ]
+      },
+      {
+        "id": "high voltage",
+        "associations": [
+          "electricity",
+          "shock",
+          "power",
+          "warning",
+          "danger"
+        ]
+      },
+      {
+        "id": "snowflake",
+        "associations": [
+          "ice crystal",
+          "winter",
+          "frost",
+          "cold",
+          "unique"
+        ]
+      },
+      {
+        "id": "snowman",
+        "associations": [
+          "snow",
+          "winter fun",
+          "frozen figure",
+          "cold",
+          "play"
+        ]
+      },
+      {
+        "id": "snowman without snow",
+        "associations": [
+          "melting snowman",
+          "warm weather",
+          "slush",
+          "melting",
+          "winter"
+        ]
+      },
+      {
+        "id": "comet",
+        "associations": [
+          "space",
+          "tail",
+          "shooting object",
+          "astronomy",
+          "night sky"
+        ]
+      },
+      {
+        "id": "fire",
+        "associations": [
+          "flame",
+          "heat",
+          "burning",
+          "embers",
+          "blaze"
+        ]
+      },
+      {
+        "id": "droplet",
+        "associations": [
+          "water",
+          "drop",
+          "liquid",
+          "rain",
+          "freshness"
+        ]
+      },
+      {
+        "id": "water wave",
+        "associations": [
+          "ocean",
+          "wave",
+          "surf",
+          "water motion",
+          "ripple"
+        ]
+      },
+      {
+        "id": "jack-o-lantern",
+        "associations": [
+          "pumpkin",
+          "Halloween",
+          "carving",
+          "lantern",
+          "autumn"
+        ]
+      },
+      {
+        "id": "Christmas tree",
+        "associations": [
+          "holiday",
+          "evergreen",
+          "ornament",
+          "festive",
+          "gift season"
+        ]
+      },
+      {
+        "id": "fireworks",
+        "associations": [
+          "celebration",
+          "burst",
+          "explosion",
+          "night sky",
+          "festival"
+        ]
+      },
+      {
+        "id": "sparkler",
+        "associations": [
+          "spark",
+          "glow",
+          "celebration",
+          "handheld light",
+          "party"
+        ]
+      },
+      {
+        "id": "firecracker",
+        "associations": [
+          "bang",
+          "noise",
+          "celebration",
+          "explosive",
+          "festival"
+        ]
+      },
+      {
+        "id": "sparkles",
+        "associations": [
+          "glitter",
+          "shine",
+          "twinkle",
+          "magic",
+          "brightness"
+        ]
+      },
+      {
+        "id": "balloon",
+        "associations": [
+          "party",
+          "inflatable",
+          "float",
+          "decor",
+          "celebration"
+        ]
+      },
+      {
+        "id": "party popper",
+        "associations": [
+          "confetti",
+          "celebration",
+          "surprise",
+          "burst",
+          "party"
+        ]
+      },
+      {
+        "id": "confetti ball",
+        "associations": [
+          "party",
+          "confetti",
+          "festive",
+          "celebration",
+          "decorative"
+        ]
+      },
+      {
+        "id": "tanabata tree",
+        "associations": [
+          "festival",
+          "wish cards",
+          "bamboo",
+          "decorated tree",
+          "summer celebration"
+        ]
+      },
+      {
+        "id": "pine decoration",
+        "associations": [
+          "pine branch",
+          "festive decor",
+          "winter",
+          "greenery",
+          "ornament"
+        ]
+      },
+      {
+        "id": "Japanese dolls",
+        "associations": [
+          "dolls",
+          "display",
+          "festival",
+          "traditional",
+          "figurines"
+        ]
+      },
+      {
+        "id": "carp streamer",
+        "associations": [
+          "wind",
+          "festival",
+          "streamer",
+          "koinobori",
+          "children"
+        ]
+      },
+      {
+        "id": "wind chime",
+        "associations": [
+          "breeze",
+          "sound",
+          "summer",
+          "hanging ornament",
+          "gentle"
+        ]
+      },
+      {
+        "id": "moon viewing ceremony",
+        "associations": [
+          "moon",
+          "autumn",
+          "night gathering",
+          "tradition",
+          "observation"
+        ]
+      },
+      {
+        "id": "red envelope",
+        "associations": [
+          "money gift",
+          "lucky color",
+          "celebration",
+          "gift",
+          "festival"
+        ]
+      },
+      {
+        "id": "ribbon",
+        "associations": [
+          "bow",
+          "decorative strip",
+          "gift wrap",
+          "tie",
+          "ornament"
+        ]
+      },
+      {
+        "id": "wrapped gift",
+        "associations": [
+          "present",
+          "package",
+          "surprise",
+          "gift wrap",
+          "holiday"
+        ]
+      },
+      {
+        "id": "reminder ribbon",
+        "associations": [
+          "bookmark",
+          "notice",
+          "marker",
+          "attention",
+          "tag"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "id": "resp_083b480cd56ae60f016abfaf843fb887d0932984a99c9d465c",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1370,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 738,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2108
+    }
+  },
+  "audit": {
+    "rows": [
+      {
+        "id": "sun behind rain cloud",
+        "rejected": [
+          "sunlight",
+          "showers",
+          "partly sunny",
+          "weather",
+          "mixed skies"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "cloud with rain",
+        "rejected": [
+          "rain",
+          "drizzle",
+          "stormy weather",
+          "wet",
+          "cloudy"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "cloud with snow",
+        "rejected": [
+          "snow",
+          "flurries",
+          "winter weather",
+          "cold",
+          "snowfall"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "cloud with lightning",
+        "rejected": [
+          "thunderstorm",
+          "lightning",
+          "storm",
+          "severe weather",
+          "electric flash"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "tornado",
+        "rejected": [
+          "twister",
+          "whirlwind",
+          "windstorm",
+          "funnel cloud",
+          "danger"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "fog",
+        "rejected": [
+          "mist",
+          "low visibility",
+          "haze",
+          "overcast",
+          "blurred"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "wind face",
+        "rejected": [
+          "gust",
+          "blowing wind",
+          "breeze",
+          "airflow",
+          "windy"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "cyclone",
+        "rejected": [
+          "spiral storm",
+          "whirlpool",
+          "rotation",
+          "storm system",
+          "spin"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "rainbow",
+        "rejected": [
+          "arc",
+          "colors",
+          "after rain",
+          "hope",
+          "bright sky"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "closed umbrella",
+        "rejected": [
+          "compact umbrella",
+          "closed",
+          "carry",
+          "rain gear",
+          "portable"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "umbrella",
+        "rejected": [
+          "parasol",
+          "shade",
+          "rain protection",
+          "cover",
+          "canopy"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "umbrella with rain drops",
+        "rejected": [
+          "rain protection",
+          "wet weather",
+          "raindrops",
+          "shelter",
+          "umbrella"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "umbrella on ground",
+        "rejected": [
+          "dropped umbrella",
+          "fallen",
+          "outside",
+          "rain gear",
+          "discarded"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "high voltage",
+        "rejected": [
+          "electricity",
+          "shock",
+          "power",
+          "warning",
+          "danger"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "snowflake",
+        "rejected": [
+          "ice crystal",
+          "winter",
+          "frost",
+          "cold",
+          "unique"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "snowman",
+        "rejected": [
+          "snow",
+          "winter fun",
+          "frozen figure",
+          "cold",
+          "play"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "snowman without snow",
+        "rejected": [
+          "melting snowman",
+          "warm weather",
+          "slush",
+          "melting",
+          "winter"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "comet",
+        "rejected": [
+          "space",
+          "tail",
+          "shooting object",
+          "astronomy",
+          "night sky"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "fire",
+        "rejected": [
+          "flame",
+          "heat",
+          "burning",
+          "embers",
+          "blaze"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "droplet",
+        "rejected": [
+          "water",
+          "drop",
+          "liquid",
+          "rain",
+          "freshness"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "water wave",
+        "rejected": [
+          "ocean",
+          "wave",
+          "surf",
+          "water motion",
+          "ripple"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "jack-o-lantern",
+        "rejected": [
+          "pumpkin",
+          "Halloween",
+          "carving",
+          "lantern",
+          "autumn"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "Christmas tree",
+        "rejected": [
+          "holiday",
+          "evergreen",
+          "ornament",
+          "festive",
+          "gift season"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "fireworks",
+        "rejected": [
+          "celebration",
+          "burst",
+          "explosion",
+          "night sky",
+          "festival"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "sparkler",
+        "rejected": [
+          "spark",
+          "glow",
+          "celebration",
+          "handheld light",
+          "party"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "firecracker",
+        "rejected": [
+          "bang",
+          "noise",
+          "celebration",
+          "explosive",
+          "festival"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "sparkles",
+        "rejected": [
+          "glitter",
+          "shine",
+          "twinkle",
+          "magic",
+          "brightness"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "balloon",
+        "rejected": [
+          "party",
+          "inflatable",
+          "float",
+          "decor",
+          "celebration"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "party popper",
+        "rejected": [
+          "confetti",
+          "celebration",
+          "surprise",
+          "burst",
+          "party"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "confetti ball",
+        "rejected": [
+          "party",
+          "confetti",
+          "festive",
+          "celebration",
+          "decorative"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "tanabata tree",
+        "rejected": [
+          "festival",
+          "wish cards",
+          "bamboo",
+          "decorated tree",
+          "summer celebration"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "pine decoration",
+        "rejected": [
+          "pine branch",
+          "festive decor",
+          "winter",
+          "greenery",
+          "ornament"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "Japanese dolls",
+        "rejected": [
+          "dolls",
+          "display",
+          "festival",
+          "traditional",
+          "figurines"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "carp streamer",
+        "rejected": [
+          "wind",
+          "festival",
+          "streamer",
+          "koinobori",
+          "children"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "wind chime",
+        "rejected": [
+          "breeze",
+          "sound",
+          "summer",
+          "hanging ornament",
+          "gentle"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "moon viewing ceremony",
+        "rejected": [
+          "moon",
+          "autumn",
+          "night gathering",
+          "tradition",
+          "observation"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "red envelope",
+        "rejected": [
+          "money gift",
+          "lucky color",
+          "celebration",
+          "gift",
+          "festival"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "ribbon",
+        "rejected": [
+          "bow",
+          "decorative strip",
+          "gift wrap",
+          "tie",
+          "ornament"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "wrapped gift",
+        "rejected": [
+          "present",
+          "package",
+          "surprise",
+          "gift wrap",
+          "holiday"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      },
+      {
+        "id": "reminder ribbon",
+        "rejected": [
+          "bookmark",
+          "notice",
+          "marker",
+          "attention",
+          "tag"
+        ],
+        "reason": "All listed associations are ordinary and directly related to the emoji meaning."
+      }
+    ]
+  },
+  "reviewer": {
+    "id": "resp_0ed0870726ef3dee016abfaf89a17c87d0b9ca1c8ab10aaefc",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 3236,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 1498,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4734
+    }
+  }
+}

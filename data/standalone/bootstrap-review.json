@@ -1,0 +1,1230 @@
+{
+  "teacher": "current Codex assistant; direct emoji labels generated in this task",
+  "external_api_used": false,
+  "api_probe_status": 401,
+  "reviewer": "same assistant, separate semantic audit; not an independent model",
+  "independent_verification": false,
+  "assistant_source_answers_used": false,
+  "english_audit": "literal symbol gloss constructed after emoji generation",
+  "questions_sha256": "e203238234d0ebc6e6f0e9c6e83bbcca2e92c2008a6cd4f2f880248d90aa6158",
+  "labels_sha256": "bde8bb2c9dd2670e9895db5797e333e415e13e558ad3b274fbd7a889e7c49325",
+  "counts": {
+    "train": 111,
+    "validation": 16,
+    "test": 18
+  },
+  "ambiguous_rejected": 48,
+  "quarantine_indices": [
+    7,
+    11,
+    23,
+    52,
+    72,
+    77,
+    147,
+    188
+  ],
+  "semantic_overlap_audit": "known near duplicates quarantined; not exhaustive",
+  "reviews": [
+    {
+      "id": "b15c218dd149f78e",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "f7bc2488732b0092",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "5705576de6cffe64",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "1759dfa120c41921",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "39201c44085dd526",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "9a704e5ab644d595",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "9620c26f7155f184",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "86a3a1c78dbc18af",
+      "accepted": true,
+      "quarantine": true,
+      "reason": "near-duplicate held-out request"
+    },
+    {
+      "id": "ce868481ed2e1369",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "5dcd97dd2cd4ec94",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "caff938670e997dd",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "b05d83d1b573c4e6",
+      "accepted": true,
+      "quarantine": true,
+      "reason": "near-duplicate held-out request"
+    },
+    {
+      "id": "4a406bd756ca6325",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "380dc0a03f3bed52",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "5aa4719bbcc7d27f",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "46fd7dc6ea5e7a7b",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "b000c3c4e1890ed4",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "b22491e2aa2a6fdb",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "0aee9a02f28837c2",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "4907d545aca70962",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "c3748c5864b84150",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "4db0d73caed50d6e",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "9ef377e871f91839",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "02cbbb1aaddaaa76",
+      "accepted": true,
+      "quarantine": true,
+      "reason": "near-duplicate held-out request"
+    },
+    {
+      "id": "c7f5bfd71dc71ad6",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "36e5764e3ee432d4",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "d7ccb399ffe81885",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "17feddfc6ab0cc91",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "543b3eef7dd37890",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "c7be74a664947ab8",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "797d1707e016473e",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "d9e174d886050ffa",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "4e70be3d7ff9c2b4",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "0ed7f8b488af32f1",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "c3a4892275e19ae2",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "553f98911c872a1f",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "aa46675cf90125a9",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "cfbd3d2563fa88e0",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "5a473f499fe99802",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "b9cdb889f9e980a2",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "93f1c98bfcca9e41",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "679498d9731e6128",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "ed675ef69e9e8195",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "17c535b422440f64",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "bb437f4a45b7d3ce",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "1851672b135fb7b6",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "8d671049ca38b9b6",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "71e319b4132e177e",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "636d77706faeabf1",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "397f5f47d82b6a83",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "176ab1e08ec2fa2b",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "5f372e717a3409a8",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "44bbeb72d1161f73",
+      "accepted": true,
+      "quarantine": true,
+      "reason": "near-duplicate held-out request"
+    },
+    {
+      "id": "72a89fd5d27c7332",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "7c86af4aafe7dba2",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "054fd847eba8aab6",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "ee5fde4dc538f3da",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "f1ac03fe61ff3913",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "fbd7c3f01b0cea98",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "fa8c6cf56cf88b78",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "bb089ef3d2190f1f",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "a68c3672d2ae1422",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "f70169167822ae06",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "ddb8f7d557a9b65c",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "3fed1ce49fff52b7",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "5e9e70de1da4c211",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "758ed57ca67fb7f6",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "9f9a64b21af9131f",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "5b426a41cd91bb2b",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "5b78e695391d662b",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "16263da338abc589",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "0854fea7f4c1c6f2",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "3fac58984df68e96",
+      "accepted": true,
+      "quarantine": true,
+      "reason": "near-duplicate held-out request"
+    },
+    {
+      "id": "d9f2db220de2736a",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "6a02df73f026279e",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "cf9657134853fb80",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "ec08d18e71378121",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "d35d6cedf8c50dba",
+      "accepted": true,
+      "quarantine": true,
+      "reason": "near-duplicate held-out request"
+    },
+    {
+      "id": "af44cdd2ec195903",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "f240d147c35aa435",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "8ce93260660bd763",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "b5d3113900f1c938",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "cb268c69038bb3ec",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "fd95e7274a103a30",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "b4769445e9c5403e",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "8881a091f5a6120a",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "ee8283cbffed8956",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "cd1737f6ac55a85f",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "3e638c4f3a6ad6fe",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "7f437a9e37873a04",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "d4b38a491af1cbf3",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "e543ca1d0cd49b09",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "6bfc41031e8a3143",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "c82ca3a1529bcca4",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "099c2df6dde305e8",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "54d8a59d531255cc",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "307aa92ff934a257",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "93f3d90c7c50f8a8",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "ebc52954f68611a8",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "73e5b3e007311f52",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "ae956760f5ef4b97",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "310a6bf3be3544cb",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "cad35b4cefba82de",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "d3736254cfd47db5",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "d739723025cd333e",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "bcaf9899f718a20c",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "701b995956a3ef09",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "88f7d992637fa743",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "2d5d7cab01bcde62",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "73ede5288ba7db51",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "9f32d21862be2a7b",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "686a727a7dbd93cf",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "eb208ddb0bcadc20",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "0ecf2f2353c1165b",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "bc13c9a4b8345288",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "06d429a033a75a92",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "74326ab246487510",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "e195ac046db55c9a",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "dabbf1379ac856cf",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "98be9d0d07b02e36",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "b4e4cea1bb2a85c3",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "1a9fee267c57039c",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "b6c4efdb565a0e55",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "695143637064cff4",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "0aad23aef06acb46",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "54194482ca9eae72",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "46e2d2a007408869",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "47d11adab5e5b9fc",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "2174ac8353e6f9fd",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "c133e86ae86bd7f9",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "bf74507728eadc0e",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "7bd4cfd84d20beb0",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "15cd4d9ba0fbb3f4",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "71c038cd8fe37356",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "b8c3921aac712b1e",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "c19aeb3b2a1a5cf1",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "b81a068fe2793945",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "ca826aec5b640f42",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "b0a4498811bc1b56",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "1c110f97db86b736",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "2f7b4aede8fa8fe4",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "23184c37ff9d6099",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "e24d272a964433ff",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "24d1df32976a9f1f",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "80cfb5271b44aac9",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "deeb0a7bde46fac5",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "3c1442d95b2c43fa",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "a6e93e4f8b3cbb46",
+      "accepted": true,
+      "quarantine": true,
+      "reason": "near-duplicate held-out request"
+    },
+    {
+      "id": "fcf485108751c227",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "da01a17a47f70146",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "857658df5df26b59",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "e83efe5ec1305d0e",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "21291b4268e22cc4",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "a4dfaedd67145404",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "6af33d6444e8fc1c",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "408d95f978c6bcce",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "f518530e409cbd82",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "72b28b9810c2dd42",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "e4643212e72b85db",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "f5c6358506b70b52",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "cdf26f39fe02be5f",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "cd8299ce6d9d44a2",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "ee5a6c4e8a18389d",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "1d5e0268a5e96ae9",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "18979afa540911fe",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "7cd7009daf241777",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "99897405ce35f0c5",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "060bf775ae35abac",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "631b75335f737215",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "733f8c181cbe24a2",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "20412196a8c428cc",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "d66e2cb492b63b13",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "f8dabb89c0cdb0d8",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "b843aa42aeb0da7b",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "894f9e8fbb85bc4d",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "4eade701d632b76f",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "e39607c870ba125a",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "be91e12c40772c58",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "076c953a123d502d",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "4c7a02d21bbfaa46",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "d8e3a35c52d82917",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "16c80f3c707e3427",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "d0f407c9932d45b3",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "8b48f0ade9783b68",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "08fbe19bc1ff066d",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "08ae7ac092f4fac8",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "8e50ce0bd6632fc7",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "c73a8989776e9664",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "a36da6549dd7411e",
+      "accepted": false,
+      "quarantine": true,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "99e6cdf00047c876",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "c934a19c3411fa72",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "d54a808babe6823f",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "2228cc6dd946d3df",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "129fa3cc05961392",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "ecff562a7fb817f7",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "5cb7a1bd09463bd5",
+      "accepted": false,
+      "quarantine": false,
+      "reason": "ambiguous or insufficient emoji answer"
+    },
+    {
+      "id": "916f2240efd2eb94",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "52d76a7d910e071f",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "c3d301355b6d2b9f",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    },
+    {
+      "id": "c53ad0d8c2854417",
+      "accepted": true,
+      "quarantine": false,
+      "reason": "provisional assistant review"
+    }
+  ]
+}

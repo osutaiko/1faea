@@ -1,0 +1,114 @@
+{
+  "decoded": {
+    "rows": [
+      {
+        "id": "control-heredity",
+        "state_reading": "dna",
+        "answer_reading": "dna, brain, family",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "control-battery",
+        "state_reading": "mobile phone, battery",
+        "answer_reading": "black circle",
+        "unsupported_meanings": true
+      },
+      {
+        "id": "control-paris",
+        "state_reading": "Tokyo tower",
+        "answer_reading": "Tokyo tower",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "control-rain",
+        "state_reading": "cloud with rain",
+        "answer_reading": "cloud with rain, straight ruler",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "control-snack",
+        "state_reading": "red apple, red question mark",
+        "answer_reading": "red apple",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "control-pet",
+        "state_reading": "cat, red question mark",
+        "answer_reading": "cat",
+        "unsupported_meanings": false
+      }
+    ]
+  },
+  "decoder": {
+    "id": "resp_0597401aa456cb3d016abfa44f903c87d0a6fbc54287df5f72",
+    "model": "gpt-4.1-2025-04-14",
+    "usage": {
+      "input_tokens": 977,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 178,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1155
+    }
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "control-heredity",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "Both readings fail to define or explain 'heredity'. Listing 'dna' and 'dna, brain, family' are component/concept lists but do not preserve the form or focus of the definition question."
+      },
+      {
+        "id": "control-battery",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "unsupported_meanings is true; both readings are unacceptable."
+      },
+      {
+        "id": "control-paris",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "Both readings depict 'Tokyo tower', which is not a landmark in Paris, failing the requirements."
+      },
+      {
+        "id": "control-rain",
+        "state_faithful": false,
+        "answer_faithful": false,
+        "reason": "The question is about the method ('how'), but the readings show just a cloud with rain and a ruler; neither explains the method or tool for measuring rain, nor do they answer the 'how' question."
+      },
+      {
+        "id": "control-snack",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The answer reading is 'red apple', which faithfully suggests a fruit snack as requested. (The state, with a question mark, is also faithful but less direct.)"
+      },
+      {
+        "id": "control-pet",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The answer reading 'cat' faithfully names a common pet, directly answering the question. (The state with a question mark remains faithful, though less concise.)"
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_0497e322ee540059016abfa4518e8887d0b8d20feb1bb30d28",
+    "model": "gpt-4.1-2025-04-14",
+    "usage": {
+      "input_tokens": 482,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 347,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 829
+    }
+  }
+}

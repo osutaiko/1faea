@@ -1,0 +1,163 @@
+{
+  "fingerprint": "5560e09a6fc92e332b94722b694334183fd220ed2caf4f9e7a0125595715af4a",
+  "decoded": {
+    "rows": [
+      {
+        "id": "b15c218dd149f78e",
+        "state_reading": "mobile phone battery unknown",
+        "answer_reading": "battery sleeping mobile phone off dim button black circle",
+        "unsupported_meanings": true
+      },
+      {
+        "id": "f7bc2488732b0092",
+        "state_reading": "note violin unknown",
+        "answer_reading": "violin musical score banjo musical notes",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "5705576de6cffe64",
+        "state_reading": "sleeping face unknown",
+        "answer_reading": "sleeping face bed mantelpiece clock no mobile phones crescent moon person in lotus position",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "1759dfa120c41921",
+        "state_reading": "globe showing Europe-Africa airplane cityscape unknown",
+        "answer_reading": "Tokyo tower castle artist palette wine glass baguette bread",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "39201c44085dd526",
+        "state_reading": "red apple carrot peanuts unknown",
+        "answer_reading": "carrot red apple peanuts cucumber green salad",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "9a704e5ab644d595",
+        "state_reading": "slightly smiling face face with thermometer hospital unknown",
+        "answer_reading": "thinking face health worker hospital pill",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "9620c26f7155f184",
+        "state_reading": "cloud with rain straight ruler unknown",
+        "answer_reading": "cloud with rain straight ruler",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "86a3a1c78dbc18af",
+        "state_reading": "dna student unknown",
+        "answer_reading": "dna brain family",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "ce868481ed2e1369",
+        "state_reading": "cat thinking face teddy bear tennis unknown",
+        "answer_reading": "tennis teddy bear man running grinning cat",
+        "unsupported_meanings": false
+      },
+      {
+        "id": "5dcd97dd2cd4ec94",
+        "state_reading": "seedling unknown",
+        "answer_reading": "sun with face droplet potted plant seedling farmer",
+        "unsupported_meanings": false
+      }
+    ]
+  },
+  "decoder": {
+    "id": "resp_0a631bb0aff4e1ec016abfa4bfb51087d09bb555e1d0383665",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 1348,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 429,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1777
+    }
+  },
+  "judged": {
+    "rows": [
+      {
+        "id": "b15c218dd149f78e",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state preserves the phone-battery topic, but the answer only lists unrelated icons plus an unsupported 'sleeping' interpretation; it does not faithfully answer ways to make battery last longer."
+      },
+      {
+        "id": "f7bc2488732b0092",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state keeps the subject of a violin, but the answer is just a set of instrument/music-related objects and does not define what a violin is."
+      },
+      {
+        "id": "5705576de6cffe64",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state is about sleep, but the answer is only a list of sleep-related items and does not explain what affects sleep quality."
+      },
+      {
+        "id": "1759dfa120c41921",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state is about planning a trip to Paris, but the answer names unrelated landmarks like Tokyo Tower and baguette instead of famous Paris landmarks."
+      },
+      {
+        "id": "39201c44085dd526",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state is about a healthy snack, and the answer lists plausible snack foods such as carrot, apple, peanuts, and cucumber/green salad."
+      },
+      {
+        "id": "9a704e5ab644d595",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state concerns deciding whether to see a doctor, but the answer does not address that decision and instead gives generic health-related icons."
+      },
+      {
+        "id": "9620c26f7155f184",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state is about measuring rain, but the answer only repeats rain and a ruler; that does not identify a rain gauge or explain the measurement method."
+      },
+      {
+        "id": "86a3a1c78dbc18af",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state asks what heredity is, but the answer is just related concepts (DNA, brain, family) and does not define heredity."
+      },
+      {
+        "id": "ce868481ed2e1369",
+        "state_faithful": true,
+        "answer_faithful": false,
+        "reason": "The state is about keeping a cat entertained, but the answer is a jumble of objects/activities and does not provide a faithful suggestion or explanation."
+      },
+      {
+        "id": "5dcd97dd2cd4ec94",
+        "state_faithful": true,
+        "answer_faithful": true,
+        "reason": "The state is about what plants need to grow, and the answer includes sun, water/droplet, a plant, and a farmer, which reasonably points to growth needs."
+      }
+    ]
+  },
+  "judge": {
+    "id": "resp_00a6ca1801ab6805016abfa4c2f53487d0801962a66c12c395",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "usage": {
+      "input_tokens": 932,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 619,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1551
+    }
+  }
+}

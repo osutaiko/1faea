@@ -1,0 +1,601 @@
+{
+  "result": {
+    "elapsed_seconds": 67013.49801111221,
+    "selected_step": 46500,
+    "coverage": {
+      "vocabulary": 3972,
+      "literal_description_state_hits": 3918,
+      "exact_state_first_output_hits": 3517,
+      "literal_description_recall": 0.986404833836858,
+      "exact_state_first_output_recall": 0.8854481369587109,
+      "missed_description_symbols": [
+        "🫱🏾‍🫲🏻",
+        "🧑🏼‍🐰‍🧑🏻",
+        "🧑🏼‍🐰‍🧑🏾",
+        "🧑🏼‍🐰‍🧑🏿",
+        "🧑🏾‍🐰‍🧑🏻",
+        "🧑🏿‍🐰‍🧑🏼",
+        "👨🏻‍🐰‍👨🏾",
+        "👨🏻‍🐰‍👨🏿",
+        "👨🏼‍🐰‍👨🏽",
+        "👨🏼‍🐰‍👨🏾",
+        "👨🏼‍🐰‍👨🏿",
+        "👨🏾‍🐰‍👨🏻",
+        "👩🏻‍🐰‍👩🏾",
+        "👩🏼‍🐰‍👩🏾",
+        "👩🏼‍🐰‍👩🏿",
+        "🧑🏼‍🫯‍🧑🏿",
+        "🧑🏾‍🫯‍🧑🏻",
+        "🧑🏾‍🫯‍🧑🏽",
+        "🧑🏿‍🫯‍🧑🏼",
+        "👩🏻‍🫯‍👩🏽",
+        "👩🏻‍🤝‍👩🏼",
+        "👩🏻‍🤝‍👩🏽",
+        "👩🏻‍🤝‍👩🏾",
+        "👩🏾‍🤝‍👩🏽",
+        "👩🏿‍🤝‍👩🏾",
+        "👨🏻‍🤝‍👨🏽",
+        "🧑🏽‍❤️‍💋‍🧑🏻",
+        "🧑🏾‍❤️‍💋‍🧑🏻",
+        "👩🏻‍❤️‍💋‍👨🏾",
+        "👩🏽‍❤️‍💋‍👨🏻",
+        "👩🏽‍❤️‍💋‍👨🏼",
+        "👩🏽‍❤️‍💋‍👨🏾",
+        "👩🏽‍❤️‍💋‍👨🏿",
+        "👩🏾‍❤️‍💋‍👨🏻",
+        "👨🏽‍❤️‍💋‍👨🏻",
+        "👨🏾‍❤️‍💋‍👨🏻",
+        "👩🏼‍❤️‍👨🏾",
+        "👩🏼‍❤️‍👨🏿",
+        "👩🏽‍❤️‍👨🏻",
+        "👩🏽‍❤️‍👨🏾",
+        "👩🏽‍❤️‍👨🏿",
+        "👩🏾‍❤️‍👨🏻",
+        "👩🏾‍❤️‍👨🏼",
+        "👩🏾‍❤️‍👨🏽",
+        "👩🏿‍❤️‍👨🏻",
+        "👩🏿‍❤️‍👨🏼",
+        "👨🏼‍❤️‍👨🏿",
+        "👨🏽‍❤️‍👨🏻",
+        "👨🏽‍❤️‍👨🏿",
+        "👨🏾‍❤️‍👨🏻",
+        "👩🏽‍❤️‍👩🏿",
+        "👩🏾‍❤️‍👩🏻",
+        "👩🏾‍❤️‍👩🏼",
+        "👩🏿‍❤️‍👩🏼"
+      ],
+      "note": "Training-map recall, not an independent generalization or chat test."
+    },
+    "fixed_checks_passed": 5,
+    "fixed_checks_total": 12,
+    "fixed_checks": [
+      {
+        "question": "Which animal meows?",
+        "groups": [
+          "🐈🐱"
+        ],
+        "forbidden": "🐕🐶",
+        "state": "🐈🐈🐎🐈🐈🐎🐎🐎",
+        "reply": "🐈🐎🐕🐕",
+        "core_meanings": [
+          "cat",
+          "horse",
+          "dog",
+          "dog"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Which animal barks?",
+        "groups": [
+          "🐕🐶"
+        ],
+        "forbidden": "🐈🐱",
+        "state": "🐕🐕🐕🐾🐾🐾🐕🐾",
+        "reply": "🐕🐩",
+        "core_meanings": [
+          "dog",
+          "poodle"
+        ],
+        "terminated": true,
+        "passed": true
+      },
+      {
+        "question": "What should I carry to stay dry in rain?",
+        "groups": [
+          "☂️☔"
+        ],
+        "forbidden": "",
+        "state": "☔🎒☔☔☔☔☔☔",
+        "reply": "☔🌫️🎒",
+        "core_meanings": [
+          "umbrella with rain drops",
+          "fog",
+          "backpack"
+        ],
+        "terminated": true,
+        "passed": true
+      },
+      {
+        "question": "Which fruit is yellow and curved?",
+        "groups": [
+          "🍌"
+        ],
+        "forbidden": "",
+        "state": "🥝🥝🥝🟡🥝↩️🥝🥝",
+        "reply": "⚔️",
+        "core_meanings": [
+          "crossed swords"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "What do bees make?",
+        "groups": [
+          "🍯"
+        ],
+        "forbidden": "",
+        "state": "🐝🐝🐝🐝🐝🐝🐝🐝",
+        "reply": "🐝",
+        "core_meanings": [
+          "honeybee"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "What planet do we live on?",
+        "groups": [
+          "🌍🌎🌏"
+        ],
+        "forbidden": "",
+        "state": "🪐🪐🪐🪐🪐🪐🪐🪐",
+        "reply": "🪐☀️♂️🪐",
+        "core_meanings": [
+          "ringed planet",
+          "sun",
+          "male sign",
+          "ringed planet"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Show a dog chasing a cat, with the pursuer first.",
+        "groups": [
+          "🐕🐶",
+          "🐈🐱"
+        ],
+        "forbidden": "",
+        "ordered": true,
+        "state": "🐈🐈🦮🐈🐈🦮🐈🐈",
+        "reply": "🐕🐈",
+        "core_meanings": [
+          "dog",
+          "cat"
+        ],
+        "terminated": true,
+        "passed": true
+      },
+      {
+        "question": "Show a cat chasing a dog, with the pursuer first.",
+        "groups": [
+          "🐈🐱",
+          "🐕🐶"
+        ],
+        "forbidden": "",
+        "ordered": true,
+        "state": "🐈🐈🐈🐈🐈🦮🐈🐈",
+        "reply": "🐕🐈",
+        "core_meanings": [
+          "dog",
+          "cat"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Show a person giving a gift to a robot, with the giver first.",
+        "groups": [
+          "🧑👤",
+          "🎁",
+          "🤖"
+        ],
+        "forbidden": "",
+        "ordered": true,
+        "state": "🤖🎁🎁🎁🤖🤖🎁🤖",
+        "reply": "🔝🤖🚗",
+        "core_meanings": [
+          "TOP arrow",
+          "robot",
+          "automobile"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Show a robot giving a gift to a person, with the giver first.",
+        "groups": [
+          "🤖",
+          "🎁",
+          "🧑👤"
+        ],
+        "forbidden": "",
+        "ordered": true,
+        "state": "🤖🤖🎁🎁🤖🤖🎁🤖",
+        "reply": "🔝🤖🚗",
+        "core_meanings": [
+          "TOP arrow",
+          "robot",
+          "automobile"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Say that smoking is forbidden.",
+        "groups": [
+          "🚭"
+        ],
+        "forbidden": "",
+        "state": "🚬🚭🚭🚭🚫🚫🚭🚭",
+        "reply": "🚫🚭",
+        "core_meanings": [
+          "prohibited",
+          "no smoking"
+        ],
+        "terminated": true,
+        "passed": true
+      },
+      {
+        "question": "Say that bicycles are forbidden.",
+        "groups": [
+          "🚳"
+        ],
+        "forbidden": "",
+        "state": "🚳🚫🚳🚳🚳🚫🚳🚳",
+        "reply": "⬇️🚳🚳🚳",
+        "core_meanings": [
+          "down arrow",
+          "no bicycles",
+          "no bicycles",
+          "no bicycles"
+        ],
+        "terminated": true,
+        "passed": true
+      }
+    ],
+    "heldout_examples": [
+      {
+        "question": "What is the most romantic season of the year and why?",
+        "reference_answer": "The most romantic season of the year is winter. During winter you have all of the holidays like Thanksgiving, Christmas and New Years. Many times this is the time you really get to spend a lot of time with your loved ones and also introduce your significant other to the family. During winter you also will enjoy a lot of coffee and hot cocoa dates, going to the movies and laying around the fireplace to stay warm. With Christmas and New Years there will also be lights and decorations throughout the city, making it feel much more magical.",
+        "state": "💒💒💒🌇💒📅💒💒",
+        "reply": "💒💒",
+        "core_meanings": [
+          "wedding",
+          "wedding"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Trust is the willingness of one party (the trustor) to become vulnerable to another party (the trustee) on the presumption that the trustee will act in ways that benefit the trustor. In addition, the trustor does not have control over the actions of the trustee. Scholars distinguish between generalized trust (also known as social trust), which is the extension of trust to a relatively large circle of unfamiliar others, and particularized trust, which is contingent on a specific situation or a specific relationship.d\n\nDescribe the relationship between the Trustor and Trustee",
+        "reference_answer": "Trust is the willingness of the trustor to become vulnerable to the trustee on the presumption that the trustee will act in ways that benefit the trustor",
+        "state": "🔑🔑🔑🔑🔑🔑🔑🔑",
+        "reply": "🔑",
+        "core_meanings": [
+          "key"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Write a self introduction for a person named Cassie when speaking to a recruiter.",
+        "reference_answer": "Hi. It is great to meet you and thank you for giving me the opportunity to introduce myself. My name is Cassie and I am applying for a position at your company. I am very excited about this role and I believe I am a great fit. My previous job has given me a great deal of relevant experience in this field. I am also a big fan of your company and its mission. I would love to speak to the hiring manager about this role and go into more detail about why I am a good fit for this position.",
+        "state": "✍️🤳🔰🧑🤦🤦👩‍✈️🔰",
+        "reply": "🤦",
+        "core_meanings": [
+          "person facepalming"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "What is Audemars Piguet Royal Oak ?",
+        "reference_answer": "Audemars Piguet Royal Oak is a luxury watch. This watch was invented in 1971 by Gérald Genta and presented at the Bâle exhibition. It is the first steel watch at the price of a gold watch. It is recognizable to its specific octagonal shape and its handmade dial representing a « petite tapisserie ». It is also one of the first watches with a bracelet integrated into the case. This first Royal Oak had 2 hands (hours, minutes) and the date. It is also called Jumbo because of its imposing size for the time: 39mm in diameter. This watch is an icon for all collectors. It is now available in several versions (size, complications, thickness).",
+        "state": "🪵🪵🇪🇺🥖🥖🥖🪵🪵",
+        "reply": "🪵🥖🥖",
+        "core_meanings": [
+          "wood",
+          "baguette bread",
+          "baguette bread"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Classify each of the following as either a state or a city: Los Angeles, California, Houston, Texas, Santa Fe, New Mexico, Little Rock, Arkansas",
+        "reference_answer": "Los Angeles is a city California.\nCalifornia is a state in the United States of America.\nHouston is a city in Texas.\nTexas is a state in the United States of America.\nSanta Fe is a city in New Mexico.\nNew Mexico is a state in the United States of America.\nLittle Rock is a state in Arkansas.\nArkansas is a state in the United States of America.",
+        "state": "🗺️🇺🇸🐦‍🔥🏙️🐦‍🔥🐦‍🔥🐦‍🔥🐦‍🔥",
+        "reply": "🚈🏙️",
+        "core_meanings": [
+          "light rail",
+          "cityscape"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Which characters belong to DC or Marvel Universe? Namor, Aquaman",
+        "reference_answer": "Aquaman is DC, Namor is Marvel",
+        "state": "🦸🦸🦸🦸🦸♒♒🦸‍♂️",
+        "reply": "♒",
+        "core_meanings": [
+          "Aquarius"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "What are the benefits of building a large language model specific to your organization rather than using a third party vendor's model?",
+        "reference_answer": "Building your own large language model (LLM) reduces security risks from data leakage, which could allow others to access your proprietary information. Building an in-house LLM also creates value internal to your organization rather than delivering that value (in the form of your data) to a third party. The answers from a custom LLM will also be more valid and specific to your organization. Finally, building your own LLM can be more cost effective than paying for each API request to a third party solution.",
+        "state": "ℹ️🚧🏢🏢🏢🈂️🏭🏢",
+        "reply": "✖️",
+        "core_meanings": [
+          "multiply"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "7 Reasons San francisco has homelessness",
+        "reference_answer": "Housing is sky rocketing compared to its neighboring areas -- Noe Valley, the Mission etc.\nIt is a transportation hub thus It is safe\nSome of the best restaurants including Gialina, Chenery Park thus good scraps left\nThere is an 80 acre park with hiking trails, rock climbing, baseball diamond, tennis courts, basketball courts etc making good area for tenting\nThe community has lots of soup kitchen and free welfare",
+        "state": "7️⃣7️⃣5️⃣🏙️🏘️🏚️🏚️🏚️",
+        "reply": "🏚️",
+        "core_meanings": [
+          "derelict house"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Tell me which one does not fit with the group:  Cigar, Cigarette, Tobacco, Pipe, Hookah",
+        "reference_answer": "All except Tobacco are means of smoking.",
+        "state": "🚬🚬*️⃣👩‍👩‍👧‍👧🚬🚬🚬🚬",
+        "reply": "🪨",
+        "core_meanings": [
+          "rock"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "In Islam, cateogorize each of the following as either 'haram' or 'halal'. Pork, Beef, Chicken, Fish, Alcohol, fasting.",
+        "reference_answer": "Pork and Alcohol are considered Haram while Beef, Chicken, Fish and Fasting are Halal",
+        "state": "🕌🥩🥩🥩🥩🥩🥩🥩",
+        "reply": "⛪",
+        "core_meanings": [
+          "church"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Why is sitting the new smoking?",
+        "reference_answer": "Sitting is not good for your body, as it was created to move. Sedentary lifestyles have many health risk factors associated. It can decrease your bone density to live a sedentary lifestyle, leading to more injuries. Sitting all day will also overtime impact your flexibility and ability to be limber. This too, impacts your likelihood of becoming injured.",
+        "state": "🚬🚬🚭💺🆕🚬🚬🚬",
+        "reply": "🚗",
+        "core_meanings": [
+          "automobile"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Tell me if these are types of rock or types of fungi: sedimentary, yeasts, mildews, metamorphic, igneous, smuts, rusts, molds.",
+        "reference_answer": "Types of rocks include: sedimentary, metamorphic, igneous. Types of fungi include: yeasts, mildews, smuts, rusts, molds.",
+        "state": "🍄🪨🍄🍄🍄🍄🍄🍄",
+        "reply": "🪨",
+        "core_meanings": [
+          "rock"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "King Charles III is 73 years old and his full name is?",
+        "reference_answer": "Charles Philip Arthur George",
+        "state": "🤴🤴🤴🧓🤴📛🤴🤴",
+        "reply": "🫠🤴",
+        "core_meanings": [
+          "melting face",
+          "prince"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Can you suggest 5 ways to use a Katana other than a weapon ?",
+        "reference_answer": "1. The Katana in its' sheath can be used as a walking stick\n2. Used to removed overgrown foliage. \n3. Can presented as a gift \n4. Decorative purposes for your office, house or vehicle    \n5. Fancy dress events",
+        "state": "🗡️5️⃣5️⃣🪓🪓🪓🪓🗡️",
+        "reply": "🗡️",
+        "core_meanings": [
+          "dagger"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Why can camels survive for long without water?",
+        "reference_answer": "Camels use the fat in their humps to keep them filled with energy and hydration for long periods of time.",
+        "state": "🐪🐪🐪🐪🐪🐪🚰🐪",
+        "reply": "🚰",
+        "core_meanings": [
+          "potable water"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Divide these books into Science Fiction, Fantasy or neither. The Great Gatsby, Dune, The Fellowship of the Ring, Neuromancer, A Game of Thrones, The Colour of Magic, Brave New World, Anna Karenina, The Catcher in the Rye, The Lion, the Witch and the Wardrobe, Snow Crash, Wuthering Heights, Magician, Catch-22, Foundation, The Stranger, 1984.",
+        "reference_answer": "Dune, Neuromancer, Snow Crash, Foundation, 1984, Brave New World are Science Fiction books. The Fellowship of the Ring, A Game of Thrones, The Colour of Magic, The Lion, the Witch and the Wardrobe, Magician are Fantasy books. The Great Gatsby, Anna Karenina, The Catcher in the Rye, Wuthering Heights, Catch-22, and The Stranger are not considered to be either Science Fiction nor Fantasy books.",
+        "state": "📚📚📚📗📚📚📚📚",
+        "reply": "📚",
+        "core_meanings": [
+          "books"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Give me the list of fortified wines.",
+        "reference_answer": "Fortified wines:\n- Port\n- Madeira\n- Marsala\n- Sherry\n- Vermouth\n- Vinsanto",
+        "state": "🍷🍷🍷🍷🍷🍷🍷🍷",
+        "reply": "🍷",
+        "core_meanings": [
+          "wine glass"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "What are mammals?",
+        "reference_answer": "Mammals are animals that have vertebrae, give milk to their babies, have hair or fur, and are warm-blooded. There are seven types of mammals: rodentia, chiroptera, soricomorpha, primates, carnivora, artiodactyla, diprotodontia, and lagomorpha.",
+        "state": "🐀🐁🦏🦏🐀🐀🦏🦏",
+        "reply": "🐀",
+        "core_meanings": [
+          "rat"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "distinguish the following famous people as authors and dancers:\nGregory Hines\nDanielle Steele\nJK Rowling\nLee Child\nPatrick Swayze\nMartha graham\nLeo Tolstoy\nMichael Flatly\nPaulo Cohelo\nMichael Jackson",
+        "reference_answer": "Authors: Danielle Steele\nJK Rowling\nLee Child\nLeo Tolstoy\nPaulo Cohelo\n\nDancers:\nMartha graham\nMichael Jackson\nGregory Hines\nPatrick Swayze\nMichael Flatly",
+        "state": "🧑‍🎨🎭🧑‍🩰🧑‍🎨🧑‍🎨🧑‍🩰🧑‍🎨🧑‍🎨",
+        "reply": "🧑‍🩰",
+        "core_meanings": [
+          "ballet dancer"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Describe a recurring dream you've had.",
+        "reference_answer": "All my life I've had a recurring dream where I'm being chased. Sometimes it's by zombies, sometimes by the police, sometimes by communists (my grandpa would make me watch Red Dawn over and over as a child). Usually it will start outdoors, and I'll be hiding behind trees, racing across rickety bridges, and leaping ditches. Eventually it always ends up in a large old house with many staircases and closets. Often the hallways will narrow to tiny doors that no human can fit through. In my dream I must navigate the house, hiding from my pursuers. I've always been curious why I have this dream over and over.",
+        "state": "🪞💡🌃🌃🕉️🤞👻🌃",
+        "reply": "👻⭐🤞🚢",
+        "core_meanings": [
+          "ghost",
+          "star",
+          "crossed fingers",
+          "ship"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Which F1 drivers race for Red Bull Racing in the 2023 season?",
+        "reference_answer": "Max Verstappen and Sergio Perez",
+        "state": "🏎️🏎️🏇🎯🏎️🏎️🏎️🏎️",
+        "reply": "🚗",
+        "core_meanings": [
+          "automobile"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Give me an idea for a country to travel to that is safe, inexpensive and does not fall into the well trodden tourist path?",
+        "reference_answer": "One such place is Mongolia. Situated between China and Russia, it is an ideal destination to explore national parks, deserts, and history. Mongolia is the historic home to one of the largest empires to ever conquered the earth. The Mongol empire covered most of Eurasia and had a fierce nomadic culture and modern weaponry. \nAs a traveler to Mongolia, you can spend time with today's nomadic tribes, hike through the Khstain Nuruu National Park park while sleeping in luxury tents, marvel at the beauty of Ugil Lake, or Camel ride through the dunes of the Gobi desert. \nYou will enjoy Mongolia while feeling safe and awed without breaking the bank.",
+        "state": "🏨🗺️🛣️🧷🪫🧷🚞🗺️",
+        "reply": "🏧",
+        "core_meanings": [
+          "ATM sign"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "77 BIBLE VERSES THAT WILL HELP YOU GROW!\nEach one is on a separate page, with a poem beneath it.\nThis is so easy to say.\nDo I my Father obey?\nIs such an easy task.\nIs what our Lord does ask.\nA GREAT BOOK FOR EVERY CHRISTIAN! Based on the passage above, Can you paraphrase one of the poems beneath a Bible verse to help me understand its meaning better?",
+        "reference_answer": "Yes, based on the passage above, one of the poems beneath a Bible verse could be paraphrased as:\n\nFollowing God's command,\nIs not too hard to understand.\nIt may seem a daunting feat,\nBut faith and obedience make it sweet.",
+        "state": "💗☸️🧞🆗⛪☸️🧞☸️",
+        "reply": "☸️💗",
+        "core_meanings": [
+          "wheel of dharma",
+          "growing heart"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Which is a species of fish? Trout or Bear",
+        "reference_answer": "Trout",
+        "state": "🐟🐟🐟🐟🐟🐟🐟🐟",
+        "reply": "🐟",
+        "core_meanings": [
+          "fish"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Classify the fruits based on their color.\nraspberries, lemon, strawberries, cranberries, star fruit, banana, cherries, apples",
+        "reference_answer": "Red - raspberries, strawberries, cranberries, cherries, apples\nYellow - lemon, banana, star fruit",
+        "state": "🍎🍎🍓🍓🫐🫐🍓🍎",
+        "reply": "🍓🍓",
+        "core_meanings": [
+          "strawberry",
+          "strawberry"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Could I beat a wolf in a fight?",
+        "reference_answer": "Probably not. Wolves can be 6 feet long and weigh over 150 pounds. A pack of wolves \ncan take down a full-grown moose. Fortunately, wolves typically do not show aggression toward people.",
+        "state": "🐺🐺🐺🐺🐺🐺🐺🐺",
+        "reply": "🐺",
+        "core_meanings": [
+          "wolf"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Are the following colours considered primary colours or not: red, orange, yellow, green, blue, indigo, violet",
+        "reference_answer": "red - primary\norange - not primary\nyellow - primary\ngreen - not primary\nblue - primary\nindigo - not primary\nviolet - not primary",
+        "state": "🟣🟣🟣🟣🟣🟣🟣🟣",
+        "reply": "🎨🟣🟣",
+        "core_meanings": [
+          "artist palette",
+          "purple circle",
+          "purple circle"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "where do aliens come from",
+        "reference_answer": "space the final frontier or is it?",
+        "state": "👽👽👽👽👽🧬👽👽",
+        "reply": "👽",
+        "core_meanings": [
+          "alien"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "What is celiac disease?",
+        "reference_answer": "Celiac disease is an autoimmune disease that is hereditary, not to be confused with gluten intolerance. Celiac disease is an immune response to consuming gluten, a protein found in barley, rye, and wheat, which impacts nutrient absorption and immunity when consumed.",
+        "state": "🧵♋♋🚊🌮♋🍁🍁",
+        "reply": "♋",
+        "core_meanings": [
+          "Cancer"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "What is a zerbert?",
+        "reference_answer": "A zerbert is the act of touching lips on the skin of another person and exhaling in a way that makes a loud fart-like sound. It's likely that zerberts have been performed for as long as humans have evolved from the apes as a species with smooth enough skin to perform the task, but the term was popularized in the United States during the 1980s on a The Cosby Show, a popular 30-minute comedy that aired on the NBC television network. Most typically, adults perform zerberts (or zerbert someone, to use the term as a verb) on children in order to make them laugh.",
+        "state": "🗡️💡💡💡🪻💡💡💡",
+        "reply": "🕯️💡",
+        "core_meanings": [
+          "candle",
+          "light bulb"
+        ],
+        "terminated": true
+      }
+    ],
+    "runtime_english_decoder": false,
+    "generated_qa_labels": 0,
+    "general_use_ready": false,
+    "promoted": false,
+    "note": "Check semantic quality manually; this run does not automatically certify general-chat competence."
+  },
+  "timing": {
+    "total_wall_seconds": 67013.49801111221,
+    "last_logged_training_elapsed_seconds": 11979.787425994873,
+    "unlogged_gap_seconds": 55033.71058511734,
+    "continuous_five_hours_verified": false,
+    "note": "Large execution/clock gap; cause not determined. Elapsed time does not establish active compute."
+  },
+  "conclusion": "Basic general chatting was not demonstrated. Several simple concept replies improved, but held-out answers remain unreliable; vocabulary/map recall does not imply general reasoning.",
+  "role_checks_passed": 1,
+  "role_checks_total": 4
+}
