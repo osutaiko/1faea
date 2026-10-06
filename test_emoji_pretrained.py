@@ -36,7 +36,16 @@ class PretrainedTests(unittest.TestCase):
             reply.output.weight.zero_()
             reply.output.bias.zero_()
             reply.output.bias[reply.end] = 10
+            reply.copy_gate.bias.fill_(20)
         self.assertEqual(reply.generate(torch.tensor([[1, 2]])).tolist(), [[reply.end]])
+
+    def test_pointer_preserves_supplied_identity_and_normalizes_probabilities(self):
+        reply = PretrainedReply(TinyBackbone(), torch.randn(5, 8), torch.randn(8)).eval()
+        states = torch.arange(5)[:, None].expand(-1, 3)
+        prefix = torch.full((5, 1), reply.end, dtype=torch.long)
+        probabilities = reply(states, prefix).exp()
+        self.assertTrue(torch.allclose(probabilities.sum(-1), torch.ones(5, 1), atol=1e-6))
+        self.assertEqual(probabilities[:, 0].argmax(-1).tolist(), list(range(5)))
 
 
 if __name__ == '__main__':

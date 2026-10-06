@@ -1,0 +1,155 @@
+{
+  "result": {
+    "selected_step": 400,
+    "test": {
+      "real": 9.88469317905953,
+      "reversed": 9.875462450243965,
+      "mismatched": 9.923384812898249,
+      "empty": 9.59121638270115
+    },
+    "examples": [
+      {
+        "id": "dolly-10150",
+        "english_answer": "The most romantic season of the year is winter. During winter you have all of the holidays like Thanksgiving, Christmas and New Years. Many times this is the time you really get to spend a lot of time with your loved ones and also introduce your significant other to the family. During winter you also will enjoy a lot of coffee and hot cocoa dates, going to the movies and laying around the fireplace to stay warm. With Christmas and New Years there will also be lights and decorations throughout the city, making it feel much more magical.",
+        "state": "📅📅💑📅📅🌆📅📅",
+        "training_only_reconstruction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npanan\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nismismisisismismismismism\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<|im_end|>\n\n\n<|im_end|>\n\n\n\n<|im_end|><|im_end|><|im_end|><|im_end|><|im_end|>\n\n\n\n\n \n\n..."
+      },
+      {
+        "id": "dolly-11208",
+        "english_answer": "Trust is the willingness of the trustor to become vulnerable to the trustee on the presumption that the trustee will act in ways that benefit the trustor",
+        "state": "🔑🧾🔑🔑🔑🔑🔑🔑",
+        "training_only_reconstruction": ".imim\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n a"
+      },
+      {
+        "id": "dolly-11357",
+        "english_answer": "Hi. It is great to meet you and thank you for giving me the opportunity to introduce myself. My name is Cassie and I am applying for a position at your company. I am very excited about this role and I believe I am a great fit. My previous job has given me a great deal of relevant experience in this field. I am also a big fan of your company and its mission. I would love to speak to the hiring manager about this role and go into more detail about why I am a good fit for this position.",
+        "state": "😁👤👤👤👤👤®️👤",
+        "training_only_reconstruction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nismism\n\n\n\n\n\n\n\n\n\n\n\n\n Josh Josh, Josh\n\n\n\n\n\n\n\n<|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|>"
+      },
+      {
+        "id": "dolly-4086",
+        "english_answer": "Audemars Piguet Royal Oak is a luxury watch. This watch was invented in 1971 by Gérald Genta and presented at the Bâle exhibition. It is the first steel watch at the price of a gold watch. It is recognizable to its specific octagonal shape and its handmade dial representing a « petite tapisserie ». It is also one of the first watches with a bracelet integrated into the case. This first Royal Oak had 2 hands (hours, minutes) and the date. It is also called Jumbo because of its imposing size for the time: 39mm in diameter. This watch is an icon for all collectors. It is now available in several versions (size, complications, thickness).",
+        "state": "⌚🕰️⌚🔸🕰️🕰️🕰️🔸",
+        "training_only_reconstruction": ",,ia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nththth\n\nth\n\n\n\n\n\n\n\n\n\n\n Sam Sam-\n\n\n\n\n<|im_end|><|im_end|><|im_end|><|im_end|>\n\n\n\n\n\n\n\n\n\n\n\n\nimisms\n  \n\n\n \n     \"\" Sam\nuserimsimimim\n\n\n<|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|>-----\n\n\n\n"
+      },
+      {
+        "id": "dolly-5678",
+        "english_answer": "Los Angeles is a city California.\nCalifornia is a state in the United States of America.\nHouston is a city in Texas.\nTexas is a state in the United States of America.\nSanta Fe is a city in New Mexico.\nNew Mexico is a state in the United States of America.\nLittle Rock is a state in Arkansas.\nArkansas is a state in the United States of America.",
+        "state": "🐦‍🔥🐦‍🔥🇲🇽🐦‍🔥🇺🇸🐦‍🔥🐦‍🔥🐦‍🔥",
+        "training_only_reconstruction": " I\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nt\n\n\n\n\n\n\n\n\n\n\n\n<|im_end|>\n\n\n Sam\n\n\n\n\n\n<|im_end|><|im_end|><|im_end|><|im_end|><|im_end|>"
+      },
+      {
+        "id": "dolly-1230",
+        "english_answer": "Aquaman is DC, Namor is Marvel",
+        "state": "🦸🦸🦸🦸🦸🦸🦸🦸",
+        "training_only_reconstruction": ",,,\n\n\n\n\n\n\n"
+      },
+      {
+        "id": "dolly-14576",
+        "english_answer": "Building your own large language model (LLM) reduces security risks from data leakage, which could allow others to access your proprietary information. Building an in-house LLM also creates value internal to your organization rather than delivering that value (in the form of your data) to a third party. The answers from a custom LLM will also be more valid and specific to your organization. Finally, building your own LLM can be more cost effective than paying for each API request to a third party solution.",
+        "state": "🦙🦙🈷️🦙🏗️🦙🦙🦙",
+        "training_only_reconstruction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n..\n\n\n\n\n\n\n\n\n\n\nismismismism\nismismismismismismismismismism\n\n\n\n\nismismismismismismismism\nusismism\n\n<|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|>ismass<|im_end|><|im_end|><|im_end|><|im_end|>"
+      },
+      {
+        "id": "dolly-10013",
+        "english_answer": "Housing is sky rocketing compared to its neighboring areas -- Noe Valley, the Mission etc.\nIt is a transportation hub thus It is safe\nSome of the best restaurants including Gialina, Chenery Park thus good scraps left\nThere is an 80 acre park with hiking trails, rock climbing, baseball diamond, tennis courts, basketball courts etc making good area for tenting\nThe community has lots of soup kitchen and free welfare",
+        "state": "🏘️🏘️🏘️🏘️🏘️🏘️🏘️🏘️",
+        "training_only_reconstruction": ",,,,\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n     ,    \n, I \n\n\n      the,,,,, is is isismismismism is is is is is is is is is\n\n\n\n\n\n\n\n\n is is\n<|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|><|im_end|>"
+      },
+      {
+        "id": "dolly-3621",
+        "english_answer": "All except Tobacco are means of smoking.",
+        "state": "🚭🚭🚭🚭🚭🚭🚭🚭",
+        "training_only_reconstruction": ",,,\n\n\n\n\n\n"
+      },
+      {
+        "id": "dolly-11986",
+        "english_answer": "Pork and Alcohol are considered Haram while Beef, Chicken, Fish and Fasting are Halal",
+        "state": "🥩🥩🥩🥩🥩🥩🥩🥩",
+        "training_only_reconstruction": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+      }
+    ],
+    "definition_ids_seen": 3972,
+    "elapsed_seconds": 3303.579000000027,
+    "runtime_exported": false,
+    "promoted": false,
+    "general_chat_demonstrated": false,
+    "length_conditioned_reconstruction_is_not_generation": true
+  },
+  "manifest": {
+    "steps": 500,
+    "state_slots": 8,
+    "preserve_repetition": true,
+    "answer_prefix_visible": false,
+    "answer_length_visible": true,
+    "diagnostic_only": true,
+    "generated_qa_labels": 0,
+    "runtime_english_answer_generation": false,
+    "base_checkpoint_sha256": "e0983e1b25bb30035e52fc4517263f4f8209aa9b9d205d98375ddc2faa87999d",
+    "dataset": {
+      "counts": {
+        "train": 9016,
+        "validation": 100,
+        "test": 100
+      },
+      "sources": [
+        {
+          "name": "Dolly 15k",
+          "license": "CC-BY-SA-3.0",
+          "sha256": "2df9083338b4abd6bceb5635764dab5d833b393b55759dffb0959b6fcbf794ec",
+          "url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k"
+        },
+        {
+          "name": "UltraChat 200k",
+          "license": "MIT",
+          "url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k"
+        }
+      ],
+      "generated_qa_labels": 0,
+      "standalone": true,
+      "deduplication": "Normalized exact question only; paraphrase overlap not exhaustively audited",
+      "files_sha256": {
+        "train": "f8e06c009af25d01e2bf7f013b5d7a79d2880e3b64d459914e9e4d6905993c96",
+        "validation": "7878e91d80bae9d3e74210f5415f40905d9926367b2db05f58e4cb5b462d1ceb",
+        "test": "d6a0bb6717be4fed634cf32a4ad9ebb192a0f6b81b34e1cde5512ad8f3ad0d7b"
+      }
+    },
+    "validation_examples": 16,
+    "test_examples": 32,
+    "seed": 719
+  },
+  "baseline_validation": {
+    "real": 16.779454676448584,
+    "reversed": 16.688909719506597,
+    "mismatched": 17.119060927298694,
+    "empty": 10.64008850164071
+  },
+  "baseline_test": {
+    "real": 17.137527567702314,
+    "reversed": 17.27729450180767,
+    "mismatched": 16.827889041283466,
+    "empty": 10.475412424613587
+  },
+  "definition_first_state_recall": {
+    "original": {
+      "correct": 3633,
+      "total": 3972,
+      "fraction": 0.9146525679758308
+    },
+    "selected": {
+      "correct": 3618,
+      "total": 3972,
+      "fraction": 0.9108761329305136
+    }
+  },
+  "largest_logging_interval_seconds": 361.8279999999795,
+  "information_gate_passed": false,
+  "conclusion": "Empty states beat real states on the same 32 held-out answers; reversing states does not worsen reconstruction. Sampled strings do not recover actual answers. Lower loss does not establish semantic information retention. No answering run or checkpoint promotion follows.",
+  "limitations": [
+    "Answer length and padding are visible.",
+    "Only 16 validation and 32 test examples.",
+    "Answer-side oracle encoder, not question answering.",
+    "English reconstructions are parallel argmax diagnostics, not autoregressive generation.",
+    "Definition-name recall does not prove contextual meaning."
+  ]
+}

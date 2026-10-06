@@ -16,6 +16,15 @@ def compact(features, mask, length=16):
     return (values / weights.clamp_min(1e-6)).half()
 
 
+def anchored_states(states, anchors):
+    """Retain ordered literal evidence before the learned discrete states."""
+    rows = []
+    for learned, literal in zip(states.tolist(), anchors.tolist()):
+        ordered = list(dict.fromkeys(index for index in literal if index >= 0))
+        rows.append((ordered + learned)[:states.shape[1]])
+    return torch.tensor(rows, dtype=torch.long, device=states.device)
+
+
 class GeneralEncoder(nn.Module):
     def __init__(self, vectors, slots=8, width=128):
         super().__init__()

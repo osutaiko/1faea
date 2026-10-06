@@ -1,0 +1,117 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+  "vocabulary": 3972,
+  "trained": false,
+  "original_question_visible_to_second_call": false,
+  "cross_call_hidden_cache": false,
+  "runtime_english_answer_generation": false,
+  "json_is_transport_only": true,
+  "fixed_checks_passed": 0,
+  "fixed_checks_total": 6,
+  "general_chat_demonstrated": false,
+  "examples": [
+    {
+      "question": "Which animal meows?",
+      "state": "#️⃣#️⃣#️⃣#️⃣",
+      "reply": "#️⃣#️⃣#️⃣#️⃣",
+      "state_symbols": [
+        "#️⃣",
+        "#️⃣",
+        "#️⃣",
+        "#️⃣"
+      ],
+      "symbols": [
+        "#️⃣",
+        "#️⃣",
+        "#️⃣",
+        "#️⃣"
+      ],
+      "elapsed_seconds": 20.265999999945052,
+      "passed": false
+    },
+    {
+      "question": "Which animal barks?",
+      "state": "#️⃣#️⃣#️⃣#️⃣",
+      "reply": "#️⃣#️⃣#️⃣#️⃣",
+      "state_symbols": [
+        "#️⃣",
+        "#️⃣",
+        "#️⃣",
+        "#️⃣"
+      ],
+      "symbols": [
+        "#️⃣",
+        "#️⃣",
+        "#️⃣",
+        "#️⃣"
+      ],
+      "elapsed_seconds": 10.797000000020489,
+      "passed": false
+    },
+    {
+      "question": "What should I carry to stay dry in rain?",
+      "state": "1️⃣2️⃣3️⃣4️⃣",
+      "reply": "1️⃣2️⃣3️⃣4️⃣",
+      "state_symbols": [
+        "1️⃣",
+        "2️⃣",
+        "3️⃣",
+        "4️⃣"
+      ],
+      "symbols": [
+        "1️⃣",
+        "2️⃣",
+        "3️⃣",
+        "4️⃣"
+      ],
+      "elapsed_seconds": 12.202999999979511,
+      "passed": false
+    },
+    {
+      "question": "Which fruit is yellow and curved?",
+      "state": "#️⃣",
+      "reply": "#️⃣",
+      "state_symbols": [
+        "#️⃣"
+      ],
+      "symbols": [
+        "#️⃣"
+      ],
+      "elapsed_seconds": 3.51500000001397,
+      "passed": false
+    },
+    {
+      "question": "What do bees make?",
+      "state": "#️⃣",
+      "reply": "#️⃣",
+      "state_symbols": [
+        "#️⃣"
+      ],
+      "symbols": [
+        "#️⃣"
+      ],
+      "elapsed_seconds": 3.8910000000614673,
+      "passed": false
+    },
+    {
+      "question": "What planet do we live on?",
+      "state": "#️⃣#️⃣#️⃣#️⃣",
+      "reply": "#️⃣#️⃣#️⃣#️⃣",
+      "state_symbols": [
+        "#️⃣",
+        "#️⃣",
+        "#️⃣",
+        "#️⃣"
+      ],
+      "symbols": [
+        "#️⃣",
+        "#️⃣",
+        "#️⃣",
+        "#️⃣"
+      ],
+      "elapsed_seconds": 11.640999999945052,
+      "passed": false
+    }
+  ]
+}

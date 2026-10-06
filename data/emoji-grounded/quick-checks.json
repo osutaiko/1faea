@@ -1,0 +1,280 @@
+{
+  "checkpoint_sha256": "e0983e1b25bb30035e52fc4517263f4f8209aa9b9d205d98375ddc2faa87999d",
+  "checkpoint_unchanged": true,
+  "test_examples": 30,
+  "changed_replies": {
+    "reversed": 0,
+    "unrelated": 30,
+    "empty": 30
+  },
+  "reversed_first_logits_max_difference": 3.814697265625e-06,
+  "mean_first_stop_probability": 0.0014380918582901359,
+  "reply_lengths": [
+    4,
+    1,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    3,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1
+  ],
+  "forced_reply_lengths": [
+    4,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "examples": [
+    {
+      "question": "What is the most romantic season of the year and why?",
+      "real": "💒💒💒💒",
+      "reversed": "💒💒💒💒",
+      "unrelated": "📚",
+      "empty": "1️⃣🔑",
+      "minimum_three": "💒💒💒💒"
+    },
+    {
+      "question": "Trust is the willingness of one party (the trustor) to become vulnerable to another party (the trustee) on the presumption that the trustee will act in ways that benefit the trustor. In addition, the trustor does not have control over the actions of the trustee. Scholars distinguish between generalized trust (also known as social trust), which is the extension of trust to a relatively large circle of unfamiliar others, and particularized trust, which is contingent on a specific situation or a specific relationship.d\n\nDescribe the relationship between the Trustor and Trustee",
+      "real": "🔑",
+      "reversed": "🔑",
+      "unrelated": "🍷",
+      "empty": "1️⃣🔑",
+      "minimum_three": "🔑🏘️🔑"
+    },
+    {
+      "question": "Write a self introduction for a person named Cassie when speaking to a recruiter.",
+      "real": "👤🔰🔰",
+      "reversed": "👤🔰🔰",
+      "unrelated": "🐀",
+      "empty": "1️⃣🔑",
+      "minimum_three": "👤🔰🔰"
+    },
+    {
+      "question": "What is Audemars Piguet Royal Oak ?",
+      "real": "🪵",
+      "reversed": "🪵",
+      "unrelated": "🎭",
+      "empty": "1️⃣🔑",
+      "minimum_three": "🪵🔝🪵"
+    },
+    {
+      "question": "Classify each of the following as either a state or a city: Los Angeles, California, Houston, Texas, Santa Fe, New Mexico, Little Rock, Arkansas",
+      "real": "🚈",
+      "reversed": "🚈",
+      "unrelated": "🪞",
+      "empty": "1️⃣🔑",
+      "minimum_three": "🚈🏙️🐦‍🔥"
+    },
+    {
+      "question": "Which characters belong to DC or Marvel Universe? Namor, Aquaman",
+      "real": "🦸",
+      "reversed": "🦸",
+      "unrelated": "🏎️",
+      "empty": "1️⃣🔑",
+      "minimum_three": "🦸🦸🦸"
+    },
+    {
+      "question": "What are the benefits of building a large language model specific to your organization rather than using a third party vendor's model?",
+      "real": "🏢",
+      "reversed": "🏢",
+      "unrelated": "🚈🗺️",
+      "empty": "1️⃣🔑",
+      "minimum_three": "🏢🏢🔝"
+    },
+    {
+      "question": "7 Reasons San francisco has homelessness",
+      "real": "🏚️",
+      "reversed": "🏚️",
+      "unrelated": "☸️💗",
+      "empty": "1️⃣🔑",
+      "minimum_three": "🏚️🏚️🏚️"
+    },
+    {
+      "question": "Tell me which one does not fit with the group:  Cigar, Cigarette, Tobacco, Pipe, Hookah",
+      "real": "🚬",
+      "reversed": "🚬",
+      "unrelated": "🐟",
+      "empty": "1️⃣🔑",
+      "minimum_three": "🚬🚬1️⃣"
+    },
+    {
+      "question": "In Islam, cateogorize each of the following as either 'haram' or 'halal'. Pork, Beef, Chicken, Fish, Alcohol, fasting.",
+      "real": "🥩🍖🥩",
+      "reversed": "🥩🍖🥩",
+      "unrelated": "🍓🍓",
+      "empty": "1️⃣🔑",
+      "minimum_three": "🥩🍖🥩"
+    }
+  ],
+  "tiny_set": {
+    "examples": 16,
+    "updates": 150,
+    "seconds": 8.96799999999348,
+    "initial_teacher_forced_loss": 3.2254555225372314,
+    "final_teacher_forced_loss": 0.019895758479833603,
+    "initial_exact_replies": 1,
+    "final_exact_replies": 16,
+    "limitation": "Memorization of existing weak code targets; not semantic answering or held-out improvement."
+  },
+  "target_review": {
+    "reviewer": "Assistant inspection of 20 seeded validation examples; no API teacher or external judge",
+    "used_for_training": false,
+    "not_a_general_accuracy_estimate": true,
+    "examples": [
+      {
+        "id": "dolly-9905",
+        "target": "➖🔢",
+        "assessment": "Minus and input numbers do not express the two sets or the subset relationship."
+      },
+      {
+        "id": "dolly-5222",
+        "target": "📧🏤🈁🗑️📭⏹️",
+        "assessment": "Topic fragments omit most events and their sequence; e-mail differs from physical junk mail."
+      },
+      {
+        "id": "dolly-12064",
+        "target": "🍕🫓1️⃣🔑🔝",
+        "assessment": "Topic retained, but keycap 1 and a key do not express crust shape, thickness, or cheese placement. Key is figurative in the English answer."
+      },
+      {
+        "id": "dolly-14760",
+        "target": "🪨🍕🐔🚱🥫",
+        "assessment": "Rock and pizza are misleading; the safe/unsafe food grouping and negation are absent. This target cannot support the requested safety answer."
+      },
+      {
+        "id": "dolly-10123",
+        "target": "⌨️🔠↕️",
+        "assessment": "The inventor name, company, decade, and naming history are absent."
+      },
+      {
+        "id": "dolly-7562",
+        "target": "2️⃣🇨🇦🥍🏒",
+        "assessment": "Two, Canada, lacrosse and ice hockey convey the narrow core answer; seasonal and historical details are absent."
+      },
+      {
+        "id": "dolly-5620",
+        "target": "🈵🫁♉🥖😣🏊",
+        "assessment": "Lungs and swimming are relevant, but Taurus, bread and no-vacancy symbols introduce unrelated literal meanings; benefits are poorly represented."
+      },
+      {
+        "id": "dolly-4861",
+        "target": "✡️🕍🇪🇬🇮🇱",
+        "assessment": "Jewish and geographic topics are present; flight from oppression and the historical event are not expressed."
+      },
+      {
+        "id": "dolly-14997",
+        "target": "♟️",
+        "assessment": "Chess is the topic, not the winning person or the result."
+      },
+      {
+        "id": "dolly-4276",
+        "target": "💯🥖",
+        "assessment": "Hundred points is an approximation to 100; bread does not express yards. Units are lost."
+      },
+      {
+        "id": "dolly-13578",
+        "target": "🍸🥃🍥",
+        "assessment": "Cocktail and tumbler are topical; fish cake is misleading and the requested ingredient list is missing."
+      },
+      {
+        "id": "dolly-905",
+        "target": "👥🐩🐕🟰🪙🐶",
+        "assessment": "Dog and coin suggest a cryptocurrency topic, but the specific token, chronology and qualifications are absent."
+      },
+      {
+        "id": "dolly-9346",
+        "target": "🔈💱🈸🏦🦠",
+        "assessment": "Bank and currency are relevant topics; low-volume speaker and microbe misread low-income and microfinance. Loans and intended beneficiaries are lost."
+      },
+      {
+        "id": "dolly-4448",
+        "target": "🧵🥁",
+        "assessment": "Thread is not a string instrument; the names and category assignments are absent."
+      },
+      {
+        "id": "dolly-12988",
+        "target": "✈️🚗🛻🚆🪥🛵",
+        "assessment": "Some vehicles survive, but three literal vehicles are dropped, a toothbrush is introduced, and category assignments disappear."
+      },
+      {
+        "id": "dolly-13098",
+        "target": "💯",
+        "assessment": "The exact answer 117 becomes hundred points. Numerical identity is not preserved."
+      },
+      {
+        "id": "dolly-4492",
+        "target": "🤞",
+        "assessment": "Crossed fingers does not identify the song title."
+      },
+      {
+        "id": "dolly-3071",
+        "target": "3️⃣♌5️⃣",
+        "assessment": "Digits and Leo do not identify the five requested accounts or preserve their ordering."
+      },
+      {
+        "id": "dolly-10552",
+        "target": "🖕🧵💍🔝🔈▶️",
+        "assessment": "Finger and ring are literal fragments, but thread misreads musical strings. Notes, frets, repeated counts and instructions are missing."
+      },
+      {
+        "id": "dolly-4144",
+        "target": "🥗😋🈵💭🍴🫜",
+        "assessment": "Food-related symbols retain a topic, but the selected winter squash and the justification are not expressed."
+      }
+    ]
+  },
+  "elapsed_seconds": 9.84299999999348,
+  "runtime_promoted": false,
+  "architecture_finding": "GroundedReply projects memory vectors without memory-position embeddings. Transformer cross-attention is invariant to permutations of those memory positions; the measured reversal invariance is an architectural limitation, not just a failed training example.",
+  "stopping_review": "21 of 30 replies have one symbol. Mean first-step stop probability is only 0.001438; stopping is mainly after an initial symbol. Suppressing EOS until three symbols produces repetition or irrelevant additions in inspected examples, so minimum length is not an answer-quality fix.",
+  "conclusion": "Decoder consumes input and memorizes weak existing targets, but cannot read memory order and targets lose meaning. Prioritize a positional-memory ablation and target representation repair, not longer blind training or forced reply length."
+}

@@ -1,0 +1,161 @@
+{
+  "checkpoint_sha256": "e0983e1b25bb30035e52fc4517263f4f8209aa9b9d205d98375ddc2faa87999d",
+  "checkpoint_unchanged": true,
+  "diagnostic": "Paired two-ID copying in both orders, derived from existing cached state IDs. No English Q&A labels.",
+  "results": {
+    "unordered": {
+      "updates": 200,
+      "training_seconds": 7.25,
+      "initial_reversed_logits_difference": 3.337860107421875e-06,
+      "exact_ordered_copies": 8,
+      "total": 16,
+      "held_out_exact": 0,
+      "held_out_total": 16,
+      "examples": [
+        {
+          "input": "🇦🇺✈️",
+          "reply": "🇦🇺✈️"
+        },
+        {
+          "input": "✈️🇦🇺",
+          "reply": "🇦🇺✈️"
+        },
+        {
+          "input": "4️⃣#️⃣",
+          "reply": "#️⃣4️⃣"
+        },
+        {
+          "input": "#️⃣4️⃣",
+          "reply": "#️⃣4️⃣"
+        },
+        {
+          "input": "🪢🎀",
+          "reply": "🎀🪢"
+        },
+        {
+          "input": "🎀🪢",
+          "reply": "🎀🪢"
+        },
+        {
+          "input": "🪟🌈",
+          "reply": "🌈🪟"
+        },
+        {
+          "input": "🌈🪟",
+          "reply": "🌈🪟"
+        },
+        {
+          "input": "🚎🛵",
+          "reply": "🚎🛵"
+        },
+        {
+          "input": "🛵🚎",
+          "reply": "🚎🛵"
+        },
+        {
+          "input": "🎻🎋",
+          "reply": "🎋🎻"
+        },
+        {
+          "input": "🎋🎻",
+          "reply": "🎋🎻"
+        },
+        {
+          "input": "🐕🕠",
+          "reply": "🐕🕠"
+        },
+        {
+          "input": "🕠🐕",
+          "reply": "🐕🕠"
+        },
+        {
+          "input": "🫲🔫",
+          "reply": "🫲🔫"
+        },
+        {
+          "input": "🔫🫲",
+          "reply": "🫲🔫"
+        }
+      ]
+    },
+    "positioned": {
+      "updates": 200,
+      "training_seconds": 6.625,
+      "initial_reversed_logits_difference": 0.20950031280517578,
+      "exact_ordered_copies": 16,
+      "total": 16,
+      "held_out_exact": 1,
+      "held_out_total": 16,
+      "examples": [
+        {
+          "input": "🇦🇺✈️",
+          "reply": "🇦🇺✈️"
+        },
+        {
+          "input": "✈️🇦🇺",
+          "reply": "✈️🇦🇺"
+        },
+        {
+          "input": "4️⃣#️⃣",
+          "reply": "4️⃣#️⃣"
+        },
+        {
+          "input": "#️⃣4️⃣",
+          "reply": "#️⃣4️⃣"
+        },
+        {
+          "input": "🪢🎀",
+          "reply": "🪢🎀"
+        },
+        {
+          "input": "🎀🪢",
+          "reply": "🎀🪢"
+        },
+        {
+          "input": "🪟🌈",
+          "reply": "🪟🌈"
+        },
+        {
+          "input": "🌈🪟",
+          "reply": "🌈🪟"
+        },
+        {
+          "input": "🚎🛵",
+          "reply": "🚎🛵"
+        },
+        {
+          "input": "🛵🚎",
+          "reply": "🛵🚎"
+        },
+        {
+          "input": "🎻🎋",
+          "reply": "🎻🎋"
+        },
+        {
+          "input": "🎋🎻",
+          "reply": "🎋🎻"
+        },
+        {
+          "input": "🐕🕠",
+          "reply": "🐕🕠"
+        },
+        {
+          "input": "🕠🐕",
+          "reply": "🕠🐕"
+        },
+        {
+          "input": "🫲🔫",
+          "reply": "🫲🔫"
+        },
+        {
+          "input": "🔫🫲",
+          "reply": "🔫🫲"
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 14.21799999999348,
+  "promoted": false,
+  "limitation": "Identity/order copying and memorization only; not readable semantic roles, factual answering or general chat.",
+  "conclusion": "Position embeddings remove permutation invariance and permit memorizing both orders, but held-out paired copying is only 1/16. This establishes an architecture fix, not a general copying algorithm or chat improvement. No promotion."
+}

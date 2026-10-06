@@ -2,11 +2,22 @@ import unittest
 
 import torch
 
-from emoji_general_model import GeneralEncoder, compact
+from emoji_general_model import GeneralEncoder, anchored_states, compact
 from emoji_general_run import full_meanings, targets
+from emoji_grounded_model import MeaningLexicon
 
 
 class GeneralTests(unittest.TestCase):
+    def test_literal_input_does_not_promote_related_words_to_facts(self):
+        rows = [dict(core_meaning='hotel', associations=['stay']), dict(core_meaning='dog', associations=[])]
+        lexicon = MeaningLexicon(rows)
+        self.assertEqual(lexicon.anchors('Stay with the dog.', 8, literal_only=True), [1])
+
+    def test_literal_evidence_keeps_order_and_state_budget(self):
+        states = torch.tensor([[7, 7, 7, 7], [6, 6, 6, 6]])
+        anchors = torch.tensor([[2, 1, 2, -100], [-100, -100, -100, -100]])
+        self.assertEqual(anchored_states(states, anchors).tolist(), [[2, 1, 7, 7], [6, 6, 6, 6]])
+
     def test_catalog_includes_every_official_sequence_and_control_looking_emoji(self):
         rows, report = full_meanings()
         self.assertEqual(len(rows), report['official_symbols'])

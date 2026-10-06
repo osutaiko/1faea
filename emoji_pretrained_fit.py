@@ -10,8 +10,9 @@ from peft import get_peft_model_state_dict, set_peft_model_state_dict
 import torch
 from torch.nn import functional as F
 
-from emoji_general_model import GeneralEncoder
+from emoji_general_model import GeneralEncoder, anchored_states
 from emoji_general_run import targets
+from emoji_grounded_model import MeaningLexicon
 from emoji_pretrained_model import PretrainedReply, backbone
 from run import ROOT
 
@@ -57,11 +58,18 @@ def train(args):
                     values = data[key][start:start + 32]
                     destination.append(encoder(values, torch.ones(values.shape[:2], dtype=torch.bool))[2])
         prefix, labels = targets(torch.cat(answers), data['aanchors'], reply.end)
-        groups[split] = dict(states=torch.cat(states), prefix=prefix, labels=labels)
+        question_states = torch.cat(states)
+        if args.anchor_input:
+            lexicon = MeaningLexicon(checkpoint['meanings'])
+            literal = [lexicon.anchors(row['question'], question_states.shape[1], literal_only=True) for row in data['rows']]
+            anchors = torch.tensor([ids + [-100] * (question_states.shape[1] - len(ids)) for ids in literal])
+            question_states = anchored_states(question_states, anchors)
+        groups[split] = dict(states=question_states, prefix=prefix, labels=labels)
         torch.save(groups[split], path)
-    manifest = dict(source=source, encoder_checkpoint_sha256=hashlib.sha256((base / 'runtime.pt').read_bytes()).hexdigest(),
+    manifest = dict(decoder='pretrained-pointer-v1', source=source, encoder_checkpoint_sha256=hashlib.sha256((base / 'runtime.pt').read_bytes()).hexdigest(),
                     dataset=json.loads((base / 'dataset-report.json').read_text()),
-                    steps=args.steps, warmup_steps=args.warmup_steps, seed=719, runtime_english_answer_generation=False, generated_qa_labels=0)
+                    steps=args.steps, warmup_steps=args.warmup_steps, anchor_input=args.anchor_input,
+                    seed=719, runtime_english_answer_generation=False, generated_qa_labels=0)
     (output / 'manifest.json').write_text(json.dumps(manifest, indent=2))
     parameters = [parameter for parameter in reply.parameters() if parameter.requires_grad]
     optimizer = torch.optim.AdamW(parameters, lr=.0002)
@@ -107,7 +115,10 @@ def train(args):
     reply.load_state_dict(selected['heads'], strict=False)
     set_peft_model_state_dict(model, selected['lora'])
     test = evaluate(reply, groups['test'])
-    from emoji_pretrained_chat import answer
+    if args.anchor_input:
+        from emoji_anchored_chat import answer
+    else:
+        from emoji_pretrained_chat import answer
     from emoji_grounded_semantics import SemanticReader
     from emoji_grounded_eval import CASES, score
     semantic = SemanticReader(checkpoint['semantic_model']['model'], checkpoint['semantic_model']['revision'])
@@ -125,7 +136,8 @@ def train(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--name', default='pilot')
+    parser.add_argument('--name', default='copy-v1')
     parser.add_argument('--steps', type=int, default=300)
     parser.add_argument('--warmup-steps', type=int, default=0)
+    parser.add_argument('--anchor-input', action='store_true')
     train(parser.parse_args())

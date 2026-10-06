@@ -1,0 +1,103 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+  "vocabulary": 3972,
+  "constraint_backend": "Outlines with LLGuidance",
+  "maximum_symbols_per_stage": 4,
+  "trained": false,
+  "original_question_visible_to_second_call": false,
+  "cross_call_hidden_cache": false,
+  "runtime_english_answer_generation": false,
+  "json_is_transport_only": true,
+  "fixed_checks_passed": 1,
+  "fixed_checks_total": 6,
+  "general_chat_demonstrated": false,
+  "examples": [
+    {
+      "question": "Which animal meows?",
+      "state": "🐶",
+      "reply": "🐶",
+      "state_symbols": [
+        "🐶"
+      ],
+      "symbols": [
+        "🐶"
+      ],
+      "elapsed_seconds": 4.375,
+      "passed": false
+    },
+    {
+      "question": "Which animal barks?",
+      "state": "🐶",
+      "reply": "🐶",
+      "state_symbols": [
+        "🐶"
+      ],
+      "symbols": [
+        "🐶"
+      ],
+      "elapsed_seconds": 2.125,
+      "passed": true
+    },
+    {
+      "question": "What should I carry to stay dry in rain?",
+      "state": "💤🛠️💤🛠️",
+      "reply": "💤🛠️💤🛠️",
+      "state_symbols": [
+        "💤",
+        "🛠️",
+        "💤",
+        "🛠️"
+      ],
+      "symbols": [
+        "💤",
+        "🛠️",
+        "💤",
+        "🛠️"
+      ],
+      "elapsed_seconds": 6.079000000027008,
+      "passed": false
+    },
+    {
+      "question": "Which fruit is yellow and curved?",
+      "state": "🍎",
+      "reply": "🍎",
+      "state_symbols": [
+        "🍎"
+      ],
+      "symbols": [
+        "🍎"
+      ],
+      "elapsed_seconds": 2.625,
+      "passed": false
+    },
+    {
+      "question": "What do bees make?",
+      "state": "🌿",
+      "reply": "🌿",
+      "state_symbols": [
+        "🌿"
+      ],
+      "symbols": [
+        "🌿"
+      ],
+      "elapsed_seconds": 2.2959999999729916,
+      "passed": false
+    },
+    {
+      "question": "What planet do we live on?",
+      "state": "🌌",
+      "reply": "🌌",
+      "state_symbols": [
+        "🌌"
+      ],
+      "symbols": [
+        "🌌"
+      ],
+      "elapsed_seconds": 2.1570000000065193,
+      "passed": false
+    }
+  ],
+  "second_stage_repeats_state": 6,
+  "conclusion": "Two-call isolation and native Unicode constraints work. The cached 360M model passes 1/6 simple checks and repeats its intermediate states in all six cases. This does not demonstrate emoji reasoning or useful answering. No training or model promotion."
+}

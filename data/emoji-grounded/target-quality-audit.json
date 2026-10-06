@@ -1,0 +1,1262 @@
+{
+  "checkpoint_sha256": "e0983e1b25bb30035e52fc4517263f4f8209aa9b9d205d98375ddc2faa87999d",
+  "selected_step": 46500,
+  "evaluation_only": true,
+  "generated_qa_labels": 0,
+  "limitation": "Literal matches and target collisions are structural diagnostics, not semantic accuracy. No automated judge or new training labels.",
+  "splits": {
+    "train": {
+      "rows": 9016,
+      "target_lengths": {
+        "1": 1763,
+        "2": 1645,
+        "3": 1474,
+        "4": 1146,
+        "5": 915,
+        "6": 2073
+      },
+      "literal_ids_detected": 5404,
+      "literal_ids_retained": 5085,
+      "answers_with_more_than_six_literal_ids": 19,
+      "answers_without_exact_literal_matches": 5707,
+      "association_derived_anchor_ids": 14770,
+      "literal_first_symbol_rows": 1825,
+      "distinct_targets": 7693,
+      "shared_targets_for_distinct_answers": 432,
+      "most_common_shared_targets": [
+        {
+          "target": "🧵🥁",
+          "count": 55,
+          "examples": [
+            {
+              "id": "dolly-833",
+              "answer": "Cimbalom is string, Ikembe is percussion."
+            },
+            {
+              "id": "dolly-1035",
+              "answer": "Banhu is string, Maddale is percussion."
+            },
+            {
+              "id": "dolly-1060",
+              "answer": "Ninera is string, Conga is percussion."
+            }
+          ]
+        },
+        {
+          "target": "🔑",
+          "count": 33,
+          "examples": [
+            {
+              "id": "dolly-291",
+              "answer": "No"
+            },
+            {
+              "id": "dolly-2163",
+              "answer": "yes"
+            },
+            {
+              "id": "dolly-2389",
+              "answer": "20"
+            }
+          ]
+        },
+        {
+          "target": "🚗",
+          "count": 25,
+          "examples": [
+            {
+              "id": "dolly-1211",
+              "answer": "1. BMW\n2. Audi\n3. porsche"
+            },
+            {
+              "id": "dolly-1253",
+              "answer": "Differential, gearbox, and wheels are all parts of cars."
+            },
+            {
+              "id": "dolly-1504",
+              "answer": "1. Tesla\n2. Hyundai\n3. Volkswagon\n4. Chevrolet \n5. Nissan"
+            }
+          ]
+        },
+        {
+          "target": "🦸",
+          "count": 24,
+          "examples": [
+            {
+              "id": "dolly-253",
+              "answer": "Spectre is DC, Hulk is Marvel"
+            },
+            {
+              "id": "dolly-848",
+              "answer": "Superman and Stargirl is DC, Captain America is Marvel"
+            },
+            {
+              "id": "dolly-1037",
+              "answer": "Brainiac is DC, Ultron is Marvel"
+            }
+          ]
+        },
+        {
+          "target": "⚾",
+          "count": 22,
+          "examples": [
+            {
+              "id": "dolly-143",
+              "answer": "1. David Ortiz\n2. Ted Williams\n3. Babe Ruth\n4. Cy Young\n5. Pedro Martinez\n6. Johnny Pesky\n7. Carl Yazstrzemski \n8. Carlton Fisk\n9. Joe Cronin\n10. Mookie Betts"
+            },
+            {
+              "id": "dolly-167",
+              "answer": "The best professional sports teams based in California are the Los Angeles Dodgers, the Golden State Warriors, and the San Francisco 49ers."
+            },
+            {
+              "id": "dolly-287",
+              "answer": "The professional baseball teams in the state of Florida are the Tampa Bay Rays and Miami Marlins."
+            }
+          ]
+        },
+        {
+          "target": "🧵🎻",
+          "count": 21,
+          "examples": [
+            {
+              "id": "dolly-90",
+              "answer": "Viola toeria is string, Samphor is percussion."
+            },
+            {
+              "id": "dolly-2411",
+              "answer": "Masenqo is string, Celesta is percussion."
+            },
+            {
+              "id": "dolly-3366",
+              "answer": "Erxian is string, Alfaia is percussion."
+            }
+          ]
+        },
+        {
+          "target": "🐟",
+          "count": 20,
+          "examples": [
+            {
+              "id": "dolly-591",
+              "answer": "Albacore Tuna is alive, Purussaurus is extinct."
+            },
+            {
+              "id": "dolly-804",
+              "answer": "Kingfisher"
+            },
+            {
+              "id": "dolly-1603",
+              "answer": "fish tanks"
+            }
+          ]
+        },
+        {
+          "target": "🏫",
+          "count": 18,
+          "examples": [
+            {
+              "id": "dolly-363",
+              "answer": "10th Grade: High School\n3rd Grade: Elementary School\n4th Grade: Elementary School\n12th Grade: High School\n1st Grade: Elementary School"
+            },
+            {
+              "id": "dolly-1497",
+              "answer": "Harvard University, Cornell University, Amherst College, and Colby College are private universities. The rest of the schools you mentioned are public universities."
+            },
+            {
+              "id": "dolly-2251",
+              "answer": "The United States of America"
+            }
+          ]
+        },
+        {
+          "target": "🏟️",
+          "count": 17,
+          "examples": [
+            {
+              "id": "dolly-334",
+              "answer": "Austin, Houston, Dallas"
+            },
+            {
+              "id": "dolly-494",
+              "answer": "Seattle"
+            },
+            {
+              "id": "dolly-1489",
+              "answer": "New Orleans Saints and New York Jets"
+            }
+          ]
+        },
+        {
+          "target": "🏙️",
+          "count": 15,
+          "examples": [
+            {
+              "id": "dolly-792",
+              "answer": "Detroit."
+            },
+            {
+              "id": "dolly-2303",
+              "answer": "European: Milan, Paris, London\nAmerican: New York, Chicago, San Francisco"
+            },
+            {
+              "id": "dolly-5347",
+              "answer": "Paris, London, Rome, Venice, Madrid, Barcelona, Positano, Amalfi, Naples, Athens"
+            }
+          ]
+        }
+      ],
+      "seeded_examples": [
+        {
+          "id": "dolly-7651",
+          "question": "Classify each of the following as either caloric or low-fat products: butter, turnips, oils, salad dressings, spinach, sugar, water, nuts, seeds, dry bread, zucchini, strawberries, dry cereal, crackers, tomatoes, egg yolk, avocado, dried fruit, ananas, red meat, pizza, salmon, ketchup, watermelon",
+          "english_answer": "yes, no, yes, yes, no, yes, no, yes, yes, yes, no, no, yes, yes, no, yes, yes, yes, no, yes, yes, yes, yes, no",
+          "target": "🆗💡",
+          "target_core_meanings": [
+            "OK button",
+            "light bulb"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-3129",
+          "question": "What is the tallest structure in the Western Hemisphere?",
+          "english_answer": "The CN Tower in Toronto, Ontario, Canada is the tallest free-standing structure in the Western Hemisphere. It was completed in 1976, and was the tallest structure in the world from 1975 until 2007, when it was surpassed by the Burj Khalifa.",
+          "target": "🇨🇦🦴🌎☑️🗼",
+          "target_core_meanings": [
+            "flag: Canada",
+            "bone",
+            "globe showing Americas",
+            "check box with check",
+            "Tokyo tower"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-5085",
+          "question": "Can kitesurfers sail up against the wind?",
+          "english_answer": "Yes, kitesurfers can sail up against the wind by edging their surfboard upwind at a slight angle relative to 90 degrees crosswind. Depending on the equipment and skill, kitesurfers can generally achieve an upwind angle of ~20 degrees.",
+          "target": "🆚🪁",
+          "target_core_meanings": [
+            "VS button",
+            "kite"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-14116",
+          "question": "Write a letter to your friend expressing your feelings about earning your first wage.",
+          "english_answer": "Dear Cooper, \nI hope you have been in good health since we last spoke. I'm excited to inform you that I've just finished my first month of employment with AMG Auto Motors and received my first pay check. The amazing feeling of being paid for my hard work is truly surreal. I feel fortunate to have found a job that pays well for doing something I genuinely enjoy. I hope to save enough money now to buy a car to plan a trip together.\nBest regard, \nSimon.",
+          "target": "⌛🔝✅🈶🪨💽",
+          "target_core_meanings": [
+            "hourglass done",
+            "TOP arrow",
+            "check mark button",
+            "Japanese “not free of charge” button",
+            "rock",
+            "computer disk"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-7780",
+          "question": "Provide a dot point list of the last six artists that won a Grammy Award for Best Album. Include the title of the album and the year they won.",
+          "english_answer": "Here is a list of the last six artists that won a Grammy Award for Best Album.\n- Harry Styles won for the album 'Harry's House' in 2023        \n- Jon Batiste won for the album 'We Are' in 2022     \n- Taylor Swift won for 'Folklore' in 2021    \n- Billie Eilish won for 'When We All Fall Asleep, Where Do We Go?' in 2020       \n- Kacey Musgraves won for the album 'Golden Hour' in 2019        \n- Bruno Mars won for '24K Magic' in 2018",
+          "target": "6️⃣🏠🧌🍁😴♂️",
+          "target_core_meanings": [
+            "keycap: 6",
+            "house",
+            "troll",
+            "maple leaf",
+            "sleeping face",
+            "male sign"
+          ],
+          "literal_symbols": [
+            "🏠"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-11722",
+          "question": "Our War (Italian: La nostra guerra) is a 2016 Italian-American documentary film directed by Bruno Chiaravalloti, Claudio Jampaglia and Benedetta Argentieri. It premiered out of competition at the 73rd edition of the Venice Film Festival. It tells the story of three foreign fighters joining the Kurdish forces to fight Deash.\n\nGiven the following paragraph about a film, who directed \"Our War\"?",
+          "english_answer": "Bruno Chiaravalloti",
+          "target": "🥻",
+          "target_core_meanings": [
+            "sari"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-9191",
+          "question": "What are some tools to help combat ADD and ADHD?",
+          "english_answer": "Daily exercise, getting sufficient sleep, reducing sugar, meditation, creating lists, color coding files, using highlighters for reading",
+          "target": "🪥🍬💄⌨️📑🔖",
+          "target_core_meanings": [
+            "toothbrush",
+            "candy",
+            "lipstick",
+            "keyboard",
+            "bookmark tabs",
+            "bookmark"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-11772",
+          "question": "which of these words do not belong in the same category? peel, organic, fruit, yellow, mushy, crunchy.",
+          "english_answer": "Only crunchy does not belong in this category. This is because all these words describe a banana. However a banana and crunchy do not go together because a banana is mushy.",
+          "target": "🍌💕🐈",
+          "target_core_meanings": [
+            "banana",
+            "two hearts",
+            "cat"
+          ],
+          "literal_symbols": [
+            "🍌"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "226402b94daf5af3b90e50b830244f7adffd9ad07e37320be8a5b84430a6ff9a",
+          "question": "Write a tweet (maximum 280 characters) about your favorite way to handle procrastination, including any tips or tricks you've found effective. Bonus points for using humor or a catchy tone!",
+          "english_answer": "\"Procrastination may be my middle name, but I've found that breaking tasks into bite-sized pieces and setting mini-deadlines helps me stay on task. Plus, nothing motivates me quite like the looming panic of an impending deadline. #justdoit #procrastinationnation\"",
+          "target": "🥟🏨➕🎗️#️⃣",
+          "target_core_meanings": [
+            "dumpling",
+            "hotel",
+            "plus",
+            "reminder ribbon",
+            "keycap: #"
+          ],
+          "literal_symbols": [
+            "➕"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "0279e8e683d1883aa720317797b732606bf0f48663d1aa62e7e3236dcaeec402",
+          "question": "Make a list of the 10 most innovative companies of the last decade.",
+          "english_answer": "1. Apple \n2. Tesla \n3. Amazon \n4. Google \n5. Facebook \n6. Netflix \n7. Airbnb \n8. SpaceX \n9. Uber \n10. Alibaba",
+          "target": "☁️",
+          "target_core_meanings": [
+            "cloud"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-14315",
+          "question": "Give me a list of best movie review websites.",
+          "english_answer": "Here are the list of some popular movie review websites.\n1. Guardian\n2. Rotten Tomatoes\n3. Yahoo Movies\n4. IMDB\n5. Meta Critic",
+          "target": "🍿🎦",
+          "target_core_meanings": [
+            "popcorn",
+            "cinema"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-9612",
+          "question": "What is a birdie in Golf",
+          "english_answer": "Each hole in Golf is designated with the number of strokes it would take an expert to make to the hole. If the golfer makes it in the designated strokes it is called a Par. One stroke less than the designated will result in a Birdie. Example , for a Par 4 hole if a Golfer takes 3 strokes to get the ball in the hole , he has a Birdie.",
+          "target": "🕳️1️⃣🏌️",
+          "target_core_meanings": [
+            "hole",
+            "keycap: 1",
+            "person golfing"
+          ],
+          "literal_symbols": [
+            "🕳️"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-11337",
+          "question": "What is Spot rate in finance?",
+          "english_answer": "This is the exchange rate for foreign−exchange transactions which are being done straightaway.",
+          "target": "💱",
+          "target_core_meanings": [
+            "currency exchange"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-7042",
+          "question": "Nnedimma Nkemdili Okorafor was born in Cincinnati, Ohio, in 1974 to Igbo Nigerian parents who travelled to America in 1969 to attend school but purportedly could not return to Nigeria due to the Nigerian Civil War. Okorafor is the third child in a family of four children and grew up in Chicago, Illinois, and would often travel to Nigeria to spend her holidays with her extended family. Her first name is Igbo for \"mother is good\".\n\nIs Nnedi Okorafor an American?",
+          "english_answer": "Yes, Nnedi Okorafor is an America, of Nigerian origin.",
+          "target": "🇳🇬",
+          "target_core_meanings": [
+            "flag: Nigeria"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-6928",
+          "question": "Which of the following are countries? Pakistan, Azerbaijan, Hodor, Chicago, St. Louis, Michael, Jordan, Minecraft, Ninja, Teletubbies, Fortnite, Lesotho, Greece",
+          "english_answer": "Pakistan, Azerbaijan, Jordan, Lesotho, and Greece",
+          "target": "🇦🇿🇯🇴🇱🇸🇬🇷🌍",
+          "target_core_meanings": [
+            "flag: Azerbaijan",
+            "flag: Jordan",
+            "flag: Lesotho",
+            "flag: Greece",
+            "globe showing Europe-Africa"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-5744",
+          "question": "Can you paint watercolor styled painting with acrylics?",
+          "english_answer": "Yes, you can! The idea is to dilute your paint as much as possible to get the water transparency of watercolor. The process might take a bit of challenge as the opacity of acrylic paint is very thick, but with time and experience, it is possible. The best thing is to combine this watercolor effect with other streak using the opacity of acrylic paint to give multiple effect to your painting, such as finishing details and specks of paint on the last layers.",
+          "target": "🌠ℹ️🧅🖌️",
+          "target_core_meanings": [
+            "shooting star",
+            "information",
+            "onion",
+            "paintbrush"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-716",
+          "question": "Where do bears live?",
+          "english_answer": "Bears are native to every continent on earth besides Antarctica. Polar bears live in the Arctic, black bears live in North America and Asia, brown bears live in North America, Asia, and Europe, and Panda bears live in Asia.",
+          "target": "🇦🇶🐻‍❄️🇺🇸🐼",
+          "target_core_meanings": [
+            "flag: Antarctica",
+            "polar bear",
+            "flag: United States",
+            "panda"
+          ],
+          "literal_symbols": [
+            "🐼"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-10302",
+          "question": "Ramón Pileta (born March 20, 1977) is a Honduran judoka. He competed at the 2016 Summer Olympics in the men's +100 kg event, in which he was eliminated in the first round by Rafael Silva.\n\nDid Ramon Pileta compete in the Olympics",
+          "english_answer": "Ramon Pileta (born March 20, 1977) is a Honduran judoka. He competed at the 2016 Summer Olympics in the men's +100 kg event, in which he was eliminated in the first round by Rafael Silva.",
+          "target": "💯🔝💩🥷🤼🏅",
+          "target_core_meanings": [
+            "hundred points",
+            "TOP arrow",
+            "pile of poo",
+            "ninja",
+            "people wrestling",
+            "sports medal"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-10343",
+          "question": "What are the unique characteristics of the Jindo dog breed?",
+          "english_answer": "The Jindo breed of dog is indigenous to the island of Jindo off the Southern coast of South Korea. They are typically between 30 and 50 pounds fully grown and vary from a white to a golden brown color. Listed as of the living natural treasures of South Korea, they are known for being intelligent, loyal, and having a keen ability to find their way home.",
+          "target": "🐩🐕🇰🇷🪨🔍🦮",
+          "target_core_meanings": [
+            "poodle",
+            "dog",
+            "flag: South Korea",
+            "rock",
+            "magnifying glass tilted left",
+            "guide dog"
+          ],
+          "literal_symbols": [
+            "🐕"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-5519",
+          "question": "top mobile Brands",
+          "english_answer": "Apple\nSamsung\nOneplus\nRedmi\nMotorola\nHuawei\nVivo",
+          "target": "📱",
+          "target_core_meanings": [
+            "mobile phone"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        }
+      ],
+      "dataset_features_sha256": "29aac32154ffdd94c68ce67be9727a3c089d8b8c850f542144c41e144421c337"
+    },
+    "validation": {
+      "rows": 100,
+      "target_lengths": {
+        "1": 19,
+        "2": 19,
+        "3": 15,
+        "4": 17,
+        "5": 6,
+        "6": 24
+      },
+      "literal_ids_detected": 64,
+      "literal_ids_retained": 60,
+      "answers_with_more_than_six_literal_ids": 0,
+      "answers_without_exact_literal_matches": 61,
+      "association_derived_anchor_ids": 182,
+      "literal_first_symbol_rows": 22,
+      "distinct_targets": 99,
+      "shared_targets_for_distinct_answers": 1,
+      "most_common_shared_targets": [
+        {
+          "target": "🇨🇦",
+          "count": 2,
+          "examples": [
+            {
+              "id": "dolly-11923",
+              "answer": "Canada - Justin Trudeau, Paul Martin\nFrance - Élisabeth Borne, Bernard Cazeneuve"
+            },
+            {
+              "id": "dolly-4777",
+              "answer": "They all border Canada with the exception of Wyoming."
+            }
+          ]
+        }
+      ],
+      "seeded_examples": [
+        {
+          "id": "dolly-9905",
+          "question": "Tell me which of the following numbers are whole numbers and which are integers: -9, -8, -7, -6, -5, -4, −3, −2, −1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9",
+          "english_answer": "Whole numbers include all positive numbers and 0: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9\nIntegers are numbers that include positive and negative numbers and 0: -9, -8, -7, -6, -5, -4, −3, −2, −1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9\n\nWhole numbers are a subset of Integers.",
+          "target": "➖🔢",
+          "target_core_meanings": [
+            "minus",
+            "input numbers"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-5222",
+          "question": "Tell me about the junk mail circle of life",
+          "english_answer": "Companies send mailers to every home in a certain vicinity/zip code. The post office delivers the junk mail to your mailbox. You get your mail and place the junk mail in the garbage. You take your garbage out for collection. The garbage people throw the junk mail into the dumpster. The end.",
+          "target": "📧🏤🈁🗑️📭⏹️",
+          "target_core_meanings": [
+            "e-mail",
+            "post office",
+            "Japanese “here” button",
+            "wastebasket",
+            "open mailbox with lowered flag",
+            "stop button"
+          ],
+          "literal_symbols": [
+            "🏤"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-12064",
+          "question": "What is Detroit style pizza?",
+          "english_answer": "Detroit pizza is cooked in a square or rectangular pan made from steel or aluminum. The dough is thicker than a typical round pizza but is more airy. An oiled pan provides a nice, crispy dough. Caramelized cheese around the edges of the pizza is one of Detroit pizza’s key features. The pizza sauce is often applied on top of the cheese layer with this style of pizza.",
+          "target": "🍕🫓1️⃣🔑🔝",
+          "target_core_meanings": [
+            "pizza",
+            "flatbread",
+            "keycap: 1",
+            "key",
+            "TOP arrow"
+          ],
+          "literal_symbols": [
+            "🍕",
+            "🔑"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-14760",
+          "question": "My refrigerator broke for six days while I was on vacation. Which of the following foods would be still safe to eat unrefrigerated for that long: raw chicken, a jar of olives, hard cheese, milk, and fruit jelly.",
+          "english_answer": "Olives, hard cheese, and fruit jelly are not likely to spoil unrefrigerated for a couple of days. However, raw chicken and milk would be unsafe to eat.",
+          "target": "🪨🍕🐔🚱🥫",
+          "target_core_meanings": [
+            "rock",
+            "pizza",
+            "chicken",
+            "non-potable water",
+            "canned food"
+          ],
+          "literal_symbols": [
+            "🐔"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-10123",
+          "question": "Who invented SQL?",
+          "english_answer": "SQL was invented by Don Chamberlain at IBM early in the 1970s. It was originally named SEQUEL, which is why to this day, SQL is generally pronounced as \"sequel\".",
+          "target": "⌨️🔠↕️",
+          "target_core_meanings": [
+            "keyboard",
+            "input latin uppercase",
+            "up-down arrow"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-7562",
+          "question": "What is the Canada's national sport?",
+          "english_answer": "There are two national sports in Canada. Lacrosse was the only national sport from 1859 - 1994. However, in 1994 parliament passed Canada's National Sport Act, which made lacrosse the national summer sport and ice hockey the national winter sport.",
+          "target": "2️⃣🇨🇦🥍🏒",
+          "target_core_meanings": [
+            "keycap: 2",
+            "flag: Canada",
+            "lacrosse",
+            "ice hockey"
+          ],
+          "literal_symbols": [
+            "🥍",
+            "🏒"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-5620",
+          "question": "what are the benefits of swimming?",
+          "english_answer": "Swimming is a gravity-free, full-body cardio workout; swimmers can determine the intensity of the workout on their own with different exercise strategies. Swimming can improve your cardio level, get better heart-blood circulation, and have stronger lungs. Like any other sport or exercises, swimming also reduces stress, boosts mood, and helps with sleep quality. If you swim fast pace sprints, it can build muscles. On the other hand, if you swim steady-paced, long laps, it improves endurance and reduces your resting heart rate with practice.",
+          "target": "🈵🫁♉🥖😣🏊",
+          "target_core_meanings": [
+            "Japanese “no vacancy” button",
+            "lungs",
+            "Taurus",
+            "baguette bread",
+            "persevering face",
+            "person swimming"
+          ],
+          "literal_symbols": [
+            "🫁"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-4861",
+          "question": "What is the holiday of Passover about?",
+          "english_answer": "Passover is a Jewish holiday which commemorates the events of the book of Exodus, when Israelites fled oppression in Ancient Egypt",
+          "target": "✡️🕍🇪🇬🇮🇱",
+          "target_core_meanings": [
+            "star of David",
+            "synagogue",
+            "flag: Egypt",
+            "flag: Israel"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-14997",
+          "question": "Who won the World Chess Championship in 2021?",
+          "english_answer": "Magnus Carlsen defeated Ian Nepomniachtchi 7.5 - 3.5 to become the 2021 World Chess Champion.",
+          "target": "♟️",
+          "target_core_meanings": [
+            "chess pawn"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-4276",
+          "question": "How long is a professional football field.",
+          "english_answer": "A professional football field is 100 yards long.",
+          "target": "💯🥖",
+          "target_core_meanings": [
+            "hundred points",
+            "baguette bread"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-13578",
+          "question": "A Manhattan is a cocktail made with whiskey, sweet vermouth, and bitters. While rye is the traditional whiskey of choice, other commonly used whiskies include Canadian whisky, bourbon, blended whiskey, and Tennessee whiskey. The cocktail is usually stirred then strained into a cocktail glass and garnished traditionally with a maraschino cherry. A Manhattan may also be served on the rocks in a lowball glass.\n\nExtract the ingredients in a Manhattan cocktail from this text and present them in a bulleted list.",
+          "english_answer": "The ingredients in a Manhattan cocktail are:\n- whiskey (rye, Canadian, bourbon, blended, Tennessee)\n- sweet vermouth\n- bitters\n- maraschino cherry (garnish)",
+          "target": "🍸🥃🍥",
+          "target_core_meanings": [
+            "cocktail glass",
+            "tumbler glass",
+            "fish cake with swirl"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-905",
+          "question": "What is the Shiba Inu (crypto)?",
+          "english_answer": "Shiba Inu token (ticker: SHIB) is a decentralized cryptocurrency created in August 2020 by an anonymous person or group known as \"Ryoshi\". It is named after the Shiba Inu (柴犬), a Japanese breed of dog originating in the Chūbu region, the same breed that is depicted in Dogecoin's symbol, itself originally a satirical cryptocurrency based on the Doge meme. Shiba Inu has been characterized as a \"meme coin\" and a pump-and-dump scheme.",
+          "target": "👥🐩🐕🟰🪙🐶",
+          "target_core_meanings": [
+            "busts in silhouette",
+            "poodle",
+            "dog",
+            "heavy equals sign",
+            "coin",
+            "dog face"
+          ],
+          "literal_symbols": [
+            "🐕",
+            "🪙"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-9346",
+          "question": "What is Microfinance?",
+          "english_answer": "Microfinance refers to the financial services provided to low-income individuals or groups who are typically excluded from traditional banking. Most microfinance institutions focus on offering credit in the form of small working capital loans, sometimes called microloans or microcredit.",
+          "target": "🔈💱🈸🏦🦠",
+          "target_core_meanings": [
+            "speaker low volume",
+            "currency exchange",
+            "Japanese “application” button",
+            "bank",
+            "microbe"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-4448",
+          "question": "Identify which instrument is string or percussion: Wind machine, Langeleik",
+          "english_answer": "Langeleik is string, Wind machine is percussion.",
+          "target": "🧵🥁",
+          "target_core_meanings": [
+            "thread",
+            "drum"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-12988",
+          "question": "Categorize these modes of transportation into \"would use to go across continents\" \"would use for daily commuting\" \"would use for fun\": car, bicycle, boat, airplane, dune buggy, skateboard, rv, truck, sled, train",
+          "english_answer": "Would use to go across continents: airplane, car, truck, train, boat\nWould use for daily commuting:car, truck, train, bicycle, skateboard, boat\nWould use for fun: sled, rv, dune buggy, sled, skateboard, bicycle, car, truck, boat",
+          "target": "✈️🚗🛻🚆🪥🛵",
+          "target_core_meanings": [
+            "airplane",
+            "automobile",
+            "pickup truck",
+            "train",
+            "toothbrush",
+            "motor scooter"
+          ],
+          "literal_symbols": [
+            "✈️",
+            "🚆",
+            "🚲",
+            "🛹",
+            "🛷"
+          ],
+          "omitted_literal_symbols": [
+            "🚲",
+            "🛹",
+            "🛷"
+          ]
+        },
+        {
+          "id": "dolly-13098",
+          "question": "The Association of Baptist Churches in Ireland (ABC, ABCi and ABCI) is a Baptist Christian denomination based in Ireland. It is a group of 117 autonomous Baptist churches working together in fellowship and evangelism, training and caring ministries. The association only acts on behalf of the churches for the work which the churches have agreed to do together.\n\nBased on this paragraph, how many churches are in the The Association of Baptist Churches in Ireland?",
+          "english_answer": "117",
+          "target": "💯",
+          "target_core_meanings": [
+            "hundred points"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-4492",
+          "question": "What was the Rolling Stones first no 1 hit",
+          "english_answer": "Its all over now",
+          "target": "🤞",
+          "target_core_meanings": [
+            "crossed fingers"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-3071",
+          "question": "Give me a bulleted list of the top five most followed Instagram profiles.",
+          "english_answer": "1. @Instagram\n2. @Cristiano\n3. @leomessi\n4. @selenagomez\n5. @kyliejenner",
+          "target": "3️⃣♌5️⃣",
+          "target_core_meanings": [
+            "keycap: 3",
+            "Leo",
+            "keycap: 5"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-10552",
+          "question": "How do you play an E major chord on a guitar?",
+          "english_answer": "There are many ways to play an E major chord, which includes the notes E, G sharp, and B. The most common variation is played by putting your middle finger on the 2nd fret of the A string, your ring finger on the 2nd fret of the D string, and your index finger on the first fret of the G string. Ensure that the Low E, B, and High E strings are not muted, and strum all 6 strings.",
+          "target": "🖕🧵💍🔝🔈▶️",
+          "target_core_meanings": [
+            "middle finger",
+            "thread",
+            "ring",
+            "TOP arrow",
+            "speaker low volume",
+            "play button"
+          ],
+          "literal_symbols": [
+            "🖕",
+            "💍"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-4144",
+          "question": "If you were a vegetable, what vegetable would you be?",
+          "english_answer": "Only vegetables are vegetables. Computers are not vegetables. Algorithms are not vegetables. Vegetables are healthy and delicious. They are nutritious and full of vitamins. It is possible to use your imagination to consider what kind of vegetable you would like to be. If I was a vegetable, because I am named after a sheep, I would like to be a vegetable that sheep enjoy eating. Sheep enjoy eating winter squash, so I would like to be a winter squash if I had to choose a vegetable to be.",
+          "target": "🥗😋🈵💭🍴🫜",
+          "target_core_meanings": [
+            "green salad",
+            "face savoring food",
+            "Japanese “no vacancy” button",
+            "thought balloon",
+            "fork and knife",
+            "root vegetable"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        }
+      ],
+      "dataset_features_sha256": "149f7aa3766879a5ac5779ba3a2d13e1ec7dae7d19d4ba74ba2cdaf3ce412f1f"
+    },
+    "test": {
+      "rows": 100,
+      "target_lengths": {
+        "1": 21,
+        "2": 17,
+        "3": 8,
+        "4": 16,
+        "5": 8,
+        "6": 30
+      },
+      "literal_ids_detected": 79,
+      "literal_ids_retained": 74,
+      "answers_with_more_than_six_literal_ids": 0,
+      "answers_without_exact_literal_matches": 58,
+      "association_derived_anchor_ids": 152,
+      "literal_first_symbol_rows": 22,
+      "distinct_targets": 99,
+      "shared_targets_for_distinct_answers": 1,
+      "most_common_shared_targets": [
+        {
+          "target": "🎓",
+          "count": 2,
+          "examples": [
+            {
+              "id": "dolly-5793",
+              "answer": "The University of Virginia was founded in 1819."
+            },
+            {
+              "id": "dolly-2820",
+              "answer": "A Bachelors degree is earned before commencing grad school"
+            }
+          ]
+        }
+      ],
+      "seeded_examples": [
+        {
+          "id": "dolly-4016",
+          "question": "Which is a disease? Asthma, Depression, Cancer, AIDS, Schizophrenia, Tuberculosis, PTSD",
+          "english_answer": "According to wikipedia, a disease is an abnormal condition affecting the body of an organism and a disorder is a functional abnormality or disturbance.\nBased on the above list the following are diseases: Asthma, Cancer, AIDS, Tuberculosis.",
+          "target": "♋",
+          "target_core_meanings": [
+            "Cancer"
+          ],
+          "literal_symbols": [
+            "♋"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-5603",
+          "question": "What is Delphi?",
+          "english_answer": "Delphi is a general-purpose programming language and a software product that uses the Delphi dialect of the Object Pascal programming language and provides an integrated development environment (IDE) for rapid application development of desktop, mobile, web, and console software, currently developed and maintained by Embarcadero Technologies.",
+          "target": "✖️🚧🎮🆑",
+          "target_core_meanings": [
+            "multiply",
+            "construction",
+            "video game",
+            "CL button"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-2",
+          "question": "Why can camels survive for long without water?",
+          "english_answer": "Camels use the fat in their humps to keep them filled with energy and hydration for long periods of time.",
+          "target": "🐪🚰🥖🐫",
+          "target_core_meanings": [
+            "camel",
+            "potable water",
+            "baguette bread",
+            "two-hump camel"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-12298",
+          "question": "Solitary bees, such as leafcutters, do not form colonies. Unlike social insects (ants, yellow jackets, honeybees), leafcutters work alone building isolated nests. Similar to honeybees, female bees perform nearly all essential tasks of brood rearing. These native insects perform essential tasks, pollinating wild plants. The alfalfa leaf cutter bee (Megachile rotundata), native to Europe, has been semi-domesticated for crop pollination. In North America, the species was deliberately imported to assist in the pollination of food crops, but has now become feral and widespread.\n\nAre leafcutters solitary or social insects?",
+          "english_answer": "solitary",
+          "target": "🔒",
+          "target_core_meanings": [
+            "locked"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-5045",
+          "question": "Which is a species of fish? Trout or Bear",
+          "english_answer": "Trout",
+          "target": "🐟",
+          "target_core_meanings": [
+            "fish"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-814",
+          "question": "Classify each of the following as a city or country: Bangkok, India, London, Mexico.",
+          "english_answer": "Bangkok - City, India - Country, London- City, Mexico- Country",
+          "target": "🚈🇮🇳🇲🇽🇹🇭",
+          "target_core_meanings": [
+            "light rail",
+            "flag: India",
+            "flag: Mexico",
+            "flag: Thailand"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-3325",
+          "question": "Where is the band Portugal. The Man originally from?",
+          "english_answer": "The band members are originally from Wasilla, Alaska",
+          "target": "⚗️",
+          "target_core_meanings": [
+            "alembic"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-8593",
+          "question": "Tell me some common options for losing weight",
+          "english_answer": "Eat less, reduce carb intake, increase protein intake, do steady-state cardio, do HIIT, lift weights, take supplements.",
+          "target": "🫘♉⏬⏫🏋️‍♀️",
+          "target_core_meanings": [
+            "beans",
+            "Taurus",
+            "fast down button",
+            "fast up button",
+            "woman lifting weights"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-11294",
+          "question": "Who explored New World?",
+          "english_answer": "Christopher Columbus",
+          "target": "🧑‍🚀",
+          "target_core_meanings": [
+            "astronaut"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-14977",
+          "question": "What is a world war and how many world wars have happened so far?",
+          "english_answer": "World war is an international conflict that involves most major countries. There have been 2 world wars so far.",
+          "target": "🗺️",
+          "target_core_meanings": [
+            "world map"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-12662",
+          "question": "Identify which animal species is alive or extinct: Vaquita, Daeodon",
+          "english_answer": "Daeodon is extinct, Vaquita is alive.",
+          "target": "🫍",
+          "target_core_meanings": [
+            "orca"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-12239",
+          "question": "What are some silly things to drink out of instead of a cup?",
+          "english_answer": "Things you could drink from that aren't cups could include a hummingbird feeder, a syrup container, a (plastic lined) mini piñata, an erlenmeyer flask, a water gun, an empty medicine bottle, a plant vase or pot, or a watering can.",
+          "target": "🪅🪴🥤🧃",
+          "target_core_meanings": [
+            "piñata",
+            "potted plant",
+            "cup with straw",
+            "beverage box"
+          ],
+          "literal_symbols": [
+            "🪅"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-582",
+          "question": "Why do some people select private schools over public schools?",
+          "english_answer": "Some of the typical reasons people select private schools over public schools are\n1. They can afford private school and believe they can get marginal advantages\n2. Private schools offer a smaller student to teacher ratio\n3. Private schools have connections to some of the niche colleges \n4. The curriculum is usually ahead of the public school for the same grade.",
+          "target": "🧑‍🎓🧑‍🏫🟰🏫",
+          "target_core_meanings": [
+            "student",
+            "teacher",
+            "heavy equals sign",
+            "school"
+          ],
+          "literal_symbols": [
+            "🧑‍🎓",
+            "🧑‍🏫"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-5793",
+          "question": "The University of Virginia (UVA) is a public research university in Charlottesville, Virginia. It was founded in 1819 by Thomas Jefferson. Set within the Academical Village, a UNESCO World Heritage Site, the university is referred to as a \"Public Ivy\" for offering an academic experience similar to that of an Ivy League university. It is known in part for certain rare characteristics among public universities such as its historic foundations, student-run honor code, and secret societies.\n\nAccording to this paragraph, when was the university of virginia founded?",
+          "english_answer": "The University of Virginia was founded in 1819.",
+          "target": "🎓",
+          "target_core_meanings": [
+            "graduation cap"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "2024d0d91a9d3ea466c69e1b1dbfc52057c613e27ebe54ec05b8a50c951e352b",
+          "question": "What is a dish that this sauce can be used on, and do you have any recommendations for serving it?: In a small saucepan, heat packed brown sugar and butter until butter melts. Carefully add light-colored corn syrup and half-and-half or light cream. Cook, stirring constantly, over medium-low heat for 1 to 2 minutes or until sugar is dissolved and mixture is smooth.\nMy family loves this bread pudding and it is a hit where ever I take it.",
+          "english_answer": "This sauce would pair perfectly with bread pudding! I recommend serving the sauce warm on top of individual servings of bread pudding, along with a scoop of ice cream for a decadent dessert. You could also try using the sauce as a topping for pancakes or waffles, or as a dipping sauce for fresh fruit or cookies. Yum!",
+          "target": "🍞🍮🔝🍨🥞😋",
+          "target_core_meanings": [
+            "bread",
+            "custard",
+            "TOP arrow",
+            "ice cream",
+            "pancakes",
+            "face savoring food"
+          ],
+          "literal_symbols": [
+            "🍞",
+            "🍨",
+            "🥞"
+          ],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-6205",
+          "question": "The Flex Computer System was developed by Michael Foster and Ian Currie of Royal Signals and Radar Establishment in Malvern, England, during the late 1970s and 1980s. It used a tagged storage scheme to implement a capability architecture, and was designed for the safe and efficient implementation of strongly typed procedures.\n\nGiven this reference text about the Flex Computer System, why was it created?",
+          "english_answer": "It was designed for the safe and efficient implementation of strongly typed procedures.",
+          "target": "🧷🔣",
+          "target_core_meanings": [
+            "safety pin",
+            "input symbols"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-10249",
+          "question": "Help plan a first date in San Francisco",
+          "english_answer": "You could start a first date by heading to a local bar - depending on where you live in the city of San Francisco, you might choose a different bar. For example, if you live in the Russian Hill area, you could go to a bar called Bar Iris. Subsequently, you could choose to go to other nearby restaurants or bars as well.",
+          "target": "🔛🔝🍸🚈📊1️⃣",
+          "target_core_meanings": [
+            "ON! arrow",
+            "TOP arrow",
+            "cocktail glass",
+            "light rail",
+            "bar chart",
+            "keycap: 1"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-5337",
+          "question": "What high school did Paul Allen and Bill Gates attend?",
+          "english_answer": "Lakeside High School in Seattle Washington",
+          "target": "🏫",
+          "target_core_meanings": [
+            "school"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        },
+        {
+          "id": "dolly-11292",
+          "question": "Classify each instrument as a woodwind, string, brass, or percussion: trumpet, violin, oboe, french horn, bassoon, cymbal, cello, clarinet, trombone, triangle, piccolo, flute, harp, tuba, snare drum",
+          "english_answer": "A violin, cello, and harp are classified as a string instrument. An oboe, bassoon, clarinet, piccolo, and flute are classified as a woodwind instrument. A trumpet, french horn, trombone, and tuba are classified as a brass instrument. A triangle, cymbal, and snare drum are classified as a percussion instrument.",
+          "target": "🎻🪉㊙️🧵🪈🎺",
+          "target_core_meanings": [
+            "violin",
+            "harp",
+            "Japanese “secret” button",
+            "thread",
+            "flute",
+            "trumpet"
+          ],
+          "literal_symbols": [
+            "🎻",
+            "🪉",
+            "🪈",
+            "🎺",
+            "🪊",
+            "🥁"
+          ],
+          "omitted_literal_symbols": [
+            "🪊",
+            "🥁"
+          ]
+        },
+        {
+          "id": "dolly-10360",
+          "question": "Are the following colours considered primary colours or not: red, orange, yellow, green, blue, indigo, violet",
+          "english_answer": "red - primary\norange - not primary\nyellow - primary\ngreen - not primary\nblue - primary\nindigo - not primary\nviolet - not primary",
+          "target": "🟣🟠",
+          "target_core_meanings": [
+            "purple circle",
+            "orange circle"
+          ],
+          "literal_symbols": [],
+          "omitted_literal_symbols": []
+        }
+      ],
+      "dataset_features_sha256": "052877f1165c3e85ae836466ea867e28d5bb693a070dc9fb7602c3aabdc78202"
+    }
+  },
+  "qualitative_review": {
+    "reviewer": "Assistant inspection of 20 seeded validation examples; no API teacher or external judge",
+    "used_for_training": false,
+    "not_a_general_accuracy_estimate": true,
+    "examples": [
+      {
+        "id": "dolly-9905",
+        "target": "➖🔢",
+        "assessment": "Minus and input numbers do not express the two sets or the subset relationship."
+      },
+      {
+        "id": "dolly-5222",
+        "target": "📧🏤🈁🗑️📭⏹️",
+        "assessment": "Topic fragments omit most events and their sequence; e-mail differs from physical junk mail."
+      },
+      {
+        "id": "dolly-12064",
+        "target": "🍕🫓1️⃣🔑🔝",
+        "assessment": "Topic retained, but keycap 1 and a key do not express crust shape, thickness, or cheese placement. Key is figurative in the English answer."
+      },
+      {
+        "id": "dolly-14760",
+        "target": "🪨🍕🐔🚱🥫",
+        "assessment": "Rock and pizza are misleading; the safe/unsafe food grouping and negation are absent. This target cannot support the requested safety answer."
+      },
+      {
+        "id": "dolly-10123",
+        "target": "⌨️🔠↕️",
+        "assessment": "The inventor name, company, decade, and naming history are absent."
+      },
+      {
+        "id": "dolly-7562",
+        "target": "2️⃣🇨🇦🥍🏒",
+        "assessment": "Two, Canada, lacrosse and ice hockey convey the narrow core answer; seasonal and historical details are absent."
+      },
+      {
+        "id": "dolly-5620",
+        "target": "🈵🫁♉🥖😣🏊",
+        "assessment": "Lungs and swimming are relevant, but Taurus, bread and no-vacancy symbols introduce unrelated literal meanings; benefits are poorly represented."
+      },
+      {
+        "id": "dolly-4861",
+        "target": "✡️🕍🇪🇬🇮🇱",
+        "assessment": "Jewish and geographic topics are present; flight from oppression and the historical event are not expressed."
+      },
+      {
+        "id": "dolly-14997",
+        "target": "♟️",
+        "assessment": "Chess is the topic, not the winning person or the result."
+      },
+      {
+        "id": "dolly-4276",
+        "target": "💯🥖",
+        "assessment": "Hundred points is an approximation to 100; bread does not express yards. Units are lost."
+      },
+      {
+        "id": "dolly-13578",
+        "target": "🍸🥃🍥",
+        "assessment": "Cocktail and tumbler are topical; fish cake is misleading and the requested ingredient list is missing."
+      },
+      {
+        "id": "dolly-905",
+        "target": "👥🐩🐕🟰🪙🐶",
+        "assessment": "Dog and coin suggest a cryptocurrency topic, but the specific token, chronology and qualifications are absent."
+      },
+      {
+        "id": "dolly-9346",
+        "target": "🔈💱🈸🏦🦠",
+        "assessment": "Bank and currency are relevant topics; low-volume speaker and microbe misread low-income and microfinance. Loans and intended beneficiaries are lost."
+      },
+      {
+        "id": "dolly-4448",
+        "target": "🧵🥁",
+        "assessment": "Thread is not a string instrument; the names and category assignments are absent."
+      },
+      {
+        "id": "dolly-12988",
+        "target": "✈️🚗🛻🚆🪥🛵",
+        "assessment": "Some vehicles survive, but three literal vehicles are dropped, a toothbrush is introduced, and category assignments disappear."
+      },
+      {
+        "id": "dolly-13098",
+        "target": "💯",
+        "assessment": "The exact answer 117 becomes hundred points. Numerical identity is not preserved."
+      },
+      {
+        "id": "dolly-4492",
+        "target": "🤞",
+        "assessment": "Crossed fingers does not identify the song title."
+      },
+      {
+        "id": "dolly-3071",
+        "target": "3️⃣♌5️⃣",
+        "assessment": "Digits and Leo do not identify the five requested accounts or preserve their ordering."
+      },
+      {
+        "id": "dolly-10552",
+        "target": "🖕🧵💍🔝🔈▶️",
+        "assessment": "Finger and ring are literal fragments, but thread misreads musical strings. Notes, frets, repeated counts and instructions are missing."
+      },
+      {
+        "id": "dolly-4144",
+        "target": "🥗😋🈵💭🍴🫜",
+        "assessment": "Food-related symbols retain a topic, but the selected winter squash and the justification are not expressed."
+      }
+    ]
+  },
+  "conclusion": "The current target construction is not a reliable semantic answer representation. Related-word anchors can be literal falsehoods, deduplication loses repetition, and a six-symbol cap drops content. Topic association is insufficient for answering. Do not scale these labels.",
+  "recommended_next_gate": "Answer-side reconstruction ablation on premade data: preserve ordered repeated states; use only emoji-conditioned input to a training-only English reconstruction decoder; compare held-out reconstruction with matched, shuffled, and empty states before resuming question-to-answer training. No runtime English answer generation and no new generated Q&A."
+}

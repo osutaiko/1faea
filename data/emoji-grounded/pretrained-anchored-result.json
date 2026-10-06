@@ -1,0 +1,476 @@
+{
+  "result": {
+    "selected_step": 2000,
+    "elapsed_seconds": 33843.812000000034,
+    "test_loss": 5.078351055829108,
+    "fixed_checks_passed": 1,
+    "fixed_checks_total": 12,
+    "examples": [
+      {
+        "question": "Which animal meows?",
+        "groups": [
+          "🐈🐱"
+        ],
+        "forbidden": "🐕🐶",
+        "state": "🐈🐈🐎🐈🐈🐎🐎🐎",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Which animal barks?",
+        "groups": [
+          "🐕🐶"
+        ],
+        "forbidden": "🐈🐱",
+        "state": "🐕🐕🐕🐾🐾🐾🐕🐾",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "What should I carry to stay dry in rain?",
+        "groups": [
+          "☂️☔"
+        ],
+        "forbidden": "",
+        "state": "☔🎒☔☔☔☔☔☔",
+        "reply": "☔",
+        "symbols": [
+          "☔"
+        ],
+        "core_meanings": [
+          "umbrella with rain drops"
+        ],
+        "terminated": true,
+        "passed": true
+      },
+      {
+        "question": "Which fruit is yellow and curved?",
+        "groups": [
+          "🍌"
+        ],
+        "forbidden": "",
+        "state": "🥝🥝🥝🟡🥝↩️🥝🥝",
+        "reply": "🥝",
+        "symbols": [
+          "🥝"
+        ],
+        "core_meanings": [
+          "kiwi fruit"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "What do bees make?",
+        "groups": [
+          "🍯"
+        ],
+        "forbidden": "",
+        "state": "🐝🐝🐝🐝🐝🐝🐝🐝",
+        "reply": "🐝",
+        "symbols": [
+          "🐝"
+        ],
+        "core_meanings": [
+          "honeybee"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "What planet do we live on?",
+        "groups": [
+          "🌍🌎🌏"
+        ],
+        "forbidden": "",
+        "state": "🪐🪐🪐🪐🪐🪐🪐🪐",
+        "reply": "🪐",
+        "symbols": [
+          "🪐"
+        ],
+        "core_meanings": [
+          "ringed planet"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Show a dog chasing a cat, with the pursuer first.",
+        "groups": [
+          "🐕🐶",
+          "🐈🐱"
+        ],
+        "forbidden": "",
+        "ordered": true,
+        "state": "🐕🐈🐈🐈🦮🐈🐈🦮",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Show a cat chasing a dog, with the pursuer first.",
+        "groups": [
+          "🐈🐱",
+          "🐕🐶"
+        ],
+        "forbidden": "",
+        "ordered": true,
+        "state": "🐈🐕🐈🐈🐈🐈🐈🦮",
+        "reply": "🐈",
+        "symbols": [
+          "🐈"
+        ],
+        "core_meanings": [
+          "cat"
+        ],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Show a person giving a gift to a robot, with the giver first.",
+        "groups": [
+          "🧑👤",
+          "🎁",
+          "🤖"
+        ],
+        "forbidden": "",
+        "ordered": true,
+        "state": "🤖🤖🎁🎁🎁🤖🤖🎁",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Show a robot giving a gift to a person, with the giver first.",
+        "groups": [
+          "🤖",
+          "🎁",
+          "🧑👤"
+        ],
+        "forbidden": "",
+        "ordered": true,
+        "state": "🤖🤖🤖🎁🎁🤖🤖🎁",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Say that smoking is forbidden.",
+        "groups": [
+          "🚭"
+        ],
+        "forbidden": "",
+        "state": "🚬🚭🚭🚭🚫🚫🚭🚭",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true,
+        "passed": false
+      },
+      {
+        "question": "Say that bicycles are forbidden.",
+        "groups": [
+          "🚳"
+        ],
+        "forbidden": "",
+        "state": "🚳🚫🚳🚳🚳🚫🚳🚳",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true,
+        "passed": false
+      }
+    ],
+    "trainable_parameters": 6484294,
+    "runtime_english_answer_generation": false,
+    "generated_qa_labels": 0,
+    "promoted": false,
+    "general_use_ready": false
+  },
+  "audit": {
+    "vocabulary_size": 3972,
+    "supplied_state_first_symbol_correct": 2470,
+    "supplied_state_first_symbol_total": 3972,
+    "supplied_state_recall": 0.621852970795569,
+    "held_out_examples": [
+      {
+        "question": "What is the most romantic season of the year and why?",
+        "reference_english": "The most romantic season of the year is winter. During winter you have all of the holidays like Thanksgiving, Christmas and New Years. Many times this is the time you really get to spend a lot of time with your loved ones and also introduce your significant other to the family. During winter you also will enjoy a lot of coffee and hot cocoa dates, going to the movies and laying around the fireplace to stay warm. With Christmas and New Years there will also be lights and decorations throughout the city, making it feel much more magical.",
+        "state": "💒💒💒🌇💒📅💒💒",
+        "reply": "💒",
+        "symbols": [
+          "💒"
+        ],
+        "core_meanings": [
+          "wedding"
+        ],
+        "terminated": true
+      },
+      {
+        "question": "Trust is the willingness of one party (the trustor) to become vulnerable to another party (the trustee) on the presumption that the trustee will act in ways that benefit the trustor. In addition, the trustor does not have control over the actions of the trustee. Scholars distinguish between generalized trust (also known as social trust), which is the extension of trust to a relatively large circle of unfamiliar others, and particularized trust, which is contingent on a specific situation or a specific relationship.d\n\nDescribe the relationship between the Trustor and Trustee",
+        "reference_english": "Trust is the willingness of the trustor to become vulnerable to the trustee on the presumption that the trustee will act in ways that benefit the trustor",
+        "state": "🔑🔑🔑🔑🔑🔑🔑🔑",
+        "reply": "🔑🔑🔑🔑🔑🔑🔑🔑🔑",
+        "symbols": [
+          "🔑",
+          "🔑",
+          "🔑",
+          "🔑",
+          "🔑",
+          "🔑",
+          "🔑",
+          "🔑",
+          "🔑"
+        ],
+        "core_meanings": [
+          "key",
+          "key",
+          "key",
+          "key",
+          "key",
+          "key",
+          "key",
+          "key",
+          "key"
+        ],
+        "terminated": false
+      },
+      {
+        "question": "Write a self introduction for a person named Cassie when speaking to a recruiter.",
+        "reference_english": "Hi. It is great to meet you and thank you for giving me the opportunity to introduce myself. My name is Cassie and I am applying for a position at your company. I am very excited about this role and I believe I am a great fit. My previous job has given me a great deal of relevant experience in this field. I am also a big fan of your company and its mission. I would love to speak to the hiring manager about this role and go into more detail about why I am a good fit for this position.",
+        "state": "✍️🤳🔰🧑🤦🤦👩‍✈️🔰",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true
+      },
+      {
+        "question": "What is Audemars Piguet Royal Oak ?",
+        "reference_english": "Audemars Piguet Royal Oak is a luxury watch. This watch was invented in 1971 by Gérald Genta and presented at the Bâle exhibition. It is the first steel watch at the price of a gold watch. It is recognizable to its specific octagonal shape and its handmade dial representing a « petite tapisserie ». It is also one of the first watches with a bracelet integrated into the case. This first Royal Oak had 2 hands (hours, minutes) and the date. It is also called Jumbo because of its imposing size for the time: 39mm in diameter. This watch is an icon for all collectors. It is now available in several versions (size, complications, thickness).",
+        "state": "🪵🪵🇪🇺🥖🥖🥖🪵🪵",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true
+      },
+      {
+        "question": "Classify each of the following as either a state or a city: Los Angeles, California, Houston, Texas, Santa Fe, New Mexico, Little Rock, Arkansas",
+        "reference_english": "Los Angeles is a city California.\nCalifornia is a state in the United States of America.\nHouston is a city in Texas.\nTexas is a state in the United States of America.\nSanta Fe is a city in New Mexico.\nNew Mexico is a state in the United States of America.\nLittle Rock is a state in Arkansas.\nArkansas is a state in the United States of America.",
+        "state": "🪨🗺️🇺🇸🐦‍🔥🏙️🐦‍🔥🐦‍🔥🐦‍🔥",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true
+      },
+      {
+        "question": "Which characters belong to DC or Marvel Universe? Namor, Aquaman",
+        "reference_english": "Aquaman is DC, Namor is Marvel",
+        "state": "🦸🦸🦸🦸🦸♒♒🦸‍♂️",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true
+      },
+      {
+        "question": "What are the benefits of building a large language model specific to your organization rather than using a third party vendor's model?",
+        "reference_english": "Building your own large language model (LLM) reduces security risks from data leakage, which could allow others to access your proprietary information. Building an in-house LLM also creates value internal to your organization rather than delivering that value (in the form of your data) to a third party. The answers from a custom LLM will also be more valid and specific to your organization. Finally, building your own LLM can be more cost effective than paying for each API request to a third party solution.",
+        "state": "ℹ️🚧🏢🏢🏢🈂️🏭🏢",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true
+      },
+      {
+        "question": "7 Reasons San francisco has homelessness",
+        "reference_english": "Housing is sky rocketing compared to its neighboring areas -- Noe Valley, the Mission etc.\nIt is a transportation hub thus It is safe\nSome of the best restaurants including Gialina, Chenery Park thus good scraps left\nThere is an 80 acre park with hiking trails, rock climbing, baseball diamond, tennis courts, basketball courts etc making good area for tenting\nThe community has lots of soup kitchen and free welfare",
+        "state": "7️⃣7️⃣5️⃣🏙️🏘️🏚️🏚️🏚️",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true
+      },
+      {
+        "question": "Tell me which one does not fit with the group:  Cigar, Cigarette, Tobacco, Pipe, Hookah",
+        "reference_english": "All except Tobacco are means of smoking.",
+        "state": "🚬🚬🚬*️⃣👩‍👩‍👧‍👧🚬🚬🚬",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true
+      },
+      {
+        "question": "In Islam, cateogorize each of the following as either 'haram' or 'halal'. Pork, Beef, Chicken, Fish, Alcohol, fasting.",
+        "reference_english": "Pork and Alcohol are considered Haram while Beef, Chicken, Fish and Fasting are Halal",
+        "state": "🐔🐟🕌🥩🥩🥩🥩🥩",
+        "reply": "",
+        "symbols": [],
+        "core_meanings": [],
+        "terminated": true
+      }
+    ],
+    "reply_lengths": [
+      1,
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "literal_input_retained": 58,
+    "literal_input_total": 58,
+    "literal_order_retained_rows": 30,
+    "literal_eligible_rows": 30,
+    "ordered_fixed_checks_passed": 0,
+    "ordered_fixed_checks_total": 4,
+    "general_chat_demonstrated": false,
+    "identity_and_literal_matching_are_not_understanding": true
+  },
+  "manifest": {
+    "decoder": "pretrained-pointer-v1",
+    "source": {
+      "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "model_revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+      "dataset": "HuggingFaceTB/everyday-conversations-llama3.1-2k",
+      "dataset_revision": "14f543216b9ba42b6b951dc5bd199460d193b162",
+      "counts": {
+        "train_sft": 2260,
+        "test_sft": 119
+      },
+      "model_license": "Apache-2.0",
+      "dataset_license": "Apache-2.0"
+    },
+    "encoder_checkpoint_sha256": "e0983e1b25bb30035e52fc4517263f4f8209aa9b9d205d98375ddc2faa87999d",
+    "dataset": {
+      "counts": {
+        "train": 9016,
+        "validation": 100,
+        "test": 100
+      },
+      "sources": [
+        {
+          "name": "Dolly 15k",
+          "license": "CC-BY-SA-3.0",
+          "sha256": "2df9083338b4abd6bceb5635764dab5d833b393b55759dffb0959b6fcbf794ec",
+          "url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k"
+        },
+        {
+          "name": "UltraChat 200k",
+          "license": "MIT",
+          "url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k"
+        }
+      ],
+      "generated_qa_labels": 0,
+      "standalone": true,
+      "deduplication": "Normalized exact question only; paraphrase overlap not exhaustively audited",
+      "files_sha256": {
+        "train": "f8e06c009af25d01e2bf7f013b5d7a79d2880e3b64d459914e9e4d6905993c96",
+        "validation": "7878e91d80bae9d3e74210f5415f40905d9926367b2db05f58e4cb5b462d1ceb",
+        "test": "d6a0bb6717be4fed634cf32a4ad9ebb192a0f6b81b34e1cde5512ad8f3ad0d7b"
+      }
+    },
+    "steps": 1000,
+    "warmup_steps": 1000,
+    "anchor_input": true,
+    "seed": 719,
+    "runtime_english_answer_generation": false,
+    "generated_qa_labels": 0
+  },
+  "input_policy": {
+    "policy": "Exact core meanings only, in mention order; remaining slots retain learned IDs. Associations are excluded.",
+    "fixed_question_literal_evidence": [
+      {
+        "question": "Which animal meows?",
+        "literal_symbols": []
+      },
+      {
+        "question": "Which animal barks?",
+        "literal_symbols": []
+      },
+      {
+        "question": "What should I carry to stay dry in rain?",
+        "literal_symbols": []
+      },
+      {
+        "question": "Which fruit is yellow and curved?",
+        "literal_symbols": []
+      },
+      {
+        "question": "What do bees make?",
+        "literal_symbols": []
+      },
+      {
+        "question": "What planet do we live on?",
+        "literal_symbols": []
+      },
+      {
+        "question": "Show a dog chasing a cat, with the pursuer first.",
+        "literal_symbols": [
+          "🐕",
+          "🐈"
+        ]
+      },
+      {
+        "question": "Show a cat chasing a dog, with the pursuer first.",
+        "literal_symbols": [
+          "🐈",
+          "🐕"
+        ]
+      },
+      {
+        "question": "Show a person giving a gift to a robot, with the giver first.",
+        "literal_symbols": [
+          "🤖"
+        ]
+      },
+      {
+        "question": "Show a robot giving a gift to a person, with the giver first.",
+        "literal_symbols": [
+          "🤖"
+        ]
+      },
+      {
+        "question": "Say that smoking is forbidden.",
+        "literal_symbols": []
+      },
+      {
+        "question": "Say that bicycles are forbidden.",
+        "literal_symbols": []
+      }
+    ],
+    "not_semantic_understanding": true
+  },
+  "comparison": {
+    "copy_v1_fixed_checks": 5,
+    "previous_general_fixed_checks": 5,
+    "copy_v1_supplied_state_correct": 3971,
+    "copy_v1_ordered_checks": 0,
+    "previous_general_ordered_checks": 1
+  },
+  "timing": {
+    "wall_seconds": 33843.812000000034,
+    "largest_log_interval": {
+      "previous_step": 200,
+      "step": 300,
+      "seconds": 31815.34400000004
+    },
+    "continuous_compute_time_verified": false
+  },
+  "conclusion": "Exact literal evidence was retained in order, but answering regressed to 1/12, ordered checks remained 0/4, eight of ten held-out replies were empty, and supplied-state identity recall fell to 2470/3972. No general chat capability was demonstrated. No promotion; existing models preserved.",
+  "provenance_note": "Actual premade data are the separate manifest dataset block (Dolly 15k and UltraChat 200k); the source block contains legacy dataset metadata not used by this experiment."
+}

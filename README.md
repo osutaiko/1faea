@@ -956,3 +956,177 @@ held-out replies contain one symbol. This decoder collapsed despite lower loss;
 vocabulary support does not establish learned meaning. The existing chat model
 is retained. [Final aligned audit](data/emoji-grounded/pretrained-aligned-result.json).
 General standalone chatting remains **not demonstrated**. 🧪🚧
+
+### 🔍 Bottleneck diagnostics and pointer trial 🧩
+
+Target first-symbol frequencies are varied: the largest is 247/9,016, so frequency
+alone does not explain decoder collapse. Only 20.8% of target codes occur in the
+question states. Controlled role and negation pairs produce distinct codes, but
+literal content is unreliable: both dog/cat role variants omit the dog, and smoking
+allowed already produces prohibition symbols. Distinct codes are not sufficient.
+[Input diagnostic](data/emoji-grounded/input-information-diagnostic.json). 🚧📋
+
+`copy-v1` reuses the repository's pointer/generator mixture to preserve supplied
+hard emoji IDs. It trains 1,000 definition and 1,000 Q&A updates, with supervision.
+Copying a supplied ID proves identity handling, not semantic understanding or
+answering. It cannot recover content lost before decoding. New pretrained
+checkpoints include pointer parameters; archived non-pointer checkpoints are not
+supported by this decoder layout. The existing general chat model is retained.
+**81 tests pass.** 🫪🏋️
+
+🧪 `copy-v1` completed in **37 minutes**, selecting step 1,800 of 2,000.
+It passes **5/12** fixed checks: equal to the existing general model and above
+the pretrained-only trial's 0/12. Supplied-state first-symbol recall is
+**3,971/3,972 (99.97%)**. This establishes copying identity, not semantic recall.
+Nine of ten sampled held-out replies contain one emoji; the other contains two.
+Bees return 🐝 instead of 🍯, and both chase directions return 🐈. The encoder
+still loses content and roles. Basic standalone chatting is **not demonstrated**.
+The existing chat checkpoint remains active; supervision is paused.
+[Copy trial audit](data/emoji-grounded/pretrained-copy-result.json). 📋🚧
+
+### 🐕🐈 Ordered literal input trial 🧪
+
+`anchored-v1` preserves exact core-name matches from the existing meaning map,
+in mention order, before filling the eight states with learned IDs. Associations
+are excluded: “stay” must not assert 🏨. No question types or new Q&A are added.
+The same 1,000 definition and 1,000 answer updates allow comparison with `copy-v1`.
+This targets explicit content loss; it does not supply missing facts or establish
+role understanding. The active chat model is unchanged. 🫪🧪
+
+📉 The completed trial passes **1/12** fixed checks versus 5/12 for `copy-v1`
+and the existing general model. Ordered-role checks remain **0/4**. All 58
+matched literal IDs in the held-out set survive; all 30 matching questions retain
+their literal prefix order. This is a mechanical guarantee, not semantic recall.
+Supplied-state first-symbol recall falls to **2,470/3,972 (62.19%)**. Eight of ten
+sampled replies are empty; one has one emoji, and one reaches the nine-symbol cap
+without terminating. Input retention alone did not improve answering. 🚧
+
+⏱️ Wall time is **9h24m**, including an approximately **8h50m** gap between log
+updates. Continuous training time is unverified. The trial is not promoted,
+general chatting remains **not demonstrated**, and supervision is paused.
+[Anchored trial audit](data/emoji-grounded/pretrained-anchored-result.json). 📋🫪
+
+```powershell
+.venv\Scripts\python.exe -X utf8 emoji_pretrained_fit.py --name anchored-v1 --anchor-input --warmup-steps 1000 --steps 1000
+.venv\Scripts\python.exe -X utf8 emoji_anchored_chat.py --name anchored-v1
+```
+
+### 🔍 Best-model target audit 📚🫪
+
+The existing answer labels are not reliable meanings. “117” becomes 💯;
+“100 yards” becomes 💯🥖; guitar strings become 🧵. Exact core-name retention
+is 5,085/5,404, but matching words does not establish their intended meaning.
+The target builder also removes repeated IDs and caps content at six symbols,
+losing counts and relationships. No new training run is started on these labels.
+The best checkpoint stays unchanged. 🚧🔒
+
+Next gate: answer-side, emoji-only information reconstruction on premade data,
+with an English decoder used only during training. Test matched, shuffled and
+empty states before resuming answering. This is a proposed test, not a completed
+improvement. [Target audit](data/emoji-grounded/target-quality-audit.md). 🧪📋
+
+```powershell
+.venv\Scripts\python.exe -X utf8 emoji_target_audit.py
+```
+
+### 🧩 Blind answer reconstruction gate 🧪
+
+`emoji_reconstruction_fit.py` tests the best encoder's eight ordered emoji states
+without deduplication or the six-symbol target cap. A training-only frozen English
+backbone and learned adapter reconstruct premade answers. Every answer input
+position is an end marker: answer words are never supplied as a prefix. Answer
+length and padding remain visible, so this is length-conditioned reconstruction,
+not free generation or question answering. 🫪🔢
+
+The isolated `blind-v1` run trains 500 updates with meaning-definition replay.
+Validation uses 16 existing examples; the final test uses 32. Real, reversed,
+unrelated and empty states receive the same answer lengths. Training snapshots
+support resuming; no chat checkpoint is exported or replaced.
+No new AI-generated Q&A is used. 📚🔒
+
+📉 The 500-update test completed in **55 minutes**, selecting step 400. On the
+same 32 held-out answers, reconstruction loss falls from 17.138 to **9.885**,
+but empty states are better (**9.591**). Reversed states score **9.875** and
+unrelated states **9.923**. Sampled reconstructions are repeated punctuation
+and fragments, not recovered answers. The information gate **fails**. 🚧
+
+All 3,972 definition IDs were replayed across the full run. First-state definition
+recall is **3,618/3,972 (91.09%)**, versus **3,633/3,972 (91.47%)** for the original
+encoder under the same test. Coverage seen is not recall. This first-position
+measure differs from earlier whole-sequence definition audits. No answering run
+follows; the best chat model stays unchanged and supervision is paused.
+[Reconstruction audit](data/emoji-grounded/blind-reconstruction-result.json). 🫪📋
+
+```powershell
+.venv\Scripts\python.exe -X utf8 emoji_reconstruction_fit.py --name blind-v1 --steps 500
+```
+
+### 🔬 Continuous control and autonomous diagnostics 🫪
+
+`continuous-v1` replaces hard lookup with soft probabilities over the same frozen
+meaning vectors. The encoder, data, decoder, seed and 500-update schedule remain
+matched. This isolates hard quantization within the current setup; it is not an
+unrestricted continuous encoder. Displayed emoji IDs summarize its argmax choices,
+not committed states. It is diagnostic only and cannot replace the emoji runtime.
+The completed 500-update control takes **44 minutes**. Held-out losses are real
+**9.040**, reversed **9.037**, unrelated **9.052**, and empty **9.727**. Real beats
+empty, but corruption barely matters and sampled strings remain fragments.
+Useful answer reconstruction is not demonstrated.
+[Continuous audit](data/emoji-grounded/continuous-reconstruction-result.json). 📊🚧
+
+Supervision may revise the next experiment from actual results. A failed continuous
+control calls for a decoder check; a useful control permits comparison with learned
+discrete codes and then anchored emojis. No new generated Q&A, checkpoint promotion
+or publishing is authorized by a lower reconstruction loss alone. 📚🔒🧪
+
+`prefix-control-v1` tests standard shifted answer prefixes in the training-only
+decoder, retaining the continuous relaxation and 500-update schedule. Full losses
+can exploit the English prefix; first-token losses are reported separately because
+that position sees only an end marker and the state. Teacher-forced argmax strings
+are not free generation. This checks the decoder setup, not general chatting.
+The active emoji model remains unchanged. Results are pending. 🔬⏳
+
+### ⚡ Short baseline checks 🫪
+
+On 30 existing test questions, unrelated or empty states change every reply,
+but reversing state order changes none. The baseline reply memory has no position
+embeddings: cross-attention cannot distinguish permutations of its input states.
+A disposable clone learns 16 existing targets exactly in 150 updates (about nine
+seconds), so tiny-set optimization works. This is memorization of weak labels,
+not semantic answering. Forcing three-symbol replies mostly adds repetitions or
+unrelated symbols. The active checkpoint is unchanged. 🔒🧪
+
+[Quick-check report](data/emoji-grounded/quick-checks.md). 📋
+
+⚡ A short positional-memory ablation copies **16/16** trained ordered pairs,
+versus **8/16** without positions. On unseen pairs, it reaches only **1/16** versus
+0/16. Positions fix permutation invariance; they do not establish general copying
+or semantic reasoning. The matched check takes about **14 seconds** of compute,
+and the active model remains unchanged.
+[Position experiment](data/emoji-grounded/position-check.md). 🫪🧪
+
+### 🚀 Simple pretrained two-call prototype 🫪
+
+`emoji_two_pass.py` uses an unmodified pretrained instruct model and Outlines
+with LLGuidance constraints. The first call receives an English question and
+generates an emoji sequence. A fresh second call receives only that sequence
+and fixed instructions, then generates an emoji answer. No English answer is
+generated or translated, and no hidden cache crosses calls. JSON is transport;
+interactive output displays emojis. Numerical activations inside each call are
+ordinary continuous model computations. 🧠➡️🫪➡️🫪
+
+All **3,972** catalog symbols are allowed, with at most four per stage in this
+small prototype. No training or custom encoder is used. The cached 360M model
+passes only **1/6** simple fixed checks, taking about **2–6 seconds** per question
+after initialization. Every second-stage answer repeats its intermediate state
+in this sample. Valid emoji output does not establish reasoning or useful chat.
+The prototype works structurally; answer quality remains poor. 🚧📊
+
+```powershell
+.venv\Scripts\python.exe -X utf8 emoji_two_pass.py
+.venv\Scripts\python.exe -X utf8 emoji_two_pass.py --question "Which animal barks?"
+```
+
+The active trained baseline stays unchanged. Earlier decoder experiments are
+archived; this simpler route replaces further custom-architecture development.
+[Prototype results](data/emoji-grounded/two-pass-result.json). 📋🔒

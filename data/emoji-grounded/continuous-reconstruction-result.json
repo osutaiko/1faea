@@ -1,0 +1,138 @@
+{
+  "result": {
+    "continuous": true,
+    "selected_step": 500,
+    "test": {
+      "real": 9.040365382715194,
+      "reversed": 9.036736706310991,
+      "mismatched": 9.051873675847459,
+      "empty": 9.726812518432805
+    },
+    "examples": [
+      {
+        "id": "dolly-10150",
+        "english_answer": "The most romantic season of the year is winter. During winter you have all of the holidays like Thanksgiving, Christmas and New Years. Many times this is the time you really get to spend a lot of time with your loved ones and also introduce your significant other to the family. During winter you also will enjoy a lot of coffee and hot cocoa dates, going to the movies and laying around the fireplace to stay warm. With Christmas and New Years there will also be lights and decorations throughout the city, making it feel much more magical.",
+        "state": "📅📅💑📅📅🌆📅📅",
+        "training_only_reconstruction": ", of are are are\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nons\n\n\n\n\n\n\n\n\n\n\n\n the\n\n\n\n\n\n\n the thelybl-- Cate C- L L Bl Bl Bl Bl (.\n\n\n\n\n\n\n\n\n\n and and and\n andityitiesitiesitiesitiesitiesitiesitiesitiesityityity\n\n\n\n\n\n\n\n"
+      },
+      {
+        "id": "dolly-11208",
+        "english_answer": "Trust is the willingness of the trustor to become vulnerable to the trustee on the presumption that the trustee will act in ways that benefit the trustor",
+        "state": "🧷🪎🪎🧷🧷🧷🪎🪎",
+        "training_only_reconstruction": ",,,,\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n...\n\n.\n"
+      },
+      {
+        "id": "dolly-11357",
+        "english_answer": "Hi. It is great to meet you and thank you for giving me the opportunity to introduce myself. My name is Cassie and I am applying for a position at your company. I am very excited about this role and I believe I am a great fit. My previous job has given me a great deal of relevant experience in this field. I am also a big fan of your company and its mission. I would love to speak to the hiring manager about this role and go into more detail about why I am a good fit for this position.",
+        "state": "😁📛👤📛👤🧍‍♀️®️®️",
+        "training_only_reconstruction": ",,,,, are are\n\n\n\n\n\n\n\n\n\n\n\n\n\n the. and......\n\n\n\n\n\n\n\n..\n\n\n\n..... the.. the the the theator's.....---..-.. and of of..lylylyly..ly....lyitiesitiesitiesitiesitiesitiesitiesitiesitiesitiesities\n.........."
+      },
+      {
+        "id": "dolly-4086",
+        "english_answer": "Audemars Piguet Royal Oak is a luxury watch. This watch was invented in 1971 by Gérald Genta and presented at the Bâle exhibition. It is the first steel watch at the price of a gold watch. It is recognizable to its specific octagonal shape and its handmade dial representing a « petite tapisserie ». It is also one of the first watches with a bracelet integrated into the case. This first Royal Oak had 2 hands (hours, minutes) and the date. It is also called Jumbo because of its imposing size for the time: 39mm in diameter. This watch is an icon for all collectors. It is now available in several versions (size, complications, thickness).",
+        "state": "🔱🔱⌚🥃🔱🕰️🕰️🔱",
+        "training_only_reconstruction": ",,,,\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n..\n\n\n\n\n\n\n\n\n\n\n of\n\n\n\n\n\n\n of of\n the the\n\n\n\n the the the\n of of of... d d d..... of of... d d d d d d.......\n\n\n\n the the the the the thely the the the.....ly b b b b b d d d bra bra bra bra bra\n\n\n...\n\n\n\n\n le lelyly\n\n\n � � vlylylylylyly........"
+      },
+      {
+        "id": "dolly-5678",
+        "english_answer": "Los Angeles is a city California.\nCalifornia is a state in the United States of America.\nHouston is a city in Texas.\nTexas is a state in the United States of America.\nSanta Fe is a city in New Mexico.\nNew Mexico is a state in the United States of America.\nLittle Rock is a state in Arkansas.\nArkansas is a state in the United States of America.",
+        "state": "🐦‍🔥🐦‍🔥🇲🇽🐦‍🔥🇺🇸🐦‍🔥🐦‍🔥🐦‍🔥",
+        "training_only_reconstruction": ",,,,,,\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n....\n\n\n\n\n\n\n\n\n\n\n.......... the the is is is is is\n. l l l l the  ll. let. mind...lyetsityetslylylylylers\n\n.\n\n.itiesitiesities"
+      },
+      {
+        "id": "dolly-1230",
+        "english_answer": "Aquaman is DC, Namor is Marvel",
+        "state": "🦸🦸🦸🦸🦸🦸🦸🦸",
+        "training_only_reconstruction": ",,,,\n\n\n\n\n\n"
+      },
+      {
+        "id": "dolly-14576",
+        "english_answer": "Building your own large language model (LLM) reduces security risks from data leakage, which could allow others to access your proprietary information. Building an in-house LLM also creates value internal to your organization rather than delivering that value (in the form of your data) to a third party. The answers from a custom LLM will also be more valid and specific to your organization. Finally, building your own LLM can be more cost effective than paying for each API request to a third party solution.",
+        "state": "🏗️🏗️ℹ️🦙🏗️🦙🏗️🏗️",
+        "training_only_reconstruction": " of,, of are are\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n of of\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n of of\n \n ,,.. the of of of of of of. box box box box box...... and.ional the.\n\n\n\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "id": "dolly-10013",
+        "english_answer": "Housing is sky rocketing compared to its neighboring areas -- Noe Valley, the Mission etc.\nIt is a transportation hub thus It is safe\nSome of the best restaurants including Gialina, Chenery Park thus good scraps left\nThere is an 80 acre park with hiking trails, rock climbing, baseball diamond, tennis courts, basketball courts etc making good area for tenting\nThe community has lots of soup kitchen and free welfare",
+        "state": "🏘️🏘️🏘️🏘️🏘️🏘️🏘️🏘️",
+        "training_only_reconstruction": " the are are are\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n types the the above above above       \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n <|im_end|><|im_end|> unique more\n\n\n same other other unique other\n\n\n  of of words words. the. of   the\n as as of"
+      },
+      {
+        "id": "dolly-3621",
+        "english_answer": "All except Tobacco are means of smoking.",
+        "state": "🚭🚭🚭🚭🚭🚭🚭🚭",
+        "training_only_reconstruction": ",, the,,,,\n\n"
+      },
+      {
+        "id": "dolly-11986",
+        "english_answer": "Pork and Alcohol are considered Haram while Beef, Chicken, Fish and Fasting are Halal",
+        "state": "🥩🥩🥩🥩🥩🥩🥩🥩",
+        "training_only_reconstruction": ",\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+      }
+    ],
+    "definition_ids_seen": 3972,
+    "elapsed_seconds": 2637.1089999999385,
+    "runtime_exported": false,
+    "promoted": false,
+    "general_chat_demonstrated": false,
+    "length_conditioned_reconstruction_is_not_generation": true
+  },
+  "baseline_test": {
+    "real": 16.122224702918352,
+    "reversed": 16.127135101929653,
+    "mismatched": 16.3329874047513,
+    "empty": 10.475412424613587
+  },
+  "manifest": {
+    "steps": 500,
+    "continuous": true,
+    "state_slots": 8,
+    "preserve_repetition": true,
+    "answer_prefix_visible": false,
+    "answer_length_visible": true,
+    "diagnostic_only": true,
+    "generated_qa_labels": 0,
+    "runtime_english_answer_generation": false,
+    "base_checkpoint_sha256": "e0983e1b25bb30035e52fc4517263f4f8209aa9b9d205d98375ddc2faa87999d",
+    "dataset": {
+      "counts": {
+        "train": 9016,
+        "validation": 100,
+        "test": 100
+      },
+      "sources": [
+        {
+          "name": "Dolly 15k",
+          "license": "CC-BY-SA-3.0",
+          "sha256": "2df9083338b4abd6bceb5635764dab5d833b393b55759dffb0959b6fcbf794ec",
+          "url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k"
+        },
+        {
+          "name": "UltraChat 200k",
+          "license": "MIT",
+          "url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k"
+        }
+      ],
+      "generated_qa_labels": 0,
+      "standalone": true,
+      "deduplication": "Normalized exact question only; paraphrase overlap not exhaustively audited",
+      "files_sha256": {
+        "train": "f8e06c009af25d01e2bf7f013b5d7a79d2880e3b64d459914e9e4d6905993c96",
+        "validation": "7878e91d80bae9d3e74210f5415f40905d9926367b2db05f58e4cb5b462d1ceb",
+        "test": "d6a0bb6717be4fed634cf32a4ad9ebb192a0f6b81b34e1cde5512ad8f3ad0d7b"
+      }
+    },
+    "validation_examples": 16,
+    "test_examples": 32,
+    "seed": 719
+  },
+  "discrete_test": {
+    "real": 9.88469317905953,
+    "reversed": 9.875462450243965,
+    "mismatched": 9.923384812898249,
+    "empty": 9.59121638270115
+  },
+  "information_gate_passed": false,
+  "conclusion": "Continuous relaxation lowers loss but reversed and mismatched states nearly match real states; sampled reconstructions remain fragments. This does not isolate quantization as the cause. Next: shifted-prefix decoder control, with no-prefix first-token measurements.",
+  "displayed_symbols_are_argmax_summaries": true
+}

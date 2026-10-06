@@ -1,0 +1,182 @@
+{
+  "results": {
+    "validation": {
+      "count": 100,
+      "metrics": {
+        "hard": {
+          "top1": 72,
+          "top5": 97,
+          "mean_rank": 1.6399999856948853,
+          "mean_matched_cosine": 0.42117926478385925
+        },
+        "soft_temperature_1": {
+          "top1": 73,
+          "top5": 89,
+          "mean_rank": 2.200000047683716,
+          "mean_matched_cosine": 0.4632810950279236
+        },
+        "soft_temperature_3": {
+          "top1": 10,
+          "top5": 18,
+          "mean_rank": 22.829999923706055,
+          "mean_matched_cosine": 0.20611372590065002
+        },
+        "soft_temperature_10": {
+          "top1": 5,
+          "top5": 7,
+          "mean_rank": 44.0099983215332,
+          "mean_matched_cosine": 0.09388051927089691
+        },
+        "sparse_top_2": {
+          "top1": 79,
+          "top5": 99,
+          "mean_rank": 1.5199999809265137,
+          "mean_matched_cosine": 0.44751185178756714
+        },
+        "sparse_top_4": {
+          "top1": 80,
+          "top5": 99,
+          "mean_rank": 1.4299999475479126,
+          "mean_matched_cosine": 0.4627692401409149
+        },
+        "sparse_top_8": {
+          "top1": 82,
+          "top5": 99,
+          "mean_rank": 1.4299999475479126,
+          "mean_matched_cosine": 0.47083714604377747
+        },
+        "unrelated_hard": {
+          "top1": 0,
+          "top5": 2,
+          "mean_rank": 54.15999984741211,
+          "mean_matched_cosine": 0.0427110381424427
+        }
+      }
+    },
+    "test": {
+      "count": 100,
+      "metrics": {
+        "hard": {
+          "top1": 80,
+          "top5": 96,
+          "mean_rank": 1.7300000190734863,
+          "mean_matched_cosine": 0.41150492429733276
+        },
+        "soft_temperature_1": {
+          "top1": 71,
+          "top5": 88,
+          "mean_rank": 2.700000047683716,
+          "mean_matched_cosine": 0.44873687624931335
+        },
+        "soft_temperature_3": {
+          "top1": 9,
+          "top5": 23,
+          "mean_rank": 27.280000686645508,
+          "mean_matched_cosine": 0.2003306746482849
+        },
+        "soft_temperature_10": {
+          "top1": 4,
+          "top5": 9,
+          "mean_rank": 44.869998931884766,
+          "mean_matched_cosine": 0.09457296133041382
+        },
+        "sparse_top_2": {
+          "top1": 81,
+          "top5": 97,
+          "mean_rank": 1.6699999570846558,
+          "mean_matched_cosine": 0.4365234673023224
+        },
+        "sparse_top_4": {
+          "top1": 85,
+          "top5": 97,
+          "mean_rank": 1.5399999618530273,
+          "mean_matched_cosine": 0.45450496673583984
+        },
+        "sparse_top_8": {
+          "top1": 83,
+          "top5": 97,
+          "mean_rank": 1.559999942779541,
+          "mean_matched_cosine": 0.46393439173698425
+        },
+        "unrelated_hard": {
+          "top1": 1,
+          "top5": 8,
+          "mean_rank": 51.16999816894531,
+          "mean_matched_cosine": 0.06398265808820724
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "mode": "hard",
+      "answer": "The most romantic season of the year is winter. During winter you have all of the holidays like Thanksgiving, Christmas and New Years. Many times this is the time you really get to spend a lot of time with your loved ones and also introduce your significant other to the family. During winter you also will enjoy a lot of coffee and hot cocoa dates, going to the movies and laying around the fireplace to stay warm. With Christmas and New Years there will also be lights and decorations throughout the city, making it feel much more magical.",
+      "retrieved_answer": "The most romantic season of the year is winter. During winter you have all of the holidays like Thanksgiving, Christmas and New Years. Many times this is the time you really get to spend a lot of time with your loved ones and also introduce your significant other to the family. During winter you also will enjoy a lot of coffee and hot cocoa dates, going to the movies and laying around the fireplace to stay warm. With Christmas and New Years there will also be lights and decorations throughout the city, making it feel much more magical.",
+      "correct": true
+    },
+    {
+      "mode": "hard",
+      "answer": "Trust is the willingness of the trustor to become vulnerable to the trustee on the presumption that the trustee will act in ways that benefit the trustor",
+      "retrieved_answer": "American sole",
+      "correct": false
+    },
+    {
+      "mode": "hard",
+      "answer": "Hi. It is great to meet you and thank you for giving me the opportunity to introduce myself. My name is Cassie and I am applying for a position at your company. I am very excited about this role and I believe I am a great fit. My previous job has given me a great deal of relevant experience in this field. I am also a big fan of your company and its mission. I would love to speak to the hiring manager about this role and go into more detail about why I am a good fit for this position.",
+      "retrieved_answer": "Hi. It is great to meet you and thank you for giving me the opportunity to introduce myself. My name is Cassie and I am applying for a position at your company. I am very excited about this role and I believe I am a great fit. My previous job has given me a great deal of relevant experience in this field. I am also a big fan of your company and its mission. I would love to speak to the hiring manager about this role and go into more detail about why I am a good fit for this position.",
+      "correct": true
+    },
+    {
+      "mode": "hard",
+      "answer": "Audemars Piguet Royal Oak is a luxury watch. This watch was invented in 1971 by Gérald Genta and presented at the Bâle exhibition. It is the first steel watch at the price of a gold watch. It is recognizable to its specific octagonal shape and its handmade dial representing a « petite tapisserie ». It is also one of the first watches with a bracelet integrated into the case. This first Royal Oak had 2 hands (hours, minutes) and the date. It is also called Jumbo because of its imposing size for the time: 39mm in diameter. This watch is an icon for all collectors. It is now available in several versions (size, complications, thickness).",
+      "retrieved_answer": "1. The Katana in its' sheath can be used as a walking stick\n2. Used to removed overgrown foliage. \n3. Can presented as a gift \n4. Decorative purposes for your office, house or vehicle    \n5. Fancy dress events",
+      "correct": false
+    },
+    {
+      "mode": "hard",
+      "answer": "Los Angeles is a city California.\nCalifornia is a state in the United States of America.\nHouston is a city in Texas.\nTexas is a state in the United States of America.\nSanta Fe is a city in New Mexico.\nNew Mexico is a state in the United States of America.\nLittle Rock is a state in Arkansas.\nArkansas is a state in the United States of America.",
+      "retrieved_answer": "Los Angeles is a city California.\nCalifornia is a state in the United States of America.\nHouston is a city in Texas.\nTexas is a state in the United States of America.\nSanta Fe is a city in New Mexico.\nNew Mexico is a state in the United States of America.\nLittle Rock is a state in Arkansas.\nArkansas is a state in the United States of America.",
+      "correct": true
+    },
+    {
+      "mode": "soft_temperature_1",
+      "answer": "The most romantic season of the year is winter. During winter you have all of the holidays like Thanksgiving, Christmas and New Years. Many times this is the time you really get to spend a lot of time with your loved ones and also introduce your significant other to the family. During winter you also will enjoy a lot of coffee and hot cocoa dates, going to the movies and laying around the fireplace to stay warm. With Christmas and New Years there will also be lights and decorations throughout the city, making it feel much more magical.",
+      "retrieved_answer": "The most romantic season of the year is winter. During winter you have all of the holidays like Thanksgiving, Christmas and New Years. Many times this is the time you really get to spend a lot of time with your loved ones and also introduce your significant other to the family. During winter you also will enjoy a lot of coffee and hot cocoa dates, going to the movies and laying around the fireplace to stay warm. With Christmas and New Years there will also be lights and decorations throughout the city, making it feel much more magical.",
+      "correct": true
+    },
+    {
+      "mode": "soft_temperature_1",
+      "answer": "Trust is the willingness of the trustor to become vulnerable to the trustee on the presumption that the trustee will act in ways that benefit the trustor",
+      "retrieved_answer": "solitary",
+      "correct": false
+    },
+    {
+      "mode": "soft_temperature_1",
+      "answer": "Hi. It is great to meet you and thank you for giving me the opportunity to introduce myself. My name is Cassie and I am applying for a position at your company. I am very excited about this role and I believe I am a great fit. My previous job has given me a great deal of relevant experience in this field. I am also a big fan of your company and its mission. I would love to speak to the hiring manager about this role and go into more detail about why I am a good fit for this position.",
+      "retrieved_answer": "solitary",
+      "correct": false
+    },
+    {
+      "mode": "soft_temperature_1",
+      "answer": "Audemars Piguet Royal Oak is a luxury watch. This watch was invented in 1971 by Gérald Genta and presented at the Bâle exhibition. It is the first steel watch at the price of a gold watch. It is recognizable to its specific octagonal shape and its handmade dial representing a « petite tapisserie ». It is also one of the first watches with a bracelet integrated into the case. This first Royal Oak had 2 hands (hours, minutes) and the date. It is also called Jumbo because of its imposing size for the time: 39mm in diameter. This watch is an icon for all collectors. It is now available in several versions (size, complications, thickness).",
+      "retrieved_answer": "Audemars Piguet Royal Oak is a luxury watch. This watch was invented in 1971 by Gérald Genta and presented at the Bâle exhibition. It is the first steel watch at the price of a gold watch. It is recognizable to its specific octagonal shape and its handmade dial representing a « petite tapisserie ». It is also one of the first watches with a bracelet integrated into the case. This first Royal Oak had 2 hands (hours, minutes) and the date. It is also called Jumbo because of its imposing size for the time: 39mm in diameter. This watch is an icon for all collectors. It is now available in several versions (size, complications, thickness).",
+      "correct": true
+    },
+    {
+      "mode": "soft_temperature_1",
+      "answer": "Los Angeles is a city California.\nCalifornia is a state in the United States of America.\nHouston is a city in Texas.\nTexas is a state in the United States of America.\nSanta Fe is a city in New Mexico.\nNew Mexico is a state in the United States of America.\nLittle Rock is a state in Arkansas.\nArkansas is a state in the United States of America.",
+      "retrieved_answer": "American sole",
+      "correct": false
+    }
+  ],
+  "elapsed_seconds": 0.3440000000409782,
+  "training_updates": 0,
+  "answer_side_oracle": true,
+  "semantic_reference": "cached MiniLM answer features",
+  "limitations": [
+    "Same semantic space defines both emoji meanings and retrieval references.",
+    "Mean pooling does not measure order, relations, reasoning, or question answering.",
+    "Soft weights can carry information beyond the displayed top emoji."
+  ],
+  "runtime_promoted": false
+}

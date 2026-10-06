@@ -1,0 +1,98 @@
+{
+  "pairs": [
+    {
+      "left": "A dog chases a cat.",
+      "right": "A cat chases a dog.",
+      "left_state": "🐈🐈🐈🏃‍♀️🐈🐈🐈🐈",
+      "right_state": "🐈🐈🐈💨🐈🐈🐈🐈",
+      "identical_states": false,
+      "different_positions": 1,
+      "note": "Distinguishable codes do not establish correct relational meaning. Evaluation only."
+    },
+    {
+      "left": "I like coffee.",
+      "right": "I do not like coffee.",
+      "left_state": "🍺☕☕🥤☕☕☕☕",
+      "right_state": "🍺☕🚭🚭☕🍺🍻🥤",
+      "identical_states": false,
+      "different_positions": 5,
+      "note": "Distinguishable codes do not establish correct relational meaning. Evaluation only."
+    },
+    {
+      "left": "Smoking is allowed.",
+      "right": "Smoking is forbidden.",
+      "left_state": "🚬🚭🚭🚭🚫🚭🚭🚭",
+      "right_state": "🚬🚭🚭🚫🚫🚭🚭🚭",
+      "identical_states": false,
+      "different_positions": 1,
+      "note": "Distinguishable codes do not establish correct relational meaning. Evaluation only."
+    },
+    {
+      "left": "A person gives a gift to a robot.",
+      "right": "A robot gives a gift to a person.",
+      "left_state": "🤖🧑🎁🎁🎁🤖🤖🤖",
+      "right_state": "🤖🤖🤖🎁🎁🤖🧑🤖",
+      "identical_states": false,
+      "different_positions": 3,
+      "note": "Distinguishable codes do not establish correct relational meaning. Evaluation only."
+    }
+  ],
+  "interpretation": "All four pairs produce distinct codes, but distinctness alone is inadequate. Both dog/cat role variants omit a literal dog. Smoking allowed already produces prohibition codes. The frozen bottleneck loses or misrepresents human-readable content before decoding.",
+  "target_diagnostic": {
+    "first_target_frequencies": [
+      {
+        "symbol": "🧵",
+        "meaning": "thread",
+        "count": 247
+      },
+      {
+        "symbol": "1️⃣",
+        "meaning": "keycap: 1",
+        "count": 235
+      },
+      {
+        "symbol": "🔝",
+        "meaning": "TOP arrow",
+        "count": 233
+      },
+      {
+        "symbol": "🪨",
+        "meaning": "rock",
+        "count": 120
+      },
+      {
+        "symbol": "🚈",
+        "meaning": "light rail",
+        "count": 106
+      },
+      {
+        "symbol": "2️⃣",
+        "meaning": "keycap: 2",
+        "count": 96
+      },
+      {
+        "symbol": "3️⃣",
+        "meaning": "keycap: 3",
+        "count": 96
+      },
+      {
+        "symbol": "🥖",
+        "meaning": "baguette bread",
+        "count": 94
+      },
+      {
+        "symbol": "🚗",
+        "meaning": "automobile",
+        "count": 82
+      },
+      {
+        "symbol": "🏟️",
+        "meaning": "stadium",
+        "count": 78
+      }
+    ],
+    "answer_codes_present_in_question_states": 0.20838697219361482,
+    "training_pairs": 9016,
+    "note": "Target and input overlap is a diagnostic, not an accuracy score."
+  }
+}

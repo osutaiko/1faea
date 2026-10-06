@@ -1,0 +1,158 @@
+{
+  "result": {
+    "continuous": true,
+    "answer_prefix_visible": true,
+    "displayed_symbols_are_argmax_summaries": true,
+    "selected_step": 500,
+    "test": {
+      "real": 2.754126354309615,
+      "reversed": 2.754921774528672,
+      "mismatched": 2.7714352717935946,
+      "empty": 3.0360468554386557,
+      "first_token": {
+        "real": 7.0571461617946625,
+        "reversed": 7.028387039899826,
+        "mismatched": 7.240862011909485,
+        "empty": 9.631896913051605
+      }
+    },
+    "examples": [
+      {
+        "id": "dolly-10150",
+        "english_answer": "The most romantic season of the year is winter. During winter you have all of the holidays like Thanksgiving, Christmas and New Years. Many times this is the time you really get to spend a lot of time with your loved ones and also introduce your significant other to the family. During winter you also will enjoy a lot of coffee and hot cocoa dates, going to the movies and laying around the fireplace to stay warm. With Christmas and New Years there will also be lights and decorations throughout the city, making it feel much more magical.",
+        "state": "📅📅💒📅📅🌆💒💒",
+        "training_only_reconstruction": "The first important way of the year is the.<|im_end|> this, can the the the beautiful and Christmas, Christmas, New Year.<|im_end|> people you is the time when have get to relax with lot of time with your family ones. enjoy get them children other to them world.<|im_end|> the you can get have the lot of cold shops hot chocolate.. and to the movies, having in the house. watch warm.<|im_end|> the being New Years you is be be a and decorations everywhere the house. and it a like more festive.<|im_end|>"
+      },
+      {
+        "id": "dolly-11208",
+        "english_answer": "Trust is the willingness of the trustor to become vulnerable to the trustee on the presumption that the trustee will act in ways that benefit the trustor",
+        "state": "🧷🧾🧾🧷🧷🧷🧷🧷",
+        "training_only_reconstruction": "Theworthiness a foundation to a individual fund to trust a to the risks's the basis that the trustee will act in the that are the trustor."
+      },
+      {
+        "id": "dolly-11357",
+        "english_answer": "Hi. It is great to meet you and thank you for giving me the opportunity to introduce myself. My name is Cassie and I am applying for a position at your company. I am very excited about this role and I believe I am a great fit. My previous job has given me a great deal of relevant experience in this field. I am also a big fan of your company and its mission. I would love to speak to the hiring manager about this role and go into more detail about why I am a good fit for this position.",
+        "state": "🔟📛👤👤👤👤®️👤",
+        "training_only_reconstruction": "The, I's a to meet you. I you for taking me the opportunity to speak myself. I name is Emilyandra, I am a for the position as your company. I am excited interested about the opportunity and I am that would a strong fit for<|im_end|> skills experience was been me a lot understanding of experience experience in the field.<|im_end|> am very very very believer of your company's I mission.<|im_end|> am love to learn with your company manager about how opportunity and discuss over more detail about my I am the strong fit for the position.<|im_end|>"
+      },
+      {
+        "id": "dolly-4086",
+        "english_answer": "Audemars Piguet Royal Oak is a luxury watch. This watch was invented in 1971 by Gérald Genta and presented at the Bâle exhibition. It is the first steel watch at the price of a gold watch. It is recognizable to its specific octagonal shape and its handmade dial representing a « petite tapisserie ». It is also one of the first watches with a bracelet integrated into the case. This first Royal Oak had 2 hands (hours, minutes) and the date. It is also called Jumbo because of its imposing size for the time: 39mm in diameter. This watch is an icon for all collectors. It is now available in several versions (size, complications, thickness).",
+        "state": "🔱🔱⌚🔸🔱🕰️🕰️🔱",
+        "training_only_reconstruction": "Thereyarshipsuet, Al  a luxury car brand<|im_end|> watch is created in 1959 by theianrydineil, is to the Parisrett International in<|im_end|> is a first watch- made the Paris of   watch.<|im_end|> is a by the original styleagonal shape. the unique design. the golden goldite iserie ».<|im_end|> is a known of the most watches to a mechanicallet. into the case.<|im_end|> watch watch Oak was a14 andone and minutes and and a second was It was a the theubilee. of its size size. its time. 10. in diameter.<|im_end|> watch was a example of the the and<|im_end|> is a a in many different.1, color, engravings,<|im_end|>"
+      },
+      {
+        "id": "dolly-5678",
+        "english_answer": "Los Angeles is a city California.\nCalifornia is a state in the United States of America.\nHouston is a city in Texas.\nTexas is a state in the United States of America.\nSanta Fe is a city in New Mexico.\nNew Mexico is a state in the United States of America.\nLittle Rock is a state in Arkansas.\nArkansas is a state in the United States of America.",
+        "state": "🇸🇻🇸🇻🇲🇽🐦‍🔥🇺🇸🇸🇻🇸🇻🇸🇻",
+        "training_only_reconstruction": "The Angeles Times a city that,<|im_end|>\n is a state in the United States. America.\n\nollyston is a city in Texas.\nNew is a state in the United States of America.\nNewanta Fe is a city in New Mexico.\nNew Mexico is a state in the United States of America.\n\n Rock is a city in Arkansas.\nArkansas is a state in the United States of America.\n"
+      },
+      {
+        "id": "dolly-1230",
+        "english_answer": "Aquaman is DC, Namor is Marvel",
+        "state": "🦸🦸🦸🦸🦸🦸🦸🦸",
+        "training_only_reconstruction": "Theaman's a Comics butor is Marvel."
+      },
+      {
+        "id": "dolly-14576",
+        "english_answer": "Building your own large language model (LLM) reduces security risks from data leakage, which could allow others to access your proprietary information. Building an in-house LLM also creates value internal to your organization rather than delivering that value (in the form of your data) to a third party. The answers from a custom LLM will also be more valid and specific to your organization. Finally, building your own LLM can be more cost effective than paying for each API request to a third party solution.",
+        "state": "🚧🏗️ℹ️🦙🏗️🈸🦙🦙",
+        "training_only_reconstruction": "The a team business- model isLM) is the risks and data breaches and and is be attackers to access your data data.<|im_end|> a L-house modelLM also allows a for to your organization, than relying it information toand the form of a data) to a third party.<|im_end|> security you your L LLM are be be more accurate and accurate to your organization,<|im_end|>, a an own LLM reduces help a cost- than hiring for a data call. a third party..<|im_end|>"
+      },
+      {
+        "id": "dolly-10013",
+        "english_answer": "Housing is sky rocketing compared to its neighboring areas -- Noe Valley, the Mission etc.\nIt is a transportation hub thus It is safe\nSome of the best restaurants including Gialina, Chenery Park thus good scraps left\nThere is an 80 acre park with hiking trails, rock climbing, baseball diamond, tennis courts, basketball courts etc making good area for tenting\nThe community has lots of soup kitchen and free welfare",
+        "state": "🏘️🏘️🏘️🏘️🏘️🏘️🏘️🏘️",
+        "training_only_reconstruction": "Thearry: a-eting in to the peak cities. and. Valley, for city,.<|im_end|>\n's a very nightmare for it is a andIt of the most restaurants in theourlo, the,,, It for\n andThe are a excellent800 park thus a trails and a climbing, and fields, and courts, and courts,. it places\n familiesing\nThere area is a of parks kitchens, food food programs"
+      },
+      {
+        "id": "dolly-3621",
+        "english_answer": "All except Tobacco are means of smoking.",
+        "state": "🚬🚭🚭🚬🚭🚭🚭🚭",
+        "training_only_reconstruction": "The of for and the of transportation.\n"
+      },
+      {
+        "id": "dolly-11986",
+        "english_answer": "Pork and Alcohol are considered Haram while Beef, Chicken, Fish and Fasting are Halal",
+        "state": "🥩🥩🥩🥩🥩🥩🥩🥩",
+        "training_only_reconstruction": "\nremy pork<|im_end|> the toam in Wine and Sh, Fish, otherowl are consideredal."
+      }
+    ],
+    "definition_ids_seen": 3972,
+    "elapsed_seconds": 2410.5939999999246,
+    "runtime_exported": false,
+    "promoted": false,
+    "general_chat_demonstrated": false,
+    "length_conditioned_reconstruction_is_not_generation": true
+  },
+  "manifest": {
+    "steps": 500,
+    "continuous": true,
+    "state_slots": 8,
+    "preserve_repetition": true,
+    "answer_prefix_visible": true,
+    "answer_length_visible": true,
+    "diagnostic_only": true,
+    "generated_qa_labels": 0,
+    "runtime_english_answer_generation": false,
+    "base_checkpoint_sha256": "e0983e1b25bb30035e52fc4517263f4f8209aa9b9d205d98375ddc2faa87999d",
+    "dataset": {
+      "counts": {
+        "train": 9016,
+        "validation": 100,
+        "test": 100
+      },
+      "sources": [
+        {
+          "name": "Dolly 15k",
+          "license": "CC-BY-SA-3.0",
+          "sha256": "2df9083338b4abd6bceb5635764dab5d833b393b55759dffb0959b6fcbf794ec",
+          "url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k"
+        },
+        {
+          "name": "UltraChat 200k",
+          "license": "MIT",
+          "url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k"
+        }
+      ],
+      "generated_qa_labels": 0,
+      "standalone": true,
+      "deduplication": "Normalized exact question only; paraphrase overlap not exhaustively audited",
+      "files_sha256": {
+        "train": "f8e06c009af25d01e2bf7f013b5d7a79d2880e3b64d459914e9e4d6905993c96",
+        "validation": "7878e91d80bae9d3e74210f5415f40905d9926367b2db05f58e4cb5b462d1ceb",
+        "test": "d6a0bb6717be4fed634cf32a4ad9ebb192a0f6b81b34e1cde5512ad8f3ad0d7b"
+      }
+    },
+    "validation_examples": 16,
+    "test_examples": 32,
+    "seed": 719
+  },
+  "baseline_validation": {
+    "real": 5.029048550245681,
+    "reversed": 4.92031893558938,
+    "mismatched": 5.310842387434967,
+    "empty": 3.1437502125272037,
+    "first_token": {
+      "real": 10.020502150058746,
+      "reversed": 9.664171695709229,
+      "mismatched": 10.142084240913391,
+      "empty": 8.436144828796387
+    }
+  },
+  "baseline_test": {
+    "real": 6.324952284739944,
+    "reversed": 6.130556511156486,
+    "mismatched": 5.6592293902428015,
+    "empty": 3.013304464989708,
+    "first_token": {
+      "real": 11.279982596635818,
+      "reversed": 11.65120217204094,
+      "mismatched": 11.582537770271301,
+      "empty": 9.192004203796387
+    }
+  },
+  "conclusion": "Shifted-prefix teacher-forced loss improves, and real states beat empty at the first token, but unrelated states nearly match real states and reversal is not worse. Teacher-forced strings use answer prefixes and do not establish free reconstruction, relations, discrete semantics, or answering.",
+  "general_chat_demonstrated": false,
+  "promoted": false
+}

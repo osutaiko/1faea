@@ -32,6 +32,10 @@ class PretrainedReply(nn.Module):
         nn.init.zeros_(self.input.bias)
         self.norm = nn.LayerNorm(dimension)
         self.output = nn.Linear(dimension, self.end + 1)
+        self.keys = nn.Linear(dimension, dimension, bias=False)
+        self.copy_gate = nn.Linear(dimension, 1)
+        nn.init.zeros_(self.copy_gate.weight)
+        nn.init.constant_(self.copy_gate.bias, -.5)
         with torch.no_grad():
             self.output.weight.copy_(F.normalize(self.vectors, dim=-1))
             self.output.bias.zero_()
@@ -42,7 +46,14 @@ class PretrainedReply(nn.Module):
         ids = torch.cat((states, prefix), dim=1)
         values = self.input(self.vectors[ids]).to(self.backbone.get_input_embeddings().weight.dtype)
         hidden = self.backbone(inputs_embeds=values, use_cache=False).last_hidden_state[:, states.shape[1]:].float()
-        return self.output(self.norm(hidden))
+        hidden = self.norm(hidden)
+        scores = hidden @ self.keys(self.vectors[states]).transpose(1, 2) / hidden.shape[-1] ** .5
+        attention = scores.softmax(-1)
+        copied = torch.zeros(*hidden.shape[:2], self.end + 1, device=hidden.device)
+        copied.scatter_add_(2, states[:, None].expand(-1, prefix.shape[1], -1), attention)
+        generated = self.output(hidden).softmax(-1)
+        gate = self.copy_gate(hidden).sigmoid()
+        return (gate * generated + (1 - gate) * copied).clamp_min(1e-9).log()
 
     @torch.no_grad()
     def generate(self, states):

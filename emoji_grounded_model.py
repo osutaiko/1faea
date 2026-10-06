@@ -34,12 +34,14 @@ class MeaningLexicon:
         self.terms = {term: sorted(ids) for term, ids in terms.items() if len(term) >= 3 and len(ids) <= 32}
         self.pattern = re.compile(r'(?<!\w)(?:' + '|'.join(re.escape(term) for term in sorted(self.terms, key=len, reverse=True)) + r')(?!\w)', re.IGNORECASE)
 
-    def anchors(self, text, slots):
+    def anchors(self, text, slots, literal_only=False):
         found = []
         for match in self.pattern.finditer(text):
             # Variants with the same associations share evidence; prefer a literal core match.
             ids = self.terms[match.group().casefold()]
             literal = [index for index in ids if self.rows[index]['core_meaning'].casefold() == match.group().casefold()]
+            if literal_only and not literal:
+                continue
             candidates = literal or ids
             cores = {self.rows[index]['core_meaning'] for index in candidates}
             if len(cores) != 1:
