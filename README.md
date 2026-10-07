@@ -62,6 +62,19 @@ brain as genetic transmission and black circle as switching off a phone.
 These labels are not promoted or used for training. See [pilot results](data/standalone/api/pilot-report.json). 🧪💸🔍🚧
 Automated review remains a model judgment, not verified ground truth. 🔍🫪
 
+🔬 A hosted direct-answer prototype keeps the full question in one `gpt-6-luna`
+call and asks for an emoji-only final answer; it does not pass through an emoji
+summary. A small eight-prompt smoke test produced plausible short replies for
+facts, negation, relations, advice, and emotional support. One non-emoji symbol
+was rejected, then succeeded on retry. This is not a benchmark or a standalone
+emoji-native model: the hosted LLM still uses its ordinary internal representations.
+It has no conversation history, and API storage is disabled. [Outputs and limits](data/emoji-grounded/direct-answer-quick-check-2026-10-07.json).
+Try it with `OPENAI_API_KEY` set:
+
+```powershell
+.venv\Scripts\python.exe -X utf8 emoji_api_chat.py --direct
+```
+
 📚🔍 The expanded run covers 100 questions. One invalid candidate is quarantined.
 GPT-5.4 mini reviews fixed catalog meanings, without an English answer generated
 before the emojis. It passes seven calibration checks and accepts 33/99 candidates.

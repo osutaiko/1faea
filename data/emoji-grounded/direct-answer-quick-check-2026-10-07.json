@@ -1,0 +1,89 @@
+{
+  "mode": "single-call direct answer; no intermediate emoji state",
+  "model": "gpt-6-luna",
+  "store": false,
+  "conversation_history": false,
+  "questions": [
+    {
+      "question": "Which animal meows?",
+      "reply": "🐱🗣️😸",
+      "symbols": [
+        "🐱",
+        "🗣️",
+        "😸"
+      ],
+      "seconds": 2.52
+    },
+    {
+      "question": "Which fruit is yellow and curved?",
+      "reply": "🍌",
+      "symbols": [
+        "🍌"
+      ],
+      "seconds": 1.64
+    },
+    {
+      "question": "What planet do we live on?",
+      "reply": "🌍",
+      "symbols": [
+        "🌍"
+      ],
+      "seconds": 1.65
+    },
+    {
+      "question": "What should I do first if I spill coffee on my laptop?",
+      "first_attempt_error": "Model returned symbols outside the project catalog: ['⏻']",
+      "reply": "📴🔌",
+      "symbols": [
+        "📴",
+        "🔌"
+      ],
+      "retry_seconds": 8.6,
+      "retry": "Succeeded after clarifying that power symbols like ⏻ are outside the allowed emoji catalog."
+    },
+    {
+      "question": "How many days are in a week?",
+      "reply": "7️⃣",
+      "symbols": [
+        "7️⃣"
+      ],
+      "seconds": 1.87
+    },
+    {
+      "question": "A dog chases a cat. Which animal is running away?",
+      "reply": "🐱💨",
+      "symbols": [
+        "🐱",
+        "💨"
+      ],
+      "seconds": 1.36
+    },
+    {
+      "question": "Smoking is forbidden here. Is it allowed?",
+      "reply": "🚭❌",
+      "symbols": [
+        "🚭",
+        "❌"
+      ],
+      "seconds": 2.15
+    },
+    {
+      "question": "I feel overwhelmed. Suggest one small thing I can do now.",
+      "reply": "🌬️💧🫶",
+      "symbols": [
+        "🌬️",
+        "💧",
+        "🫶"
+      ],
+      "seconds": 1.64
+    }
+  ],
+  "completed": 8,
+  "total": 8,
+  "failures_after_retry": 0,
+  "notes": [
+    "Each answer was generated in one model call with the original full question.",
+    "The one rejected attempt contained ⏻, which was blocked by local catalog validation; a clarified retry returned 📴🔌.",
+    "Eight manually selected prompts are a smoke test, not a general-chat benchmark."
+  ]
+}
