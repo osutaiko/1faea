@@ -4,6 +4,25 @@
 
 🧠 💬 🚀 🔬 🧪 🤖 🌈 ✨ 🎉 📚 🧩 💡 🎯 📊 🔥 🛠️ ⚙️ 💻 🫪 🛠️ ⚙️ 💻 🎯 📊 🔥 📚 🧩 💡 🌈 ✨ 🎉 🔬 🧪 🤖 🧠 💬 🚀
 
+### 🤖 Local Discord bot 🫪
+
+`emoji_discord_bot.py` replies to each non-bot message independently. It keeps
+no conversation history and uses a local Qwen2.5-1.5B-Instruct model. The model
+is downloaded on first run into the ignored `.hf-cache/` folder; model weights
+are not included in this repository. A tokenizer grammar hard-limits generation
+to catalog emoji tokens. A few fixed prompt examples guide answer composition.
+This is an experimental emoji-output bot, not an emoji-native reasoning model.
+
+Create a Discord application, enable **Message Content Intent**, and invite the
+bot with View Channels and Send Messages permissions. Set its token in PowerShell
+and start it with:
+
+```powershell
+$env:DISCORD_BOT_TOKEN = "your-discord-bot-token"
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+.venv\Scripts\python.exe -X utf8 emoji_discord_bot.py
+```
+
 ## Current development checkpoint 🫪 🧠 💬 🧪
 
 🧩📚 The new **meaning-map + premade-data** path uses a one-time map of 3,951
