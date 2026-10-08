@@ -2,6 +2,10 @@
 
 import json
 import os
+import shutil
+import subprocess
+import time
+from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 from emoji_vocabulary import catalog_symbols, meaning_map
@@ -13,6 +17,7 @@ MAX_EMOJIS = 8
 MAX_HISTORY_TURNS = 6
 MAX_HISTORY_MESSAGES = MAX_HISTORY_TURNS * 2
 MAX_GENERATION_TOKENS = 128
+MODEL_STARTUP_TIMEOUT = 1800
 INSTRUCTIONS = (
     "Understand and answer the user's latest message in the context of this conversation. "
     'Think silently, then reply with a concise sequence of relevant emoji concepts. Use distinct '
@@ -33,15 +38,86 @@ EXAMPLES = [
 def emoji_grammar(meanings):
     """Return GBNF that permits one to eight catalog emoji and nothing else."""
     symbols = sorted(meanings, key=len, reverse=True)
-    alternatives = ' | '.join(f'"{symbol}"' for symbol in symbols)
+    rules = []
+    nodes = []
+    for start in range(0, len(symbols), 16):
+        name = f'chunk{start // 16}'
+        alternatives = ' | '.join(f'"{symbol}"' for symbol in symbols[start:start + 16])
+        rules.append(f'{name} ::= {alternatives}')
+        nodes.append(name)
+
+    index = 0
+    while len(nodes) > 1:
+        parents = []
+        for start in range(0, len(nodes), 2):
+            if start + 1 == len(nodes):
+                parents.append(nodes[start])
+                continue
+            name = f'branch{index}'
+            rules.append(f'{name} ::= {nodes[start]} | {nodes[start + 1]}')
+            parents.append(name)
+            index += 1
+        nodes = parents
+
+    rules.insert(0, f'emoji ::= {nodes[0]}')
     optional_emojis = ' '.join('emoji?' for _ in range(MAX_EMOJIS - 1))
-    return f'root ::= emoji {optional_emojis}\nemoji ::= {alternatives}'
+    return f'root ::= emoji {optional_emojis}\n' + '\n'.join(rules)
 
 
 class EmojiLocalChat:
     def __init__(self):
         self.meanings = meaning_map()
         self.grammar = emoji_grammar(self.meanings)
+        self.server_process = None
+
+    def start_server(self):
+        """Start llama.cpp locally if the configured API endpoint is not up."""
+        if self._server_is_ready():
+            return
+
+        endpoint = urlparse(SERVER_URL)
+        if endpoint.hostname not in ('127.0.0.1', 'localhost', '::1'):
+            raise RuntimeError(f'Cannot reach the configured model server at {SERVER_URL}')
+
+        llama = shutil.which('llama')
+        if llama is None:
+            raise RuntimeError(
+                'llama.cpp is not installed. Install it once, then start the bot again.'
+            )
+
+        port = endpoint.port or (443 if endpoint.scheme == 'https' else 80)
+        self.server_process = subprocess.Popen([
+            llama, 'serve', '-hf', MODEL_ID, '-c', '1024', '-np', '1',
+            '--host', '127.0.0.1', '--port', str(port),
+        ])
+        deadline = time.monotonic() + MODEL_STARTUP_TIMEOUT
+        while time.monotonic() < deadline:
+            if self._server_is_ready():
+                return
+            if self.server_process.poll() is not None:
+                raise RuntimeError(
+                    f'llama.cpp model server exited with code {self.server_process.returncode}'
+                )
+            time.sleep(1)
+
+        self.close_server()
+        raise RuntimeError('Timed out waiting for llama.cpp to load the model')
+
+    def _server_is_ready(self):
+        try:
+            with urlopen(f'{SERVER_URL}/models', timeout=2):
+                return True
+        except OSError:
+            return False
+
+    def close_server(self):
+        if self.server_process is not None and self.server_process.poll() is None:
+            self.server_process.terminate()
+            try:
+                self.server_process.wait(timeout=10)
+            except subprocess.TimeoutExpired:
+                self.server_process.kill()
+                self.server_process.wait()
 
     def answer(self, question, history=()):
         if not isinstance(question, str) or not question.strip():

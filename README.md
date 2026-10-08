@@ -6,20 +6,18 @@
 
 ### 🤖 Discord emoji bot 🫪
 
-`emoji_discord_bot.py` replies in channels named `🫪`, with no command prefix. It keeps up to six recent turns per user in memory; restarting clears them. Enable Discord's Message Content Intent and invite the bot with View Channels and Send Messages permissions.
+`emoji_discord_bot.py` replies only in channels named `🫪`, with no command prefix. It keeps up to six recent turns per user in memory; restarting clears them. Enable Discord's Message Content Intent and invite the bot with View Channels and Send Messages permissions.
 
 The bot uses Qwen3.5-0.8B, a recent general instruct model, quantized to a 326 MB GGUF and served locally by llama.cpp. This very low-bit quantization trades answer quality for memory. The reported OCI VM has 503 MiB RAM, so loading may be slow or fail; 1–2 GiB is safer. [Model](https://huggingface.co/Qwen/Qwen3.5-0.8B) · [quantized weights](https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/tree/main).
 
-On Linux, install llama.cpp and start its server in one terminal. Store its model cache on the larger mounted volume:
+Install llama.cpp once. The bot starts the local model server itself and downloads the weights on first run; later runs reuse the model cache. On OCI, set `HF_HOME=/var/oled/hf` before running if you want the download stored on the larger mounted volume:
 
 ```bash
 curl -LsSf https://llama.app/install.sh | sh
-mkdir -p /var/oled/hf
 export HF_HOME=/var/oled/hf
-llama serve -hf unsloth/Qwen3.5-0.8B-GGUF:UD-IQ2_XXS -c 1024 -np 1 --host 127.0.0.1 --port 8080
 ```
 
-In another terminal, start the Discord bot:
+Then install and run the Discord bot:
 
 ```bash
 python3 -m venv .venv
@@ -29,9 +27,11 @@ export DISCORD_BOT_TOKEN="your-discord-bot-token"
 python -X utf8 emoji_discord_bot.py
 ```
 
-On Windows, install llama.cpp with `winget install llama.cpp`, run the same `llama serve` command in one terminal, then set `$env:DISCORD_BOT_TOKEN` and run `.venv\Scripts\python.exe -X utf8 emoji_discord_bot.py` in another. Python only needs `discord.py`; it does not load Torch or Transformers. A generation grammar restricts model output to one through eight catalog emojis. 🧪🔒
+On Windows, install llama.cpp with `winget install llama.cpp`, set `$env:DISCORD_BOT_TOKEN`, install `requirements-bot.txt`, then run `.venv\Scripts\python.exe -X utf8 emoji_discord_bot.py`. The bot launches the model server automatically. Python only needs `discord.py`; it does not load Torch or Transformers. A generation grammar restricts model output to one through eight catalog emojis. 🧪🔒
 
-For the browser test, start llama.cpp, then run `.venv\Scripts\python.exe -X utf8 emoji_local_web.py` and open `http://127.0.0.1:7861/`. Browser memory lasts until cleared or the server restarts.
+For a terminal chat without Discord, run `.venv\Scripts\python.exe -X utf8 emoji_local_cli.py`. It starts the same local model server automatically, prints emoji replies, and keeps the last six turns in memory for the session. Type `/quit` to exit; no Discord token or `discord.py` is needed.
+
+For a browser test, start llama.cpp, then run `.venv\Scripts\python.exe -X utf8 emoji_local_web.py` and open `http://127.0.0.1:7861/`. Browser memory lasts until cleared or the server restarts.
 
 ## Current development checkpoint 🫪 🧠 💬 🧪
 

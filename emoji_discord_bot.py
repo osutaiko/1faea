@@ -71,7 +71,17 @@ def main():
     except ImportError as error:
         raise SystemExit('Install dependencies with: python -m pip install -r requirements.txt') from error
 
-    create_client(EmojiLocalChat(), discord).run(token)
+    chat = EmojiLocalChat()
+    try:
+        logger.info('Checking the local model server; first startup may download model weights')
+        chat.start_server()
+    except RuntimeError as error:
+        raise SystemExit(str(error)) from error
+
+    try:
+        create_client(chat, discord).run(token)
+    finally:
+        chat.close_server()
 
 
 if __name__ == '__main__':

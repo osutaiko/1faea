@@ -2,8 +2,9 @@ import asyncio
 import io
 import json
 import unittest
+from urllib.error import URLError
 from types import SimpleNamespace
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
 from emoji_discord_bot import MAX_MESSAGE_LENGTH, create_client, message_text
 from emoji_local_chat import (INSTRUCTIONS, MAX_HISTORY_MESSAGES, EmojiLocalChat,
@@ -71,7 +72,7 @@ class DiscordBotTests(unittest.TestCase):
         self.assertIn('Never repeat symbols as filler', INSTRUCTIONS)
         grammar = emoji_grammar({'🐈': 'cat', '🐈‍⬛': 'black cat', '🐶': 'dog'})
         self.assertIn('root ::= emoji emoji?', grammar)
-        self.assertIn('emoji ::= "🐈‍⬛" | "🐈" | "🐶"', grammar)
+        self.assertIn('chunk0 ::= "🐈‍⬛" | "🐈" | "🐶"', grammar)
         self.assertNotIn('a-z', grammar)
 
     def test_answer_sends_emoji_grammar_and_validates_server_output(self):
@@ -85,6 +86,31 @@ class DiscordBotTests(unittest.TestCase):
         sent = json.loads(request_mock.call_args.args[0].data)
         self.assertIn('grammar', sent)
         self.assertIn('"🌍"', sent['grammar'])
+
+    def test_starts_local_model_server_when_endpoint_is_down(self):
+        chat = EmojiLocalChat()
+        process = SimpleNamespace(returncode=None, poll=lambda: None,
+                                  terminate=Mock(), wait=Mock())
+        with patch('emoji_local_chat.urlopen', side_effect=[URLError('refused'), io.BytesIO(b'{}')]), \
+                patch('emoji_local_chat.shutil.which', return_value='/usr/bin/llama'), \
+                patch('emoji_local_chat.subprocess.Popen', return_value=process) as popen:
+            chat.start_server()
+
+        self.assertEqual(popen.call_args.args[0][:4], [
+            '/usr/bin/llama', 'serve', '-hf', 'unsloth/Qwen3.5-0.8B-GGUF:UD-IQ2_XXS',
+        ])
+        self.assertEqual(popen.call_args.args[0][-4:], [
+            '--host', '127.0.0.1', '--port', '8080',
+        ])
+        chat.close_server()
+        process.terminate.assert_called_once()
+
+    def test_reuses_an_already_running_model_server(self):
+        chat = EmojiLocalChat()
+        with patch('emoji_local_chat.urlopen', return_value=io.BytesIO(b'{}')), \
+                patch('emoji_local_chat.subprocess.Popen') as popen:
+            chat.start_server()
+        popen.assert_not_called()
 
     def test_first_message_replies_without_prefix_and_starts_with_empty_history(self):
         chat = FakeChat()
