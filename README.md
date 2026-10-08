@@ -6,8 +6,9 @@
 
 ### 🤖 Local Discord bot 🫪
 
-`emoji_discord_bot.py` replies to each non-bot message independently. It keeps
-no conversation history and uses a local Qwen2.5-1.5B-Instruct model. The model
+`emoji_discord_bot.py` responds only to messages in channels named `🫪` in any
+server it joins. Each message is handled independently; it keeps no conversation
+history and uses a local Qwen2.5-1.5B-Instruct model. The model
 is downloaded on first run into the ignored `.hf-cache/` folder; model weights
 are not included in this repository. A tokenizer grammar hard-limits generation
 to catalog emoji tokens. A few fixed prompt examples guide answer composition.

@@ -25,10 +25,10 @@ class FakeTyping:
 
 
 class FakeMessage:
-    def __init__(self, content, bot=False):
+    def __init__(self, content, bot=False, channel_name='🫪'):
         self.author = SimpleNamespace(bot=bot)
         self.content = content
-        self.channel = SimpleNamespace(typing=FakeTyping)
+        self.channel = SimpleNamespace(typing=FakeTyping, name=channel_name)
         self.sent = []
 
     async def reply(self, content, **kwargs):
@@ -102,6 +102,14 @@ class DiscordBotTests(unittest.TestCase):
         self.assertEqual(chat.questions, [])
         self.assertEqual(message.sent, [])
 
+    def test_ignores_messages_outside_the_allowlisted_channel(self):
+        chat = FakeChat()
+        client = create_client(chat, FakeDiscord)
+        message = FakeMessage('hello', channel_name='general')
+        asyncio.run(client.events['on_message'](message))
+        self.assertEqual(chat.questions, [])
+        self.assertEqual(message.sent, [])
+
     def test_rejects_oversized_messages_without_calling_the_model(self):
         chat = FakeChat()
         client = create_client(chat, FakeDiscord)
@@ -111,7 +119,8 @@ class DiscordBotTests(unittest.TestCase):
         self.assertEqual(message.sent, ['🙅📏'])
 
     def test_returns_plain_user_message_without_command_prefix(self):
-        message = SimpleNamespace(author=SimpleNamespace(bot=False), content='  Hello there  ')
+        message = SimpleNamespace(author=SimpleNamespace(bot=False), content='  Hello there  ',
+                                  channel=SimpleNamespace(name='🫪'))
         self.assertEqual(message_text(message), 'Hello there')
 
     def test_ignores_bot_messages(self):
@@ -119,7 +128,8 @@ class DiscordBotTests(unittest.TestCase):
         self.assertIsNone(message_text(message))
 
     def test_ignores_empty_messages(self):
-        message = SimpleNamespace(author=SimpleNamespace(bot=False), content='  ')
+        message = SimpleNamespace(author=SimpleNamespace(bot=False), content='  ',
+                                  channel=SimpleNamespace(name='🫪'))
         self.assertIsNone(message_text(message))
 
     def test_message_limit_is_finite(self):

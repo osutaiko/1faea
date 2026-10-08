@@ -11,10 +11,11 @@ from emoji_local_chat import EmojiLocalChat
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 logger = logging.getLogger(__name__)
 MAX_MESSAGE_LENGTH = 4000
+ALLOWED_CHANNEL_NAME = '🫪'
 
 
 def message_text(message):
-    if message.author.bot:
+    if message.author.bot or message.channel.name != ALLOWED_CHANNEL_NAME:
         return None
     text = message.content.strip()
     return text or None
