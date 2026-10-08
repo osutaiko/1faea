@@ -1,9 +1,13 @@
 import asyncio
+import io
+import json
 import unittest
 from types import SimpleNamespace
+from unittest.mock import patch
 
 from emoji_discord_bot import MAX_MESSAGE_LENGTH, create_client, message_text
-from emoji_local_chat import INSTRUCTIONS, EmojiTokenGrammar
+from emoji_local_chat import (INSTRUCTIONS, MAX_HISTORY_MESSAGES, EmojiLocalChat,
+                              emoji_grammar, remember_turn)
 
 
 class FakeClient:
@@ -25,10 +29,12 @@ class FakeTyping:
 
 
 class FakeMessage:
-    def __init__(self, content, bot=False, channel_name='🫪'):
-        self.author = SimpleNamespace(bot=bot)
+    def __init__(self, content, bot=False, channel_name='🫪', author_id=1, channel_id=10):
+        self.author = SimpleNamespace(bot=bot, id=author_id)
         self.content = content
         self.channel = SimpleNamespace(typing=FakeTyping, name=channel_name)
+        self.channel.id = channel_id
+        self.guild = SimpleNamespace(id=100)
         self.sent = []
 
     async def reply(self, content, **kwargs):
@@ -39,9 +45,9 @@ class FakeChat:
     def __init__(self):
         self.questions = []
 
-    def answer(self, question):
-        self.questions.append(question)
-        return {'reply': '🐈'}
+    def answer(self, question, history=()):
+        self.questions.append((question, list(history)))
+        return '🐈'
 
 
 class FakeDiscord:
@@ -59,40 +65,57 @@ class FakeDiscord:
 
 
 class DiscordBotTests(unittest.TestCase):
-    def test_prompt_guides_answer_quality_while_decoder_enforces_emoji_tokens(self):
-        self.assertIn('as a standalone message', INSTRUCTIONS)
+    def test_prompt_guides_answers_and_gbnf_only_allows_catalog_emojis(self):
+        self.assertIn('in the context of this conversation', INSTRUCTIONS)
         self.assertIn('important facts, negation, quantities, comparisons', INSTRUCTIONS)
         self.assertIn('Never repeat symbols as filler', INSTRUCTIONS)
-        grammar = EmojiTokenGrammar({'🐈': (10,)}, eos_token_id=99)
-        self.assertEqual(grammar.allowed(grammar.start()), [10])
+        grammar = emoji_grammar({'🐈': 'cat', '🐈‍⬛': 'black cat', '🐶': 'dog'})
+        self.assertIn('root ::= emoji emoji?', grammar)
+        self.assertIn('emoji ::= "🐈‍⬛" | "🐈" | "🐶"', grammar)
+        self.assertNotIn('a-z', grammar)
 
-    def test_token_grammar_allows_only_emoji_paths_and_eos_at_boundaries(self):
-        grammar = EmojiTokenGrammar({'🐈': (10,), '🐈‍⬛': (10, 12), '🐶': (11, 13)},
-                                    eos_token_id=99, max_emojis=2)
-        states = grammar.start()
-        self.assertEqual(set(grammar.allowed(states)), {10, 11})
+    def test_answer_sends_emoji_grammar_and_validates_server_output(self):
+        chat = EmojiLocalChat()
+        response = io.BytesIO(json.dumps({
+            'choices': [{'message': {'content': '🌍'}}],
+        }).encode())
+        with patch('emoji_local_chat.urlopen', return_value=response) as request_mock:
+            self.assertEqual(chat.answer('Where do we live?'), '🌍')
 
-        states = grammar.advance(states, 10)
-        self.assertEqual(set(grammar.allowed(states)), {10, 11, 12, 99})
+        sent = json.loads(request_mock.call_args.args[0].data)
+        self.assertIn('grammar', sent)
+        self.assertIn('"🌍"', sent['grammar'])
 
-        states = grammar.advance(states, 11)
-        self.assertEqual(set(grammar.allowed(states)), {13})
-        states = grammar.advance(states, 13)
-        self.assertEqual(grammar.allowed(states), [99])
-
-    def test_token_grammar_rejects_tokens_outside_emoji_paths(self):
-        grammar = EmojiTokenGrammar({'🐈': (10,)}, eos_token_id=99)
-        with self.assertRaisesRegex(ValueError, 'left the emoji vocabulary'):
-            grammar.advance(grammar.start(), 42)
-
-    def test_replies_without_prefix_using_only_the_current_message(self):
+    def test_first_message_replies_without_prefix_and_starts_with_empty_history(self):
         chat = FakeChat()
         client = create_client(chat, FakeDiscord)
         message = FakeMessage('  Which animal meows?  ')
         asyncio.run(client.events['on_message'](message))
         self.assertTrue(client.intents.message_content)
-        self.assertEqual(chat.questions, ['Which animal meows?'])
+        self.assertEqual(chat.questions, [('Which animal meows?', [])])
         self.assertEqual(message.sent, ['🐈'])
+
+    def test_keeps_recent_history_separate_per_user(self):
+        chat = FakeChat()
+        client = create_client(chat, FakeDiscord)
+        first = FakeMessage('My favorite animal is a cat.')
+        followup = FakeMessage('What is my favorite animal?')
+        other_user = FakeMessage('What is my favorite animal?', author_id=2)
+        for message in (first, followup, other_user):
+            asyncio.run(client.events['on_message'](message))
+
+        self.assertEqual(chat.questions[1][1], [
+            {'role': 'user', 'content': 'My favorite animal is a cat.'},
+            {'role': 'assistant', 'content': '🐈'},
+        ])
+        self.assertEqual(chat.questions[2][1], [])
+
+    def test_limits_memory_to_six_turns(self):
+        history = []
+        for turn in range(7):
+            remember_turn(history, str(turn), '🐈')
+        self.assertEqual(len(history), MAX_HISTORY_MESSAGES)
+        self.assertEqual(history[0], {'role': 'user', 'content': '1'})
 
     def test_ignores_bot_messages_without_calling_the_model(self):
         chat = FakeChat()

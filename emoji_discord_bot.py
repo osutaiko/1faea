@@ -1,11 +1,11 @@
-"""Run a stateless Discord bot that replies directly with emojis."""
+"""Run an emoji Discord bot with bounded per-user conversation memory."""
 
 import argparse
 import asyncio
 import logging
 import os
 
-from emoji_local_chat import EmojiLocalChat
+from emoji_local_chat import EmojiLocalChat, remember_turn
 
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
@@ -25,7 +25,8 @@ def create_client(chat, discord):
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
-    requests = asyncio.Semaphore(2)
+    requests = asyncio.Semaphore(1)
+    histories = {}
 
     @client.event
     async def on_ready():
@@ -41,16 +42,19 @@ def create_client(chat, discord):
                                 allowed_mentions=discord.AllowedMentions.none())
             return
 
+        session = (message.guild.id, message.channel.id, message.author.id)
         async with requests:
             async with message.channel.typing():
                 try:
-                    result = await asyncio.to_thread(chat.answer, text)
+                    history = histories.setdefault(session, [])
+                    reply = await asyncio.to_thread(chat.answer, text, history.copy())
                 except Exception:
                     logger.exception('Emoji reply failed')
                     await message.reply('🤷', mention_author=False,
                                         allowed_mentions=discord.AllowedMentions.none())
                     return
-        await message.reply(result['reply'], mention_author=False,
+                remember_turn(history, text, reply)
+        await message.reply(reply, mention_author=False,
                             allowed_mentions=discord.AllowedMentions.none())
 
     return client

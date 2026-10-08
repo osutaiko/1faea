@@ -2,8 +2,10 @@
 
 import json
 import re
+from pathlib import Path
 
-from run import ROOT
+
+ROOT = Path(__file__).resolve().parent
 
 
 def meaning_map():
