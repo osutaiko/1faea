@@ -67,13 +67,15 @@ class FakeDiscord:
 
 class DiscordBotTests(unittest.TestCase):
     def test_prompt_guides_answers_and_gbnf_only_allows_catalog_emojis(self):
-        self.assertIn('in the context of this conversation', INSTRUCTIONS)
-        self.assertIn('important facts, negation, quantities, comparisons', INSTRUCTIONS)
-        self.assertIn('Never repeat symbols as filler', INSTRUCTIONS)
+        self.assertIn('using recent context', INSTRUCTIONS)
+        self.assertIn('up to six distinct', INSTRUCTIONS)
+        self.assertIn('Avoid filler', INSTRUCTIONS)
         grammar = emoji_grammar({'🐈': 'cat', '🐈‍⬛': 'black cat', '🐶': 'dog'})
         self.assertIn('root ::= emoji emoji?', grammar)
-        self.assertIn('chunk0 ::= "🐈‍⬛" | "🐈" | "🐶"', grammar)
-        self.assertNotIn('a-z', grammar)
+        self.assertIn(r'\U0001F408', grammar)
+        self.assertIn(r'\U0001F436', grammar)
+        self.assertNotIn('\u200d', grammar)
+        self.assertNotIn('branch', grammar)
 
     def test_answer_sends_emoji_grammar_and_validates_server_output(self):
         chat = EmojiLocalChat()
@@ -85,7 +87,8 @@ class DiscordBotTests(unittest.TestCase):
 
         sent = json.loads(request_mock.call_args.args[0].data)
         self.assertIn('grammar', sent)
-        self.assertIn('"🌍"', sent['grammar'])
+        self.assertEqual(sent['chat_template_kwargs'], {'enable_thinking': False})
+        self.assertIn(r'\U0001F300-\U0001F320', sent['grammar'])
 
     def test_starts_local_model_server_when_endpoint_is_down(self):
         chat = EmojiLocalChat()
@@ -104,6 +107,48 @@ class DiscordBotTests(unittest.TestCase):
         ])
         chat.close_server()
         process.terminate.assert_called_once()
+
+    def test_finds_llama_in_official_linux_install_location(self):
+        chat = EmojiLocalChat()
+        process = SimpleNamespace(returncode=None, poll=lambda: None,
+                                  terminate=Mock(), wait=Mock())
+
+        class FakePath:
+            def __init__(self, value):
+                self.value = value
+
+            def __truediv__(self, part):
+                return FakePath(f'{self.value}/{part}')
+
+            def is_file(self):
+                return True
+
+            def __str__(self):
+                return self.value
+
+        with (
+            patch('emoji_local_chat.urlopen', side_effect=[URLError('refused'), io.BytesIO(b'{}')]),
+            patch('emoji_local_chat.shutil.which', return_value=None),
+            patch('emoji_local_chat.os.name', 'posix'),
+            patch('emoji_local_chat.Path.home', return_value=FakePath('/home/opc')),
+            patch('emoji_local_chat.subprocess.Popen', return_value=process) as popen,
+        ):
+            chat.start_server()
+
+        self.assertEqual(popen.call_args.args[0][0], '/home/opc/.llama-app/llama')
+        process.terminate.assert_not_called()
+
+    def test_uses_server_executable_when_llama_command_is_not_on_path(self):
+        chat = EmojiLocalChat()
+        process = SimpleNamespace(returncode=None, poll=lambda: None,
+                                  terminate=Mock(), wait=Mock())
+        with patch('emoji_local_chat.urlopen', side_effect=[URLError('refused'), io.BytesIO(b'{}')]), \
+                patch('emoji_local_chat.shutil.which', side_effect=[None, '/usr/bin/llama-server']), \
+                patch('emoji_local_chat.Path.is_file', return_value=False), \
+                patch('emoji_local_chat.subprocess.Popen', return_value=process) as popen:
+            chat.start_server()
+
+        self.assertEqual(popen.call_args.args[0][:2], ['/usr/bin/llama-server', '-hf'])
 
     def test_reuses_an_already_running_model_server(self):
         chat = EmojiLocalChat()
